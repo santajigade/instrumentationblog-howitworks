@@ -36,7 +36,7 @@ def ill(topic, P):
         for i, t in enumerate(tags):
             y = 70 + i * 84
             g += f'<path d="M360 {y+40} C430 {y+40} 430 {y+18} 470 {y+18}" stroke="{a if i%2 else a2}" stroke-width="5" fill="none" filter="url(#gl)"/>'
-            g += f'<rect x="470" y="{y}" width="80" height="36" rx="8" fill="{P["r"]}" stroke="{a if i%2 else a2}" stroke-width="2"/><text x="510" y="{y+24}" text-anchor="middle" class="sv">{t}</text>'
+            g += f'<rect x="470" y="{y}" width="90" height="42" rx="8" fill="{P["r"]}" stroke="{a if i%2 else a2}" stroke-width="2"/><text x="515" y="{y+29}" text-anchor="middle" class="sv">{t}</text>'
     elif topic == "plc":
         g += '<rect x="20" y="60" width="520" height="190" rx="10" fill="#2f3b4a" stroke="#5a6b80" stroke-width="3"/>'
         g += '<rect x="40" y="80" width="110" height="150" rx="6" fill="#d5dde8"/><rect x="52" y="95" width="86" height="40" rx="4" fill="#1b232d"/>'
@@ -57,7 +57,7 @@ def ill(topic, P):
         g += f'<rect x="60" y="110" width="70" height="150" rx="8" fill="none" stroke="{a2}" stroke-width="4"/><rect x="64" y="180" width="62" height="76" fill="{a2}" opacity=".5"/>'
         g += f'<path d="M130 230 H220 M220 230 V170 H300" stroke="#cfd7e2" stroke-width="5" fill="none"/><circle cx="230" cy="230" r="18" fill="none" stroke="{a}" stroke-width="4"/><path d="M300 150 l30 20 l-30 20z" fill="{a}"/>'
         g += f'<polyline points="340,320 370,280 400,300 430,240 460,260 500,200" stroke="#36d399" stroke-width="4" fill="none" filter="url(#gl)"/>'
-        g += f'<rect x="60" y="290" width="70" height="40" rx="6" fill="#c0392b"/><text x="95" y="316" text-anchor="middle" class="sv" font-size="14">ALARM</text>'
+        g += f'<rect x="60" y="290" width="70" height="40" rx="6" fill="#c0392b"/><text x="95" y="316" text-anchor="middle" class="sv" font-size="30">ALARM</text>'
         g += '<rect x="250" y="370" width="60" height="70" fill="#2f3b4a"/><rect x="190" y="440" width="180" height="16" rx="8" fill="#2f3b4a"/>'
         if topic == "scada":
             for i, x in enumerate((60, 230, 400)):
@@ -66,7 +66,7 @@ def ill(topic, P):
     elif topic == "flow":
         g += f'<rect x="0" y="300" width="560" height="90" fill="#9aa8b8"/><rect x="0" y="315" width="560" height="60" fill="{a2}" opacity=".35"/>'
         g += '<rect x="200" y="280" width="160" height="130" rx="10" fill="#cfd7e2"/><rect x="240" y="160" width="80" height="120" fill="#2f3b4a"/><circle cx="280" cy="140" r="70" fill="#d5dde8" stroke="#5a6b80" stroke-width="5"/>'
-        g += f'<circle cx="280" cy="140" r="50" fill="#0e1a2b"/><text x="280" y="150" text-anchor="middle" class="sv" font-size="26" fill="#36d399">42.6</text>'
+        g += f'<circle cx="280" cy="140" r="50" fill="#0e1a2b"/><text x="280" y="150" text-anchor="middle" class="sv" font-size="30" fill="#36d399">42.6</text>'
         for x in (60, 120, 420, 480):
             g += f'<path d="M{x} 345 l25 0 m-10 -10 l10 10 l-10 10" stroke="{a}" stroke-width="5" fill="none"/>'
     elif topic == "pressure":
@@ -109,13 +109,13 @@ def ill(topic, P):
         g += '<rect x="180" y="200" width="200" height="160" rx="10" fill="#1b232d"/>'
         for k in range(8):
             g += f'<rect x="{192+k*23}" y="186" width="10" height="14" fill="#cfd7e2"/><rect x="{192+k*23}" y="360" width="10" height="14" fill="#cfd7e2"/>'
-        g += f'<text x="280" y="290" text-anchor="middle" class="sv" font-size="26" fill="{a2}">MCU</text>'
+        g += f'<text x="280" y="290" text-anchor="middle" class="sv" font-size="30" fill="{a2}">MCU</text>'
         g += f'<rect x="80" y="400" width="70" height="30" rx="6" fill="#d97706"/><rect x="420" y="400" width="40" height="70" rx="20" fill="#2563eb"/>'
     elif topic == "safety":
         g += f'<path d="M280 40 L470 110 V270 C470 400 380 480 280 520 C180 480 90 400 90 270 V110Z" fill="{P["r"]}" stroke="{a}" stroke-width="8"/>'
         g += f'<path d="M190 280 l60 60 l120 -130" stroke="#36d399" stroke-width="22" fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#gl)"/>'
         for i,t in enumerate(["PL a","PL b","PL c","PL d","PL e"]):
-            g += f'<rect x="{30+i*104}" y="530" width="94" height="26" rx="13" fill="{a if i==3 else "#2f3b4a"}"/><text x="{77+i*104}" y="549" text-anchor="middle" class="sv" font-size="14">{t}</text>'
+            g += f'<rect x="{30+i*104}" y="515" width="94" height="40" rx="20" fill="{a if i==3 else "#2f3b4a"}"/><text x="{77+i*104}" y="543" text-anchor="middle" class="sv" font-size="30">{t}</text>'
     elif topic == "ai":
         import math
         g += '<path d="M60 520 L140 300 L220 520 M80 470 H200 M100 410 H180 M120 350 H160" stroke="#9aa8b8" stroke-width="6" fill="none"/>'
@@ -132,12 +132,12 @@ def ill(topic, P):
             import math
             ang = math.radians(i * 45)
             g += f'<circle cx="{280+200*math.cos(ang):.0f}" cy="{280+200*math.sin(ang):.0f}" r="18" fill="{P["r"]}" stroke="{a}" stroke-width="4"/>'
-    return f'''<svg width="560" height="560" viewBox="0 0 560 560"><defs><filter id="gl"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><style>.sv{{font:700 16px Poppins;fill:#fff}}</style>{g}</svg>'''
+    return f'''<svg width="560" height="560" viewBox="0 0 560 560"><defs><filter id="gl"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><style>.sv{{font:700 24px Poppins;fill:#fff}}</style>{g}</svg>'''
 
 CSS_BASE = """*{margin:0;padding:0;box-sizing:border-box}body{width:1200px;height:675px;overflow:hidden;font-family:Poppins,sans-serif}
 .w{position:relative;width:1200px;height:675px;overflow:hidden}.abs{position:absolute}
-.logo{display:flex;align-items:center;gap:8px;font-weight:800;font-size:20px}.logo b{border-radius:8px;padding:2px 10px;font-size:22px}
-.chips{display:flex;gap:12px}.chips div{border-radius:30px;padding:8px 20px;font-weight:600;font-size:20px}"""
+.logo{display:flex;align-items:center;gap:8px;font-weight:800;font-size:24px}.logo b{border-radius:8px;padding:2px 12px;font-size:26px}
+.chips{display:flex;gap:12px}.chips div{border-radius:30px;padding:10px 24px;font-weight:700;font-size:26px}"""
 
 def page(title, ribbon, chips, topic, v):
     P = PAL[v % len(PAL)]
