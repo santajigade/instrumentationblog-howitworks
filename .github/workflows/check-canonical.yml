@@ -1,0 +1,11 @@
+name: Check live canonicals
+on: workflow_dispatch
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          for u in glossary/gray-code/ calculators/pressure/pipe-fittings-pressure-drop-calculator/ downloads/procedures/temperature-sensor-calibration-sop/ tools/thread-charts/bsp-thread-chart/ compare/linear-vs-equal-percentage-valve/ unit-converters/luminance-converter/ how-it-works/orifice-plate/; do
+            echo "== $u"; curl -s -H 'Cache-Control: no-cache' "https://www.instrumentationblog.in/$u?nc=$RANDOM" | grep -oE '<link rel="canonical"[^>]*>|og:url" content="[^"]*"' 
+            curl -sI "https://www.instrumentationblog.in/$u" | grep -iE '^(x-litespeed-cache|cf-cache-status|age|last-modified|x-cache)' || true
+          done
