@@ -111,6 +111,21 @@ def ill(topic, P):
             g += f'<rect x="{192+k*23}" y="186" width="10" height="14" fill="#cfd7e2"/><rect x="{192+k*23}" y="360" width="10" height="14" fill="#cfd7e2"/>'
         g += f'<text x="280" y="290" text-anchor="middle" class="sv" font-size="26" fill="{a2}">MCU</text>'
         g += f'<rect x="80" y="400" width="70" height="30" rx="6" fill="#d97706"/><rect x="420" y="400" width="40" height="70" rx="20" fill="#2563eb"/>'
+    elif topic == "safety":
+        g += f'<path d="M280 40 L470 110 V270 C470 400 380 480 280 520 C180 480 90 400 90 270 V110Z" fill="{P["r"]}" stroke="{a}" stroke-width="8"/>'
+        g += f'<path d="M190 280 l60 60 l120 -130" stroke="#36d399" stroke-width="22" fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#gl)"/>'
+        for i,t in enumerate(["PL a","PL b","PL c","PL d","PL e"]):
+            g += f'<rect x="{30+i*104}" y="530" width="94" height="26" rx="13" fill="{a if i==3 else "#2f3b4a"}"/><text x="{77+i*104}" y="549" text-anchor="middle" class="sv" font-size="14">{t}</text>'
+    elif topic == "ai":
+        import math
+        g += '<path d="M60 520 L140 300 L220 520 M80 470 H200 M100 410 H180 M120 350 H160" stroke="#9aa8b8" stroke-width="6" fill="none"/>'
+        g += f'<path d="M300 520 h220 M350 520 v-90 h120 v90 M410 430 l-60 -60 l120 0z" stroke="#9aa8b8" stroke-width="6" fill="none"/>'
+        nodes=[(180,90),(180,170),(180,250),(320,60),(320,140),(320,220),(320,300),(460,130),(460,230)]
+        for i,(x1,y1) in enumerate(nodes[:3]):
+            for (x2,y2) in nodes[3:7]: g += f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{a2}" stroke-width="2" opacity=".6"/>'
+        for (x1,y1) in nodes[3:7]:
+            for (x2,y2) in nodes[7:]: g += f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{a}" stroke-width="2" opacity=".6"/>'
+        for i,(x,y) in enumerate(nodes): g += f'<circle cx="{x}" cy="{y}" r="16" fill="{P["r"]}" stroke="{a if i>6 else a2}" stroke-width="5" filter="url(#gl)"/>'
     else:
         g += f'<circle cx="280" cy="280" r="200" fill="none" stroke="{a2}" stroke-width="6" filter="url(#gl)"/><circle cx="280" cy="280" r="120" fill="none" stroke="{a}" stroke-width="6"/>'
         for i in range(8):
@@ -177,12 +192,12 @@ def page(title, ribbon, chips, topic, v):
 def render(out, title, ribbon, chips, topic, v=None):
     if v is None:
         v = int(hashlib.md5(title.encode()).hexdigest(), 16) % 24
-    import os; out = os.path.abspath(out); htmlp = out.rsplit('.', 1)[0] + '.html'
+    import os; out = os.path.abspath(out); htmlp = out.rsplit('.', 1)[0] + '.featimg.html'
     open(htmlp, 'w').write(page(title, ribbon, chips, topic, v))
     with sync_playwright() as p:
         b = p.chromium.launch(executable_path='/usr/bin/google-chrome', args=['--no-sandbox'])
         pg = b.new_page(viewport={'width': 1200, 'height': 675}); pg.goto('file://' + htmlp); pg.wait_for_timeout(300)
-        png = out.rsplit('.', 1)[0] + '.png'; pg.screenshot(path=png); b.close()
+        png = out.rsplit('.', 1)[0] + '.featimg.png'; pg.screenshot(path=png); b.close()
     Image.open(png).convert('RGB').save(out, 'WEBP', quality=82, method=6)
 
 if __name__ == '__main__':
