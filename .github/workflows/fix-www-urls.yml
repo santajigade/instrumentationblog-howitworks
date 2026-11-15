@@ -1,0 +1,86 @@
+name: Fix non-www URLs in static sections
+
+# One-off repair, run by hand from the Actions tab.
+# Downloads the text files (html, xml, json, js, txt) of the static sections from the server,
+# replaces https://instrumentationblog.in with https://www.instrumentationblog.in
+# (canonical, og:url, schema, sitemap, links), and uploads ONLY the files that changed.
+# WordPress folders are never touched. A backup of the original files is kept as a run artifact.
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: "Upload the fixed files (leave false for a dry run that only reports)"
+        type: boolean
+        default: false
+      folders:
+        description: "Space separated folders under public_html"
+        default: "calculators tools downloads glossary compare unit-converters"
+
+concurrency:
+  group: ftp-deploy
+  cancel-in-progress: false
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install lftp
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+
+      - name: Download text files
+        env:
+          H: ${{ secrets.FTP_SERVER }}
+          U: ${{ secrets.FTP_USERNAME }}
+          P: ${{ secrets.FTP_PASSWORD }}
+          D: ${{ secrets.FTP_SERVER_DIR }}
+          FOLDERS: ${{ inputs.folders }}
+        run: |
+          set -e
+          mkdir -p orig
+          for f in $FOLDERS; do
+            lftp -u "$U","$P" "$H" -e "set ftp:ssl-force true; set ftp:ssl-protect-data true; set ssl:verify-certificate no; set net:max-retries 3; \
+              mirror --parallel=4 -I '*.html' -I '*.xml' -I '*.json' -I '*.js' -I '*.txt' ${D%/}/$f orig/$f; bye" || echo "skip $f (not found)"
+          done
+          echo "Downloaded: $(find orig -type f | wc -l) files"
+
+      - name: Backup originals
+        uses: actions/upload-artifact@v4
+        with:
+          name: originals-backup
+          path: orig/
+          retention-days: 30
+
+      - name: Replace non-www with www
+        run: |
+          set -e
+          cp -a orig fixed
+          grep -rlE 'https?://instrumentationblog\.in' fixed > changed.txt || true
+          while IFS= read -r f; do
+            sed -i -E 's#https?://instrumentationblog\.in#https://www.instrumentationblog.in#g' "$f"
+          done < changed.txt
+          echo "Files to fix: $(wc -l < changed.txt)"
+          echo "Per folder:"; cut -d/ -f2 changed.txt | sort | uniq -c
+          echo "Left over non-www after fix: $(grep -rlE 'https?://instrumentationblog\.in' fixed | wc -l)"
+          f=$(head -50 changed.txt | xargs -r grep -l 'rel="canonical"' 2>/dev/null | head -1 || true)
+          [ -n "$f" ] && { echo "Sample $f:"; grep -o '<link rel="canonical"[^>]*>' "$f"; }
+          if find fixed -name '.htaccess' -o -name '*.php' | grep -q .; then echo "php/htaccess found, will not upload those"; fi
+
+      - name: Upload changed files
+        if: inputs.apply
+        env:
+          H: ${{ secrets.FTP_SERVER }}
+          U: ${{ secrets.FTP_USERNAME }}
+          P: ${{ secrets.FTP_PASSWORD }}
+          D: ${{ secrets.FTP_SERVER_DIR }}
+        run: |
+          set -e
+          {
+            echo "set ftp:ssl-force true; set ftp:ssl-protect-data true; set ssl:verify-certificate no; set net:max-retries 3"
+            while IFS= read -r f; do
+              rel=${f#fixed/}
+              echo "put \"$f\" -o \"${D%/}/$rel\""
+            done < changed.txt
+            echo "bye"
+          } > up.lftp
+          lftp -u "$U","$P" "$H" -f up.lftp
+          echo "Uploaded $(wc -l < changed.txt) files"

@@ -20,7 +20,7 @@ GROUPS = [g for g in ORDER if any(p["grp"] == g for p in PAGES)] + sorted({p["gr
 import pathlib
 HERE = pathlib.Path(__file__).resolve().parent
 OUT = str(HERE.parent / "site" / "how-it-works")
-SITE = "https://instrumentationblog.in/"
+SITE = "https://www.instrumentationblog.in/"
 BASE = SITE + "how-it-works/"
 TODAY = "2026-11-15"
 E = html.escape
@@ -215,7 +215,7 @@ def hub():
     fq = "".join(f"<details{' open' if i == 0 else ''}><summary>{E(q)}</summary><p>{E(a)}</p></details>" for i, (q, a) in enumerate(faqs))
     body, k = re.subn(r'<section class="ibuc-card"><h2>Frequently Asked Questions</h2>.*?</section>', f'<section class="ibuc-card"><h2>Frequently Asked Questions</h2>{fq}</section>', body, 1, flags=re.S)
     assert k == 1
-    ex = '<a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://instrumentationblog.in/glossary/">'
+    ex = '<a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/glossary/">'
     assert ex in body
     body = body.replace(ex, card(SITE + "compare/", "Compare", "Instrumentation Comparisons", "Side by side comparisons of sensors, meters and valves.", PAL[4]) + ex, 1)
     ld = {"@context": "https://schema.org", "@graph": [
