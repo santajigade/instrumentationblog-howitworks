@@ -19,7 +19,8 @@ const SITE = path.resolve(__dirname, '..', 'site', 'how-it-works');
     await p.waitForTimeout(100);
     const box = await (await p.$('#hw-cv')).boundingBox();
     if (box.width < 700) throw new Error(slug + ' canvas width ' + box.width);
-    await (await p.$('#hw-cv')).screenshot({ path: path.join(SITE, slug, slug + '-working-diagram.png') });
+    const url = await p.evaluate(() => window.__hwExport());
+    fs.writeFileSync(path.join(SITE, slug, slug + '-working-diagram.png'), Buffer.from(url.split(',')[1], 'base64'));
     console.log('snap', slug);
   }
   await b.close();

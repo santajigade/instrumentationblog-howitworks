@@ -45,7 +45,7 @@ CSS = """<style>
 STYLE_HUB = ""
 
 
-IMG_W, IMG_H = 1560, 878
+IMG_W, IMG_H = 1560, 988
 
 
 def img_name(slug):
@@ -122,7 +122,7 @@ def page(p, others):
 {AD}
 <section class="ibuc-card"><h2>{E(p['h1'])}: Interactive Animation</h2>
 <div class="hw-stage"><canvas id="hw-cv" role="img" aria-label="Animated diagram showing {E(p['kw'].lower())}"></canvas></div>
-<div class="hw-bar"><span><button type="button" class="hw-pp" id="hw-pp">Pause animation</button> <button type="button" class="hw-pp hw-dl" id="hw-dl" data-name="{p['slug']}-working-diagram.png">Download diagram</button></span><span class="hw-note">Numbered markers match the parts list below.</span></div>
+<div class="hw-bar"><span><button type="button" class="hw-pp" id="hw-pp">Pause animation</button> <button type="button" class="hw-pp hw-dl" id="hw-dl" data-name="{p['slug']}-working-diagram.png" data-title="{E(p['h1'])}">Download diagram</button></span><span class="hw-note">Numbered markers match the parts list below.</span></div>
 <div class="hw-ctl" id="hw-ctl">{sl}</div>
 <div class="ibuc-out">{outs}</div>
 <ol class="hw-leg">{leg}</ol>
