@@ -20,7 +20,7 @@ Add new topics anywhere; keep slugs unique and blog slugs from _src/blog_slugs.t
 - [x] valve-positioner | Valve Positioner | Control Valve | control-valve-positioner-working
 
 ## Queue
-- [ ] plc-scan-cycle | PLC Scan Cycle | PLC | how-plc-scan-cycle-works
+- [x] plc-scan-cycle | PLC Scan Cycle | PLC | how-plc-scan-cycle-works
 - [ ] inductive-proximity-sensor | Inductive Proximity Sensor | Switches | inductive-proximity-sensor-selection
 - [ ] scada-polling | SCADA Polling and RTU Communication | SCADA | scada-polling-rate-optimization
 - [ ] cascade-control | Cascade Control Loop | DCS | what-is-cascade-control
