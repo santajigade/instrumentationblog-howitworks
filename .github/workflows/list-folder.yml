@@ -1,0 +1,22 @@
+name: List server folder (read only)
+on:
+  workflow_dispatch:
+    inputs:
+      path:
+        default: "wp-content/uploads/2026/04"
+jobs:
+  ls:
+    runs-on: ubuntu-latest
+    steps:
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+      - env:
+          H: ${{ secrets.FTP_SERVER }}
+          U: ${{ secrets.FTP_USERNAME }}
+          P: ${{ secrets.FTP_PASSWORD }}
+          D: ${{ secrets.FTP_SERVER_DIR }}
+        run: |
+          lftp -u "$U","$P" "$H" -e "set ftp:ssl-force true; set ftp:ssl-protect-data true; set ssl:verify-certificate no; cls -1 ${D%/}/${{ inputs.path }}/; bye" > list.txt
+          echo "TOTAL $(wc -l < list.txt)"
+          echo "PDF $(grep -ci '\.pdf$' list.txt)"
+          grep -i '\.pdf$' list.txt | sed 's#.*/##; s/^/PDFFILE|/'
+          grep -iE '/(ch|sn)[0-9]+|/app[.-]' list.txt | sed 's#.*/##; s/^/MATCH|/' | head -50
