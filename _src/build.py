@@ -1,6 +1,21 @@
 import re, json, html, os, shutil
-from content import PAGES, GROUPS
+from content import PAGES as BASE_PAGES, GROUPS as BASE_GROUPS
+from content_extra import EXTRA
 from scenes import COMMON, S, K_TABLE
+import importlib.util, pathlib as _pl
+
+# Pages: the first 12 live in content.py / scenes.py; every new topic is one file in _src/pages/<slug>.py
+# defining PAGE (same keys as content.py plus intro/uses/tips) and SCENE (canvas JS: upd, step, draw).
+PAGES = []
+for _p in BASE_PAGES:
+    PAGES.append({**_p, **EXTRA.get(_p["slug"], {})})
+for _f in sorted((_pl.Path(__file__).resolve().parent / "pages").glob("*.py")):
+    _spec = importlib.util.spec_from_file_location(_f.stem.replace("-", "_"), _f)
+    _m = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(_m)
+    assert _m.PAGE["slug"] == _f.stem, _f
+    PAGES.append(_m.PAGE); S[_m.PAGE["slug"]] = _m.SCENE
+ORDER = ["Flow", "Level", "Pressure", "Temperature", "Control Valve", "Switches", "Analytical", "Signals", "PLC", "DCS", "SCADA", "Safety", "Electrical"]
+GROUPS = [g for g in ORDER if any(p["grp"] == g for p in PAGES)] + sorted({p["grp"] for p in PAGES} - set(ORDER))
 
 import pathlib
 HERE = pathlib.Path(__file__).resolve().parent
@@ -11,9 +26,11 @@ TODAY = "2026-11-15"
 E = html.escape
 PAL = ["--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8", "--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2", "--l:#fff4e0;--d:#a8620a;--b:#f5ddb0",
        "--l:#f3edfc;--d:#6b3fb0;--b:#ddd0f3", "--l:#e4f6f7;--d:#0f7b80;--b:#bfe6e8", "--l:#fdecf1;--d:#b02a52;--b:#f5ccd8"]
-GP = dict(zip(GROUPS, PAL))
+GP = {g: PAL[i % len(PAL)] for i, g in enumerate(GROUPS)}
 GC = {"Flow": ("#1e63b8", "#0f2a52"), "Level": ("#1d7a46", "#0b3320"), "Pressure": ("#a8620a", "#4a2a04"),
-      "Temperature": ("#b02a52", "#4a0f1f"), "Control Valve": ("#6b3fb0", "#2a1450")}
+      "Temperature": ("#b02a52", "#4a0f1f"), "Control Valve": ("#6b3fb0", "#2a1450"), "Switches": ("#0f7b80", "#06393b"),
+      "Analytical": ("#5a7d12", "#263607"), "Signals": ("#3b4bb0", "#171f4f"), "PLC": ("#c2410c", "#4a1a05"),
+      "DCS": ("#0e7490", "#063241"), "SCADA": ("#7c3aed", "#2e1065"), "Safety": ("#b91c1c", "#450a0a"), "Electrical": ("#a16207", "#422006")}
 AD = '<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>'
 
 tpl = open(HERE / "template_page.html", encoding="utf-8").read()
@@ -39,6 +56,13 @@ CSS = """<style>
 .ibuc .hw-fig img{width:100%;max-width:780px;height:auto;border:1px solid var(--b);border-radius:12px}
 .ibuc .hw-fig figcaption{font-size:14px;color:var(--m);margin:10px auto 0;max-width:780px;text-align:left}
 .ibuc button.hw-dl{background:#fff !important;color:var(--n) !important;border:1.5px solid var(--n) !important}
+.ibuc .hw-uses{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.ibuc .hw-use{background:var(--l);border:1px solid var(--b);border-left:4px solid var(--gc);border-radius:10px;padding:12px 14px}
+.ibuc .hw-use b{display:block;color:var(--n);margin:0 0 4px}
+.ibuc .hw-use span{font-size:14.5px;color:#334155}
+.ibuc ul.hw-tips{list-style:none;padding:0;margin:0}
+.ibuc ul.hw-tips li{position:relative;padding:0 0 10px 30px}
+.ibuc ul.hw-tips li:before{content:"✓";position:absolute;left:0;top:0;width:20px;height:20px;border-radius:50%;background:var(--gc);color:#fff;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center}
 .ibuc .hw-f{background:#1a2333;color:#e6edf7;border-radius:12px;padding:16px 18px;font-family:'Courier New',monospace;font-size:15.5px;line-height:1.75;overflow-x:auto}
 .ibuc .hw-f b{color:#fbbf24;font-weight:700}
 </style>"""
@@ -107,6 +131,10 @@ def page(p, others):
             {"@type": "ListItem", "position": 3, "name": p["h1"], "item": url}]},
         {"@type": "ImageObject", "contentUrl": url + img_name(p["slug"]), "name": p["h1"], "caption": "Labelled diagram showing " + p["kw"].lower(), "width": IMG_W, "height": IMG_H},
         {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in p["faq"]]}]}
+    intro = "".join(f"<p>{E(x)}</p>" for x in p.get("intro", []))
+    uses = "".join(f'<div class="hw-use"><b>{E(a)}</b><span>{E(b)}</span></div>' for a, b in p.get("uses", []))
+    tips = "".join(f"<li>{E(x)}</li>" for x in p.get("tips", []))
+    q = "What Is " + subj + "?"
     alt = "Labelled diagram showing " + p["kw"].lower()
     cap = "Numbered parts: " + "; ".join(f"{i+1} {x.lower()}" for i, x in enumerate(p["legend"])) + "."
     js = COMMON.replace("@@SCENE@@", S[p["slug"]].replace("@@K@@", K_TABLE))
@@ -119,6 +147,7 @@ def page(p, others):
   <div class="ibuc-pills"><span class="ibuc-pill">Live animation</span><span class="ibuc-pill">Adjustable sliders</span><span class="ibuc-pill">Formula and example</span></div>
 </header>
 <p class="cmp-verdict"><b>Quick answer:</b> {E(p['quick'])}</p>
+{f'<section class="ibuc-card"><h2>{E(q)}</h2>{intro}</section>' if intro else ''}
 {AD}
 <section class="ibuc-card"><h2>{E(p['h1'])}: Interactive Animation</h2>
 <div class="hw-stage"><canvas id="hw-cv" role="img" aria-label="Animated diagram showing {E(p['kw'].lower())}"></canvas></div>
@@ -132,7 +161,9 @@ def page(p, others):
 {AD}
 <section class="ibuc-card"><h2>{E(nm)} Formula</h2><div class="hw-f">{form}</div></section>
 <section class="ibuc-card"><h2>Main Parts of {E(subj)}</h2><div class="cmp-wrap"><table class="cmp-t"><thead><tr><th>Part</th><th>What it does</th></tr></thead><tbody>{parts}</tbody></table></div></section>
+{f'<section class="ibuc-card"><h2>Where {E(subj)} Is Used</h2><div class="hw-uses">{uses}</div></section>' if uses else ''}
 <div class="cmp-two"><div class="cmp-box" style="{PAL[1]}"><h3>Advantages</h3><ul>{''.join('<li>' + E(x) + '</li>' for x in p['pros'])}</ul></div><div class="cmp-box" style="{PAL[5]}"><h3>Limitations</h3><ul>{''.join('<li>' + E(x) + '</li>' for x in p['cons'])}</ul></div></div>
+{f'<section class="ibuc-card"><h2>{E(nm)} Field Tips and Common Problems</h2><ul class="hw-tips">{tips}</ul></section>' if tips else ''}
 {AD}
 <section class="ibuc-card"><h2>Related Calculators and Tools</h2><div class="ibx-grid">{''.join(rel)}</div></section>
 <section class="ibuc-card"><h2>Frequently Asked Questions</h2>{faq}</section>
@@ -204,10 +235,14 @@ def sitemap():
 
 
 if __name__ == "__main__":
-    shutil.rmtree(OUT, ignore_errors=True)
-    os.makedirs(OUT)
+    # keep existing diagram images; only HTML and sitemap are regenerated
+    os.makedirs(OUT, exist_ok=True)
+    for old in pathlib.Path(OUT).glob("**/index.html"):
+        old.unlink()
     for p in PAGES:
-        page(p, [o for o in PAGES if o is not p])
+        same = [o for o in PAGES if o is not p and o["grp"] == p["grp"]]
+        rest = [o for o in PAGES if o is not p and o["grp"] != p["grp"]]
+        page(p, (same + rest)[:8])
     hub()
     sitemap()
     print("built", len(PAGES))

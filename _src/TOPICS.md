@@ -1,0 +1,121 @@
+# How It Works topic queue
+
+The daily job takes the first 4 unticked lines, builds them, then ticks them (`[x]`) in the same commit.
+Format: `- [ ] slug | Page name | Group | blog article slug for "You May Also Like"`
+Groups: Flow, Level, Pressure, Temperature, Control Valve, Switches, Analytical, Signals, PLC, DCS, SCADA, Safety, Electrical.
+Add new topics anywhere; keep slugs unique and blog slugs from _src/blog_slugs.txt.
+
+## Done (launch set)
+- [x] orifice-plate | Orifice Plate | Flow | orifice-plate-flow-measurement
+- [x] magnetic-flow-meter | Magnetic Flow Meter | Flow | electromagnetic-flow-meter-working-principle
+- [x] vortex-flow-meter | Vortex Flow Meter | Flow | vortex-flow-meter-working-principle
+- [x] coriolis-flow-meter | Coriolis Flow Meter | Flow | coriolis-flow-meter-working-principle
+- [x] ultrasonic-flow-meter | Ultrasonic Flow Meter | Flow | how-ultrasonic-flow-meter-works
+- [x] turbine-flow-meter | Turbine Flow Meter | Flow | turbine-flow-meter-working-principle
+- [x] dp-level-measurement | DP Level Measurement | Level | dp-transmitter-level-measurement
+- [x] radar-level-transmitter | Radar Level Transmitter | Level | radar-type-level-transmitter
+- [x] displacer-level-transmitter | Displacer Level Transmitter | Level | displacer-level-transmitter-working-principle
+- [x] bourdon-tube-pressure-gauge | Bourdon Tube Pressure Gauge | Pressure | bourdon-tube-pressure-gauges
+- [x] thermocouple | Thermocouple | Temperature | cold-junction-compensation-in-thermocouple
+- [x] valve-positioner | Valve Positioner | Control Valve | control-valve-positioner-working
+
+## Queue
+- [ ] plc-scan-cycle | PLC Scan Cycle | PLC | how-plc-scan-cycle-works
+- [ ] inductive-proximity-sensor | Inductive Proximity Sensor | Switches | inductive-proximity-sensor-selection
+- [ ] scada-polling | SCADA Polling and RTU Communication | SCADA | scada-polling-rate-optimization
+- [ ] cascade-control | Cascade Control Loop | DCS | what-is-cascade-control
+- [ ] ladder-logic-start-stop | Start Stop Latch in Ladder Logic | PLC | ladder-logic-for-beginners
+- [ ] capacitive-proximity-sensor | Capacitive Proximity Sensor | Switches | inductive-vs-capacitive-proximity-sensors
+- [ ] dcs-controller-redundancy | DCS Controller Redundancy | DCS | dcs-controller-redundancy-types
+- [ ] 4-20-ma-current-loop | 4 to 20 mA Current Loop | Signals | 4-to-20-ma-current-loop-explained
+- [ ] plc-timer | PLC On Delay Timer (TON) | PLC | plc-timer-instructions-ton-tof-rto
+- [ ] photoelectric-sensor | Photoelectric Sensor | Switches | different-types-of-photoelectric-sensors
+- [ ] scada-report-by-exception | SCADA Report by Exception | SCADA | report-by-exception-scada-dnp3
+- [ ] split-range-control | Split Range Control | DCS | split-range-control-working-principle
+- [ ] plc-counter | PLC Up Counter (CTU) | PLC | plc-counter-instructions-ctu-ctd
+- [ ] limit-switch | Limit Switch | Switches | what-is-a-limit-switch
+- [ ] hart-protocol | HART Protocol | Signals | hart-protocol-how-it-works
+- [ ] pid-controller | PID Controller | DCS | pid-controller-types-explained
+- [ ] plc-analog-scaling | PLC Analog Input Scaling | PLC | plc-analog-scaling-raw-count
+- [ ] float-level-switch | Float Level Switch | Switches | float-level-switch-working-principle-and-applications
+- [ ] historian-swinging-door | Historian Swinging Door Compression | SCADA | historian-data-compression-swinging-door
+- [ ] ratio-control | Ratio Control | DCS | what-is-ratio-control-in-process-industries
+- [ ] sinking-sourcing-plc | Sinking and Sourcing PLC Inputs | PLC | sinking-and-sourcing-in-plc
+- [ ] vibrating-fork-level-switch | Vibrating Fork Level Switch | Switches | vibrating-fork-level-switch-working
+- [ ] modbus-rtu | Modbus RTU Communication | Signals | modbus-protocol-explained
+- [ ] override-control | Override (Selector) Control | DCS | override-control-selector-dcs
+- [ ] plc-shift-register | PLC Shift Register | PLC | plc-shift-register-shl-shr
+- [ ] pressure-switch | Pressure Switch | Switches | what-is-a-pressure-switch
+- [ ] scada-redundancy | SCADA Server Redundancy | SCADA | scada-redundancy-architecture
+- [ ] pt100-rtd | Pt100 RTD | Temperature | what-is-rtd-and-how-it-works
+- [ ] flow-switch | Paddle Flow Switch | Switches | flow-switch-working-principle-paddle-dp-thermal
+- [ ] sequential-function-chart | Sequential Function Chart (SFC) | PLC | sequential-function-chart-sfc-plc
+- [ ] guided-wave-radar | Guided Wave Radar Level Transmitter | Level | guided-wave-radar-level-transmitter
+- [ ] zener-barrier | Zener Barrier | Safety | what-is-a-zener-diode
+- [ ] reed-switch | Reed Switch | Switches | reed-switch-working-principle
+- [ ] ultrasonic-level-transmitter | Ultrasonic Level Transmitter | Level | ultrasonic-level-transmitter-working
+- [ ] plc-pid-loop | PLC PID Loop Control | PLC | plc-pid-instruction-configuration
+- [ ] rs485-network | RS485 Network and Termination | Signals | rs485-termination-biasing-resistors
+- [ ] positive-displacement-flow-meter | Positive Displacement Flow Meter | Flow | positive-displacement-flow-meter
+- [ ] 2oo3-voting | 2oo3 Voting Logic | Safety | safety-instrumented-function-sif-design
+- [ ] temperature-switch | Bimetal Temperature Switch | Switches | temperature-switch-vs-temperature-transmitter
+- [ ] strain-gauge-pressure-sensor | Strain Gauge Pressure Sensor | Pressure | strain-gauge-working-principle
+- [ ] rotameter | Rotameter (Variable Area Flow Meter) | Flow | variable-area-flow-meter-working
+- [ ] galvanic-isolator | Galvanic Isolator | Signals | what-is-galvanic-isolation
+- [ ] capacitance-level-probe | Capacitance Level Probe | Level | capacitance-level-measurement
+- [ ] solenoid-valve | Solenoid Valve | Control Valve | solenoid-valve-working-principle
+- [ ] thermal-mass-flow-meter | Thermal Mass Flow Meter | Flow | thermal-mass-flow-meter-working
+- [ ] namur-sensor | NAMUR Sensor | Signals | namur-output-sensor
+- [ ] magnetic-level-gauge | Magnetic Level Gauge | Level | magnetic-level-gauge-working-principle
+- [ ] ip-converter | I to P Converter | Control Valve | valve-actuator-types-applications
+- [ ] venturi-meter | Venturi Meter | Flow | venturi-tube-flow-meter
+- [ ] plc-analog-output | PLC Analog Output to Valve | PLC | plc-analog-input-explained
+- [ ] dp-transmitter | Differential Pressure Transmitter | Pressure | differential-pressure-transmitter-working-principle
+- [ ] ph-sensor | pH Sensor | Analytical | what-is-ph-sensor-how-does-it-work
+- [ ] averaging-pitot-tube | Averaging Pitot Tube | Flow | averaging-pitot-tube-working-principle
+- [ ] bubbler-level | Bubbler Level Measurement | Level | bubbler-level-measurement-purge
+- [ ] diaphragm-actuator | Diaphragm Actuator | Control Valve | diaphragm-actuator-vs-piston-actuator
+- [ ] conductivity-sensor | Conductivity Sensor | Analytical | conductivity-sensor-working
+- [ ] capacitive-pressure-sensor | Capacitive Pressure Sensor | Pressure | piezoresistive-vs-capacitive-pressure-sensor
+- [ ] thermistor | NTC Thermistor | Temperature | ntc-ptc-thermistor-working
+- [ ] v-cone-flow-meter | V Cone Flow Meter | Flow | v-cone-flow-meter-working-principle
+- [ ] magnetostrictive-level | Magnetostrictive Level Transmitter | Level | magnetostrictive-level-transmitter-working
+- [ ] globe-control-valve | Globe Control Valve | Control Valve | control-valve-body-types-globe-angle-rotary-three-way
+- [ ] zirconia-oxygen-analyzer | Zirconia Oxygen Analyzer | Analytical | zirconia-oxygen-analyzer-working-principle
+- [ ] diaphragm-seal | Diaphragm Seal | Pressure | what-is-a-diaphragm-seal
+- [ ] bimetallic-thermometer | Bimetallic Thermometer | Temperature | bimetallic-thermometer-working-principle
+- [ ] parshall-flume | Parshall Flume | Flow | parshall-flume-open-channel-flow
+- [ ] servo-level-gauge | Servo Level Gauge | Level | servo-level-gauge-working-principle
+- [ ] butterfly-valve | Butterfly Control Valve | Control Valve | butterfly-valve-vs-ball-valve-control
+- [ ] catalytic-gas-detector | Catalytic Bead Gas Detector | Analytical | gas-analyzers-explained
+- [ ] dead-weight-tester | Dead Weight Tester | Pressure | dead-weight-pressure-tester
+- [ ] infrared-thermometer | Infrared Thermometer | Temperature | infrared-thermometer-emissivity-guide
+- [ ] flow-nozzle | Flow Nozzle | Flow | flow-nozzle-working-principle
+- [ ] load-cell | Load Cell Tank Weighing | Level | load-cell-working-principle
+- [ ] volume-booster | Volume Booster | Control Valve | pneumatic-volume-booster-control-valve
+- [ ] ndir-gas-analyzer | NDIR Gas Analyzer | Analytical | ndir-gas-analyzer-working-principle-co-co2-ch4
+- [ ] u-tube-manometer | U Tube Manometer | Pressure | u-tube-manometer-working-formula
+- [ ] temperature-transmitter | Temperature Transmitter | Temperature | what-is-a-temperature-transmitter
+- [ ] target-flow-meter | Target Flow Meter | Flow | target-flow-meter-working-principle
+- [ ] submersible-level-transmitter | Submersible Level Transmitter | Level | submersible-level-transmitter-working
+- [ ] valve-characteristics | Control Valve Flow Characteristics | Control Valve | flow-characteristics-of-control-valves
+- [ ] dissolved-oxygen-sensor | Optical Dissolved Oxygen Sensor | Analytical | how-do-optical-dissolved-oxygen-sensors-work
+- [ ] pressure-snubber | Pressure Snubber | Pressure | pressure-snubber-working-principle-types-selection
+- [ ] thermowell | Thermowell | Temperature | thermowell-guide
+- [ ] wedge-flow-meter | Wedge Flow Meter | Flow | wedge-flow-meter-working-principle
+- [ ] safety-relief-valve | Safety Relief Valve | Safety | safety-relief-valve-psv-sizing
+- [ ] rupture-disc | Rupture Disc | Safety | rupture-disc-explained
+- [ ] partial-stroke-test | Partial Stroke Testing | Safety | partial-stroke-testing-esd-valves
+- [ ] relay | Electromagnetic Relay | Electrical | electromagnetic-relay-working-coil-suppression
+- [ ] star-delta-starter | Star Delta Starter | Electrical | star-vs-delta-connection
+- [ ] vfd | Variable Frequency Drive (VFD) | Electrical | vfd-working-principle-explained
+- [ ] induction-motor | AC Induction Motor | Electrical | how-ac-induction-motor-works
+- [ ] current-transformer | Current Transformer | Electrical | current-transformer-working-principle
+- [ ] soft-starter | Soft Starter | Electrical | soft-starter-working-principle
+- [ ] thermal-overload-relay | Thermal Overload Relay | Electrical | thermal-overload-relay-explained
+- [ ] weigh-feeder | Weigh Feeder | Flow | weigh-feeder-working-principle
+- [ ] turbidity-meter | Turbidity Meter | Analytical | turbidity-measurement-guide
+- [ ] ldr | LDR Light Sensor | Switches | ldr-light-dependent-resistor-working-principle
+- [ ] plc-redundancy | PLC Hot Standby Redundancy | PLC | plc-redundancy-hot-standby
+- [ ] dcs-io-card | DCS IO Card and Marshalling | DCS | dcs-io-card-types-explained
+- [ ] scada-alarm | SCADA Alarm Lifecycle | SCADA | scada-alarm-management

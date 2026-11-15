@@ -1,0 +1,72 @@
+name: Publish daily batch (08:00 IST)
+
+# The scheduled job prepares new pages on branch `daily` early in the morning.
+# At 08:00 IST this workflow brings the new topic files and diagram images into main,
+# regenerates the HTML from main (so manual fixes on main are kept), commits and uploads.
+on:
+  schedule:
+    - cron: "30 2 * * *"      # 02:30 UTC = 08:00 IST (GitHub may start a few minutes late)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ftp-deploy
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Bring new pages from daily
+        id: merge
+        run: |
+          set -e
+          if ! git fetch origin daily 2>/dev/null; then echo "No daily branch"; echo "new=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          NEW=$(git diff --name-only --diff-filter=A HEAD origin/daily -- _src/pages | sed 's#_src/pages/##; s#\.py$##' | grep -v '^__' || true)
+          if [ -z "$NEW" ]; then echo "Nothing new on daily"; echo "new=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          echo "New topics:"; echo "$NEW"
+          git checkout origin/daily -- _src/TOPICS.md
+          for s in $NEW; do
+            git checkout origin/daily -- "_src/pages/$s.py" "site/how-it-works/$s/$s-working-diagram.webp"
+          done
+          echo "new=true" >> "$GITHUB_OUTPUT"
+          echo "list=$(echo $NEW | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+
+      - name: Rebuild HTML
+        if: steps.merge.outputs.new == 'true'
+        run: python3 _src/build.py
+
+      - name: Commit to main
+        if: steps.merge.outputs.new == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A _src site
+          git commit -m "Publish daily batch: ${{ steps.merge.outputs.list }}"
+          git push origin main
+
+      - name: Safety check (no .htaccess or PHP)
+        if: steps.merge.outputs.new == 'true'
+        run: |
+          if find site -name '.htaccess' -o -name '*.php' | grep -q .; then echo "Refusing"; exit 1; fi
+
+      - name: Upload site/ via FTPS
+        if: steps.merge.outputs.new == 'true'
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          local-dir: ./site/
+          server-dir: ${{ secrets.FTP_SERVER_DIR }}
+          exclude: |
+            **/.git*
+            **/.git*/**
