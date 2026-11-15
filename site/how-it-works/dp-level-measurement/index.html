@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How DP Level Measurement Works: Animated Tank and Formula</title>
+<meta name="description" content="How DP level measurement works, animated: the transmitter reads liquid head pressure, and changing the density shows why level reads wrong at the wrong SG.">
+<link rel="canonical" href="https://instrumentationblog.in/how-it-works/dp-level-measurement/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Instrumentation Blog">
+<meta property="og:title" content="How DP Level Measurement Works: Animated Tank and Formula">
+<meta property="og:description" content="How DP level measurement works, animated: the transmitter reads liquid head pressure, and changing the density shows why level reads wrong at the wrong SG.">
+<meta property="og:url" content="https://instrumentationblog.in/how-it-works/dp-level-measurement/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="https://instrumentationblog.in/favicon.ico">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R3NLR1WRYC"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-R3NLR1WRYC");</script>
+<style>
+html{-webkit-text-size-adjust:100%}body{margin:0;background:#f1f3f7;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#1f2733}
+.ibs-top{background:#1e73be;color:#fff;font-size:13.5px}
+.ibs-in{max-width:1100px;margin:0 auto;padding:0 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ibs-top .ibs-in{min-height:36px}
+.ibs-top a{color:#fff;text-decoration:none}
+.ibs-head{background:#fff;border-bottom:1px solid #e3e7ee}
+.ibs-head .ibs-in{min-height:86px}
+.ibs-logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.ibs-mark{width:58px;height:58px;background:#ffef00;display:flex;align-items:center;justify-content:center;font:900 38px/1 Arial,Helvetica,sans-serif;color:#1e73be;letter-spacing:-2px}
+.ibs-name{font-weight:800;font-size:18px;color:#1a2333;line-height:1.1}.ibs-name small{display:block;font-weight:500;font-size:12px;color:#6b7383}
+.ibs-nav{display:flex;flex-wrap:wrap;gap:4px 22px}
+.ibs-nav a{color:#1f2733;text-decoration:none;font-size:16px}
+.ibs-nav a:hover,.ibs-nav a.on{color:#e4004b}
+.ibs-main{padding:22px 16px 30px}
+.ibs-pv{text-align:center;padding:6px 16px 18px;font:13px/1.4 Arial,Helvetica,sans-serif;color:#5b6573}.ibs-pv span{display:inline-block;background:#fff;border:1px solid #dde3ea;border-radius:999px;padding:5px 14px}
+.ibs-foot{background:#1a2333;color:#aab3c5;font-size:13px}.ibs-foot .ibs-in{min-height:56px}.ibs-foot a{color:#d6dcea}
+@media(max-width:700px){.ibs-top a{display:none}.ibs-head .ibs-in{padding:10px 16px}.ibs-nav{gap:4px 16px}.ibs-nav a{font-size:15px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="ibs-top"><div class="ibs-in"><span>Free engineering calculators and unit converters</span><a href="mailto:ceo@instrumentationblog.in">ceo@instrumentationblog.in</a></div></div>
+<header class="ibs-head"><div class="ibs-in">
+<a class="ibs-logo" href="https://instrumentationblog.in/" aria-label="Instrumentation Blog home"><span class="ibs-mark">ib</span><span class="ibs-name">Instrumentation Blog<small>Instrumentation simplified, knowledge amplified</small></span></a>
+<nav class="ibs-nav"><a href="https://instrumentationblog.in/">Home</a><a href="https://instrumentationblog.in/calculators/">Calculators</a><a href="https://instrumentationblog.in/unit-converters/">Unit Converters</a><a href="https://instrumentationblog.in/tools/">Tools</a><a href="https://instrumentationblog.in/downloads/">Downloads</a><a href="https://instrumentationblog.in/glossary/">Glossary</a></nav>
+</div></header>
+<main class="ibs-main"><style>
+.ibuc .hw-stage{max-width:780px;margin:0 auto;background:#fff;border:1px solid var(--b);border-radius:14px;overflow:hidden}
+.ibuc .hw-stage canvas{display:block;width:100%}
+.ibuc .hw-bar{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin:12px auto 0;max-width:780px}
+.ibuc button.hw-pp{background:var(--n) !important;color:#fff !important;border:0 !important;border-radius:999px !important;padding:8px 16px !important;font-size:14px;font-weight:700;cursor:pointer;line-height:1.2}
+.ibuc .hw-note{font-size:13px;color:var(--m)}
+.ibuc .hw-ctl{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px 22px;margin:18px 0 0}
+.ibuc .hw-s label{display:flex;justify-content:space-between;font-size:14px;font-weight:700;color:var(--n);margin:0 0 6px}
+.ibuc .hw-s label b{color:var(--gc);font-variant-numeric:tabular-nums}
+.ibuc .hw-s input[type=range]{width:100%;accent-color:var(--gc);height:28px;margin:0}
+.ibuc .hw-leg{list-style:none;padding:0;margin:16px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:8px 18px}
+.ibuc .hw-leg li{display:flex;gap:10px;align-items:flex-start;font-size:14.5px}
+.ibuc .hw-leg i{flex:0 0 24px;height:24px;border-radius:50%;background:#d9622b;color:#fff;font-style:normal;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center}
+.ibuc ol.hw-steps{list-style:none;counter-reset:s;padding:0;margin:0}
+.ibuc ol.hw-steps li{counter-increment:s;position:relative;padding:0 0 14px 46px;margin:0}
+.ibuc ol.hw-steps li:before{content:counter(s);position:absolute;left:0;top:-2px;width:32px;height:32px;border-radius:50%;background:var(--gc);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center}
+.ibuc .hw-f{background:#1a2333;color:#e6edf7;border-radius:12px;padding:16px 18px;font-family:'Courier New',monospace;font-size:15.5px;line-height:1.75;overflow-x:auto}
+.ibuc .hw-f b{color:#fbbf24;font-weight:700}
+</style><style>
+.ibuc{--n:#1a2333;--t:#1f2733;--m:#5b6576;--b:#dde3ee;--l:#f6f8fc;--a:#d9622b;--g:#1f9d55;color:var(--t);font-size:16px;line-height:1.6;max-width:1100px;margin:0 auto}
+.ibuc *{box-sizing:border-box}
+.ibuc a{color:#1f5fbf;text-decoration:none}.ibuc a:hover{text-decoration:underline}
+.ibuc h1,.ibuc h2,.ibuc h3{line-height:1.25;margin:0 0 12px;color:var(--n);font-weight:700;letter-spacing:0;text-transform:none}
+.ibuc h2{font-size:24px;margin-top:8px}.ibuc h3{font-size:18px}
+.ibuc p{margin:0 0 12px}
+.ibuc .ibuc-crumb{font-size:13px;color:var(--m);margin:0 0 12px}
+.ibuc .ibuc-hero{border-radius:16px;padding:28px 26px;color:#fff;margin:0 0 20px}
+.ibuc .ibuc-hero h1{color:#fff !important;font-size:34px;margin:6px 0 10px}
+.ibuc .ibuc-eye{font-size:12px;letter-spacing:.12em;text-transform:uppercase;opacity:.85;font-weight:700}
+.ibuc .ibuc-hero p{color:#e8ecf4;margin:0 0 14px;max-width:760px}
+.ibuc .ibuc-pills{display:flex;flex-wrap:wrap;gap:8px}
+.ibuc .ibuc-pill{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);color:#fff;border-radius:999px;padding:3px 12px;font-size:13px}
+.ibuc .ibuc-card{background:#fff;border:1px solid var(--b);border-radius:14px;padding:22px;margin:0 0 22px;box-shadow:0 2px 10px rgba(26,35,51,.05)}
+.ibuc .ibuc-tool{border-top:4px solid var(--a);scroll-margin-top:90px}
+.ibuc .ibuc-grid{display:grid;grid-template-columns:1fr 1.3fr auto 1.3fr;gap:12px;align-items:end}
+.ibuc .ibuc-field label{display:block;font-size:13px;font-weight:700;color:var(--m);margin:0 0 5px}
+.ibuc .ibuc-field input,.ibuc .ibuc-field select{width:100%;height:46px;border:1.5px solid var(--b) !important;border-radius:10px !important;padding:0 12px !important;font-size:16px;background:#fff !important;color:var(--t) !important;margin:0;box-shadow:none}
+.ibuc .ibuc-field input:focus,.ibuc .ibuc-field select:focus{outline:none;border-color:var(--a) !important;box-shadow:0 0 0 3px rgba(217,98,43,.15)}
+.ibuc .ibuc-field input.ibuc-bad{border-color:#c0392b !important}
+.ibuc button.ibuc-swap{height:46px;width:46px;border-radius:50% !important;border:1.5px solid var(--b) !important;background:var(--l) !important;color:var(--n) !important;font-size:20px;cursor:pointer;padding:0 !important;line-height:1}
+.ibuc button.ibuc-swap:hover{background:var(--n) !important;color:#fff !important}
+.ibuc .ibuc-result{background:var(--l);border-radius:12px;padding:16px 18px;margin:16px 0 12px}
+.ibuc .ibuc-res-main{font-size:22px;color:var(--n);word-break:break-word}
+.ibuc .ibuc-res-main b{color:var(--a);font-size:28px}
+.ibuc .ibuc-res-sub{font-size:14px;color:var(--m);margin-top:6px;word-break:break-word}
+.ibuc .ibuc-bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:14px;color:var(--m)}
+.ibuc .ibuc-bar select{height:36px;border:1.5px solid var(--b) !important;border-radius:8px !important;padding:0 8px !important;background:#fff !important;color:var(--t) !important;width:auto}
+.ibuc button.ibuc-btn{background:var(--n) !important;color:#fff !important;border:0 !important;border-radius:8px !important;padding:8px 16px !important;font-size:14px;font-weight:600;cursor:pointer;line-height:1.2}
+.ibuc button.ibuc-btn:hover{background:var(--a) !important}
+.ibuc .ibuc-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;align-items:center}
+.ibuc .ibuc-chips span{font-size:13px;font-weight:700;color:var(--m)}
+.ibuc button.ibuc-chip,.ibuc a.ibuc-chip{background:#fff !important;border:1.5px solid var(--b) !important;color:var(--n) !important;border-radius:999px !important;padding:5px 13px !important;font-size:13px;cursor:pointer;line-height:1.3;font-weight:500;text-decoration:none}
+.ibuc button.ibuc-chip:hover,.ibuc a.ibuc-chip:hover{border-color:var(--a) !important;color:var(--a) !important;text-decoration:none}
+.ibuc .ibuc-tw{overflow-x:auto;border:1px solid var(--b);border-radius:10px}
+.ibuc table.ibuc-t{width:100%;border-collapse:collapse;margin:0;font-size:15px;border:0}
+.ibuc table.ibuc-t th{background:var(--n) !important;color:#fff !important;text-align:left;padding:10px 12px;font-weight:600;border:0 !important}
+.ibuc table.ibuc-t td{padding:8px 12px;border:0 !important;border-bottom:1px solid var(--b) !important;background:#fff;vertical-align:top}
+.ibuc table.ibuc-t tr:nth-child(even) td{background:#fafbfd}
+.ibuc table.ibuc-t tr:last-child td{border-bottom:0 !important}
+.ibuc table.ibuc-t td.ibuc-num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.ibuc #ibuc-all tr{cursor:pointer}.ibuc #ibuc-all tr:hover td{background:#fff4ee}
+.ibuc #ibuc-all tr.ibuc-hl td{background:#fde9de;font-weight:700}
+.ibuc .ibuc-two{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.ibuc .ibuc-fbox{background:var(--n);color:#fff;border-radius:12px;padding:16px 18px;margin:12px 0;font-family:Consolas,Menlo,monospace;font-size:15px;word-break:break-word}
+.ibuc .ibuc-key{border-left:4px solid var(--a);background:#fff6f1;border-radius:0 10px 10px 0;padding:12px 16px;margin:12px 0}
+.ibuc .ibuc-steps{margin:0 0 12px;padding-left:22px}.ibuc .ibuc-steps li{margin-bottom:6px}
+.ibuc details{border:1px solid var(--b);border-radius:10px;margin:0 0 10px;background:#fff}
+.ibuc summary{cursor:pointer;padding:12px 16px;font-weight:700;color:var(--n);list-style:none}
+.ibuc summary::-webkit-details-marker{display:none}
+.ibuc summary:before{content:"Q";display:inline-block;background:var(--a);color:#fff;border-radius:6px;width:22px;height:22px;text-align:center;line-height:22px;font-size:12px;margin-right:10px}
+.ibuc details p{padding:0 16px 14px 48px;margin:0;color:var(--t)}
+.ibuc .ibuc-links{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.ibuc .ibuc-links a{display:block;border:1px solid var(--b);border-radius:10px;padding:10px 14px;background:#fff;color:var(--n);font-weight:600;font-size:15px}
+.ibuc .ibuc-links a small{display:block;font-weight:400;color:var(--m);font-size:12.5px;margin-top:2px}
+.ibuc .ibuc-links a:hover{border-color:var(--a);text-decoration:none;box-shadow:0 3px 12px rgba(217,98,43,.12)}
+.ibuc .ibuc-ymal{border-radius:14px;padding:22px;color:#fff;margin:0 0 22px}
+.ibuc .ibuc-ymal h3{color:#fff !important;margin-bottom:6px}
+.ibuc .ibuc-ymal .ibuc-yt{font-weight:700;font-size:18px;margin:0 0 6px}
+.ibuc .ibuc-ymal p{color:#e8ecf4}
+.ibuc a.ibuc-go{display:inline-block;background:var(--g);color:#fff !important;border-radius:999px;padding:8px 20px;font-weight:700;font-size:14px}
+.ibuc a.ibuc-go:hover{text-decoration:none;filter:brightness(1.08)}
+.ibuc .ibuc-ref{background:var(--l);border:1px solid var(--b);border-radius:14px;padding:20px 22px;margin:0 0 22px}
+.ibuc .ibuc-ad{margin:6px 0 24px;text-align:center}
+.ibuc .ibuc-adl{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#98a1b0;border-top:1px dotted #c8cfdb;border-bottom:1px dotted #c8cfdb;padding:3px 0;margin-bottom:8px}
+.ibuc .ibuc-adph{border:1.5px dashed #c8cfdb;border-radius:8px;padding:30px;color:#98a1b0;font-size:13px}
+.ibuc .ibuc-status{border-radius:8px;padding:10px 14px;font-size:14px;margin:12px 0 0}
+.ibuc .ibuc-ok{background:#e7f6ee;color:#14663a}.ibuc .ibuc-warn{background:#fff4dc;color:#7a5400}.ibuc .ibuc-err{background:#fde7e7;color:#9b1c1c}
+.ibuc .ibuc-g3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.ibuc .ibuc-g4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.ibuc .ibuc-sub{font-size:13px;color:var(--m);margin:6px 0 0}
+.ibuc .ibuc-search{width:100%;height:52px;border:2px solid rgba(255,255,255,.35) !important;background:rgba(255,255,255,.96) !important;border-radius:12px !important;padding:0 16px !important;font-size:17px;color:var(--t) !important;margin-top:6px}
+.ibuc .ibuc-cat{scroll-margin-top:90px}
+.ibuc .ibuc-cath{display:flex;align-items:center;gap:12px;margin:0 0 4px}
+.ibuc .ibuc-dot{width:12px;height:12px;border-radius:50%;flex:none}
+.ibuc .ibuc-toc{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.ibuc .ibuc-stats{display:flex;gap:22px;flex-wrap:wrap;margin:4px 0 14px}
+.ibuc .ibuc-stats b{display:block;font-size:26px;color:#fff}.ibuc .ibuc-stats span{font-size:13px;color:#cfd6e4}
+.ibuc .ibuc-empty{display:none;color:var(--m);padding:10px 0}
+@media (max-width:760px){
+ .ibuc .ibuc-grid{grid-template-columns:1fr}
+ .ibuc button.ibuc-swap{position:relative;grid-column:1/-1;width:100%;border-radius:10px !important;height:38px}
+ .ibuc .ibuc-two,.ibuc .ibuc-g3,.ibuc .ibuc-g4{grid-template-columns:1fr}
+ .ibuc .ibuc-hero{padding:22px 18px}.ibuc .ibuc-hero h1{font-size:26px}
+ .ibuc .ibuc-card{padding:16px}
+ .ibuc .ibuc-res-main{font-size:18px}.ibuc .ibuc-res-main b{font-size:22px}
+}
+</style><style>
+.ibuc .ibuc-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 16px}
+.ibuc button.ibuc-tab{background:var(--l) !important;color:var(--n) !important;border:1.5px solid var(--b) !important;border-radius:999px !important;padding:8px 16px !important;font-size:14px;font-weight:700;cursor:pointer;line-height:1.2}
+.ibuc button.ibuc-tab.on{background:var(--n) !important;color:#fff !important;border-color:var(--n) !important}
+.ibuc .ibuc-out{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:16px 0 0}
+.ibuc .ibuc-o{background:var(--l);border-radius:12px;padding:12px 14px}
+.ibuc .ibuc-o span{display:block;font-size:12.5px;color:var(--m);font-weight:600}
+.ibuc .ibuc-o b{display:block;font-size:22px;color:var(--n);font-variant-numeric:tabular-nums;word-break:break-word}
+.ibuc .ibuc-o.main{background:#fff1e9}.ibuc .ibuc-o.main b{color:var(--a);font-size:26px}
+.ibuc .ibuc-steps-box{background:#fff;border:1px dashed var(--b);border-radius:10px;padding:12px 16px;margin:14px 0 0;font-size:14.5px}
+.ibuc .ibuc-steps-box ol{margin:6px 0 0;padding-left:20px}
+.ibuc table.ibuc-grid10 td,.ibuc table.ibuc-grid10 th{text-align:right;padding:6px 8px;font-size:13.5px;white-space:nowrap}
+.ibuc table.ibuc-grid10 td:first-child,.ibuc table.ibuc-grid10 th:first-child{text-align:left;font-weight:700;background:#eef2f9}
+.ibuc .ibuc-soon a,.ibuc .ibuc-soon div{opacity:1}
+.ibuc .ibuc-links div.ibuc-dis{display:block;border:1px dashed var(--b);border-radius:10px;padding:10px 14px;background:#fafbfd;color:#8a93a3;font-weight:600;font-size:15px}
+.ibuc .ibuc-links div.ibuc-dis small{display:block;font-weight:400;font-size:12.5px;margin-top:2px}
+.ibuc .ibuc-badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:middle}
+.ibuc .ibuc-badge.live{background:#e7f6ee;color:#14663a}.ibuc .ibuc-badge.soon{background:#eef1f6;color:#6b7383}
+.ibuc .ibuc-catgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.ibuc .ibuc-catcard{display:block;border-radius:14px;padding:18px;color:#fff !important;min-height:150px;position:relative}
+.ibuc a.ibuc-catcard:hover{text-decoration:none;transform:translateY(-2px);box-shadow:0 8px 22px rgba(26,35,51,.18)}
+.ibuc .ibuc-catcard h3{color:#fff !important;margin:0 0 6px;font-size:19px}
+.ibuc .ibuc-catcard p{color:#e3e8f1;font-size:14px;margin:0 0 10px}
+.ibuc .ibuc-catcard span{font-size:12.5px;font-weight:700;background:rgba(255,255,255,.16);border-radius:999px;padding:3px 10px}
+@media print{.ibs-top,.ibs-head,.ibs-foot,.ibuc-ad,.ibuc-hero,.ibuc-noprint{display:none !important}.ibuc .ibuc-card{box-shadow:none;border:0}}
+</style><style>
+.ibuc .ibx-bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 14px}
+.ibuc .ibx-q{flex:1 1 260px;min-width:0;padding:12px 14px 12px 40px !important;border:1px solid #cfd8e3 !important;border-radius:12px !important;font-size:15px !important;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236b7686' stroke-width='2.4'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m20 20-3.5-3.5'/%3E%3C/svg%3E") no-repeat 14px 50% !important;box-sizing:border-box}
+.ibuc .ibx-q:focus{outline:2px solid #1e73be;border-color:#1e73be !important}
+.ibuc .ibx-n{font-size:13.5px;color:#5a6575;white-space:nowrap;font-weight:600}
+.ibuc .ibx-chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.ibuc .ibx-chip{border:1px solid var(--b,#cfd8e3) !important;background:var(--l,#fff) !important;color:var(--d,#1f2733) !important;border-radius:999px !important;padding:7px 15px !important;font-size:13.5px !important;font-weight:700;cursor:pointer;line-height:1.3;transition:transform .12s}
+.ibuc .ibx-chip:hover{transform:translateY(-1px)}
+.ibuc .ibx-chip.on{background:var(--d,#1a2333) !important;color:#fff !important;border-color:var(--d,#1a2333) !important}
+.ibuc .ibx-chip b{font-weight:600;opacity:.7;margin-left:5px}
+.ibuc .ibx-grp{margin:0 0 26px}
+.ibuc .ibx-gh{display:flex;align-items:center;gap:10px;margin:0 0 12px;font-size:17px;font-weight:800;color:var(--d)}
+.ibuc .ibx-gh:before{content:"";width:10px;height:22px;border-radius:4px;background:var(--d)}
+.ibuc .ibx-gh small{font-size:12.5px;font-weight:700;background:var(--l);border:1px solid var(--b);color:var(--d);border-radius:999px;padding:2px 9px}
+.ibuc .ibx-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
+.ibuc a.ibx-card{position:relative;display:flex;flex-direction:column;gap:6px;min-height:120px;padding:16px 16px 14px;border:1px solid var(--b);border-top:4px solid var(--d);border-radius:14px;background:var(--l);color:#1f2733 !important;text-decoration:none !important;transition:transform .15s,box-shadow .15s;box-sizing:border-box}
+.ibuc a.ibx-card:hover{transform:translateY(-3px);box-shadow:0 10px 22px rgba(26,35,51,.13)}
+.ibuc .ibx-card .ibx-t{max-width:calc(100% - 34px);box-sizing:border-box;align-self:flex-start;font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--d);background:#fff;border:1px solid var(--b);border-radius:999px;padding:2px 8px}
+.ibuc .ibx-card .ibx-h{font-size:15.5px;font-weight:700;line-height:1.35;padding-right:20px}
+.ibuc .ibx-card .ibx-s{font-size:13px;color:#4f5a6a;line-height:1.4;margin-top:auto}
+.ibuc .ibx-card:after{content:"→";position:absolute;right:14px;top:14px;width:24px;height:24px;line-height:24px;text-align:center;border-radius:50%;background:#fff;color:var(--d);font-weight:800;font-size:13px;transition:transform .15s}
+.ibuc .ibx-card:hover:after{transform:translateX(3px)}
+.ibuc .ibx-adslot{margin:4px 0 30px}
+.ibuc .ibx-adslot .ibuc-ad{margin:0}
+.ibuc .ibx-none{display:none;padding:18px;text-align:center;color:#5a6575;border:1px dashed #cfd8e3;border-radius:12px;margin:0 0 20px}
+@media(max-width:520px){.ibuc .ibx-grid{grid-template-columns:1fr;gap:12px}.ibuc a.ibx-card{min-height:0}}
+</style><style>
+.ibuc .cmp-verdict{font-size:17.5px;line-height:1.55;background:#fff;border-left:5px solid var(--gc);border-radius:12px;padding:16px 18px;margin:0 0 22px;box-shadow:0 1px 3px rgba(26,35,51,.08)}
+.ibuc .cmp-verdict b{color:var(--gc)}
+.ibuc .cmp-wrap{overflow-x:auto;margin:0 -4px;padding:0 4px}
+.ibuc table.cmp-t{width:100%;border-collapse:separate;border-spacing:0;font-size:15px;min-width:520px}
+.ibuc table.cmp-t th{background:var(--gc);color:#fff;text-align:left;padding:11px 12px;font-size:14.5px}
+.ibuc table.cmp-t th:first-child{border-radius:10px 0 0 0;background:#1a2333}.ibuc table.cmp-t th:last-child{border-radius:0 10px 0 0;background:#3b4bb0}
+.ibuc table.cmp-t td{padding:10px 12px;border-bottom:1px solid #e3e7ee;vertical-align:top}
+.ibuc table.cmp-t tr:nth-child(even) td{background:#f6f8fb}
+.ibuc table.cmp-t td:first-child{font-weight:700;color:#13283f;width:24%}
+.ibuc .cmp-two{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 22px}
+.ibuc .cmp-box{border-radius:14px;padding:18px 20px;border:1px solid var(--b);background:var(--l);border-top:4px solid var(--d)}
+.ibuc .cmp-box h3{margin:0 0 10px;color:var(--d);font-size:18px}
+.ibuc .cmp-box ul{margin:0;padding-left:20px}.ibuc .cmp-box li{margin:0 0 6px}
+@media(max-width:640px){.ibuc .cmp-two{grid-template-columns:1fr}
+.ibuc table.cmp-t{min-width:0}.ibuc table.cmp-t thead{display:none}
+.ibuc table.cmp-t tr{display:block;border:1px solid #e3e7ee;border-radius:12px;margin:0 0 12px;overflow:hidden}
+.ibuc table.cmp-t td{display:block;width:auto !important;border-bottom:1px solid #eef1f5}
+.ibuc table.cmp-t td:first-child{background:#1a2333 !important;color:#fff}
+.ibuc table.cmp-t td[data-l]:before{content:attr(data-l);display:block;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:var(--gc);margin-bottom:2px}
+.ibuc table.cmp-t td:last-child[data-l]:before{color:#3b4bb0}
+.ibuc table.cmp-t tr:nth-child(even) td{background:#fff}}
+</style>
+<div class="ibuc" id="ibuc-app" style="--gc:#1d7a46">
+<nav class="ibuc-crumb" aria-label="Breadcrumb"><a href="https://instrumentationblog.in/">Home</a> › <a href="https://instrumentationblog.in/how-it-works/">How It Works</a> › DP Level Measurement</nav>
+<header class="ibuc-hero" style="background:linear-gradient(135deg,#1d7a46 0%,#0b3320 100%)">
+  <div class="ibuc-eye">Level · How It Works</div>
+  <h1>How DP Level Measurement Works</h1>
+  <p>Fill the tank and change the liquid density. The transmitter is calibrated for water, so watch the shown level drift when the specific gravity changes.</p>
+  <div class="ibuc-pills"><span class="ibuc-pill">Live animation</span><span class="ibuc-pill">Adjustable sliders</span><span class="ibuc-pill">Formula and example</span></div>
+</header>
+<p class="cmp-verdict"><b>Quick answer:</b> DP level measurement uses the pressure at the bottom of a tank. Liquid head pressure equals density × g × height, so a DP transmitter calibrated for a known density converts pressure into level.</p>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>How DP Level Measurement Works: Interactive Animation</h2>
+<div class="hw-stage"><canvas id="hw-cv" role="img" aria-label="Animated diagram showing how dp level measurement works"></canvas></div>
+<div class="hw-bar"><button type="button" class="hw-pp" id="hw-pp">Pause animation</button><span class="hw-note">Numbered markers match the parts list below.</span></div>
+<div class="hw-ctl" id="hw-ctl"><div class="hw-s"><label for="hw-h">Actual level <b id="hw-h-v"></b></label><input type="range" id="hw-h" data-k="h" min="0" max="5" step="0.05" value="3" data-d="2" data-u="m"></div><div class="hw-s"><label for="hw-sg">Liquid specific gravity <b id="hw-sg-v"></b></label><input type="range" id="hw-sg" data-k="sg" min="0.6" max="1.4" step="0.01" value="1.0" data-d="2" data-u=""></div></div>
+<div class="ibuc-out"><div class="ibuc-o"><span>Pressure at the H port</span><b id="hw-o-p">…</b></div><div class="ibuc-o main"><span>Transmitter output</span><b id="hw-o-ma">…</b></div><div class="ibuc-o"><span>Level shown</span><b id="hw-o-ind">…</b></div><div class="ibuc-o"><span>Level error</span><b id="hw-o-err">…</b></div></div>
+<ol class="hw-leg"><li><i>1</i><span>Open tank</span></li><li><i>2</i><span>H side connected at the zero level</span></li><li><i>3</i><span>L side vented to atmosphere</span></li><li><i>4</i><span>DP transmitter</span></li><li><i>5</i><span>Liquid head h</span></li></ol>
+</section>
+<section class="ibuc-card"><h2>DP Level Measurement Working Principle Step by Step</h2><ol class="hw-steps"><li>The H side of the transmitter connects near the tank bottom; the L side sees the gas space or atmosphere.</li><li>Liquid above the tap pushes down with pressure P = ρ × g × h.</li><li>The transmitter is ranged for that pressure at the design density, for example 0 to 49.03 kPa for 0 to 5 m of water.</li><li>Output is 4 to 20 mA in proportion to pressure and therefore to level.</li><li>If the real density differs from the design density, the shown level is wrong in the same ratio.</li></ol></section>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>DP Level Measurement Formula</h2><div class="hw-f"><b>P = ρ × g × h</b><br>h = P ÷ (ρ × g)<br>Span for 5 m water: 1000 × 9.80665 × 5 = 49.03 kPa<br>Shown level = actual level × (actual SG ÷ design SG)</div></section>
+<section class="ibuc-card"><h2>Main Parts of DP Level Measurement</h2><div class="cmp-wrap"><table class="cmp-t"><thead><tr><th>Part</th><th>What it does</th></tr></thead><tbody><tr><td>Tank nozzle</td><td data-l="What it does">Bottom connection that sets the zero point</td></tr><tr><td>DP transmitter</td><td data-l="What it does">Measures the head pressure and outputs 4 to 20 mA</td></tr><tr><td>Isolation valves and manifold</td><td data-l="What it does">Allow zeroing and maintenance</td></tr><tr><td>LP leg</td><td data-l="What it does">Vented for open tanks, connected to the vapour space for closed tanks</td></tr></tbody></table></div></section>
+<div class="cmp-two"><div class="cmp-box" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2"><h3>Advantages</h3><ul><li>Simple, proven and inexpensive</li><li>Works with foam, vapour and most liquids</li><li>Easy to calibrate and verify</li></ul></div><div class="cmp-box" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8"><h3>Limitations</h3><ul><li>Reading depends on density</li><li>Closed tanks need wet or dry leg corrections</li><li>Plugged taps or impulse lines cause errors</li></ul></div></div>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>Related Calculators and Tools</h2><div class="ibx-grid"><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://instrumentationblog.in/calculators/level/dp-level-transmitter-calculator/"><span class="ibx-t">Calculator</span><span class="ibx-h">DP Level Transmitter Calculator</span><span class="ibx-s">Free online calculator with formula and worked example.</span></a><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://instrumentationblog.in/calculators/level/pressure-to-level-calculator/"><span class="ibx-t">Calculator</span><span class="ibx-h">Pressure to Level Calculator</span><span class="ibx-s">Free online calculator with formula and worked example.</span></a><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://instrumentationblog.in/calculators/level/density-from-dp-calculator/"><span class="ibx-t">Calculator</span><span class="ibx-h">Density from DP Calculator</span><span class="ibx-s">Free online calculator with formula and worked example.</span></a><a class="ibx-card" style="--l:#e4f6f7;--d:#0f7b80;--b:#bfe6e8" href="https://instrumentationblog.in/tools/troubleshooting/level-transmitter-fault-finder/"><span class="ibx-t">Tool</span><span class="ibx-h">Level Transmitter Fault Finder</span><span class="ibx-s">Step by step interactive troubleshooting.</span></a><a class="ibx-card" style="--l:#fff4e0;--d:#a8620a;--b:#f5ddb0" href="https://instrumentationblog.in/glossary/dp-level-measurement/"><span class="ibx-t">Glossary</span><span class="ibx-h">DP Level Measurement</span><span class="ibx-s">Definition, formula and example.</span></a><a class="ibx-card" style="--l:#fff4e0;--d:#a8620a;--b:#f5ddb0" href="https://instrumentationblog.in/glossary/hydrostatic-pressure/"><span class="ibx-t">Glossary</span><span class="ibx-h">Hydrostatic Pressure</span><span class="ibx-s">Definition, formula and example.</span></a><a class="ibx-card" style="--l:#f3edfc;--d:#6b3fb0;--b:#ddd0f3" href="https://instrumentationblog.in/compare/dp-vs-radar-level-measurement/"><span class="ibx-t">Compare</span><span class="ibx-h">DP vs Radar Level Measurement</span><span class="ibx-s">Side by side comparison table.</span></a></div></section>
+<section class="ibuc-card"><h2>Frequently Asked Questions</h2><details open><summary>Why does density affect DP level?</summary><p>The transmitter measures pressure, not height. A lighter liquid gives less pressure for the same height, so it reads low unless the density is corrected.</p></details><details><summary>What about closed tanks?</summary><p>Connect the L side to the vapour space so tank pressure cancels out. A wet leg or remote seals may be needed, with zero suppression or elevation.</p></details><details><summary>Where should the H tap be?</summary><p>At or below the lowest level you need to measure, as the transmitter cannot see below the tap.</p></details><details><summary>What is zero suppression?</summary><p>It shifts the range when the transmitter is mounted below the tap, so the extra liquid head in the line is not read as level.</p></details></section>
+<div class="ibuc-ymal" style="background:linear-gradient(135deg,#1d7a46 0%,#0b3320 100%)"><div class="ibuc-eye">You May Also Like</div><h3>Learn more on the blog</h3><p class="ibuc-yt">DP transmitter level measurement</p><p>A practical guide on instrumentationblog.in that goes deeper into this topic with field examples.</p><a class="ibuc-go" href="https://instrumentationblog.in/dp-transmitter-level-measurement/">Read Full Article</a></div>
+<section class="ibuc-card"><h2>More How It Works</h2><div class="ibx-grid"><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://instrumentationblog.in/how-it-works/orifice-plate/"><span class="ibx-t">Flow</span><span class="ibx-h">How an Orifice Plate Works</span><span class="ibx-s">An orifice plate is a thin plate with a hole that squeezes the flow…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://instrumentationblog.in/how-it-works/magnetic-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How a Magnetic Flow Meter Works</span><span class="ibx-s">A magnetic flow meter (magmeter) uses Faraday&#x27;s law…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://instrumentationblog.in/how-it-works/vortex-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How a Vortex Flow Meter Works</span><span class="ibx-s">A vortex flow meter places a bluff body (shedder bar) across the flow…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://instrumentationblog.in/how-it-works/coriolis-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How a Coriolis Flow Meter Works</span><span class="ibx-s">A Coriolis meter vibrates its flow tubes at their natural frequency…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://instrumentationblog.in/how-it-works/ultrasonic-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How an Ultrasonic Flow Meter Works</span><span class="ibx-s">A transit time ultrasonic flow meter sends sound pulses diagonally across the pipe in both direc…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://instrumentationblog.in/how-it-works/turbine-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How a Turbine Flow Meter Works</span><span class="ibx-s">A turbine flow meter has a free spinning bladed rotor in the flow…</span></a><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://instrumentationblog.in/how-it-works/radar-level-transmitter/"><span class="ibx-t">Level</span><span class="ibx-h">How a Radar Level Transmitter Works</span><span class="ibx-s">A radar level transmitter sends microwave signals from an antenna at the top of the tank…</span></a><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://instrumentationblog.in/how-it-works/displacer-level-transmitter/"><span class="ibx-t">Level</span><span class="ibx-h">How a Displacer Level Transmitter Works</span><span class="ibx-s">A displacer level transmitter hangs a heavy cylinder (the displacer) in the liquid…</span></a><a class="ibx-card" style="--l:#fff4e0;--d:#a8620a;--b:#f5ddb0" href="https://instrumentationblog.in/how-it-works/bourdon-tube-pressure-gauge/"><span class="ibx-t">Pressure</span><span class="ibx-h">How a Bourdon Tube Pressure Gauge Works</span><span class="ibx-s">A Bourdon tube is a flattened, curved metal tube sealed at the tip…</span></a><a class="ibx-card" style="--l:#f3edfc;--d:#6b3fb0;--b:#ddd0f3" href="https://instrumentationblog.in/how-it-works/thermocouple/"><span class="ibx-t">Temperature</span><span class="ibx-h">How a Thermocouple Works</span><span class="ibx-s">A thermocouple is two different metal wires joined at the measuring point…</span></a><a class="ibx-card" style="--l:#e4f6f7;--d:#0f7b80;--b:#bfe6e8" href="https://instrumentationblog.in/how-it-works/valve-positioner/"><span class="ibx-t">Control Valve</span><span class="ibx-h">How a Valve Positioner Works</span><span class="ibx-s">A valve positioner compares the control signal (4 to 20 mA) with the actual stem position from a…</span></a></div></section>
+<p style="text-align:center;margin:0 0 22px"><a href="https://instrumentationblog.in/how-it-works/"><b>All How It Works animations</b></a> · <a href="https://instrumentationblog.in/glossary/"><b>Instrumentation glossary</b></a> · <a href="https://instrumentationblog.in/compare/"><b>Comparisons</b></a></p>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+</div>
+<script>
+(function(){
+var cv=document.getElementById('hw-cv');if(!cv)return;
+var C=cv.getContext('2d'),W=640,H=360,run=true,vis=true,last=0,T=0,P={},dirty=true;
+function fit(){var w=cv.parentNode.clientWidth,d=window.devicePixelRatio||1,s=w/W;cv.width=Math.round(w*d);cv.height=Math.round(H*s*d);cv.style.height=Math.round(H*s)+'px';C.setTransform(s*d,0,0,s*d,0,0);dirty=true;}
+function m(x,d){var s=Math.abs(x).toFixed(d);return(x<0&&Number(s)!==0?'−':'')+s;}
+function o(id,v){var e=document.getElementById('hw-o-'+id);if(e&&e.textContent!==v)e.textContent=v;}
+function L(t,x,y,sz,c,a,b){C.font=(b?'700 ':'')+(sz||13)+'px "Segoe UI",Arial,sans-serif';C.fillStyle=c||'#1f2733';C.textAlign=a||'center';C.textBaseline='middle';C.fillText(t,x,y);}
+function ln(x1,y1,x2,y2,c,w,d){C.strokeStyle=c;C.lineWidth=w||1.5;C.setLineDash(d||[]);C.beginPath();C.moveTo(x1,y1);C.lineTo(x2,y2);C.stroke();C.setLineDash([]);}
+function rc(x,y,w,h,f,s,r){C.beginPath();if(r&&C.roundRect)C.roundRect(x,y,w,h,r);else C.rect(x,y,w,h);if(f){C.fillStyle=f;C.fill();}if(s){C.strokeStyle=s;C.lineWidth=1.5;C.stroke();}}
+function ci(x,y,r,f,s,w){C.beginPath();C.arc(x,y,r,0,Math.PI*2);if(f){C.fillStyle=f;C.fill();}if(s){C.strokeStyle=s;C.lineWidth=w||1.5;C.stroke();}}
+function mk(n,x,y){ci(x,y,11,'#d9622b','#fff',2);L(String(n),x,y+1,13,'#fff','center',1);}
+function ar(x1,y1,x2,y2,c,w){ln(x1,y1,x2,y2,c,w);var a=Math.atan2(y2-y1,x2-x1),h=8;C.fillStyle=c;C.beginPath();C.moveTo(x2,y2);C.lineTo(x2-h*Math.cos(a-.45),y2-h*Math.sin(a-.45));C.lineTo(x2-h*Math.cos(a+.45),y2-h*Math.sin(a+.45));C.closePath();C.fill();}
+function sm(u){u=u<0?0:u>1?1:u;return u*u*(3-2*u);}
+function clamp(x,a,b){return x<a?a:x>b?b:x;}
+function rd(){[].forEach.call(document.querySelectorAll('#hw-ctl input'),function(i){P[i.dataset.k]=parseFloat(i.value);var e=document.getElementById(i.id+'-v');if(e)e.textContent=m(P[i.dataset.k],+i.dataset.d)+(i.dataset.u?' '+i.dataset.u:'');});upd();dirty=true;}
+function pipe(x1,x2,cy,R,fl){rc(x1,cy-R-12,x2-x1,12,'#9aa5b8');rc(x1,cy+R,x2-x1,12,'#9aa5b8');rc(x1,cy-R,x2-x1,2*R,fl||'#e6f0fd');}
+
+var px=260/5.5,yb=312;
+function pr(){return P.sg*1000*9.80665*P.h/1000;}
+function span(){return 1000*9.80665*5/1000;}
+function ma(){return clamp(4+16*pr()/span(),3.8,20.5);}
+function upd(){o('p',m(pr(),2)+' kPa ('+m(pr()*10,1)+' mbar)');o('ma',m(ma(),2)+' mA');var ind=(ma()-4)/16*5;o('ind',m(ind,2)+' m');o('err',m(ind-P.h,2)+' m');}
+function step(dt){}
+function draw(){rc(110,40,200,290,null,'#475569');var top=yb-P.h*px,sg=clamp((P.sg-0.6)/0.8,0,1);var col='rgb('+Math.round(150-110*sg)+','+Math.round(200-110*sg)+','+Math.round(250-70*sg)+')';
+rc(112,top,196,328-top,col);for(var k=0;k<4;k++){var yy=top+4+3*Math.sin(T*2+k);}
+ln(112,top,308,top,'#1e3a8a',2);for(var mm=0;mm<=5;mm++){var y=yb-mm*px;ln(110,y,122,y,'#475569',1);L(mm+' m',104,y,11,'#5b6576','right');}
+ar(200,top+6,200,yb-4,'#ffffff',2);ar(200,yb-4,200,top+6,'#ffffff',2);L('h = '+m(P.h,2)+' m',214,(top+yb)/2,13,top<yb-30?'#fff':'#1a2333','left',1);
+ln(310,yb,420,yb,'#b02a52',4);rc(420,282,84,60,'#1a2333',null,8);L('DP',438,296,12,'#fff','center',1);rc(452,300,46,22,'#bbf7d0',null,3);L(m(ma(),1),475,311,12,'#14532d','center',1);L('H',414,yb-10,11,'#b02a52','right',1);
+ln(490,282,490,236,'#1e63b8',3);ln(480,236,500,236,'#1e63b8',3);L('L vented',474,236,11,'#1e63b8','right',1);
+var bx=540,by=330,bh=5*px;rc(bx,by-bh,26,bh,'#f1f5f9','#cbd5e1');rc(bx,by-P.h*px,26,P.h*px,'#1e63b8');var ind=(ma()-4)/16*5;rc(bx+34,by-bh,26,bh,'#f1f5f9','#cbd5e1');rc(bx+34,by-clamp(ind,0,5.5)*px,26,clamp(ind,0,5.5)*px,'#d9622b');
+L('Actual',bx+13,by+14,10,'#1e63b8','center',1);L('Shown',bx+47,by+14,10,'#d9622b','center',1);
+L('Calibrated: 0 to 5 m at SG 1.0',30,22,11,'#5b6576','left');
+mk(1,128,58);mk(2,340,yb+18);mk(3,512,258);mk(4,520,296);mk(5,250,(top+yb)/2+20);}
+
+function fr(t){var dt=Math.min(.05,((t-last)/1000)||0);last=t;if(run&&vis&&!document.hidden){T+=dt;step(dt);dirty=true;}if(dirty&&vis){C.clearRect(0,0,W,H);draw();dirty=false;}requestAnimationFrame(fr);}
+[].forEach.call(document.querySelectorAll('#hw-ctl input'),function(i){i.addEventListener('input',rd);});
+var pp=document.getElementById('hw-pp');if(pp)pp.addEventListener('click',function(){run=!run;pp.textContent=run?'Pause animation':'Play animation';});
+if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){run=false;if(pp)pp.textContent='Play animation';}
+if('IntersectionObserver' in window)new IntersectionObserver(function(e){vis=e[0].isIntersecting;dirty=true;}).observe(cv);
+window.addEventListener('resize',function(){fit();C.clearRect(0,0,W,H);draw();});fit();rd();step(0.016);draw();requestAnimationFrame(fr);
+})();
+</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://instrumentationblog.in/"},{"@type":"ListItem","position":2,"name":"How It Works","item":"https://instrumentationblog.in/how-it-works/"},{"@type":"ListItem","position":3,"name":"How DP Level Measurement Works","item":"https://instrumentationblog.in/how-it-works/dp-level-measurement/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why does density affect DP level?","acceptedAnswer":{"@type":"Answer","text":"The transmitter measures pressure, not height. A lighter liquid gives less pressure for the same height, so it reads low unless the density is corrected."}},{"@type":"Question","name":"What about closed tanks?","acceptedAnswer":{"@type":"Answer","text":"Connect the L side to the vapour space so tank pressure cancels out. A wet leg or remote seals may be needed, with zero suppression or elevation."}},{"@type":"Question","name":"Where should the H tap be?","acceptedAnswer":{"@type":"Answer","text":"At or below the lowest level you need to measure, as the transmitter cannot see below the tap."}},{"@type":"Question","name":"What is zero suppression?","acceptedAnswer":{"@type":"Answer","text":"It shifts the range when the transmitter is mounted below the tap, so the extra liquid head in the line is not read as level."}}]}]}</script></main>
+<footer class="ibs-foot"><div class="ibs-in"><span>© 2026 instrumentationblog.in · Free tools for instrumentation and control engineers</span><span><a href="https://instrumentationblog.in/">Home</a> · <a href="https://instrumentationblog.in/calculators/">Calculators</a> · <a href="https://instrumentationblog.in/unit-converters/">Unit Converters</a> · <a href="https://instrumentationblog.in/tools/">Tools</a> · <a href="https://instrumentationblog.in/downloads/">Downloads</a> · <a href="https://instrumentationblog.in/glossary/">Glossary</a></span></div></footer>
+</body>
+</html>

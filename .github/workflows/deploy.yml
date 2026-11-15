@@ -1,0 +1,48 @@
+name: Deploy to instrumentationblog.in
+
+# Uploads everything in site/ to the hosting account over FTPS.
+# Only changed files are sent. Files outside site/ (generator, README) are never uploaded.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - ".github/workflows/deploy.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: ftp-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Safety check (no .htaccess or PHP)
+        run: |
+          if find site -name '.htaccess' -o -name '*.php' | grep -q .; then
+            echo "Refusing to deploy .htaccess or PHP files"; exit 1
+          fi
+
+      - name: Check FTP secrets are set
+        id: sec
+        env:
+          S: ${{ secrets.FTP_SERVER }}
+        run: |
+          if [ -z "$S" ]; then echo "FTP secrets not set yet: skipping upload"; echo "ok=false" >> "$GITHUB_OUTPUT"; else echo "ok=true" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Upload site/ via FTPS
+        if: steps.sec.outputs.ok == 'true'
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          local-dir: ./site/
+          server-dir: ${{ secrets.FTP_SERVER_DIR }}
+          exclude: |
+            **/.git*
+            **/.git*/**

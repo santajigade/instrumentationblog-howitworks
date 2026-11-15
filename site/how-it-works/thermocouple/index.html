@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How a Thermocouple Works: Animated Cold Junction Demo</title>
+<meta name="description" content="How a thermocouple works, animated: two metals make a small voltage from a temperature difference, and cold junction compensation gives the true temperature.">
+<link rel="canonical" href="https://instrumentationblog.in/how-it-works/thermocouple/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Instrumentation Blog">
+<meta property="og:title" content="How a Thermocouple Works: Animated Cold Junction Demo">
+<meta property="og:description" content="How a thermocouple works, animated: two metals make a small voltage from a temperature difference, and cold junction compensation gives the true temperature.">
+<meta property="og:url" content="https://instrumentationblog.in/how-it-works/thermocouple/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="https://instrumentationblog.in/favicon.ico">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R3NLR1WRYC"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-R3NLR1WRYC");</script>
+<style>
+html{-webkit-text-size-adjust:100%}body{margin:0;background:#f1f3f7;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#1f2733}
+.ibs-top{background:#1e73be;color:#fff;font-size:13.5px}
+.ibs-in{max-width:1100px;margin:0 auto;padding:0 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ibs-top .ibs-in{min-height:36px}
+.ibs-top a{color:#fff;text-decoration:none}
+.ibs-head{background:#fff;border-bottom:1px solid #e3e7ee}
+.ibs-head .ibs-in{min-height:86px}
+.ibs-logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.ibs-mark{width:58px;height:58px;background:#ffef00;display:flex;align-items:center;justify-content:center;font:900 38px/1 Arial,Helvetica,sans-serif;color:#1e73be;letter-spacing:-2px}
+.ibs-name{font-weight:800;font-size:18px;color:#1a2333;line-height:1.1}.ibs-name small{display:block;font-weight:500;font-size:12px;color:#6b7383}
+.ibs-nav{display:flex;flex-wrap:wrap;gap:4px 22px}
+.ibs-nav a{color:#1f2733;text-decoration:none;font-size:16px}
+.ibs-nav a:hover,.ibs-nav a.on{color:#e4004b}
+.ibs-main{padding:22px 16px 30px}
+.ibs-pv{text-align:center;padding:6px 16px 18px;font:13px/1.4 Arial,Helvetica,sans-serif;color:#5b6573}.ibs-pv span{display:inline-block;background:#fff;border:1px solid #dde3ea;border-radius:999px;padding:5px 14px}
+.ibs-foot{background:#1a2333;color:#aab3c5;font-size:13px}.ibs-foot .ibs-in{min-height:56px}.ibs-foot a{color:#d6dcea}
+@media(max-width:700px){.ibs-top a{display:none}.ibs-head .ibs-in{padding:10px 16px}.ibs-nav{gap:4px 16px}.ibs-nav a{font-size:15px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="ibs-top"><div class="ibs-in"><span>Free engineering calculators and unit converters</span><a href="mailto:ceo@instrumentationblog.in">ceo@instrumentationblog.in</a></div></div>
+<header class="ibs-head"><div class="ibs-in">
+<a class="ibs-logo" href="https://instrumentationblog.in/" aria-label="Instrumentation Blog home"><span class="ibs-mark">ib</span><span class="ibs-name">Instrumentation Blog<small>Instrumentation simplified, knowledge amplified</small></span></a>
+<nav class="ibs-nav"><a href="https://instrumentationblog.in/">Home</a><a href="https://instrumentationblog.in/calculators/">Calculators</a><a href="https://instrumentationblog.in/unit-converters/">Unit Converters</a><a href="https://instrumentationblog.in/tools/">Tools</a><a href="https://instrumentationblog.in/downloads/">Downloads</a><a href="https://instrumentationblog.in/glossary/">Glossary</a></nav>
+</div></header>
+<main class="ibs-main"><style>
+.ibuc .hw-stage{max-width:780px;margin:0 auto;background:#fff;border:1px solid var(--b);border-radius:14px;overflow:hidden}
+.ibuc .hw-stage canvas{display:block;width:100%}
+.ibuc .hw-bar{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin:12px auto 0;max-width:780px}
+.ibuc button.hw-pp{background:var(--n) !important;color:#fff !important;border:0 !important;border-radius:999px !important;padding:8px 16px !important;font-size:14px;font-weight:700;cursor:pointer;line-height:1.2}
+.ibuc .hw-note{font-size:13px;color:var(--m)}
+.ibuc .hw-ctl{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px 22px;margin:18px 0 0}
+.ibuc .hw-s label{display:flex;justify-content:space-between;font-size:14px;font-weight:700;color:var(--n);margin:0 0 6px}
+.ibuc .hw-s label b{color:var(--gc);font-variant-numeric:tabular-nums}
+.ibuc .hw-s input[type=range]{width:100%;accent-color:var(--gc);height:28px;margin:0}
+.ibuc .hw-leg{list-style:none;padding:0;margin:16px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:8px 18px}
+.ibuc .hw-leg li{display:flex;gap:10px;align-items:flex-start;font-size:14.5px}
+.ibuc .hw-leg i{flex:0 0 24px;height:24px;border-radius:50%;background:#d9622b;color:#fff;font-style:normal;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center}
+.ibuc ol.hw-steps{list-style:none;counter-reset:s;padding:0;margin:0}
+.ibuc ol.hw-steps li{counter-increment:s;position:relative;padding:0 0 14px 46px;margin:0}
+.ibuc ol.hw-steps li:before{content:counter(s);position:absolute;left:0;top:-2px;width:32px;height:32px;border-radius:50%;background:var(--gc);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center}
+.ibuc .hw-f{background:#1a2333;color:#e6edf7;border-radius:12px;padding:16px 18px;font-family:'Courier New',monospace;font-size:15.5px;line-height:1.75;overflow-x:auto}
+.ibuc .hw-f b{color:#fbbf24;font-weight:700}
+</style><style>
+.ibuc{--n:#1a2333;--t:#1f2733;--m:#5b6576;--b:#dde3ee;--l:#f6f8fc;--a:#d9622b;--g:#1f9d55;color:var(--t);font-size:16px;line-height:1.6;max-width:1100px;margin:0 auto}
+.ibuc *{box-sizing:border-box}
+.ibuc a{color:#1f5fbf;text-decoration:none}.ibuc a:hover{text-decoration:underline}
+.ibuc h1,.ibuc h2,.ibuc h3{line-height:1.25;margin:0 0 12px;color:var(--n);font-weight:700;letter-spacing:0;text-transform:none}
+.ibuc h2{font-size:24px;margin-top:8px}.ibuc h3{font-size:18px}
+.ibuc p{margin:0 0 12px}
+.ibuc .ibuc-crumb{font-size:13px;color:var(--m);margin:0 0 12px}
+.ibuc .ibuc-hero{border-radius:16px;padding:28px 26px;color:#fff;margin:0 0 20px}
+.ibuc .ibuc-hero h1{color:#fff !important;font-size:34px;margin:6px 0 10px}
+.ibuc .ibuc-eye{font-size:12px;letter-spacing:.12em;text-transform:uppercase;opacity:.85;font-weight:700}
+.ibuc .ibuc-hero p{color:#e8ecf4;margin:0 0 14px;max-width:760px}
+.ibuc .ibuc-pills{display:flex;flex-wrap:wrap;gap:8px}
+.ibuc .ibuc-pill{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);color:#fff;border-radius:999px;padding:3px 12px;font-size:13px}
+.ibuc .ibuc-card{background:#fff;border:1px solid var(--b);border-radius:14px;padding:22px;margin:0 0 22px;box-shadow:0 2px 10px rgba(26,35,51,.05)}
+.ibuc .ibuc-tool{border-top:4px solid var(--a);scroll-margin-top:90px}
+.ibuc .ibuc-grid{display:grid;grid-template-columns:1fr 1.3fr auto 1.3fr;gap:12px;align-items:end}
+.ibuc .ibuc-field label{display:block;font-size:13px;font-weight:700;color:var(--m);margin:0 0 5px}
+.ibuc .ibuc-field input,.ibuc .ibuc-field select{width:100%;height:46px;border:1.5px solid var(--b) !important;border-radius:10px !important;padding:0 12px !important;font-size:16px;background:#fff !important;color:var(--t) !important;margin:0;box-shadow:none}
+.ibuc .ibuc-field input:focus,.ibuc .ibuc-field select:focus{outline:none;border-color:var(--a) !important;box-shadow:0 0 0 3px rgba(217,98,43,.15)}
+.ibuc .ibuc-field input.ibuc-bad{border-color:#c0392b !important}
+.ibuc button.ibuc-swap{height:46px;width:46px;border-radius:50% !important;border:1.5px solid var(--b) !important;background:var(--l) !important;color:var(--n) !important;font-size:20px;cursor:pointer;padding:0 !important;line-height:1}
+.ibuc button.ibuc-swap:hover{background:var(--n) !important;color:#fff !important}
+.ibuc .ibuc-result{background:var(--l);border-radius:12px;padding:16px 18px;margin:16px 0 12px}
+.ibuc .ibuc-res-main{font-size:22px;color:var(--n);word-break:break-word}
+.ibuc .ibuc-res-main b{color:var(--a);font-size:28px}
+.ibuc .ibuc-res-sub{font-size:14px;color:var(--m);margin-top:6px;word-break:break-word}
+.ibuc .ibuc-bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:14px;color:var(--m)}
+.ibuc .ibuc-bar select{height:36px;border:1.5px solid var(--b) !important;border-radius:8px !important;padding:0 8px !important;background:#fff !important;color:var(--t) !important;width:auto}
+.ibuc button.ibuc-btn{background:var(--n) !important;color:#fff !important;border:0 !important;border-radius:8px !important;padding:8px 16px !important;font-size:14px;font-weight:600;cursor:pointer;line-height:1.2}
+.ibuc button.ibuc-btn:hover{background:var(--a) !important}
+.ibuc .ibuc-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;align-items:center}
+.ibuc .ibuc-chips span{font-size:13px;font-weight:700;color:var(--m)}
+.ibuc button.ibuc-chip,.ibuc a.ibuc-chip{background:#fff !important;border:1.5px solid var(--b) !important;color:var(--n) !important;border-radius:999px !important;padding:5px 13px !important;font-size:13px;cursor:pointer;line-height:1.3;font-weight:500;text-decoration:none}
+.ibuc button.ibuc-chip:hover,.ibuc a.ibuc-chip:hover{border-color:var(--a) !important;color:var(--a) !important;text-decoration:none}
+.ibuc .ibuc-tw{overflow-x:auto;border:1px solid var(--b);border-radius:10px}
+.ibuc table.ibuc-t{width:100%;border-collapse:collapse;margin:0;font-size:15px;border:0}
+.ibuc table.ibuc-t th{background:var(--n) !important;color:#fff !important;text-align:left;padding:10px 12px;font-weight:600;border:0 !important}
+.ibuc table.ibuc-t td{padding:8px 12px;border:0 !important;border-bottom:1px solid var(--b) !important;background:#fff;vertical-align:top}
+.ibuc table.ibuc-t tr:nth-child(even) td{background:#fafbfd}
+.ibuc table.ibuc-t tr:last-child td{border-bottom:0 !important}
+.ibuc table.ibuc-t td.ibuc-num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.ibuc #ibuc-all tr{cursor:pointer}.ibuc #ibuc-all tr:hover td{background:#fff4ee}
+.ibuc #ibuc-all tr.ibuc-hl td{background:#fde9de;font-weight:700}
+.ibuc .ibuc-two{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.ibuc .ibuc-fbox{background:var(--n);color:#fff;border-radius:12px;padding:16px 18px;margin:12px 0;font-family:Consolas,Menlo,monospace;font-size:15px;word-break:break-word}
+.ibuc .ibuc-key{border-left:4px solid var(--a);background:#fff6f1;border-radius:0 10px 10px 0;padding:12px 16px;margin:12px 0}
+.ibuc .ibuc-steps{margin:0 0 12px;padding-left:22px}.ibuc .ibuc-steps li{margin-bottom:6px}
+.ibuc details{border:1px solid var(--b);border-radius:10px;margin:0 0 10px;background:#fff}
+.ibuc summary{cursor:pointer;padding:12px 16px;font-weight:700;color:var(--n);list-style:none}
+.ibuc summary::-webkit-details-marker{display:none}
+.ibuc summary:before{content:"Q";display:inline-block;background:var(--a);color:#fff;border-radius:6px;width:22px;height:22px;text-align:center;line-height:22px;font-size:12px;margin-right:10px}
+.ibuc details p{padding:0 16px 14px 48px;margin:0;color:var(--t)}
+.ibuc .ibuc-links{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.ibuc .ibuc-links a{display:block;border:1px solid var(--b);border-radius:10px;padding:10px 14px;background:#fff;color:var(--n);font-weight:600;font-size:15px}
+.ibuc .ibuc-links a small{display:block;font-weight:400;color:var(--m);font-size:12.5px;margin-top:2px}
+.ibuc .ibuc-links a:hover{border-color:var(--a);text-decoration:none;box-shadow:0 3px 12px rgba(217,98,43,.12)}
+.ibuc .ibuc-ymal{border-radius:14px;padding:22px;color:#fff;margin:0 0 22px}
+.ibuc .ibuc-ymal h3{color:#fff !important;margin-bottom:6px}
+.ibuc .ibuc-ymal .ibuc-yt{font-weight:700;font-size:18px;margin:0 0 6px}
+.ibuc .ibuc-ymal p{color:#e8ecf4}
+.ibuc a.ibuc-go{display:inline-block;background:var(--g);color:#fff !important;border-radius:999px;padding:8px 20px;font-weight:700;font-size:14px}
+.ibuc a.ibuc-go:hover{text-decoration:none;filter:brightness(1.08)}
+.ibuc .ibuc-ref{background:var(--l);border:1px solid var(--b);border-radius:14px;padding:20px 22px;margin:0 0 22px}
+.ibuc .ibuc-ad{margin:6px 0 24px;text-align:center}
+.ibuc .ibuc-adl{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#98a1b0;border-top:1px dotted #c8cfdb;border-bottom:1px dotted #c8cfdb;padding:3px 0;margin-bottom:8px}
+.ibuc .ibuc-adph{border:1.5px dashed #c8cfdb;border-radius:8px;padding:30px;color:#98a1b0;font-size:13px}
+.ibuc .ibuc-status{border-radius:8px;padding:10px 14px;font-size:14px;margin:12px 0 0}
+.ibuc .ibuc-ok{background:#e7f6ee;color:#14663a}.ibuc .ibuc-warn{background:#fff4dc;color:#7a5400}.ibuc .ibuc-err{background:#fde7e7;color:#9b1c1c}
+.ibuc .ibuc-g3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.ibuc .ibuc-g4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.ibuc .ibuc-sub{font-size:13px;color:var(--m);margin:6px 0 0}
+.ibuc .ibuc-search{width:100%;height:52px;border:2px solid rgba(255,255,255,.35) !important;background:rgba(255,255,255,.96) !important;border-radius:12px !important;padding:0 16px !important;font-size:17px;color:var(--t) !important;margin-top:6px}
+.ibuc .ibuc-cat{scroll-margin-top:90px}
+.ibuc .ibuc-cath{display:flex;align-items:center;gap:12px;margin:0 0 4px}
+.ibuc .ibuc-dot{width:12px;height:12px;border-radius:50%;flex:none}
+.ibuc .ibuc-toc{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.ibuc .ibuc-stats{display:flex;gap:22px;flex-wrap:wrap;margin:4px 0 14px}
+.ibuc .ibuc-stats b{display:block;font-size:26px;color:#fff}.ibuc .ibuc-stats span{font-size:13px;color:#cfd6e4}
+.ibuc .ibuc-empty{display:none;color:var(--m);padding:10px 0}
+@media (max-width:760px){
+ .ibuc .ibuc-grid{grid-template-columns:1fr}
+ .ibuc button.ibuc-swap{position:relative;grid-column:1/-1;width:100%;border-radius:10px !important;height:38px}
+ .ibuc .ibuc-two,.ibuc .ibuc-g3,.ibuc .ibuc-g4{grid-template-columns:1fr}
+ .ibuc .ibuc-hero{padding:22px 18px}.ibuc .ibuc-hero h1{font-size:26px}
+ .ibuc .ibuc-card{padding:16px}
+ .ibuc .ibuc-res-main{font-size:18px}.ibuc .ibuc-res-main b{font-size:22px}
+}
+</style><style>
+.ibuc .ibuc-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 16px}
+.ibuc button.ibuc-tab{background:var(--l) !important;color:var(--n) !important;border:1.5px solid var(--b) !important;border-radius:999px !important;padding:8px 16px !important;font-size:14px;font-weight:700;cursor:pointer;line-height:1.2}
+.ibuc button.ibuc-tab.on{background:var(--n) !important;color:#fff !important;border-color:var(--n) !important}
+.ibuc .ibuc-out{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:16px 0 0}
+.ibuc .ibuc-o{background:var(--l);border-radius:12px;padding:12px 14px}
+.ibuc .ibuc-o span{display:block;font-size:12.5px;color:var(--m);font-weight:600}
+.ibuc .ibuc-o b{display:block;font-size:22px;color:var(--n);font-variant-numeric:tabular-nums;word-break:break-word}
+.ibuc .ibuc-o.main{background:#fff1e9}.ibuc .ibuc-o.main b{color:var(--a);font-size:26px}
+.ibuc .ibuc-steps-box{background:#fff;border:1px dashed var(--b);border-radius:10px;padding:12px 16px;margin:14px 0 0;font-size:14.5px}
+.ibuc .ibuc-steps-box ol{margin:6px 0 0;padding-left:20px}
+.ibuc table.ibuc-grid10 td,.ibuc table.ibuc-grid10 th{text-align:right;padding:6px 8px;font-size:13.5px;white-space:nowrap}
+.ibuc table.ibuc-grid10 td:first-child,.ibuc table.ibuc-grid10 th:first-child{text-align:left;font-weight:700;background:#eef2f9}
+.ibuc .ibuc-soon a,.ibuc .ibuc-soon div{opacity:1}
+.ibuc .ibuc-links div.ibuc-dis{display:block;border:1px dashed var(--b);border-radius:10px;padding:10px 14px;background:#fafbfd;color:#8a93a3;font-weight:600;font-size:15px}
+.ibuc .ibuc-links div.ibuc-dis small{display:block;font-weight:400;font-size:12.5px;margin-top:2px}
+.ibuc .ibuc-badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:middle}
+.ibuc .ibuc-badge.live{background:#e7f6ee;color:#14663a}.ibuc .ibuc-badge.soon{background:#eef1f6;color:#6b7383}
+.ibuc .ibuc-catgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.ibuc .ibuc-catcard{display:block;border-radius:14px;padding:18px;color:#fff !important;min-height:150px;position:relative}
+.ibuc a.ibuc-catcard:hover{text-decoration:none;transform:translateY(-2px);box-shadow:0 8px 22px rgba(26,35,51,.18)}
+.ibuc .ibuc-catcard h3{color:#fff !important;margin:0 0 6px;font-size:19px}
+.ibuc .ibuc-catcard p{color:#e3e8f1;font-size:14px;margin:0 0 10px}
+.ibuc .ibuc-catcard span{font-size:12.5px;font-weight:700;background:rgba(255,255,255,.16);border-radius:999px;padding:3px 10px}
+@media print{.ibs-top,.ibs-head,.ibs-foot,.ibuc-ad,.ibuc-hero,.ibuc-noprint{display:none !important}.ibuc .ibuc-card{box-shadow:none;border:0}}
+</style><style>
+.ibuc .ibx-bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 14px}
+.ibuc .ibx-q{flex:1 1 260px;min-width:0;padding:12px 14px 12px 40px !important;border:1px solid #cfd8e3 !important;border-radius:12px !important;font-size:15px !important;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236b7686' stroke-width='2.4'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m20 20-3.5-3.5'/%3E%3C/svg%3E") no-repeat 14px 50% !important;box-sizing:border-box}
+.ibuc .ibx-q:focus{outline:2px solid #1e73be;border-color:#1e73be !important}
+.ibuc .ibx-n{font-size:13.5px;color:#5a6575;white-space:nowrap;font-weight:600}
+.ibuc .ibx-chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.ibuc .ibx-chip{border:1px solid var(--b,#cfd8e3) !important;background:var(--l,#fff) !important;color:var(--d,#1f2733) !important;border-radius:999px !important;padding:7px 15px !important;font-size:13.5px !important;font-weight:700;cursor:pointer;line-height:1.3;transition:transform .12s}
+.ibuc .ibx-chip:hover{transform:translateY(-1px)}
+.ibuc .ibx-chip.on{background:var(--d,#1a2333) !important;color:#fff !important;border-color:var(--d,#1a2333) !important}
+.ibuc .ibx-chip b{font-weight:600;opacity:.7;margin-left:5px}
+.ibuc .ibx-grp{margin:0 0 26px}
+.ibuc .ibx-gh{display:flex;align-items:center;gap:10px;margin:0 0 12px;font-size:17px;font-weight:800;color:var(--d)}
+.ibuc .ibx-gh:before{content:"";width:10px;height:22px;border-radius:4px;background:var(--d)}
+.ibuc .ibx-gh small{font-size:12.5px;font-weight:700;background:var(--l);border:1px solid var(--b);color:var(--d);border-radius:999px;padding:2px 9px}
+.ibuc .ibx-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
+.ibuc a.ibx-card{position:relative;display:flex;flex-direction:column;gap:6px;min-height:120px;padding:16px 16px 14px;border:1px solid var(--b);border-top:4px solid var(--d);border-radius:14px;background:var(--l);color:#1f2733 !important;text-decoration:none !important;transition:transform .15s,box-shadow .15s;box-sizing:border-box}
+.ibuc a.ibx-card:hover{transform:translateY(-3px);box-shadow:0 10px 22px rgba(26,35,51,.13)}
+.ibuc .ibx-card .ibx-t{max-width:calc(100% - 34px);box-sizing:border-box;align-self:flex-start;font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--d);background:#fff;border:1px solid var(--b);border-radius:999px;padding:2px 8px}
+.ibuc .ibx-card .ibx-h{font-size:15.5px;font-weight:700;line-height:1.35;padding-right:20px}
+.ibuc .ibx-card .ibx-s{font-size:13px;color:#4f5a6a;line-height:1.4;margin-top:auto}
+.ibuc .ibx-card:after{content:"→";position:absolute;right:14px;top:14px;width:24px;height:24px;line-height:24px;text-align:center;border-radius:50%;background:#fff;color:var(--d);font-weight:800;font-size:13px;transition:transform .15s}
+.ibuc .ibx-card:hover:after{transform:translateX(3px)}
+.ibuc .ibx-adslot{margin:4px 0 30px}
+.ibuc .ibx-adslot .ibuc-ad{margin:0}
+.ibuc .ibx-none{display:none;padding:18px;text-align:center;color:#5a6575;border:1px dashed #cfd8e3;border-radius:12px;margin:0 0 20px}
+@media(max-width:520px){.ibuc .ibx-grid{grid-template-columns:1fr;gap:12px}.ibuc a.ibx-card{min-height:0}}
+</style><style>
+.ibuc .cmp-verdict{font-size:17.5px;line-height:1.55;background:#fff;border-left:5px solid var(--gc);border-radius:12px;padding:16px 18px;margin:0 0 22px;box-shadow:0 1px 3px rgba(26,35,51,.08)}
+.ibuc .cmp-verdict b{color:var(--gc)}
+.ibuc .cmp-wrap{overflow-x:auto;margin:0 -4px;padding:0 4px}
+.ibuc table.cmp-t{width:100%;border-collapse:separate;border-spacing:0;font-size:15px;min-width:520px}
+.ibuc table.cmp-t th{background:var(--gc);color:#fff;text-align:left;padding:11px 12px;font-size:14.5px}
+.ibuc table.cmp-t th:first-child{border-radius:10px 0 0 0;background:#1a2333}.ibuc table.cmp-t th:last-child{border-radius:0 10px 0 0;background:#3b4bb0}
+.ibuc table.cmp-t td{padding:10px 12px;border-bottom:1px solid #e3e7ee;vertical-align:top}
+.ibuc table.cmp-t tr:nth-child(even) td{background:#f6f8fb}
+.ibuc table.cmp-t td:first-child{font-weight:700;color:#13283f;width:24%}
+.ibuc .cmp-two{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 22px}
+.ibuc .cmp-box{border-radius:14px;padding:18px 20px;border:1px solid var(--b);background:var(--l);border-top:4px solid var(--d)}
+.ibuc .cmp-box h3{margin:0 0 10px;color:var(--d);font-size:18px}
+.ibuc .cmp-box ul{margin:0;padding-left:20px}.ibuc .cmp-box li{margin:0 0 6px}
+@media(max-width:640px){.ibuc .cmp-two{grid-template-columns:1fr}
+.ibuc table.cmp-t{min-width:0}.ibuc table.cmp-t thead{display:none}
+.ibuc table.cmp-t tr{display:block;border:1px solid #e3e7ee;border-radius:12px;margin:0 0 12px;overflow:hidden}
+.ibuc table.cmp-t td{display:block;width:auto !important;border-bottom:1px solid #eef1f5}
+.ibuc table.cmp-t td:first-child{background:#1a2333 !important;color:#fff}
+.ibuc table.cmp-t td[data-l]:before{content:attr(data-l);display:block;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:var(--gc);margin-bottom:2px}
+.ibuc table.cmp-t td:last-child[data-l]:before{color:#3b4bb0}
+.ibuc table.cmp-t tr:nth-child(even) td{background:#fff}}
+</style>
+<div class="ibuc" id="ibuc-app" style="--gc:#b02a52">
+<nav class="ibuc-crumb" aria-label="Breadcrumb"><a href="https://instrumentationblog.in/">Home</a> › <a href="https://instrumentationblog.in/how-it-works/">How It Works</a> › Thermocouple</nav>
+<header class="ibuc-hero" style="background:linear-gradient(135deg,#b02a52 0%,#4a0f1f 100%)">
+  <div class="ibuc-eye">Temperature · How It Works</div>
+  <h1>How a Thermocouple Works</h1>
+  <p>Heat the hot junction and warm the terminals. See why the meter reads wrong without cold junction compensation and right with it. Uses real type K data.</p>
+  <div class="ibuc-pills"><span class="ibuc-pill">Live animation</span><span class="ibuc-pill">Adjustable sliders</span><span class="ibuc-pill">Formula and example</span></div>
+</header>
+<p class="cmp-verdict"><b>Quick answer:</b> A thermocouple is two different metal wires joined at the measuring point. A temperature difference between that hot junction and the cold junction at the terminals creates a small voltage (Seebeck effect), and cold junction compensation adds back the terminal temperature.</p>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>How a Thermocouple Works: Interactive Animation</h2>
+<div class="hw-stage"><canvas id="hw-cv" role="img" aria-label="Animated diagram showing how a thermocouple works"></canvas></div>
+<div class="hw-bar"><button type="button" class="hw-pp" id="hw-pp">Pause animation</button><span class="hw-note">Numbered markers match the parts list below.</span></div>
+<div class="hw-ctl" id="hw-ctl"><div class="hw-s"><label for="hw-th">Hot junction temperature <b id="hw-th-v"></b></label><input type="range" id="hw-th" data-k="th" min="0" max="1200" step="1" value="400" data-d="0" data-u="°C"></div><div class="hw-s"><label for="hw-tc">Terminal (cold junction) temperature <b id="hw-tc-v"></b></label><input type="range" id="hw-tc" data-k="tc" min="0" max="60" step="1" value="30" data-d="0" data-u="°C"></div></div>
+<div class="ibuc-out"><div class="ibuc-o"><span>EMF for hot junction vs 0 °C</span><b id="hw-o-eh">…</b></div><div class="ibuc-o main"><span>EMF for terminals vs 0 °C</span><b id="hw-o-ec">…</b></div><div class="ibuc-o"><span>Voltage the meter sees</span><b id="hw-o-em">…</b></div><div class="ibuc-o"><span>Reading without CJC</span><b id="hw-o-no">…</b></div><div class="ibuc-o"><span>Reading with CJC</span><b id="hw-o-yes">…</b></div></div>
+<ol class="hw-leg"><li><i>1</i><span>Hot (measuring) junction</span></li><li><i>2</i><span>Thermocouple wires, type K</span></li><li><i>3</i><span>Cold junction at the terminals</span></li><li><i>4</i><span>CJC sensor measuring terminal temperature</span></li><li><i>5</i><span>Transmitter or meter</span></li></ol>
+</section>
+<section class="ibuc-card"><h2>Thermocouple Working Principle Step by Step</h2><ol class="hw-steps"><li>Two different alloys are welded together at the tip; for type K they are Chromel and Alumel.</li><li>Heating one end creates a voltage along each wire, and because the alloys differ, a net voltage appears.</li><li>The voltage depends on the difference between the hot junction and the terminals.</li><li>The meter measures the terminal temperature with a separate sensor (CJC).</li><li>It adds the EMF for the terminal temperature, then converts the total to temperature using the standard table.</li></ol></section>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>Thermocouple Formula</h2><div class="hw-f"><b>E(measured) = E(T hot) − E(T cold)</b><br>E(T hot) = E(measured) + E(T cold)<br>Example (type K): 400 °C = 16.397 mV, 30 °C = 1.203 mV<br>Meter sees 15.194 mV; CJC adds 1.203 mV back</div></section>
+<section class="ibuc-card"><h2>Main Parts of a Thermocouple</h2><div class="cmp-wrap"><table class="cmp-t"><thead><tr><th>Part</th><th>What it does</th></tr></thead><tbody><tr><td>Hot junction</td><td data-l="What it does">Welded tip, grounded or ungrounded inside a sheath</td></tr><tr><td>Thermocouple wires</td><td data-l="What it does">Pair of specific alloys, or matching extension cable</td></tr><tr><td>Terminals</td><td data-l="What it does">Cold junction, where thermocouple metal meets copper</td></tr><tr><td>CJC sensor</td><td data-l="What it does">RTD or thermistor measuring terminal temperature</td></tr><tr><td>Transmitter</td><td data-l="What it does">Measures microvolts, applies CJC and linearisation</td></tr></tbody></table></div></section>
+<div class="cmp-two"><div class="cmp-box" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2"><h3>Advantages</h3><ul><li>Wide range, up to about 1260 °C for type K</li><li>Rugged, small and fast responding</li><li>Low cost and self powered</li></ul></div><div class="cmp-box" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8"><h3>Limitations</h3><ul><li>Small signal, sensitive to noise</li><li>Needs correct extension cable and CJC</li><li>Less accurate and stable than an RTD</li></ul></div></div>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>Related Calculators and Tools</h2><div class="ibx-grid"><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://instrumentationblog.in/calculators/temperature/thermocouple-calculator/"><span class="ibx-t">Calculator</span><span class="ibx-h">Thermocouple Calculator</span><span class="ibx-s">Free online calculator with formula and worked example.</span></a><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://instrumentationblog.in/calculators/temperature/thermocouple-table/"><span class="ibx-t">Calculator</span><span class="ibx-h">Thermocouple Table</span><span class="ibx-s">Free online calculator with formula and worked example.</span></a><a class="ibx-card" style="--l:#fff4e0;--d:#a8620a;--b:#f5ddb0" href="https://instrumentationblog.in/glossary/thermocouple/"><span class="ibx-t">Glossary</span><span class="ibx-h">Thermocouple</span><span class="ibx-s">Definition, formula and example.</span></a><a class="ibx-card" style="--l:#fff4e0;--d:#a8620a;--b:#f5ddb0" href="https://instrumentationblog.in/glossary/seebeck-effect/"><span class="ibx-t">Glossary</span><span class="ibx-h">Seebeck Effect</span><span class="ibx-s">Definition, formula and example.</span></a><a class="ibx-card" style="--l:#fff4e0;--d:#a8620a;--b:#f5ddb0" href="https://instrumentationblog.in/glossary/cold-junction-compensation/"><span class="ibx-t">Glossary</span><span class="ibx-h">Cold Junction Compensation</span><span class="ibx-s">Definition, formula and example.</span></a><a class="ibx-card" style="--l:#f3edfc;--d:#6b3fb0;--b:#ddd0f3" href="https://instrumentationblog.in/compare/rtd-vs-thermocouple/"><span class="ibx-t">Compare</span><span class="ibx-h">RTD vs Thermocouple</span><span class="ibx-s">Side by side comparison table.</span></a><a class="ibx-card" style="--l:#f3edfc;--d:#6b3fb0;--b:#ddd0f3" href="https://instrumentationblog.in/compare/type-k-vs-type-j-thermocouple/"><span class="ibx-t">Compare</span><span class="ibx-h">Type K vs Type J</span><span class="ibx-s">Side by side comparison table.</span></a><a class="ibx-card" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8" href="https://instrumentationblog.in/downloads/engineering-reference-tables/type-k-thermocouple-table/"><span class="ibx-t">Download</span><span class="ibx-h">Type K Thermocouple Table (Excel and PDF)</span><span class="ibx-s">Free reference table.</span></a></div></section>
+<section class="ibuc-card"><h2>Frequently Asked Questions</h2><details open><summary>Why is it called the cold junction?</summary><p>It is the second junction, where the thermocouple wires connect to copper at the instrument. It is usually cooler than the measuring point.</p></details><details><summary>What happens if CJC is missing?</summary><p>The reading is low by roughly the terminal temperature, as the demo shows. At 30 °C terminals, the error is close to 30 °C.</p></details><details><summary>Why use extension cable?</summary><p>Ordinary copper wire would create a new junction at the wrong place. Extension cable keeps the same thermoelectric properties back to the terminals.</p></details><details><summary>Is the mV to °C relation linear?</summary><p>Not exactly. Transmitters use the standard reference tables (IEC 60584) or polynomials to convert voltage to temperature.</p></details></section>
+<div class="ibuc-ymal" style="background:linear-gradient(135deg,#b02a52 0%,#4a0f1f 100%)"><div class="ibuc-eye">You May Also Like</div><h3>Learn more on the blog</h3><p class="ibuc-yt">Cold junction compensation in thermocouple</p><p>A practical guide on instrumentationblog.in that goes deeper into this topic with field examples.</p><a class="ibuc-go" href="https://instrumentationblog.in/cold-junction-compensation-in-thermocouple/">Read Full Article</a></div>
+<section class="ibuc-card"><h2>More How It Works</h2><div class="ibx-grid"><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://instrumentationblog.in/how-it-works/orifice-plate/"><span class="ibx-t">Flow</span><span class="ibx-h">How an Orifice Plate Works</span><span class="ibx-s">An orifice plate is a thin plate with a hole that squeezes the flow…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://instrumentationblog.in/how-it-works/magnetic-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How a Magnetic Flow Meter Works</span><span class="ibx-s">A magnetic flow meter (magmeter) uses Faraday&#x27;s law…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://instrumentationblog.in/how-it-works/vortex-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How a Vortex Flow Meter Works</span><span class="ibx-s">A vortex flow meter places a bluff body (shedder bar) across the flow…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://instrumentationblog.in/how-it-works/coriolis-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How a Coriolis Flow Meter Works</span><span class="ibx-s">A Coriolis meter vibrates its flow tubes at their natural frequency…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://instrumentationblog.in/how-it-works/ultrasonic-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How an Ultrasonic Flow Meter Works</span><span class="ibx-s">A transit time ultrasonic flow meter sends sound pulses diagonally across the pipe in both direc…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://instrumentationblog.in/how-it-works/turbine-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How a Turbine Flow Meter Works</span><span class="ibx-s">A turbine flow meter has a free spinning bladed rotor in the flow…</span></a><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://instrumentationblog.in/how-it-works/dp-level-measurement/"><span class="ibx-t">Level</span><span class="ibx-h">How DP Level Measurement Works</span><span class="ibx-s">DP level measurement uses the pressure at the bottom of a tank…</span></a><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://instrumentationblog.in/how-it-works/radar-level-transmitter/"><span class="ibx-t">Level</span><span class="ibx-h">How a Radar Level Transmitter Works</span><span class="ibx-s">A radar level transmitter sends microwave signals from an antenna at the top of the tank…</span></a><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://instrumentationblog.in/how-it-works/displacer-level-transmitter/"><span class="ibx-t">Level</span><span class="ibx-h">How a Displacer Level Transmitter Works</span><span class="ibx-s">A displacer level transmitter hangs a heavy cylinder (the displacer) in the liquid…</span></a><a class="ibx-card" style="--l:#fff4e0;--d:#a8620a;--b:#f5ddb0" href="https://instrumentationblog.in/how-it-works/bourdon-tube-pressure-gauge/"><span class="ibx-t">Pressure</span><span class="ibx-h">How a Bourdon Tube Pressure Gauge Works</span><span class="ibx-s">A Bourdon tube is a flattened, curved metal tube sealed at the tip…</span></a><a class="ibx-card" style="--l:#e4f6f7;--d:#0f7b80;--b:#bfe6e8" href="https://instrumentationblog.in/how-it-works/valve-positioner/"><span class="ibx-t">Control Valve</span><span class="ibx-h">How a Valve Positioner Works</span><span class="ibx-s">A valve positioner compares the control signal (4 to 20 mA) with the actual stem position from a…</span></a></div></section>
+<p style="text-align:center;margin:0 0 22px"><a href="https://instrumentationblog.in/how-it-works/"><b>All How It Works animations</b></a> · <a href="https://instrumentationblog.in/glossary/"><b>Instrumentation glossary</b></a> · <a href="https://instrumentationblog.in/compare/"><b>Comparisons</b></a></p>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+</div>
+<script>
+(function(){
+var cv=document.getElementById('hw-cv');if(!cv)return;
+var C=cv.getContext('2d'),W=640,H=360,run=true,vis=true,last=0,T=0,P={},dirty=true;
+function fit(){var w=cv.parentNode.clientWidth,d=window.devicePixelRatio||1,s=w/W;cv.width=Math.round(w*d);cv.height=Math.round(H*s*d);cv.style.height=Math.round(H*s)+'px';C.setTransform(s*d,0,0,s*d,0,0);dirty=true;}
+function m(x,d){var s=Math.abs(x).toFixed(d);return(x<0&&Number(s)!==0?'−':'')+s;}
+function o(id,v){var e=document.getElementById('hw-o-'+id);if(e&&e.textContent!==v)e.textContent=v;}
+function L(t,x,y,sz,c,a,b){C.font=(b?'700 ':'')+(sz||13)+'px "Segoe UI",Arial,sans-serif';C.fillStyle=c||'#1f2733';C.textAlign=a||'center';C.textBaseline='middle';C.fillText(t,x,y);}
+function ln(x1,y1,x2,y2,c,w,d){C.strokeStyle=c;C.lineWidth=w||1.5;C.setLineDash(d||[]);C.beginPath();C.moveTo(x1,y1);C.lineTo(x2,y2);C.stroke();C.setLineDash([]);}
+function rc(x,y,w,h,f,s,r){C.beginPath();if(r&&C.roundRect)C.roundRect(x,y,w,h,r);else C.rect(x,y,w,h);if(f){C.fillStyle=f;C.fill();}if(s){C.strokeStyle=s;C.lineWidth=1.5;C.stroke();}}
+function ci(x,y,r,f,s,w){C.beginPath();C.arc(x,y,r,0,Math.PI*2);if(f){C.fillStyle=f;C.fill();}if(s){C.strokeStyle=s;C.lineWidth=w||1.5;C.stroke();}}
+function mk(n,x,y){ci(x,y,11,'#d9622b','#fff',2);L(String(n),x,y+1,13,'#fff','center',1);}
+function ar(x1,y1,x2,y2,c,w){ln(x1,y1,x2,y2,c,w);var a=Math.atan2(y2-y1,x2-x1),h=8;C.fillStyle=c;C.beginPath();C.moveTo(x2,y2);C.lineTo(x2-h*Math.cos(a-.45),y2-h*Math.sin(a-.45));C.lineTo(x2-h*Math.cos(a+.45),y2-h*Math.sin(a+.45));C.closePath();C.fill();}
+function sm(u){u=u<0?0:u>1?1:u;return u*u*(3-2*u);}
+function clamp(x,a,b){return x<a?a:x>b?b:x;}
+function rd(){[].forEach.call(document.querySelectorAll('#hw-ctl input'),function(i){P[i.dataset.k]=parseFloat(i.value);var e=document.getElementById(i.id+'-v');if(e)e.textContent=m(P[i.dataset.k],+i.dataset.d)+(i.dataset.u?' '+i.dataset.u:'');});upd();dirty=true;}
+function pipe(x1,x2,cy,R,fl){rc(x1,cy-R-12,x2-x1,12,'#9aa5b8');rc(x1,cy+R,x2-x1,12,'#9aa5b8');rc(x1,cy-R,x2-x1,2*R,fl||'#e6f0fd');}
+
+var KT=[-0.778,-0.739,-0.701,-0.663,-0.624,-0.586,-0.547,-0.508,-0.47,-0.431,-0.392,-0.353,-0.314,-0.275,-0.236,-0.197,-0.157,-0.118,-0.079,-0.039,0,0.039,0.079,0.119,0.158,0.198,0.238,0.277,0.317,0.357,0.397,0.437,0.477,0.517,0.557,0.597,0.637,0.677,0.718,0.758,0.798,0.838,0.879,0.919,0.96,1,1.041,1.081,1.122,1.163,1.203,1.244,1.285,1.326,1.366,1.407,1.448,1.489,1.53,1.571,1.612,1.653,1.694,1.735,1.776,1.817,1.858,1.899,1.941,1.982,2.023,2.064,2.106,2.147,2.188,2.23,2.271,2.312,2.354,2.395,2.436,2.478,2.519,2.561,2.602,2.644,2.685,2.727,2.768,2.81,2.851,2.893,2.934,2.976,3.017,3.059,3.1,3.142,3.184,3.225,3.267,3.308,3.35,3.391,3.433,3.474,3.516,3.557,3.599,3.64,3.682,3.723,3.765,3.806,3.848,3.889,3.931,3.972,4.013,4.055,4.096,4.138,4.179,4.22,4.262,4.303,4.344,4.385,4.427,4.468,4.509,4.55,4.591,4.633,4.674,4.715,4.756,4.797,4.838,4.879,4.92,4.961,5.002,5.043,5.084,5.124,5.165,5.206,5.247,5.288,5.328,5.369,5.41,5.45,5.491,5.532,5.572,5.613,5.653,5.694,5.735,5.775,5.815,5.856,5.896,5.937,5.977,6.017,6.058,6.098,6.138,6.179,6.219,6.259,6.299,6.339,6.38,6.42,6.46,6.5,6.54,6.58,6.62,6.66,6.701,6.741,6.781,6.821,6.861,6.901,6.941,6.981,7.021,7.06,7.1,7.14,7.18,7.22,7.26,7.3,7.34,7.38,7.42,7.46,7.5,7.54,7.579,7.619,7.659,7.699,7.739,7.779,7.819,7.859,7.899,7.939,7.979,8.019,8.059,8.099,8.138,8.178,8.218,8.258,8.298,8.338,8.378,8.418,8.458,8.499,8.539,8.579,8.619,8.659,8.699,8.739,8.779,8.819,8.86,8.9,8.94,8.98,9.02,9.061,9.101,9.141,9.181,9.222,9.262,9.302,9.343,9.383,9.423,9.464,9.504,9.545,9.585,9.626,9.666,9.707,9.747,9.788,9.828,9.869,9.909,9.95,9.991,10.031,10.072,10.113,10.153,10.194,10.235,10.276,10.316,10.357,10.398,10.439,10.48,10.52,10.561,10.602,10.643,10.684,10.725,10.766,10.807,10.848,10.889,10.93,10.971,11.012,11.053,11.094,11.135,11.176,11.217,11.259,11.3,11.341,11.382,11.423,11.465,11.506,11.547,11.588,11.63,11.671,11.712,11.753,11.795,11.836,11.877,11.919,11.96,12.001,12.043,12.084,12.126,12.167,12.209,12.25,12.291,12.333,12.374,12.416,12.457,12.499,12.54,12.582,12.624,12.665,12.707,12.748,12.79,12.831,12.873,12.915,12.956,12.998,13.04,13.081,13.123,13.165,13.206,13.248,13.29,13.331,13.373,13.415,13.457,13.498,13.54,13.582,13.624,13.665,13.707,13.749,13.791,13.833,13.874,13.916,13.958,14,14.042,14.084,14.126,14.167,14.209,14.251,14.293,14.335,14.377,14.419,14.461,14.503,14.545,14.587,14.629,14.671,14.713,14.755,14.797,14.839,14.881,14.923,14.965,15.007,15.049,15.091,15.133,15.175,15.217,15.259,15.301,15.343,15.385,15.427,15.469,15.511,15.554,15.596,15.638,15.68,15.722,15.764,15.806,15.849,15.891,15.933,15.975,16.017,16.059,16.102,16.144,16.186,16.228,16.27,16.313,16.355,16.397,16.439,16.482,16.524,16.566,16.608,16.651,16.693,16.735,16.778,16.82,16.862,16.904,16.947,16.989,17.031,17.074,17.116,17.158,17.201,17.243,17.285,17.328,17.37,17.413,17.455,17.497,17.54,17.582,17.624,17.667,17.709,17.752,17.794,17.837,17.879,17.921,17.964,18.006,18.049,18.091,18.134,18.176,18.218,18.261,18.303,18.346,18.388,18.431,18.473,18.516,18.558,18.601,18.643,18.686,18.728,18.771,18.813,18.856,18.898,18.941,18.983,19.026,19.068,19.111,19.154,19.196,19.239,19.281,19.324,19.366,19.409,19.451,19.494,19.537,19.579,19.622,19.664,19.707,19.75,19.792,19.835,19.877,19.92,19.962,20.005,20.048,20.09,20.133,20.175,20.218,20.261,20.303,20.346,20.389,20.431,20.474,20.516,20.559,20.602,20.644,20.687,20.73,20.772,20.815,20.857,20.9,20.943,20.985,21.028,21.071,21.113,21.156,21.199,21.241,21.284,21.326,21.369,21.412,21.454,21.497,21.54,21.582,21.625,21.668,21.71,21.753,21.796,21.838,21.881,21.924,21.966,22.009,22.052,22.094,22.137,22.179,22.222,22.265,22.307,22.35,22.393,22.435,22.478,22.521,22.563,22.606,22.649,22.691,22.734,22.776,22.819,22.862,22.904,22.947,22.99,23.032,23.075,23.117,23.16,23.203,23.245,23.288,23.331,23.373,23.416,23.458,23.501,23.544,23.586,23.629,23.671,23.714,23.757,23.799,23.842,23.884,23.927,23.97,24.012,24.055,24.097,24.14,24.182,24.225,24.267,24.31,24.353,24.395,24.438,24.48,24.523,24.565,24.608,24.65,24.693,24.735,24.778,24.82,24.863,24.905,24.948,24.99,25.033,25.075,25.118,25.16,25.203,25.245,25.288,25.33,25.373,25.415,25.458,25.5,25.543,25.585,25.627,25.67,25.712,25.755,25.797,25.84,25.882,25.924,25.967,26.009,26.052,26.094,26.136,26.179,26.221,26.263,26.306,26.348,26.39,26.433,26.475,26.517,26.56,26.602,26.644,26.687,26.729,26.771,26.814,26.856,26.898,26.94,26.983,27.025,27.067,27.109,27.152,27.194,27.236,27.278,27.32,27.363,27.405,27.447,27.489,27.531,27.574,27.616,27.658,27.7,27.742,27.784,27.826,27.869,27.911,27.953,27.995,28.037,28.079,28.121,28.163,28.205,28.247,28.289,28.332,28.374,28.416,28.458,28.5,28.542,28.584,28.626,28.668,28.71,28.752,28.794,28.835,28.877,28.919,28.961,29.003,29.045,29.087,29.129,29.171,29.213,29.255,29.297,29.338,29.38,29.422,29.464,29.506,29.548,29.589,29.631,29.673,29.715,29.757,29.798,29.84,29.882,29.924,29.965,30.007,30.049,30.09,30.132,30.174,30.216,30.257,30.299,30.341,30.382,30.424,30.466,30.507,30.549,30.59,30.632,30.674,30.715,30.757,30.798,30.84,30.881,30.923,30.964,31.006,31.047,31.089,31.13,31.172,31.213,31.255,31.296,31.338,31.379,31.421,31.462,31.504,31.545,31.586,31.628,31.669,31.71,31.752,31.793,31.834,31.876,31.917,31.958,32,32.041,32.082,32.124,32.165,32.206,32.247,32.289,32.33,32.371,32.412,32.453,32.495,32.536,32.577,32.618,32.659,32.7,32.742,32.783,32.824,32.865,32.906,32.947,32.988,33.029,33.07,33.111,33.152,33.193,33.234,33.275,33.316,33.357,33.398,33.439,33.48,33.521,33.562,33.603,33.644,33.685,33.726,33.767,33.808,33.848,33.889,33.93,33.971,34.012,34.053,34.093,34.134,34.175,34.216,34.257,34.297,34.338,34.379,34.42,34.46,34.501,34.542,34.582,34.623,34.664,34.704,34.745,34.786,34.826,34.867,34.908,34.948,34.989,35.029,35.07,35.11,35.151,35.192,35.232,35.273,35.313,35.354,35.394,35.435,35.475,35.516,35.556,35.596,35.637,35.677,35.718,35.758,35.798,35.839,35.879,35.92,35.96,36,36.041,36.081,36.121,36.162,36.202,36.242,36.282,36.323,36.363,36.403,36.443,36.484,36.524,36.564,36.604,36.644,36.685,36.725,36.765,36.805,36.845,36.885,36.925,36.965,37.006,37.046,37.086,37.126,37.166,37.206,37.246,37.286,37.326,37.366,37.406,37.446,37.486,37.526,37.566,37.606,37.646,37.686,37.725,37.765,37.805,37.845,37.885,37.925,37.965,38.005,38.044,38.084,38.124,38.164,38.204,38.243,38.283,38.323,38.363,38.402,38.442,38.482,38.522,38.561,38.601,38.641,38.68,38.72,38.76,38.799,38.839,38.878,38.918,38.958,38.997,39.037,39.076,39.116,39.155,39.195,39.235,39.274,39.314,39.353,39.393,39.432,39.471,39.511,39.55,39.59,39.629,39.669,39.708,39.747,39.787,39.826,39.866,39.905,39.944,39.984,40.023,40.062,40.101,40.141,40.18,40.219,40.259,40.298,40.337,40.376,40.415,40.455,40.494,40.533,40.572,40.611,40.651,40.69,40.729,40.768,40.807,40.846,40.885,40.924,40.963,41.002,41.042,41.081,41.12,41.159,41.198,41.237,41.276,41.315,41.354,41.393,41.431,41.47,41.509,41.548,41.587,41.626,41.665,41.704,41.743,41.781,41.82,41.859,41.898,41.937,41.976,42.014,42.053,42.092,42.131,42.169,42.208,42.247,42.286,42.324,42.363,42.402,42.44,42.479,42.518,42.556,42.595,42.633,42.672,42.711,42.749,42.788,42.826,42.865,42.903,42.942,42.98,43.019,43.057,43.096,43.134,43.173,43.211,43.25,43.288,43.327,43.365,43.403,43.442,43.48,43.518,43.557,43.595,43.633,43.672,43.71,43.748,43.787,43.825,43.863,43.901,43.94,43.978,44.016,44.054,44.092,44.13,44.169,44.207,44.245,44.283,44.321,44.359,44.397,44.435,44.473,44.512,44.55,44.588,44.626,44.664,44.702,44.74,44.778,44.816,44.853,44.891,44.929,44.967,45.005,45.043,45.081,45.119,45.157,45.194,45.232,45.27,45.308,45.346,45.383,45.421,45.459,45.497,45.534,45.572,45.61,45.647,45.685,45.723,45.76,45.798,45.836,45.873,45.911,45.948,45.986,46.024,46.061,46.099,46.136,46.174,46.211,46.249,46.286,46.324,46.361,46.398,46.436,46.473,46.511,46.548,46.585,46.623,46.66,46.697,46.735,46.772,46.809,46.847,46.884,46.921,46.958,46.995,47.033,47.07,47.107,47.144,47.181,47.218,47.256,47.293,47.33,47.367,47.404,47.441,47.478,47.515,47.552,47.589,47.626,47.663,47.7,47.737,47.774,47.811,47.848,47.884,47.921,47.958,47.995,48.032,48.069,48.105,48.142,48.179,48.216,48.252,48.289,48.326,48.363,48.399,48.436,48.473,48.509,48.546,48.582,48.619,48.656,48.692,48.729,48.765,48.802,48.838,48.875,48.911,48.948,48.984,49.021,49.057,49.093,49.13,49.166,49.202,49.239,49.275,49.311,49.348,49.384,49.42,49.456,49.493,49.529,49.565,49.601,49.637,49.674,49.71,49.746,49.782,49.818,49.854,49.89,49.926,49.962,49.998,50.034,50.07,50.106,50.142,50.178,50.214,50.25,50.286,50.322,50.358,50.393,50.429,50.465,50.501,50.537,50.572,50.608,50.644,50.68,50.715,50.751,50.787,50.822,50.858,50.894,50.929,50.965,51,51.036,51.071,51.107,51.142,51.178,51.213,51.249,51.284,51.32,51.355,51.391,51.426,51.461,51.497,51.532,51.567,51.603,51.638,51.673,51.708,51.744,51.779,51.814,51.849,51.885,51.92,51.955,51.99,52.025,52.06,52.095,52.13,52.165,52.2,52.235,52.27,52.305,52.34,52.375,52.41],K0=-20,N=26,el=[];for(var i=0;i<N;i++)el.push(Math.random());
+function emf(t){t=clamp(t,-20,1300);var i=Math.floor(t-K0),f=t-K0-i;if(i>=KT.length-1)return KT[KT.length-1];return KT[i]+(KT[i+1]-KT[i])*f;}
+function tmp(e){for(var i=0;i<KT.length-1;i++){if(e>=KT[i]&&e<=KT[i+1])return K0+i+(e-KT[i])/(KT[i+1]-KT[i]);}return e<KT[0]?-20:1300;}
+function upd(){var eh=emf(P.th),ec=emf(P.tc),em=eh-ec;o('eh',m(eh,3)+' mV');o('ec',m(ec,3)+' mV');o('em',m(em,3)+' mV');o('no',m(tmp(em),1)+' °C');o('yes',m(tmp(em+ec),1)+' °C');}
+function step(dt){var s=(emf(P.th)-emf(P.tc))/50;for(var i=0;i<N;i++){el[i]+=dt*s*0.6;if(el[i]>1)el[i]-=1;if(el[i]<0)el[i]+=1;}}
+function draw(){var h=clamp(P.th/1200,0,1);var g='rgb('+Math.round(90+165*h)+','+Math.round(30+150*h*h)+','+Math.round(20+40*h*h*h)+')';
+rc(20,80,160,200,'#1f2937',null,10);rc(32,92,136,176,g,null,8);L('Hot zone',100,104,12,'#fff','center',1);L(m(P.th,0)+' °C',100,250,15,'#fff','center',1);
+ci(120,180,8,'#fbbf24','#1a2333',2);
+var xa=120,xb=380;C.lineCap='round';ln(xa,180,150,170,'#16a34a',5);ln(150,170,xb,170,'#16a34a',5);ln(xa,180,150,190,'#475569',7);ln(150,190,xb,190,'#f8fafc',5);
+rc(360,122,80,118,'#e2e8f0','#475569',8);L('Terminals',400,136,11,'#1a2333','center',1);L(m(P.tc,0)+' °C',400,224,13,'#1a2333','center',1);rc(376,162,48,36,'#cbd5e1','#64748b',4);ci(392,206,0);rc(426,200,10,14,'#7c3aed');
+ln(424,170,500,150,'#b45309',3);ln(424,190,500,210,'#b45309',3);
+rc(500,110,128,140,'#1a2333',null,10);L('Without CJC',564,132,11,'#fca5a5','center',1);var em=emf(P.th)-emf(P.tc);L(m(tmp(em),1)+' °C',564,154,16,'#fff','center',1);L('With CJC',564,190,11,'#86efac','center',1);L(m(tmp(em+emf(P.tc)),1)+' °C',564,212,16,'#fff','center',1);L(m(em,3)+' mV',564,238,11,'#94a3b8','center');
+C.fillStyle='#fde047';for(var i=0;i<N;i++){var u=el[i],x=150+(xb-150)*u;C.fillRect(x-2,i%2?168:188,4,4);}
+L('Type K (IEC green and white)',150,150,11,'#5b6576','left');
+mk(1,120,206);mk(2,300,210);mk(3,400,184);mk(4,448,207);mk(5,616,122);}
+
+function fr(t){var dt=Math.min(.05,((t-last)/1000)||0);last=t;if(run&&vis&&!document.hidden){T+=dt;step(dt);dirty=true;}if(dirty&&vis){C.clearRect(0,0,W,H);draw();dirty=false;}requestAnimationFrame(fr);}
+[].forEach.call(document.querySelectorAll('#hw-ctl input'),function(i){i.addEventListener('input',rd);});
+var pp=document.getElementById('hw-pp');if(pp)pp.addEventListener('click',function(){run=!run;pp.textContent=run?'Pause animation':'Play animation';});
+if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){run=false;if(pp)pp.textContent='Play animation';}
+if('IntersectionObserver' in window)new IntersectionObserver(function(e){vis=e[0].isIntersecting;dirty=true;}).observe(cv);
+window.addEventListener('resize',function(){fit();C.clearRect(0,0,W,H);draw();});fit();rd();step(0.016);draw();requestAnimationFrame(fr);
+})();
+</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://instrumentationblog.in/"},{"@type":"ListItem","position":2,"name":"How It Works","item":"https://instrumentationblog.in/how-it-works/"},{"@type":"ListItem","position":3,"name":"How a Thermocouple Works","item":"https://instrumentationblog.in/how-it-works/thermocouple/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why is it called the cold junction?","acceptedAnswer":{"@type":"Answer","text":"It is the second junction, where the thermocouple wires connect to copper at the instrument. It is usually cooler than the measuring point."}},{"@type":"Question","name":"What happens if CJC is missing?","acceptedAnswer":{"@type":"Answer","text":"The reading is low by roughly the terminal temperature, as the demo shows. At 30 °C terminals, the error is close to 30 °C."}},{"@type":"Question","name":"Why use extension cable?","acceptedAnswer":{"@type":"Answer","text":"Ordinary copper wire would create a new junction at the wrong place. Extension cable keeps the same thermoelectric properties back to the terminals."}},{"@type":"Question","name":"Is the mV to °C relation linear?","acceptedAnswer":{"@type":"Answer","text":"Not exactly. Transmitters use the standard reference tables (IEC 60584) or polynomials to convert voltage to temperature."}}]}]}</script></main>
+<footer class="ibs-foot"><div class="ibs-in"><span>© 2026 instrumentationblog.in · Free tools for instrumentation and control engineers</span><span><a href="https://instrumentationblog.in/">Home</a> · <a href="https://instrumentationblog.in/calculators/">Calculators</a> · <a href="https://instrumentationblog.in/unit-converters/">Unit Converters</a> · <a href="https://instrumentationblog.in/tools/">Tools</a> · <a href="https://instrumentationblog.in/downloads/">Downloads</a> · <a href="https://instrumentationblog.in/glossary/">Glossary</a></span></div></footer>
+</body>
+</html>
