@@ -1,10 +1,10 @@
-name: Audit redirect URLs
+name: Grep static backup
 on: workflow_dispatch
 permissions:
   actions: read
   contents: read
 jobs:
-  audit:
+  grep:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -15,17 +15,7 @@ jobs:
           run-id: 43709427775
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - run: |
-          sed -i -E 's#https?://instrumentationblog\.in#https://www.instrumentationblog.in#g' $(grep -rlE 'https?://instrumentationblog\.in' static) || true
-          echo "url|code|final|linked_from_static" > report.txt
-          while read u; do
-            [ -z "$u" ] && continue
-            r=$(curl -s -o /dev/null -L --max-redirs 5 -w '%{http_code}|%{url_effective}|%{num_redirects}' "$u")
-            p=${u#https://www.instrumentationblog.in}; p=${p%%\?*}
-            n=0; [ "$p" != "/" ] && n=$(grep -rlF "instrumentationblog.in$p\"" static site 2>/dev/null | wc -l)
-            echo "$u|$r|$n" >> report.txt
-          done < _audit/redirect-urls.txt
-          echo "=====REPORT"; cat report.txt; echo "=====END"
-          echo "=====WHERE"
-          while read u; do p=${u#https://www.instrumentationblog.in}; p=${p%%\?*}; [ "$p" = "/" ] && continue
-            grep -rlF "instrumentationblog.in$p\"" static site 2>/dev/null | sed "s#^#$p <- #" | head -3; done < _audit/redirect-urls.txt
-          echo "=====END2"
+          echo "FILES $(find static site -type f | wc -l)"
+          echo "HITS_UPLOADS_2026_04 $(grep -rl 'uploads/2026/04' static site | wc -l)"
+          echo "HITS_CHPDF $(grep -rlE '(^|[/\"])(Ch|Sn)[0-9]+\.pdf|App\.pdf' static site | wc -l)"
+          grep -rlE 'uploads/2026/04|(Ch|Sn)[0-9]+\.pdf' static site | head -5 | sed 's/^/HIT|/'
