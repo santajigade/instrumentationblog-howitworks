@@ -1,0 +1,23 @@
+name: Fix wrong blog links in static pages
+on: workflow_dispatch
+concurrency:
+  group: ftp-deploy
+  cancel-in-progress: false
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+      - env:
+          H: ${{ secrets.FTP_SERVER }}
+          U: ${{ secrets.FTP_USERNAME }}
+          P: ${{ secrets.FTP_PASSWORD }}
+          D: ${{ secrets.FTP_SERVER_DIR }}
+        run: |
+          set -e
+          FILES="downloads/excel-calculators/pipe-heat-loss-excel/index.html downloads/procedures/temperature-element-replacement-sop/index.html downloads/templates/thermowell-datasheet/index.html"
+          S="set ftp:ssl-force true; set ftp:ssl-protect-data true; set ssl:verify-certificate no"
+          for f in $FILES; do mkdir -p "w/$(dirname $f)"; lftp -u "$U","$P" "$H" -e "$S; get ${D%/}/$f -o w/$f; bye"; done
+          for f in $FILES; do sed -i 's#instrumentationblog.in/thermocouple-rtd-installation-precautions/#instrumentationblog.in/thermocouple-and-rtd-installation-precautions/#g' "w/$f"; grep -c 'thermocouple-and-rtd-installation-precautions' "w/$f"; done
+          for f in $FILES; do lftp -u "$U","$P" "$H" -e "$S; put w/$f -o ${D%/}/$f; bye"; done
+          echo "Uploaded"

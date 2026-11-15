@@ -990,7 +990,7 @@ temperature-measurements-questions-answers/
 temperature-transmitter-configuration-ranging/
 thermal-overload-relay-explained/
 thermocouple-calibration-procedure/
-thermocouple-rtd-installation-precautions/
+thermocouple-and-rtd-installation-precautions/
 tools/
 tools/communication-protocols/
 tools/communication-protocols/fieldbus-segment-calculator/
