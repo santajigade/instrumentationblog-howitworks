@@ -6,12 +6,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: |
-          UA="Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
-          while read s; do [ -z "$s" ] && continue; u="https://www.instrumentationblog.in/$s/"
-            for a in browser googlebot; do
-              [ $a = googlebot ] && H="$UA" || H="Mozilla/5.0 Chrome/130"
-              r=$(curl -s -o /tmp/b -A "$H" -w '%{http_code} %{num_redirects} %{time_total}s %{url_effective}' -L --max-redirs 10 "$u" 2>&1)
-              echo "RES|$s|$a|$r|$(grep -o '<title>[^<]*' /tmp/b | head -1 | cut -c8-60)"
-            done
-            echo "HOPS|$s|$(curl -sI -A "$UA" "$u" | grep -iE '^(HTTP|location)' | tr -d '\r' | tr '\n' ' ')"
+          while read u; do [ -z "$u" ] && continue
+            r=$(curl -s -o /tmp/b -A "Mozilla/5.0 Chrome/130" -w '%{http_code} %{num_redirects} %{url_effective}' -L --max-redirs 10 "$u")
+            echo "RES|$u|$r"
           done < _audit/check-urls.txt
+          echo "== where is the pid simulator relative link"
+          curl -s -A "Mozilla/5.0 Chrome/130" https://www.instrumentationblog.in/tools/pid-tuning/pid-simulator/ | grep -o 'href="[^"]*how-scada-systems-work[^"]*"' | sed 's/^/LINK|/'
+          echo "== type-b page file links"
+          curl -s -A "Mozilla/5.0 Chrome/130" https://www.instrumentationblog.in/downloads/engineering-reference-tables/type-b-thermocouple-table/ | grep -oE 'href="[^"]*\.(xlsx|pdf)"' | sed 's/^/LINK|/'
