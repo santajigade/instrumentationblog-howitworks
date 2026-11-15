@@ -22,6 +22,7 @@ function pipe(x1,x2,cy,R,fl){rc(x1,cy-R-12,x2-x1,12,'#9aa5b8');rc(x1,cy+R,x2-x1,
 @@SCENE@@
 function fr(t){var dt=Math.min(.05,((t-last)/1000)||0);last=t;if(run&&vis&&!document.hidden){T+=dt;step(dt);dirty=true;}if(dirty&&vis){C.clearRect(0,0,W,H);draw();dirty=false;}requestAnimationFrame(fr);}
 [].forEach.call(document.querySelectorAll('#hw-ctl input'),function(i){i.addEventListener('input',rd);});
+var dl=document.getElementById('hw-dl');if(dl&&cv.toBlob)dl.addEventListener('click',function(){cv.toBlob(function(b){var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=dl.dataset.name;document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove();},500);},'image/png');});
 var pp=document.getElementById('hw-pp');if(pp)pp.addEventListener('click',function(){run=!run;pp.textContent=run?'Pause animation':'Play animation';});
 if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){run=false;if(pp)pp.textContent='Play animation';}
 if('IntersectionObserver' in window)new IntersectionObserver(function(e){vis=e[0].isIntersecting;dirty=true;}).observe(cv);

@@ -35,14 +35,28 @@ CSS = """<style>
 .ibuc ol.hw-steps{list-style:none;counter-reset:s;padding:0;margin:0}
 .ibuc ol.hw-steps li{counter-increment:s;position:relative;padding:0 0 14px 46px;margin:0}
 .ibuc ol.hw-steps li:before{content:counter(s);position:absolute;left:0;top:-2px;width:32px;height:32px;border-radius:50%;background:var(--gc);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center}
+.ibuc .hw-fig{margin:0;text-align:center}
+.ibuc .hw-fig img{width:100%;max-width:780px;height:auto;border:1px solid var(--b);border-radius:12px}
+.ibuc .hw-fig figcaption{font-size:14px;color:var(--m);margin:10px auto 0;max-width:780px;text-align:left}
+.ibuc button.hw-dl{background:#fff !important;color:var(--n) !important;border:1.5px solid var(--n) !important}
 .ibuc .hw-f{background:#1a2333;color:#e6edf7;border-radius:12px;padding:16px 18px;font-family:'Courier New',monospace;font-size:15.5px;line-height:1.75;overflow-x:auto}
 .ibuc .hw-f b{color:#fbbf24;font-weight:700}
 </style>"""
 STYLE_HUB = ""
 
 
-def head(title, desc, url):
+IMG_W, IMG_H = 1560, 878
+
+
+def img_name(slug):
+    return f"{slug}-working-diagram.webp"
+
+
+def head(title, desc, url, img=None, alt=""):
     h = HEAD
+    if img:
+        h = h.replace('<meta name="twitter:card" content="summary">',
+                      f'<meta property="og:image" content="{img}">\n<meta property="og:image:width" content="{IMG_W}">\n<meta property="og:image:height" content="{IMG_H}">\n<meta property="og:image:alt" content="{E(alt)}">\n<meta name="twitter:card" content="summary_large_image">\n<meta name="twitter:image" content="{img}">', 1)
     h = re.sub(r"<title>.*?</title>", "<title>" + E(title, False) + "</title>", h, 1)
     for pat, val in [(r'<meta name="description" content="[^"]*">', f'<meta name="description" content="{E(desc)}">'),
                      (r'<link rel="canonical" href="[^"]*">', f'<link rel="canonical" href="{url}">'),
@@ -91,7 +105,10 @@ def page(p, others):
             {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE},
             {"@type": "ListItem", "position": 2, "name": "How It Works", "item": BASE},
             {"@type": "ListItem", "position": 3, "name": p["h1"], "item": url}]},
+        {"@type": "ImageObject", "contentUrl": url + img_name(p["slug"]), "name": p["h1"], "caption": "Labelled diagram showing " + p["kw"].lower(), "width": IMG_W, "height": IMG_H},
         {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in p["faq"]]}]}
+    alt = "Labelled diagram showing " + p["kw"].lower()
+    cap = "Numbered parts: " + "; ".join(f"{i+1} {x.lower()}" for i, x in enumerate(p["legend"])) + "."
     js = COMMON.replace("@@SCENE@@", S[p["slug"]].replace("@@K@@", K_TABLE))
     body = f"""<div class="ibuc" id="ibuc-app" style="--gc:{c1}">
 <nav class="ibuc-crumb" aria-label="Breadcrumb"><a href="{SITE}">Home</a> › <a href="{BASE}">How It Works</a> › {E(nm)}</nav>
@@ -105,12 +122,13 @@ def page(p, others):
 {AD}
 <section class="ibuc-card"><h2>{E(p['h1'])}: Interactive Animation</h2>
 <div class="hw-stage"><canvas id="hw-cv" role="img" aria-label="Animated diagram showing {E(p['kw'].lower())}"></canvas></div>
-<div class="hw-bar"><button type="button" class="hw-pp" id="hw-pp">Pause animation</button><span class="hw-note">Numbered markers match the parts list below.</span></div>
+<div class="hw-bar"><span><button type="button" class="hw-pp" id="hw-pp">Pause animation</button> <button type="button" class="hw-pp hw-dl" id="hw-dl" data-name="{p['slug']}-working-diagram.png">Download diagram</button></span><span class="hw-note">Numbered markers match the parts list below.</span></div>
 <div class="hw-ctl" id="hw-ctl">{sl}</div>
 <div class="ibuc-out">{outs}</div>
 <ol class="hw-leg">{leg}</ol>
 </section>
 <section class="ibuc-card"><h2>{E(nm)} Working Principle Step by Step</h2><ol class="hw-steps">{steps}</ol></section>
+<section class="ibuc-card"><h2>{E(nm)} Labelled Diagram</h2><figure class="hw-fig"><img src="{url}{img_name(p['slug'])}" alt="{E(alt)}" title="{E(p['h1'])}" width="{IMG_W}" height="{IMG_H}" loading="lazy" decoding="async"><figcaption>{E(cap)}</figcaption></figure></section>
 {AD}
 <section class="ibuc-card"><h2>{E(nm)} Formula</h2><div class="hw-f">{form}</div></section>
 <section class="ibuc-card"><h2>Main Parts of {E(subj)}</h2><div class="cmp-wrap"><table class="cmp-t"><thead><tr><th>Part</th><th>What it does</th></tr></thead><tbody>{parts}</tbody></table></div></section>
@@ -126,14 +144,14 @@ def page(p, others):
 <script>{js}</script>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False, separators=(',', ':'))}</script>"""
     os.makedirs(f"{OUT}/{p['slug']}", exist_ok=True)
-    open(f"{OUT}/{p['slug']}/index.html", "w", encoding="utf-8").write(head(p["title"], p["desc"], url) + body + FOOT)
+    open(f"{OUT}/{p['slug']}/index.html", "w", encoding="utf-8").write(head(p["title"], p["desc"], url, url + img_name(p["slug"]), "Labelled diagram showing " + p["kw"].lower()) + body + FOOT)
 
 
 def hub():
     src = open(HERE / "template_hub.html", encoding="utf-8").read()
     title = "How It Works: Animated Instrumentation Diagrams"
     desc = "How It Works: 12 animated instrumentation diagrams with sliders. See how orifice plates, magmeters, radar, displacers, thermocouples and positioners work."
-    h = head(title, desc, BASE)
+    h = head(title, desc, BASE, BASE + "orifice-plate/" + img_name("orifice-plate"), "Labelled diagram showing how an orifice plate works")
     b0 = src.find('<div class="ibuc" id="ibuc-app">')
     body = src[b0:src.find("</main>")]
     body = body.replace('› Compare</nav>', '› How It Works</nav>', 1)

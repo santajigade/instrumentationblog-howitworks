@@ -12,7 +12,11 @@ _src/                  generator: content.py (text), scenes.py (canvas animation
 
 ```
 python3 _src/build.py      # regenerates site/how-it-works/ from _src/
+node _src/snap.js          # renders each animation to <slug>-working-diagram.png (needs Playwright)
+python3 _src/webp.py       # converts them to <slug>-working-diagram.webp (1560 x 878)
 ```
+
+Each page carries its diagram image (topic named, for Google Images), og:image / twitter:image for social shares, and a Download diagram button that saves `<slug>-working-diagram.png`.
 
 Edit page text in `_src/content.py` and animations in `_src/scenes.py`, rebuild, commit, push.
 The workflow uploads only the files that changed.
