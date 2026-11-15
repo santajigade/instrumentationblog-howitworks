@@ -147,7 +147,7 @@ def hub():
     s0 = body.find('<section class="ibuc-card"><h2>All Comparisons</h2>')
     s1 = body.find("</script></section>", s0) + len("</script></section>")
     old = body[s0:s1]
-    script = old[old.find("<script>"):].replace('var U=["comparison","comparisons"]', 'var U=["animation","animations"]')
+    script = re.search(r'<script>\(function\(\)\{var U=.*?</script>', old, re.S).group(0).replace('var U=["comparison","comparisons"]', 'var U=["animation","animations"]') + "</section>"
     n = len(PAGES)
     chips = f'<button type="button" class="ibx-chip on" data-t="">All<b>{n}</b></button>'
     grps = ""
@@ -157,9 +157,9 @@ def hub():
         cards = "".join(f'<a class="ibx-card" style="{GP[g]}" href="{BASE}{p["slug"]}/" data-t="{E(g)}" data-s="{E((p["h1"] + " " + p["quick"] + " " + g).lower())}"><span class="ibx-t">{E(g)}</span><span class="ibx-h">{E(p["h1"])}</span><span class="ibx-s">{E(p["hero"].split(". ")[0][:100])}…</span></a>' for p in items)
         grps += f'<div class="ibx-grp" data-t="{E(g)}" style="{GP[g]}"><h3 class="ibx-gh">{E(g)}<small>{len(items)}</small></h3><div class="ibx-grid">{cards}</div></div>'
     new = f'<section class="ibuc-card"><h2>All Animations</h2><div class="ibx-bar"><input type="search" class="ibx-q" id="ibx-q" placeholder="Search animations" aria-label="Search"><span class="ibx-n" id="ibx-n">{n} animations</span></div><div class="ibx-chips" role="group" aria-label="Filter by topic">{chips}</div><div class="ibx-none" id="ibx-none">Nothing matches your search. Try another word or pick All.</div><div id="ibx-list">{grps}</div>\n{script}'
-    body = body.replace(old, new, 1)
-    body, k = re.subn(r'<section class="ibuc-card"><h2>More Comparisons on the Blog</h2>.*?</section>', '', body, count=1, flags=re.S)
-    assert k == 1
+    f0 = body.find('<section class="ibuc-card"><h2>Frequently Asked Questions</h2>')
+    assert s0 > 0 and f0 > s0
+    body = body[:s0] + new + "\n" + AD + "\n" + body[f0:]
     faqs = [("What are these How It Works pages?", "Animated diagrams of common process instruments. Move the sliders to change flow, level, pressure or temperature and watch the instrument respond, with the formula and the main parts explained."),
             ("Are the numbers real?", "The formulas are standard engineering relations and the thermocouple page uses the IEC 60584 type K table. Some animations exaggerate small effects so they are easy to see; the pages say where."),
             ("Do the animations work on mobile?", "Yes. They run in any modern browser, pause when scrolled out of view, and respect the reduced motion setting.")]
