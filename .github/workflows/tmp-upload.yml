@@ -1,0 +1,25 @@
+name: Temp upload for article import
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "put or remove"
+        default: put
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+      - env:
+          H: ${{ secrets.FTP_SERVER }}
+          U: ${{ secrets.FTP_USERNAME }}
+          P: ${{ secrets.FTP_PASSWORD }}
+          D: ${{ secrets.FTP_SERVER_DIR }}
+          MODE: ${{ inputs.mode }}
+        run: |
+          S="set ftp:ssl-force true; set ftp:ssl-protect-data true; set ssl:verify-certificate no"
+          for dir in _upload/ibtmp-*; do n=$(basename $dir)
+            if [ "$MODE" = put ]; then lftp -u "$U","$P" "$H" -e "$S; mirror -R $dir ${D%/}/$n; bye"; echo "PUT $n"
+            else lftp -u "$U","$P" "$H" -e "$S; rm -r ${D%/}/$n; bye" || true; echo "REMOVED $n"; fi
+          done
