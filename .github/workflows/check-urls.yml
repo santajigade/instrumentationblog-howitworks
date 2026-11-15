@@ -1,0 +1,17 @@
+name: Check URL status
+on: workflow_dispatch
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          UA="Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+          while read s; do [ -z "$s" ] && continue; u="https://www.instrumentationblog.in/$s/"
+            for a in browser googlebot; do
+              [ $a = googlebot ] && H="$UA" || H="Mozilla/5.0 Chrome/130"
+              r=$(curl -s -o /tmp/b -A "$H" -w '%{http_code} %{num_redirects} %{time_total}s %{url_effective}' -L --max-redirs 10 "$u" 2>&1)
+              echo "RES|$s|$a|$r|$(grep -o '<title>[^<]*' /tmp/b | head -1 | cut -c8-60)"
+            done
+            echo "HOPS|$s|$(curl -sI -A "$UA" "$u" | grep -iE '^(HTTP|location)' | tr -d '\r' | tr '\n' ' ')"
+          done < _audit/check-urls.txt
