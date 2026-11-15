@@ -76,11 +76,12 @@ jobs:
           set -e
           {
             echo "set ftp:ssl-force true; set ftp:ssl-protect-data true; set ssl:verify-certificate no; set net:max-retries 3"
+            echo "open -u \"$U\",\"$P\" \"$H\""
             while IFS= read -r f; do
               rel=${f#fixed/}
               echo "put \"$f\" -o \"${D%/}/$rel\""
             done < changed.txt
             echo "bye"
           } > up.lftp
-          lftp -u "$U","$P" "$H" -f up.lftp
+          lftp -f up.lftp
           echo "Uploaded $(wc -l < changed.txt) files"
