@@ -126,6 +126,13 @@ def ill(topic, P):
         for (x1,y1) in nodes[3:7]:
             for (x2,y2) in nodes[7:]: g += f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{a}" stroke-width="2" opacity=".6"/>'
         for i,(x,y) in enumerate(nodes): g += f'<circle cx="{x}" cy="{y}" r="16" fill="{P["r"]}" stroke="{a if i>6 else a2}" stroke-width="5" filter="url(#gl)"/>'
+    elif topic == "analytical":
+        g += f'<rect x="150" y="160" width="220" height="360" rx="16" fill="#d5dde8" opacity=".35" stroke="#cfd7e2" stroke-width="5"/><rect x="160" y="300" width="200" height="210" rx="10" fill="{a2}" opacity=".45"/>'
+        for (x,y) in [(200,360),(260,420),(310,350),(230,470),(300,480),(190,430)]:
+            g += f'<circle cx="{x}" cy="{y}" r="7" fill="#fff" opacity=".8"/>'
+        g += f'<rect x="20" y="370" width="120" height="50" rx="10" fill="#2f3b4a"/><path d="M140 395 H380" stroke="{a}" stroke-width="10" filter="url(#gl)"/><path d="M260 395 L330 330 M260 395 L340 450" stroke="{a}" stroke-width="5" opacity=".7"/>'
+        g += f'<rect x="380" y="360" width="150" height="70" rx="10" fill="{P["r"]}" stroke="{a}" stroke-width="3"/><text x="455" y="405" text-anchor="middle" class="sv">NTU</text>'
+        g += f'<rect x="230" y="60" width="60" height="100" rx="8" fill="#2f3b4a"/>'
     else:
         g += f'<circle cx="280" cy="280" r="200" fill="none" stroke="{a2}" stroke-width="6" filter="url(#gl)"/><circle cx="280" cy="280" r="120" fill="none" stroke="{a}" stroke-width="6"/>'
         for i in range(8):
@@ -178,14 +185,16 @@ def page(title, ribbon, chips, topic, v):
 <div class="abs" style="left:60px;top:140px;width:540px;color:{P['t']};font-weight:800;font-size:{tsize}px;line-height:1.08">{H.escape(lead)}<br><span style="color:{P['h']}">{H.escape(hl)}</span></div>
 <div class="abs" style="left:60px;top:400px;padding:16px 26px;background:{P['a']};color:{P['d']};font-weight:700;font-size:28px;line-height:1.2;border-radius:12px;max-width:540px">{H.escape(ribbon)}</div>
 <div class="abs chips" style="left:60px;top:560px">{chips_h.replace('<div>',f'<div style="background:#fff;color:{P["r"]};border:2px solid {P["r"]}44">')}</div>"""
-    else:  # L==3 centered banner: illustration left smaller, big title band across
+    else:  # L==3 centered banner
+        ch = 190 if len(title) <= 22 else 300
+        rt = 110 + ch + 30
         body = f"""<div class="abs" style="inset:0;background:linear-gradient(180deg,{P['m']} 0%,{P['d']} 100%)"></div><div class="abs" style="inset:0;{grid}"></div>
 <div class="abs" style="left:20px;top:80px;transform:scale(.92);transform-origin:left top">{svg}</div>
-<div class="abs" style="left:560px;top:110px;width:620px;height:300px;background:{P['p']};border-radius:24px;box-shadow:0 20px 50px rgba(0,0,0,.35)"></div>
+<div class="abs" style="left:560px;top:110px;width:620px;height:{ch}px;background:{P['p']};border-radius:24px;box-shadow:0 20px 50px rgba(0,0,0,.35)"></div>
 <div class="abs" style="left:560px;top:110px;width:620px;height:12px;border-radius:24px 24px 0 0;background:{P['a']}"></div>
 <div class="abs" style="left:600px;top:150px;width:550px;color:{P['t']};font-weight:800;font-size:{min(tsize,58)}px;line-height:1.08">{H.escape(lead)} <span style="color:{P['h']}">{H.escape(hl)}</span></div>
-<div class="abs" style="left:560px;top:440px;width:620px;color:#fff;font-weight:700;font-size:32px;line-height:1.25">{H.escape(ribbon)}</div>
-<div class="abs chips" style="left:560px;top:560px">{chips_h.replace('<div>',f'<div style="background:{P["a"]};color:{P["d"]}">')}</div>
+<div class="abs" style="left:560px;top:{rt}px;width:620px;color:#fff;font-weight:700;font-size:34px;line-height:1.25">{H.escape(ribbon)}</div>
+<div class="abs chips" style="left:560px;top:{rt+130 if ch>200 else rt+140}px">{chips_h.replace('<div>',f'<div style="background:{P["a"]};color:{P["d"]}">')}</div>
 <div class="abs logo" style="right:30px;top:30px;color:#fff"><b style="background:{P['a']};color:{P['d']}">ib</b>instrumentationblog.in</div>"""
     return f"<!DOCTYPE html><html><head><meta charset='utf-8'><style>{CSS_BASE}</style></head><body><div class='w'>{body}</div></body></html>"
 
