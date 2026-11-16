@@ -6,6 +6,12 @@ name: Publish daily batch (08:00 IST)
 on:
   schedule:
     - cron: "30 2 * * *"      # 02:30 UTC = 08:00 IST (GitHub may start a few minutes late)
+    # Backups: GitHub sometimes delays or skips a scheduled run. A run with nothing new on
+    # `daily` exits at once, so these only publish if the 08:00 run did not happen.
+    - cron: "47 2 * * *"      # 08:17 IST
+    - cron: "13 3 * * *"      # 08:43 IST
+    - cron: "41 3 * * *"      # 09:11 IST
+    - cron: "37 4 * * *"      # 10:07 IST
   workflow_dispatch:
 
 permissions:
