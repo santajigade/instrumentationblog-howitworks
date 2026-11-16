@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Start Stop Ladder Logic: How the Seal In Latch Works, Animated</title>
+<meta name="description" content="Start stop ladder logic animated: watch the seal in contact hold the motor on, the stop button break the rung and why the stop button is wired normally closed.">
+<link rel="canonical" href="https://www.instrumentationblog.in/how-it-works/ladder-logic-start-stop/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Instrumentation Blog">
+<meta property="og:title" content="Start Stop Ladder Logic: How the Seal In Latch Works, Animated">
+<meta property="og:description" content="Start stop ladder logic animated: watch the seal in contact hold the motor on, the stop button break the rung and why the stop button is wired normally closed.">
+<meta property="og:url" content="https://www.instrumentationblog.in/how-it-works/ladder-logic-start-stop/">
+<meta property="og:image" content="https://www.instrumentationblog.in/how-it-works/ladder-logic-start-stop/ladder-logic-start-stop-working-diagram.webp">
+<meta property="og:image:width" content="1560">
+<meta property="og:image:height" content="988">
+<meta property="og:image:alt" content="Labelled diagram showing start stop ladder logic">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://www.instrumentationblog.in/how-it-works/ladder-logic-start-stop/ladder-logic-start-stop-working-diagram.webp">
+<link rel="icon" href="https://www.instrumentationblog.in/favicon.ico">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R3NLR1WRYC"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-R3NLR1WRYC");</script>
+<style>
+html{-webkit-text-size-adjust:100%}body{margin:0;background:#f1f3f7;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#1f2733}
+.ibs-top{background:#1e73be;color:#fff;font-size:13.5px}
+.ibs-in{max-width:1100px;margin:0 auto;padding:0 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ibs-top .ibs-in{min-height:36px}
+.ibs-top a{color:#fff;text-decoration:none}
+.ibs-head{background:#fff;border-bottom:1px solid #e3e7ee}
+.ibs-head .ibs-in{min-height:86px}
+.ibs-logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.ibs-mark{width:58px;height:58px;background:#ffef00;display:flex;align-items:center;justify-content:center;font:900 38px/1 Arial,Helvetica,sans-serif;color:#1e73be;letter-spacing:-2px}
+.ibs-name{font-weight:800;font-size:18px;color:#1a2333;line-height:1.1}.ibs-name small{display:block;font-weight:500;font-size:12px;color:#6b7383}
+.ibs-nav{display:flex;flex-wrap:wrap;gap:4px 22px}
+.ibs-nav a{color:#1f2733;text-decoration:none;font-size:16px}
+.ibs-nav a:hover,.ibs-nav a.on{color:#e4004b}
+.ibs-main{padding:22px 16px 30px}
+.ibs-pv{text-align:center;padding:6px 16px 18px;font:13px/1.4 Arial,Helvetica,sans-serif;color:#5b6573}.ibs-pv span{display:inline-block;background:#fff;border:1px solid #dde3ea;border-radius:999px;padding:5px 14px}
+.ibs-foot{background:#1a2333;color:#aab3c5;font-size:13px}.ibs-foot .ibs-in{min-height:56px}.ibs-foot a{color:#d6dcea}
+@media(max-width:700px){.ibs-top a{display:none}.ibs-head .ibs-in{padding:10px 16px}.ibs-nav{gap:4px 16px}.ibs-nav a{font-size:15px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="ibs-top"><div class="ibs-in"><span>Free engineering calculators and unit converters</span><a href="mailto:ceo@instrumentationblog.in">ceo@instrumentationblog.in</a></div></div>
+<header class="ibs-head"><div class="ibs-in">
+<a class="ibs-logo" href="https://www.instrumentationblog.in/" aria-label="Instrumentation Blog home"><span class="ibs-mark">ib</span><span class="ibs-name">Instrumentation Blog<small>Instrumentation simplified, knowledge amplified</small></span></a>
+<nav class="ibs-nav"><a href="https://www.instrumentationblog.in/">Home</a><a href="https://www.instrumentationblog.in/calculators/">Calculators</a><a href="https://www.instrumentationblog.in/unit-converters/">Unit Converters</a><a href="https://www.instrumentationblog.in/tools/">Tools</a><a href="https://www.instrumentationblog.in/downloads/">Downloads</a><a href="https://www.instrumentationblog.in/glossary/">Glossary</a></nav>
+</div></header>
+<main class="ibs-main"><style>
+.ibuc .hw-stage{max-width:780px;margin:0 auto;background:#fff;border:1px solid var(--b);border-radius:14px;overflow:hidden}
+.ibuc .hw-stage canvas{display:block;width:100%}
+.ibuc .hw-bar{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin:12px auto 0;max-width:780px}
+.ibuc button.hw-pp{background:var(--n) !important;color:#fff !important;border:0 !important;border-radius:999px !important;padding:8px 16px !important;font-size:14px;font-weight:700;cursor:pointer;line-height:1.2}
+.ibuc .hw-note{font-size:13px;color:var(--m)}
+.ibuc .hw-ctl{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px 22px;margin:18px 0 0}
+.ibuc .hw-s label{display:flex;justify-content:space-between;font-size:14px;font-weight:700;color:var(--n);margin:0 0 6px}
+.ibuc .hw-s label b{color:var(--gc);font-variant-numeric:tabular-nums}
+.ibuc .hw-s input[type=range]{width:100%;accent-color:var(--gc);height:28px;margin:0}
+.ibuc .hw-leg{list-style:none;padding:0;margin:16px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:8px 18px}
+.ibuc .hw-leg li{display:flex;gap:10px;align-items:flex-start;font-size:14.5px}
+.ibuc .hw-leg i{flex:0 0 24px;height:24px;border-radius:50%;background:#d9622b;color:#fff;font-style:normal;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center}
+.ibuc ol.hw-steps{list-style:none;counter-reset:s;padding:0;margin:0}
+.ibuc ol.hw-steps li{counter-increment:s;position:relative;padding:0 0 14px 46px;margin:0}
+.ibuc ol.hw-steps li:before{content:counter(s);position:absolute;left:0;top:-2px;width:32px;height:32px;border-radius:50%;background:var(--gc);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center}
+.ibuc .hw-fig{margin:0;text-align:center}
+.ibuc .hw-fig img{width:100%;max-width:780px;height:auto;border:1px solid var(--b);border-radius:12px}
+.ibuc .hw-fig figcaption{font-size:14px;color:var(--m);margin:10px auto 0;max-width:780px;text-align:left}
+.ibuc button.hw-dl{background:#fff !important;color:var(--n) !important;border:1.5px solid var(--n) !important}
+.ibuc .hw-uses{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.ibuc .hw-use{background:var(--l);border:1px solid var(--b);border-left:4px solid var(--gc);border-radius:10px;padding:12px 14px}
+.ibuc .hw-use b{display:block;color:var(--n);margin:0 0 4px}
+.ibuc .hw-use span{font-size:14.5px;color:#334155}
+.ibuc ul.hw-tips{list-style:none;padding:0;margin:0}
+.ibuc ul.hw-tips li{position:relative;padding:0 0 10px 30px}
+.ibuc ul.hw-tips li:before{content:"✓";position:absolute;left:0;top:0;width:20px;height:20px;border-radius:50%;background:var(--gc);color:#fff;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center}
+.ibuc .hw-f{background:#1a2333;color:#e6edf7;border-radius:12px;padding:16px 18px;font-family:'Courier New',monospace;font-size:15.5px;line-height:1.75;overflow-x:auto}
+.ibuc .hw-f b{color:#fbbf24;font-weight:700}
+</style><style>
+.ibuc{--n:#1a2333;--t:#1f2733;--m:#5b6576;--b:#dde3ee;--l:#f6f8fc;--a:#d9622b;--g:#1f9d55;color:var(--t);font-size:16px;line-height:1.6;max-width:1100px;margin:0 auto}
+.ibuc *{box-sizing:border-box}
+.ibuc a{color:#1f5fbf;text-decoration:none}.ibuc a:hover{text-decoration:underline}
+.ibuc h1,.ibuc h2,.ibuc h3{line-height:1.25;margin:0 0 12px;color:var(--n);font-weight:700;letter-spacing:0;text-transform:none}
+.ibuc h2{font-size:24px;margin-top:8px}.ibuc h3{font-size:18px}
+.ibuc p{margin:0 0 12px}
+.ibuc .ibuc-crumb{font-size:13px;color:var(--m);margin:0 0 12px}
+.ibuc .ibuc-hero{border-radius:16px;padding:28px 26px;color:#fff;margin:0 0 20px}
+.ibuc .ibuc-hero h1{color:#fff !important;font-size:34px;margin:6px 0 10px}
+.ibuc .ibuc-eye{font-size:12px;letter-spacing:.12em;text-transform:uppercase;opacity:.85;font-weight:700}
+.ibuc .ibuc-hero p{color:#e8ecf4;margin:0 0 14px;max-width:760px}
+.ibuc .ibuc-pills{display:flex;flex-wrap:wrap;gap:8px}
+.ibuc .ibuc-pill{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);color:#fff;border-radius:999px;padding:3px 12px;font-size:13px}
+.ibuc .ibuc-card{background:#fff;border:1px solid var(--b);border-radius:14px;padding:22px;margin:0 0 22px;box-shadow:0 2px 10px rgba(26,35,51,.05)}
+.ibuc .ibuc-tool{border-top:4px solid var(--a);scroll-margin-top:90px}
+.ibuc .ibuc-grid{display:grid;grid-template-columns:1fr 1.3fr auto 1.3fr;gap:12px;align-items:end}
+.ibuc .ibuc-field label{display:block;font-size:13px;font-weight:700;color:var(--m);margin:0 0 5px}
+.ibuc .ibuc-field input,.ibuc .ibuc-field select{width:100%;height:46px;border:1.5px solid var(--b) !important;border-radius:10px !important;padding:0 12px !important;font-size:16px;background:#fff !important;color:var(--t) !important;margin:0;box-shadow:none}
+.ibuc .ibuc-field input:focus,.ibuc .ibuc-field select:focus{outline:none;border-color:var(--a) !important;box-shadow:0 0 0 3px rgba(217,98,43,.15)}
+.ibuc .ibuc-field input.ibuc-bad{border-color:#c0392b !important}
+.ibuc button.ibuc-swap{height:46px;width:46px;border-radius:50% !important;border:1.5px solid var(--b) !important;background:var(--l) !important;color:var(--n) !important;font-size:20px;cursor:pointer;padding:0 !important;line-height:1}
+.ibuc button.ibuc-swap:hover{background:var(--n) !important;color:#fff !important}
+.ibuc .ibuc-result{background:var(--l);border-radius:12px;padding:16px 18px;margin:16px 0 12px}
+.ibuc .ibuc-res-main{font-size:22px;color:var(--n);word-break:break-word}
+.ibuc .ibuc-res-main b{color:var(--a);font-size:28px}
+.ibuc .ibuc-res-sub{font-size:14px;color:var(--m);margin-top:6px;word-break:break-word}
+.ibuc .ibuc-bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:14px;color:var(--m)}
+.ibuc .ibuc-bar select{height:36px;border:1.5px solid var(--b) !important;border-radius:8px !important;padding:0 8px !important;background:#fff !important;color:var(--t) !important;width:auto}
+.ibuc button.ibuc-btn{background:var(--n) !important;color:#fff !important;border:0 !important;border-radius:8px !important;padding:8px 16px !important;font-size:14px;font-weight:600;cursor:pointer;line-height:1.2}
+.ibuc button.ibuc-btn:hover{background:var(--a) !important}
+.ibuc .ibuc-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;align-items:center}
+.ibuc .ibuc-chips span{font-size:13px;font-weight:700;color:var(--m)}
+.ibuc button.ibuc-chip,.ibuc a.ibuc-chip{background:#fff !important;border:1.5px solid var(--b) !important;color:var(--n) !important;border-radius:999px !important;padding:5px 13px !important;font-size:13px;cursor:pointer;line-height:1.3;font-weight:500;text-decoration:none}
+.ibuc button.ibuc-chip:hover,.ibuc a.ibuc-chip:hover{border-color:var(--a) !important;color:var(--a) !important;text-decoration:none}
+.ibuc .ibuc-tw{overflow-x:auto;border:1px solid var(--b);border-radius:10px}
+.ibuc table.ibuc-t{width:100%;border-collapse:collapse;margin:0;font-size:15px;border:0}
+.ibuc table.ibuc-t th{background:var(--n) !important;color:#fff !important;text-align:left;padding:10px 12px;font-weight:600;border:0 !important}
+.ibuc table.ibuc-t td{padding:8px 12px;border:0 !important;border-bottom:1px solid var(--b) !important;background:#fff;vertical-align:top}
+.ibuc table.ibuc-t tr:nth-child(even) td{background:#fafbfd}
+.ibuc table.ibuc-t tr:last-child td{border-bottom:0 !important}
+.ibuc table.ibuc-t td.ibuc-num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.ibuc #ibuc-all tr{cursor:pointer}.ibuc #ibuc-all tr:hover td{background:#fff4ee}
+.ibuc #ibuc-all tr.ibuc-hl td{background:#fde9de;font-weight:700}
+.ibuc .ibuc-two{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.ibuc .ibuc-fbox{background:var(--n);color:#fff;border-radius:12px;padding:16px 18px;margin:12px 0;font-family:Consolas,Menlo,monospace;font-size:15px;word-break:break-word}
+.ibuc .ibuc-key{border-left:4px solid var(--a);background:#fff6f1;border-radius:0 10px 10px 0;padding:12px 16px;margin:12px 0}
+.ibuc .ibuc-steps{margin:0 0 12px;padding-left:22px}.ibuc .ibuc-steps li{margin-bottom:6px}
+.ibuc details{border:1px solid var(--b);border-radius:10px;margin:0 0 10px;background:#fff}
+.ibuc summary{cursor:pointer;padding:12px 16px;font-weight:700;color:var(--n);list-style:none}
+.ibuc summary::-webkit-details-marker{display:none}
+.ibuc summary:before{content:"Q";display:inline-block;background:var(--a);color:#fff;border-radius:6px;width:22px;height:22px;text-align:center;line-height:22px;font-size:12px;margin-right:10px}
+.ibuc details p{padding:0 16px 14px 48px;margin:0;color:var(--t)}
+.ibuc .ibuc-links{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.ibuc .ibuc-links a{display:block;border:1px solid var(--b);border-radius:10px;padding:10px 14px;background:#fff;color:var(--n);font-weight:600;font-size:15px}
+.ibuc .ibuc-links a small{display:block;font-weight:400;color:var(--m);font-size:12.5px;margin-top:2px}
+.ibuc .ibuc-links a:hover{border-color:var(--a);text-decoration:none;box-shadow:0 3px 12px rgba(217,98,43,.12)}
+.ibuc .ibuc-ymal{border-radius:14px;padding:22px;color:#fff;margin:0 0 22px}
+.ibuc .ibuc-ymal h3{color:#fff !important;margin-bottom:6px}
+.ibuc .ibuc-ymal .ibuc-yt{font-weight:700;font-size:18px;margin:0 0 6px}
+.ibuc .ibuc-ymal p{color:#e8ecf4}
+.ibuc a.ibuc-go{display:inline-block;background:var(--g);color:#fff !important;border-radius:999px;padding:8px 20px;font-weight:700;font-size:14px}
+.ibuc a.ibuc-go:hover{text-decoration:none;filter:brightness(1.08)}
+.ibuc .ibuc-ref{background:var(--l);border:1px solid var(--b);border-radius:14px;padding:20px 22px;margin:0 0 22px}
+.ibuc .ibuc-ad{margin:6px 0 24px;text-align:center}
+.ibuc .ibuc-adl{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#98a1b0;border-top:1px dotted #c8cfdb;border-bottom:1px dotted #c8cfdb;padding:3px 0;margin-bottom:8px}
+.ibuc .ibuc-adph{border:1.5px dashed #c8cfdb;border-radius:8px;padding:30px;color:#98a1b0;font-size:13px}
+.ibuc .ibuc-status{border-radius:8px;padding:10px 14px;font-size:14px;margin:12px 0 0}
+.ibuc .ibuc-ok{background:#e7f6ee;color:#14663a}.ibuc .ibuc-warn{background:#fff4dc;color:#7a5400}.ibuc .ibuc-err{background:#fde7e7;color:#9b1c1c}
+.ibuc .ibuc-g3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.ibuc .ibuc-g4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.ibuc .ibuc-sub{font-size:13px;color:var(--m);margin:6px 0 0}
+.ibuc .ibuc-search{width:100%;height:52px;border:2px solid rgba(255,255,255,.35) !important;background:rgba(255,255,255,.96) !important;border-radius:12px !important;padding:0 16px !important;font-size:17px;color:var(--t) !important;margin-top:6px}
+.ibuc .ibuc-cat{scroll-margin-top:90px}
+.ibuc .ibuc-cath{display:flex;align-items:center;gap:12px;margin:0 0 4px}
+.ibuc .ibuc-dot{width:12px;height:12px;border-radius:50%;flex:none}
+.ibuc .ibuc-toc{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.ibuc .ibuc-stats{display:flex;gap:22px;flex-wrap:wrap;margin:4px 0 14px}
+.ibuc .ibuc-stats b{display:block;font-size:26px;color:#fff}.ibuc .ibuc-stats span{font-size:13px;color:#cfd6e4}
+.ibuc .ibuc-empty{display:none;color:var(--m);padding:10px 0}
+@media (max-width:760px){
+ .ibuc .ibuc-grid{grid-template-columns:1fr}
+ .ibuc button.ibuc-swap{position:relative;grid-column:1/-1;width:100%;border-radius:10px !important;height:38px}
+ .ibuc .ibuc-two,.ibuc .ibuc-g3,.ibuc .ibuc-g4{grid-template-columns:1fr}
+ .ibuc .ibuc-hero{padding:22px 18px}.ibuc .ibuc-hero h1{font-size:26px}
+ .ibuc .ibuc-card{padding:16px}
+ .ibuc .ibuc-res-main{font-size:18px}.ibuc .ibuc-res-main b{font-size:22px}
+}
+</style><style>
+.ibuc .ibuc-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 16px}
+.ibuc button.ibuc-tab{background:var(--l) !important;color:var(--n) !important;border:1.5px solid var(--b) !important;border-radius:999px !important;padding:8px 16px !important;font-size:14px;font-weight:700;cursor:pointer;line-height:1.2}
+.ibuc button.ibuc-tab.on{background:var(--n) !important;color:#fff !important;border-color:var(--n) !important}
+.ibuc .ibuc-out{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:16px 0 0}
+.ibuc .ibuc-o{background:var(--l);border-radius:12px;padding:12px 14px}
+.ibuc .ibuc-o span{display:block;font-size:12.5px;color:var(--m);font-weight:600}
+.ibuc .ibuc-o b{display:block;font-size:22px;color:var(--n);font-variant-numeric:tabular-nums;word-break:break-word}
+.ibuc .ibuc-o.main{background:#fff1e9}.ibuc .ibuc-o.main b{color:var(--a);font-size:26px}
+.ibuc .ibuc-steps-box{background:#fff;border:1px dashed var(--b);border-radius:10px;padding:12px 16px;margin:14px 0 0;font-size:14.5px}
+.ibuc .ibuc-steps-box ol{margin:6px 0 0;padding-left:20px}
+.ibuc table.ibuc-grid10 td,.ibuc table.ibuc-grid10 th{text-align:right;padding:6px 8px;font-size:13.5px;white-space:nowrap}
+.ibuc table.ibuc-grid10 td:first-child,.ibuc table.ibuc-grid10 th:first-child{text-align:left;font-weight:700;background:#eef2f9}
+.ibuc .ibuc-soon a,.ibuc .ibuc-soon div{opacity:1}
+.ibuc .ibuc-links div.ibuc-dis{display:block;border:1px dashed var(--b);border-radius:10px;padding:10px 14px;background:#fafbfd;color:#8a93a3;font-weight:600;font-size:15px}
+.ibuc .ibuc-links div.ibuc-dis small{display:block;font-weight:400;font-size:12.5px;margin-top:2px}
+.ibuc .ibuc-badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:middle}
+.ibuc .ibuc-badge.live{background:#e7f6ee;color:#14663a}.ibuc .ibuc-badge.soon{background:#eef1f6;color:#6b7383}
+.ibuc .ibuc-catgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.ibuc .ibuc-catcard{display:block;border-radius:14px;padding:18px;color:#fff !important;min-height:150px;position:relative}
+.ibuc a.ibuc-catcard:hover{text-decoration:none;transform:translateY(-2px);box-shadow:0 8px 22px rgba(26,35,51,.18)}
+.ibuc .ibuc-catcard h3{color:#fff !important;margin:0 0 6px;font-size:19px}
+.ibuc .ibuc-catcard p{color:#e3e8f1;font-size:14px;margin:0 0 10px}
+.ibuc .ibuc-catcard span{font-size:12.5px;font-weight:700;background:rgba(255,255,255,.16);border-radius:999px;padding:3px 10px}
+@media print{.ibs-top,.ibs-head,.ibs-foot,.ibuc-ad,.ibuc-hero,.ibuc-noprint{display:none !important}.ibuc .ibuc-card{box-shadow:none;border:0}}
+</style><style>
+.ibuc .ibx-bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 14px}
+.ibuc .ibx-q{flex:1 1 260px;min-width:0;padding:12px 14px 12px 40px !important;border:1px solid #cfd8e3 !important;border-radius:12px !important;font-size:15px !important;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236b7686' stroke-width='2.4'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m20 20-3.5-3.5'/%3E%3C/svg%3E") no-repeat 14px 50% !important;box-sizing:border-box}
+.ibuc .ibx-q:focus{outline:2px solid #1e73be;border-color:#1e73be !important}
+.ibuc .ibx-n{font-size:13.5px;color:#5a6575;white-space:nowrap;font-weight:600}
+.ibuc .ibx-chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.ibuc .ibx-chip{border:1px solid var(--b,#cfd8e3) !important;background:var(--l,#fff) !important;color:var(--d,#1f2733) !important;border-radius:999px !important;padding:7px 15px !important;font-size:13.5px !important;font-weight:700;cursor:pointer;line-height:1.3;transition:transform .12s}
+.ibuc .ibx-chip:hover{transform:translateY(-1px)}
+.ibuc .ibx-chip.on{background:var(--d,#1a2333) !important;color:#fff !important;border-color:var(--d,#1a2333) !important}
+.ibuc .ibx-chip b{font-weight:600;opacity:.7;margin-left:5px}
+.ibuc .ibx-grp{margin:0 0 26px}
+.ibuc .ibx-gh{display:flex;align-items:center;gap:10px;margin:0 0 12px;font-size:17px;font-weight:800;color:var(--d)}
+.ibuc .ibx-gh:before{content:"";width:10px;height:22px;border-radius:4px;background:var(--d)}
+.ibuc .ibx-gh small{font-size:12.5px;font-weight:700;background:var(--l);border:1px solid var(--b);color:var(--d);border-radius:999px;padding:2px 9px}
+.ibuc .ibx-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
+.ibuc a.ibx-card{position:relative;display:flex;flex-direction:column;gap:6px;min-height:120px;padding:16px 16px 14px;border:1px solid var(--b);border-top:4px solid var(--d);border-radius:14px;background:var(--l);color:#1f2733 !important;text-decoration:none !important;transition:transform .15s,box-shadow .15s;box-sizing:border-box}
+.ibuc a.ibx-card:hover{transform:translateY(-3px);box-shadow:0 10px 22px rgba(26,35,51,.13)}
+.ibuc .ibx-card .ibx-t{max-width:calc(100% - 34px);box-sizing:border-box;align-self:flex-start;font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--d);background:#fff;border:1px solid var(--b);border-radius:999px;padding:2px 8px}
+.ibuc .ibx-card .ibx-h{font-size:15.5px;font-weight:700;line-height:1.35;padding-right:20px}
+.ibuc .ibx-card .ibx-s{font-size:13px;color:#4f5a6a;line-height:1.4;margin-top:auto}
+.ibuc .ibx-card:after{content:"→";position:absolute;right:14px;top:14px;width:24px;height:24px;line-height:24px;text-align:center;border-radius:50%;background:#fff;color:var(--d);font-weight:800;font-size:13px;transition:transform .15s}
+.ibuc .ibx-card:hover:after{transform:translateX(3px)}
+.ibuc .ibx-adslot{margin:4px 0 30px}
+.ibuc .ibx-adslot .ibuc-ad{margin:0}
+.ibuc .ibx-none{display:none;padding:18px;text-align:center;color:#5a6575;border:1px dashed #cfd8e3;border-radius:12px;margin:0 0 20px}
+@media(max-width:520px){.ibuc .ibx-grid{grid-template-columns:1fr;gap:12px}.ibuc a.ibx-card{min-height:0}}
+</style><style>
+.ibuc .cmp-verdict{font-size:17.5px;line-height:1.55;background:#fff;border-left:5px solid var(--gc);border-radius:12px;padding:16px 18px;margin:0 0 22px;box-shadow:0 1px 3px rgba(26,35,51,.08)}
+.ibuc .cmp-verdict b{color:var(--gc)}
+.ibuc .cmp-wrap{overflow-x:auto;margin:0 -4px;padding:0 4px}
+.ibuc table.cmp-t{width:100%;border-collapse:separate;border-spacing:0;font-size:15px;min-width:520px}
+.ibuc table.cmp-t th{background:var(--gc);color:#fff;text-align:left;padding:11px 12px;font-size:14.5px}
+.ibuc table.cmp-t th:first-child{border-radius:10px 0 0 0;background:#1a2333}.ibuc table.cmp-t th:last-child{border-radius:0 10px 0 0;background:#3b4bb0}
+.ibuc table.cmp-t td{padding:10px 12px;border-bottom:1px solid #e3e7ee;vertical-align:top}
+.ibuc table.cmp-t tr:nth-child(even) td{background:#f6f8fb}
+.ibuc table.cmp-t td:first-child{font-weight:700;color:#13283f;width:24%}
+.ibuc .cmp-two{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 22px}
+.ibuc .cmp-box{border-radius:14px;padding:18px 20px;border:1px solid var(--b);background:var(--l);border-top:4px solid var(--d)}
+.ibuc .cmp-box h3{margin:0 0 10px;color:var(--d);font-size:18px}
+.ibuc .cmp-box ul{margin:0;padding-left:20px}.ibuc .cmp-box li{margin:0 0 6px}
+@media(max-width:640px){.ibuc .cmp-two{grid-template-columns:1fr}
+.ibuc table.cmp-t{min-width:0}.ibuc table.cmp-t thead{display:none}
+.ibuc table.cmp-t tr{display:block;border:1px solid #e3e7ee;border-radius:12px;margin:0 0 12px;overflow:hidden}
+.ibuc table.cmp-t td{display:block;width:auto !important;border-bottom:1px solid #eef1f5}
+.ibuc table.cmp-t td:first-child{background:#1a2333 !important;color:#fff}
+.ibuc table.cmp-t td[data-l]:before{content:attr(data-l);display:block;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:var(--gc);margin-bottom:2px}
+.ibuc table.cmp-t td:last-child[data-l]:before{color:#3b4bb0}
+.ibuc table.cmp-t tr:nth-child(even) td{background:#fff}}
+</style>
+<div class="ibuc" id="ibuc-app" style="--gc:#c2410c">
+<nav class="ibuc-crumb" aria-label="Breadcrumb"><a href="https://www.instrumentationblog.in/">Home</a> › <a href="https://www.instrumentationblog.in/how-it-works/">How It Works</a> › Start Stop Latch in Ladder Logic</nav>
+<header class="ibuc-hero" style="background:linear-gradient(135deg,#c2410c 0%,#4a1a05 100%)">
+  <div class="ibuc-eye">PLC · How It Works</div>
+  <h1>How a Start Stop Latch Works in Ladder Logic</h1>
+  <p>Choose whether the stop button is wired normally closed or normally open and set the PLC scan time. Watch the demo press Start and Stop, then break the stop wire and see which wiring stops the motor safely.</p>
+  <div class="ibuc-pills"><span class="ibuc-pill">Live animation</span><span class="ibuc-pill">Adjustable sliders</span><span class="ibuc-pill">Formula and example</span></div>
+</header>
+<p class="cmp-verdict"><b>Quick answer:</b> A start stop latch uses the output&#x27;s own contact in parallel with the Start button, so the coil stays on after Start is released. A normally closed Stop button in series breaks the rung and drops the latch.</p>
+<section class="ibuc-card"><h2>What Is a Start Stop Latch in Ladder Logic?</h2><p>The start stop circuit with a seal in contact is the first program almost every PLC engineer writes. It copies the classic hard wired motor starter, where an auxiliary contact of the contactor holds its own coil.</p><p>In ladder logic the Start contact and a contact of the output coil sit in parallel branches, and the Stop and overload contacts sit in series after them. One rung gives a memory that survives the release of the Start button.</p><p>The detail that matters in the field is how the Stop button is wired. A normally closed stop button makes a broken wire act like a stop command, which is why it is the standard practice.</p></section>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>How a Start Stop Latch Works in Ladder Logic: Interactive Animation</h2>
+<div class="hw-stage"><canvas id="hw-cv" role="img" aria-label="Animated diagram showing start stop ladder logic"></canvas></div>
+<div class="hw-bar"><span><button type="button" class="hw-pp" id="hw-pp">Pause animation</button> <button type="button" class="hw-pp hw-dl" id="hw-dl" data-name="ladder-logic-start-stop-working-diagram.png" data-title="How a Start Stop Latch Works in Ladder Logic">Download diagram</button></span><span class="hw-note">Numbered markers match the parts list below.</span></div>
+<div class="hw-ctl" id="hw-ctl"><div class="hw-s"><label for="hw-nc">Stop button contact (1 = NC wired, 0 = NO wired) <b id="hw-nc-v"></b></label><input type="range" id="hw-nc" data-k="nc" min="0" max="1" step="1" value="1" data-d="0" data-u=""></div><div class="hw-s"><label for="hw-scan">PLC scan time <b id="hw-scan-v"></b></label><input type="range" id="hw-scan" data-k="scan" min="5" max="50" step="1" value="10" data-d="0" data-u="ms"></div></div>
+<div class="ibuc-out"><div class="ibuc-o"><span>Motor output Q0.0</span><b id="hw-o-q">…</b></div><div class="ibuc-o main"><span>Rung result now</span><b id="hw-o-eq">…</b></div><div class="ibuc-o"><span>When the stop wire breaks</span><b id="hw-o-brk">…</b></div><div class="ibuc-o"><span>Worst case PLC reaction to a button</span><b id="hw-o-rt">…</b></div></div>
+<ol class="hw-leg"><li><i>1</i><span>Start pushbutton, NO, input I0.0</span></li><li><i>2</i><span>Stop pushbutton, input I0.1</span></li><li><i>3</i><span>Seal in contact Q0.0 in parallel with Start</span></li><li><i>4</i><span>Output coil Q0.0</span></li><li><i>5</i><span>Contactor and motor</span></li><li><i>6</i><span>PLC input card with status LEDs</span></li><li><i>7</i><span>Demo sequence and motor state</span></li></ol>
+</section>
+<section class="ibuc-card"><h2>Start Stop Latch in Ladder Logic Working Principle Step by Step</h2><ol class="hw-steps"><li>At rest the Stop and overload contacts are closed and the Start contact is open, so no power reaches the coil Q0.0.</li><li>Pressing Start closes I0.0; the rung becomes true, Q0.0 turns on and the contactor starts the motor.</li><li>In the same moment the seal in contact Q0.0 in the parallel branch closes, so the rung stays true after Start is released.</li><li>Pressing Stop opens the NC field contact, the input I0.1 goes to 0 and the series contact breaks the rung; Q0.0 and its seal in contact drop out.</li><li>A broken stop wire or a tripped overload also removes the input signal, so the motor stops instead of running out of control.</li></ol></section>
+<section class="ibuc-card"><h2>Start Stop Latch in Ladder Logic Labelled Diagram</h2><figure class="hw-fig"><img src="https://www.instrumentationblog.in/how-it-works/ladder-logic-start-stop/ladder-logic-start-stop-working-diagram.webp" alt="Labelled diagram showing start stop ladder logic" title="How a Start Stop Latch Works in Ladder Logic" width="1560" height="988" loading="lazy" decoding="async"><figcaption>Numbered parts: 1 start pushbutton, no, input i0.0; 2 stop pushbutton, input i0.1; 3 seal in contact q0.0 in parallel with start; 4 output coil q0.0; 5 contactor and motor; 6 plc input card with status leds; 7 demo sequence and motor state.</figcaption></figure></section>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>Start Stop Latch in Ladder Logic Formula</h2><div class="hw-f"><b>Q0.0 = (Start I0.0 OR Q0.0) AND Stop I0.1 AND Overload I0.2</b><br>Stop and overload are wired NC in the field and examined as closed in the program, so a 1 means healthy<br>Press Start: (1 OR 0) AND 1 AND 1 = 1; release Start: (0 OR 1) AND 1 AND 1 = 1, the latch holds<br>Press Stop: (0 OR 1) AND 0 AND 1 = 0, the latch drops<br>Example: NC stop button and 10 ms scan: the output reacts within about 2 × 10 = 20 ms, plus input filter and contactor time</div></section>
+<section class="ibuc-card"><h2>Main Parts of a Start Stop Latch in Ladder Logic</h2><div class="cmp-wrap"><table class="cmp-t"><thead><tr><th>Part</th><th>What it does</th></tr></thead><tbody><tr><td>Start pushbutton (NO)</td><td data-l="What it does">Momentary contact that sets the latch</td></tr><tr><td>Stop pushbutton (NC)</td><td data-l="What it does">Momentary contact that breaks the latch; wired NC for fail safe stopping</td></tr><tr><td>Seal in contact</td><td data-l="What it does">Contact of the output Q0.0 placed in parallel with Start to hold the rung on</td></tr><tr><td>Output coil Q0.0</td><td data-l="What it does">Drives the contactor coil through the PLC output card</td></tr><tr><td>Overload contact</td><td data-l="What it does">NC auxiliary contact of the overload relay that stops the motor on overcurrent</td></tr></tbody></table></div></section>
+<section class="ibuc-card"><h2>Where a Start Stop Latch in Ladder Logic Is Used</h2><div class="hw-uses"><div class="hw-use"><b>Motor starters</b><span>Pumps, fans, conveyors and agitators started and stopped from a local station.</span></div><div class="hw-use"><b>Process sequences</b><span>Holding a step active after a momentary command.</span></div><div class="hw-use"><b>Alarm acknowledge</b><span>Latching an alarm until an operator resets it.</span></div><div class="hw-use"><b>Training and testing</b><span>The first rung used to learn contacts, coils and the scan cycle.</span></div></div></section>
+<div class="cmp-two"><div class="cmp-box" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2"><h3>Advantages</h3><ul><li>Simple logic that every technician can read</li><li>Copies the familiar hard wired starter</li><li>Fail safe when Stop and overload are wired NC</li></ul></div><div class="cmp-box" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8"><h3>Limitations</h3><ul><li>The latch is lost on PLC power cycle unless a retentive bit is used</li><li>A Stop wired NO will not stop the motor if its wire breaks</li><li>Not a substitute for a hard wired emergency stop and safety relay</li></ul></div></div>
+<section class="ibuc-card"><h2>Start Stop Latch in Ladder Logic Field Tips and Common Problems</h2><ul class="hw-tips"><li>Wire Stop and overload contacts NC and examine them as closed in the program.</li><li>Keep emergency stop in a hard wired safety circuit that removes power to the contactor, not only in PLC logic.</li><li>Use the contactor auxiliary contact as a run feedback input to detect a contactor that did not pull in.</li><li>Check the input LED on the card first: if Stop LED is off while nobody presses it, look for a broken wire or loose terminal.</li></ul></section>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>Related Calculators and Tools</h2><div class="ibx-grid"><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://www.instrumentationblog.in/calculators/plc-signal/plc-response-time-calculator/"><span class="ibx-t">Calculator</span><span class="ibx-h">PLC Response Time Calculator</span><span class="ibx-s">Free online calculator with formula and worked example.</span></a><a class="ibx-card" style="--l:#e4f6f7;--d:#0f7b80;--b:#bfe6e8" href="https://www.instrumentationblog.in/tools/practice-tests/plc-and-signals-quiz/"><span class="ibx-t">Tool</span><span class="ibx-h">PLC and Signals Quiz</span><span class="ibx-s">Step by step interactive troubleshooting.</span></a><a class="ibx-card" style="--l:#fff4e0;--d:#a8620a;--b:#f5ddb0" href="https://www.instrumentationblog.in/glossary/plc-scan-time/"><span class="ibx-t">Glossary</span><span class="ibx-h">PLC Scan Time</span><span class="ibx-s">Definition, formula and example.</span></a><a class="ibx-card" style="--l:#fff4e0;--d:#a8620a;--b:#f5ddb0" href="https://www.instrumentationblog.in/glossary/interposing-relay/"><span class="ibx-t">Glossary</span><span class="ibx-h">Interposing Relay</span><span class="ibx-s">Definition, formula and example.</span></a></div></section>
+<section class="ibuc-card"><h2>Frequently Asked Questions</h2><details open><summary>Why is the stop button wired normally closed?</summary><p>With an NC stop button the input is 1 when healthy. A broken wire or loose terminal makes it 0, which the program treats as a stop, so the fault is safe.</p></details><details><summary>What is a seal in contact?</summary><p>It is a contact of the output coil placed in parallel with the Start button. Once the output is on, this contact keeps the rung true after Start is released.</p></details><details><summary>Can I use set and reset instructions instead?</summary><p>Yes, set and reset coils give the same latch. Many engineers prefer the seal in rung because all conditions are visible on one line.</p></details><details><summary>What happens if Start and Stop are pressed together?</summary><p>In this rung Stop is in series after the branch, so Stop wins and the motor stays off. This stop dominant behaviour is the safe choice.</p></details></section>
+<div class="ibuc-ymal" style="background:linear-gradient(135deg,#c2410c 0%,#4a1a05 100%)"><div class="ibuc-eye">You May Also Like</div><h3>Learn more on the blog</h3><p class="ibuc-yt">Ladder logic for beginners</p><p>A practical guide on instrumentationblog.in that goes deeper into this topic with field examples.</p><a class="ibuc-go" href="https://www.instrumentationblog.in/ladder-logic-for-beginners/">Read Full Article</a></div>
+<section class="ibuc-card"><h2>More How It Works</h2><div class="ibx-grid"><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/how-it-works/plc-scan-cycle/"><span class="ibx-t">PLC</span><span class="ibx-h">How a PLC Scan Cycle Works</span><span class="ibx-s">A PLC works in a repeating loop called the scan cycle…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/how-it-works/orifice-plate/"><span class="ibx-t">Flow</span><span class="ibx-h">How an Orifice Plate Works</span><span class="ibx-s">An orifice plate is a thin plate with a hole that squeezes the flow…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/how-it-works/magnetic-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How a Magnetic Flow Meter Works</span><span class="ibx-s">A magnetic flow meter (magmeter) uses Faraday&#x27;s law…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/how-it-works/vortex-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How a Vortex Flow Meter Works</span><span class="ibx-s">A vortex flow meter places a bluff body (shedder bar) across the flow…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/how-it-works/coriolis-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How a Coriolis Flow Meter Works</span><span class="ibx-s">A Coriolis meter vibrates its flow tubes at their natural frequency…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/how-it-works/ultrasonic-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How an Ultrasonic Flow Meter Works</span><span class="ibx-s">A transit time ultrasonic flow meter sends sound pulses diagonally across the pipe in both direc…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/how-it-works/turbine-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How a Turbine Flow Meter Works</span><span class="ibx-s">A turbine flow meter has a free spinning bladed rotor in the flow…</span></a><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://www.instrumentationblog.in/how-it-works/dp-level-measurement/"><span class="ibx-t">Level</span><span class="ibx-h">How DP Level Measurement Works</span><span class="ibx-s">DP level measurement uses the pressure at the bottom of a tank…</span></a></div></section>
+<p style="text-align:center;margin:0 0 22px"><a href="https://www.instrumentationblog.in/how-it-works/"><b>All How It Works animations</b></a> · <a href="https://www.instrumentationblog.in/glossary/"><b>Instrumentation glossary</b></a> · <a href="https://www.instrumentationblog.in/compare/"><b>Comparisons</b></a></p>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+</div>
+<script>
+(function(){
+var cv=document.getElementById('hw-cv');if(!cv)return;
+var C=cv.getContext('2d'),W=640,H=360,run=true,vis=true,last=0,T=0,P={},dirty=true;
+function fit(){var w=cv.parentNode.clientWidth,d=window.devicePixelRatio||1,s=w/W;cv.width=Math.round(w*d);cv.height=Math.round(H*s*d);cv.style.height=Math.round(H*s)+'px';C.setTransform(s*d,0,0,s*d,0,0);dirty=true;}
+function m(x,d){var s=Math.abs(x).toFixed(d);return(x<0&&Number(s)!==0?'−':'')+s;}
+function o(id,v){var e=document.getElementById('hw-o-'+id);if(e&&e.textContent!==v)e.textContent=v;}
+function L(t,x,y,sz,c,a,b){C.font=(b?'700 ':'')+(sz||13)+'px "Segoe UI",Arial,sans-serif';C.fillStyle=c||'#1f2733';C.textAlign=a||'center';C.textBaseline='middle';C.fillText(t,x,y);}
+function ln(x1,y1,x2,y2,c,w,d){C.strokeStyle=c;C.lineWidth=w||1.5;C.setLineDash(d||[]);C.beginPath();C.moveTo(x1,y1);C.lineTo(x2,y2);C.stroke();C.setLineDash([]);}
+function rc(x,y,w,h,f,s,r){C.beginPath();if(r&&C.roundRect)C.roundRect(x,y,w,h,r);else C.rect(x,y,w,h);if(f){C.fillStyle=f;C.fill();}if(s){C.strokeStyle=s;C.lineWidth=1.5;C.stroke();}}
+function ci(x,y,r,f,s,w){C.beginPath();C.arc(x,y,r,0,Math.PI*2);if(f){C.fillStyle=f;C.fill();}if(s){C.strokeStyle=s;C.lineWidth=w||1.5;C.stroke();}}
+function mk(n,x,y){ci(x,y,11,'#d9622b','#fff',2);L(String(n),x,y+1,13,'#fff','center',1);}
+function ar(x1,y1,x2,y2,c,w){ln(x1,y1,x2,y2,c,w);var a=Math.atan2(y2-y1,x2-x1),h=8;C.fillStyle=c;C.beginPath();C.moveTo(x2,y2);C.lineTo(x2-h*Math.cos(a-.45),y2-h*Math.sin(a-.45));C.lineTo(x2-h*Math.cos(a+.45),y2-h*Math.sin(a+.45));C.closePath();C.fill();}
+function sm(u){u=u<0?0:u>1?1:u;return u*u*(3-2*u);}
+function clamp(x,a,b){return x<a?a:x>b?b:x;}
+function rd(){[].forEach.call(document.querySelectorAll('#hw-ctl input'),function(i){P[i.dataset.k]=parseFloat(i.value);var e=document.getElementById(i.id+'-v');if(e)e.textContent=m(P[i.dataset.k],+i.dataset.d)+(i.dataset.u?' '+i.dataset.u:'');});upd();dirty=true;}
+function wave(x1,x2,y,yb,col,ph){C.fillStyle=col;C.beginPath();C.moveTo(x1,yb);for(var x=x1;x<=x2;x+=4)C.lineTo(x,y+2.2*Math.sin(x/17+T*3+(ph||0))+1.2*Math.sin(x/7-T*5));C.lineTo(x2,yb);C.closePath();C.fill();C.strokeStyle='#1e3a8a';C.lineWidth=2;C.beginPath();for(var x=x1;x<=x2;x+=4){var yy=y+2.2*Math.sin(x/17+T*3+(ph||0))+1.2*Math.sin(x/7-T*5);if(x==x1)C.moveTo(x,yy);else C.lineTo(x,yy);}C.stroke();}
+function stream(x,y1,y2){C.setLineDash([6,8]);C.lineDashOffset=-T*60;C.strokeStyle='#3b82f6';C.lineWidth=4;C.beginPath();C.moveTo(x,y1);C.lineTo(x,y2);C.stroke();C.setLineDash([]);C.lineDashOffset=0;}
+function exp(){var o=document.createElement('canvas'),w=1560,h=878,bh=110,dl=document.getElementById('hw-dl');o.width=w;o.height=h+bh;var x=o.getContext('2d');x.fillStyle='#fff';x.fillRect(0,0,w,h+bh);x.drawImage(cv,0,0,w,h);x.fillStyle='#f6f8fc';x.fillRect(0,h,w,bh);x.fillStyle='#dde3ee';x.fillRect(0,h,w,2);
+x.fillStyle='#ffe500';x.beginPath();if(x.roundRect)x.roundRect(40,h+20,70,70,10);else x.rect(40,h+20,70,70);x.fill();x.fillStyle='#1e63b8';x.font='800 44px "Segoe UI",Arial,sans-serif';x.textAlign='center';x.textBaseline='middle';x.fillText('ib',75,h+56);
+x.textAlign='left';x.fillStyle='#1a2333';x.font='700 30px "Segoe UI",Arial,sans-serif';x.fillText('Instrumentation Blog',128,h+42);x.fillStyle='#5b6576';x.font='22px "Segoe UI",Arial,sans-serif';x.fillText('instrumentationblog.in/how-it-works',128,h+76);
+x.textAlign='right';x.fillStyle='#1a2333';x.font='700 28px "Segoe UI",Arial,sans-serif';x.fillText(dl?dl.dataset.title:'',w-40,h+56);return o;}
+window.__hwExport=function(){return exp().toDataURL('image/png');};
+function pipe(x1,x2,cy,R,fl){rc(x1,cy-R-12,x2-x1,12,'#9aa5b8');rc(x1,cy+R,x2-x1,12,'#9aa5b8');rc(x1,cy-R,x2-x1,2*R,fl||'#e6f0fd');}
+
+var cy=0,Q=false,st=[],ang=0,ev=[[1,1.6,'s'],[4,4.6,'p'],[6,6.6,'s'],[11,11.6,'p'],[15,15.6,'p']];
+function inp(t){var sP=false,pP=false;ev.forEach(function(e){if(t>=e[0]&&t<e[1]){if(e[2]=='s')sP=true;else pP=true;}});var br=t>=9&&t<14;
+var i1=P.nc?(!pP&&!br):(pP&&!br);return{s:sP,p:pP,br:br,i0:sP,i1:i1,ok:P.nc?i1:!i1};}
+function evt(t){if(t>=9&&t<14)return t>=11&&t<11.6?'Stop pressed while the stop wire is broken':'Stop wire broken';var r='Waiting';ev.forEach(function(e){if(t>=e[0]&&t<e[1])r=e[2]=='s'?'Start pressed':'Stop pressed';});if(r=='Waiting'&&t>=14)r='Wire repaired';if(r=='Waiting'&&Q)r='Motor running, held by the seal in contact';return r;}
+function upd(){var s=inp(cy);o('q',Q?'ON (motor running)':'OFF (motor stopped)');
+o('eq',P.nc?'('+(s.i0?1:0)+' OR '+(Q?1:0)+') AND '+(s.i1?1:0)+' AND 1 = '+(Q?1:0):'('+(s.i0?1:0)+' OR '+(Q?1:0)+') AND NOT '+(s.i1?1:0)+' AND 1 = '+(Q?1:0));
+o('brk',P.nc?'Input drops to 0, motor stops (fail safe)':'Input stays 0, motor keeps running (unsafe)');o('rt','up to '+m(2*P.scan,0)+' ms (2 scans)');}
+function step(dt){cy+=dt;if(cy>=16){cy-=16;st=[];}var s=inp(cy),q0=Q;Q=(s.i0||Q)&&s.ok;if(q0!=Q||Math.random()<0.05)upd();st.push([cy,Q]);if(Q)ang+=dt*6;}
+function cont(x,y,on,nc,lab,tag){var c=on?'#16a34a':'#475569';ln(x-6,y-12,x-6,y+12,c,2.5);ln(x+6,y-12,x+6,y+12,c,2.5);if(nc)ln(x-9,y+12,x+9,y-12,c,2);L(tag,x,y-22,11,'#1a2333','center',1);L(lab,x,y+24,11,'#5b6576','center');}
+function pw(x1,y1,x2,y2,on){if(on){C.setLineDash([6,5]);C.lineDashOffset=-T*30;ln(x1,y1,x2,y2,'#16a34a',3.5,[6,5]);C.setLineDash([]);C.lineDashOffset=0;}else ln(x1,y1,x2,y2,'#475569',2);}
+function fc(x,y,pressed,closedNow,head,lab){ci(x,y,11,head,'#1a2333',1.5);if(pressed)ci(x,y,15,null,head,2);L(lab,x,y+22,11,'#1a2333','center',1);
+ci(104,y,3,'#1a2333');ci(140,y,3,'#1a2333');var by=closedNow?y-3:y-12;ln(100,by,144,by,'#1a2333',3);ln(122,by,122,by-8,'#1a2333',1.5);ln(x+11,y,98,y,'#94a3b8',1,[2,3]);}
+function draw(){var s=inp(cy);
+L('Demo time slowed down; one sequence lasts 16 s',20,22,11,'#5b6576','left');
+ln(40,56,40,180,'#b02a52',3);L('+24 V',40,46,11,'#b02a52','center',1);
+fc(70,80,s.s,s.s,'#22c55e','Start NO');var sc=P.nc?!s.p:s.p;fc(70,136,s.p,sc,'#ef4444',P.nc?'Stop NC':'Stop NO');
+ln(40,80,104,80,'#b02a52',2);ln(40,136,104,136,'#b02a52',2);ln(40,180,104,180,'#b02a52',2);ln(104,180,140,180,'#475569',2);L('OL NC',122,170,11,'#1a2333','center',1);
+ln(140,80,210,80,s.i0?'#b02a52':'#94a3b8',2);ln(140,180,210,180,'#b02a52',2);
+if(s.br){ln(140,136,160,136,sc?'#b02a52':'#94a3b8',2);ln(176,136,210,136,'#94a3b8',2);ln(162,128,174,144,'#ef4444',2.5);ln(162,144,174,128,'#ef4444',2.5);}else ln(140,136,210,136,(sc)?'#b02a52':'#94a3b8',2);
+rc(210,40,62,156,'#1a2333',null,6);L('Inputs',241,54,11,'#fff','center',1);[['I0.0',80,s.i0],['I0.1',136,s.i1],['I0.2',180,true]].forEach(function(r){ci(224,r[1],5,r[2]?'#22c55e':'#334155');L(r[0],252,r[1],11,'#fff','center',1);});
+var R0=300,R1=620,y=90,y2=160;ln(R0,46,R0,204,'#1a2333',3);ln(R1,46,R1,204,'#1a2333',3);
+var a=s.i0,b=Q,n1=a||b,n2=n1&&s.ok;
+pw(R0,y,342,y,true);cont(354,y,a,false,'Start','I0.0');pw(366,y,402,y,a);
+pw(R0+10,y,R0+10,y2,true);pw(R0+10,y2,342,y2,true);cont(354,y2,b,false,'Seal in','Q0.0');pw(366,y2,402,y2,b);pw(402,y2,402,y,b);
+pw(402,y,436,y,n1);cont(448,y,n1&&s.ok,!P.nc,'Stop','I0.1');pw(460,y,496,y,n2);cont(508,y,n2,false,'OL','I0.2');pw(520,y,550,y,n2);
+C.strokeStyle=n2?'#16a34a':'#475569';C.lineWidth=2.5;C.beginPath();C.arc(566,y,12,Math.PI*0.65,Math.PI*1.35);C.stroke();C.beginPath();C.arc(566,y,12,-Math.PI*0.35,Math.PI*0.35);C.stroke();L('Q0.0',566,y-22,11,'#1a2333','center',1);L('Motor',566,y+24,11,'#5b6576','center');pw(582,y,R1,y,n2);
+rc(20,226,150,110,'#f6f8fc','#dde3ee',8);rc(30,240,46,30,Q?'#bbf7d0':'#e2e8f0','#475569',4);L('K1',53,255,12,'#1a2333','center',1);L('contactor',53,282,11,'#5b6576','center');
+ci(124,270,28,Q?'#dbeafe':'#e2e8f0','#475569',2);L('M',124,270,13,'#1a2333','center',1);for(var k=0;k<3;k++){var aa=ang+k*2.094;ln(124+16*Math.cos(aa),270+16*Math.sin(aa),124+25*Math.cos(aa),270+25*Math.sin(aa),Q?'#1e63b8':'#94a3b8',3);}
+L(Q?'Running':'Stopped',124,318,12,Q?'#16a34a':'#b02a52','center',1);
+var x0=200,x1=620,ty=300;L(evt(cy),x0,236,12,'#1a2333','left',1);
+rc(x0,ty-26,x1-x0,52,'#f8fafc','#e2e8f0');rc(x0+9/16*(x1-x0),ty-26,5/16*(x1-x0),52,'rgba(239,68,68,0.10)');
+ev.forEach(function(e){var xa=x0+e[0]/16*(x1-x0);rc(xa,ty+14,(e[1]-e[0])/16*(x1-x0),10,e[2]=='s'?'#22c55e':'#ef4444');});
+L('wire broken',x0+11.5/16*(x1-x0),ty+40,11,'#b02a52','center');L('Start',x0+1.3/16*(x1-x0),ty+40,11,'#16a34a','center');L('Stop',x0+4.3/16*(x1-x0),ty+40,11,'#b02a52','center');
+C.strokeStyle='#1e63b8';C.lineWidth=2.5;C.beginPath();st.forEach(function(h,i){var xx=x0+h[0]/16*(x1-x0),yy=h[1]?ty-18:ty+4;if(i)C.lineTo(xx,yy);else C.moveTo(xx,yy);});C.stroke();L('motor',x0-6,ty-18,11,'#1e63b8','right');
+ln(x0+cy/16*(x1-x0),ty-30,x0+cy/16*(x1-x0),ty+28,'#1a2333',2);
+mk(1,190,64);mk(2,190,118);mk(3,322,y2-22);mk(4,566,y+46);mk(5,160,240);mk(6,262,40);mk(7,x1-14,ty-38);}
+
+function fr(t){var dt=Math.min(.05,((t-last)/1000)||0);last=t;if(run&&vis&&!document.hidden){T+=dt;step(dt);dirty=true;}if(dirty&&vis){C.clearRect(0,0,W,H);draw();dirty=false;}requestAnimationFrame(fr);}
+[].forEach.call(document.querySelectorAll('#hw-ctl input'),function(i){i.addEventListener('input',rd);});
+var dl=document.getElementById('hw-dl');if(dl&&cv.toBlob)dl.addEventListener('click',function(){exp().toBlob(function(b){var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=dl.dataset.name;document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove();},500);},'image/png');});
+var pp=document.getElementById('hw-pp');if(pp)pp.addEventListener('click',function(){run=!run;pp.textContent=run?'Pause animation':'Play animation';});
+if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){run=false;if(pp)pp.textContent='Play animation';}
+if('IntersectionObserver' in window)new IntersectionObserver(function(e){vis=e[0].isIntersecting;dirty=true;}).observe(cv);
+window.addEventListener('resize',function(){fit();C.clearRect(0,0,W,H);draw();});fit();rd();step(0.016);draw();requestAnimationFrame(fr);
+})();
+</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.instrumentationblog.in/"},{"@type":"ListItem","position":2,"name":"How It Works","item":"https://www.instrumentationblog.in/how-it-works/"},{"@type":"ListItem","position":3,"name":"How a Start Stop Latch Works in Ladder Logic","item":"https://www.instrumentationblog.in/how-it-works/ladder-logic-start-stop/"}]},{"@type":"ImageObject","contentUrl":"https://www.instrumentationblog.in/how-it-works/ladder-logic-start-stop/ladder-logic-start-stop-working-diagram.webp","name":"How a Start Stop Latch Works in Ladder Logic","caption":"Labelled diagram showing start stop ladder logic","width":1560,"height":988},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why is the stop button wired normally closed?","acceptedAnswer":{"@type":"Answer","text":"With an NC stop button the input is 1 when healthy. A broken wire or loose terminal makes it 0, which the program treats as a stop, so the fault is safe."}},{"@type":"Question","name":"What is a seal in contact?","acceptedAnswer":{"@type":"Answer","text":"It is a contact of the output coil placed in parallel with the Start button. Once the output is on, this contact keeps the rung true after Start is released."}},{"@type":"Question","name":"Can I use set and reset instructions instead?","acceptedAnswer":{"@type":"Answer","text":"Yes, set and reset coils give the same latch. Many engineers prefer the seal in rung because all conditions are visible on one line."}},{"@type":"Question","name":"What happens if Start and Stop are pressed together?","acceptedAnswer":{"@type":"Answer","text":"In this rung Stop is in series after the branch, so Stop wins and the motor stays off. This stop dominant behaviour is the safe choice."}}]}]}</script></main>
+<footer class="ibs-foot"><div class="ibs-in"><span>© 2026 instrumentationblog.in · Free tools for instrumentation and control engineers</span><span><a href="https://www.instrumentationblog.in/">Home</a> · <a href="https://www.instrumentationblog.in/calculators/">Calculators</a> · <a href="https://www.instrumentationblog.in/unit-converters/">Unit Converters</a> · <a href="https://www.instrumentationblog.in/tools/">Tools</a> · <a href="https://www.instrumentationblog.in/downloads/">Downloads</a> · <a href="https://www.instrumentationblog.in/glossary/">Glossary</a></span></div></footer>
+</body>
+</html>

@@ -21,10 +21,10 @@ Add new topics anywhere; keep slugs unique and blog slugs from _src/blog_slugs.t
 
 ## Queue
 - [x] plc-scan-cycle | PLC Scan Cycle | PLC | how-plc-scan-cycle-works
-- [ ] inductive-proximity-sensor | Inductive Proximity Sensor | Switches | inductive-proximity-sensor-selection
-- [ ] scada-polling | SCADA Polling and RTU Communication | SCADA | scada-polling-rate-optimization
-- [ ] cascade-control | Cascade Control Loop | DCS | what-is-cascade-control
-- [ ] ladder-logic-start-stop | Start Stop Latch in Ladder Logic | PLC | ladder-logic-for-beginners
+- [x] inductive-proximity-sensor | Inductive Proximity Sensor | Switches | inductive-proximity-sensor-selection
+- [x] scada-polling | SCADA Polling and RTU Communication | SCADA | scada-polling-rate-optimization
+- [x] cascade-control | Cascade Control Loop | DCS | what-is-cascade-control
+- [x] ladder-logic-start-stop | Start Stop Latch in Ladder Logic | PLC | ladder-logic-for-beginners
 - [ ] capacitive-proximity-sensor | Capacitive Proximity Sensor | Switches | inductive-vs-capacitive-proximity-sensors
 - [ ] dcs-controller-redundancy | DCS Controller Redundancy | DCS | dcs-controller-redundancy-types
 - [ ] 4-20-ma-current-loop | 4 to 20 mA Current Loop | Signals | 4-to-20-ma-current-loop-explained
