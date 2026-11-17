@@ -1,0 +1,23 @@
+name: SEO apply
+on:
+  workflow_dispatch:
+    inputs:
+      n:
+        default: "30"
+concurrency:
+  group: geo
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - env:
+          U: ${{ secrets.WP_USER }}
+          P: ${{ secrets.WP_APP_PASSWORD }}
+        run: python3 _seo/apply.py ${{ inputs.n }}
+      - run: |
+          git config user.name "ib-geo-bot"; git config user.email "ib-geo-bot@users.noreply.github.com"
+          git add _seo && (git diff --cached --quiet || git commit -m "SEO apply") && git pull --rebase -q && git push -q

@@ -103,8 +103,10 @@ function ib_article_upload( WP_REST_Request $r ) {
 	) );
 	update_post_meta( $id, '_elementor_edit_mode', 'builder' );
 	update_post_meta( $id, '_elementor_template_type', 'wp-post' );
-	update_post_meta( $id, '_elementor_data', wp_slash( wp_json_encode( $data ) ) );
-	delete_post_meta( $id, '_elementor_css' );
+	if ( $has_el && ( ! empty( $p['ops'] ) || ! empty( $p['new_section'] ) ) ) {
+		update_post_meta( $id, '_elementor_data', wp_slash( wp_json_encode( $data ) ) );
+		delete_post_meta( $id, '_elementor_css' );
+	}
 
 	// Copy layout settings from an existing article
 	$tpl = ! empty( $p['template_post'] ) ? (int) $p['template_post'] : 15955;
@@ -177,8 +179,10 @@ function ib_patch( WP_REST_Request $r ) {
 	$id  = (int) ( $p['id'] ?? 0 );
 	$raw = get_post_meta( $id, '_elementor_data', true );
 	$data = json_decode( $raw, true );
-	if ( ! $id || ! is_array( $data ) ) { return new WP_Error( 'ib_no_el', 'No Elementor data', array( 'status' => 404 ) ); }
-	update_post_meta( $id, '_ib_backup_' . time(), wp_slash( $raw ) );
+	$has_el = ( $id && is_array( $data ) );
+	if ( ! $has_el && ( ! empty( $p['ops'] ) || ! empty( $p['new_section'] ) ) ) { return new WP_Error( 'ib_no_el', 'No Elementor data', array( 'status' => 404 ) ); }
+	if ( ! $id || get_post_type( $id ) !== 'post' ) { return new WP_Error( 'ib_id', 'Not a post', array( 'status' => 404 ) ); }
+	if ( $has_el && ( ! empty( $p['ops'] ) || ! empty( $p['new_section'] ) ) ) { update_post_meta( $id, '_ib_backup_' . time(), wp_slash( $raw ) ); }
 
 	$report = array();
 	foreach ( (array) ( $p['ops'] ?? array() ) as $k => $op ) {
@@ -208,12 +212,32 @@ function ib_patch( WP_REST_Request $r ) {
 		$report[] = array( 'new_section' => $idx );
 	}
 
-	update_post_meta( $id, '_elementor_data', wp_slash( wp_json_encode( $data ) ) );
-	delete_post_meta( $id, '_elementor_css' );
-	foreach ( array( 'rank_math_title', 'rank_math_description' ) as $k ) {
-		if ( ! empty( $p[ $k ] ) ) { update_post_meta( $id, $k, sanitize_text_field( $p[ $k ] ) ); }
+	if ( $has_el && ( ! empty( $p['ops'] ) || ! empty( $p['new_section'] ) ) ) {
+		update_post_meta( $id, '_elementor_data', wp_slash( wp_json_encode( $data ) ) );
+		delete_post_meta( $id, '_elementor_css' );
 	}
+	$old = array( 'rank_math_title' => get_post_meta( $id, 'rank_math_title', true ), 'rank_math_description' => get_post_meta( $id, 'rank_math_description', true ) );
+	$seo_changed = false;
+	foreach ( array( 'rank_math_title', 'rank_math_description' ) as $k ) {
+		if ( ! empty( $p[ $k ] ) ) { update_post_meta( $id, $k, sanitize_text_field( $p[ $k ] ) ); $seo_changed = true; }
+	}
+	if ( $seo_changed ) { update_post_meta( $id, '_ib_seo_backup_' . time(), $old ); }
 	wp_update_post( array( 'ID' => $id ) ); // bump modified date, keeps status/author
 	if ( class_exists( '\Elementor\Plugin' ) ) { \Elementor\Plugin::$instance->files_manager->clear_cache(); }
 	return array( 'id' => $id, 'report' => $report, 'link' => get_permalink( $id ) );
 }
+
+
+/* ---------- v3: read SEO fields ---------- */
+add_action( 'rest_api_init', function () {
+	register_rest_route( 'ib/v1', '/seo/(?P<id>\d+)', array( 'methods' => 'GET',
+		'permission_callback' => function () { return current_user_can( 'edit_others_posts' ); },
+		'callback' => function ( WP_REST_Request $r ) {
+			$id = (int) $r['id'];
+			if ( get_post_type( $id ) !== 'post' ) { return new WP_Error( 'ib_id', 'Not a post', array( 'status' => 404 ) ); }
+			return array( 'id' => $id, 'title' => get_the_title( $id ), 'slug' => get_post_field( 'post_name', $id ),
+				'rank_math_title' => get_post_meta( $id, 'rank_math_title', true ),
+				'rank_math_description' => get_post_meta( $id, 'rank_math_description', true ),
+				'rank_math_focus_keyword' => get_post_meta( $id, 'rank_math_focus_keyword', true ) );
+		} ) );
+} );
