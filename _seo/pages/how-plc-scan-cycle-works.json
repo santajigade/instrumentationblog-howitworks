@@ -1,0 +1,33 @@
+{
+ "id": 9065,
+ "slug": "how-plc-scan-cycle-works",
+ "impr": 6098,
+ "ctr": 0.49,
+ "pos": 4.2,
+ "queries": [
+  "plc scan cycle",
+  "plc cycle",
+  "scan cycle of plc",
+  "plc scan cycle diagram",
+  "scan cycle"
+ ],
+ "title": "PLC Scan Cycle: How It Works (Diagram + Scan Time)",
+ "rank_math_title": "",
+ "rank_math_description": "PLC Scan Cycle explained step by step: input scan, program execution, output update and housekeeping. Diagram, typical scan times and a ladder logic example.",
+ "focus_keyword": "PLC Scan Cycle",
+ "headings": [
+  "Step 1: Input Scan",
+  "Step 2: Program Execution",
+  "Step 3: Communication and Housekeeping",
+  "Step 4: Output Scan",
+  "How Fast is the PLC Scan Cycle?",
+  "Why Scan Time Matters",
+  "Example of a PLC Scan Cycle",
+  "Understanding Input and Output Images",
+  "How to Reduce Scan Time",
+  "Applications of\u00a0PLC Scan Cycle",
+  "What we learn today?",
+  "Frequently Asked Questions on\u00a0PLC Scan Cycle"
+ ],
+ "text": "PLC Scan Cycle - Introduction A Programmable Logic Controller (PLC) is like the brain of an\u00a0 industrial automation \u00a0system. It continuously monitors input signals, makes decisions based on the programmed logic, and controls outputs such as motors, pumps, or valves.\n But have you ever wondered how a\u00a0 PLC\u00a0 actually thinks and acts ?\n It all happens through something called the PLC Scan Cycle \u00a0which is nothing but a repeating sequence that runs every few milliseconds.\n Let us understand it step by step.\n What is the PLC Scan Cycle?\n The PLC Scan Cycle is the continuous loop that a PLC follows to read inputs, execute the program and update outputs.\n It is similar to how our brain constantly reads information from our senses, decides what to do, and then makes our body respond.\n This scan cycle happens thousands of times per second making PLCs incredibly fast and reliable for industrial automation.\n A typical PLC scan has four main stages :\n Input Scan\n\n Program Execution\n\n Communication and Diagnostics\n\n Output Scan\n\n Step 1: Input Scan\n In the first step, the PLC reads the status of all input devices connected to it \u2014 such as sensors, switches, and transmitters.\n It stores these readings in an internal memory area called the Input Image Table .\n Example: If a limit switch is ON, the PLC stores a \u201c1\u201d for that input address. If it\u2019s OFF, it stores a \u201c0\u201d.\n This means the PLC doesn\u2019t directly read input devices while executing logic. Instead, it uses the stored values from memory.\n Step 2: Program Execution\n After reading all inputs, the PLC moves to the next step executing the logic program (like ladder logic, function block diagram, or structured text).\n The PLC processes the logic line by line from top to bottom, left to right.\n It uses the stored input values (from Step 1) to decide what each output should be. The results are stored in another memory area called the Output Image Table , but the outputs are not yet sent to the field devices.\n Example: If your logic says \u201cStart Motor if Start Button is ON and Stop Button is OFF,\u201d the PLC checks those conditions and sets the output memory for the motor accordingly.\n Step 3: Communication and Housekeeping\n Once the program logic is executed, the PLC performs some background tasks before updating outputs.\n This includes:\n Communication with HMIs (Human Machine Interfaces) or SCADA systems \n Internal diagnostics (checking module status, battery, etc.) \n PID calculations (if used for control loops) \n Handling timers, counters, and data exchange \n These are called housekeeping tasks and make sure the PLC system remains healthy and responsive.\n Step 4: Output Scan\n Finally, the PLC updates the status of all output devices such as relays, solenoids, lamps, and actuators based on the results stored in the Output Image Table.\n Example: If the logic turned ON the motor output, the PLC sends a signal from the corresponding output terminal to start the motor.\n After this step, one complete scan cycle is finished a"
+}

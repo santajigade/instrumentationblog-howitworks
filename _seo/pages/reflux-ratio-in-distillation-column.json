@@ -1,0 +1,33 @@
+{
+ "id": 11449,
+ "slug": "reflux-ratio-in-distillation-column",
+ "impr": 7694,
+ "ctr": 0.71,
+ "pos": 7.3,
+ "queries": [
+  "reflux ratio formula",
+  "reflux ratio",
+  "minimum reflux ratio formula",
+  "reflux ratio in distillation",
+  "what is reflux ratio in distillation column",
+  "reflux ratio equation"
+ ],
+ "title": "Reflux Ratio Formula: R = L/D, Minimum Reflux &#038; Example",
+ "rank_math_title": "",
+ "rank_math_description": "Reflux ratio formula R = L/D explained, minimum reflux ratio (Underwood method), total reflux and how reflux affects separation, with a solved example.",
+ "focus_keyword": "Reflux Ratio",
+ "headings": [
+  "What Is Reflux Ratio",
+  "What Exactly Is Reflux in a Distillation Column",
+  "How Reflux Improves Separation",
+  "Effect of High Reflux Ratio",
+  "Effect of Low Reflux Ratio",
+  "Important Operating Reflux Conditions",
+  "How Reflux Ratio is Controlled in Plants",
+  "Important Operating Points Engineers Talk About",
+  "Common Problems Related to Reflux",
+  "Why Reflux Ratio is Important for Energy Saving",
+  "What we learn today?"
+ ],
+ "text": "Reflux Ratio: Introduction If you have ever seen a\u00a0 distillation column \u00a0in a refinery, chemical plant, or solvent recovery unit, you may have noticed that not all the condensed liquid from the top is sent out as product. A good part of it is sent back into the column again.\n This returned liquid is called reflux , and how much we return compared to how much we take as product is called the reflux ratio .\n This single parameter plays a big role in deciding:\n How pure your product will be \n How much steam and cooling water you will consume \n How stable your column operation will be \n That is why operators, process engineers, and\u00a0 instrumentation\u00a0 engineers all keep a close eye on reflux.\n Quick Answer\n How to Calculate Reflux Ratio in a Distillation Column\n To calculate reflux ratio in a distillation column, divide the liquid returned to the column (L) by the distillate product drawn off (D): R = L / D . Example: the condenser gives 120 kmol/h of liquid, 80 kmol/h goes back as reflux and 40 kmol/h leaves as product, so R = 80 / 40 = 2.\n Columns usually run at 1.2 to 1.5 times the minimum reflux ratio (Rmin, found with the Underwood equation or a McCabe Thiele diagram). A higher R gives purer product but costs more reboiler steam and condenser cooling.\n\n \r\n \r\n \r\n What Is Reflux Ratio\n In very simple words, reflux ratio tells us how much liquid we send back into the column compared to how much we take out as distillate.\n Basic definition of reflux ratio Reflux ratio is the ratio of liquid returned to the column to the liquid withdrawn as overhead product.\n Formula: R = Ln / D\n Where: Ln = Amount of liquid returned to the column as reflux D = Amount of distillate product withdrawn from the top\n If you send back more liquid and take out less product, the reflux ratio becomes high. If you send back less liquid and take out more product, the reflux ratio becomes low.\n What Exactly Is Reflux in a Distillation Column\n 1. Where reflux comes from Vapor from the top of the column enters the condenser and gets converted into liquid.\n 2. How liquid is split This liquid enters the reflux drum where one part goes out as product and the remaining part returns to the column.\n 3. Why liquid is returned Returned liquid helps improve vapor\u2013liquid contact and improves separation quality.\n How Reflux Improves Separation\n 1. Role of vapor\u2013liquid contact When vapor and liquid meet on trays or packing, mass transfer takes place between phases.\n 2. Direction of component movement Light components prefer vapor phase and heavy components prefer liquid phase during contact.\n 3. Result of repeated contact Repeated contact on multiple trays improves purity of top and bottom products.\n Effect of High Reflux Ratio\n 1. Improvement in product purity More liquid contact allows better removal of heavy components from vapor.\n 2. Increase in internal flow rates High reflux increases liquid and vapor traffic inside the column.\n 3. Increase in energy consumption More heating and cooling "
+}

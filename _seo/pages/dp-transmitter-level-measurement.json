@@ -1,0 +1,30 @@
+{
+ "id": 5949,
+ "slug": "dp-transmitter-level-measurement",
+ "impr": 8978,
+ "ctr": 0.72,
+ "pos": 7.0,
+ "queries": [
+  "dp level transmitter",
+  "differential pressure level transmitter",
+  "dp transmitter",
+  "level measurement",
+  "dp type level transmitter",
+  "level transmitter"
+ ],
+ "title": "DP Transmitter Level Measurement : Wet Leg, Dry Leg &#038; LRV/URV",
+ "rank_math_title": "DP Transmitter Level Measurement: Wet Leg, Dry Leg, LRV/URV",
+ "rank_math_description": "DP Transmitter Level Measurement in open and closed tanks, wet leg vs dry leg setups, and how to calculate LRV/URV with solved examples.",
+ "focus_keyword": "DP Transmitter Level Measurement,Differential pressure transmitter for level measurement,DP level measurement open vs closed tank,Formula for DP level measurement",
+ "headings": [
+  "Frequently Asked Questions (FAQs)",
+  "1. What is DP transmitter level measurement?",
+  "2. Why is a DP transmitter used for level measurement?",
+  "3. How does a DP transmitter measure level in an open tank?",
+  "4. How does a DP transmitter measure level in a closed tank?",
+  "5. What is zero suppression in DP transmitter level measurement?",
+  "6. What is zero elevation in DP transmitter calibration?",
+  "7. What is the difference between wet leg and dry leg installations?"
+ ],
+ "text": "DP Transmitter Level Measurement In this blog, we are going to study how\u00a0 DP transmitter \u00a0level measurement is used for open tanks and closed tanks.\n Differential pressure transmitter has 2 tapings.\n HP (High Pressure) Taping\n LP (Low Pressure) Taping \n With the help of the above two tapings, we level measurement can be done.\n Lets understand first, why we are using DP Transmitters for\u00a0level measurements .\n There are many physical\u00a0level measuring instruments\u00a0available in the market. DP Flow Transmitter is utilized due to the need for monitoring the level signal from a remote-control room, eliminating the need for physical visits to the tank for level observation.\u00a0\n Quick Answer\n How Is Level Measured with a DP Transmitter?\n A DP transmitter measures level from hydrostatic head: \u0394P = level \u00d7 specific gravity (in mm of water column). In an open tank the HP side connects to the bottom and LP is vented; in a closed tank LP connects to the tank top through a dry leg (gas filled) or a wet leg (liquid filled). LRV is the DP at 0% level and URV the DP at 100%.\n Example: 2000 mm span, SG 1.1, transmitter at the bottom tap. Open tank: LRV = 0, URV = 2200 mmH2O. With a 2500 mm wet leg of SG 1.0: LRV = 0 \u2212 2500 = \u22122500 mmH2O and URV = 2200 \u2212 2500 = \u2212300 mmH2O.\n\n DP Transmitter Level Measurement for Open Tanks DP Transmitter \u00a0 level measurements \u00a0is used widely in various applications. Differential pressure transmitters are used for liquid level measurement, especially in open tanks.\u00a0\n When measuring level in a closed or pressurized tank, a DP measurement is necessary to compensate for vessel pressure.\u00a0\n In an open tank level measurement, the DP transmitter's HP leg is connected to the bottom of the tank while the LP leg is open to the atmosphere.\u00a0\n Specific gravity, which is the density relative to the density of water, plays a crucial role in the configuration of the DP transmitter.\u00a0\n By determining the zero level and span level , the Lower Range Value (LRV) and Upper Range Value (URV) can be configured using a HART communicator.\n Case 1 : DP Transmitter installed at the exact HP tapping point \nLets see\u00a0 DP Transmitter \u00a0 level measurements\u00a0in case where DP Transmitter is installed at the exact HP (High Pressure) tapping point.\n At Zero level = 0 mmwc\n At Span level = H x Specific gravity\n = 500 x 1.0\n = 500 mmwc\n\n Then Range = 500 \u2013 0 = 500 mmwc \n \u00a0 \n To properly configure the DP transmitter for level measurement in an open tank, we have to set the Lower Range Value (LRV) to 0 mmwc (millimeters of water column) and the Upper Range Value (URV) to 500 mmwc using a HART communicator.\n Case 2 : DP Transmitter Installed Below Tapping Point for Open Tank Lets see\u00a0 DP Transmitter \u00a0 level measurements\u00a0in case where DP Transmitter is installed below tapping point for open tank.\n If the transmitter is installed below the tank then it is called zero suppression.\u00a0\n The calculations will be as below:\n When zero suppression is used then H1 height always filled with proce"
+}

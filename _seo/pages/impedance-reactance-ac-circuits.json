@@ -1,0 +1,32 @@
+{
+ "id": 17124,
+ "slug": "impedance-reactance-ac-circuits",
+ "impr": 14578,
+ "ctr": 0.25,
+ "pos": 5.3,
+ "queries": [],
+ "title": "Impedance &#038; Reactance Formula: XL, XC and Z (Solved)",
+ "rank_math_title": "Impedance and Reactance Formula: XL, XC and Z Solved",
+ "rank_math_description": "Impedance and reactance formulas: XL = 2\u03c0fL, XC = 1/2\u03c0fC and Z of series RLC circuits, with phase angle and step-by-step solved examples.",
+ "focus_keyword": "Impedance and Reactance,impedance and reactance",
+ "headings": [
+  "Impedance and Reactance in AC Circuits: Key Concepts",
+  "Impedance and Reactance Formulas",
+  "Inductive Reactance (XL)",
+  "Capacitive Reactance (XC)",
+  "Total Impedance in a Series RLC Circuit",
+  "Worked Impedance and Reactance Calculation Example",
+  "Series RLC Impedance and Reactance Calculator",
+  "Impedance and Reactance: Full Comparison Table",
+  "Where Impedance and Reactance Calculations Apply in Practice",
+  "Power Factor Correction",
+  "Motor and Transformer Analysis",
+  "Short Circuit Current Calculation",
+  "Instrument Loop Impedance",
+  "Watch: AC Circuits -- Impedance, Reactance and Resonant Frequency",
+  "Impedance and Reactance Questions",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Electrical Design and Calculations\n\r\n Impedance, Reactance in AC Circuits: How to Calculate XL, XC and Z\n\r\n Impedance is the total opposition to AC current in a circuit. It combines resistance and reactance into a single value in ohms. Calculating impedance and reactance correctly is essential for AC circuit design, motor sizing, cable selection, and power factor analysis.\n\r\n This guide covers impedance and reactance with formulas, worked examples, and a live RLC impedance calculator.\n\r\n \r\n Inductive Reactance XL \r\n Capacitive Reactance XC \r\n Series RLC Impedance \r\n Phase Angle \r\n \n\r\n\n\r\n\r\n Impedance Z = \u221a(R\u00b2 + (XL \u2212 XC)\u00b2). Inductive reactance increases with frequency. Capacitive reactance decreases with frequency. Resistance stays constant. All three combine in the impedance triangle.\n\r\n\r\n Quick Answer\n What Is XL and XC in an AC Circuit?\n XL is inductive reactance, the opposition an inductor offers to AC: XL = 2\u03c0fL. It rises with frequency. XC is capacitive reactance, the opposition a capacitor offers to AC: XC = 1 / (2\u03c0fC). It falls with frequency. Both are measured in ohms. In a series RLC circuit they combine with resistance as Z = \u221a(R\u00b2 + (XL \u2212 XC)\u00b2), and when XL equals XC the circuit is at resonance.\n\n Impedance and Reactance in AC Circuits: Key Concepts\n\r\n\r\n \r\n Hello everyone! Today we are going to work through how to calculate impedance and reactance in AC circuits. These are foundational concepts for anyone working in electrical design -- whether you are sizing a motor cable, analysing a power factor problem, or checking the response of a filter circuit. Let us go through the formulas step by step.\r\n\n\r\n \r\n \r\n \r\n \r\n In a DC circuit, opposition to current is resistance (R) only. In an AC circuit, inductors and capacitors also oppose current -- but in a frequency dependent way. This additional opposition is called reactance (X) .\n\r\n The total opposition -- combining resistance and reactance -- is called impedance (Z) , measured in ohms.\n\r\n It has both a magnitude and a phase angle (\u03c6) that describes whether the circuit is inductive, capacitive, or resistive.\n\r\n Reactance (X): The frequency dependent opposition to AC current from inductors and capacitors. Inductive reactance (XL) opposes changes in current -- it increases with frequency. Capacitive reactance (XC) opposes changes in voltage -- it decreases with frequency. Both are measured in ohms. Unlike resistance, reactance does not dissipate power as heat.\n\r\n Impedance (Z): The total opposition to AC current, combining resistance (R) and net reactance (XL minus XC) using the impedance triangle formula: Z = \u221a(R\u00b2 + (XL \u2212 XC)\u00b2). Impedance is a phasor quantity -- it has both magnitude (the value in ohms) and a phase angle. AC Ohm's Law states V = I \u00d7 Z.\n\r\n Phase Angle (\u03c6): The angle between the voltage and current phasors. \u03c6 = arctan((XL \u2212 XC) / R). A positive phase angle means the circuit is inductive (voltage leads current). A negative phase angle means it is capacitive (current leads voltag"
+}
