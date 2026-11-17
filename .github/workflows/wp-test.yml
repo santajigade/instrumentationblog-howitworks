@@ -1,0 +1,16 @@
+name: WP API read test
+on: workflow_dispatch
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          U: ${{ secrets.WP_USER }}
+          P: ${{ secrets.WP_APP_PASSWORD }}
+        run: |
+          B=https://www.instrumentationblog.in/wp-json
+          echo "user_len=${#U} pass_len=${#P}"
+          curl -s -o me.json -w 'ME %{http_code}\n' -u "$U:$P" "$B/wp/v2/users/me?context=edit"
+          python3 -c "import json;d=json.load(open('me.json'));print('ME', d.get('name'), d.get('code'), list(d.get('capabilities',{}).keys())[:0], 'unfiltered' , d.get('capabilities',{}).get('unfiltered_html'))"
+          curl -s -o w.json -w 'WIDGETS %{http_code}\n' -u "$U:$P" "$B/ib/v1/widgets/9228"
+          python3 -c "import json;d=json.load(open('w.json'));print('WIDGETS', d.get('sections'), len(d.get('widgets',[])) if 'widgets' in d else d)"
