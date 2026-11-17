@@ -135,3 +135,85 @@ function ib_article_upload( WP_REST_Request $r ) {
 		'edit'    => admin_url( 'post.php?post=' . $id . '&action=elementor' ),
 	);
 }
+
+
+/* ---------- v2: read and patch existing Elementor articles ---------- */
+add_action( 'rest_api_init', function () {
+	$perm = function () { return current_user_can( 'edit_others_posts' ) && current_user_can( 'unfiltered_html' ); };
+	register_rest_route( 'ib/v1', '/widgets/(?P<id>\d+)', array( 'methods' => 'GET', 'permission_callback' => $perm, 'callback' => 'ib_widgets_get' ) );
+	register_rest_route( 'ib/v1', '/patch', array( 'methods' => 'POST', 'permission_callback' => $perm, 'callback' => 'ib_patch' ) );
+} );
+
+function ib_walk( &$els, $cb, $path = '' ) {
+	foreach ( $els as $i => &$el ) {
+		$p = $path === '' ? (string) $i : $path . '.' . $i;
+		$cb( $el, $p );
+		if ( ! empty( $el['elements'] ) ) { ib_walk( $el['elements'], $cb, $p ); }
+	}
+}
+
+function ib_widgets_get( WP_REST_Request $r ) {
+	$id   = (int) $r['id'];
+	$data = json_decode( get_post_meta( $id, '_elementor_data', true ), true );
+	if ( ! is_array( $data ) ) { return new WP_Error( 'ib_no_el', 'No Elementor data', array( 'status' => 404 ) ); }
+	$out = array();
+	ib_walk( $data, function ( $el, $p ) use ( &$out ) {
+		if ( ( $el['elType'] ?? '' ) !== 'widget' ) { return; }
+		$s = $el['settings'] ?? array();
+		$c = $s['html'] ?? ( $s['editor'] ?? ( $s['title'] ?? '' ) );
+		$out[] = array( 'path' => $p, 'type' => $el['widgetType'] ?? '', 'content' => $c );
+	} );
+	return array( 'id' => $id, 'sections' => count( $data ), 'widgets' => $out );
+}
+
+/**
+ * Body: id, ops: [ {find, mode: after|before|replace, html} ... ]  (find = exact text, first match, html/text-editor widgets only)
+ *       new_section: {index, html}  (optional: insert a new section with one HTML widget at top level index)
+ *       rank_math_title, rank_math_description (optional)
+ * A backup of the previous _elementor_data is stored in meta _ib_backup_<timestamp>.
+ */
+function ib_patch( WP_REST_Request $r ) {
+	$p   = $r->get_json_params();
+	$id  = (int) ( $p['id'] ?? 0 );
+	$raw = get_post_meta( $id, '_elementor_data', true );
+	$data = json_decode( $raw, true );
+	if ( ! $id || ! is_array( $data ) ) { return new WP_Error( 'ib_no_el', 'No Elementor data', array( 'status' => 404 ) ); }
+	update_post_meta( $id, '_ib_backup_' . time(), wp_slash( $raw ) );
+
+	$report = array();
+	foreach ( (array) ( $p['ops'] ?? array() ) as $k => $op ) {
+		$done = false;
+		ib_walk( $data, function ( &$el, $path ) use ( $op, &$done ) {
+			if ( $done || ( $el['elType'] ?? '' ) !== 'widget' ) { return; }
+			foreach ( array( 'html', 'editor' ) as $key ) {
+				if ( ! isset( $el['settings'][ $key ] ) ) { continue; }
+				$pos = strpos( $el['settings'][ $key ], $op['find'] );
+				if ( $pos === false ) { continue; }
+				$len = strlen( $op['find'] );
+				$mode = $op['mode'] ?? 'after';
+				$new = $mode === 'before' ? $op['html'] . $op['find'] : ( $mode === 'replace' ? $op['html'] : $op['find'] . $op['html'] );
+				$el['settings'][ $key ] = substr_replace( $el['settings'][ $key ], $new, $pos, $len );
+				$done = true; return;
+			}
+		} );
+		$report[] = array( 'op' => $k, 'applied' => $done );
+	}
+
+	if ( ! empty( $p['new_section']['html'] ) ) {
+		$sec = array( 'id' => ib_el_id(), 'elType' => 'section', 'settings' => array(), 'isInner' => false, 'elements' => array( array(
+			'id' => ib_el_id(), 'elType' => 'column', 'settings' => array( '_column_size' => 100, '_inline_size' => null ), 'isInner' => false,
+			'elements' => array( array( 'id' => ib_el_id(), 'elType' => 'widget', 'widgetType' => 'html', 'elements' => array(), 'settings' => array( 'html' => $p['new_section']['html'] ) ) ) ) ) );
+		$idx = max( 0, min( count( $data ), (int) ( $p['new_section']['index'] ?? 0 ) ) );
+		array_splice( $data, $idx, 0, array( $sec ) );
+		$report[] = array( 'new_section' => $idx );
+	}
+
+	update_post_meta( $id, '_elementor_data', wp_slash( wp_json_encode( $data ) ) );
+	delete_post_meta( $id, '_elementor_css' );
+	foreach ( array( 'rank_math_title', 'rank_math_description' ) as $k ) {
+		if ( ! empty( $p[ $k ] ) ) { update_post_meta( $id, $k, sanitize_text_field( $p[ $k ] ) ); }
+	}
+	wp_update_post( array( 'ID' => $id ) ); // bump modified date, keeps status/author
+	if ( class_exists( '\Elementor\Plugin' ) ) { \Elementor\Plugin::$instance->files_manager->clear_cache(); }
+	return array( 'id' => $id, 'report' => $report, 'link' => get_permalink( $id ) );
+}
