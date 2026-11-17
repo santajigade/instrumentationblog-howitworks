@@ -11,7 +11,7 @@
 "examples of ai, ao, di, do",
 "ai ao di do full form"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "npn-and-pnp-proximity-sensors",
@@ -25,7 +25,7 @@
 "pnp and npn sensor",
 "difference between pnp and npn proximity sensor"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "impedance-reactance-ac-circuits",
@@ -47,7 +47,7 @@
 "parts of control valve",
 "control valve characteristics"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "plc-block-diagram",
@@ -61,7 +61,7 @@
 "plc diagram",
 "diagram of plc"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "7-segment-display-decoder",
@@ -100,7 +100,7 @@
 "cathode ray oscilloscope",
 "cathode ray oscilloscope diagram"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "dp-transmitter-level-measurement",
@@ -114,7 +114,7 @@
 "level measurement",
 "dp type level transmitter"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "correction-factor-in-calibration",
@@ -127,7 +127,7 @@
 "correction factor calculation",
 "calibration correction"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "orifice-plate-sizing-guide",
@@ -141,7 +141,7 @@
 "orifice plate sizes",
 "standard orifice plate"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "reflux-ratio-in-distillation-column",
@@ -169,7 +169,7 @@
 "signal conditioning device",
 "what is signal conditioning"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "earth-fault-loop-impedance-zs-testing",
@@ -183,7 +183,7 @@
 "earth fault loop",
 "earth loop impedance"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "how-plc-scan-cycle-works",
