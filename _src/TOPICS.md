@@ -25,10 +25,10 @@ Add new topics anywhere; keep slugs unique and blog slugs from _src/blog_slugs.t
 - [x] scada-polling | SCADA Polling and RTU Communication | SCADA | scada-polling-rate-optimization
 - [x] cascade-control | Cascade Control Loop | DCS | what-is-cascade-control
 - [x] ladder-logic-start-stop | Start Stop Latch in Ladder Logic | PLC | ladder-logic-for-beginners
-- [ ] capacitive-proximity-sensor | Capacitive Proximity Sensor | Switches | inductive-vs-capacitive-proximity-sensors
-- [ ] dcs-controller-redundancy | DCS Controller Redundancy | DCS | dcs-controller-redundancy-types
-- [ ] 4-20-ma-current-loop | 4 to 20 mA Current Loop | Signals | 4-to-20-ma-current-loop-explained
-- [ ] plc-timer | PLC On Delay Timer (TON) | PLC | plc-timer-instructions-ton-tof-rto
+- [x] capacitive-proximity-sensor | Capacitive Proximity Sensor | Switches | inductive-vs-capacitive-proximity-sensors
+- [x] dcs-controller-redundancy | DCS Controller Redundancy | DCS | dcs-controller-redundancy-types
+- [x] 4-20-ma-current-loop | 4 to 20 mA Current Loop | Signals | 4-to-20-ma-current-loop-explained
+- [x] plc-timer | PLC On Delay Timer (TON) | PLC | plc-timer-instructions-ton-tof-rto
 - [ ] photoelectric-sensor | Photoelectric Sensor | Switches | different-types-of-photoelectric-sensors
 - [ ] scada-report-by-exception | SCADA Report by Exception | SCADA | report-by-exception-scada-dnp3
 - [ ] split-range-control | Split Range Control | DCS | split-range-control-working-principle

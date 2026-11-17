@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How a 4 to 20 mA Current Loop Works: Animated Diagram</title>
+<meta name="description" content="How a 4 to 20 mA current loop works, animated: the supply, the transmitter regulating current, the receiver resistor and the voltage budget of the loop.">
+<link rel="canonical" href="https://www.instrumentationblog.in/how-it-works/4-20-ma-current-loop/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Instrumentation Blog">
+<meta property="og:title" content="How a 4 to 20 mA Current Loop Works: Animated Diagram">
+<meta property="og:description" content="How a 4 to 20 mA current loop works, animated: the supply, the transmitter regulating current, the receiver resistor and the voltage budget of the loop.">
+<meta property="og:url" content="https://www.instrumentationblog.in/how-it-works/4-20-ma-current-loop/">
+<meta property="og:image" content="https://www.instrumentationblog.in/how-it-works/4-20-ma-current-loop/4-20-ma-current-loop-working-diagram.webp">
+<meta property="og:image:width" content="1560">
+<meta property="og:image:height" content="988">
+<meta property="og:image:alt" content="Labelled diagram showing how a 4 to 20 ma current loop works">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://www.instrumentationblog.in/how-it-works/4-20-ma-current-loop/4-20-ma-current-loop-working-diagram.webp">
+<link rel="icon" href="https://www.instrumentationblog.in/favicon.ico">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R3NLR1WRYC"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-R3NLR1WRYC");</script>
+<style>
+html{-webkit-text-size-adjust:100%}body{margin:0;background:#f1f3f7;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#1f2733}
+.ibs-top{background:#1e73be;color:#fff;font-size:13.5px}
+.ibs-in{max-width:1100px;margin:0 auto;padding:0 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ibs-top .ibs-in{min-height:36px}
+.ibs-top a{color:#fff;text-decoration:none}
+.ibs-head{background:#fff;border-bottom:1px solid #e3e7ee}
+.ibs-head .ibs-in{min-height:86px}
+.ibs-logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.ibs-mark{width:58px;height:58px;background:#ffef00;display:flex;align-items:center;justify-content:center;font:900 38px/1 Arial,Helvetica,sans-serif;color:#1e73be;letter-spacing:-2px}
+.ibs-name{font-weight:800;font-size:18px;color:#1a2333;line-height:1.1}.ibs-name small{display:block;font-weight:500;font-size:12px;color:#6b7383}
+.ibs-nav{display:flex;flex-wrap:wrap;gap:4px 22px}
+.ibs-nav a{color:#1f2733;text-decoration:none;font-size:16px}
+.ibs-nav a:hover,.ibs-nav a.on{color:#e4004b}
+.ibs-main{padding:22px 16px 30px}
+.ibs-pv{text-align:center;padding:6px 16px 18px;font:13px/1.4 Arial,Helvetica,sans-serif;color:#5b6573}.ibs-pv span{display:inline-block;background:#fff;border:1px solid #dde3ea;border-radius:999px;padding:5px 14px}
+.ibs-foot{background:#1a2333;color:#aab3c5;font-size:13px}.ibs-foot .ibs-in{min-height:56px}.ibs-foot a{color:#d6dcea}
+@media(max-width:700px){.ibs-top a{display:none}.ibs-head .ibs-in{padding:10px 16px}.ibs-nav{gap:4px 16px}.ibs-nav a{font-size:15px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="ibs-top"><div class="ibs-in"><span>Free engineering calculators and unit converters</span><a href="mailto:ceo@instrumentationblog.in">ceo@instrumentationblog.in</a></div></div>
+<header class="ibs-head"><div class="ibs-in">
+<a class="ibs-logo" href="https://www.instrumentationblog.in/" aria-label="Instrumentation Blog home"><span class="ibs-mark">ib</span><span class="ibs-name">Instrumentation Blog<small>Instrumentation simplified, knowledge amplified</small></span></a>
+<nav class="ibs-nav"><a href="https://www.instrumentationblog.in/">Home</a><a href="https://www.instrumentationblog.in/calculators/">Calculators</a><a href="https://www.instrumentationblog.in/unit-converters/">Unit Converters</a><a href="https://www.instrumentationblog.in/tools/">Tools</a><a href="https://www.instrumentationblog.in/downloads/">Downloads</a><a href="https://www.instrumentationblog.in/glossary/">Glossary</a></nav>
+</div></header>
+<main class="ibs-main"><style>
+.ibuc .hw-stage{max-width:780px;margin:0 auto;background:#fff;border:1px solid var(--b);border-radius:14px;overflow:hidden}
+.ibuc .hw-stage canvas{display:block;width:100%}
+.ibuc .hw-bar{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin:12px auto 0;max-width:780px}
+.ibuc button.hw-pp{background:var(--n) !important;color:#fff !important;border:0 !important;border-radius:999px !important;padding:8px 16px !important;font-size:14px;font-weight:700;cursor:pointer;line-height:1.2}
+.ibuc .hw-note{font-size:13px;color:var(--m)}
+.ibuc .hw-ctl{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px 22px;margin:18px 0 0}
+.ibuc .hw-s label{display:flex;justify-content:space-between;font-size:14px;font-weight:700;color:var(--n);margin:0 0 6px}
+.ibuc .hw-s label b{color:var(--gc);font-variant-numeric:tabular-nums}
+.ibuc .hw-s input[type=range]{width:100%;accent-color:var(--gc);height:28px;margin:0}
+.ibuc .hw-leg{list-style:none;padding:0;margin:16px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:8px 18px}
+.ibuc .hw-leg li{display:flex;gap:10px;align-items:flex-start;font-size:14.5px}
+.ibuc .hw-leg i{flex:0 0 24px;height:24px;border-radius:50%;background:#d9622b;color:#fff;font-style:normal;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center}
+.ibuc ol.hw-steps{list-style:none;counter-reset:s;padding:0;margin:0}
+.ibuc ol.hw-steps li{counter-increment:s;position:relative;padding:0 0 14px 46px;margin:0}
+.ibuc ol.hw-steps li:before{content:counter(s);position:absolute;left:0;top:-2px;width:32px;height:32px;border-radius:50%;background:var(--gc);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center}
+.ibuc .hw-fig{margin:0;text-align:center}
+.ibuc .hw-fig img{width:100%;max-width:780px;height:auto;border:1px solid var(--b);border-radius:12px}
+.ibuc .hw-fig figcaption{font-size:14px;color:var(--m);margin:10px auto 0;max-width:780px;text-align:left}
+.ibuc button.hw-dl{background:#fff !important;color:var(--n) !important;border:1.5px solid var(--n) !important}
+.ibuc .hw-uses{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.ibuc .hw-use{background:var(--l);border:1px solid var(--b);border-left:4px solid var(--gc);border-radius:10px;padding:12px 14px}
+.ibuc .hw-use b{display:block;color:var(--n);margin:0 0 4px}
+.ibuc .hw-use span{font-size:14.5px;color:#334155}
+.ibuc ul.hw-tips{list-style:none;padding:0;margin:0}
+.ibuc ul.hw-tips li{position:relative;padding:0 0 10px 30px}
+.ibuc ul.hw-tips li:before{content:"✓";position:absolute;left:0;top:0;width:20px;height:20px;border-radius:50%;background:var(--gc);color:#fff;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center}
+.ibuc .hw-f{background:#1a2333;color:#e6edf7;border-radius:12px;padding:16px 18px;font-family:'Courier New',monospace;font-size:15.5px;line-height:1.75;overflow-x:auto}
+.ibuc .hw-f b{color:#fbbf24;font-weight:700}
+</style><style>
+.ibuc{--n:#1a2333;--t:#1f2733;--m:#5b6576;--b:#dde3ee;--l:#f6f8fc;--a:#d9622b;--g:#1f9d55;color:var(--t);font-size:16px;line-height:1.6;max-width:1100px;margin:0 auto}
+.ibuc *{box-sizing:border-box}
+.ibuc a{color:#1f5fbf;text-decoration:none}.ibuc a:hover{text-decoration:underline}
+.ibuc h1,.ibuc h2,.ibuc h3{line-height:1.25;margin:0 0 12px;color:var(--n);font-weight:700;letter-spacing:0;text-transform:none}
+.ibuc h2{font-size:24px;margin-top:8px}.ibuc h3{font-size:18px}
+.ibuc p{margin:0 0 12px}
+.ibuc .ibuc-crumb{font-size:13px;color:var(--m);margin:0 0 12px}
+.ibuc .ibuc-hero{border-radius:16px;padding:28px 26px;color:#fff;margin:0 0 20px}
+.ibuc .ibuc-hero h1{color:#fff !important;font-size:34px;margin:6px 0 10px}
+.ibuc .ibuc-eye{font-size:12px;letter-spacing:.12em;text-transform:uppercase;opacity:.85;font-weight:700}
+.ibuc .ibuc-hero p{color:#e8ecf4;margin:0 0 14px;max-width:760px}
+.ibuc .ibuc-pills{display:flex;flex-wrap:wrap;gap:8px}
+.ibuc .ibuc-pill{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);color:#fff;border-radius:999px;padding:3px 12px;font-size:13px}
+.ibuc .ibuc-card{background:#fff;border:1px solid var(--b);border-radius:14px;padding:22px;margin:0 0 22px;box-shadow:0 2px 10px rgba(26,35,51,.05)}
+.ibuc .ibuc-tool{border-top:4px solid var(--a);scroll-margin-top:90px}
+.ibuc .ibuc-grid{display:grid;grid-template-columns:1fr 1.3fr auto 1.3fr;gap:12px;align-items:end}
+.ibuc .ibuc-field label{display:block;font-size:13px;font-weight:700;color:var(--m);margin:0 0 5px}
+.ibuc .ibuc-field input,.ibuc .ibuc-field select{width:100%;height:46px;border:1.5px solid var(--b) !important;border-radius:10px !important;padding:0 12px !important;font-size:16px;background:#fff !important;color:var(--t) !important;margin:0;box-shadow:none}
+.ibuc .ibuc-field input:focus,.ibuc .ibuc-field select:focus{outline:none;border-color:var(--a) !important;box-shadow:0 0 0 3px rgba(217,98,43,.15)}
+.ibuc .ibuc-field input.ibuc-bad{border-color:#c0392b !important}
+.ibuc button.ibuc-swap{height:46px;width:46px;border-radius:50% !important;border:1.5px solid var(--b) !important;background:var(--l) !important;color:var(--n) !important;font-size:20px;cursor:pointer;padding:0 !important;line-height:1}
+.ibuc button.ibuc-swap:hover{background:var(--n) !important;color:#fff !important}
+.ibuc .ibuc-result{background:var(--l);border-radius:12px;padding:16px 18px;margin:16px 0 12px}
+.ibuc .ibuc-res-main{font-size:22px;color:var(--n);word-break:break-word}
+.ibuc .ibuc-res-main b{color:var(--a);font-size:28px}
+.ibuc .ibuc-res-sub{font-size:14px;color:var(--m);margin-top:6px;word-break:break-word}
+.ibuc .ibuc-bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:14px;color:var(--m)}
+.ibuc .ibuc-bar select{height:36px;border:1.5px solid var(--b) !important;border-radius:8px !important;padding:0 8px !important;background:#fff !important;color:var(--t) !important;width:auto}
+.ibuc button.ibuc-btn{background:var(--n) !important;color:#fff !important;border:0 !important;border-radius:8px !important;padding:8px 16px !important;font-size:14px;font-weight:600;cursor:pointer;line-height:1.2}
+.ibuc button.ibuc-btn:hover{background:var(--a) !important}
+.ibuc .ibuc-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;align-items:center}
+.ibuc .ibuc-chips span{font-size:13px;font-weight:700;color:var(--m)}
+.ibuc button.ibuc-chip,.ibuc a.ibuc-chip{background:#fff !important;border:1.5px solid var(--b) !important;color:var(--n) !important;border-radius:999px !important;padding:5px 13px !important;font-size:13px;cursor:pointer;line-height:1.3;font-weight:500;text-decoration:none}
+.ibuc button.ibuc-chip:hover,.ibuc a.ibuc-chip:hover{border-color:var(--a) !important;color:var(--a) !important;text-decoration:none}
+.ibuc .ibuc-tw{overflow-x:auto;border:1px solid var(--b);border-radius:10px}
+.ibuc table.ibuc-t{width:100%;border-collapse:collapse;margin:0;font-size:15px;border:0}
+.ibuc table.ibuc-t th{background:var(--n) !important;color:#fff !important;text-align:left;padding:10px 12px;font-weight:600;border:0 !important}
+.ibuc table.ibuc-t td{padding:8px 12px;border:0 !important;border-bottom:1px solid var(--b) !important;background:#fff;vertical-align:top}
+.ibuc table.ibuc-t tr:nth-child(even) td{background:#fafbfd}
+.ibuc table.ibuc-t tr:last-child td{border-bottom:0 !important}
+.ibuc table.ibuc-t td.ibuc-num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.ibuc #ibuc-all tr{cursor:pointer}.ibuc #ibuc-all tr:hover td{background:#fff4ee}
+.ibuc #ibuc-all tr.ibuc-hl td{background:#fde9de;font-weight:700}
+.ibuc .ibuc-two{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.ibuc .ibuc-fbox{background:var(--n);color:#fff;border-radius:12px;padding:16px 18px;margin:12px 0;font-family:Consolas,Menlo,monospace;font-size:15px;word-break:break-word}
+.ibuc .ibuc-key{border-left:4px solid var(--a);background:#fff6f1;border-radius:0 10px 10px 0;padding:12px 16px;margin:12px 0}
+.ibuc .ibuc-steps{margin:0 0 12px;padding-left:22px}.ibuc .ibuc-steps li{margin-bottom:6px}
+.ibuc details{border:1px solid var(--b);border-radius:10px;margin:0 0 10px;background:#fff}
+.ibuc summary{cursor:pointer;padding:12px 16px;font-weight:700;color:var(--n);list-style:none}
+.ibuc summary::-webkit-details-marker{display:none}
+.ibuc summary:before{content:"Q";display:inline-block;background:var(--a);color:#fff;border-radius:6px;width:22px;height:22px;text-align:center;line-height:22px;font-size:12px;margin-right:10px}
+.ibuc details p{padding:0 16px 14px 48px;margin:0;color:var(--t)}
+.ibuc .ibuc-links{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.ibuc .ibuc-links a{display:block;border:1px solid var(--b);border-radius:10px;padding:10px 14px;background:#fff;color:var(--n);font-weight:600;font-size:15px}
+.ibuc .ibuc-links a small{display:block;font-weight:400;color:var(--m);font-size:12.5px;margin-top:2px}
+.ibuc .ibuc-links a:hover{border-color:var(--a);text-decoration:none;box-shadow:0 3px 12px rgba(217,98,43,.12)}
+.ibuc .ibuc-ymal{border-radius:14px;padding:22px;color:#fff;margin:0 0 22px}
+.ibuc .ibuc-ymal h3{color:#fff !important;margin-bottom:6px}
+.ibuc .ibuc-ymal .ibuc-yt{font-weight:700;font-size:18px;margin:0 0 6px}
+.ibuc .ibuc-ymal p{color:#e8ecf4}
+.ibuc a.ibuc-go{display:inline-block;background:var(--g);color:#fff !important;border-radius:999px;padding:8px 20px;font-weight:700;font-size:14px}
+.ibuc a.ibuc-go:hover{text-decoration:none;filter:brightness(1.08)}
+.ibuc .ibuc-ref{background:var(--l);border:1px solid var(--b);border-radius:14px;padding:20px 22px;margin:0 0 22px}
+.ibuc .ibuc-ad{margin:6px 0 24px;text-align:center}
+.ibuc .ibuc-adl{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#98a1b0;border-top:1px dotted #c8cfdb;border-bottom:1px dotted #c8cfdb;padding:3px 0;margin-bottom:8px}
+.ibuc .ibuc-adph{border:1.5px dashed #c8cfdb;border-radius:8px;padding:30px;color:#98a1b0;font-size:13px}
+.ibuc .ibuc-status{border-radius:8px;padding:10px 14px;font-size:14px;margin:12px 0 0}
+.ibuc .ibuc-ok{background:#e7f6ee;color:#14663a}.ibuc .ibuc-warn{background:#fff4dc;color:#7a5400}.ibuc .ibuc-err{background:#fde7e7;color:#9b1c1c}
+.ibuc .ibuc-g3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.ibuc .ibuc-g4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.ibuc .ibuc-sub{font-size:13px;color:var(--m);margin:6px 0 0}
+.ibuc .ibuc-search{width:100%;height:52px;border:2px solid rgba(255,255,255,.35) !important;background:rgba(255,255,255,.96) !important;border-radius:12px !important;padding:0 16px !important;font-size:17px;color:var(--t) !important;margin-top:6px}
+.ibuc .ibuc-cat{scroll-margin-top:90px}
+.ibuc .ibuc-cath{display:flex;align-items:center;gap:12px;margin:0 0 4px}
+.ibuc .ibuc-dot{width:12px;height:12px;border-radius:50%;flex:none}
+.ibuc .ibuc-toc{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.ibuc .ibuc-stats{display:flex;gap:22px;flex-wrap:wrap;margin:4px 0 14px}
+.ibuc .ibuc-stats b{display:block;font-size:26px;color:#fff}.ibuc .ibuc-stats span{font-size:13px;color:#cfd6e4}
+.ibuc .ibuc-empty{display:none;color:var(--m);padding:10px 0}
+@media (max-width:760px){
+ .ibuc .ibuc-grid{grid-template-columns:1fr}
+ .ibuc button.ibuc-swap{position:relative;grid-column:1/-1;width:100%;border-radius:10px !important;height:38px}
+ .ibuc .ibuc-two,.ibuc .ibuc-g3,.ibuc .ibuc-g4{grid-template-columns:1fr}
+ .ibuc .ibuc-hero{padding:22px 18px}.ibuc .ibuc-hero h1{font-size:26px}
+ .ibuc .ibuc-card{padding:16px}
+ .ibuc .ibuc-res-main{font-size:18px}.ibuc .ibuc-res-main b{font-size:22px}
+}
+</style><style>
+.ibuc .ibuc-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 16px}
+.ibuc button.ibuc-tab{background:var(--l) !important;color:var(--n) !important;border:1.5px solid var(--b) !important;border-radius:999px !important;padding:8px 16px !important;font-size:14px;font-weight:700;cursor:pointer;line-height:1.2}
+.ibuc button.ibuc-tab.on{background:var(--n) !important;color:#fff !important;border-color:var(--n) !important}
+.ibuc .ibuc-out{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:16px 0 0}
+.ibuc .ibuc-o{background:var(--l);border-radius:12px;padding:12px 14px}
+.ibuc .ibuc-o span{display:block;font-size:12.5px;color:var(--m);font-weight:600}
+.ibuc .ibuc-o b{display:block;font-size:22px;color:var(--n);font-variant-numeric:tabular-nums;word-break:break-word}
+.ibuc .ibuc-o.main{background:#fff1e9}.ibuc .ibuc-o.main b{color:var(--a);font-size:26px}
+.ibuc .ibuc-steps-box{background:#fff;border:1px dashed var(--b);border-radius:10px;padding:12px 16px;margin:14px 0 0;font-size:14.5px}
+.ibuc .ibuc-steps-box ol{margin:6px 0 0;padding-left:20px}
+.ibuc table.ibuc-grid10 td,.ibuc table.ibuc-grid10 th{text-align:right;padding:6px 8px;font-size:13.5px;white-space:nowrap}
+.ibuc table.ibuc-grid10 td:first-child,.ibuc table.ibuc-grid10 th:first-child{text-align:left;font-weight:700;background:#eef2f9}
+.ibuc .ibuc-soon a,.ibuc .ibuc-soon div{opacity:1}
+.ibuc .ibuc-links div.ibuc-dis{display:block;border:1px dashed var(--b);border-radius:10px;padding:10px 14px;background:#fafbfd;color:#8a93a3;font-weight:600;font-size:15px}
+.ibuc .ibuc-links div.ibuc-dis small{display:block;font-weight:400;font-size:12.5px;margin-top:2px}
+.ibuc .ibuc-badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:middle}
+.ibuc .ibuc-badge.live{background:#e7f6ee;color:#14663a}.ibuc .ibuc-badge.soon{background:#eef1f6;color:#6b7383}
+.ibuc .ibuc-catgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.ibuc .ibuc-catcard{display:block;border-radius:14px;padding:18px;color:#fff !important;min-height:150px;position:relative}
+.ibuc a.ibuc-catcard:hover{text-decoration:none;transform:translateY(-2px);box-shadow:0 8px 22px rgba(26,35,51,.18)}
+.ibuc .ibuc-catcard h3{color:#fff !important;margin:0 0 6px;font-size:19px}
+.ibuc .ibuc-catcard p{color:#e3e8f1;font-size:14px;margin:0 0 10px}
+.ibuc .ibuc-catcard span{font-size:12.5px;font-weight:700;background:rgba(255,255,255,.16);border-radius:999px;padding:3px 10px}
+@media print{.ibs-top,.ibs-head,.ibs-foot,.ibuc-ad,.ibuc-hero,.ibuc-noprint{display:none !important}.ibuc .ibuc-card{box-shadow:none;border:0}}
+</style><style>
+.ibuc .ibx-bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 14px}
+.ibuc .ibx-q{flex:1 1 260px;min-width:0;padding:12px 14px 12px 40px !important;border:1px solid #cfd8e3 !important;border-radius:12px !important;font-size:15px !important;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236b7686' stroke-width='2.4'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m20 20-3.5-3.5'/%3E%3C/svg%3E") no-repeat 14px 50% !important;box-sizing:border-box}
+.ibuc .ibx-q:focus{outline:2px solid #1e73be;border-color:#1e73be !important}
+.ibuc .ibx-n{font-size:13.5px;color:#5a6575;white-space:nowrap;font-weight:600}
+.ibuc .ibx-chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.ibuc .ibx-chip{border:1px solid var(--b,#cfd8e3) !important;background:var(--l,#fff) !important;color:var(--d,#1f2733) !important;border-radius:999px !important;padding:7px 15px !important;font-size:13.5px !important;font-weight:700;cursor:pointer;line-height:1.3;transition:transform .12s}
+.ibuc .ibx-chip:hover{transform:translateY(-1px)}
+.ibuc .ibx-chip.on{background:var(--d,#1a2333) !important;color:#fff !important;border-color:var(--d,#1a2333) !important}
+.ibuc .ibx-chip b{font-weight:600;opacity:.7;margin-left:5px}
+.ibuc .ibx-grp{margin:0 0 26px}
+.ibuc .ibx-gh{display:flex;align-items:center;gap:10px;margin:0 0 12px;font-size:17px;font-weight:800;color:var(--d)}
+.ibuc .ibx-gh:before{content:"";width:10px;height:22px;border-radius:4px;background:var(--d)}
+.ibuc .ibx-gh small{font-size:12.5px;font-weight:700;background:var(--l);border:1px solid var(--b);color:var(--d);border-radius:999px;padding:2px 9px}
+.ibuc .ibx-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
+.ibuc a.ibx-card{position:relative;display:flex;flex-direction:column;gap:6px;min-height:120px;padding:16px 16px 14px;border:1px solid var(--b);border-top:4px solid var(--d);border-radius:14px;background:var(--l);color:#1f2733 !important;text-decoration:none !important;transition:transform .15s,box-shadow .15s;box-sizing:border-box}
+.ibuc a.ibx-card:hover{transform:translateY(-3px);box-shadow:0 10px 22px rgba(26,35,51,.13)}
+.ibuc .ibx-card .ibx-t{max-width:calc(100% - 34px);box-sizing:border-box;align-self:flex-start;font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--d);background:#fff;border:1px solid var(--b);border-radius:999px;padding:2px 8px}
+.ibuc .ibx-card .ibx-h{font-size:15.5px;font-weight:700;line-height:1.35;padding-right:20px}
+.ibuc .ibx-card .ibx-s{font-size:13px;color:#4f5a6a;line-height:1.4;margin-top:auto}
+.ibuc .ibx-card:after{content:"→";position:absolute;right:14px;top:14px;width:24px;height:24px;line-height:24px;text-align:center;border-radius:50%;background:#fff;color:var(--d);font-weight:800;font-size:13px;transition:transform .15s}
+.ibuc .ibx-card:hover:after{transform:translateX(3px)}
+.ibuc .ibx-adslot{margin:4px 0 30px}
+.ibuc .ibx-adslot .ibuc-ad{margin:0}
+.ibuc .ibx-none{display:none;padding:18px;text-align:center;color:#5a6575;border:1px dashed #cfd8e3;border-radius:12px;margin:0 0 20px}
+@media(max-width:520px){.ibuc .ibx-grid{grid-template-columns:1fr;gap:12px}.ibuc a.ibx-card{min-height:0}}
+</style><style>
+.ibuc .cmp-verdict{font-size:17.5px;line-height:1.55;background:#fff;border-left:5px solid var(--gc);border-radius:12px;padding:16px 18px;margin:0 0 22px;box-shadow:0 1px 3px rgba(26,35,51,.08)}
+.ibuc .cmp-verdict b{color:var(--gc)}
+.ibuc .cmp-wrap{overflow-x:auto;margin:0 -4px;padding:0 4px}
+.ibuc table.cmp-t{width:100%;border-collapse:separate;border-spacing:0;font-size:15px;min-width:520px}
+.ibuc table.cmp-t th{background:var(--gc);color:#fff;text-align:left;padding:11px 12px;font-size:14.5px}
+.ibuc table.cmp-t th:first-child{border-radius:10px 0 0 0;background:#1a2333}.ibuc table.cmp-t th:last-child{border-radius:0 10px 0 0;background:#3b4bb0}
+.ibuc table.cmp-t td{padding:10px 12px;border-bottom:1px solid #e3e7ee;vertical-align:top}
+.ibuc table.cmp-t tr:nth-child(even) td{background:#f6f8fb}
+.ibuc table.cmp-t td:first-child{font-weight:700;color:#13283f;width:24%}
+.ibuc .cmp-two{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 22px}
+.ibuc .cmp-box{border-radius:14px;padding:18px 20px;border:1px solid var(--b);background:var(--l);border-top:4px solid var(--d)}
+.ibuc .cmp-box h3{margin:0 0 10px;color:var(--d);font-size:18px}
+.ibuc .cmp-box ul{margin:0;padding-left:20px}.ibuc .cmp-box li{margin:0 0 6px}
+@media(max-width:640px){.ibuc .cmp-two{grid-template-columns:1fr}
+.ibuc table.cmp-t{min-width:0}.ibuc table.cmp-t thead{display:none}
+.ibuc table.cmp-t tr{display:block;border:1px solid #e3e7ee;border-radius:12px;margin:0 0 12px;overflow:hidden}
+.ibuc table.cmp-t td{display:block;width:auto !important;border-bottom:1px solid #eef1f5}
+.ibuc table.cmp-t td:first-child{background:#1a2333 !important;color:#fff}
+.ibuc table.cmp-t td[data-l]:before{content:attr(data-l);display:block;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:var(--gc);margin-bottom:2px}
+.ibuc table.cmp-t td:last-child[data-l]:before{color:#3b4bb0}
+.ibuc table.cmp-t tr:nth-child(even) td{background:#fff}}
+</style>
+<div class="ibuc" id="ibuc-app" style="--gc:#3b4bb0">
+<nav class="ibuc-crumb" aria-label="Breadcrumb"><a href="https://www.instrumentationblog.in/">Home</a> › <a href="https://www.instrumentationblog.in/how-it-works/">How It Works</a> › 4 to 20 mA Current Loop</nav>
+<header class="ibuc-hero" style="background:linear-gradient(135deg,#3b4bb0 0%,#171f4f 100%)">
+  <div class="ibuc-eye">Signals · How It Works</div>
+  <h1>How a 4 to 20 mA Current Loop Works</h1>
+  <p>Move the process value, the loop supply voltage and the total loop resistance. Watch the loop current change, see the voltage left for the transmitter and find out when the loop can no longer reach 20 mA.</p>
+  <div class="ibuc-pills"><span class="ibuc-pill">Live animation</span><span class="ibuc-pill">Adjustable sliders</span><span class="ibuc-pill">Formula and example</span></div>
+</header>
+<p class="cmp-verdict"><b>Quick answer:</b> In a 4 to 20 mA loop the transmitter acts as a current regulator in series with a DC supply and a receiver resistor. It sets the loop current between 4 mA at 0 % and 20 mA at 100 % of range, and the receiver reads the voltage across its resistor.</p>
+<section class="ibuc-card"><h2>What Is a 4 to 20 mA Current Loop?</h2><p>The 4 to 20 mA current loop is still the most common analog signal between field instruments and a PLC or DCS. One pair of wires carries both the power for a two wire transmitter and the measurement itself.</p><p>Current is used instead of voltage because the same current flows through every part of a series loop. Cable resistance, terminals and long distances do not change the reading, as long as the supply has enough voltage left over.</p><p>The live zero at 4 mA lets the receiver tell a real zero from a broken wire. Values below about 3.6 mA or above about 21 mA are treated as faults, as described in NAMUR NE43.</p></section>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>How a 4 to 20 mA Current Loop Works: Interactive Animation</h2>
+<div class="hw-stage"><canvas id="hw-cv" role="img" aria-label="Animated diagram showing how a 4 to 20 ma current loop works"></canvas></div>
+<div class="hw-bar"><span><button type="button" class="hw-pp" id="hw-pp">Pause animation</button> <button type="button" class="hw-pp hw-dl" id="hw-dl" data-name="4-20-ma-current-loop-working-diagram.png" data-title="How a 4 to 20 mA Current Loop Works">Download diagram</button></span><span class="hw-note">Numbered markers match the parts list below.</span></div>
+<div class="hw-ctl" id="hw-ctl"><div class="hw-s"><label for="hw-pv">Process value <b id="hw-pv-v"></b></label><input type="range" id="hw-pv" data-k="pv" min="0" max="100" step="1" value="50" data-d="0" data-u="%"></div><div class="hw-s"><label for="hw-vs">Loop supply voltage <b id="hw-vs-v"></b></label><input type="range" id="hw-vs" data-k="vs" min="18" max="30" step="0.5" value="24" data-d="1" data-u="V"></div><div class="hw-s"><label for="hw-r">Total loop resistance (receiver and cable) <b id="hw-r-v"></b></label><input type="range" id="hw-r" data-k="r" min="100" max="1200" step="10" value="250" data-d="0" data-u="Ω"></div></div>
+<div class="ibuc-out"><div class="ibuc-o"><span>Loop current I = 4 + 16 × PV ÷ 100</span><b id="hw-o-i">…</b></div><div class="ibuc-o main"><span>Voltage across the loop resistance</span><b id="hw-o-vr">…</b></div><div class="ibuc-o"><span>Voltage left at the transmitter</span><b id="hw-o-vt">…</b></div><div class="ibuc-o"><span>Maximum loop resistance at 20 mA</span><b id="hw-o-rmax">…</b></div></div>
+<ol class="hw-leg"><li><i>1</i><span>DC loop power supply</span></li><li><i>2</i><span>Two wire transmitter regulating the loop current</span></li><li><i>3</i><span>Loop wires: the same current flows everywhere</span></li><li><i>4</i><span>Receiver resistor in the PLC analog input</span></li><li><i>5</i><span>Voltage budget of the loop</span></li><li><i>6</i><span>Loop current scale with NAMUR NE43 fault zones</span></li></ol>
+</section>
+<section class="ibuc-card"><h2>4 to 20 mA Current Loop Working Principle Step by Step</h2><ol class="hw-steps"><li>The DC supply, the transmitter and the receiver resistor are wired in one series loop, so a single current flows through all of them.</li><li>The transmitter takes a small part of the 4 mA for its own electronics and keeps the loop current fixed for the value it measures.</li><li>It sets the current to 4 mA at 0 % of range and 20 mA at 100 %, a straight line in between.</li><li>The receiver measures the voltage across its resistor, for example 1 to 5 V across 250 Ω, and scales it back to engineering units.</li><li>The supply voltage must cover the drop across all loop resistance at 20 mA plus the minimum voltage the transmitter needs at its terminals.</li></ol></section>
+<section class="ibuc-card"><h2>4 to 20 mA Current Loop Labelled Diagram</h2><figure class="hw-fig"><img src="https://www.instrumentationblog.in/how-it-works/4-20-ma-current-loop/4-20-ma-current-loop-working-diagram.webp" alt="Labelled diagram showing how a 4 to 20 ma current loop works" title="How a 4 to 20 mA Current Loop Works" width="1560" height="988" loading="lazy" decoding="async"><figcaption>Numbered parts: 1 dc loop power supply; 2 two wire transmitter regulating the loop current; 3 loop wires: the same current flows everywhere; 4 receiver resistor in the plc analog input; 5 voltage budget of the loop; 6 loop current scale with namur ne43 fault zones.</figcaption></figure></section>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>4 to 20 mA Current Loop Formula</h2><div class="hw-f"><b>I = 4 mA + 16 mA × PV ÷ 100 %</b><br>Voltage across the loop resistance VR = I × R<br>Voltage at the transmitter Vtx = Vsupply − I × R, and it must stay above the transmitter minimum (12 V assumed here)<br>Maximum loop resistance R max = (Vsupply − Vmin) ÷ 0.020 A<br>Example: PV 50 %, 24 V, 250 Ω: I = 12 mA, VR = 3.0 V, Vtx = 21.0 V and R max = (24 − 12) ÷ 0.020 = 600 Ω</div></section>
+<section class="ibuc-card"><h2>Main Parts of a 4 to 20 mA Current Loop</h2><div class="cmp-wrap"><table class="cmp-t"><thead><tr><th>Part</th><th>What it does</th></tr></thead><tbody><tr><td>Loop power supply</td><td data-l="What it does">Usually 24 V DC from the PLC, DCS or a separate supply; powers the whole loop</td></tr><tr><td>Two wire transmitter</td><td data-l="What it does">Measures the process and regulates the loop current between 4 and 20 mA</td></tr><tr><td>Receiver resistor</td><td data-l="What it does">Turns the current into a voltage for the analog input, often 250 Ω for 1 to 5 V</td></tr><tr><td>Loop cable</td><td data-l="What it does">Twisted pair, often shielded, whose resistance adds to the loop load</td></tr><tr><td>Barriers and isolators</td><td data-l="What it does">Optional parts in hazardous area or noisy loops; each adds its own voltage drop</td></tr></tbody></table></div></section>
+<section class="ibuc-card"><h2>Where a 4 to 20 mA Current Loop Is Used</h2><div class="hw-uses"><div class="hw-use"><b>Process transmitters</b><span>Pressure, level, flow and temperature transmitters sending their value to a PLC or DCS.</span></div><div class="hw-use"><b>Control valve signals</b><span>Analog outputs driving valve positioners with 4 mA closed and 20 mA open, or the reverse.</span></div><div class="hw-use"><b>HART communication</b><span>A digital HART signal rides on top of the analog current for configuration and diagnostics.</span></div><div class="hw-use"><b>Long cable runs</b><span>Signals carried hundreds of metres across a plant with little loss of accuracy.</span></div></div></section>
+<div class="cmp-two"><div class="cmp-box" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2"><h3>Advantages</h3><ul><li>Immune to cable resistance and voltage drops</li><li>Live zero makes a broken wire easy to detect</li><li>Power and signal on the same two wires</li></ul></div><div class="cmp-box" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8"><h3>Limitations</h3><ul><li>Only one value per pair of wires without HART or a fieldbus</li><li>Loop voltage budget limits cable length and the number of devices in series</li><li>Needs care with grounding to avoid ground loops</li></ul></div></div>
+<section class="ibuc-card"><h2>4 to 20 mA Current Loop Field Tips and Common Problems</h2><ul class="hw-tips"><li>Measure the voltage at the transmitter terminals at 20 mA; if it is near the minimum, the reading will clip at the top of the range.</li><li>Size the loop for the upscale fault current of about 21 to 22 mA, not only 20 mA, so alarms can still be signalled.</li><li>To read the current without opening the loop, measure the voltage across a known resistor or use a clamp meter rated for mA.</li><li>Earth the cable shield at one end only, usually at the control room, to avoid ground loops.</li></ul></section>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>Related Calculators and Tools</h2><div class="ibx-grid"><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://www.instrumentationblog.in/calculators/instrumentation-signal/loop-power-supply-calculator/"><span class="ibx-t">Calculator</span><span class="ibx-h">Loop Power Supply Calculator</span><span class="ibx-s">Free online calculator with formula and worked example.</span></a><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://www.instrumentationblog.in/calculators/instrumentation-signal/current-to-voltage-resistor-calculator/"><span class="ibx-t">Calculator</span><span class="ibx-h">Current to Voltage Resistor Calculator</span><span class="ibx-s">Free online calculator with formula and worked example.</span></a><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://www.instrumentationblog.in/calculators/plc-signal/analog-scaling-calculator/"><span class="ibx-t">Calculator</span><span class="ibx-h">Analog Scaling Calculator</span><span class="ibx-s">Free online calculator with formula and worked example.</span></a><a class="ibx-card" style="--l:#fff4e0;--d:#a8620a;--b:#f5ddb0" href="https://www.instrumentationblog.in/glossary/4-20-ma-current-loop/"><span class="ibx-t">Glossary</span><span class="ibx-h">4 to 20 mA Current Loop</span><span class="ibx-s">Definition, formula and example.</span></a><a class="ibx-card" style="--l:#fff4e0;--d:#a8620a;--b:#f5ddb0" href="https://www.instrumentationblog.in/glossary/live-zero/"><span class="ibx-t">Glossary</span><span class="ibx-h">Live Zero</span><span class="ibx-s">Definition, formula and example.</span></a><a class="ibx-card" style="--l:#fff4e0;--d:#a8620a;--b:#f5ddb0" href="https://www.instrumentationblog.in/glossary/namur-ne43/"><span class="ibx-t">Glossary</span><span class="ibx-h">NAMUR NE43</span><span class="ibx-s">Definition, formula and example.</span></a><a class="ibx-card" style="--l:#f3edfc;--d:#6b3fb0;--b:#ddd0f3" href="https://www.instrumentationblog.in/compare/4-20-ma-vs-0-10-v/"><span class="ibx-t">Compare</span><span class="ibx-h">4 to 20 mA vs 0 to 10 V</span><span class="ibx-s">Side by side comparison table.</span></a><a class="ibx-card" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8" href="https://www.instrumentationblog.in/downloads/cheat-sheets/4-20-ma-cheat-sheet/"><span class="ibx-t">Download</span><span class="ibx-h">4 to 20 mA Cheat Sheet</span><span class="ibx-s">Free reference table.</span></a></div></section>
+<section class="ibuc-card"><h2>Frequently Asked Questions</h2><details open><summary>Why does the signal start at 4 mA and not 0 mA?</summary><p>The live zero powers the transmitter electronics and lets the receiver tell a 0 % reading from a broken wire, which gives 0 mA.</p></details><details><summary>What resistor is used to convert 4 to 20 mA to 1 to 5 V?</summary><p>A 250 Ω resistor. By Ohm&#x27;s law 4 mA gives 1 V and 20 mA gives 5 V across it.</p></details><details><summary>How long can a 4 to 20 mA cable be?</summary><p>It is limited by the voltage budget, not by the signal. The total of cable, receiver and barrier resistance at 20 mA plus the transmitter minimum voltage must stay below the supply voltage.</p></details><details><summary>What do 3.6 mA and 21 mA mean?</summary><p>In NAMUR NE43 a current below 3.6 mA or above 21 mA is a fault signal, for example a sensor failure, and the receiver should raise an alarm instead of showing a value.</p></details></section>
+<div class="ibuc-ymal" style="background:linear-gradient(135deg,#3b4bb0 0%,#171f4f 100%)"><div class="ibuc-eye">You May Also Like</div><h3>Learn more on the blog</h3><p class="ibuc-yt">4 to 20 mA current loop explained</p><p>A practical guide on instrumentationblog.in that goes deeper into this topic with field examples.</p><a class="ibuc-go" href="https://www.instrumentationblog.in/4-to-20-ma-current-loop-explained/">Read Full Article</a></div>
+<section class="ibuc-card"><h2>More How It Works</h2><div class="ibx-grid"><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/how-it-works/orifice-plate/"><span class="ibx-t">Flow</span><span class="ibx-h">How an Orifice Plate Works</span><span class="ibx-s">An orifice plate is a thin plate with a hole that squeezes the flow…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/how-it-works/magnetic-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How a Magnetic Flow Meter Works</span><span class="ibx-s">A magnetic flow meter (magmeter) uses Faraday&#x27;s law…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/how-it-works/vortex-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How a Vortex Flow Meter Works</span><span class="ibx-s">A vortex flow meter places a bluff body (shedder bar) across the flow…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/how-it-works/coriolis-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How a Coriolis Flow Meter Works</span><span class="ibx-s">A Coriolis meter vibrates its flow tubes at their natural frequency…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/how-it-works/ultrasonic-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How an Ultrasonic Flow Meter Works</span><span class="ibx-s">A transit time ultrasonic flow meter sends sound pulses diagonally across the pipe in both direc…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/how-it-works/turbine-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How a Turbine Flow Meter Works</span><span class="ibx-s">A turbine flow meter has a free spinning bladed rotor in the flow…</span></a><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://www.instrumentationblog.in/how-it-works/dp-level-measurement/"><span class="ibx-t">Level</span><span class="ibx-h">How DP Level Measurement Works</span><span class="ibx-s">DP level measurement uses the pressure at the bottom of a tank…</span></a><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://www.instrumentationblog.in/how-it-works/radar-level-transmitter/"><span class="ibx-t">Level</span><span class="ibx-h">How a Radar Level Transmitter Works</span><span class="ibx-s">A radar level transmitter sends microwave signals from an antenna at the top of the tank…</span></a></div></section>
+<p style="text-align:center;margin:0 0 22px"><a href="https://www.instrumentationblog.in/how-it-works/"><b>All How It Works animations</b></a> · <a href="https://www.instrumentationblog.in/glossary/"><b>Instrumentation glossary</b></a> · <a href="https://www.instrumentationblog.in/compare/"><b>Comparisons</b></a></p>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+</div>
+<script>
+(function(){
+var cv=document.getElementById('hw-cv');if(!cv)return;
+var C=cv.getContext('2d'),W=640,H=360,run=true,vis=true,last=0,T=0,P={},dirty=true;
+function fit(){var w=cv.parentNode.clientWidth,d=window.devicePixelRatio||1,s=w/W;cv.width=Math.round(w*d);cv.height=Math.round(H*s*d);cv.style.height=Math.round(H*s)+'px';C.setTransform(s*d,0,0,s*d,0,0);dirty=true;}
+function m(x,d){var s=Math.abs(x).toFixed(d);return(x<0&&Number(s)!==0?'−':'')+s;}
+function o(id,v){var e=document.getElementById('hw-o-'+id);if(e&&e.textContent!==v)e.textContent=v;}
+function L(t,x,y,sz,c,a,b){C.font=(b?'700 ':'')+(sz||13)+'px "Segoe UI",Arial,sans-serif';C.fillStyle=c||'#1f2733';C.textAlign=a||'center';C.textBaseline='middle';C.fillText(t,x,y);}
+function ln(x1,y1,x2,y2,c,w,d){C.strokeStyle=c;C.lineWidth=w||1.5;C.setLineDash(d||[]);C.beginPath();C.moveTo(x1,y1);C.lineTo(x2,y2);C.stroke();C.setLineDash([]);}
+function rc(x,y,w,h,f,s,r){C.beginPath();if(r&&C.roundRect)C.roundRect(x,y,w,h,r);else C.rect(x,y,w,h);if(f){C.fillStyle=f;C.fill();}if(s){C.strokeStyle=s;C.lineWidth=1.5;C.stroke();}}
+function ci(x,y,r,f,s,w){C.beginPath();C.arc(x,y,r,0,Math.PI*2);if(f){C.fillStyle=f;C.fill();}if(s){C.strokeStyle=s;C.lineWidth=w||1.5;C.stroke();}}
+function mk(n,x,y){ci(x,y,11,'#d9622b','#fff',2);L(String(n),x,y+1,13,'#fff','center',1);}
+function ar(x1,y1,x2,y2,c,w){ln(x1,y1,x2,y2,c,w);var a=Math.atan2(y2-y1,x2-x1),h=8;C.fillStyle=c;C.beginPath();C.moveTo(x2,y2);C.lineTo(x2-h*Math.cos(a-.45),y2-h*Math.sin(a-.45));C.lineTo(x2-h*Math.cos(a+.45),y2-h*Math.sin(a+.45));C.closePath();C.fill();}
+function sm(u){u=u<0?0:u>1?1:u;return u*u*(3-2*u);}
+function clamp(x,a,b){return x<a?a:x>b?b:x;}
+function rd(){[].forEach.call(document.querySelectorAll('#hw-ctl input'),function(i){P[i.dataset.k]=parseFloat(i.value);var e=document.getElementById(i.id+'-v');if(e)e.textContent=m(P[i.dataset.k],+i.dataset.d)+(i.dataset.u?' '+i.dataset.u:'');});upd();dirty=true;}
+function wave(x1,x2,y,yb,col,ph){C.fillStyle=col;C.beginPath();C.moveTo(x1,yb);for(var x=x1;x<=x2;x+=4)C.lineTo(x,y+2.2*Math.sin(x/17+T*3+(ph||0))+1.2*Math.sin(x/7-T*5));C.lineTo(x2,yb);C.closePath();C.fill();C.strokeStyle='#1e3a8a';C.lineWidth=2;C.beginPath();for(var x=x1;x<=x2;x+=4){var yy=y+2.2*Math.sin(x/17+T*3+(ph||0))+1.2*Math.sin(x/7-T*5);if(x==x1)C.moveTo(x,yy);else C.lineTo(x,yy);}C.stroke();}
+function stream(x,y1,y2){C.setLineDash([6,8]);C.lineDashOffset=-T*60;C.strokeStyle='#3b82f6';C.lineWidth=4;C.beginPath();C.moveTo(x,y1);C.lineTo(x,y2);C.stroke();C.setLineDash([]);C.lineDashOffset=0;}
+function exp(){var o=document.createElement('canvas'),w=1560,h=878,bh=110,dl=document.getElementById('hw-dl');o.width=w;o.height=h+bh;var x=o.getContext('2d');x.fillStyle='#fff';x.fillRect(0,0,w,h+bh);x.drawImage(cv,0,0,w,h);x.fillStyle='#f6f8fc';x.fillRect(0,h,w,bh);x.fillStyle='#dde3ee';x.fillRect(0,h,w,2);
+x.fillStyle='#ffe500';x.beginPath();if(x.roundRect)x.roundRect(40,h+20,70,70,10);else x.rect(40,h+20,70,70);x.fill();x.fillStyle='#1e63b8';x.font='800 44px "Segoe UI",Arial,sans-serif';x.textAlign='center';x.textBaseline='middle';x.fillText('ib',75,h+56);
+x.textAlign='left';x.fillStyle='#1a2333';x.font='700 30px "Segoe UI",Arial,sans-serif';x.fillText('Instrumentation Blog',128,h+42);x.fillStyle='#5b6576';x.font='22px "Segoe UI",Arial,sans-serif';x.fillText('instrumentationblog.in/how-it-works',128,h+76);
+x.textAlign='right';x.fillStyle='#1a2333';x.font='700 28px "Segoe UI",Arial,sans-serif';x.fillText(dl?dl.dataset.title:'',w-40,h+56);return o;}
+window.__hwExport=function(){return exp().toDataURL('image/png');};
+function pipe(x1,x2,cy,R,fl){rc(x1,cy-R-12,x2-x1,12,'#9aa5b8');rc(x1,cy+R,x2-x1,12,'#9aa5b8');rc(x1,cy-R,x2-x1,2*R,fl||'#e6f0fd');}
+
+var VM=12,dots=[],pv=50;for(var k=0;k<28;k++)dots.push(k/28);
+var PTH=[[80,110],[80,60],[405,60],[405,90],[405,170],[405,250],[80,250],[80,190]];
+var LEN=[],TOT=0;for(var k=1;k<PTH.length;k++){var d=Math.hypot(PTH[k][0]-PTH[k-1][0],PTH[k][1]-PTH[k-1][1]);LEN.push(d);TOT+=d;}
+function at(u){var s=u*TOT;for(var k=0;k<LEN.length;k++){if(s<=LEN[k]){var f=s/LEN[k];return[PTH[k][0]+(PTH[k+1][0]-PTH[k][0])*f,PTH[k][1]+(PTH[k+1][1]-PTH[k][1])*f,k];}s-=LEN[k];}return PTH[PTH.length-1].concat([0]);}
+function cur(){var it=4+16*pv/100,lim=(P.vs-VM)/P.r*1000;return Math.min(it,lim);}
+function upd(){var it=4+16*P.pv/100,i=Math.min(it,(P.vs-VM)/P.r*1000);o('i',m(i,2)+' mA'+(i<it-0.005?' (limited, should be '+m(it,2)+' mA)':''));o('vr',m(i*P.r/1000,2)+' V');
+o('vt',m(P.vs-i*P.r/1000,2)+' V'+(P.vs-0.02*P.r<VM?', too low at 20 mA':', OK at 20 mA'));o('rmax',m((P.vs-VM)/0.02,0)+' Ω');}
+function step(dt){pv+=(P.pv-pv)*Math.min(1,dt*3);var i=cur(),v=(i/20)*0.09;for(var k=0;k<dots.length;k++){dots[k]+=v*dt;if(dots[k]>=1)dots[k]-=1;}}
+function draw(){var i=cur(),vr=i*P.r/1000,vt=P.vs-vr,it=4+16*pv/100,lim=i<it-0.005;
+L('Dots show conventional current, speed scaled to the loop current',20,22,11,'#5b6576','left');
+C.strokeStyle='#475569';C.lineWidth=3;C.beginPath();C.moveTo(PTH[0][0],PTH[0][1]);for(var k=1;k<PTH.length;k++)C.lineTo(PTH[k][0],PTH[k][1]);C.stroke();
+rc(40,110,80,80,'#1a2333',null,8);L('Supply',80,130,11,'#cbd5e1','center',1);L(m(P.vs,1)+' V DC',80,150,13,'#fff','center',1);L('+',100,118,13,'#f87171','center',1);L('−',100,182,13,'#93c5fd','center',1);
+rc(360,90,90,80,'#ffffff','#0e7490',8);C.lineWidth=2.5;C.strokeStyle='#0e7490';C.stroke();L('Transmitter',405,104,11,'#1a2333','center',1);
+ci(405,136,18,'#f6f8fc','#475569');var na=Math.PI*(0.75+1.5*pv/100);ln(405,136,405+14*Math.cos(na),136+14*Math.sin(na),'#b02a52',2.5);ci(405,136,3,'#1a2333');L('PV '+m(pv,0)+' %',405,162,11,'#0e7490','center',1);
+rc(450,124,18,24,'#94a3b8','#475569',3);
+rc(190,226,130,56,null,'#64748b',8);C.setLineDash([4,4]);C.strokeStyle='#64748b';C.lineWidth=1.2;C.stroke();C.setLineDash([]);L('PLC analog input',255,274,11,'#5b6576','center',1);
+rc(222,242,66,16,'#ffffff');C.strokeStyle='#d9622b';C.lineWidth=2.5;C.beginPath();C.moveTo(222,250);for(var z=0;z<6;z++){C.lineTo(227+z*11,z%2?256:244);}C.lineTo(288,250);C.stroke();
+L('R '+m(P.r,0)+' Ω',255,234,11,'#1a2333','center',1);L(m(vr,2)+' V',326,240,11,'#d9622b','left',1);
+for(var k=0;k<dots.length;k++){var p=at(dots[k]);if(p[0]>360&&p[0]<450&&p[1]>90&&p[1]<170)continue;if(p[0]>40&&p[0]<120&&p[1]>110&&p[1]<190)continue;ci(p[0],p[1],4,'#16a34a');}
+ar(240,60,262,60,'#16a34a',2);L(m(i,2)+' mA',250,46,13,'#16a34a','center',1);if(lim)L('Supply too low: current limited',250,84,12,'#b91c1c','center',1);
+rc(490,40,140,240,'#f6f8fc','#dde3ee',8);L('Voltage budget',560,268,11,'#5b6576','center',1);var b0=250,s=6,bx=508;
+rc(bx,b0-vt*s,30,vt*s,'#0e7490');rc(bx,b0-P.vs*s,30,vr*s,'#d9622b');ln(bx-4,b0-VM*s,bx+34,b0-VM*s,'#b91c1c',1.5,[4,3]);ln(bx,b0,bx+30,b0,'#1a2333',1.5);
+var ym=b0-VM*s,yr=b0-(vt+vr/2)*s;if(Math.abs(yr-ym)<14)yr=ym-14;L('min '+m(VM,0)+' V',546,ym,11,'#b91c1c','left',1);L('R '+m(vr,1)+' V',546,yr,11,'#d9622b','left',1);L('Tx '+m(vt,1)+' V',546,b0-12,11,'#0e7490','left',1);
+var x0=40,x1=470,X=function(a){return x0+a/24*(x1-x0);},sy=316;L('Loop current',x0,300,11,'#5b6576','left',1);
+rc(x0,sy,x1-x0,12,'#e2e8f0');rc(x0,sy,X(3.6)-x0,12,'rgba(185,28,28,0.35)');rc(X(21),sy,x1-X(21),12,'rgba(185,28,28,0.35)');rc(X(4),sy,X(20)-X(4),12,'rgba(22,163,74,0.30)');
+[0,4,8,12,16,20,24].forEach(function(v){ln(X(v),sy+12,X(v),sy+17,'#475569',1);L(String(v),X(v),sy+26,11,'#1a2333','center');});L('mA',x1+16,sy+26,11,'#1a2333','left');
+L('fault',X(1.8),sy+6,11,'#7f1d1d','center',1);L('fault',X(22.5),sy+6,11,'#7f1d1d','center',1);
+var px=X(i);C.fillStyle='#1a2333';C.beginPath();C.moveTo(px,sy);C.lineTo(px-7,sy-10);C.lineTo(px+7,sy-10);C.closePath();C.fill();L(m(i,1)+' mA = '+m((i-4)/16*100,0)+' %',Math.min(Math.max(px,175),x1-40),sy-20,11,'#1a2333','center',1);
+mk(1,30,110);mk(2,462,90);mk(3,150,60);mk(4,180,226);mk(5,618,52);mk(6,x1+44,sy+6);}
+
+function fr(t){var dt=Math.min(.05,((t-last)/1000)||0);last=t;if(run&&vis&&!document.hidden){T+=dt;step(dt);dirty=true;}if(dirty&&vis){C.clearRect(0,0,W,H);draw();dirty=false;}requestAnimationFrame(fr);}
+[].forEach.call(document.querySelectorAll('#hw-ctl input'),function(i){i.addEventListener('input',rd);});
+var dl=document.getElementById('hw-dl');if(dl&&cv.toBlob)dl.addEventListener('click',function(){exp().toBlob(function(b){var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=dl.dataset.name;document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove();},500);},'image/png');});
+var pp=document.getElementById('hw-pp');if(pp)pp.addEventListener('click',function(){run=!run;pp.textContent=run?'Pause animation':'Play animation';});
+if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){run=false;if(pp)pp.textContent='Play animation';}
+if('IntersectionObserver' in window)new IntersectionObserver(function(e){vis=e[0].isIntersecting;dirty=true;}).observe(cv);
+window.addEventListener('resize',function(){fit();C.clearRect(0,0,W,H);draw();});fit();rd();step(0.016);draw();requestAnimationFrame(fr);
+})();
+</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.instrumentationblog.in/"},{"@type":"ListItem","position":2,"name":"How It Works","item":"https://www.instrumentationblog.in/how-it-works/"},{"@type":"ListItem","position":3,"name":"How a 4 to 20 mA Current Loop Works","item":"https://www.instrumentationblog.in/how-it-works/4-20-ma-current-loop/"}]},{"@type":"ImageObject","contentUrl":"https://www.instrumentationblog.in/how-it-works/4-20-ma-current-loop/4-20-ma-current-loop-working-diagram.webp","name":"How a 4 to 20 mA Current Loop Works","caption":"Labelled diagram showing how a 4 to 20 ma current loop works","width":1560,"height":988},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why does the signal start at 4 mA and not 0 mA?","acceptedAnswer":{"@type":"Answer","text":"The live zero powers the transmitter electronics and lets the receiver tell a 0 % reading from a broken wire, which gives 0 mA."}},{"@type":"Question","name":"What resistor is used to convert 4 to 20 mA to 1 to 5 V?","acceptedAnswer":{"@type":"Answer","text":"A 250 Ω resistor. By Ohm's law 4 mA gives 1 V and 20 mA gives 5 V across it."}},{"@type":"Question","name":"How long can a 4 to 20 mA cable be?","acceptedAnswer":{"@type":"Answer","text":"It is limited by the voltage budget, not by the signal. The total of cable, receiver and barrier resistance at 20 mA plus the transmitter minimum voltage must stay below the supply voltage."}},{"@type":"Question","name":"What do 3.6 mA and 21 mA mean?","acceptedAnswer":{"@type":"Answer","text":"In NAMUR NE43 a current below 3.6 mA or above 21 mA is a fault signal, for example a sensor failure, and the receiver should raise an alarm instead of showing a value."}}]}]}</script></main>
+<footer class="ibs-foot"><div class="ibs-in"><span>© 2026 instrumentationblog.in · Free tools for instrumentation and control engineers</span><span><a href="https://www.instrumentationblog.in/">Home</a> · <a href="https://www.instrumentationblog.in/calculators/">Calculators</a> · <a href="https://www.instrumentationblog.in/unit-converters/">Unit Converters</a> · <a href="https://www.instrumentationblog.in/tools/">Tools</a> · <a href="https://www.instrumentationblog.in/downloads/">Downloads</a> · <a href="https://www.instrumentationblog.in/glossary/">Glossary</a></span></div></footer>
+</body>
+</html>

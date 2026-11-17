@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How a Capacitive Proximity Sensor Works: Animated Diagram</title>
+<meta name="description" content="How a capacitive proximity sensor works, animated: the electric field at the face, a non metal target raising capacitance and the oscillator that switches.">
+<link rel="canonical" href="https://www.instrumentationblog.in/how-it-works/capacitive-proximity-sensor/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Instrumentation Blog">
+<meta property="og:title" content="How a Capacitive Proximity Sensor Works: Animated Diagram">
+<meta property="og:description" content="How a capacitive proximity sensor works, animated: the electric field at the face, a non metal target raising capacitance and the oscillator that switches.">
+<meta property="og:url" content="https://www.instrumentationblog.in/how-it-works/capacitive-proximity-sensor/">
+<meta property="og:image" content="https://www.instrumentationblog.in/how-it-works/capacitive-proximity-sensor/capacitive-proximity-sensor-working-diagram.webp">
+<meta property="og:image:width" content="1560">
+<meta property="og:image:height" content="988">
+<meta property="og:image:alt" content="Labelled diagram showing how a capacitive proximity sensor works">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://www.instrumentationblog.in/how-it-works/capacitive-proximity-sensor/capacitive-proximity-sensor-working-diagram.webp">
+<link rel="icon" href="https://www.instrumentationblog.in/favicon.ico">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R3NLR1WRYC"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-R3NLR1WRYC");</script>
+<style>
+html{-webkit-text-size-adjust:100%}body{margin:0;background:#f1f3f7;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#1f2733}
+.ibs-top{background:#1e73be;color:#fff;font-size:13.5px}
+.ibs-in{max-width:1100px;margin:0 auto;padding:0 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ibs-top .ibs-in{min-height:36px}
+.ibs-top a{color:#fff;text-decoration:none}
+.ibs-head{background:#fff;border-bottom:1px solid #e3e7ee}
+.ibs-head .ibs-in{min-height:86px}
+.ibs-logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.ibs-mark{width:58px;height:58px;background:#ffef00;display:flex;align-items:center;justify-content:center;font:900 38px/1 Arial,Helvetica,sans-serif;color:#1e73be;letter-spacing:-2px}
+.ibs-name{font-weight:800;font-size:18px;color:#1a2333;line-height:1.1}.ibs-name small{display:block;font-weight:500;font-size:12px;color:#6b7383}
+.ibs-nav{display:flex;flex-wrap:wrap;gap:4px 22px}
+.ibs-nav a{color:#1f2733;text-decoration:none;font-size:16px}
+.ibs-nav a:hover,.ibs-nav a.on{color:#e4004b}
+.ibs-main{padding:22px 16px 30px}
+.ibs-pv{text-align:center;padding:6px 16px 18px;font:13px/1.4 Arial,Helvetica,sans-serif;color:#5b6573}.ibs-pv span{display:inline-block;background:#fff;border:1px solid #dde3ea;border-radius:999px;padding:5px 14px}
+.ibs-foot{background:#1a2333;color:#aab3c5;font-size:13px}.ibs-foot .ibs-in{min-height:56px}.ibs-foot a{color:#d6dcea}
+@media(max-width:700px){.ibs-top a{display:none}.ibs-head .ibs-in{padding:10px 16px}.ibs-nav{gap:4px 16px}.ibs-nav a{font-size:15px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="ibs-top"><div class="ibs-in"><span>Free engineering calculators and unit converters</span><a href="mailto:ceo@instrumentationblog.in">ceo@instrumentationblog.in</a></div></div>
+<header class="ibs-head"><div class="ibs-in">
+<a class="ibs-logo" href="https://www.instrumentationblog.in/" aria-label="Instrumentation Blog home"><span class="ibs-mark">ib</span><span class="ibs-name">Instrumentation Blog<small>Instrumentation simplified, knowledge amplified</small></span></a>
+<nav class="ibs-nav"><a href="https://www.instrumentationblog.in/">Home</a><a href="https://www.instrumentationblog.in/calculators/">Calculators</a><a href="https://www.instrumentationblog.in/unit-converters/">Unit Converters</a><a href="https://www.instrumentationblog.in/tools/">Tools</a><a href="https://www.instrumentationblog.in/downloads/">Downloads</a><a href="https://www.instrumentationblog.in/glossary/">Glossary</a></nav>
+</div></header>
+<main class="ibs-main"><style>
+.ibuc .hw-stage{max-width:780px;margin:0 auto;background:#fff;border:1px solid var(--b);border-radius:14px;overflow:hidden}
+.ibuc .hw-stage canvas{display:block;width:100%}
+.ibuc .hw-bar{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin:12px auto 0;max-width:780px}
+.ibuc button.hw-pp{background:var(--n) !important;color:#fff !important;border:0 !important;border-radius:999px !important;padding:8px 16px !important;font-size:14px;font-weight:700;cursor:pointer;line-height:1.2}
+.ibuc .hw-note{font-size:13px;color:var(--m)}
+.ibuc .hw-ctl{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px 22px;margin:18px 0 0}
+.ibuc .hw-s label{display:flex;justify-content:space-between;font-size:14px;font-weight:700;color:var(--n);margin:0 0 6px}
+.ibuc .hw-s label b{color:var(--gc);font-variant-numeric:tabular-nums}
+.ibuc .hw-s input[type=range]{width:100%;accent-color:var(--gc);height:28px;margin:0}
+.ibuc .hw-leg{list-style:none;padding:0;margin:16px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:8px 18px}
+.ibuc .hw-leg li{display:flex;gap:10px;align-items:flex-start;font-size:14.5px}
+.ibuc .hw-leg i{flex:0 0 24px;height:24px;border-radius:50%;background:#d9622b;color:#fff;font-style:normal;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center}
+.ibuc ol.hw-steps{list-style:none;counter-reset:s;padding:0;margin:0}
+.ibuc ol.hw-steps li{counter-increment:s;position:relative;padding:0 0 14px 46px;margin:0}
+.ibuc ol.hw-steps li:before{content:counter(s);position:absolute;left:0;top:-2px;width:32px;height:32px;border-radius:50%;background:var(--gc);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center}
+.ibuc .hw-fig{margin:0;text-align:center}
+.ibuc .hw-fig img{width:100%;max-width:780px;height:auto;border:1px solid var(--b);border-radius:12px}
+.ibuc .hw-fig figcaption{font-size:14px;color:var(--m);margin:10px auto 0;max-width:780px;text-align:left}
+.ibuc button.hw-dl{background:#fff !important;color:var(--n) !important;border:1.5px solid var(--n) !important}
+.ibuc .hw-uses{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.ibuc .hw-use{background:var(--l);border:1px solid var(--b);border-left:4px solid var(--gc);border-radius:10px;padding:12px 14px}
+.ibuc .hw-use b{display:block;color:var(--n);margin:0 0 4px}
+.ibuc .hw-use span{font-size:14.5px;color:#334155}
+.ibuc ul.hw-tips{list-style:none;padding:0;margin:0}
+.ibuc ul.hw-tips li{position:relative;padding:0 0 10px 30px}
+.ibuc ul.hw-tips li:before{content:"✓";position:absolute;left:0;top:0;width:20px;height:20px;border-radius:50%;background:var(--gc);color:#fff;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center}
+.ibuc .hw-f{background:#1a2333;color:#e6edf7;border-radius:12px;padding:16px 18px;font-family:'Courier New',monospace;font-size:15.5px;line-height:1.75;overflow-x:auto}
+.ibuc .hw-f b{color:#fbbf24;font-weight:700}
+</style><style>
+.ibuc{--n:#1a2333;--t:#1f2733;--m:#5b6576;--b:#dde3ee;--l:#f6f8fc;--a:#d9622b;--g:#1f9d55;color:var(--t);font-size:16px;line-height:1.6;max-width:1100px;margin:0 auto}
+.ibuc *{box-sizing:border-box}
+.ibuc a{color:#1f5fbf;text-decoration:none}.ibuc a:hover{text-decoration:underline}
+.ibuc h1,.ibuc h2,.ibuc h3{line-height:1.25;margin:0 0 12px;color:var(--n);font-weight:700;letter-spacing:0;text-transform:none}
+.ibuc h2{font-size:24px;margin-top:8px}.ibuc h3{font-size:18px}
+.ibuc p{margin:0 0 12px}
+.ibuc .ibuc-crumb{font-size:13px;color:var(--m);margin:0 0 12px}
+.ibuc .ibuc-hero{border-radius:16px;padding:28px 26px;color:#fff;margin:0 0 20px}
+.ibuc .ibuc-hero h1{color:#fff !important;font-size:34px;margin:6px 0 10px}
+.ibuc .ibuc-eye{font-size:12px;letter-spacing:.12em;text-transform:uppercase;opacity:.85;font-weight:700}
+.ibuc .ibuc-hero p{color:#e8ecf4;margin:0 0 14px;max-width:760px}
+.ibuc .ibuc-pills{display:flex;flex-wrap:wrap;gap:8px}
+.ibuc .ibuc-pill{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);color:#fff;border-radius:999px;padding:3px 12px;font-size:13px}
+.ibuc .ibuc-card{background:#fff;border:1px solid var(--b);border-radius:14px;padding:22px;margin:0 0 22px;box-shadow:0 2px 10px rgba(26,35,51,.05)}
+.ibuc .ibuc-tool{border-top:4px solid var(--a);scroll-margin-top:90px}
+.ibuc .ibuc-grid{display:grid;grid-template-columns:1fr 1.3fr auto 1.3fr;gap:12px;align-items:end}
+.ibuc .ibuc-field label{display:block;font-size:13px;font-weight:700;color:var(--m);margin:0 0 5px}
+.ibuc .ibuc-field input,.ibuc .ibuc-field select{width:100%;height:46px;border:1.5px solid var(--b) !important;border-radius:10px !important;padding:0 12px !important;font-size:16px;background:#fff !important;color:var(--t) !important;margin:0;box-shadow:none}
+.ibuc .ibuc-field input:focus,.ibuc .ibuc-field select:focus{outline:none;border-color:var(--a) !important;box-shadow:0 0 0 3px rgba(217,98,43,.15)}
+.ibuc .ibuc-field input.ibuc-bad{border-color:#c0392b !important}
+.ibuc button.ibuc-swap{height:46px;width:46px;border-radius:50% !important;border:1.5px solid var(--b) !important;background:var(--l) !important;color:var(--n) !important;font-size:20px;cursor:pointer;padding:0 !important;line-height:1}
+.ibuc button.ibuc-swap:hover{background:var(--n) !important;color:#fff !important}
+.ibuc .ibuc-result{background:var(--l);border-radius:12px;padding:16px 18px;margin:16px 0 12px}
+.ibuc .ibuc-res-main{font-size:22px;color:var(--n);word-break:break-word}
+.ibuc .ibuc-res-main b{color:var(--a);font-size:28px}
+.ibuc .ibuc-res-sub{font-size:14px;color:var(--m);margin-top:6px;word-break:break-word}
+.ibuc .ibuc-bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:14px;color:var(--m)}
+.ibuc .ibuc-bar select{height:36px;border:1.5px solid var(--b) !important;border-radius:8px !important;padding:0 8px !important;background:#fff !important;color:var(--t) !important;width:auto}
+.ibuc button.ibuc-btn{background:var(--n) !important;color:#fff !important;border:0 !important;border-radius:8px !important;padding:8px 16px !important;font-size:14px;font-weight:600;cursor:pointer;line-height:1.2}
+.ibuc button.ibuc-btn:hover{background:var(--a) !important}
+.ibuc .ibuc-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;align-items:center}
+.ibuc .ibuc-chips span{font-size:13px;font-weight:700;color:var(--m)}
+.ibuc button.ibuc-chip,.ibuc a.ibuc-chip{background:#fff !important;border:1.5px solid var(--b) !important;color:var(--n) !important;border-radius:999px !important;padding:5px 13px !important;font-size:13px;cursor:pointer;line-height:1.3;font-weight:500;text-decoration:none}
+.ibuc button.ibuc-chip:hover,.ibuc a.ibuc-chip:hover{border-color:var(--a) !important;color:var(--a) !important;text-decoration:none}
+.ibuc .ibuc-tw{overflow-x:auto;border:1px solid var(--b);border-radius:10px}
+.ibuc table.ibuc-t{width:100%;border-collapse:collapse;margin:0;font-size:15px;border:0}
+.ibuc table.ibuc-t th{background:var(--n) !important;color:#fff !important;text-align:left;padding:10px 12px;font-weight:600;border:0 !important}
+.ibuc table.ibuc-t td{padding:8px 12px;border:0 !important;border-bottom:1px solid var(--b) !important;background:#fff;vertical-align:top}
+.ibuc table.ibuc-t tr:nth-child(even) td{background:#fafbfd}
+.ibuc table.ibuc-t tr:last-child td{border-bottom:0 !important}
+.ibuc table.ibuc-t td.ibuc-num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.ibuc #ibuc-all tr{cursor:pointer}.ibuc #ibuc-all tr:hover td{background:#fff4ee}
+.ibuc #ibuc-all tr.ibuc-hl td{background:#fde9de;font-weight:700}
+.ibuc .ibuc-two{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.ibuc .ibuc-fbox{background:var(--n);color:#fff;border-radius:12px;padding:16px 18px;margin:12px 0;font-family:Consolas,Menlo,monospace;font-size:15px;word-break:break-word}
+.ibuc .ibuc-key{border-left:4px solid var(--a);background:#fff6f1;border-radius:0 10px 10px 0;padding:12px 16px;margin:12px 0}
+.ibuc .ibuc-steps{margin:0 0 12px;padding-left:22px}.ibuc .ibuc-steps li{margin-bottom:6px}
+.ibuc details{border:1px solid var(--b);border-radius:10px;margin:0 0 10px;background:#fff}
+.ibuc summary{cursor:pointer;padding:12px 16px;font-weight:700;color:var(--n);list-style:none}
+.ibuc summary::-webkit-details-marker{display:none}
+.ibuc summary:before{content:"Q";display:inline-block;background:var(--a);color:#fff;border-radius:6px;width:22px;height:22px;text-align:center;line-height:22px;font-size:12px;margin-right:10px}
+.ibuc details p{padding:0 16px 14px 48px;margin:0;color:var(--t)}
+.ibuc .ibuc-links{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.ibuc .ibuc-links a{display:block;border:1px solid var(--b);border-radius:10px;padding:10px 14px;background:#fff;color:var(--n);font-weight:600;font-size:15px}
+.ibuc .ibuc-links a small{display:block;font-weight:400;color:var(--m);font-size:12.5px;margin-top:2px}
+.ibuc .ibuc-links a:hover{border-color:var(--a);text-decoration:none;box-shadow:0 3px 12px rgba(217,98,43,.12)}
+.ibuc .ibuc-ymal{border-radius:14px;padding:22px;color:#fff;margin:0 0 22px}
+.ibuc .ibuc-ymal h3{color:#fff !important;margin-bottom:6px}
+.ibuc .ibuc-ymal .ibuc-yt{font-weight:700;font-size:18px;margin:0 0 6px}
+.ibuc .ibuc-ymal p{color:#e8ecf4}
+.ibuc a.ibuc-go{display:inline-block;background:var(--g);color:#fff !important;border-radius:999px;padding:8px 20px;font-weight:700;font-size:14px}
+.ibuc a.ibuc-go:hover{text-decoration:none;filter:brightness(1.08)}
+.ibuc .ibuc-ref{background:var(--l);border:1px solid var(--b);border-radius:14px;padding:20px 22px;margin:0 0 22px}
+.ibuc .ibuc-ad{margin:6px 0 24px;text-align:center}
+.ibuc .ibuc-adl{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#98a1b0;border-top:1px dotted #c8cfdb;border-bottom:1px dotted #c8cfdb;padding:3px 0;margin-bottom:8px}
+.ibuc .ibuc-adph{border:1.5px dashed #c8cfdb;border-radius:8px;padding:30px;color:#98a1b0;font-size:13px}
+.ibuc .ibuc-status{border-radius:8px;padding:10px 14px;font-size:14px;margin:12px 0 0}
+.ibuc .ibuc-ok{background:#e7f6ee;color:#14663a}.ibuc .ibuc-warn{background:#fff4dc;color:#7a5400}.ibuc .ibuc-err{background:#fde7e7;color:#9b1c1c}
+.ibuc .ibuc-g3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.ibuc .ibuc-g4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.ibuc .ibuc-sub{font-size:13px;color:var(--m);margin:6px 0 0}
+.ibuc .ibuc-search{width:100%;height:52px;border:2px solid rgba(255,255,255,.35) !important;background:rgba(255,255,255,.96) !important;border-radius:12px !important;padding:0 16px !important;font-size:17px;color:var(--t) !important;margin-top:6px}
+.ibuc .ibuc-cat{scroll-margin-top:90px}
+.ibuc .ibuc-cath{display:flex;align-items:center;gap:12px;margin:0 0 4px}
+.ibuc .ibuc-dot{width:12px;height:12px;border-radius:50%;flex:none}
+.ibuc .ibuc-toc{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.ibuc .ibuc-stats{display:flex;gap:22px;flex-wrap:wrap;margin:4px 0 14px}
+.ibuc .ibuc-stats b{display:block;font-size:26px;color:#fff}.ibuc .ibuc-stats span{font-size:13px;color:#cfd6e4}
+.ibuc .ibuc-empty{display:none;color:var(--m);padding:10px 0}
+@media (max-width:760px){
+ .ibuc .ibuc-grid{grid-template-columns:1fr}
+ .ibuc button.ibuc-swap{position:relative;grid-column:1/-1;width:100%;border-radius:10px !important;height:38px}
+ .ibuc .ibuc-two,.ibuc .ibuc-g3,.ibuc .ibuc-g4{grid-template-columns:1fr}
+ .ibuc .ibuc-hero{padding:22px 18px}.ibuc .ibuc-hero h1{font-size:26px}
+ .ibuc .ibuc-card{padding:16px}
+ .ibuc .ibuc-res-main{font-size:18px}.ibuc .ibuc-res-main b{font-size:22px}
+}
+</style><style>
+.ibuc .ibuc-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 16px}
+.ibuc button.ibuc-tab{background:var(--l) !important;color:var(--n) !important;border:1.5px solid var(--b) !important;border-radius:999px !important;padding:8px 16px !important;font-size:14px;font-weight:700;cursor:pointer;line-height:1.2}
+.ibuc button.ibuc-tab.on{background:var(--n) !important;color:#fff !important;border-color:var(--n) !important}
+.ibuc .ibuc-out{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:16px 0 0}
+.ibuc .ibuc-o{background:var(--l);border-radius:12px;padding:12px 14px}
+.ibuc .ibuc-o span{display:block;font-size:12.5px;color:var(--m);font-weight:600}
+.ibuc .ibuc-o b{display:block;font-size:22px;color:var(--n);font-variant-numeric:tabular-nums;word-break:break-word}
+.ibuc .ibuc-o.main{background:#fff1e9}.ibuc .ibuc-o.main b{color:var(--a);font-size:26px}
+.ibuc .ibuc-steps-box{background:#fff;border:1px dashed var(--b);border-radius:10px;padding:12px 16px;margin:14px 0 0;font-size:14.5px}
+.ibuc .ibuc-steps-box ol{margin:6px 0 0;padding-left:20px}
+.ibuc table.ibuc-grid10 td,.ibuc table.ibuc-grid10 th{text-align:right;padding:6px 8px;font-size:13.5px;white-space:nowrap}
+.ibuc table.ibuc-grid10 td:first-child,.ibuc table.ibuc-grid10 th:first-child{text-align:left;font-weight:700;background:#eef2f9}
+.ibuc .ibuc-soon a,.ibuc .ibuc-soon div{opacity:1}
+.ibuc .ibuc-links div.ibuc-dis{display:block;border:1px dashed var(--b);border-radius:10px;padding:10px 14px;background:#fafbfd;color:#8a93a3;font-weight:600;font-size:15px}
+.ibuc .ibuc-links div.ibuc-dis small{display:block;font-weight:400;font-size:12.5px;margin-top:2px}
+.ibuc .ibuc-badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:middle}
+.ibuc .ibuc-badge.live{background:#e7f6ee;color:#14663a}.ibuc .ibuc-badge.soon{background:#eef1f6;color:#6b7383}
+.ibuc .ibuc-catgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.ibuc .ibuc-catcard{display:block;border-radius:14px;padding:18px;color:#fff !important;min-height:150px;position:relative}
+.ibuc a.ibuc-catcard:hover{text-decoration:none;transform:translateY(-2px);box-shadow:0 8px 22px rgba(26,35,51,.18)}
+.ibuc .ibuc-catcard h3{color:#fff !important;margin:0 0 6px;font-size:19px}
+.ibuc .ibuc-catcard p{color:#e3e8f1;font-size:14px;margin:0 0 10px}
+.ibuc .ibuc-catcard span{font-size:12.5px;font-weight:700;background:rgba(255,255,255,.16);border-radius:999px;padding:3px 10px}
+@media print{.ibs-top,.ibs-head,.ibs-foot,.ibuc-ad,.ibuc-hero,.ibuc-noprint{display:none !important}.ibuc .ibuc-card{box-shadow:none;border:0}}
+</style><style>
+.ibuc .ibx-bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 14px}
+.ibuc .ibx-q{flex:1 1 260px;min-width:0;padding:12px 14px 12px 40px !important;border:1px solid #cfd8e3 !important;border-radius:12px !important;font-size:15px !important;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236b7686' stroke-width='2.4'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m20 20-3.5-3.5'/%3E%3C/svg%3E") no-repeat 14px 50% !important;box-sizing:border-box}
+.ibuc .ibx-q:focus{outline:2px solid #1e73be;border-color:#1e73be !important}
+.ibuc .ibx-n{font-size:13.5px;color:#5a6575;white-space:nowrap;font-weight:600}
+.ibuc .ibx-chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.ibuc .ibx-chip{border:1px solid var(--b,#cfd8e3) !important;background:var(--l,#fff) !important;color:var(--d,#1f2733) !important;border-radius:999px !important;padding:7px 15px !important;font-size:13.5px !important;font-weight:700;cursor:pointer;line-height:1.3;transition:transform .12s}
+.ibuc .ibx-chip:hover{transform:translateY(-1px)}
+.ibuc .ibx-chip.on{background:var(--d,#1a2333) !important;color:#fff !important;border-color:var(--d,#1a2333) !important}
+.ibuc .ibx-chip b{font-weight:600;opacity:.7;margin-left:5px}
+.ibuc .ibx-grp{margin:0 0 26px}
+.ibuc .ibx-gh{display:flex;align-items:center;gap:10px;margin:0 0 12px;font-size:17px;font-weight:800;color:var(--d)}
+.ibuc .ibx-gh:before{content:"";width:10px;height:22px;border-radius:4px;background:var(--d)}
+.ibuc .ibx-gh small{font-size:12.5px;font-weight:700;background:var(--l);border:1px solid var(--b);color:var(--d);border-radius:999px;padding:2px 9px}
+.ibuc .ibx-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
+.ibuc a.ibx-card{position:relative;display:flex;flex-direction:column;gap:6px;min-height:120px;padding:16px 16px 14px;border:1px solid var(--b);border-top:4px solid var(--d);border-radius:14px;background:var(--l);color:#1f2733 !important;text-decoration:none !important;transition:transform .15s,box-shadow .15s;box-sizing:border-box}
+.ibuc a.ibx-card:hover{transform:translateY(-3px);box-shadow:0 10px 22px rgba(26,35,51,.13)}
+.ibuc .ibx-card .ibx-t{max-width:calc(100% - 34px);box-sizing:border-box;align-self:flex-start;font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--d);background:#fff;border:1px solid var(--b);border-radius:999px;padding:2px 8px}
+.ibuc .ibx-card .ibx-h{font-size:15.5px;font-weight:700;line-height:1.35;padding-right:20px}
+.ibuc .ibx-card .ibx-s{font-size:13px;color:#4f5a6a;line-height:1.4;margin-top:auto}
+.ibuc .ibx-card:after{content:"→";position:absolute;right:14px;top:14px;width:24px;height:24px;line-height:24px;text-align:center;border-radius:50%;background:#fff;color:var(--d);font-weight:800;font-size:13px;transition:transform .15s}
+.ibuc .ibx-card:hover:after{transform:translateX(3px)}
+.ibuc .ibx-adslot{margin:4px 0 30px}
+.ibuc .ibx-adslot .ibuc-ad{margin:0}
+.ibuc .ibx-none{display:none;padding:18px;text-align:center;color:#5a6575;border:1px dashed #cfd8e3;border-radius:12px;margin:0 0 20px}
+@media(max-width:520px){.ibuc .ibx-grid{grid-template-columns:1fr;gap:12px}.ibuc a.ibx-card{min-height:0}}
+</style><style>
+.ibuc .cmp-verdict{font-size:17.5px;line-height:1.55;background:#fff;border-left:5px solid var(--gc);border-radius:12px;padding:16px 18px;margin:0 0 22px;box-shadow:0 1px 3px rgba(26,35,51,.08)}
+.ibuc .cmp-verdict b{color:var(--gc)}
+.ibuc .cmp-wrap{overflow-x:auto;margin:0 -4px;padding:0 4px}
+.ibuc table.cmp-t{width:100%;border-collapse:separate;border-spacing:0;font-size:15px;min-width:520px}
+.ibuc table.cmp-t th{background:var(--gc);color:#fff;text-align:left;padding:11px 12px;font-size:14.5px}
+.ibuc table.cmp-t th:first-child{border-radius:10px 0 0 0;background:#1a2333}.ibuc table.cmp-t th:last-child{border-radius:0 10px 0 0;background:#3b4bb0}
+.ibuc table.cmp-t td{padding:10px 12px;border-bottom:1px solid #e3e7ee;vertical-align:top}
+.ibuc table.cmp-t tr:nth-child(even) td{background:#f6f8fb}
+.ibuc table.cmp-t td:first-child{font-weight:700;color:#13283f;width:24%}
+.ibuc .cmp-two{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 22px}
+.ibuc .cmp-box{border-radius:14px;padding:18px 20px;border:1px solid var(--b);background:var(--l);border-top:4px solid var(--d)}
+.ibuc .cmp-box h3{margin:0 0 10px;color:var(--d);font-size:18px}
+.ibuc .cmp-box ul{margin:0;padding-left:20px}.ibuc .cmp-box li{margin:0 0 6px}
+@media(max-width:640px){.ibuc .cmp-two{grid-template-columns:1fr}
+.ibuc table.cmp-t{min-width:0}.ibuc table.cmp-t thead{display:none}
+.ibuc table.cmp-t tr{display:block;border:1px solid #e3e7ee;border-radius:12px;margin:0 0 12px;overflow:hidden}
+.ibuc table.cmp-t td{display:block;width:auto !important;border-bottom:1px solid #eef1f5}
+.ibuc table.cmp-t td:first-child{background:#1a2333 !important;color:#fff}
+.ibuc table.cmp-t td[data-l]:before{content:attr(data-l);display:block;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:var(--gc);margin-bottom:2px}
+.ibuc table.cmp-t td:last-child[data-l]:before{color:#3b4bb0}
+.ibuc table.cmp-t tr:nth-child(even) td{background:#fff}}
+</style>
+<div class="ibuc" id="ibuc-app" style="--gc:#0f7b80">
+<nav class="ibuc-crumb" aria-label="Breadcrumb"><a href="https://www.instrumentationblog.in/">Home</a> › <a href="https://www.instrumentationblog.in/how-it-works/">How It Works</a> › Capacitive Proximity Sensor</nav>
+<header class="ibuc-hero" style="background:linear-gradient(135deg,#0f7b80 0%,#06393b 100%)">
+  <div class="ibuc-eye">Switches · How It Works</div>
+  <h1>How a Capacitive Proximity Sensor Works</h1>
+  <p>Set the rated sensing distance, the material correction factor of the target and the gap to the passing boxes. Watch the oscillator build up as a target enters the field and see when the output switches reliably.</p>
+  <div class="ibuc-pills"><span class="ibuc-pill">Live animation</span><span class="ibuc-pill">Adjustable sliders</span><span class="ibuc-pill">Formula and example</span></div>
+</header>
+<p class="cmp-verdict"><b>Quick answer:</b> A capacitive proximity sensor builds an electric field in front of its face between an active electrode and an earth electrode. Any target with a dielectric constant higher than air raises the capacitance, the oscillator starts to swing above a threshold and the output switches.</p>
+<section class="ibuc-card"><h2>What Is a Capacitive Proximity Sensor?</h2><p>A capacitive proximity sensor detects almost any material without touching it: plastic, glass, wood, paper, grain, powder, water and metal. That makes it the usual choice when the target is not metal, or when a level must be seen through the wall of a plastic tank or chute.</p><p>Inside the sensing face sit two electrodes that form an open capacitor, connected to an RC oscillator. A target in front of the face adds capacitance, the oscillator starts to swing, and a trigger turns that change into a clean on off output.</p><p>How far the sensor reaches depends on the dielectric constant of the target, so the rated distance on the datasheet applies only to an earthed metal plate or water. Most installations also need a sensitivity adjustment on site, done with the real target in place.</p></section>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>How a Capacitive Proximity Sensor Works: Interactive Animation</h2>
+<div class="hw-stage"><canvas id="hw-cv" role="img" aria-label="Animated diagram showing how a capacitive proximity sensor works"></canvas></div>
+<div class="hw-bar"><span><button type="button" class="hw-pp" id="hw-pp">Pause animation</button> <button type="button" class="hw-pp hw-dl" id="hw-dl" data-name="capacitive-proximity-sensor-working-diagram.png" data-title="How a Capacitive Proximity Sensor Works">Download diagram</button></span><span class="hw-note">Numbered markers match the parts list below.</span></div>
+<div class="hw-ctl" id="hw-ctl"><div class="hw-s"><label for="hw-sn">Rated sensing distance Sn <b id="hw-sn-v"></b></label><input type="range" id="hw-sn" data-k="sn" min="4" max="30" step="1" value="15" data-d="0" data-u="mm"></div><div class="hw-s"><label for="hw-k">Material correction factor <b id="hw-k-v"></b></label><input type="range" id="hw-k" data-k="k" min="0.1" max="1.0" step="0.05" value="0.5" data-d="2" data-u=""></div><div class="hw-s"><label for="hw-g">Gap from sensor face to target <b id="hw-g-v"></b></label><input type="range" id="hw-g" data-k="g" min="1" max="30" step="0.5" value="5" data-d="1" data-u="mm"></div></div>
+<div class="ibuc-out"><div class="ibuc-o"><span>Real switching distance Sr = Sn × factor</span><b id="hw-o-sr">…</b></div><div class="ibuc-o main"><span>Assured distance Sa = 0.81 × Sr</span><b id="hw-o-sa">…</b></div><div class="ibuc-o"><span>Target at this gap</span><b id="hw-o-st">…</b></div><div class="ibuc-o"><span>Targets counted in the demo</span><b id="hw-o-cnt">…</b></div></div>
+<ol class="hw-leg"><li><i>1</i><span>Active and earth electrodes at the sensing face</span></li><li><i>2</i><span>Electric field in front of the face</span></li><li><i>3</i><span>Non metal target raising the capacitance</span></li><li><i>4</i><span>Oscillator amplitude and trigger threshold</span></li><li><i>5</i><span>Sensitivity potentiometer</span></li><li><i>6</i><span>Trigger and output stage</span></li></ol>
+</section>
+<section class="ibuc-card"><h2>Capacitive Proximity Sensor Working Principle Step by Step</h2><ol class="hw-steps"><li>The active electrode and the earth electrode at the face form an open capacitor, and their electric field spreads out in front of the sensor.</li><li>With only air in the field the capacitance is small, so the RC oscillator stays below its oscillation point or swings with a very small amplitude.</li><li>A target entering the field has a dielectric constant higher than air; its molecules polarise and the capacitance between the electrodes rises.</li><li>The extra capacitance lets the oscillator build up; when its amplitude crosses the trigger threshold the output transistor switches.</li><li>When the target leaves, the amplitude falls again; a small hysteresis keeps the output from chattering, and the potentiometer sets how much capacitance change is needed.</li></ol></section>
+<section class="ibuc-card"><h2>Capacitive Proximity Sensor Labelled Diagram</h2><figure class="hw-fig"><img src="https://www.instrumentationblog.in/how-it-works/capacitive-proximity-sensor/capacitive-proximity-sensor-working-diagram.webp" alt="Labelled diagram showing how a capacitive proximity sensor works" title="How a Capacitive Proximity Sensor Works" width="1560" height="988" loading="lazy" decoding="async"><figcaption>Numbered parts: 1 active and earth electrodes at the sensing face; 2 electric field in front of the face; 3 non metal target raising the capacitance; 4 oscillator amplitude and trigger threshold; 5 sensitivity potentiometer; 6 trigger and output stage.</figcaption></figure></section>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>Capacitive Proximity Sensor Formula</h2><div class="hw-f"><b>C = ε0 × εr × A ÷ d (a higher εr or a smaller gap gives a higher capacitance)</b><br>Real switching distance Sr = Sn × material correction factor<br>Assured operating distance Sa = 0.81 × Sn × factor (allows ±10 % unit spread and ±10 % drift)<br>Typical factors: metal and water about 1.0, glass about 0.5, PVC and wood about 0.2 to 0.6, oil about 0.1 (use the datasheet curve)<br>Example: Sn 15 mm, factor 0.5: Sr = 7.5 mm and Sa = 0.81 × 7.5 = 6.1 mm, so a box at a 5 mm gap is detected reliably</div></section>
+<section class="ibuc-card"><h2>Main Parts of a Capacitive Proximity Sensor</h2><div class="cmp-wrap"><table class="cmp-t"><thead><tr><th>Part</th><th>What it does</th></tr></thead><tbody><tr><td>Active and earth electrodes</td><td data-l="What it does">Form an open capacitor whose field reaches out in front of the sensing face</td></tr><tr><td>RC oscillator</td><td data-l="What it does">Starts to swing as the capacitance rises; its amplitude is the quantity the target changes</td></tr><tr><td>Sensitivity potentiometer</td><td data-l="What it does">Sets the switching point so the sensor sees the target but ignores the wall or dust</td></tr><tr><td>Trigger and output stage</td><td data-l="What it does">Compares the amplitude with a threshold, adds hysteresis and drives a PNP or NPN transistor</td></tr><tr><td>Housing and LED</td><td data-l="What it does">Plastic or metal barrel for mounting, with an LED that shows the switching state</td></tr></tbody></table></div></section>
+<section class="ibuc-card"><h2>Where a Capacitive Proximity Sensor Is Used</h2><div class="hw-uses"><div class="hw-use"><b>Level through a tank wall</b><span>Detects liquid or granules behind a plastic or glass wall without any process connection.</span></div><div class="hw-use"><b>Packaging lines</b><span>Senses cartons, bottles, paper stacks and plastic parts that an inductive sensor cannot see.</span></div><div class="hw-use"><b>Bulk solids</b><span>Gives high and low level alarms for grain, pellets and powder in hoppers and silos.</span></div><div class="hw-use"><b>Presence of liquid in tubes</b><span>Checks for liquid in a transparent hose or a pipette on filling and dosing machines.</span></div></div></section>
+<div class="cmp-two"><div class="cmp-box" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2"><h3>Advantages</h3><ul><li>Detects metal and non metal targets, liquids and solids</li><li>Can sense through a thin non metal wall</li><li>Non contact, with no mechanical wear</li></ul></div><div class="cmp-box" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8"><h3>Limitations</h3><ul><li>Range depends strongly on the target material and must be adjusted on site</li><li>Humidity, condensation and build up on the face can cause false switching</li><li>Shorter range and slower switching than an inductive sensor of the same size</li></ul></div></div>
+<section class="ibuc-card"><h2>Capacitive Proximity Sensor Field Tips and Common Problems</h2><ul class="hw-tips"><li>Adjust the potentiometer with the real target in place, then back it off until the empty state switches off cleanly with some margin.</li><li>For level through a tank wall, keep the wall thickness within what the datasheet allows and press the face firmly against it.</li><li>Keep the face clean; a film of wet product or dust can look like a target and hold the output on.</li><li>Follow the flush and non flush mounting rules, and keep the spacing between two sensors so their fields do not interact.</li></ul></section>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>Related Calculators and Tools</h2><div class="ibx-grid"><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://www.instrumentationblog.in/calculators/level/capacitance-level-probe-calculator/"><span class="ibx-t">Calculator</span><span class="ibx-h">Capacitance Level Probe Calculator</span><span class="ibx-s">Free online calculator with formula and worked example.</span></a><a class="ibx-card" style="--l:#fff4e0;--d:#a8620a;--b:#f5ddb0" href="https://www.instrumentationblog.in/glossary/dielectric-constant/"><span class="ibx-t">Glossary</span><span class="ibx-h">Dielectric Constant</span><span class="ibx-s">Definition, formula and example.</span></a><a class="ibx-card" style="--l:#fff4e0;--d:#a8620a;--b:#f5ddb0" href="https://www.instrumentationblog.in/glossary/hysteresis/"><span class="ibx-t">Glossary</span><span class="ibx-h">Hysteresis</span><span class="ibx-s">Definition, formula and example.</span></a><a class="ibx-card" style="--l:#f3edfc;--d:#6b3fb0;--b:#ddd0f3" href="https://www.instrumentationblog.in/compare/pnp-vs-npn-sensor/"><span class="ibx-t">Compare</span><span class="ibx-h">PNP vs NPN Sensor</span><span class="ibx-s">Side by side comparison table.</span></a></div></section>
+<section class="ibuc-card"><h2>Frequently Asked Questions</h2><details open><summary>What is the difference between inductive and capacitive proximity sensors?</summary><p>An inductive sensor uses a magnetic field and detects only metal. A capacitive sensor uses an electric field and detects any material whose dielectric constant is higher than air.</p></details><details><summary>Why does the sensing distance change with the material?</summary><p>The capacitance change depends on the dielectric constant of the target. Water and metal give a large change and the full range, while oil or dry plastic give a small change and a short range.</p></details><details><summary>Can a capacitive sensor detect liquid through a pipe or tank wall?</summary><p>Yes, if the wall is non metal and thin enough. The sensitivity is set so the wall alone does not switch the output but the liquid behind it does.</p></details><details><summary>Why does my capacitive sensor switch on by itself?</summary><p>Usually because of build up, condensation or a sensitivity set too high. Clean the face, reduce the sensitivity and check that nothing conductive sits near the field.</p></details></section>
+<div class="ibuc-ymal" style="background:linear-gradient(135deg,#0f7b80 0%,#06393b 100%)"><div class="ibuc-eye">You May Also Like</div><h3>Learn more on the blog</h3><p class="ibuc-yt">Inductive vs capacitive proximity sensors</p><p>A practical guide on instrumentationblog.in that goes deeper into this topic with field examples.</p><a class="ibuc-go" href="https://www.instrumentationblog.in/inductive-vs-capacitive-proximity-sensors/">Read Full Article</a></div>
+<section class="ibuc-card"><h2>More How It Works</h2><div class="ibx-grid"><a class="ibx-card" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8" href="https://www.instrumentationblog.in/how-it-works/inductive-proximity-sensor/"><span class="ibx-t">Switches</span><span class="ibx-h">How an Inductive Proximity Sensor Works</span><span class="ibx-s">An inductive proximity sensor drives a coil with a high frequency oscillator to create a magneti…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/how-it-works/orifice-plate/"><span class="ibx-t">Flow</span><span class="ibx-h">How an Orifice Plate Works</span><span class="ibx-s">An orifice plate is a thin plate with a hole that squeezes the flow…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/how-it-works/magnetic-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How a Magnetic Flow Meter Works</span><span class="ibx-s">A magnetic flow meter (magmeter) uses Faraday&#x27;s law…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/how-it-works/vortex-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How a Vortex Flow Meter Works</span><span class="ibx-s">A vortex flow meter places a bluff body (shedder bar) across the flow…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/how-it-works/coriolis-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How a Coriolis Flow Meter Works</span><span class="ibx-s">A Coriolis meter vibrates its flow tubes at their natural frequency…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/how-it-works/ultrasonic-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How an Ultrasonic Flow Meter Works</span><span class="ibx-s">A transit time ultrasonic flow meter sends sound pulses diagonally across the pipe in both direc…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/how-it-works/turbine-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How a Turbine Flow Meter Works</span><span class="ibx-s">A turbine flow meter has a free spinning bladed rotor in the flow…</span></a><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://www.instrumentationblog.in/how-it-works/dp-level-measurement/"><span class="ibx-t">Level</span><span class="ibx-h">How DP Level Measurement Works</span><span class="ibx-s">DP level measurement uses the pressure at the bottom of a tank…</span></a></div></section>
+<p style="text-align:center;margin:0 0 22px"><a href="https://www.instrumentationblog.in/how-it-works/"><b>All How It Works animations</b></a> · <a href="https://www.instrumentationblog.in/glossary/"><b>Instrumentation glossary</b></a> · <a href="https://www.instrumentationblog.in/compare/"><b>Comparisons</b></a></p>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+</div>
+<script>
+(function(){
+var cv=document.getElementById('hw-cv');if(!cv)return;
+var C=cv.getContext('2d'),W=640,H=360,run=true,vis=true,last=0,T=0,P={},dirty=true;
+function fit(){var w=cv.parentNode.clientWidth,d=window.devicePixelRatio||1,s=w/W;cv.width=Math.round(w*d);cv.height=Math.round(H*s*d);cv.style.height=Math.round(H*s)+'px';C.setTransform(s*d,0,0,s*d,0,0);dirty=true;}
+function m(x,d){var s=Math.abs(x).toFixed(d);return(x<0&&Number(s)!==0?'−':'')+s;}
+function o(id,v){var e=document.getElementById('hw-o-'+id);if(e&&e.textContent!==v)e.textContent=v;}
+function L(t,x,y,sz,c,a,b){C.font=(b?'700 ':'')+(sz||13)+'px "Segoe UI",Arial,sans-serif';C.fillStyle=c||'#1f2733';C.textAlign=a||'center';C.textBaseline='middle';C.fillText(t,x,y);}
+function ln(x1,y1,x2,y2,c,w,d){C.strokeStyle=c;C.lineWidth=w||1.5;C.setLineDash(d||[]);C.beginPath();C.moveTo(x1,y1);C.lineTo(x2,y2);C.stroke();C.setLineDash([]);}
+function rc(x,y,w,h,f,s,r){C.beginPath();if(r&&C.roundRect)C.roundRect(x,y,w,h,r);else C.rect(x,y,w,h);if(f){C.fillStyle=f;C.fill();}if(s){C.strokeStyle=s;C.lineWidth=1.5;C.stroke();}}
+function ci(x,y,r,f,s,w){C.beginPath();C.arc(x,y,r,0,Math.PI*2);if(f){C.fillStyle=f;C.fill();}if(s){C.strokeStyle=s;C.lineWidth=w||1.5;C.stroke();}}
+function mk(n,x,y){ci(x,y,11,'#d9622b','#fff',2);L(String(n),x,y+1,13,'#fff','center',1);}
+function ar(x1,y1,x2,y2,c,w){ln(x1,y1,x2,y2,c,w);var a=Math.atan2(y2-y1,x2-x1),h=8;C.fillStyle=c;C.beginPath();C.moveTo(x2,y2);C.lineTo(x2-h*Math.cos(a-.45),y2-h*Math.sin(a-.45));C.lineTo(x2-h*Math.cos(a+.45),y2-h*Math.sin(a+.45));C.closePath();C.fill();}
+function sm(u){u=u<0?0:u>1?1:u;return u*u*(3-2*u);}
+function clamp(x,a,b){return x<a?a:x>b?b:x;}
+function rd(){[].forEach.call(document.querySelectorAll('#hw-ctl input'),function(i){P[i.dataset.k]=parseFloat(i.value);var e=document.getElementById(i.id+'-v');if(e)e.textContent=m(P[i.dataset.k],+i.dataset.d)+(i.dataset.u?' '+i.dataset.u:'');});upd();dirty=true;}
+function wave(x1,x2,y,yb,col,ph){C.fillStyle=col;C.beginPath();C.moveTo(x1,yb);for(var x=x1;x<=x2;x+=4)C.lineTo(x,y+2.2*Math.sin(x/17+T*3+(ph||0))+1.2*Math.sin(x/7-T*5));C.lineTo(x2,yb);C.closePath();C.fill();C.strokeStyle='#1e3a8a';C.lineWidth=2;C.beginPath();for(var x=x1;x<=x2;x+=4){var yy=y+2.2*Math.sin(x/17+T*3+(ph||0))+1.2*Math.sin(x/7-T*5);if(x==x1)C.moveTo(x,yy);else C.lineTo(x,yy);}C.stroke();}
+function stream(x,y1,y2){C.setLineDash([6,8]);C.lineDashOffset=-T*60;C.strokeStyle='#3b82f6';C.lineWidth=4;C.beginPath();C.moveTo(x,y1);C.lineTo(x,y2);C.stroke();C.setLineDash([]);C.lineDashOffset=0;}
+function exp(){var o=document.createElement('canvas'),w=1560,h=878,bh=110,dl=document.getElementById('hw-dl');o.width=w;o.height=h+bh;var x=o.getContext('2d');x.fillStyle='#fff';x.fillRect(0,0,w,h+bh);x.drawImage(cv,0,0,w,h);x.fillStyle='#f6f8fc';x.fillRect(0,h,w,bh);x.fillStyle='#dde3ee';x.fillRect(0,h,w,2);
+x.fillStyle='#ffe500';x.beginPath();if(x.roundRect)x.roundRect(40,h+20,70,70,10);else x.rect(40,h+20,70,70);x.fill();x.fillStyle='#1e63b8';x.font='800 44px "Segoe UI",Arial,sans-serif';x.textAlign='center';x.textBaseline='middle';x.fillText('ib',75,h+56);
+x.textAlign='left';x.fillStyle='#1a2333';x.font='700 30px "Segoe UI",Arial,sans-serif';x.fillText('Instrumentation Blog',128,h+42);x.fillStyle='#5b6576';x.font='22px "Segoe UI",Arial,sans-serif';x.fillText('instrumentationblog.in/how-it-works',128,h+76);
+x.textAlign='right';x.fillStyle='#1a2333';x.font='700 28px "Segoe UI",Arial,sans-serif';x.fillText(dl?dl.dataset.title:'',w-40,h+56);return o;}
+window.__hwExport=function(){return exp().toDataURL('image/png');};
+function pipe(x1,x2,cy,R,fl){rc(x1,cy-R-12,x2-x1,12,'#9aa5b8');rc(x1,cy+R,x2-x1,12,'#9aa5b8');rc(x1,cy-R,x2-x1,2*R,fl||'#e6f0fd');}
+
+var tg=[],on=false,cnt=0,sp=60,amp=0,hist=[],pre=0,S=5,F=130;[406,176,636].forEach(function(x){tg.push({x:x});});
+function sr(){return P.sn*P.k;}
+function mat(k){return k>=0.9?'water or metal':k>=0.45?'glass':k>=0.2?'PVC or wood':'oil or dry powder';}
+function upd(){if(!pre){pre=1;for(var k=0;k<300;k++){T+=0.02;step(0.02);}cnt=0;}var r=sr(),a=0.81*r;o('sr',m(r,1)+' mm (factor '+m(P.k,2)+', about '+mat(P.k)+')');o('sa',m(a,1)+' mm');
+o('st',P.g<=a?'Reliable: inside Sa':P.g<=r?'Marginal: between Sa and Sr':'Not detected: beyond Sr');o('cnt',cnt+' counted');}
+function q(t){var c=Math.max(0,80-Math.abs(t.x-290))/80;return c*Math.min(sr()/P.g,2);}
+function step(dt){var qm=0;for(var i=0;i<tg.length;i++){var t=tg[i];t.x+=sp*dt;if(t.x>700)t.x-=690;qm=Math.max(qm,q(t));}
+var was=on;if(!on&&qm>=1)on=true;else if(on&&qm<0.9)on=false;if(on&&!was){cnt++;upd();}amp=0.04+0.6*Math.min(qm,1.6);
+hist.push([T,on]);while(hist.length&&T-hist[0][0]>6)hist.shift();}
+function draw(){var ty=F+P.g*S,r=sr(),bt=ty+20;
+L('Gap drawn at 5 px per mm, oscillator slowed down',20,22,11,'#5b6576','left');
+rc(20,bt,600,9,'#475569',null,3);C.setLineDash([10,10]);C.lineDashOffset=-T*sp;ln(24,bt+4.5,616,bt+4.5,'#94a3b8',2);C.setLineDash([]);C.lineDashOffset=0;
+for(var j=0;j<3;j++){var ry=Math.max(6,r*S*(j+1)/3);C.globalAlpha=0.3+0.25*Math.sin(T*5-j);C.strokeStyle='#6b3fb0';C.lineWidth=1.5;C.setLineDash([3,4]);C.lineDashOffset=-T*20;C.beginPath();C.ellipse(290,F,22+j*10,ry,0,0,Math.PI);C.stroke();}C.setLineDash([]);C.lineDashOffset=0;C.globalAlpha=1;
+var nt=tg[0];for(var i=0;i<tg.length;i++){var t=tg[i],qq=q(t);if(Math.abs(t.x-290)<Math.abs(nt.x-290))nt=t;if(t.x<-40||t.x>680)continue;rc(t.x-40,ty,80,20,'#dbeafe','#3b82f6',3);
+if(qq>0.3){C.globalAlpha=Math.min(1,qq*0.8);for(var d=-24;d<=24;d+=16){L('+',t.x+d,ty+6,11,'#b02a52','center',1);L('−',t.x+d,ty+15,11,'#1e63b8','center',1);}C.globalAlpha=1;}}
+ln(244,F+r*S,430,F+r*S,'#d9622b',1.2,[5,4]);ln(244,F+0.81*r*S,452,F+0.81*r*S,'#1d7a46',1.2,[2,4]);
+rc(432,F+r*S-7,20,14,'#fff');L('Sr',434,F+r*S,11,'#d9622b','left',1);rc(456,F+0.81*r*S-7,22,14,'#fff');L('Sa',458,F+0.81*r*S,11,'#1d7a46','left',1);
+ln(290,24,290,30,'#1a2333',4);rc(250,30,80,F-30,'#e2e8f0','#64748b',6);for(var y=40;y<F-30;y+=7)ln(252,y,328,y+3,'#cbd5e1',1);
+rc(262,F-36,56,22,'#334155',null,3);L('RC osc',290,F-25,11,'#fff','center',1);
+rc(252,F-9,16,7,'#475569');rc(270,F-9,40,7,'#6b3fb0');rc(312,F-9,16,7,'#475569');
+ci(270,56,7,'#f8fafc','#1a2333');var pa=-2.2+P.k*1.2;ln(270,56,270+6*Math.cos(pa),56+6*Math.sin(pa),'#1a2333',2);
+ci(312,56,6,on?'#f59e0b':'#475569','#1a2333');if(on){ci(312,56,10,null,'rgba(245,158,11,0.5)',3);}
+rc(20,40,180,72,'#1a2333',null,8);L('Trigger and output',110,54,12,'#fff','center',1);rc(34,66,152,24,on?'#22c55e':'#334155',null,4);L(on?'Output ON':'Output OFF',110,78,13,'#fff','center',1);L('Count '+cnt+', '+mat(P.k),110,100,11,'#cbd5e1','center');
+ln(200,84,250,84,on?'#22c55e':'#94a3b8',3);
+rc(440,40,190,104,'#f6f8fc','#dde3ee',8);L('Oscillator amplitude',535,54,11,'#5b6576','center',1);var cy=96;
+ln(448,cy-0.6*34,622,cy-0.6*34,'#d9622b',1,[3,3]);ln(448,cy+0.6*34,622,cy+0.6*34,'#d9622b',1,[3,3]);L('threshold',622,cy+0.6*34+11,11,'#d9622b','right');
+C.strokeStyle='#6b3fb0';C.lineWidth=2;C.beginPath();for(var x=448;x<=622;x+=2){var yy=cy-amp*34*Math.sin((x-448)/6-T*8);if(x==448)C.moveTo(x,yy);else C.lineTo(x,yy);}C.stroke();
+ln(184,F,198,F,'#1a2333',1);ln(184,ty,198,ty,'#1a2333',1);ln(191,F,191,ty,'#1a2333',1.2);L('gap '+m(P.g,1)+' mm',180,Math.max(F+10,(F+ty)/2),11,'#1a2333','right',1);
+var y0=318,x0=150,x1=620;L('Output (last 6 s)',20,y0+12,11,'#5b6576','left',1);rc(x0,y0,x1-x0,24,'#f6f8fc');C.strokeStyle='#16a34a';C.lineWidth=2;C.beginPath();
+hist.forEach(function(h,i){var x=x1-(T-h[0])/6*(x1-x0),y=h[1]?y0+4:y0+20;if(i)C.lineTo(x,y);else C.moveTo(x,y);});C.stroke();
+mk(1,236,F-12);mk(2,356,F+Math.max(10,Math.min(30,r*S*0.5)));mk(3,Math.max(52,Math.min(600,nt.x+54)),ty+10);mk(4,452,70);mk(5,236,52);mk(6,200,40);}
+
+function fr(t){var dt=Math.min(.05,((t-last)/1000)||0);last=t;if(run&&vis&&!document.hidden){T+=dt;step(dt);dirty=true;}if(dirty&&vis){C.clearRect(0,0,W,H);draw();dirty=false;}requestAnimationFrame(fr);}
+[].forEach.call(document.querySelectorAll('#hw-ctl input'),function(i){i.addEventListener('input',rd);});
+var dl=document.getElementById('hw-dl');if(dl&&cv.toBlob)dl.addEventListener('click',function(){exp().toBlob(function(b){var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=dl.dataset.name;document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove();},500);},'image/png');});
+var pp=document.getElementById('hw-pp');if(pp)pp.addEventListener('click',function(){run=!run;pp.textContent=run?'Pause animation':'Play animation';});
+if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){run=false;if(pp)pp.textContent='Play animation';}
+if('IntersectionObserver' in window)new IntersectionObserver(function(e){vis=e[0].isIntersecting;dirty=true;}).observe(cv);
+window.addEventListener('resize',function(){fit();C.clearRect(0,0,W,H);draw();});fit();rd();step(0.016);draw();requestAnimationFrame(fr);
+})();
+</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.instrumentationblog.in/"},{"@type":"ListItem","position":2,"name":"How It Works","item":"https://www.instrumentationblog.in/how-it-works/"},{"@type":"ListItem","position":3,"name":"How a Capacitive Proximity Sensor Works","item":"https://www.instrumentationblog.in/how-it-works/capacitive-proximity-sensor/"}]},{"@type":"ImageObject","contentUrl":"https://www.instrumentationblog.in/how-it-works/capacitive-proximity-sensor/capacitive-proximity-sensor-working-diagram.webp","name":"How a Capacitive Proximity Sensor Works","caption":"Labelled diagram showing how a capacitive proximity sensor works","width":1560,"height":988},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the difference between inductive and capacitive proximity sensors?","acceptedAnswer":{"@type":"Answer","text":"An inductive sensor uses a magnetic field and detects only metal. A capacitive sensor uses an electric field and detects any material whose dielectric constant is higher than air."}},{"@type":"Question","name":"Why does the sensing distance change with the material?","acceptedAnswer":{"@type":"Answer","text":"The capacitance change depends on the dielectric constant of the target. Water and metal give a large change and the full range, while oil or dry plastic give a small change and a short range."}},{"@type":"Question","name":"Can a capacitive sensor detect liquid through a pipe or tank wall?","acceptedAnswer":{"@type":"Answer","text":"Yes, if the wall is non metal and thin enough. The sensitivity is set so the wall alone does not switch the output but the liquid behind it does."}},{"@type":"Question","name":"Why does my capacitive sensor switch on by itself?","acceptedAnswer":{"@type":"Answer","text":"Usually because of build up, condensation or a sensitivity set too high. Clean the face, reduce the sensitivity and check that nothing conductive sits near the field."}}]}]}</script></main>
+<footer class="ibs-foot"><div class="ibs-in"><span>© 2026 instrumentationblog.in · Free tools for instrumentation and control engineers</span><span><a href="https://www.instrumentationblog.in/">Home</a> · <a href="https://www.instrumentationblog.in/calculators/">Calculators</a> · <a href="https://www.instrumentationblog.in/unit-converters/">Unit Converters</a> · <a href="https://www.instrumentationblog.in/tools/">Tools</a> · <a href="https://www.instrumentationblog.in/downloads/">Downloads</a> · <a href="https://www.instrumentationblog.in/glossary/">Glossary</a></span></div></footer>
+</body>
+</html>
