@@ -4,7 +4,8 @@ AUTH = 'Basic ' + base64.b64encode(f"{os.environ['U']}:{os.environ['P']}".encode
 BOX = ('<div style="border:2px solid #0186e0;border-left:8px solid #0186e0;background:#f3f9ff;border-radius:10px;padding:18px 22px;margin:24px 0;">'
        '<div style="font-weight:700;color:#0186e0;font-size:14px;letter-spacing:1px;text-transform:uppercase;margin-bottom:6px;">Quick Answer</div>'
        '<p style="font-size:22px;font-weight:700;line-height:1.35;margin:0 0 10px;color:#1a2b4a;">{q}</p>{body}</div>')
-queue = json.load(open('_geo/queue.json')); qi = {x['slug']: x for x in queue}
+os.makedirs("_geo/applied", exist_ok=True); os.makedirs("_geo/answers", exist_ok=True)
+queue = json.load(open("_geo/queue.json")); qi = {x['slug']: x for x in queue}
 log = open('_geo/log.csv', 'a', newline=''); lw = csv.writer(log); ok = 0
 for f in sorted(glob.glob('_geo/answers/*.json')):
     a = json.load(open(f)); p = json.load(open(f"_geo/pages/{a['slug']}.json")); plan = p['plan']

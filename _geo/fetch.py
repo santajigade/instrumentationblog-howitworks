@@ -8,6 +8,7 @@ def text(h):
     h = re.sub(r'<(style|script)[\s\S]*?</\1>', ' ', h)
     h = re.sub(r'<br\s*/?>|</(p|li|h[1-6]|tr|div)>', '\n', h)
     return re.sub(r'[ \t]+', ' ', html.unescape(re.sub(r'<[^>]+>', ' ', h))).strip()
+os.makedirs("_geo/pages", exist_ok=True)
 n = int(sys.argv[1]); queue = json.load(open('_geo/queue.json')); done = 0
 for item in queue:
     if done >= n: break
