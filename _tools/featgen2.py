@@ -24,9 +24,13 @@ FONTS = f"""
 .chips{{display:flex;gap:12px;flex-wrap:wrap}}.chips div{{border-radius:40px;padding:10px 24px;font:700 24px Pop}}
 """
 
-def fit(title, base, maxch):
+def fit(title, base, maxch, width=None, k=0.72):
     n = len(title)
-    return base if n <= maxch else int(base * (maxch / n) ** 0.5)
+    v = base if n <= maxch else int(base * (maxch / n) ** 0.5)
+    if width:
+        lw = max(len(w) for w in title.split())
+        v = min(v, int(width / (k * lw)))
+    return v
 
 P = dict(  # palettes used by ill(): d,m,a,a2,t,h,p,r
     yellow=dict(d="#151515", m="#2a2a2a", a="#f5b700", a2="#38bdf8", t="#111", h="#111", p="#fff", r="#1b1b1b"),
@@ -50,7 +54,7 @@ def page(title, ribbon, chips, topic, t):
 <div class="a" style="right:0;bottom:0;width:420px;height:44px;background:repeating-linear-gradient(-45deg,#111 0 22px,#f5b700 22px 44px)"></div>
 <div class="a" style="right:50px;top:70px;width:470px;height:500px;background:#1b1b1b;border-radius:18px;transform:rotate(3deg);box-shadow:0 30px 60px rgba(0,0,0,.35);overflow:hidden">
  <div class="a" style="left:-45px;top:-30px;transform:scale(1.0) rotate(-3deg)">{svg}</div></div>
-<div class="a" style="left:60px;top:90px;width:600px;font:{fit(title,96,18)}px/1.02 Anton;color:#111;text-transform:uppercase">{T}</div>
+<div class="a" style="left:60px;top:90px;width:600px;font:{fit(title,96,18,580,0.5)}px/1.02 Anton;color:#111;text-transform:uppercase">{T}</div>
 <div class="a" style="left:60px;top:430px;width:560px;font:700 30px/1.25 Pop;color:#111">{R}</div>
 <div class="a chips" style="left:60px;top:530px">{"".join(f'<div style="background:#111;color:#f5b700">{H.escape(c)}</div>' for c in chips)}</div>
 {logo("#111","#111","#f5b700","left:60px;top:60px;display:none")}
@@ -61,7 +65,7 @@ def page(title, ribbon, chips, topic, t):
 <div class="a" style="left:-80px;top:60px;width:640px;height:560px;border-radius:48% 52% 46% 54%;background:#ffd9c7"></div>
 <div class="a" style="left:40px;top:70px">{svg}</div>
 <div class="a" style="right:60px;top:70px;display:grid;grid-template-columns:repeat(6,14px);gap:10px">{"".join('<i style="width:14px;height:14px;border-radius:50%;border:3px solid #ff7a3d;display:block"></i>' for _ in range(12))}</div>
-<div class="a" style="left:640px;top:170px;width:520px;font:{fit(title,74,20)}px/1.05 Archivo;color:#2a3550;text-transform:uppercase">{T}</div>
+<div class="a" style="left:640px;top:170px;width:520px;font:{fit(title,74,20,500,0.78)}px/1.05 Archivo;color:#2a3550;text-transform:uppercase">{T}</div>
 <div class="a" style="left:640px;top:450px;max-width:520px;background:#ff7a3d;color:#fff;font:700 28px/1.25 Pop;padding:12px 24px;border-radius:10px">{R}</div>
 <div class="a chips" style="left:640px;top:560px">{"".join(f'<div style="background:#fff;color:#2a3550;border:2px solid #d6dcea">{H.escape(c)}</div>' for c in chips)}</div>
 {logo("#2a3550","#2a3550","#ff7a3d","right:36px;bottom:24px;top:auto;display:none")}
@@ -83,7 +87,7 @@ def page(title, ribbon, chips, topic, t):
 <div class="a" style="inset:0;background:radial-gradient(circle at 50% 40%,rgba(255,255,255,.18),transparent 60%)"></div>
 {sq.format('left:40px;top:40px')}{sq.format('right:40px;bottom:50px;transform:rotate(180deg)')}
 <div class="a" style="right:30px;top:180px;transform:scale(.72);transform-origin:right top;opacity:.95">{svg}</div>
-<div class="a" style="left:60px;top:150px;width:720px;font:{fit(title,92,18)}px/1.0 Archivo;color:#fff;text-shadow:0 6px 0 #14532d;text-transform:uppercase">{T}</div>
+<div class="a" style="left:60px;top:150px;width:720px;font:{fit(title,92,18,700,0.78)}px/1.0 Archivo;color:#fff;text-shadow:0 6px 0 #14532d;text-transform:uppercase">{T}</div>
 <div class="a" style="left:60px;top:440px;background:#e5484d;color:#fff;font:700 30px/1.2 Pop;padding:14px 28px;transform:rotate(-1.5deg);box-shadow:0 8px 0 #9e2f33;max-width:700px">{R}</div>
 <div class="a chips" style="left:60px;top:560px">{"".join(f'<div style="background:#f2c14e;color:#14532d">{H.escape(c)}</div>' for c in chips)}</div>
 <div class="a logo" style="right:40px;top:40px;color:#fff"><b style="background:#fff;color:#2f9e6b">ib</b>instrumentationblog.in</div>"""
