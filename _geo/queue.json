@@ -75,7 +75,7 @@
 "7 segment display truth table",
 "bcd to 7 segment decoder truth table"
 ],
-"status": "todo"
+"status": "has"
 },
 {
 "slug": "open-loop-and-closed-loop-control-system",
