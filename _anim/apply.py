@@ -7,6 +7,7 @@ def call(path, data=None, ctype='application/json', method=None):
     if ctype.startswith('image'): req.add_header('Content-Disposition', f'attachment; filename="{up_name}"')
     with urllib.request.urlopen(req, timeout=120) as r: return json.loads(r.read())
 WORK = re.compile(r'(work|principle|how .* works|operation)', re.I)
+os.makedirs('_anim/done', exist_ok=True)
 lw = csv.writer(open('_anim/log.csv', 'a', newline=''))
 for f in sorted(glob.glob('_anim/todo/*.json')):
     a = json.load(open(f)); path_file = '_anim/' + a['file']
