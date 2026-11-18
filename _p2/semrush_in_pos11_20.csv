@@ -1,0 +1,122 @@
+keyword;position;volume;kd;slug
+half adder;17;14800;37;half-adder-vs-full-adder
+mutual inductance formula;16;6600;35;mutual-inductance-coupling-coefficient
+reed switch;12;5400;16;reed-switch-working-principle
+pulse width modulation;19;4400;42;pulse-width-modulation-duty-cycle
+varactor diode;12;3600;23;varactor-diode-working-principle
+bus duct;14;2400;16;bus-duct-busway-system
+digital pressure gauge;12;1600;10;digital-pressure-gauge-working
+open loop control system examples;17;1300;33;open-loop-and-closed-loop-control-system
+plc scada course;15;1300;14;8-free-training-courses-plc-scada-hmi
+how many types of sequential circuits are;20;1000;24;sequential-circuits-explained
+pnp sensor;16;1000;12;npn-and-pnp-proximity-sensors
+platinum rtd;14;1000;19;what-is-rtd-and-how-it-works
+ultrasonic sensor range;16;1000;13;ultrasonic-distance-sensor-sr04
+rc low pass filter;16;880;28;rc-low-pass-high-pass-filter
+maximum power transfer theorem proof;19;880;33;maximum-power-transfer-theorem
+difference between open loop and closed loop system;20;720;33;open-loop-and-closed-loop-control-system
+seven segment decoder;11;720;27;7-segment-display-decoder
+instrument index;14;720;10;instrument-index-document-guide
+xand gate;16;720;36;digital-logic-gates-explained
+time of flight sensor;16;720;19;time-of-flight-sensor-working
+hipps meaning;12;590;17;hipps-system-in-oil-and-gas
+and using nor;20;590;24;digital-logic-gates-explained
+npn pnp sensor;20;590;13;npn-and-pnp-proximity-sensors
+full adder carry expression;17;590;24;half-adder-vs-full-adder
+open loop and closed loop difference;15;480;21;open-loop-and-closed-loop-control-system
+transistor working principle;12;480;38;basics-of-transistors
+pressure gauge syphon;17;390;18;siphon-sizing-and-selecting-a-siphon-for-pressure-gauge-protection
+float type level switch;15;390;10;float-level-switch-working-principle-and-applications
+pnp proximity sensor;19;390;14;npn-and-pnp-proximity-sensors
+what is ripple counter;19;390;17;counters-explained-ripple-vs-synchronous
+function of wheatstone bridge;19;390;34;wheatstone-bridge-10-applications
+what is a ripple counter;18;390;12;counters-explained-ripple-vs-synchronous
+3.1 b;20;390;17;difference-between-3-1-and-3-2-material-certificates
+all day efficiency formula;20;320;18;transformer-efficiency-calculation
+diaphragm seal;19;320;21;what-is-a-diaphragm-seal
+magnetic flow meter working principle;17;320;15;electromagnetic-flow-meter-working-principle
+bimetallic thermometer diagram;15;320;29;bimetallic-thermometer-working-principle
+thermowell types;17;320;17;types-of-thermowells
+half adder and full adder circuit diagram;13;320;16;half-adder-vs-full-adder
+sensors used in measurement systems are mcq;16;320;17;sensors-and-transducers-questions-answers
+application of cathode ray oscilloscope;19;320;28;cathode-ray-oscilloscope-cro-explained
+bootp in computer networks;14;260;24;difference-between-bootp-and-dhcp
+smd resistor value chart;14;260;18;smd-resistor-code
+construction and working of lvdt;15;260;23;lvdt-linear-variable-differential-transformer
+types of pid;17;260;34;pid-controller-types-explained
+plc language;19;260;21;plc-programming-languages
+ic 74hc595;17;260;20;74hc595-shift-register
+difference between star delta and dol starter;13;210;21;dol-vs-star-delta-starter-which-to-use
+pt1000 formula;14;210;10;rtd-resistance-to-temperature-calculator
+types of cro;15;210;24;cathode-ray-oscilloscope-cro-explained
+dp type level transmitter;18;210;12;dp-transmitter-level-measurement
+compare ttl and cmos;13;210;17;ttl-vs-cmos-logic-families
+ultrasonic range;16;210;27;ultrasonic-distance-sensor-sr04
+absolute vs gauge pressure;17;170;30;absolute-vs-gauge-pressure
+a temperature control system is usually very sluggish;17;170;10;top-50-pid-controller-mcqs-2026
+difference between analog and digital instruments;13;170;17;analog-vs-digital-instrumentation-system
+scada software free download;17;170;15;list-of-free-scada-software
+excitation system;16;170;10;generator-excitation-system-avr
+lvdt diagram and working;19;170;20;lvdt-linear-variable-differential-transformer
+pwm duty cycle;16;170;41;pulse-width-modulation-duty-cycle
+reed switch working;20;170;18;reed-switch-working-principle
+types of manifold valves;16;170;8;what-is-a-valve-manifold
+advantages of cro;19;170;24;cathode-ray-oscilloscope-cro-explained
+visual critical voltage of corona formula;13;170;26;corona-effect-transmission-line
+the derivative control mode is mcq;11;170;16;top-50-pid-controller-mcqs-2026
+open loop and closed loop control system difference;11;170;27;open-loop-and-closed-loop-control-system
+magnetic level switch;11;140;3;how-do-magnetic-level-switch-work
+what is per unit system;18;140;17;per-unit-system-power-system
+skin effect disadvantages;15;140;21;skin-effect-in-conductors
+cutoff frequency high pass filter;18;140;34;rc-low-pass-high-pass-filter
+nitrogen purging meaning;19;140;28;how-nitrogen-purging-works
+ultrasonic sensor dimensions;17;140;27;ultrasonic-distance-sensor-sr04
+venturi pipe;20;140;28;venturi-tube-flow-measurements
+scada software list;19;140;27;list-of-free-scada-software
+what is the range of ultrasonic sensor;18;140;8;ultrasonic-distance-sensor-sr04
+zero speed switch sensor;13;140;10;zero-speed-switch-working
+ultrasonic level transmitter working principle;20;140;31;ultrasonic-level-transmitter-working-principle
+through hole pcb;12;140;27;pcb-via-types-through-hole-blind-buried
+seven segment common cathode pin configuration;15;140;23;7-segment-display-decoder
+f 1 2pirc;17;140;22;rc-low-pass-high-pass-filter
+101.325 kpa;11;140;23;atm-to-kpa-pressure-conversion
+open loop vs closed loop system;16;140;17;open-loop-and-closed-loop-control-system
+controllogix plc;13;140;10;types-of-allen-bradley-plcs
+types of flow measurement;15;140;14;100-flow-measurement-questions-answers
+rtd resistance formula;18;140;21;pt100-rtd-calibration-guide
+bootp vs dhcp;11;110;23;difference-between-bootp-and-dhcp
+inverter output;13;110;14;power-inverter-working-principle
+switch debouncing using sr latch;15;110;6;switch-debouncing-hardware-software
+silica analyzer working principle;18;110;10;silica-analyzer-power-plant-water
+faraday's law emf;14;110;27;faradays-law-electromagnetic-induction
+pt100 ohm to celsius calculator;17;110;16;rtd-resistance-to-temperature-calculator
+level switch working principle;16;110;9;working-principle-membrane-level-switch
+difference between true synchronous mode and self controlled mode;20;110;23;synchronous-motor-working-principle
+current mirror circuit using bjt;18;110;12;current-mirror-bjt-mosfet-circuit
+per unit impedance;19;110;22;per-unit-system-power-system
+dv dt protection;15;110;23;dv-dt-filter-vfd-motor-protection
+reed switch working principle;15;110;17;reed-switch-working-principle
+dp transmitter working principle;13;110;10;basics-of-differential-pressure-transmitter
+toc analyzer principle;18;110;11;toc-analyzer-working-principle-water-quality
+f class insulation temperature;13;110;20;motor-insulation-classes
+slip percentage formula;12;110;21;induction-motor-slip-explained
+reed switch sensor working principle;19;110;23;reed-switch-working-principle
+photodiode phototransistor;12;110;19;photodiode-vs-phototransistor-key-differences
+tms relay;19;110;23;idmt-relay-characteristics-tms-psm
+npn and pnp sensor difference;17;110;12;npn-and-pnp-proximity-sensors
+engineering formulas;18;110;27;100-essential-engineering-formulas
+emergency shutdown;14;110;17;emergency-shutdown-system-esd
+cable schedule example;19;110;12;instrument-cable-schedule
+plate diameter;15;110;11;orifice-plate-sizing-guide
+rtd formula pt100;15;110;19;pt100-rtd-calibration-guide
+gauge siphon;11;110;18;siphon-sizing-and-selecting-a-siphon-for-pressure-gauge-protection
+free plc software;18;110;17;free-plc-programming-software
+logic gates and or not;15;110;26;digital-logic-gates-explained
+rtd pt100 formula;11;110;11;pt100-rtd-calibration-guide
+plc io list;13;110;7;instrument-io-list-dcs-plc
+bonded strain gauge diagram;16;110;10;bonded-and-unbonded-strain-gauges
+instrument junction box;18;110;26;instrument-junction-box-design
+impulse line;17;110;19;impulse-line-installation-slope
+siemens 1500 plc;17;110;18;siemens-s7-1200-vs-s7-1500
+types of bourdon tube;20;110;23;bourdon-tube-pressure-gauges
+maximum demand definition;16;110;25;maximum-demand-calculation-diversity

@@ -1,0 +1,23 @@
+name: Page-2 apply
+on:
+  workflow_dispatch:
+    inputs:
+      n:
+        default: "10"
+concurrency:
+  group: geo
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - env:
+          U: ${{ secrets.WP_USER }}
+          P: ${{ secrets.WP_APP_PASSWORD }}
+        run: python3 _p2/apply.py ${{ inputs.n }}
+      - run: |
+          git config user.name "ib-p2-bot"; git config user.email "ib-p2-bot@users.noreply.github.com"
+          git add _p2 && (git diff --cached --quiet || git commit -m "Page-2 apply") && git pull --rebase -q && git push -q
