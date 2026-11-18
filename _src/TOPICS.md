@@ -29,10 +29,10 @@ Add new topics anywhere; keep slugs unique and blog slugs from _src/blog_slugs.t
 - [x] dcs-controller-redundancy | DCS Controller Redundancy | DCS | dcs-controller-redundancy-types
 - [x] 4-20-ma-current-loop | 4 to 20 mA Current Loop | Signals | 4-to-20-ma-current-loop-explained
 - [x] plc-timer | PLC On Delay Timer (TON) | PLC | plc-timer-instructions-ton-tof-rto
-- [ ] photoelectric-sensor | Photoelectric Sensor | Switches | different-types-of-photoelectric-sensors
-- [ ] scada-report-by-exception | SCADA Report by Exception | SCADA | report-by-exception-scada-dnp3
-- [ ] split-range-control | Split Range Control | DCS | split-range-control-working-principle
-- [ ] plc-counter | PLC Up Counter (CTU) | PLC | plc-counter-instructions-ctu-ctd
+- [x] photoelectric-sensor | Photoelectric Sensor | Switches | different-types-of-photoelectric-sensors
+- [x] scada-report-by-exception | SCADA Report by Exception | SCADA | report-by-exception-scada-dnp3
+- [x] split-range-control | Split Range Control | DCS | split-range-control-working-principle
+- [x] plc-counter | PLC Up Counter (CTU) | PLC | plc-counter-instructions-ctu-ctd
 - [ ] limit-switch | Limit Switch | Switches | what-is-a-limit-switch
 - [ ] hart-protocol | HART Protocol | Signals | hart-protocol-how-it-works
 - [ ] pid-controller | PID Controller | DCS | pid-controller-types-explained
