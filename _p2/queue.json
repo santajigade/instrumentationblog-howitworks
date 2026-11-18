@@ -248,7 +248,7 @@
     "kd": 26
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "8-free-training-courses-plc-scada-hmi",
@@ -286,7 +286,7 @@
     "kd": 22
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "sequential-circuits-explained",
@@ -299,7 +299,7 @@
     "kd": 24
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "what-is-rtd-and-how-it-works",
@@ -312,7 +312,7 @@
     "kd": 19
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "maximum-power-transfer-theorem",
@@ -325,7 +325,7 @@
     "kd": 33
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "7-segment-display-decoder",
@@ -344,7 +344,7 @@
     "kd": 23
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "counters-explained-ripple-vs-synchronous",
@@ -363,7 +363,7 @@
     "kd": 12
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "instrument-index-document-guide",
@@ -376,7 +376,7 @@
     "kd": 10
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "time-of-flight-sensor-working",
@@ -389,7 +389,7 @@
     "kd": 19
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "cathode-ray-oscilloscope-cro-explained",
@@ -414,7 +414,7 @@
     "kd": 24
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "hipps-system-in-oil-and-gas",
@@ -427,7 +427,7 @@
     "kd": 17
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "siphon-sizing-and-selecting-a-siphon-for-pressure-gauge-protection",
@@ -446,7 +446,7 @@
     "kd": 18
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "basics-of-transistors",
@@ -459,7 +459,7 @@
     "kd": 38
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "lvdt-linear-variable-differential-transformer",
@@ -478,7 +478,7 @@
     "kd": 20
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "float-level-switch-working-principle-and-applications",
@@ -491,7 +491,7 @@
     "kd": 10
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "wheatstone-bridge-10-applications",
@@ -504,7 +504,7 @@
     "kd": 34
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "difference-between-3-1-and-3-2-material-certificates",
@@ -517,7 +517,7 @@
     "kd": 17
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "difference-between-bootp-and-dhcp",
@@ -536,7 +536,7 @@
     "kd": 23
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "pt100-rtd-calibration-guide",
@@ -561,7 +561,7 @@
     "kd": 11
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "top-50-pid-controller-mcqs-2026",
@@ -593,7 +593,7 @@
     "kd": 18
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "what-is-a-diaphragm-seal",
@@ -606,7 +606,7 @@
     "kd": 21
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "electromagnetic-flow-meter-working-principle",
@@ -619,7 +619,7 @@
     "kd": 15
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "bimetallic-thermometer-working-principle",
@@ -632,7 +632,7 @@
     "kd": 29
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "types-of-thermowells",
@@ -645,7 +645,7 @@
     "kd": 17
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "sensors-and-transducers-questions-answers",
@@ -677,7 +677,7 @@
     "kd": 16
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "list-of-free-scada-software",
@@ -709,7 +709,7 @@
     "kd": 18
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "pid-controller-types-explained",
@@ -722,7 +722,7 @@
     "kd": 34
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "plc-programming-languages",
@@ -735,7 +735,7 @@
     "kd": 21
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "74hc595-shift-register",
@@ -748,7 +748,7 @@
     "kd": 20
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "per-unit-system-power-system",
@@ -767,7 +767,7 @@
     "kd": 22
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "dol-vs-star-delta-starter-which-to-use",
@@ -780,7 +780,7 @@
     "kd": 21
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "dp-transmitter-level-measurement",
@@ -793,7 +793,7 @@
     "kd": 12
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "ttl-vs-cmos-logic-families",
@@ -806,7 +806,7 @@
     "kd": 17
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "absolute-vs-gauge-pressure",
@@ -819,7 +819,7 @@
     "kd": 30
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "analog-vs-digital-instrumentation-system",
@@ -832,7 +832,7 @@
     "kd": 17
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "generator-excitation-system-avr",
@@ -845,7 +845,7 @@
     "kd": 10
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "what-is-a-valve-manifold",
