@@ -1,0 +1,52 @@
+{
+ "id": 18494,
+ "slug": "ultrasonic-distance-sensor-sr04",
+ "title": "Ultrasonic Distance Sensor: 5 Reliable Accuracy Tips",
+ "focus": "ultrasonic distance sensor",
+ "keywords": [
+  {
+   "kw": "ultrasonic sensor range",
+   "pos": 16,
+   "vol": 1000,
+   "kd": 13
+  },
+  {
+   "kw": "ultrasonic range",
+   "pos": 16,
+   "vol": 210,
+   "kd": 27
+  },
+  {
+   "kw": "ultrasonic sensor dimensions",
+   "pos": 17,
+   "vol": 140,
+   "kd": 27
+  },
+  {
+   "kw": "what is the range of ultrasonic sensor",
+   "pos": 18,
+   "vol": 140,
+   "kd": 8
+  }
+ ],
+ "h2s": [
+  "What Is an Ultrasonic Distance Sensor?",
+  "How the Measurement Cycle Works",
+  "Distance Formula With Temperature Correction",
+  "5 Reliable Accuracy Tips",
+  "Ultrasonic vs Infrared vs Laser Ranging",
+  "Where Ultrasonic Ranging Is Used",
+  "Ultrasonic Distance Sensor Wiring and Code Tips",
+  "Ultrasonic Distance Calculator",
+  "SR04 Module Datasheet PDF",
+  "Arduino Ultrasonic Sensor Video",
+  "Ultrasonic Distance Sensor FAQ",
+  "Related Articles",
+  "External References"
+ ],
+ "plan": {
+  "mode": "before",
+  "find": "<h2 id=\"uds-faq\">Ultrasonic Distance Sensor FAQ</h2>"
+ },
+ "text": "Electronic Sensors\n Ultrasonic Distance Sensor: 5 Reliable Accuracy Tips\n A short burst of 40 kHz sound, a stopwatch and the speed of sound are all it takes to measure distance without contact.\n Time of Flight \r\n 40 kHz Echo \r\n SR04 Module \r\n Speed of Sound \r\n An ultrasonic distance sensor sends a short burst of sound and times the echo from an object. Using the speed of sound, it converts that time into distance with no physical contact.\n Hello everyone, today we are going to learn how an ultrasonic distance sensor works, how to calculate distance from echo time, and which tips make readings accurate and stable.\r\n What Is an Ultrasonic Distance Sensor?\n An ultrasonic distance sensor measures range by emitting high frequency sound pulses and timing their reflection from a target. Industrial versions work on the same idea as the ultrasonic level transmitter .\n The popular SR04 hobby module uses one transducer to transmit and another to receive. It sends an 8 cycle burst at 40 kHz, well above human hearing.\n Image credit: How To Mechatronics \r\n How To Mechatronics lists a range of about 2 cm to 400 cm, a measuring angle under 15 degrees and a current draw near 15 mA at 5 V for this module.\n Sound works on almost any solid or liquid surface regardless of colour, which gives it an edge over an IR sensor for dark or transparent targets.\n How the Measurement Cycle Works\n Trigger Pulse Microcontroller sends a 10 \u00b5s pulse\n Burst Sent 8 cycles at 40 kHz leave the transmitter\n Echo Pin High Timer starts when burst leaves\n Echo Returns Receiver detects reflected sound\n Echo Pin Low Pulse width equals round trip time\n A microcontroller measures the width of the echo pulse in microseconds. That time covers the trip to the target and back.\n Dividing by two gives one way travel time. Multiplying by the speed of sound gives the distance.\n Distance Formula With Temperature Correction\n Distance = Speed of sound \u00d7 Echo time \u00f7 2 \n Speed of sound \u2248 331.3 + 0.606 \u00d7 T in m/s \nWorked example:\nEcho time = 1000 \u00b5s = 0.001 s\nAt 20 \u00b0C, speed = 331.3 + 12.1 = 343.4 m/s\nDistance = 343.4 \u00d7 0.001 \u00f7 2 = 0.172 m\n Distance \u2248 17.2 cm, versus 17.0 cm using a fixed 340 m/s \r\n The common shortcut multiplies echo time in microseconds by 0.034 and divides by 2 for centimetres. It assumes about 340 m/s, which is fine near room temperature.\n Between 0 \u00b0C and 40 \u00b0C, sound speed changes by roughly 7 percent. A temperature sensor improves accuracy noticeably in outdoor or industrial use.\n 5 Reliable Accuracy Tips\n 1\n Compensate Temperature\n Use measured air temperature to correct the speed of sound.\n 2\n Face the Target Squarely\n Angled or soft surfaces scatter the echo.\n 3\n Respect the Blind Zone\n Targets closer than about 2 cm cannot be measured.\n 4\n Avoid Crosstalk\n Trigger multiple sensors one after another, not together.\n 5\n Filter Readings\n Take a median of several readings to reject spikes.\n Tip 2 matters for foam, cloth and curved objects that absorb or deflect sound. A flat, hard target gives the strongest echo.\n Tip 4 prevents one sensor hearing another sensor echo. Leave about 60 ms between triggers so old echoes die out.\n Ultrasonic vs Infrared vs Laser Ranging\n Feature Ultrasonic Infrared Laser or LiDAR \n Principle Sound echo timing Reflected light intensity or angle Light time of flight \n Typical range 2 cm to 4 m for SR04 Up to about 1 m Tens to hundreds of metres \n Target colour effect None Strong Some \n Beam width Wide cone Narrow Very narrow \n Cost Very low Very low Higher \n For long range or narrow targets, laser methods such as 3D LiDAR sensors perform better. For low cost obstacle detection, ultrasonic is hard to beat.\n Our sensor selection criteria guide compares these options against real project needs.\n Where Ultrasonic Ranging Is Used\n Robot Obstacle Avoidance\n Detecting walls and objects ahead.\n Parking Sensors\n Measuring distance to cars and walls.\n Tank Level\n Simple liquid level in small tanks.\n People Counting\n Detecting presence at doors.\n Object Detection\n Checking items on conveyors.\n Height Measurement\n Measuring distance to the floor or ceiling.\n For industrial tank level, use certified instruments rather than hobby modules. Our guide on how an ultrasonic level transmitter works covers the professional versions.\n Hobby modules are not sealed, so moisture and dust shorten their life. Choose waterproof versions for outdoor projects.\n Ultrasonic Distance Sensor Wiring and Code Tips\n Connect VCC to 5 V, GND to ground, TRIG to an output pin and ECHO to an input pin. With a 3.3 V controller, use a divider on the ECHO line to protect the input.\n Use a timeout when measuring the echo pulse, so the code does not freeze when nothing is in range. Treat a timeout as out of range.\n Mount the module rigidly and keep it away from vibrating surfaces. Vibration can couple into the transducers and create false echoes.\n Ultrasonic Distance Calculator\n Echo Time to Distance\n Echo pulse width, \u00b5s \n Air temperature, \u00b0C \n Calculate \r\n Distance\n 17.17 cm at 343.4 m/s\n Try 0 \u00b0C and 40 \u00b0C to see how much the result shifts for the same echo time. That is the case for temperature compensation.\n Advantages\n Works on any colour or transparent target.\n Low cost and easy to use.\n Non contact measurement.\n Good accuracy at short range.\n Limitations\n Wide beam can hit side objects.\n Soft or angled targets give weak echoes.\n Affected by temperature and wind.\n Blind zone near the sensor.\n SR04 Module Datasheet PDF\n PDF\n Ultrasonic Ranging Module Datasheet\n Module specifications, timing diagram and distance formula\n Arduino Ultrasonic Sensor Video\n Ultrasonic Distance Sensor FAQ\n How does an ultrasonic distance sensor work?\n It times a 40 kHz echo and converts the time to distance using the speed of sound.\n Why divide by two?\n The echo time covers the trip to the target and back.\n What is the SR04 range?\n About 2 cm to 400 cm.\n Does temperature affect readings?\n Yes, sound speed changes about 0.6 m/s per \u00b0C.\n Can it detect glass?\n Yes, sound reflects from glass even though light passes through.\n Why do I get random readings?\n Soft or angled targets, crosstalk or electrical noise are common causes.\n How long is the trigger pulse?\n At least 10 \u00b5s.\n Related Articles\n Ultrasonic Level Transmitter Working \n IR Sensor Working Principle \n Industrial Automation Sensors \n Sensor Selection Criteria \n 3D LiDAR Sensors in Industry \n External References\n Ultrasonic Sensor and Arduino Guide, How To Mechatronics \n Ultrasonic Ranging Module Datasheet, SparkFun \n Working With Ultrasonic Sensors, Jameco \n Speed of Sound, Wikipedia \n What We Learn Today\n Distance equals speed of sound times echo time divided by two.\n Temperature changes sound speed, so compensation improves accuracy.\n Flat targets, sequential triggering and filtering give stable readings.\n I hope you like above blog. There is no cost associated in sharing the article in your social media. Thanks for reading!! Happy Learning!!\n WhatsApp\r\n Telegram\r\n Buy Me a Coffee"
+}
