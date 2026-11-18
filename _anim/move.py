@@ -6,8 +6,8 @@ def call(path, data=None):
     with urllib.request.urlopen(req, timeout=120) as r: return json.loads(r.read())
 def txt(s): return re.sub(r'\s+', ' ', H.unescape(re.sub('<[^>]+>', '', s))).strip()
 import urllib.parse
-MOVES = {'displacer-level-transmitter-working-principle': 'The 5-Step Displacer Level Transmitter Working Principle', 'turbine-flow-meter-working-principle': 'How a Turbine Flow Meter Works', 'inductive-vs-capacitive-proximity-sensors': 'How a Capacitive Proximity Sensor Works'}
-for slug, target in MOVES.items():
+MOVES = {'reed-switch-working-principle': ('Reed Switch in AC and DC Circuits', 'before')}
+for slug, (target, mode) in MOVES.items():
     pid = call('/wp/v2/posts?slug=' + urllib.parse.quote(slug) + '&_fields=id')[0]['id']
     w = call(f'/ib/v1/widgets/{pid}')
     fig = None
@@ -21,7 +21,7 @@ for slug, target in MOVES.items():
         if x['type'] in ('html', 'text-editor'):
             for h in re.finditer(r'<h2[^>]*>([\s\S]*?)</h2>', c):
                 if txt(h.group(1)) == target and c.count(h.group(0)) == 1:
-                    plan = {'ops': [{'find': fig, 'mode': 'replace', 'html': ' '}, {'find': h.group(0), 'mode': 'after', 'html': fig}]}
+                    plan = {'ops': [{'find': fig, 'mode': 'replace', 'html': ' '}, {'find': h.group(0), 'mode': mode, 'html': fig}]}
         elif x['type'] == 'heading' and txt(c) == target:
             plan = {'ops': [{'find': fig, 'mode': 'replace', 'html': ' '}], 'new_section': {'index': int(x['path'].split('.')[0]) + 1, 'html': fig}}
         if plan: break
