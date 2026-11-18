@@ -1,0 +1,35 @@
+{
+ "id": 20188,
+ "slug": "flemings-left-hand-rule-motor",
+ "impr": 2828,
+ "ctr": 0.32,
+ "pos": 6.5,
+ "queries": [
+  "fleming left hand rule",
+  "newton's left hand rule",
+  "flemings left hand rule examples"
+ ],
+ "title": "Flemings Left Hand Rule: Simple Guide With 5 Easy Examples",
+ "rank_math_title": "",
+ "rank_math_description": "Left hand or right hand? Flemings left hand rule gives the force direction on a current carrying conductor in a motor. See F = BIL, examples and a calculator.",
+ "focus_keyword": "Flemings Left Hand Rule,Fleming's Left Hand Rule",
+ "headings": [
+  "What Is Fleming's Left Hand Rule?",
+  "The Three Fingers and What They Mean",
+  "Force on a Conductor: F = BIL sin \u03b8",
+  "Fleming's Left Hand Rule Force Calculator",
+  "How to Apply the Rule Step by Step",
+  "Second Worked Example: Torque on a Motor Coil",
+  "5 Easy Examples of Fleming's Left Hand Rule in Machines",
+  "Left Hand Rule Versus Right Hand Rule",
+  "Common Mistakes Students Make",
+  "Where Engineers Use It on the Job",
+  "NCERT Chapter on Magnetic Effects PDF",
+  "Motor Rule Video Lesson",
+  "Fleming's Left Hand Rule FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Electrical Fundamentals\n\r\n Fleming's Left Hand Rule: Simple Guide With 5 Easy Examples\n\r\n Put a wire carrying current inside a magnetic field and it gets pushed sideways, which is the effect that spins every electric motor. Three fingers of your left hand tell you exactly which way that push acts, before you write a single equation.\n\r\n \r\n Motor Rule \r\n Thumb Force \r\n Forefinger Field \r\n Middle Finger Current \r\n F = BIL sin \u03b8 \r\n \n\r\n\n\r\n\r\n A current carrying conductor in a magnetic field feels a force, and its direction decides which way a motor turns. A simple three finger trick finds that direction, while F = BIL sin \u03b8 gives its size.\n\r\n\r\n \r\n Hello everyone, today we are going to learn Flemings left hand rule, how the thumb, forefinger and middle finger show force, field and current, and how F = BIL sin \u03b8 gives the force inside motors.\r\n\n\r\n \r\n \r\n \r\n Quick Answer\n What Is Fleming's Left Hand Rule?\n Fleming's left hand rule gives the direction of force on a current carrying conductor in a magnetic field, as in a motor. Hold the thumb, forefinger and middle finger at right angles: forefinger is the field (north to south), middle finger is conventional current, and the thumb shows the force.\n The size of the force is F = BIL sin \u03b8 . With B = 0.5 T, I = 10 A, L = 0.2 m and \u03b8 = 90\u00b0, F = 1 N.\n\n What Is Fleming's Left Hand Rule?\n\r\n\r\n Fleming's left hand rule is a memory aid that gives the direction of the force on a current carrying conductor placed in a magnetic field. It applies to motor action, where electrical energy becomes motion, and it is the starting point for understanding every DC motor .\n\r\n\r\n Hold the thumb, forefinger and middle finger of the left hand mutually at right angles. The forefinger points along the magnetic field from north to south, the middle finger along the conventional current, and the thumb then shows the force or motion.\n\r\n\r\n\r\n \r\n \r\n \r\n\r\n\r\n\r\n The British engineer John Ambrose Fleming created the left and right hand rules in the late 19th century. His aim was to help students tell motor action apart from generator action, a confusion that still trips up many learners today.\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n The Three Fingers and What They Mean\n\r\n\r\n \r\n Thumb\n Points in the direction of the force, thrust or motion of the conductor.\n Best for: motion of the wire or rotor\n Force F \n\r\n Forefinger\n Points along the magnetic field, from the north pole toward the south pole.\n Best for: field of magnet or stator\n Field B \n\r\n Middle Finger\n Points along the conventional current, from positive to negative.\n Best for: current in the conductor\n Current I \n\r\n\n\r\n\r\n A popular way to remember the order is FBI. The thumb is Force, the forefinger is the B field and the middle finger is the current I, reading from the top finger down.\n\r\n\r\n Do You Know?\n Fleming also invented the thermionic valve, or vacuum diode, in 1904. That one device opened the road to radio and early electronics.\n\n\r\n\r\n NCERT introduces Fleming's left hand rule in the Cl"
+}

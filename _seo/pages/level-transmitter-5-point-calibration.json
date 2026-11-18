@@ -1,0 +1,32 @@
+{
+ "id": 17318,
+ "slug": "level-transmitter-5-point-calibration",
+ "impr": 2597,
+ "ctr": 0.23,
+ "pos": 4.2,
+ "queries": [
+  "dp level transmitter",
+  "differential pressure level transmitter",
+  "dp type level transmitter",
+  "differential pressure transmitter calibration",
+  "level transmitter",
+  "level transmitter types"
+ ],
+ "title": "Level Transmitter 5 Point Calibration: As-Found and As-Left Procedure",
+ "rank_math_title": "Level Transmitter Calibration: 5-Point As-Found/As-Left",
+ "rank_math_description": "Level transmitter 5-point calibration: as-found and as-left steps, mA calculations, error limits, calibration table format and live error calculator.",
+ "focus_keyword": "level transmitter,Level Transmitter Calibration,5 Point Calibration",
+ "headings": [
+  "Level Transmitter Calibration: Why 5 Points Matter",
+  "Before You Start: Equipment and Preparation",
+  "5-Point Level Transmitter Calibration Procedure",
+  "Expected mA at Each Calibration Point",
+  "5-Point Calibration Table Format",
+  "Level Transmitter Calibration Calculator",
+  "Watch: Level Transmitter Calibration Procedure",
+  "Level Transmitter Calibration Questions",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Level Measurement\n\r\n Level Transmitter 5-Point Calibration: As-Found and As-Left Procedure\n\r\n Level transmitter calibration verifies and corrects the relationship between process level and 4-20 mA output across the full range.\n\r\n A 5-point calibration checks accuracy at 0%, 25%, 50%, 75%, and 100% of span to confirm linearity, not just the endpoints.\n\r\n This guide covers the complete level transmitter calibration procedure including as-found documentation, adjustment, as-left verification, and the 5-point calibration table format used in industrial plant records.\n\r\n \r\n 0% 25% 50% 75% 100% \r\n As-Found and As-Left \r\n mA to Level Conversion \r\n Acceptable Error Limits \r\n \n\r\n\n\r\n\r\n Level transmitter calibration at five points confirms accuracy across the full range. A transmitter with a non-linear error at 50% passes a 2-point check but gives wrong readings in service.\n\r\n \r\n \r\n \r\n Level Transmitter Calibration: Why 5 Points Matter\n\r\n\r\n \r\n Hello! Today we are going through the complete 5-point level transmitter calibration procedure: as-found reading, adjustment, and as-left verification. This is the standard calibration format used in process plants, refineries, and water treatment facilities. Whether you are calibrating a DP transmitter, a guided wave radar, or an ultrasonic level transmitter, the 5-point as-found and as-left format applies to all of them.\r\n\n\r\n\r\n \r\n A level transmitter outputs 4 mA at 0% of span and 20 mA at 100%. A correct reading at both endpoints does not guarantee linearity at midrange.\n\r\n A 5-point calibration catches linearity errors by checking at five equally spaced inputs: 0%, 25%, 50%, 75%, and 100%.\n\r\n Three terms must be understood before starting: as-found , as-left , and acceptable error limit . Click any term to expand.\n\r\n As-Found: The reading recorded before any adjustment is made. As-found data is the legal and audit record of how the instrument was performing in service before the technician touched it. If an instrument is found outside its acceptable error limit, the as-found reading is used to assess whether any process measurements taken since the last calibration were compromised. Never adjust the instrument before recording all as-found readings.\n\r\n As-Left: The reading recorded after adjustment and verification. This confirms the instrument was left in a correct, calibrated state before the technician walked away. The as-left values must fall within the acceptable error limit at all five calibration points. Both as-found and as-left values are documented in the calibration record.\n\r\n Acceptable Error Limit: The maximum allowable deviation between the applied input and the measured output, expressed as a percentage of span or in engineering units. Typical industrial acceptance criteria for a level transmitter is within plus or minus 0.5% of span (equivalent to plus or minus 0.08 mA on a 16 mA span). Safety instrumented system (SIS) level transmitters may have tighter limits specified in the safety requirements "
+}

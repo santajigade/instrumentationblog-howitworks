@@ -1,0 +1,31 @@
+{
+ "id": 17491,
+ "slug": "motor-insulation-classes",
+ "impr": 5994,
+ "ctr": 0.42,
+ "pos": 6.6,
+ "queries": [
+  "insulation class of motor",
+  "motor insulation class",
+  "motor insulation classes",
+  "electrical insulation classes",
+  "electric motor insulation class"
+ ],
+ "title": "Electric Motor Insulation Classes: Class A, B, F and H Explained",
+ "rank_math_title": "Motor Insulation Classes: Class A, B, F and H Explained",
+ "rank_math_description": "Motor insulation classes A (105\u00b0C), B (130\u00b0C), F (155\u00b0C) and H (180\u00b0C): temperature rise, limits, the 10-degree rule and a live class checker.",
+ "focus_keyword": "motor insulation classes,motor insulation",
+ "headings": [
+  "The 4 Standard Motor Insulation Classes",
+  "Temperature Budget: How Class, Rise and Margin Add Up",
+  "All 4 Classes Compared on Every Key Parameter",
+  "Temperature Rise and Insulation Class Check Calculator",
+  "Right vs Wrong Insulation Class Selection",
+  "Watch: Motor Insulation Classes Explained",
+  "Motor Insulation Class Questions Engineers Ask",
+  "Related Articles on This Site",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Electrical Fundamentals\n\r\n Electric Motor Insulation Classes: Class A, B, F and H Explained\n\r\n Motor insulation class defines the maximum temperature the winding insulation can withstand without degrading. Choosing the wrong class shortens motor life. Understanding it helps you specify, select, and protect motors correctly.\n\r\n \r\n Class A: 105\u00b0C \r\n Class B: 130\u00b0C \r\n Class F: 155\u00b0C \r\n Class H: 180\u00b0C \r\n Temperature Rise \r\n \n\r\n\n\r\n\r\n Hello everyone, today we are going to learn about electric motor insulation classes . We will understand the four standard classes (A, B, F, H), what the temperature limits mean, how to calculate the allowable temperature rise, and how to choose the right class for your motor application.\n\r\n\r\n Every motor nameplate carries an insulation class letter that tells you the maximum temperature the winding can survive.\n\r\n Running above this limit causes exponential insulation degradation. The 10-degree rule states that every 10\u00b0C above the rated limit halves the insulation life.\n\r\n\r\n \r\n \r\n \r\n\r\n Quick Answer\n What Are the Insulation Classes of a Motor?\n Motor insulation class is the letter on the nameplate that sets the maximum winding temperature the insulation can withstand. The four standard classes are A, B, F and H.\n Class Max Temperature Allowable Rise at 40\u00b0C Ambient \n A 105\u00b0C 60\u00b0C \n B 130\u00b0C 80\u00b0C \n F 155\u00b0C 105\u00b0C \n H 180\u00b0C 125\u00b0C \n Every 10\u00b0C above the rated limit roughly halves insulation life.\n\n The 4 Standard Motor Insulation Classes\n\r\n\r\n \r\n \r\n A\n\r\n Max 105\u00b0C\n\r\n Rise: 60\u00b0C at 40\u00b0C ambient. Cotton, silk, paper. Now rare in new motors.\n\r\n \n\r\n \r\n B\n\r\n Max 130\u00b0C\n\r\n Rise: 80\u00b0C at 40\u00b0C ambient. Mica, glass fibre, inorganic. Standard for general-purpose motors.\n\r\n \n\r\n \r\n F\n\r\n Max 155\u00b0C\n\r\n Rise: 105\u00b0C at 40\u00b0C ambient. Synthetic resins, glass fibre. Most common class in modern industrial motors.\n\r\n \n\r\n \r\n H\n\r\n Max 180\u00b0C\n\r\n Rise: 125\u00b0C at 40\u00b0C ambient. Silicone resins, mica. Used in high ambient, VFD, and duty-cycle applications.\n\r\n \n\r\n\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n Temperature Budget: How Class, Rise and Margin Add Up\n\r\n\r\n The insulation class limit is built from three components: ambient temperature + allowable temperature rise + hot-spot allowance. Understanding this budget shows how much thermal margin is left for overloads.\n\r\n\r\n \r\n \r\n \r\n \r\n \r\n Temperature Budget per Insulation Class (\u00b0C) \r\n\r\n \r\n \r\n \r\n \r\n 0 \r\n \r\n 40 \r\n \r\n 80 \r\n \r\n 105 \r\n \r\n 130 \r\n \r\n 155 \r\n \r\n 180 \r\n Temperature (\u00b0C) \r\n\r\n \r\n \r\n \r\n \r\n \r\n Class A 105\u00b0C \r\n \r\n \r\n \r\n \r\n \r\n 40\u00b0C ambient \r\n 60\u00b0C rise \r\n 5\u00b0 \r\n\r\n \r\n \r\n Class B 130\u00b0C \r\n \r\n \r\n \r\n \r\n 40\u00b0C ambient \r\n 80\u00b0C rise \r\n 5\u00b0 \r\n\r\n \r\n \r\n Class F 155\u00b0C \r\n \r\n \r\n \r\n \r\n 40\u00b0C ambient \r\n 105\u00b0C rise \r\n 5\u00b0 \r\n\r\n \r\n \r\n Class H 180\u00b0C \r\n \r\n \r\n \r\n \r\n 40\u00b0C \r\n 125\u00b0C rise \r\n 5\u00b0 \r\n\r\n \r\n \r\n Ambient (40\u00b0C) \r\n \r\n Rise + hot-spot \r\n \r\n\n\r\n\n\r\n\r\n Did You Know? The 10-degree rule for insulation life means that every 10\u00b0C above the rated class limit halves the insulation's expected service life. A Class F motor (rated to 155\u00b0C) running"
+}

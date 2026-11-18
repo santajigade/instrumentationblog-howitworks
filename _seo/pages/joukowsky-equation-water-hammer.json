@@ -1,0 +1,30 @@
+{
+ "id": 9439,
+ "slug": "joukowsky-equation-water-hammer",
+ "impr": 4507,
+ "ctr": 0.78,
+ "pos": 3.9,
+ "queries": [
+  "joukowsky equation",
+  "water hammer equation",
+  "water hammer formula",
+  "joukowsky equation water hammer"
+ ],
+ "title": "Joukowsky Equation: Water Hammer Formula + Calculator",
+ "rank_math_title": "",
+ "rank_math_description": "Joukowsky equation \u0394P = \u03c1\u00b7a\u00b7\u0394v explained with a solved water hammer example, wave speed for steel and PVC pipes, and a free pressure surge calculator.",
+ "focus_keyword": "Joukowsky Equation,Water Hammer,Surge Pressure,Flow Measurement",
+ "headings": [
+  "What is the Joukowsky Equation?",
+  "Let us understand each term",
+  "1. Fluid Density (\u03c1)",
+  "2. Wave Speed (a)",
+  "3. Change in Velocity (\u0394V)",
+  "Let us take an Example",
+  "Effect of Valve Closing Time",
+  "Practical Implications in Piping Systems",
+  "Typical Symptoms of Water Hammer",
+  "What we learn today?"
+ ],
+ "text": "Water hammer \u00a0is one of the most common and destructive problems in\u00a0 piping systems . It occurs when a flowing fluid is suddenly forced to stop or change direction such as when a valve closes too quickly.\n The sudden deceleration creates a pressure surge or wave that travels through the pipe at high speed.\n To understand this phenomenon, engineers use the Joukowsky Equation , which provides a simple yet powerful way to calculate the magnitude of that surge pressure.\n Quick Answer\n What Is the Joukowsky Equation for Water Hammer?\n The Joukowsky equation gives the pressure surge caused by a sudden change in fluid velocity, such as a fast valve closure: \u0394P = \u03c1 \u00d7 a \u00d7 \u0394V , where \u03c1 is fluid density, a is pressure wave speed and \u0394V is the velocity change.\n Example: water at 1000 kg/m\u00b3 in a steel pipe with a = 1200 m/s stops from 2.5 m/s, so \u0394P = 1000 \u00d7 1200 \u00d7 2.5 = 3.0 MPa, about 30 bar. It assumes instant closure.\n\n What is the Joukowsky Equation?\n The Joukowsky equation is a relationship between the change in fluid velocity and the resulting pressure rise caused by that change.\n This simple formula is the basis for almost all surge pressure calculations in liquid piping systems.\n Let us understand each term\n 1. Fluid Density (\u03c1)\n The density of the fluid determines how much inertia it has.\n For example:\n Water at 25\u00b0C \u2192 1000 kg/m\u00b3 \n Oil \u2192 800\u2013900 kg/m\u00b3 \n Seawater \u2192 1025 kg/m\u00b3 \n The higher the density, the larger the potential surge pressure.\n 2. Wave Speed (a)\n Wave speed also known as\u00a0 celerity , is the speed at which the pressure wave travels through the pipe.\n It depends on both the\u00a0 fluid compressibility \u00a0and the\u00a0 pipe wall elasticity .\n Typical wave speeds:\n => Steel pipe (water): 1000\u20131300 m/s\n => PVC pipe (water): 300\u2013400 m/s\n => Copper tube: 1200\u20131400 m/s\n If the pipe wall is flexible, the wave speed is lower, and the surge pressure reduces accordingly.\n 3. Change in Velocity (\u0394V)\n This is the\u00a0 difference between the initial velocity \u00a0of the fluid and its velocity\u00a0 after valve closure \u00a0or flow interruption. If flow drops from 2 m/s to 0 m/s instantly, \u0394V = 2 m/s.\n Let us take an Example \n Let\u2019s take a practical example using new values to keep this calculation original.\n Given: \n => Fluid: Water (\u03c1 = 1000 kg/m\u00b3)\n => Pipe: Steel pipeline\n => Wave speed, a = 1200 m/s\n => Velocity before closure, V\u2081 = 2.5 m/s\n => Velocity after closure, V\u2082 = 0 m/s\n So, \u0394V = 2.5 m/s\n Calculate the pressure rise: \n \u0394P=\u03c1\u00d7a\u00d7\u0394V \n \u0394P=1000\u00d71200\u00d72.5 \n \u0394P=3,000,0000\u00a0Pa=3.0\u00a0MPa \n \u0394P=3.0\u00a0MPa \n So, the sudden valve closure generates a\u00a0 pressure surge of 3.0 MPa (\u2248 30 bar) . That is enough to damage pipe joints, valves, or even rupture weaker sections. \n Effect of Valve Closing Time \n The Joukowsky equation assumes an\u00a0 instantaneous velocity change \u00a0meaning the valve closes faster than the pressure wave can travel to the next boundary and reflect back.\n But in real systems, if the\u00a0 valve closing time (t\u2091) \u00a0is\u00a0 longer than twice the pipe\u2019s travel time (2L/a) , the surge is sma"
+}

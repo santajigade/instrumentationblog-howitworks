@@ -1,0 +1,40 @@
+{
+ "id": 16872,
+ "slug": "cascode-amplifier-working-principle",
+ "impr": 3727,
+ "ctr": 0.67,
+ "pos": 8.9,
+ "queries": [
+  "cascode amplifier",
+  "igbt working principle",
+  "rtd working principle",
+  "rtd working principle in hindi",
+  "potentiometer working principle",
+  "differential pressure transmitter working principle"
+ ],
+ "title": "Cascode Amplifier: Working Principle, 5 Key Advantages and Applications",
+ "rank_math_title": "Cascode Amplifier: Working Principle & 5 Key Advantages",
+ "rank_math_description": "Cascode amplifier explained: how it removes the Miller effect for much wider bandwidth, and why it is used in RF LNAs, op-amps and instrumentation.",
+ "focus_keyword": "cascode amplifier",
+ "headings": [
+  "What Is a Cascode Amplifier?",
+  "How the Cascode Amplifier Works",
+  "The Two Stages and What Each Does",
+  "Stage 1: Common-Emitter (Q1)",
+  "Stage 2: Common-Base (Q2)",
+  "Why Stage 1 Sees Unity Gain (The Key Insight)",
+  "Cascode Amplifier Key Equations",
+  "Cascode Amplifier Calculator",
+  "5 Key Advantages of the Cascode Configuration",
+  "BJT Cascode vs MOSFET Cascode: Key Differences",
+  "Where Cascode Amplifiers Are Used",
+  "Advantages and Limitations at a Glance",
+  "Advantages",
+  "Limitations",
+  "Watch: Cascode Amplifier and the Miller Effect Explained",
+  "Cascode Amplifier Questions Engineers Ask",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Electronics\n\r\n Cascode Amplifier: Working Principle\n\r\n A cascode amplifier stacks two transistor stages so that the first stage sees a low-impedance load.\n\r\n This one design decision eliminates the Miller effect, raises output impedance by a factor of beta, and extends usable bandwidth by up to 200 times compared to a single-stage design.\n\r\n This article explains exactly why that happens, with worked calculations and a live gain and bandwidth calculator.\n\r\n \r\n Miller Effect Suppression \r\n High Output Impedance \r\n BJT and MOSFET Versions \r\n RF and Op Amp Applications \r\n \n\r\n\n\r\n\r\n A cascode amplifier connects two transistor stages in series: a common-emitter (or common-source) input stage followed by a common-base (or common-gate) output stage. The combination achieves voltage gain equal to a single stage but with dramatically lower input capacitance and far higher output resistance.\n\r\n\r\n Quick Answer\n What Is a Cascode Amplifier and How Does It Work?\n A cascode amplifier stacks a common emitter (or common source) input stage under a common base (or common gate) output stage. The low emitter impedance of the top transistor holds the input stage gain near 1, which almost removes the Miller effect.\n Cin \u2248 2 \u00d7 Cbc instead of (1 + |Av|) \u00d7 Cbc . With Av = 385 and Cbc = 2 pF, Cin drops from 771 pF to 4 pF.\n Voltage gain stays the same as one stage, while output resistance rises to about \u03b2 \u00d7 rce.\n\n What Is a Cascode Amplifier?\n\r\n\r\n The name comes from \"cascade to cathode\" -- a vacuum tube term from the 1930s. The principle transferred directly to bipolar and field-effect transistors.\n\r\n\r\n \r\n \r\n \r\n\r\n In a BJT cascode, the collector of the common-emitter (CE) transistor Q1 drives the emitter of the common-base (CB) transistor Q2. The output is taken from the collector of Q2.\n\r\n\r\n In a MOSFET cascode, the drain of the common-source (CS) transistor M1 drives the source of the common-gate (CG) transistor M2. The output is taken from the drain of M2.\n\r\n\r\n \r\n \r\n 4 pF\n\r\n Typical input capacitance with cascode (vs 771 pF without)\n\r\n \n\r\n \r\n ~200x\n\r\n Bandwidth improvement over single-stage CE amplifier\n\r\n \n\r\n \r\n \u03b2 \u00d7 rce\n\r\n Output resistance of cascode vs rce for single stage\n\r\n \n\r\n \r\n Same\n\r\n Voltage gain as a single CE stage with the same Rc\n\r\n \n\r\n\n\r\n\r\n \r\n \r\n \r\n \n\r\n Advertisement \r\n \n\r\n \n\r\n \r\n \r\n \r\n \n\r\n Advertisement \r\n \n\r\n \n\r\n\n\r\n \r\n\r\n How the Cascode Amplifier Works\n\r\n\r\n The Two Stages and What Each Does\n\r\n\r\n \r\n \r\n Stage 1: Common-Emitter (Q1)\n\r\n Converts the input voltage to a current. Transconductance gm determines how much collector current Q1 generates per volt of input.\n\r\n The voltage gain of Q1 in the cascode is very low (approximately 1) because it sees the low input impedance of Q2's emitter as its load. This is the key to eliminating the Miller effect.\n\r\n \n\r\n \r\n Stage 2: Common-Base (Q2)\n\r\n Converts the collector current from Q1 into an output voltage across the load resistor Rc. Current gain of the CB stage is approximately 1 (alpha \u2248 0.99).\n\r\n The CB sta"
+}

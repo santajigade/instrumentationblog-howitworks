@@ -1,0 +1,35 @@
+{
+ "id": 15716,
+ "slug": "induction-motor-slip-explained",
+ "impr": 3718,
+ "ctr": 0.13,
+ "pos": 8.3,
+ "queries": [
+  "induction motor slip formula"
+ ],
+ "title": "Induction Motor Slip Explained: Formula, Importance, and Torque Relationship",
+ "rank_math_title": "Induction Motor Slip: Formula, Importance & Torque",
+ "rank_math_description": "Learn induction motor slip in detail, the formula behind it, what each slip value indicates, and how slip relates to torque, with a worked example.",
+ "focus_keyword": "induction motor slip",
+ "headings": [
+  "What Is Slip in an Induction Motor",
+  "The Induction Motor Slip Formula",
+  "Worked Example: Calculating Slip",
+  "Gather the two speeds",
+  "Find the speed difference",
+  "Divide by synchronous speed and convert to a percentage",
+  "Watch: Induction Motor Slip Explained with Animation",
+  "Why Slip Matters: What Each Value Means",
+  "Slip Equals Zero",
+  "Slip Equals One",
+  "Slip Equals Negative One",
+  "Slip Greater Than One",
+  "The Relationship Between Torque and Slip",
+  "FAQs on Induction Motor Slip",
+  "You May Also Like",
+  "Related articles on this site",
+  "External References",
+  "What we learn today"
+ ],
+ "text": "Motors and Drives\n\r\n Slip in an Induction Motor Explained: Formula, Importance, and Torque Relationship\n\r\n An induction motor's rotor never quite catches up to the rotating magnetic field chasing it, and that gap is not a flaw. It is the entire reason the motor produces torque at all. This guide breaks down induction motor slip: what that gap is, how to calculate it, and why it matters.\n\r\n \r\n Slip Formula \r\n Worked Example \r\n Torque Slip Curve \r\n \n\r\n\n\r\n\r\n Slip sounds like something that should be eliminated from a motor, not designed into one. In an induction motor, it is the opposite. Without induction motor slip, the rotor would never see a changing magnetic field, and without that changing field, the motor would never turn at all.\n\r\n\r\n In a three phase induction motor, the stator generates a rotating magnetic field that spins at synchronous speed. The rotor follows that field, but it can never quite catch it. Induction motor slip is simply the name for that gap between the two speeds.\n\r\n\r\n \r\n \r\n \r\n\r\n This guide covers what induction motor slip actually is, the formula behind it, what different slip values mean physically, and how slip relates to the torque an induction motor can produce.\n\r\n\r\n Quick Answer\n What Is the Induction Motor Slip Formula?\n Induction motor slip is the difference between synchronous speed and rotor speed, expressed as a fraction of synchronous speed: S = (Ns \u2212 Nr) / Ns , or multiply by 100 for percent. Synchronous speed is Ns = 120 \u00d7 f / P .\n Example: a 4 pole motor on 50 Hz has Ns = 1500 rpm. If the rotor runs at 1470 rpm, S = (1500 \u2212 1470) / 1500 = 0.02, or 2%. Slip is never zero in a real motor.\n\n What Is Slip in an Induction Motor\n\r\n Induction motor slip is the difference between the synchronous speed of the rotating magnetic field and the actual speed of the rotor, expressed as a fraction or percentage of synchronous speed. It is a dimensionless quantity, and in a real induction motor, it can never be exactly zero.\n\r\n The stator's rotating field spins at synchronous speed, denoted Ns. The rotor follows at its actual speed, denoted Nr. Because the rotor is always chasing the field rather than matching it exactly, Nr stays lower than Ns during normal motoring operation.\n\r\n\r\n The Induction Motor Slip Formula\n\r\n \r\n S = (Ns \u2212 Nr) / Ns\n\r\n \r\n S is induction motor slip, expressed as a decimal between 0 and 1 during normal motoring\n\r\n Ns is synchronous speed in rpm\n\r\n Nr is actual rotor speed in rpm\n\r\n \r\n To express slip as a percentage instead of a decimal, multiply the result by 100.\n\r\n S (%) = [(Ns \u2212 Nr) / Ns] \u00d7 100\n\r\n Synchronous speed itself follows a separate, well known formula connecting it to supply frequency and pole count.\n\r\n Ns = 120 \u00d7 f / P\n\r\n \r\n f is the supply frequency in Hz\n\r\n P is the number of poles\n\r\n \r\n\n\r\n\r\n Worked Example: Calculating Slip\n\r\n \r\n 1\n Gather the two speeds\n\n\r\n Suppose an induction motor has a synchronous speed of 1500 rpm and an actual rotor speed of 1470 rpm under load.\n\r\n\n\r\n \r\n 2\n Find "
+}

@@ -1,0 +1,26 @@
+{
+ "id": 8390,
+ "slug": "annubar-flow-meter-working",
+ "impr": 4742,
+ "ctr": 0.55,
+ "pos": 4.0,
+ "queries": [
+  "annubar flow meter",
+  "gas flow meter calibration",
+  "multiphase flow meter",
+  "annubar type flow meter",
+  "flow nozzle working principle",
+  "anubar flow meter"
+ ],
+ "title": "Annubar Flow Meter: Working Principle, Formula &#038; vs Orifice",
+ "rank_math_title": "",
+ "rank_math_description": "How an Annubar flow meter (averaging pitot tube) works, flow formula, straight-run requirements, pros and cons, and Annubar vs orifice plate comparison.",
+ "focus_keyword": "Annubar Flow Meter,Annubar Flow Meter Working Principle,Annubar Flow Meter Installation,How Annubar Flow Meter Works,Applications of Annubar Flow Meter",
+ "headings": [
+  "Insertion and obstruction",
+  "Forming \u0394P (differential pressure)",
+  "The differential Pressure = High Pressure - Low Pressure",
+  "Conversion to flow"
+ ],
+ "text": "What is an Annubar flow meter (averaging Pitot) Annubar\u00a0 Flow Meter \u00a0is nothing but as a smart bar (a probe) that you insert into the pipe. It has many small pressure taps (holes) along its face upstream and a corresponding set (or a chamber) downstream.\u00a0\n These taps \u201caverage\u201d the pressure profile rather than relying on just one point. The difference between \u201chigh side\u201d (impact + static) and \u201clow side\u201d (static, suction) is your differential pressure (\u0394P). From that \u0394P, you infer flow rate using the relevant equation.\n Because real flow inside pipes is never perfectly uniform (boundary layers, turbulence, bends, etc.), using multiple taps helps reduce error compared to a single-point measurement. Many of the best explanations online call it an \u201caveraging Pitot\u201d or \u201caveraging bar.\u201d\u00a0\n \u201cAnnubar\u201d is a brand name ( Emerson / Rosemount ) but over time the term is used generally for that style of device.\n Quick Answer\n What Is an Annubar Flow Meter and How Does It Work?\n An Annubar flow meter is an averaging Pitot tube: a bar inserted across the pipe with several upstream taps that average total pressure and a downstream tap that senses lower static pressure.\n A DP transmitter reads the difference and the flow is found by square root extraction: Q = K \u00d7 \u221aDP . For example, with K = 10 and DP = 25, Q = 10 \u00d7 5 = 50 flow units.\n It gives lower permanent pressure loss than an orifice plate but needs clean fluid and good straight runs.\n\n How Annubar Flow Meter works? Here is what actually happens inside the pipe when you mount an Annubar:\n Insertion and obstruction \n You insert the bar so that it spans (or partially spans) across the pipe cross-section. It is not a full blockage, but it disturbs the flow slightly. That disturbance causes a pressure difference between upstream side and downstream side.\u00a0\n Tapping pressures (high and low side) \n 1) Upstream side: Several ports facing the flow pick up total pressure (static + dynamic). These ports feed into a common chamber (or manifold) that gives you an averaged \u201chigh side\u201d pressure reading.\u00a0 \n 2) Downstream: There is a downstream port or chamber that senses mostly static (lower) pressure, or what you'd call the \u201csuction\u201d side.\u00a0 \n Forming \u0394P (differential pressure)\n The differential Pressure = High Pressure - Low Pressure \n That difference is (theoretically) proportional to (velocity)2, by\u00a0 Bernoulli\u2019s principle . From that, with known pipe cross-sectional area etc., you calculate volumetric flow.\n Conversion to flow \n A DP transmitter which is an secondary device reads the \u0394P. Then in your flow computer,\u00a0 DCS or PLC \u00a0logic you apply calibration constants, K-factors, and square-root extraction (or a lookup) to convert that \u0394P into flow rate.\u00a0\n So\u00a0 Annubar creates \u0394P \u2192 DP transmitter measures \u2192 we convert \u0394P \u2192 FLOW .\n Basic Formula Behind it The Basic Formula is as below:\n \n where:\n Q = Flow Rate\n K = Annubar Flow Coefficient\n DP = Differential Pressure\n The Annubar creates a pressure difference (DP) by partially"
+}

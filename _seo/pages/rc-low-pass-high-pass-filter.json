@@ -1,0 +1,32 @@
+{
+ "id": 17515,
+ "slug": "rc-low-pass-high-pass-filter",
+ "impr": 4986,
+ "ctr": 0.42,
+ "pos": 7.6,
+ "queries": [
+  "cut off frequency of low pass filter"
+ ],
+ "title": "RC Low Pass and High Pass Filter: Cutoff Frequency, Design and Calculator",
+ "rank_math_title": "RC Low Pass and High Pass Filter: Cutoff & Calculator",
+ "rank_math_description": "Learn RC low pass and high pass filter design, cutoff frequency formula, 3 dB point, phase shift, and worked examples. Includes a live RC filter calculator.",
+ "focus_keyword": "RC Low Pass,High Pass Filter",
+ "headings": [
+  "RC Low Pass and High Pass Filter: How Each Circuit Works",
+  "Cutoff Frequency Formula for RC Low Pass and High Pass Filter",
+  "Rearranging to Find R or C",
+  "Frequency Response: What Happens at Each Frequency Range",
+  "RC Filter Cutoff Frequency Calculator",
+  "Two Worked Examples for RC Filter Design",
+  "RC Low Pass vs High Pass Filter: Full Comparison",
+  "Watch: RC Filter Cutoff Frequency Explained",
+  "RC Filter Questions Engineers and Students Ask",
+  "Related Articles on This Site",
+  "External References",
+  "What We Learn Today",
+  "RC Low Pass Filter Cutoff Values for Common R and C Pairs",
+  "f = 1/2\u03c0RC Quick Table",
+  "Gain at Different Frequencies"
+ ],
+ "text": "Electronics\n\r\n RC Low Pass and High Pass Filter: Cutoff Frequency, Design and Calculator\n\r\n An RC filter uses a resistor and a capacitor to pass certain frequencies while blocking others. The low pass filter passes low frequencies. The high pass filter does the opposite.\n\r\n \r\n Low Pass Filter \r\n High Pass Filter \r\n Cutoff Frequency \r\n RC Circuit \r\n 3 dB Point \r\n \n\r\n\n\r\n RC filters are the simplest frequency-selective circuits in electronics. They require only two components yet appear in almost every electronic system from audio equalisation to power supply noise suppression.\n\r\n \r\n Hello everyone, today we are going to learn about the RC low pass filter and high pass filter .\n\n\r\n We will understand how a resistor and a capacitor work together to create a frequency-selective circuit.\r\n We will cover the cutoff frequency formula and how to calculate it for any combination of R and C values.\n\n\r\n We will also learn what the 3 dB point means, how the phase angle changes with frequency, and the difference between the low pass and high pass configurations.\n\r\n Two worked examples are included, plus a live calculator so you can design your own RC filter for any application.\r\n\n\r\n\r\n\r\n \r\n \r\n \r\n Quick Answer\n What Is the Formula for the Cut Off Frequency of an RC Filter?\n The cut off frequency of an RC filter is fc = 1 / (2\u03c0RC) , with R in ohms and C in farads. At fc the output falls to 70.7% of the input (a 3 dB drop) and the phase shift is 45\u00b0. Example: R = 1 k\u03a9 and C = 100 nF gives fc = 1 / (2\u03c0 \u00d7 1000 \u00d7 100 \u00d7 10\u207b\u2079) \u2248 1.59 kHz. The same formula applies to both RC low pass and RC high pass filters.\n\n RC Low Pass and High Pass Filter: How Each Circuit Works\n\r\n\r\n \r\n \r\n RC Low Pass Filter\n\r\n The resistor is in series; the capacitor is to ground. At low frequencies it passes the signal. At high frequencies it pulls the output toward ground. Output is taken across the capacitor.\n\r\n \n\r\n \r\n RC High Pass Filter\n\r\n The capacitor is in series; the resistor is to ground. At high frequencies the signal passes through. At low frequencies the capacitor blocks the signal. Output is taken across the resistor.\n\r\n \n\r\n\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n Cutoff Frequency Formula for RC Low Pass and High Pass Filter\n\r\n\r\n The cutoff frequency is the same formula for both the low pass and high pass RC filter. It depends only on the resistor value and the capacitor value:\n\r\n\r\n \r\n fc = 1 / (2 x pi x R x C)\n\r\n fc = cutoff frequency in Hz \u00a0|\u00a0 R = resistance in Ohms \u00a0|\u00a0 C = capacitance in Farads \u00a0|\u00a0 pi = 3.14159\n\r\n\n\r\n\r\n At the cutoff frequency, the output voltage drops to 0.707 times the input voltage. This is the 3 dB point.\n\r\n The low pass filter passes the signal below this frequency. The high pass filter behaves in the opposite direction.\n\r\n\r\n The phase angle changes with frequency. For a low pass filter, the output lags the input by up to 90 degrees. At the cutoff frequency, the phase lag is exactly 45 degrees.\n\r\n For a high pass filter, the output leads the input by up to 90 de"
+}

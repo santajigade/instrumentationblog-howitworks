@@ -1,0 +1,35 @@
+{
+ "id": 10922,
+ "slug": "9-plc-data-types-explained",
+ "impr": 5859,
+ "ctr": 0.79,
+ "pos": 7.4,
+ "queries": [
+  "plc data types",
+  "allen bradley plc types",
+  "data types in plc",
+  "ab plc types",
+  "data type in plc",
+  "data types in plc programming"
+ ],
+ "title": "9 PLC Data Types: BOOL, INT, DINT, REAL &#038; More (Chart)",
+ "rank_math_title": "",
+ "rank_math_description": "All common PLC data types in one chart: BOOL, INT, DINT, REAL, STRING, TIME and more, with size in bits, value range and ladder logic examples.",
+ "focus_keyword": "PLC Data Types",
+ "headings": [
+  "PLC Data Types: Introduction",
+  "Bit (BOOL)",
+  "Byte",
+  "Word",
+  "Integer (INT)",
+  "Double Integer (DINT)",
+  "Real (FLOAT)",
+  "String",
+  "Double Word (DWORD)",
+  "Time",
+  "Comparision Table of Different PLC Data Types",
+  "Common Mistakes While Selecting PLC Data Types",
+  "What we learn today?"
+ ],
+ "text": "PLC Data Types: Introduction\n When we write a\u00a0 PLC\u00a0 program, we are not only writing logic but we are managing memory, speed, accuracy, and reliability. Every signal coming from the field, whether it is a push button, flow transmitter, temperature sensor, or HMI input, must be stored in PLC memory using a correct data type.\n Many beginners think that all numbers are the same. But in PLC programming, choosing the wrong data type can create serious problems such as overflow errors, wrong scaling, slow scan time, communication mismatch, and incorrect display on HMI or SCADA.\n Understanding PLC Data Types helps you write cleaner programs, troubleshoot faster, and build stable automation systems.\n In this article, we will clearly explain 9 powerful PLC Data Types used in industrial automation with simple examples and practical usage.\n Quick Answer\n What Are the Data Types in PLC?\n PLC data types define how each value is stored in PLC memory. The common types are BOOL, Byte, Word, INT, DINT, REAL, String, DWORD and Time , and choosing the wrong one causes overflow or scaling errors.\n Data type Size Typical use \n BOOL 1 bit Push buttons, limit switches, alarms \n Word 16 bits, 0 to 65,535 Raw analog values, registers \n INT 16 bits, \u221232,768 to +32,767 Counters, scaled values \n DINT 32 bits, signed Totalizers, production counts \n REAL 32 bits, floating point Flow, pressure, PID calculations \n \n \r\n \r\n \r\n \n\r\n \r\n Advertisement\r\n \r\n \n\r\n \n\r\n \r\n \r\n\r\n \r\n \n\r\n \r\n Advertisement\r\n \r\n \n\r\n \n\r\n\n\r\n Bit (BOOL)\n A Bit is the smallest data unit in PLC memory. It can store only two values: ON or OFF, TRUE or FALSE, 1 or 0.\n A Bit occupies only one memory position and is extremely fast to process.\n\n It is mainly used for digital signals such as push buttons, proximity sensors, limit switches, interlocks, alarms, and motor status feedback.\n\n Example: A start push button gives ON when pressed and OFF when released. The PLC stores this signal as a Bit.\n\n Bit is not suitable for storing numeric values, counts, or analog data.\n\n In real plants, thousands of Bits are used to represent field digital signals and logic conditions.\n Byte\n A Byte consists of 8 Bits grouped together . Instead of handling 8 individual bits separately, they can be stored and processed as one Byte.\n A Byte can represent values from 0 to 255.\n\n It is often used in communication data, device status registers, and bit-mapped signals.\n\n Example: A valve manifold may send 8 digital status bits in one Byte through Modbus communication.\n\n Byte allows compact data transfer and reduces communication overhead.\n\n Bytes are useful when multiple small digital states must be transmitted together efficiently.\n \r\n \r\n \r\n Word\n A Word is a 16-bit data type . It stores larger numeric values than a Byte.\n A Word can represent values from 0 to 65,535 (unsigned).\n\n Many PLCs use Word registers to store raw analog input values.\n\n Example: A pressure transmitter gives a 4\u201320 mA signal converted into a digital value like 0\u201327648 in"
+}

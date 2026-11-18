@@ -1,0 +1,37 @@
+{
+ "id": 19584,
+ "slug": "mutual-inductance-coupling-coefficient",
+ "impr": 5094,
+ "ctr": 0.24,
+ "pos": 8.3,
+ "queries": [
+  "mutual inductance formula",
+  "formula of mutual inductance",
+  "formula for mutual inductance",
+  "mutual inductance of two coils formula"
+ ],
+ "title": "Mutual Inductance: 5 Essential Formulas Made Easy and Clear",
+ "rank_math_title": "",
+ "rank_math_description": "Understand mutual inductance with the coupling coefficient, dot convention, series aiding and opposing coils, transformer examples and an easy M calculator.",
+ "focus_keyword": "mutual inductance",
+ "headings": [
+  "What Is Mutual Inductance?",
+  "How Shared Flux Creates a Voltage",
+  "5 Essential Mutual Inductance Formulas",
+  "Coupling Coefficient k Explained",
+  "Dot Convention and the Sign of Mutual Inductance",
+  "Mutual Inductance in Series Aiding and Opposing Coils",
+  "Mutual Inductance Calculator",
+  "Second Example: Measuring M With an LCR Meter",
+  "Where Mutual Inductance Is Used",
+  "Common Mistakes and Troubleshooting",
+  "Lecture Notes on Mutually Coupled Inductors",
+  "Dot Convention Video Lesson",
+  "Mutual Inductance Formula: Quick Reference Table",
+  "Mutual Inductance FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Electrical Fundamentals\n\r\n Mutual Inductance: 5 Essential Formulas Made Easy and Clear\n\r\n When the changing flux of one coil links a second coil, a voltage appears in the second coil without any wire between them. That shared flux is the secret behind transformers, current sensors, wireless chargers and even unwanted crosstalk on a printed circuit board.\n\r\n \r\n M = k\u221a(L1 L2) \r\n Coupling Coefficient \r\n Dot Convention \r\n Series Aiding \r\n Series Opposing \r\n \n\r\n\n\r\n\r\n Two coils placed close together share part of their magnetic flux, and a change of current in one induces a voltage in the other. Mutual inductance measures how strong that link is, and five simple formulas cover almost every practical calculation.\n\r\n\r\n \r\n Hello everyone, today we are going to learn mutual inductance, the coupling coefficient, the dot convention and how coupled coils behave in series aiding and series opposing connections.\r\n\n\r\n \r\n \r\n \r\n Quick Answer\n What Is the Formula of Mutual Inductance?\n Mutual inductance between two coils is given by M = k \u00d7 \u221a(L1 \u00d7 L2) , where k is the coupling coefficient (0 to 1) and L1, L2 are the self inductances. The induced voltage in coil 2 is v2 = M \u00d7 di1 \u00f7 dt , and the unit is the henry.\n Example: L1 = 4 mH, L2 = 9 mH and k = 0.5 give M = 0.5 \u00d7 \u221a36 = 3 mH. A 2 A rise in 1 ms then gives v2 = 6 V.\n\n What Is Mutual Inductance?\n\r\n\r\n Mutual inductance is the property of two coils by which a changing current in one coil induces a voltage in the other coil through their shared magnetic flux. It is the two coil partner of self inductance, which is explained in inductor working principle .\n\r\n\r\n The induced voltage follows Faraday\u2019s law of electromagnetic induction , and its direction follows Lenz's law. The symbol is M and the unit is the henry, the same unit used for self inductance L.\n\r\n\r\n \r\n \r\n Image credit: Circuit Digest . Diagram courtesy of Circuit Digest, shown here for educational reference. \r\n \r\n\r\n The dots in the figure mark the ends of the two windings that have the same polarity at any instant. You will see these dots on transformer symbols and datasheets, and they decide whether the mutual term is added or subtracted.\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n How Shared Flux Creates a Voltage\n\r\n\r\n When current i1 flows in coil 1, it produces a magnetic field. Part of that flux, called the mutual flux, also passes through the turns of coil 2, while the rest, called leakage flux, closes its path without reaching coil 2.\n\r\n\r\n If i1 changes, the mutual flux changes and a voltage appears across coil 2 even with no electrical connection. The process works in both directions, and for linear materials M12 equals M21, so one value M describes the pair.\n\r\n\r\n \r\n Formula 1: v2 = M \u00d7 di1 \u00f7 dt \n Formula 1b: M = N2 \u00d7 \u03a621 \u00f7 i1 \n\nExample: M = 3 mH, current in coil 1 rises by 2 A in 1 ms\ndi1 \u00f7 dt = 2 \u00f7 0.001 = 2000 A per second\n v2 = 0.003 \u00d7 2000 = 6 V \r\n\n\r\n\r\n Because only a changing current induces voltage, steady DC through coil 1 gives no output from coi"
+}
