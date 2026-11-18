@@ -3,3 +3,8 @@
 2026-11-18,dp-transmitter-level-measurement,DP level measurement animation,fail,"{""error"": ""HTTP Error 403: Forbidden""}"
 2026-11-18,electromagnetic-flow-meter-working-principle,magnetic flow meter working animation,fail,"{""error"": ""HTTP Error 403: Forbidden""}"
 2026-11-18,how-plc-scan-cycle-works,PLC scan cycle animation,fail,"{""error"": ""HTTP Error 403: Forbidden""}"
+2026-11-18,4-to-20-ma-current-loop-explained,4 to 20 mA Current Loop animation,ok,"{""id"": 13246, ""report"": [{""op"": 0, ""applied"": true}], ""link"": ""https://www.instrumentationblog.in/4-to-20-ma-current-loop-explained/""}"
+2026-11-18,bourdon-tube-pressure-gauges,Bourdon Tube Pressure Gauges animation,ok,"{""id"": 8734, ""report"": [{""op"": 0, ""applied"": true}], ""link"": ""https://www.instrumentationblog.in/bourdon-tube-pressure-gauges/""}"
+2026-11-18,dp-transmitter-level-measurement,DP Transmitter Level Measurement animation,ok,"{""id"": 5949, ""report"": [{""op"": 0, ""applied"": true}], ""link"": ""https://www.instrumentationblog.in/dp-transmitter-level-measurement/""}"
+2026-11-18,electromagnetic-flow-meter-working-principle,Electromagnetic Flow Meter animation,ok,"{""id"": 5098, ""report"": [{""op"": 0, ""applied"": true}], ""link"": ""https://www.instrumentationblog.in/electromagnetic-flow-meter-working-principle/""}"
+2026-11-18,how-plc-scan-cycle-works,PLC Scan Cycle animation,ok,"{""id"": 9065, ""report"": [{""op"": 0, ""applied"": true}], ""link"": ""https://www.instrumentationblog.in/how-plc-scan-cycle-works/""}"
