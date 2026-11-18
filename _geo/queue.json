@@ -197,7 +197,7 @@
 "plc scan cycle diagram",
 "scan cycle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "drain-and-vent-hole-in-orifice-plate",
@@ -205,7 +205,7 @@
 "impr": 6072,
 "pos": 4.7,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "motor-insulation-classes",
@@ -219,7 +219,7 @@
 "electrical insulation classes",
 "electric motor insulation class"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "rtd-sensor-connections",
@@ -230,7 +230,7 @@
 "rtd sensor connection",
 "rtd sensor wiring"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "9-plc-data-types-explained",
@@ -244,7 +244,7 @@
 "ab plc types",
 "data type in plc"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "atm-to-kpa-pressure-conversion",
@@ -258,7 +258,7 @@
 "kpa to atm",
 "how to convert atm to kpa formula"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "mutual-inductance-coupling-coefficient",
@@ -271,7 +271,7 @@
 "formula for mutual inductance",
 "mutual inductance of two coils formula"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "how-nitrogen-purging-works",
@@ -285,7 +285,7 @@
 "what is nitrogen purging",
 "nitrogen purging to remove oxygen"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "rc-low-pass-high-pass-filter",
@@ -309,7 +309,7 @@
 "annubar type flow meter",
 "flow nozzle working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "joukowsky-equation-water-hammer",
@@ -322,7 +322,7 @@
 "water hammer formula",
 "joukowsky equation water hammer"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "cold-loop-and-hot-loop-testing",
@@ -335,7 +335,7 @@
 "hot loop check and cold loop check",
 "cold loop checking in instrumentation"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "star-delta-transformation-formula",
@@ -349,7 +349,7 @@
 "star to delta conversion",
 "star delta transformation formula"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "namur-ne43-standard-explained",
@@ -362,7 +362,7 @@
 "namur ne43 standard",
 "namur 43 standard"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "half-adder-vs-full-adder",
@@ -373,7 +373,7 @@
 "half adder and full adder",
 "difference between half adder and full adder"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "list-of-free-scada-software",
@@ -401,7 +401,7 @@
 "3 types of photoelectric sensors",
 "types of photoelectric sensors"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "flow-characteristics-of-control-valves",
@@ -428,7 +428,7 @@
 "what is mimic panel",
 "mimic diagram in panel"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "wheatstone-bridge-10-applications",
@@ -442,7 +442,7 @@
 "name two practical applications of wheatstone bridge",
 "wheatstone bridge applications"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "100-essential-engineering-formulas",
@@ -469,7 +469,7 @@
 "difference between filter and strainer",
 "difference between pnp and npn proximity sensor"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "cascode-amplifier-working-principle",
@@ -483,7 +483,7 @@
 "rtd working principle in hindi",
 "potentiometer working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "flip-flop-types-sr-jk-d-t",
@@ -493,7 +493,7 @@
 "queries": [
 "types of flip flop"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "induction-motor-slip-explained",
@@ -503,7 +503,7 @@
 "queries": [
 "induction motor slip formula"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "what-is-rtd-and-how-it-works",
@@ -513,7 +513,7 @@
 "queries": [
 "differential pressure transmitter how it works"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "types-of-thermocouples-and-ranges",
@@ -524,7 +524,7 @@
 "thermocouple types and ranges",
 "types of thermocouples and their ranges"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "hazardous-area-classification-zone",
@@ -535,7 +535,7 @@
 "hazardous area classification zone",
 "hazardous area classification zone 0 1 2 pdf"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "astable-vs-monostable-vs-bistable-multivibrator",
@@ -549,7 +549,7 @@
 "astable vs monostable vs bistable",
 "astable bistable and monostable multivibrator"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "rtd-resistance-to-temperature-calculator",
@@ -563,7 +563,7 @@
 "pt100 formula for temperature from resistance",
 "cable resistance calculator"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "temperature-sensor-response-time",
@@ -574,7 +574,7 @@
 "rtd response time",
 "what is pt100 temperature sensor"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "measurement-uncertainty-in-calibration",
@@ -582,7 +582,7 @@
 "impr": 3422,
 "pos": 8.6,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "gas-groups-iia-iib-iic-what-is-the-difference",
@@ -594,7 +594,7 @@
 "atex iia iib iic",
 "iia iib iic gas group"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "strainer-and-filter-difference",
@@ -608,7 +608,7 @@
 "difference between filter and strainer",
 "filter vs strainer"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "free-plc-programming-software",
@@ -644,7 +644,7 @@
 "orifice plate dimensions",
 "orifice plate sizes"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "cems-continuous-emissions-monitoring-system",
@@ -655,7 +655,7 @@
 "continuous emission monitoring system",
 "cems continuous emission monitoring system"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "scada-communication-problems",
@@ -665,7 +665,7 @@
 "queries": [
 "aveva scada communication issues fix"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "pressure-gauge-accuracy-classes",
@@ -679,7 +679,7 @@
 "deadweight pressure gauge",
 "pressure gauge snubber working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "flemings-left-hand-rule-motor",
@@ -691,7 +691,7 @@
 "newton's left hand rule",
 "flemings left hand rule examples"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "2-wire-and-4-wire-transmitters",
@@ -699,7 +699,7 @@
 "impr": 2827,
 "pos": 11.9,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "what-is-2oo3-voting-logic",
