@@ -4,7 +4,7 @@ Queue: `_p2/queue.json`, articles with Semrush India keywords at positions 11 to
 Each item lists the page-2 keywords (`kw`, `pos`, `vol`, `kd`).
 
 ## Daily steps
-1. Dispatch `.github/workflows/p2-fetch.yml` with `n=10`, wait, `git pull`. It writes `_p2/pages/<slug>.json`
+1. Dispatch `.github/workflows/p2-fetch.yml` with `n=40`, wait, `git pull`. It writes `_p2/pages/<slug>.json`
    (id, title, focus keyword, keywords, existing H2 list, placement plan, article text). Items that are not WordPress posts become `notpost`.
 2. For each page in `_p2/pages/` with no file in `_p2/applied/` or `_p2/changes/`, write `_p2/changes/<slug>.json`:
    `{"slug": "...", "targets": ["keyword", ...], "html": "..."}`. A good helper pattern is in `p2_batch1` style:

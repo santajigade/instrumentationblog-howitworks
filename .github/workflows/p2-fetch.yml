@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       n:
-        default: "10"
+        default: "40"
 concurrency:
   group: geo
   cancel-in-progress: false
