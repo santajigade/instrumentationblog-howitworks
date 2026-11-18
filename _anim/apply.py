@@ -26,7 +26,9 @@ for f in sorted(glob.glob('_anim/todo/*.json')):
         for x in w.get('widgets', []):
             c = str(x['content']); hs = list(re.finditer(r'<h2[^>]*>([\s\S]*?)</h2>', c))
             if not hs: continue
-            pick = next((h for h in hs[1:] if WORK.search(re.sub('<[^>]+>', '', h.group(1)))), hs[1] if len(hs) > 1 else hs[0])
+            BAD = re.compile(r'(faq|question|watch|video|reference|download|further reading)', re.I)
+            good = [h for h in hs if not BAD.search(re.sub('<[^>]+>', '', h.group(1)))] or hs
+            pick = next((h for h in good if WORK.search(re.sub('<[^>]+>', '', h.group(1)))), good[1] if len(good) > 1 else good[0])
             tag = pick.group(0)
             if c.count(tag) == 1: plan = {'ops': [{'find': tag, 'mode': 'after', 'html': html}]}; break
         if not plan:
