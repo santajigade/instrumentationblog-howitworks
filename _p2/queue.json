@@ -22,7 +22,7 @@
     "kd": 16
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "mutual-inductance-coupling-coefficient",
@@ -35,7 +35,7 @@
     "kd": 35
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "reed-switch-working-principle",
@@ -66,7 +66,7 @@
     "kd": 23
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "pulse-width-modulation-duty-cycle",
@@ -85,7 +85,7 @@
     "kd": 41
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "varactor-diode-working-principle",
@@ -98,7 +98,7 @@
     "kd": 23
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "open-loop-and-closed-loop-control-system",
@@ -135,7 +135,7 @@
     "kd": 17
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "bus-duct-busway-system",
@@ -148,7 +148,7 @@
     "kd": 16
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "npn-and-pnp-proximity-sensors",
@@ -179,7 +179,7 @@
     "kd": 12
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "digital-pressure-gauge-working",
@@ -192,7 +192,7 @@
     "kd": 10
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "ultrasonic-distance-sensor-sr04",
@@ -223,7 +223,7 @@
     "kd": 8
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "digital-logic-gates-explained",
