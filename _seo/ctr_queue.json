@@ -151,7 +151,7 @@
 "electrical insulation classes",
 "electric motor insulation class"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "9-plc-data-types-explained",
@@ -167,7 +167,7 @@
 "data type in plc",
 "data types in plc programming"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "atm-to-kpa-pressure-conversion",
@@ -182,7 +182,7 @@
 "kpa to atm",
 "how to convert atm to kpa formula"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "mutual-inductance-coupling-coefficient",
@@ -196,7 +196,7 @@
 "formula for mutual inductance",
 "mutual inductance of two coils formula"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "how-nitrogen-purging-works",
@@ -212,7 +212,7 @@
 "nitrogen purging to remove oxygen",
 "why nitrogen is used for purging"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "rc-low-pass-high-pass-filter",
@@ -223,7 +223,7 @@
 "queries": [
 "cut off frequency of low pass filter"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "annubar-flow-meter-working",
@@ -239,7 +239,7 @@
 "flow nozzle working principle",
 "anubar flow meter"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "joukowsky-equation-water-hammer",
@@ -253,7 +253,7 @@
 "water hammer formula",
 "joukowsky equation water hammer"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "cold-loop-and-hot-loop-testing",
@@ -267,7 +267,7 @@
 "hot loop check and cold loop check",
 "cold loop checking in instrumentation"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "star-delta-transformation-formula",
@@ -283,7 +283,7 @@
 "star delta transformation formula",
 "star-delta transformation"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "half-adder-vs-full-adder",
@@ -295,7 +295,7 @@
 "half adder and full adder",
 "difference between half adder and full adder"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "different-types-of-photoelectric-sensors",
@@ -311,7 +311,7 @@
 "types of photoelectric sensors",
 "different types of controllers"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "flow-characteristics-of-control-valves",
@@ -326,7 +326,7 @@
 "choked flow in control valve",
 "flow characteristics of control valve"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "what-is-a-mimic-panel-types-uses",
@@ -340,7 +340,7 @@
 "what is mimic panel",
 "mimic diagram in panel"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "wheatstone-bridge-10-applications",
@@ -356,7 +356,7 @@
 "wheatstone bridge applications",
 "wheatstone bridge uses"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "cascode-amplifier-working-principle",
@@ -372,7 +372,7 @@
 "potentiometer working principle",
 "differential pressure transmitter working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "flip-flop-types-sr-jk-d-t",
@@ -383,7 +383,7 @@
 "queries": [
 "types of flip flop"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "induction-motor-slip-explained",
@@ -394,7 +394,7 @@
 "queries": [
 "induction motor slip formula"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "types-of-thermocouples-and-ranges",
@@ -406,7 +406,7 @@
 "thermocouple types and ranges",
 "types of thermocouples and their ranges"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "astable-vs-monostable-vs-bistable-multivibrator",
@@ -421,7 +421,7 @@
 "astable vs monostable vs bistable",
 "astable bistable and monostable multivibrator"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "measurement-uncertainty-in-calibration",
@@ -430,7 +430,7 @@
 "ctr": 0.73,
 "pos": 8.6,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "pressure-tappings-in-orifice-plate",
@@ -446,7 +446,7 @@
 "orifice plate sizes",
 "standard orifice plate"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "scada-communication-problems",
@@ -457,7 +457,7 @@
 "queries": [
 "aveva scada communication issues fix"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "pressure-gauge-accuracy-classes",
@@ -473,7 +473,7 @@
 "pressure gauge snubber working principle",
 "bourdon tube pressure gauge"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "flemings-left-hand-rule-motor",
@@ -486,7 +486,7 @@
 "newton's left hand rule",
 "flemings left hand rule examples"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "point-to-point-connection-multidrop-connection",
@@ -495,7 +495,7 @@
 "ctr": 0.33,
 "pos": 8.9,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "what-is-sensor-linearity",
@@ -506,7 +506,7 @@
 "queries": [
 "sensor linearity"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "level-transmitter-5-point-calibration",
@@ -522,7 +522,7 @@
 "level transmitter",
 "level transmitter types"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "controllogix-5590-plc",
@@ -533,7 +533,7 @@
 "queries": [
 "allen bradley controllogix plc"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "square-root-extraction-dp-flow",
@@ -545,7 +545,7 @@
 "dp flow square root formula",
 "flow transmitter square root calculator"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "types-of-allen-bradley-plcs",
