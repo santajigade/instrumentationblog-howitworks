@@ -4,14 +4,14 @@
   "keywords": [
    "mutual inductance formula"
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "varactor-diode-working-principle",
   "keywords": [
    "varactor diode"
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "open-loop-and-closed-loop-control-system",
@@ -20,7 +20,7 @@
    "difference between open loop and closed loop system",
    "open loop and closed loop difference"
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "bus-duct-busway-system",
@@ -36,14 +36,14 @@
    "npn pnp sensor",
    "pnp proximity sensor"
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "digital-pressure-gauge-working",
   "keywords": [
    "digital pressure gauge"
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "ultrasonic-distance-sensor-sr04",
