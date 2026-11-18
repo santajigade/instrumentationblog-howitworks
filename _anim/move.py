@@ -5,8 +5,10 @@ def call(path, data=None):
     req = urllib.request.Request(B + path, data=data, method='POST' if data else 'GET', headers={'Authorization': AUTH, 'User-Agent': 'ib-anim/1.0', 'Content-Type': 'application/json'})
     with urllib.request.urlopen(req, timeout=120) as r: return json.loads(r.read())
 def txt(s): return re.sub(r'\s+', ' ', H.unescape(re.sub('<[^>]+>', '', s))).strip()
-MOVES = {5949: 'DP Transmitter Level Measurement for Open Tanks', 13246: 'The Complete 4-20 mA Loop: How It All Connects', 9065: 'Example of a PLC Scan Cycle'}
-for pid, target in MOVES.items():
+import urllib.parse
+MOVES = {'displacer-level-transmitter-working-principle': 'The 5-Step Displacer Level Transmitter Working Principle', 'turbine-flow-meter-working-principle': 'How a Turbine Flow Meter Works', 'inductive-vs-capacitive-proximity-sensors': 'How a Capacitive Proximity Sensor Works'}
+for slug, target in MOVES.items():
+    pid = call('/wp/v2/posts?slug=' + urllib.parse.quote(slug) + '&_fields=id')[0]['id']
     w = call(f'/ib/v1/widgets/{pid}')
     fig = None
     for x in w['widgets']:
