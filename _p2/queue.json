@@ -261,7 +261,7 @@
     "kd": 14
    }
   ],
-  "status": "todo"
+  "status": "skip"
  },
  {
   "slug": "rc-low-pass-high-pass-filter",
@@ -580,7 +580,7 @@
     "kd": 16
    }
   ],
-  "status": "todo"
+  "status": "skip"
  },
  {
   "slug": "transformer-efficiency-calculation",
@@ -658,7 +658,7 @@
     "kd": 17
    }
   ],
-  "status": "todo"
+  "status": "skip"
  },
  {
   "slug": "rtd-resistance-to-temperature-calculator",
@@ -696,7 +696,7 @@
     "kd": 27
    }
   ],
-  "status": "todo"
+  "status": "skip"
  },
  {
   "slug": "smd-resistor-code",
