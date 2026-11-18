@@ -18,7 +18,7 @@ for f in sorted(glob.glob('_anim/todo/*.json')):
         up_name = re.sub(r'[^a-z0-9]+', '-', fk.lower()).strip('-') + '-animation.webp'
         a['alt'] = fk + ' animation'
         a['html'] = re.sub(r'alt="[^"]*" title="[^"]*"', f'alt="{a["alt"]}" title="{a["alt"]}"', a['html'])
-        if 'class="ib-anim"' in json.dumps(w): raise Exception('already has animation')
+        if 'ib-anim' in json.dumps(w): raise Exception('already has animation')
         m = call('/wp/v2/media', open(path_file, 'rb').read(), 'image/webp')
         call(f"/wp/v2/media/{m['id']}", json.dumps({'alt_text': a['alt'], 'title': a['alt'], 'caption': a['alt']}).encode())
         html = a['html'].replace('{{IMG}}', m['source_url']).replace('<figure ', '<figure class="ib-anim" ', 1)

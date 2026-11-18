@@ -1,5 +1,9 @@
 name: Animation embed
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+    inputs:
+      script:
+        default: apply
 concurrency:
   group: geo
   cancel-in-progress: false
@@ -13,7 +17,7 @@ jobs:
       - env:
           U: ${{ secrets.WP_USER }}
           P: ${{ secrets.WP_APP_PASSWORD }}
-        run: python3 _anim/apply.py
+        run: python3 _anim/${{ inputs.script }}.py
       - run: |
           git config user.name "ib-anim-bot"; git config user.email "ib-anim-bot@users.noreply.github.com"
           git add _anim && (git diff --cached --quiet || git commit -m "Animation embed") && git pull --rebase -q && git push -q
