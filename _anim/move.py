@@ -6,7 +6,7 @@ def call(path, data=None):
     with urllib.request.urlopen(req, timeout=120) as r: return json.loads(r.read())
 def txt(s): return re.sub(r'\s+', ' ', H.unescape(re.sub('<[^>]+>', '', s))).strip()
 import urllib.parse
-MOVES = {'reed-switch-working-principle': ('Reed Switch in AC and DC Circuits', 'before')}
+MOVES = {'open-loop-and-closed-loop-control-system': ('Comparision of Open Loop vs Closed Loop', 'after'), 'npn-and-pnp-proximity-sensors': ('Basic Working Principle (In Very Simple Language)', 'after'), 'digital-pressure-gauge-working': ('How the Gauge Turns Pressure Into Numbers', 'after'), 'varactor-diode-working-principle': ('Why Reverse Voltage Controls Capacitance', 'after')}
 for slug, (target, mode) in MOVES.items():
     pid = call('/wp/v2/posts?slug=' + urllib.parse.quote(slug) + '&_fields=id')[0]['id']
     w = call(f'/ib/v1/widgets/{pid}')
