@@ -33,10 +33,10 @@ Add new topics anywhere; keep slugs unique and blog slugs from _src/blog_slugs.t
 - [x] scada-report-by-exception | SCADA Report by Exception | SCADA | report-by-exception-scada-dnp3
 - [x] split-range-control | Split Range Control | DCS | split-range-control-working-principle
 - [x] plc-counter | PLC Up Counter (CTU) | PLC | plc-counter-instructions-ctu-ctd
-- [ ] limit-switch | Limit Switch | Switches | what-is-a-limit-switch
-- [ ] hart-protocol | HART Protocol | Signals | hart-protocol-how-it-works
-- [ ] pid-controller | PID Controller | DCS | pid-controller-types-explained
-- [ ] plc-analog-scaling | PLC Analog Input Scaling | PLC | plc-analog-scaling-raw-count
+- [x] limit-switch | Limit Switch | Switches | what-is-a-limit-switch
+- [x] hart-protocol | HART Protocol | Signals | hart-protocol-how-it-works
+- [x] pid-controller | PID Controller | DCS | pid-controller-types-explained
+- [x] plc-analog-scaling | PLC Analog Input Scaling | PLC | plc-analog-scaling-raw-count
 - [ ] float-level-switch | Float Level Switch | Switches | float-level-switch-working-principle-and-applications
 - [ ] historian-swinging-door | Historian Swinging Door Compression | SCADA | historian-data-compression-swinging-door
 - [ ] ratio-control | Ratio Control | DCS | what-is-ratio-control-in-process-industries

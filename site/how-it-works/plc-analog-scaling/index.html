@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How PLC Analog Input Scaling Works: Raw Count Formula, Example</title>
+<meta name="description" content="How PLC analog input scaling works, animated: a 4 to 20 mA signal becomes a raw ADC count and the scaling block turns it into pressure on the HMI.">
+<link rel="canonical" href="https://www.instrumentationblog.in/how-it-works/plc-analog-scaling/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Instrumentation Blog">
+<meta property="og:title" content="How PLC Analog Input Scaling Works: Raw Count Formula, Example">
+<meta property="og:description" content="How PLC analog input scaling works, animated: a 4 to 20 mA signal becomes a raw ADC count and the scaling block turns it into pressure on the HMI.">
+<meta property="og:url" content="https://www.instrumentationblog.in/how-it-works/plc-analog-scaling/">
+<meta property="og:image" content="https://www.instrumentationblog.in/how-it-works/plc-analog-scaling/plc-analog-scaling-working-diagram.webp">
+<meta property="og:image:width" content="1560">
+<meta property="og:image:height" content="988">
+<meta property="og:image:alt" content="Labelled diagram showing how plc analog input scaling works">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://www.instrumentationblog.in/how-it-works/plc-analog-scaling/plc-analog-scaling-working-diagram.webp">
+<link rel="icon" href="https://www.instrumentationblog.in/favicon.ico">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R3NLR1WRYC"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-R3NLR1WRYC");</script>
+<style>
+html{-webkit-text-size-adjust:100%}body{margin:0;background:#f1f3f7;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#1f2733}
+.ibs-top{background:#1e73be;color:#fff;font-size:13.5px}
+.ibs-in{max-width:1100px;margin:0 auto;padding:0 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ibs-top .ibs-in{min-height:36px}
+.ibs-top a{color:#fff;text-decoration:none}
+.ibs-head{background:#fff;border-bottom:1px solid #e3e7ee}
+.ibs-head .ibs-in{min-height:86px}
+.ibs-logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.ibs-mark{width:58px;height:58px;background:#ffef00;display:flex;align-items:center;justify-content:center;font:900 38px/1 Arial,Helvetica,sans-serif;color:#1e73be;letter-spacing:-2px}
+.ibs-name{font-weight:800;font-size:18px;color:#1a2333;line-height:1.1}.ibs-name small{display:block;font-weight:500;font-size:12px;color:#6b7383}
+.ibs-nav{display:flex;flex-wrap:wrap;gap:4px 22px}
+.ibs-nav a{color:#1f2733;text-decoration:none;font-size:16px}
+.ibs-nav a:hover,.ibs-nav a.on{color:#e4004b}
+.ibs-main{padding:22px 16px 30px}
+.ibs-pv{text-align:center;padding:6px 16px 18px;font:13px/1.4 Arial,Helvetica,sans-serif;color:#5b6573}.ibs-pv span{display:inline-block;background:#fff;border:1px solid #dde3ea;border-radius:999px;padding:5px 14px}
+.ibs-foot{background:#1a2333;color:#aab3c5;font-size:13px}.ibs-foot .ibs-in{min-height:56px}.ibs-foot a{color:#d6dcea}
+@media(max-width:700px){.ibs-top a{display:none}.ibs-head .ibs-in{padding:10px 16px}.ibs-nav{gap:4px 16px}.ibs-nav a{font-size:15px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="ibs-top"><div class="ibs-in"><span>Free engineering calculators and unit converters</span><a href="mailto:ceo@instrumentationblog.in">ceo@instrumentationblog.in</a></div></div>
+<header class="ibs-head"><div class="ibs-in">
+<a class="ibs-logo" href="https://www.instrumentationblog.in/" aria-label="Instrumentation Blog home"><span class="ibs-mark">ib</span><span class="ibs-name">Instrumentation Blog<small>Instrumentation simplified, knowledge amplified</small></span></a>
+<nav class="ibs-nav"><a href="https://www.instrumentationblog.in/">Home</a><a href="https://www.instrumentationblog.in/calculators/">Calculators</a><a href="https://www.instrumentationblog.in/unit-converters/">Unit Converters</a><a href="https://www.instrumentationblog.in/tools/">Tools</a><a href="https://www.instrumentationblog.in/downloads/">Downloads</a><a href="https://www.instrumentationblog.in/glossary/">Glossary</a></nav>
+</div></header>
+<main class="ibs-main"><style>
+.ibuc .hw-stage{max-width:780px;margin:0 auto;background:#fff;border:1px solid var(--b);border-radius:14px;overflow:hidden}
+.ibuc .hw-stage canvas{display:block;width:100%}
+.ibuc .hw-bar{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin:12px auto 0;max-width:780px}
+.ibuc button.hw-pp{background:var(--n) !important;color:#fff !important;border:0 !important;border-radius:999px !important;padding:8px 16px !important;font-size:14px;font-weight:700;cursor:pointer;line-height:1.2}
+.ibuc .hw-note{font-size:13px;color:var(--m)}
+.ibuc .hw-ctl{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px 22px;margin:18px 0 0}
+.ibuc .hw-s label{display:flex;justify-content:space-between;font-size:14px;font-weight:700;color:var(--n);margin:0 0 6px}
+.ibuc .hw-s label b{color:var(--gc);font-variant-numeric:tabular-nums}
+.ibuc .hw-s input[type=range]{width:100%;accent-color:var(--gc);height:28px;margin:0}
+.ibuc .hw-leg{list-style:none;padding:0;margin:16px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:8px 18px}
+.ibuc .hw-leg li{display:flex;gap:10px;align-items:flex-start;font-size:14.5px}
+.ibuc .hw-leg i{flex:0 0 24px;height:24px;border-radius:50%;background:#d9622b;color:#fff;font-style:normal;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center}
+.ibuc ol.hw-steps{list-style:none;counter-reset:s;padding:0;margin:0}
+.ibuc ol.hw-steps li{counter-increment:s;position:relative;padding:0 0 14px 46px;margin:0}
+.ibuc ol.hw-steps li:before{content:counter(s);position:absolute;left:0;top:-2px;width:32px;height:32px;border-radius:50%;background:var(--gc);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center}
+.ibuc .hw-fig{margin:0;text-align:center}
+.ibuc .hw-fig img{width:100%;max-width:780px;height:auto;border:1px solid var(--b);border-radius:12px}
+.ibuc .hw-fig figcaption{font-size:14px;color:var(--m);margin:10px auto 0;max-width:780px;text-align:left}
+.ibuc button.hw-dl{background:#fff !important;color:var(--n) !important;border:1.5px solid var(--n) !important}
+.ibuc .hw-uses{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.ibuc .hw-use{background:var(--l);border:1px solid var(--b);border-left:4px solid var(--gc);border-radius:10px;padding:12px 14px}
+.ibuc .hw-use b{display:block;color:var(--n);margin:0 0 4px}
+.ibuc .hw-use span{font-size:14.5px;color:#334155}
+.ibuc ul.hw-tips{list-style:none;padding:0;margin:0}
+.ibuc ul.hw-tips li{position:relative;padding:0 0 10px 30px}
+.ibuc ul.hw-tips li:before{content:"✓";position:absolute;left:0;top:0;width:20px;height:20px;border-radius:50%;background:var(--gc);color:#fff;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center}
+.ibuc .hw-f{background:#1a2333;color:#e6edf7;border-radius:12px;padding:16px 18px;font-family:'Courier New',monospace;font-size:15.5px;line-height:1.75;overflow-x:auto}
+.ibuc .hw-f b{color:#fbbf24;font-weight:700}
+</style><style>
+.ibuc{--n:#1a2333;--t:#1f2733;--m:#5b6576;--b:#dde3ee;--l:#f6f8fc;--a:#d9622b;--g:#1f9d55;color:var(--t);font-size:16px;line-height:1.6;max-width:1100px;margin:0 auto}
+.ibuc *{box-sizing:border-box}
+.ibuc a{color:#1f5fbf;text-decoration:none}.ibuc a:hover{text-decoration:underline}
+.ibuc h1,.ibuc h2,.ibuc h3{line-height:1.25;margin:0 0 12px;color:var(--n);font-weight:700;letter-spacing:0;text-transform:none}
+.ibuc h2{font-size:24px;margin-top:8px}.ibuc h3{font-size:18px}
+.ibuc p{margin:0 0 12px}
+.ibuc .ibuc-crumb{font-size:13px;color:var(--m);margin:0 0 12px}
+.ibuc .ibuc-hero{border-radius:16px;padding:28px 26px;color:#fff;margin:0 0 20px}
+.ibuc .ibuc-hero h1{color:#fff !important;font-size:34px;margin:6px 0 10px}
+.ibuc .ibuc-eye{font-size:12px;letter-spacing:.12em;text-transform:uppercase;opacity:.85;font-weight:700}
+.ibuc .ibuc-hero p{color:#e8ecf4;margin:0 0 14px;max-width:760px}
+.ibuc .ibuc-pills{display:flex;flex-wrap:wrap;gap:8px}
+.ibuc .ibuc-pill{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);color:#fff;border-radius:999px;padding:3px 12px;font-size:13px}
+.ibuc .ibuc-card{background:#fff;border:1px solid var(--b);border-radius:14px;padding:22px;margin:0 0 22px;box-shadow:0 2px 10px rgba(26,35,51,.05)}
+.ibuc .ibuc-tool{border-top:4px solid var(--a);scroll-margin-top:90px}
+.ibuc .ibuc-grid{display:grid;grid-template-columns:1fr 1.3fr auto 1.3fr;gap:12px;align-items:end}
+.ibuc .ibuc-field label{display:block;font-size:13px;font-weight:700;color:var(--m);margin:0 0 5px}
+.ibuc .ibuc-field input,.ibuc .ibuc-field select{width:100%;height:46px;border:1.5px solid var(--b) !important;border-radius:10px !important;padding:0 12px !important;font-size:16px;background:#fff !important;color:var(--t) !important;margin:0;box-shadow:none}
+.ibuc .ibuc-field input:focus,.ibuc .ibuc-field select:focus{outline:none;border-color:var(--a) !important;box-shadow:0 0 0 3px rgba(217,98,43,.15)}
+.ibuc .ibuc-field input.ibuc-bad{border-color:#c0392b !important}
+.ibuc button.ibuc-swap{height:46px;width:46px;border-radius:50% !important;border:1.5px solid var(--b) !important;background:var(--l) !important;color:var(--n) !important;font-size:20px;cursor:pointer;padding:0 !important;line-height:1}
+.ibuc button.ibuc-swap:hover{background:var(--n) !important;color:#fff !important}
+.ibuc .ibuc-result{background:var(--l);border-radius:12px;padding:16px 18px;margin:16px 0 12px}
+.ibuc .ibuc-res-main{font-size:22px;color:var(--n);word-break:break-word}
+.ibuc .ibuc-res-main b{color:var(--a);font-size:28px}
+.ibuc .ibuc-res-sub{font-size:14px;color:var(--m);margin-top:6px;word-break:break-word}
+.ibuc .ibuc-bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:14px;color:var(--m)}
+.ibuc .ibuc-bar select{height:36px;border:1.5px solid var(--b) !important;border-radius:8px !important;padding:0 8px !important;background:#fff !important;color:var(--t) !important;width:auto}
+.ibuc button.ibuc-btn{background:var(--n) !important;color:#fff !important;border:0 !important;border-radius:8px !important;padding:8px 16px !important;font-size:14px;font-weight:600;cursor:pointer;line-height:1.2}
+.ibuc button.ibuc-btn:hover{background:var(--a) !important}
+.ibuc .ibuc-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;align-items:center}
+.ibuc .ibuc-chips span{font-size:13px;font-weight:700;color:var(--m)}
+.ibuc button.ibuc-chip,.ibuc a.ibuc-chip{background:#fff !important;border:1.5px solid var(--b) !important;color:var(--n) !important;border-radius:999px !important;padding:5px 13px !important;font-size:13px;cursor:pointer;line-height:1.3;font-weight:500;text-decoration:none}
+.ibuc button.ibuc-chip:hover,.ibuc a.ibuc-chip:hover{border-color:var(--a) !important;color:var(--a) !important;text-decoration:none}
+.ibuc .ibuc-tw{overflow-x:auto;border:1px solid var(--b);border-radius:10px}
+.ibuc table.ibuc-t{width:100%;border-collapse:collapse;margin:0;font-size:15px;border:0}
+.ibuc table.ibuc-t th{background:var(--n) !important;color:#fff !important;text-align:left;padding:10px 12px;font-weight:600;border:0 !important}
+.ibuc table.ibuc-t td{padding:8px 12px;border:0 !important;border-bottom:1px solid var(--b) !important;background:#fff;vertical-align:top}
+.ibuc table.ibuc-t tr:nth-child(even) td{background:#fafbfd}
+.ibuc table.ibuc-t tr:last-child td{border-bottom:0 !important}
+.ibuc table.ibuc-t td.ibuc-num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.ibuc #ibuc-all tr{cursor:pointer}.ibuc #ibuc-all tr:hover td{background:#fff4ee}
+.ibuc #ibuc-all tr.ibuc-hl td{background:#fde9de;font-weight:700}
+.ibuc .ibuc-two{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.ibuc .ibuc-fbox{background:var(--n);color:#fff;border-radius:12px;padding:16px 18px;margin:12px 0;font-family:Consolas,Menlo,monospace;font-size:15px;word-break:break-word}
+.ibuc .ibuc-key{border-left:4px solid var(--a);background:#fff6f1;border-radius:0 10px 10px 0;padding:12px 16px;margin:12px 0}
+.ibuc .ibuc-steps{margin:0 0 12px;padding-left:22px}.ibuc .ibuc-steps li{margin-bottom:6px}
+.ibuc details{border:1px solid var(--b);border-radius:10px;margin:0 0 10px;background:#fff}
+.ibuc summary{cursor:pointer;padding:12px 16px;font-weight:700;color:var(--n);list-style:none}
+.ibuc summary::-webkit-details-marker{display:none}
+.ibuc summary:before{content:"Q";display:inline-block;background:var(--a);color:#fff;border-radius:6px;width:22px;height:22px;text-align:center;line-height:22px;font-size:12px;margin-right:10px}
+.ibuc details p{padding:0 16px 14px 48px;margin:0;color:var(--t)}
+.ibuc .ibuc-links{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.ibuc .ibuc-links a{display:block;border:1px solid var(--b);border-radius:10px;padding:10px 14px;background:#fff;color:var(--n);font-weight:600;font-size:15px}
+.ibuc .ibuc-links a small{display:block;font-weight:400;color:var(--m);font-size:12.5px;margin-top:2px}
+.ibuc .ibuc-links a:hover{border-color:var(--a);text-decoration:none;box-shadow:0 3px 12px rgba(217,98,43,.12)}
+.ibuc .ibuc-ymal{border-radius:14px;padding:22px;color:#fff;margin:0 0 22px}
+.ibuc .ibuc-ymal h3{color:#fff !important;margin-bottom:6px}
+.ibuc .ibuc-ymal .ibuc-yt{font-weight:700;font-size:18px;margin:0 0 6px}
+.ibuc .ibuc-ymal p{color:#e8ecf4}
+.ibuc a.ibuc-go{display:inline-block;background:var(--g);color:#fff !important;border-radius:999px;padding:8px 20px;font-weight:700;font-size:14px}
+.ibuc a.ibuc-go:hover{text-decoration:none;filter:brightness(1.08)}
+.ibuc .ibuc-ref{background:var(--l);border:1px solid var(--b);border-radius:14px;padding:20px 22px;margin:0 0 22px}
+.ibuc .ibuc-ad{margin:6px 0 24px;text-align:center}
+.ibuc .ibuc-adl{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#98a1b0;border-top:1px dotted #c8cfdb;border-bottom:1px dotted #c8cfdb;padding:3px 0;margin-bottom:8px}
+.ibuc .ibuc-adph{border:1.5px dashed #c8cfdb;border-radius:8px;padding:30px;color:#98a1b0;font-size:13px}
+.ibuc .ibuc-status{border-radius:8px;padding:10px 14px;font-size:14px;margin:12px 0 0}
+.ibuc .ibuc-ok{background:#e7f6ee;color:#14663a}.ibuc .ibuc-warn{background:#fff4dc;color:#7a5400}.ibuc .ibuc-err{background:#fde7e7;color:#9b1c1c}
+.ibuc .ibuc-g3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.ibuc .ibuc-g4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.ibuc .ibuc-sub{font-size:13px;color:var(--m);margin:6px 0 0}
+.ibuc .ibuc-search{width:100%;height:52px;border:2px solid rgba(255,255,255,.35) !important;background:rgba(255,255,255,.96) !important;border-radius:12px !important;padding:0 16px !important;font-size:17px;color:var(--t) !important;margin-top:6px}
+.ibuc .ibuc-cat{scroll-margin-top:90px}
+.ibuc .ibuc-cath{display:flex;align-items:center;gap:12px;margin:0 0 4px}
+.ibuc .ibuc-dot{width:12px;height:12px;border-radius:50%;flex:none}
+.ibuc .ibuc-toc{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.ibuc .ibuc-stats{display:flex;gap:22px;flex-wrap:wrap;margin:4px 0 14px}
+.ibuc .ibuc-stats b{display:block;font-size:26px;color:#fff}.ibuc .ibuc-stats span{font-size:13px;color:#cfd6e4}
+.ibuc .ibuc-empty{display:none;color:var(--m);padding:10px 0}
+@media (max-width:760px){
+ .ibuc .ibuc-grid{grid-template-columns:1fr}
+ .ibuc button.ibuc-swap{position:relative;grid-column:1/-1;width:100%;border-radius:10px !important;height:38px}
+ .ibuc .ibuc-two,.ibuc .ibuc-g3,.ibuc .ibuc-g4{grid-template-columns:1fr}
+ .ibuc .ibuc-hero{padding:22px 18px}.ibuc .ibuc-hero h1{font-size:26px}
+ .ibuc .ibuc-card{padding:16px}
+ .ibuc .ibuc-res-main{font-size:18px}.ibuc .ibuc-res-main b{font-size:22px}
+}
+</style><style>
+.ibuc .ibuc-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 16px}
+.ibuc button.ibuc-tab{background:var(--l) !important;color:var(--n) !important;border:1.5px solid var(--b) !important;border-radius:999px !important;padding:8px 16px !important;font-size:14px;font-weight:700;cursor:pointer;line-height:1.2}
+.ibuc button.ibuc-tab.on{background:var(--n) !important;color:#fff !important;border-color:var(--n) !important}
+.ibuc .ibuc-out{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:16px 0 0}
+.ibuc .ibuc-o{background:var(--l);border-radius:12px;padding:12px 14px}
+.ibuc .ibuc-o span{display:block;font-size:12.5px;color:var(--m);font-weight:600}
+.ibuc .ibuc-o b{display:block;font-size:22px;color:var(--n);font-variant-numeric:tabular-nums;word-break:break-word}
+.ibuc .ibuc-o.main{background:#fff1e9}.ibuc .ibuc-o.main b{color:var(--a);font-size:26px}
+.ibuc .ibuc-steps-box{background:#fff;border:1px dashed var(--b);border-radius:10px;padding:12px 16px;margin:14px 0 0;font-size:14.5px}
+.ibuc .ibuc-steps-box ol{margin:6px 0 0;padding-left:20px}
+.ibuc table.ibuc-grid10 td,.ibuc table.ibuc-grid10 th{text-align:right;padding:6px 8px;font-size:13.5px;white-space:nowrap}
+.ibuc table.ibuc-grid10 td:first-child,.ibuc table.ibuc-grid10 th:first-child{text-align:left;font-weight:700;background:#eef2f9}
+.ibuc .ibuc-soon a,.ibuc .ibuc-soon div{opacity:1}
+.ibuc .ibuc-links div.ibuc-dis{display:block;border:1px dashed var(--b);border-radius:10px;padding:10px 14px;background:#fafbfd;color:#8a93a3;font-weight:600;font-size:15px}
+.ibuc .ibuc-links div.ibuc-dis small{display:block;font-weight:400;font-size:12.5px;margin-top:2px}
+.ibuc .ibuc-badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:middle}
+.ibuc .ibuc-badge.live{background:#e7f6ee;color:#14663a}.ibuc .ibuc-badge.soon{background:#eef1f6;color:#6b7383}
+.ibuc .ibuc-catgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.ibuc .ibuc-catcard{display:block;border-radius:14px;padding:18px;color:#fff !important;min-height:150px;position:relative}
+.ibuc a.ibuc-catcard:hover{text-decoration:none;transform:translateY(-2px);box-shadow:0 8px 22px rgba(26,35,51,.18)}
+.ibuc .ibuc-catcard h3{color:#fff !important;margin:0 0 6px;font-size:19px}
+.ibuc .ibuc-catcard p{color:#e3e8f1;font-size:14px;margin:0 0 10px}
+.ibuc .ibuc-catcard span{font-size:12.5px;font-weight:700;background:rgba(255,255,255,.16);border-radius:999px;padding:3px 10px}
+@media print{.ibs-top,.ibs-head,.ibs-foot,.ibuc-ad,.ibuc-hero,.ibuc-noprint{display:none !important}.ibuc .ibuc-card{box-shadow:none;border:0}}
+</style><style>
+.ibuc .ibx-bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 14px}
+.ibuc .ibx-q{flex:1 1 260px;min-width:0;padding:12px 14px 12px 40px !important;border:1px solid #cfd8e3 !important;border-radius:12px !important;font-size:15px !important;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236b7686' stroke-width='2.4'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m20 20-3.5-3.5'/%3E%3C/svg%3E") no-repeat 14px 50% !important;box-sizing:border-box}
+.ibuc .ibx-q:focus{outline:2px solid #1e73be;border-color:#1e73be !important}
+.ibuc .ibx-n{font-size:13.5px;color:#5a6575;white-space:nowrap;font-weight:600}
+.ibuc .ibx-chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.ibuc .ibx-chip{border:1px solid var(--b,#cfd8e3) !important;background:var(--l,#fff) !important;color:var(--d,#1f2733) !important;border-radius:999px !important;padding:7px 15px !important;font-size:13.5px !important;font-weight:700;cursor:pointer;line-height:1.3;transition:transform .12s}
+.ibuc .ibx-chip:hover{transform:translateY(-1px)}
+.ibuc .ibx-chip.on{background:var(--d,#1a2333) !important;color:#fff !important;border-color:var(--d,#1a2333) !important}
+.ibuc .ibx-chip b{font-weight:600;opacity:.7;margin-left:5px}
+.ibuc .ibx-grp{margin:0 0 26px}
+.ibuc .ibx-gh{display:flex;align-items:center;gap:10px;margin:0 0 12px;font-size:17px;font-weight:800;color:var(--d)}
+.ibuc .ibx-gh:before{content:"";width:10px;height:22px;border-radius:4px;background:var(--d)}
+.ibuc .ibx-gh small{font-size:12.5px;font-weight:700;background:var(--l);border:1px solid var(--b);color:var(--d);border-radius:999px;padding:2px 9px}
+.ibuc .ibx-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
+.ibuc a.ibx-card{position:relative;display:flex;flex-direction:column;gap:6px;min-height:120px;padding:16px 16px 14px;border:1px solid var(--b);border-top:4px solid var(--d);border-radius:14px;background:var(--l);color:#1f2733 !important;text-decoration:none !important;transition:transform .15s,box-shadow .15s;box-sizing:border-box}
+.ibuc a.ibx-card:hover{transform:translateY(-3px);box-shadow:0 10px 22px rgba(26,35,51,.13)}
+.ibuc .ibx-card .ibx-t{max-width:calc(100% - 34px);box-sizing:border-box;align-self:flex-start;font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--d);background:#fff;border:1px solid var(--b);border-radius:999px;padding:2px 8px}
+.ibuc .ibx-card .ibx-h{font-size:15.5px;font-weight:700;line-height:1.35;padding-right:20px}
+.ibuc .ibx-card .ibx-s{font-size:13px;color:#4f5a6a;line-height:1.4;margin-top:auto}
+.ibuc .ibx-card:after{content:"→";position:absolute;right:14px;top:14px;width:24px;height:24px;line-height:24px;text-align:center;border-radius:50%;background:#fff;color:var(--d);font-weight:800;font-size:13px;transition:transform .15s}
+.ibuc .ibx-card:hover:after{transform:translateX(3px)}
+.ibuc .ibx-adslot{margin:4px 0 30px}
+.ibuc .ibx-adslot .ibuc-ad{margin:0}
+.ibuc .ibx-none{display:none;padding:18px;text-align:center;color:#5a6575;border:1px dashed #cfd8e3;border-radius:12px;margin:0 0 20px}
+@media(max-width:520px){.ibuc .ibx-grid{grid-template-columns:1fr;gap:12px}.ibuc a.ibx-card{min-height:0}}
+</style><style>
+.ibuc .cmp-verdict{font-size:17.5px;line-height:1.55;background:#fff;border-left:5px solid var(--gc);border-radius:12px;padding:16px 18px;margin:0 0 22px;box-shadow:0 1px 3px rgba(26,35,51,.08)}
+.ibuc .cmp-verdict b{color:var(--gc)}
+.ibuc .cmp-wrap{overflow-x:auto;margin:0 -4px;padding:0 4px}
+.ibuc table.cmp-t{width:100%;border-collapse:separate;border-spacing:0;font-size:15px;min-width:520px}
+.ibuc table.cmp-t th{background:var(--gc);color:#fff;text-align:left;padding:11px 12px;font-size:14.5px}
+.ibuc table.cmp-t th:first-child{border-radius:10px 0 0 0;background:#1a2333}.ibuc table.cmp-t th:last-child{border-radius:0 10px 0 0;background:#3b4bb0}
+.ibuc table.cmp-t td{padding:10px 12px;border-bottom:1px solid #e3e7ee;vertical-align:top}
+.ibuc table.cmp-t tr:nth-child(even) td{background:#f6f8fb}
+.ibuc table.cmp-t td:first-child{font-weight:700;color:#13283f;width:24%}
+.ibuc .cmp-two{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 22px}
+.ibuc .cmp-box{border-radius:14px;padding:18px 20px;border:1px solid var(--b);background:var(--l);border-top:4px solid var(--d)}
+.ibuc .cmp-box h3{margin:0 0 10px;color:var(--d);font-size:18px}
+.ibuc .cmp-box ul{margin:0;padding-left:20px}.ibuc .cmp-box li{margin:0 0 6px}
+@media(max-width:640px){.ibuc .cmp-two{grid-template-columns:1fr}
+.ibuc table.cmp-t{min-width:0}.ibuc table.cmp-t thead{display:none}
+.ibuc table.cmp-t tr{display:block;border:1px solid #e3e7ee;border-radius:12px;margin:0 0 12px;overflow:hidden}
+.ibuc table.cmp-t td{display:block;width:auto !important;border-bottom:1px solid #eef1f5}
+.ibuc table.cmp-t td:first-child{background:#1a2333 !important;color:#fff}
+.ibuc table.cmp-t td[data-l]:before{content:attr(data-l);display:block;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:var(--gc);margin-bottom:2px}
+.ibuc table.cmp-t td:last-child[data-l]:before{color:#3b4bb0}
+.ibuc table.cmp-t tr:nth-child(even) td{background:#fff}}
+</style>
+<div class="ibuc" id="ibuc-app" style="--gc:#c2410c">
+<nav class="ibuc-crumb" aria-label="Breadcrumb"><a href="https://www.instrumentationblog.in/">Home</a> › <a href="https://www.instrumentationblog.in/how-it-works/">How It Works</a> › PLC Analog Input Scaling</nav>
+<header class="ibuc-hero" style="background:linear-gradient(135deg,#c2410c 0%,#4a1a05 100%)">
+  <div class="ibuc-eye">PLC · How It Works</div>
+  <h1>How PLC Analog Input Scaling Works</h1>
+  <p>Move the input current, the transmitter range and the raw count the card gives at 20 mA. Watch the card convert the current to a raw count, the scaling block turn it into bar and the status change when the signal leaves the normal range.</p>
+  <div class="ibuc-pills"><span class="ibuc-pill">Live animation</span><span class="ibuc-pill">Adjustable sliders</span><span class="ibuc-pill">Formula and example</span></div>
+</header>
+<p class="cmp-verdict"><b>Quick answer:</b> A PLC analog input card converts the 4 to 20 mA current into an integer called the raw count. The program then scales that count with a straight line equation into engineering units such as bar, °C or m³/h.</p>
+<section class="ibuc-card"><h2>What Is a PLC Analog Input Scaling?</h2><p>A PLC cannot use milliamps directly. The analog input card measures the current across a small resistor, converts it with an analog to digital converter and stores the result as a whole number in a word of memory.</p><p>Each card maps its signal range to a fixed count range set by the manufacturer and the card settings. The program must know both ends of that count range and both ends of the transmitter range to calculate the real value.</p><p>Most analog problems on commissioning are scaling errors: the wrong count range, the wrong transmitter range or a missing check for wire break. A clear picture of the straight line behind scaling makes them quick to find.</p></section>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>How PLC Analog Input Scaling Works: Interactive Animation</h2>
+<div class="hw-stage"><canvas id="hw-cv" role="img" aria-label="Animated diagram showing how plc analog input scaling works"></canvas></div>
+<div class="hw-bar"><span><button type="button" class="hw-pp" id="hw-pp">Pause animation</button> <button type="button" class="hw-pp hw-dl" id="hw-dl" data-name="plc-analog-scaling-working-diagram.png" data-title="How PLC Analog Input Scaling Works">Download diagram</button></span><span class="hw-note">Numbered markers match the parts list below.</span></div>
+<div class="hw-ctl" id="hw-ctl"><div class="hw-s"><label for="hw-i">Input current <b id="hw-i-v"></b></label><input type="range" id="hw-i" data-k="i" min="3" max="22" step="0.05" value="12" data-d="2" data-u="mA"></div><div class="hw-s"><label for="hw-eu">Transmitter range high (low = 0) <b id="hw-eu-v"></b></label><input type="range" id="hw-eu" data-k="eu" min="1" max="100" step="1" value="10" data-d="0" data-u="bar"></div><div class="hw-s"><label for="hw-rh">Raw count at 20 mA (4 mA = 0) <b id="hw-rh-v"></b></label><input type="range" id="hw-rh" data-k="rh" min="4000" max="32000" step="1000" value="32000" data-d="0" data-u=""></div></div>
+<div class="ibuc-out"><div class="ibuc-o"><span>Raw count</span><b id="hw-o-raw">…</b></div><div class="ibuc-o main"><span>Scaled value</span><b id="hw-o-eu">…</b></div><div class="ibuc-o"><span>Resolution (value per count)</span><b id="hw-o-res">…</b></div><div class="ibuc-o"><span>Signal status (NAMUR NE 43)</span><b id="hw-o-st">…</b></div></div>
+<ol class="hw-leg"><li><i>1</i><span>Transmitter sending 4 to 20 mA</span></li><li><i>2</i><span>Input shunt resistor on the card</span></li><li><i>3</i><span>ADC sampling the voltage</span></li><li><i>4</i><span>Raw count stored in an input word</span></li><li><i>5</i><span>Scaling block (straight line equation)</span></li><li><i>6</i><span>Engineering value on the HMI</span></li><li><i>7</i><span>Scaling line from raw count to bar</span></li></ol>
+</section>
+<section class="ibuc-card"><h2>PLC Analog Input Scaling Working Principle Step by Step</h2><ol class="hw-steps"><li>The transmitter sends a current between 4 and 20 mA that is proportional to the process value.</li><li>The card passes the current through a shunt resistor, producing a small voltage.</li><li>The ADC samples that voltage and the card stores it as a raw count, with 4 mA at the low count and 20 mA at the high count.</li><li>The scaling block in the program uses the straight line equation to convert the raw count into engineering units.</li><li>The program checks the current or count against limits to flag under range, over range and wire break before using the value.</li></ol></section>
+<section class="ibuc-card"><h2>PLC Analog Input Scaling Labelled Diagram</h2><figure class="hw-fig"><img src="https://www.instrumentationblog.in/how-it-works/plc-analog-scaling/plc-analog-scaling-working-diagram.webp" alt="Labelled diagram showing how plc analog input scaling works" title="How PLC Analog Input Scaling Works" width="1560" height="988" loading="lazy" decoding="async"><figcaption>Numbered parts: 1 transmitter sending 4 to 20 ma; 2 input shunt resistor on the card; 3 adc sampling the voltage; 4 raw count stored in an input word; 5 scaling block (straight line equation); 6 engineering value on the hmi; 7 scaling line from raw count to bar.</figcaption></figure></section>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>PLC Analog Input Scaling Formula</h2><div class="hw-f"><b>Value = EU low + (raw − raw low) × (EU high − EU low) ÷ (raw high − raw low)</b><br>Raw count = raw low + (I − 4) ÷ 16 × (raw high − raw low)<br>Resolution = (EU high − EU low) ÷ (raw high − raw low)<br>NAMUR NE 43: 3.8 to 20.5 mA is the measuring range; 3.6 mA or less and 21 mA or more signal a failure<br>Example: 12 mA, range 0 to 10 bar, raw 0 to 32000: raw = (12 − 4) ÷ 16 × 32000 = 16000; value = 16000 × 10 ÷ 32000 = 5.000 bar; resolution about 0.00031 bar per count</div></section>
+<section class="ibuc-card"><h2>Main Parts of a PLC Analog Input Scaling</h2><div class="cmp-wrap"><table class="cmp-t"><thead><tr><th>Part</th><th>What it does</th></tr></thead><tbody><tr><td>Shunt resistor</td><td data-l="What it does">Converts the loop current into a voltage the card can measure</td></tr><tr><td>ADC</td><td data-l="What it does">Converts the voltage into a binary number, usually with 12 to 16 bits of resolution</td></tr><tr><td>Input filter</td><td data-l="What it does">Smooths noise by averaging samples, adding a small delay</td></tr><tr><td>Input word</td><td data-l="What it does">Memory location where the raw count is stored for the program</td></tr><tr><td>Scaling block</td><td data-l="What it does">Program instruction or function that turns the count into engineering units and checks limits</td></tr></tbody></table></div></section>
+<section class="ibuc-card"><h2>Where a PLC Analog Input Scaling Is Used</h2><div class="hw-uses"><div class="hw-use"><b>Pressure and level transmitters</b><span>Turn 4 to 20 mA from field transmitters into bar, metres or percent.</span></div><div class="hw-use"><b>Temperature transmitters</b><span>Scale a head mounted transmitter signal into °C.</span></div><div class="hw-use"><b>Flow measurement</b><span>Convert flow transmitter signals into m³/h for control and totalising.</span></div><div class="hw-use"><b>Wire break alarms</b><span>Use the raw count below the 4 mA value to detect an open loop.</span></div></div></section>
+<div class="cmp-two"><div class="cmp-box" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2"><h3>Advantages</h3><ul><li>Simple straight line math, easy to check by hand</li><li>Raw count range and engineering range are set independently</li><li>Allows under range and wire break detection from the same signal</li></ul></div><div class="cmp-box" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8"><h3>Limitations</h3><ul><li>Wrong count range or transmitter range gives a wrong value with no alarm</li><li>Card resolution and filtering limit the finest change you can see</li><li>Non linear signals such as square root flow need an extra step</li></ul></div></div>
+<section class="ibuc-card"><h2>PLC Analog Input Scaling Field Tips and Common Problems</h2><ul class="hw-tips"><li>Check the card manual for the raw count at 4 mA and 20 mA for the range you selected; it differs between cards and settings.</li><li>Make sure the engineering range in the PLC matches the range configured in the transmitter.</li><li>Inject 4, 12 and 20 mA with a loop calibrator and confirm 0, 50 and 100 % on the HMI during loop checks.</li><li>Alarm on current below 3.6 mA or above 21 mA so a broken wire or failed transmitter is not read as a real value.</li></ul></section>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>Related Calculators and Tools</h2><div class="ibx-grid"><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://www.instrumentationblog.in/calculators/plc-signal/analog-scaling-calculator/"><span class="ibx-t">Calculator</span><span class="ibx-h">Analog Scaling Calculator</span><span class="ibx-s">Free online calculator with formula and worked example.</span></a><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://www.instrumentationblog.in/calculators/plc-signal/adc-resolution-calculator/"><span class="ibx-t">Calculator</span><span class="ibx-h">ADC Resolution Calculator</span><span class="ibx-s">Free online calculator with formula and worked example.</span></a><a class="ibx-card" style="--l:#e4f6f7;--d:#0f7b80;--b:#bfe6e8" href="https://www.instrumentationblog.in/tools/practice-tests/plc-and-signals-quiz/"><span class="ibx-t">Tool</span><span class="ibx-h">PLC and Signals Quiz</span><span class="ibx-s">Step by step interactive troubleshooting.</span></a><a class="ibx-card" style="--l:#fff4e0;--d:#a8620a;--b:#f5ddb0" href="https://www.instrumentationblog.in/glossary/analog-scaling/"><span class="ibx-t">Glossary</span><span class="ibx-h">Analog Scaling</span><span class="ibx-s">Definition, formula and example.</span></a><a class="ibx-card" style="--l:#fff4e0;--d:#a8620a;--b:#f5ddb0" href="https://www.instrumentationblog.in/glossary/adc-resolution/"><span class="ibx-t">Glossary</span><span class="ibx-h">ADC Resolution</span><span class="ibx-s">Definition, formula and example.</span></a><a class="ibx-card" style="--l:#fff4e0;--d:#a8620a;--b:#f5ddb0" href="https://www.instrumentationblog.in/glossary/namur-ne43/"><span class="ibx-t">Glossary</span><span class="ibx-h">NAMUR NE 43</span><span class="ibx-s">Definition, formula and example.</span></a><a class="ibx-card" style="--l:#f3edfc;--d:#6b3fb0;--b:#ddd0f3" href="https://www.instrumentationblog.in/compare/4-20-ma-vs-0-10-v/"><span class="ibx-t">Compare</span><span class="ibx-h">4 to 20 mA vs 0 to 10 V</span><span class="ibx-s">Side by side comparison table.</span></a></div></section>
+<section class="ibuc-card"><h2>Frequently Asked Questions</h2><details open><summary>What is a raw count in a PLC?</summary><p>It is the integer the analog card writes to memory after converting the signal. Its range, such as 0 to 32000, depends on the card and its settings.</p></details><details><summary>Why does my PLC show a negative value?</summary><p>The current is below 4 mA, so the raw count is below the 4 mA count. Check for a wire break, a failed transmitter or a wrong card range.</p></details><details><summary>How do I scale a 4 to 20 mA signal?</summary><p>Use the straight line equation from the raw count at 4 mA and 20 mA to the transmitter range low and high. The formula and example on this page show the steps.</p></details><details><summary>What is the resolution of an analog input?</summary><p>It is the smallest change in value that one count represents, equal to the engineering span divided by the number of counts.</p></details></section>
+<div class="ibuc-ymal" style="background:linear-gradient(135deg,#c2410c 0%,#4a1a05 100%)"><div class="ibuc-eye">You May Also Like</div><h3>Learn more on the blog</h3><p class="ibuc-yt">PLC analog scaling and raw count</p><p>A practical guide on instrumentationblog.in that goes deeper into this topic with field examples.</p><a class="ibuc-go" href="https://www.instrumentationblog.in/plc-analog-scaling-raw-count/">Read Full Article</a></div>
+<section class="ibuc-card"><h2>More How It Works</h2><div class="ibx-grid"><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://www.instrumentationblog.in/how-it-works/ladder-logic-start-stop/"><span class="ibx-t">PLC</span><span class="ibx-h">How a Start Stop Latch Works in Ladder Logic</span><span class="ibx-s">A start stop latch uses the output&#x27;s own contact in parallel with the Start button, so the coil …</span></a><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://www.instrumentationblog.in/how-it-works/plc-counter/"><span class="ibx-t">PLC</span><span class="ibx-h">How a PLC Up Counter Works</span><span class="ibx-s">An up counter (CTU) adds one to its current value CV every time its count input CU changes from …</span></a><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://www.instrumentationblog.in/how-it-works/plc-scan-cycle/"><span class="ibx-t">PLC</span><span class="ibx-h">How a PLC Scan Cycle Works</span><span class="ibx-s">A PLC works in a repeating loop called the scan cycle…</span></a><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://www.instrumentationblog.in/how-it-works/plc-timer/"><span class="ibx-t">PLC</span><span class="ibx-h">How a PLC On Delay Timer Works</span><span class="ibx-s">An on delay timer (TON) starts timing when its input turns on and turns its output on only after…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/how-it-works/orifice-plate/"><span class="ibx-t">Flow</span><span class="ibx-h">How an Orifice Plate Works</span><span class="ibx-s">An orifice plate is a thin plate with a hole that squeezes the flow…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/how-it-works/magnetic-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How a Magnetic Flow Meter Works</span><span class="ibx-s">A magnetic flow meter (magmeter) uses Faraday&#x27;s law…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/how-it-works/vortex-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How a Vortex Flow Meter Works</span><span class="ibx-s">A vortex flow meter places a bluff body (shedder bar) across the flow…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/how-it-works/coriolis-flow-meter/"><span class="ibx-t">Flow</span><span class="ibx-h">How a Coriolis Flow Meter Works</span><span class="ibx-s">A Coriolis meter vibrates its flow tubes at their natural frequency…</span></a></div></section>
+<p style="text-align:center;margin:0 0 22px"><a href="https://www.instrumentationblog.in/how-it-works/"><b>All How It Works animations</b></a> · <a href="https://www.instrumentationblog.in/glossary/"><b>Instrumentation glossary</b></a> · <a href="https://www.instrumentationblog.in/compare/"><b>Comparisons</b></a></p>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+</div>
+<script>
+(function(){
+var cv=document.getElementById('hw-cv');if(!cv)return;
+var C=cv.getContext('2d'),W=640,H=360,run=true,vis=true,last=0,T=0,P={},dirty=true;
+function fit(){var w=cv.parentNode.clientWidth,d=window.devicePixelRatio||1,s=w/W;cv.width=Math.round(w*d);cv.height=Math.round(H*s*d);cv.style.height=Math.round(H*s)+'px';C.setTransform(s*d,0,0,s*d,0,0);dirty=true;}
+function m(x,d){var s=Math.abs(x).toFixed(d);return(x<0&&Number(s)!==0?'−':'')+s;}
+function o(id,v){var e=document.getElementById('hw-o-'+id);if(e&&e.textContent!==v)e.textContent=v;}
+function L(t,x,y,sz,c,a,b){C.font=(b?'700 ':'')+(sz||13)+'px "Segoe UI",Arial,sans-serif';C.fillStyle=c||'#1f2733';C.textAlign=a||'center';C.textBaseline='middle';C.fillText(t,x,y);}
+function ln(x1,y1,x2,y2,c,w,d){C.strokeStyle=c;C.lineWidth=w||1.5;C.setLineDash(d||[]);C.beginPath();C.moveTo(x1,y1);C.lineTo(x2,y2);C.stroke();C.setLineDash([]);}
+function rc(x,y,w,h,f,s,r){C.beginPath();if(r&&C.roundRect)C.roundRect(x,y,w,h,r);else C.rect(x,y,w,h);if(f){C.fillStyle=f;C.fill();}if(s){C.strokeStyle=s;C.lineWidth=1.5;C.stroke();}}
+function ci(x,y,r,f,s,w){C.beginPath();C.arc(x,y,r,0,Math.PI*2);if(f){C.fillStyle=f;C.fill();}if(s){C.strokeStyle=s;C.lineWidth=w||1.5;C.stroke();}}
+function mk(n,x,y){ci(x,y,11,'#d9622b','#fff',2);L(String(n),x,y+1,13,'#fff','center',1);}
+function ar(x1,y1,x2,y2,c,w){ln(x1,y1,x2,y2,c,w);var a=Math.atan2(y2-y1,x2-x1),h=8;C.fillStyle=c;C.beginPath();C.moveTo(x2,y2);C.lineTo(x2-h*Math.cos(a-.45),y2-h*Math.sin(a-.45));C.lineTo(x2-h*Math.cos(a+.45),y2-h*Math.sin(a+.45));C.closePath();C.fill();}
+function sm(u){u=u<0?0:u>1?1:u;return u*u*(3-2*u);}
+function clamp(x,a,b){return x<a?a:x>b?b:x;}
+function rd(){[].forEach.call(document.querySelectorAll('#hw-ctl input'),function(i){P[i.dataset.k]=parseFloat(i.value);var e=document.getElementById(i.id+'-v');if(e)e.textContent=m(P[i.dataset.k],+i.dataset.d)+(i.dataset.u?' '+i.dataset.u:'');});upd();dirty=true;}
+function wave(x1,x2,y,yb,col,ph){C.fillStyle=col;C.beginPath();C.moveTo(x1,yb);for(var x=x1;x<=x2;x+=4)C.lineTo(x,y+2.2*Math.sin(x/17+T*3+(ph||0))+1.2*Math.sin(x/7-T*5));C.lineTo(x2,yb);C.closePath();C.fill();C.strokeStyle='#1e3a8a';C.lineWidth=2;C.beginPath();for(var x=x1;x<=x2;x+=4){var yy=y+2.2*Math.sin(x/17+T*3+(ph||0))+1.2*Math.sin(x/7-T*5);if(x==x1)C.moveTo(x,yy);else C.lineTo(x,yy);}C.stroke();}
+function stream(x,y1,y2){C.setLineDash([6,8]);C.lineDashOffset=-T*60;C.strokeStyle='#3b82f6';C.lineWidth=4;C.beginPath();C.moveTo(x,y1);C.lineTo(x,y2);C.stroke();C.setLineDash([]);C.lineDashOffset=0;}
+function exp(){var o=document.createElement('canvas'),w=1560,h=878,bh=110,dl=document.getElementById('hw-dl');o.width=w;o.height=h+bh;var x=o.getContext('2d');x.fillStyle='#fff';x.fillRect(0,0,w,h+bh);x.drawImage(cv,0,0,w,h);x.fillStyle='#f6f8fc';x.fillRect(0,h,w,bh);x.fillStyle='#dde3ee';x.fillRect(0,h,w,2);
+x.fillStyle='#ffe500';x.beginPath();if(x.roundRect)x.roundRect(40,h+20,70,70,10);else x.rect(40,h+20,70,70);x.fill();x.fillStyle='#1e63b8';x.font='800 44px "Segoe UI",Arial,sans-serif';x.textAlign='center';x.textBaseline='middle';x.fillText('ib',75,h+56);
+x.textAlign='left';x.fillStyle='#1a2333';x.font='700 30px "Segoe UI",Arial,sans-serif';x.fillText('Instrumentation Blog',128,h+42);x.fillStyle='#5b6576';x.font='22px "Segoe UI",Arial,sans-serif';x.fillText('instrumentationblog.in/how-it-works',128,h+76);
+x.textAlign='right';x.fillStyle='#1a2333';x.font='700 28px "Segoe UI",Arial,sans-serif';x.fillText(dl?dl.dataset.title:'',w-40,h+56);return o;}
+window.__hwExport=function(){return exp().toDataURL('image/png');};
+function pipe(x1,x2,cy,R,fl){rc(x1,cy-R-12,x2-x1,12,'#9aa5b8');rc(x1,cy+R,x2-x1,12,'#9aa5b8');rc(x1,cy-R,x2-x1,2*R,fl||'#e6f0fd');}
+
+var nz=0,nt=0,dots=[],fl=0;for(var k=0;k<14;k++)dots.push(k/14);
+function raw(i){return Math.round((i-4)/16*P.rh);}
+function val(r){return r*P.eu/P.rh;}
+function stat(i){return i<=3.6?'Failure: 3.6 mA or less':i<3.8?'Under range':i<=20.5?'Normal measuring range':i<21?'Over range':'Failure: 21 mA or more';}
+function upd(){var r=raw(P.i),rs=P.eu/P.rh;o('raw',m(r,0));o('eu',m(val(r),3)+' bar');o('res',m(rs,rs<0.001?5:4)+' bar');o('st',stat(P.i));}
+function step(dt){nt-=dt;if(nt<=0){nt=0.3;nz=(Math.random()-0.5)*0.008;fl=1;}fl=Math.max(0,fl-dt*4);for(var k=0;k<dots.length;k++){dots[k]+=dt*0.25*P.i/20;if(dots[k]>=1)dots[k]-=1;}}
+function draw(){var i=P.i+nz,r=raw(i),v=val(r),bad=i<3.8||i>20.5;
+L('A small input noise is added so the last digits flicker as on a real card',20,22,11,'#5b6576','left');
+rc(20,60,90,80,'#ffffff','#c2410c',8);C.lineWidth=2.5;C.strokeStyle='#c2410c';C.stroke();L('Pressure',65,76,11,'#1a2333','center',1);L('transmitter',65,92,11,'#1a2333','center',1);L(m(P.i,2)+' mA',65,118,12,'#c2410c','center',1);
+ln(110,84,170,84,'#475569',2.5);ln(110,116,170,116,'#475569',2.5);for(var k=0;k<dots.length;k++){ci(110+dots[k]*60,84,3,'#16a34a');ci(170-dots[k]*60,116,3,'#16a34a');}
+rc(160,44,190,112,null,'#64748b',8);C.setLineDash([4,4]);C.strokeStyle='#64748b';C.lineWidth=1.2;C.stroke();C.setLineDash([]);L('Analog input card',255,146,11,'#5b6576','center',1);
+ln(184,84,184,92,'#475569',2);ln(184,108,184,116,'#475569',2);ln(170,84,184,84,'#475569',2);ln(170,116,184,116,'#475569',2);
+C.strokeStyle='#d9622b';C.lineWidth=2.5;C.beginPath();C.moveTo(184,92);for(var z=0;z<4;z++)C.lineTo(z%2?178:190,94+z*4);C.lineTo(184,108);C.stroke();L('250 Ω',196,100,11,'#1a2333','left',1);
+ar(238,100,258,100,'#1a2333',1.5);rc(258,66,80,66,'#1a2333',null,6);L('ADC',298,80,11,'#cbd5e1','center',1);
+for(var b=0;b<8;b++){var on=(Math.max(0,r)>>(b+8))&1;rc(266+b*8.5,96,6,14,on?'#fde047':'#475569');}ci(330,74,3,fl>0.2?'#22c55e':'#334155');L('sample',298,122,11,'#cbd5e1','center');
+ar(338,100,358,100,'#1a2333',1.5);rc(358,70,96,60,'#f8fafc','#1e63b8',6);L('Input word',406,84,11,'#5b6576','center',1);L(m(r,0),406,108,14,'#1e63b8','center',1);
+ar(454,100,474,100,'#1a2333',1.5);rc(474,52,152,96,'#1a2333',null,8);L('Scaling block',550,66,11,'#cbd5e1','center',1);L('value = raw × '+m(P.eu,0)+' ÷ '+m(P.rh,0),550,90,11,'#fff','center');
+L('= '+m(r,0)+' × '+m(P.eu/P.rh,6),550,108,11,'#e2e8f0','center');L('= '+m(v,3)+' bar',550,128,12,'#bbf7d0','center',1);
+rc(20,190,200,140,'#1a2333',null,10);L('HMI',40,206,11,'#cbd5e1','left',1);L('PT 101',200,206,11,'#cbd5e1','right',1);L(m(v,3)+' bar',120,238,20,bad?'#fca5a5':'#bbf7d0','center',1);
+var pc=clamp(v/P.eu,0,1.15);rc(36,262,168,14,'#334155');rc(36,262,168*Math.min(pc,1),14,bad?'#ef4444':'#22c55e');ln(36+168*(16000/32000),258,36+168*0.5,280,'#94a3b8',1);
+L('0',36,290,11,'#cbd5e1','left');L(m(P.eu,0)+' bar',204,290,11,'#cbd5e1','right');L(stat(i),120,314,11,bad?'#fca5a5':'#cbd5e1','center',1);
+var gx0=310,gx1=610,gy0=196,gy1=320,rmin=-P.rh/16,rmax=P.rh*18/16,GX=function(q){return gx0+(q-rmin)/(rmax-rmin)*(gx1-gx0);},GY=function(q){return gy1-(q-(-P.eu/16))/(P.eu*18/16)*(gy1-gy0);};
+rc(gx0,gy0,gx1-gx0,gy1-gy0,'#f8fafc','#e2e8f0');rc(GX(rmin),gy0,GX(-0.0125*P.rh)-GX(rmin),gy1-gy0,'rgba(185,28,28,0.10)');rc(GX(1.03125*P.rh),gy0,gx1-GX(1.03125*P.rh),gy1-gy0,'rgba(185,28,28,0.10)');
+ln(GX(rmin),GY(val(rmin)),GX(rmax),GY(val(rmax)),'#1e63b8',2.5);ln(GX(0),gy1,GX(0),gy0,'#cbd5e1',1);ln(gx0,GY(0),gx1,GY(0),'#cbd5e1',1);
+var px=GX(r),py=GY(v);ln(px,gy1,px,py,'#d9622b',1.2,[4,3]);ln(gx0,py,px,py,'#d9622b',1.2,[4,3]);ci(px,py,6,'#d9622b','#fff',2);
+L('4 mA',GX(0),gy1+12,11,'#5b6576','center');L('20 mA',GX(P.rh),gy1+12,11,'#5b6576','center');L('raw '+m(P.rh,0),GX(P.rh),gy1+26,11,'#5b6576','center');L('raw 0',GX(0),gy1+26,11,'#5b6576','center');
+L(m(P.eu,0)+' bar',gx0-4,GY(P.eu),11,'#5b6576','right');L('0',gx0-4,GY(0),11,'#5b6576','right');L('Raw count to bar',gx0+8,gy0+12,11,'#1a2333','left',1);
+mk(1,20,56);mk(2,204,74);mk(3,258,62);mk(4,452,66);mk(5,622,50);mk(6,226,194);mk(7,GX(P.rh*0.75)+14,GY(P.eu*0.75)+14);}
+
+function fr(t){var dt=Math.min(.05,((t-last)/1000)||0);last=t;if(run&&vis&&!document.hidden){T+=dt;step(dt);dirty=true;}if(dirty&&vis){C.clearRect(0,0,W,H);draw();dirty=false;}requestAnimationFrame(fr);}
+[].forEach.call(document.querySelectorAll('#hw-ctl input'),function(i){i.addEventListener('input',rd);});
+var dl=document.getElementById('hw-dl');if(dl&&cv.toBlob)dl.addEventListener('click',function(){exp().toBlob(function(b){var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=dl.dataset.name;document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove();},500);},'image/png');});
+var pp=document.getElementById('hw-pp');if(pp)pp.addEventListener('click',function(){run=!run;pp.textContent=run?'Pause animation':'Play animation';});
+if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){run=false;if(pp)pp.textContent='Play animation';}
+if('IntersectionObserver' in window)new IntersectionObserver(function(e){vis=e[0].isIntersecting;dirty=true;}).observe(cv);
+window.addEventListener('resize',function(){fit();C.clearRect(0,0,W,H);draw();});fit();rd();step(0.016);draw();requestAnimationFrame(fr);
+})();
+</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.instrumentationblog.in/"},{"@type":"ListItem","position":2,"name":"How It Works","item":"https://www.instrumentationblog.in/how-it-works/"},{"@type":"ListItem","position":3,"name":"How PLC Analog Input Scaling Works","item":"https://www.instrumentationblog.in/how-it-works/plc-analog-scaling/"}]},{"@type":"ImageObject","contentUrl":"https://www.instrumentationblog.in/how-it-works/plc-analog-scaling/plc-analog-scaling-working-diagram.webp","name":"How PLC Analog Input Scaling Works","caption":"Labelled diagram showing how plc analog input scaling works","width":1560,"height":988},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is a raw count in a PLC?","acceptedAnswer":{"@type":"Answer","text":"It is the integer the analog card writes to memory after converting the signal. Its range, such as 0 to 32000, depends on the card and its settings."}},{"@type":"Question","name":"Why does my PLC show a negative value?","acceptedAnswer":{"@type":"Answer","text":"The current is below 4 mA, so the raw count is below the 4 mA count. Check for a wire break, a failed transmitter or a wrong card range."}},{"@type":"Question","name":"How do I scale a 4 to 20 mA signal?","acceptedAnswer":{"@type":"Answer","text":"Use the straight line equation from the raw count at 4 mA and 20 mA to the transmitter range low and high. The formula and example on this page show the steps."}},{"@type":"Question","name":"What is the resolution of an analog input?","acceptedAnswer":{"@type":"Answer","text":"It is the smallest change in value that one count represents, equal to the engineering span divided by the number of counts."}}]}]}</script></main>
+<footer class="ibs-foot"><div class="ibs-in"><span>© 2026 instrumentationblog.in · Free tools for instrumentation and control engineers</span><span><a href="https://www.instrumentationblog.in/">Home</a> · <a href="https://www.instrumentationblog.in/calculators/">Calculators</a> · <a href="https://www.instrumentationblog.in/unit-converters/">Unit Converters</a> · <a href="https://www.instrumentationblog.in/tools/">Tools</a> · <a href="https://www.instrumentationblog.in/downloads/">Downloads</a> · <a href="https://www.instrumentationblog.in/glossary/">Glossary</a></span></div></footer>
+</body>
+</html>
