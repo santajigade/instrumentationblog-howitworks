@@ -1,0 +1,31 @@
+{
+ "id": 18431,
+ "slug": "idmt-relay-characteristics-tms-psm",
+ "impr": 2218,
+ "ctr": 0.86,
+ "pos": 6.5,
+ "queries": [],
+ "title": "IDMT Relay: 4 Standard Curves With Easy Setting Examples",
+ "rank_math_title": "",
+ "rank_math_description": "Learn how an IDMT relay works, IEC standard, very, extremely and long time inverse curves, PSM and TMS settings, trip time formula, calculator and grading tips.",
+ "focus_keyword": "IDMT relay",
+ "headings": [
+  "What Is an IDMT Relay?",
+  "PSM and TMS Explained",
+  "4 Standard IEC Curves",
+  "IDMT Relay Trip Time Formula",
+  "Grading Relays in Series",
+  "Curve Comparison at PSM 10",
+  "Where IDMT Protection Is Used",
+  "IDMT Trip Time Calculator",
+  "IDMT Relay Curve Guide",
+  "PS and TMS Explained on Video",
+  "TMS Relay Setting: How the Time Multiplier Changes Trip Time",
+  "Choosing TMS for an upstream relay",
+  "IDMT Relay FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Power Quality & Protection\n\r\n IDMT Relay: 4 Standard Curves With Easy Setting Examples\n\r\n Trip faster for big faults and slower for small overloads, the simple idea behind selective overcurrent protection.\n\r\n \r\n Overcurrent Protection \r\n PSM and TMS \r\n IEC 60255 Curves \r\n Relay Grading \r\n \n\r\n\n\r\n\r\n An IDMT relay trips in a time that falls as fault current rises, but never faster than a definite minimum. This inverse behaviour lets several relays in series grade with each other so only the nearest breaker opens.\n\r\n\r\n \r\n Hello everyone, today we are going to learn how an IDMT relay works, what PSM and TMS mean, how the four IEC curves differ, and how to calculate trip time for a real fault.\r\n\n\r\n \r\n \r\n \r\n\r\n Quick Answer\n What Is an IDMT Relay and How Do PSM and TMS Set Its Trip Time?\n An IDMT relay is an inverse definite minimum time overcurrent relay whose trip time falls as fault current rises , but never below a definite minimum. PSM is fault current divided by pickup current, and TMS shifts the curve in time.\n t = TMS \u00d7 k \u00f7 (PSM^\u03b1 \u2212 1) , with k = 0.14 and \u03b1 = 0.02 for standard inverse.\n Example: 400/1 CT, 100 percent plug, 4000 A fault gives PSM 10, so t = 0.1 \u00d7 0.14 \u00f7 0.0471 \u2248 0.30 s at TMS 0.1.\n\n What Is an IDMT Relay?\n\r\n\r\n An IDMT relay, short for inverse definite minimum time, is an overcurrent relay whose operating time decreases as current increases. It is one of the most common protective relays on feeders, transformers and motors.\n\r\n\r\n At currents just above the pickup setting, the relay waits a long time, allowing for temporary overloads. At high fault currents, it trips quickly, but the curve flattens to a definite minimum time.\n\r\n\r\n \r\n \r\n Image credit: Electrical Engineering Portal \r\n \r\n\r\n The relay receives current through a current transformer , usually with a 1 A or 5 A secondary. Modern numerical relays calculate the curve digitally from IEC or IEEE equations.\n\r\n\r\n Older electromechanical relays used an induction disc whose speed rose with current. The same curve shapes are kept today for compatibility with existing grading studies.\n\r\n\r\n PSM and TMS Explained\n\r\n\r\n \r\n Plug Setting Pickup current as a percent of CT rating\n\r\n Pickup Current Is Plug setting times CT primary\n\r\n PSM Fault current divided by pickup current\n\r\n Curve Equation Gives base time from PSM\n\r\n TMS Multiplies base time to shift the curve\n\r\n\n\r\n\r\n The plug setting multiplier, PSM, tells how many times the fault current exceeds the pickup. For a 400/1 CT with 100 percent plug setting, pickup is 400 A, so a 4000 A fault gives a PSM of 10.\n\r\n\r\n The time multiplier setting, TMS, slides the whole curve up or down in time without changing its shape. It is the main tool for grading relays against each other.\n\r\n\r\n 4 Standard IEC Curves\n\r\n\r\n \r\n 1\n Standard Inverse\n Constants 0.14 and 0.02, general purpose feeders.\n\n\r\n 2\n Very Inverse\n Constants 13.5 and 1, where fault current falls sharply with distance.\n\n\r\n 3\n Extremely Inverse\n Constants 80 and 2, grading with fuses and mot"
+}

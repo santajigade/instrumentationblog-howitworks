@@ -1,0 +1,36 @@
+{
+ "id": 20304,
+ "slug": "lm35-temperature-sensor",
+ "impr": 2386,
+ "ctr": 0.29,
+ "pos": 4.0,
+ "queries": [
+  "what is pt100 temperature sensor"
+ ],
+ "title": "LM35 Temperature Sensor: Pinout, Formula &#038; Calculator",
+ "rank_math_title": "",
+ "rank_math_description": "LM35 temperature sensor guide: 10 mV/\u00b0C output, pinout, Arduino ADC formula, solved example, calculator, negative temperature wiring and noise fixes.",
+ "focus_keyword": "LM35 temperature sensor",
+ "headings": [
+  "What Is the LM35 Temperature Sensor?",
+  "LM35 Temperature Sensor Pinout and Connection",
+  "How the LM35 Temperature Sensor Works",
+  "LM35 Grades and Accuracy",
+  "LM35 Temperature Sensor Arduino Formula",
+  "LM35 Temperature Sensor Calculator",
+  "Second Solved Example: 1.1 V Internal Reference",
+  "LM35 Temperature Sensor Negative Temperature Circuit",
+  "LM35 vs Other Temperature Sensors",
+  "Long Cable and Noise Tips",
+  "Installation for Accurate Readings",
+  "LM35 Troubleshooting Table",
+  "Where the LM35 Is Used",
+  "TI LM35 Datasheet",
+  "LM35 Video Tutorial",
+  "LM35 Temperature Sensor FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Electronic Sensors\n\r\n LM35 Temperature Sensor: Pinout, Arduino Formula, Negative Temperature Wiring and Troubleshooting\n\r\n The LM35 is a small three pin IC that gives an output voltage directly proportional to temperature in degrees Celsius, at 10 mV for every degree. This guide shows how to wire it, read it on an Arduino and fix common errors.\n\r\n \r\n 10 mV per \u00b0C \r\n LM35 Pinout \r\n Arduino ADC Formula \r\n Negative Temperature Circuit \r\n Troubleshooting \r\n \n\r\n\n\r\n\r\n The LM35 temperature sensor is the easiest way to add accurate Celsius measurement to a microcontroller project, with no calibration and only three wires. Here you get the pinout, the ADC formula, a calculator, solved examples and field tips for long cables and noisy panels.\n\r\n\r\n \r\n Hello everyone, today we are going to understand how the LM35 temperature sensor works, how to wire it to an Arduino, how to convert its ADC reading into degrees Celsius and how to troubleshoot wrong readings.\r\n\n\r\n \r\n \r\n \r\n What Is the LM35 Temperature Sensor?\n\r\n\r\n The LM35 temperature sensor is a precision integrated circuit whose output voltage rises linearly by 10 mV for every 1 \u00b0C, so 250 mV means 25 \u00b0C. It needs no external calibration, draws less than 60 \u00b5A and runs from any supply between 4 V and 30 V.\n\r\n\r\n Quick Answer\n Output: 10 mV per \u00b0C, 0 V at 0 \u00b0C, so T (\u00b0C) = Vout in mV \u00f7 10.\n Pinout (flat face towards you): pin 1 +Vs, pin 2 Vout, pin 3 GND.\n Range: minus 55 \u00b0C to 150 \u00b0C for LM35 and LM35A; 0 \u00b0C to 100 \u00b0C for LM35D.\n Accuracy: \u00b10.5 \u00b0C at 25 \u00b0C for the A grade and \u00b11 \u00b0C for the standard part.\n Arduino Uno: T = reading \u00d7 500 \u00f7 1024 with the default 5 V reference.\n \n\r\n\r\n Texas Instruments, the maker, describes it as a centigrade sensor because its output is already scaled in Celsius, unlike Kelvin sensors that need an offset subtracted. Inside, it is a bandgap circuit, the same principle used in a precision reference voltage chip, trimmed at the wafer level.\n\r\n\r\n \r\n \r\n Image credit: Components101 . Pinout diagram courtesy of Components101, shown here for educational reference. \r\n \r\n\r\n The labelled diagram shows the common TO 92 plastic package seen in every Indian electronics shop and college lab kit. Components101 lists pin 1 as Vcc, pin 2 as the analog output and pin 3 as ground, with \u00b10.5 \u00b0C accuracy and a minus 55 \u00b0C to 150 \u00b0C range.\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n LM35 Temperature Sensor Pinout and Connection\n\r\n\r\n Hold the LM35 temperature sensor with the flat printed face towards you and the legs pointing down. From left to right the pins are +Vs, Vout and GND, and this order is the same for the TO 92 and TO 220 packages.\n\r\n\r\n \r\n \r\n Pin Name Connect To Note \n\r\n 1 +Vs 5 V pin of Arduino 4 V to 30 V allowed \n\r\n 2 Vout A0 analog input 10 mV per \u00b0C \n\r\n 3 GND Arduino GND Common ground with ADC \n\r\n \r\n\n\r\n\r\n Quick Tip\n Before applying power, check the pin order twice, because a reversed LM35 gets hot within seconds and can be damaged. Touching the body gently after power up is a quick field che"
+}

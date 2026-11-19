@@ -1,0 +1,36 @@
+{
+ "id": 20297,
+ "slug": "inverting-amplifier-gain-formula",
+ "impr": 2251,
+ "ctr": 0.4,
+ "pos": 6.0,
+ "queries": [
+  "inverting amplifier gain formula",
+  "gain for inverting op amp"
+ ],
+ "title": "Inverting Amplifier Gain: Formula, Examples &#038; Calculator",
+ "rank_math_title": "",
+ "rank_math_description": "Inverting amplifier gain formula Av = minus Rf/Rin with derivation, virtual ground, input impedance, bandwidth from GBW, two solved examples, calculator.",
+ "focus_keyword": "inverting amplifier gain",
+ "headings": [
+  "What Is Inverting Amplifier Gain?",
+  "Inverting Amplifier Gain Formula Derivation",
+  "Virtual Ground and Input Impedance",
+  "Solved Example 1: Inverting Amplifier Gain of Minus 10",
+  "Inverting Amplifier Gain Calculator",
+  "Inverting Amplifier Gain and Bandwidth",
+  "Solved Example 2: Output Swing and Slew Rate",
+  "Inverting vs Non Inverting Amplifier",
+  "How to Choose Rf and Rin for the Right Inverting Amplifier Gain",
+  "Applications of the Inverting Stage",
+  "Myths About Inverting Amplifier Gain",
+  "Troubleshooting an Inverting Op Amp Stage",
+  "Analog Devices Gain and Bandwidth Tutorial",
+  "Video on the Inverting Op Amp and Virtual Ground",
+  "Inverting Amplifier Gain FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Analog Electronics\n\r\n Inverting Amplifier Gain Formula: Derivation, Virtual Ground, Bandwidth and Solved Examples\n\r\n The inverting op amp stage is the first circuit most students build and the one engineers use every day for scaling, summing and filtering. Two resistors set its gain, but bandwidth, output swing and resistor choice decide whether it really works.\n\r\n \r\n Av = minus Rf/Rin \r\n Virtual Ground \r\n Input Impedance \r\n Noise Gain \r\n GBW Bandwidth \r\n Solved Examples \r\n \n\r\n\n\r\n\r\n Inverting amplifier gain depends only on the ratio of two resistors when the op amp is close to ideal. This guide derives the formula, explains virtual ground and input impedance, and shows how bandwidth and supply limits affect a real design.\n\r\n\r\n \r\n Hello everyone, today we are going to learn how inverting amplifier gain is derived, why the output is phase inverted, how to pick the resistors and how gain bandwidth limits a practical circuit.\r\n\n\r\n \r\n \r\n \r\n What Is Inverting Amplifier Gain?\n\r\n\r\n Inverting amplifier gain is the ratio of output voltage to input voltage in an op amp stage where the signal enters the inverting input through Rin and a resistor Rf feeds the output back to the same input. For an ideal op amp it equals minus Rf divided by Rin, so the output is Rf/Rin times larger and shifted by 180\u00b0.\n\r\n\r\n Quick Answer\n Inverting amplifier gain: Av = minus Rf \u00f7 Rin.\n Rf = 100 k\u03a9 and Rin = 10 k\u03a9 give a gain of minus 10, or 20 dB.\n The inverting input sits at virtual ground, about 0 V.\n Input impedance is simply Rin.\n Bandwidth = GBW \u00f7 (1 + Rf/Rin), not GBW \u00f7 gain.\n \n\r\n\r\n The minus sign does not mean the signal is made smaller. It only means the output moves in the opposite direction to the input, so a positive input gives a negative output.\n\r\n\r\n \r\n \r\n \r\n \r\n\r\n Inverting operational amplifier circuit diagram with input resistor, feedback resistor and grounded non inverting input \r\n \r\n\r\n In the circuit above the non inverting input is tied to ground, the input resistor carries the signal to the inverting input and the feedback resistor closes the loop. Circuit Digest labels them R2 and R1, so check the names before using any formula.\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n Inverting Amplifier Gain Formula Derivation\n\r\n\r\n The derivation uses two ideal op amp rules: no current flows into the inputs, and with negative feedback the two inputs sit at the same voltage. Applying Kirchhoff current law at the inverting input then gives the result in three lines.\n\r\n\r\n \r\nCurrent in Rin: I = (Vin minus 0) \u00f7 Rin\nSame current through Rf: I = (0 minus Vout) \u00f7 Rf\nEquate: Vin \u00f7 Rin = minus Vout \u00f7 Rf\n Av = Vout \u00f7 Vin = minus Rf \u00f7 Rin \nGain in dB = 20 \u00d7 log10(Rf \u00f7 Rin)\r\n\n\r\n\r\n Because the open loop gain of a real op amp is very large, the error from this ideal result is tiny. With the exact expression Av = minus (Rf/Rin) \u00f7 (1 + (1 + Rf/Rin) \u00f7 Aol), a 741 class part with an open loop gain of about 200000 at a gain of 10 is off by only about 0.006 percent.\n\r\n\r\n Do You Know?\n The invertin"
+}

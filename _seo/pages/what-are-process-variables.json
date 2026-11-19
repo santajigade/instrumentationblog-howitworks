@@ -1,0 +1,26 @@
+{
+ "id": 13514,
+ "slug": "what-are-process-variables",
+ "impr": 1493,
+ "ctr": 0.4,
+ "pos": 6.8,
+ "queries": [],
+ "title": "Process Variables in HART Transmitters: PV, SV, TV, QV Explained",
+ "rank_math_title": "Process Variables in HART: PV, SV, TV, QV Explained",
+ "rank_math_description": "Understand PV, SV, TV, and QV process variables in HART transmitters. Covers how each variable is mapped, read via a communicator, and used in the control loop.",
+ "focus_keyword": "Process Variables",
+ "headings": [
+  "The Five Process Variables at a Glance",
+  "Where Are Process Variables Measured in a Plant?",
+  "Process Variable 1: Flow :  Definition, Units and Instruments",
+  "Process Variable 2: Pressure :  Definition, Units and Instruments",
+  "Process Variable 3: Temperature :  Definition, Units and Instruments",
+  "Process Variable 4: Level :  Definition, Units and Instruments",
+  "Process Variable 5: Quality (Analytical) :  Definition, Units and Instruments",
+  "Process Variables: Complete Units of Measurement Reference",
+  "Process Variable Unit Converter",
+  "Quick FAQs: Process Variables",
+  "External References"
+ ],
+ "text": "Process Instrumentation \u00b7 PV \u00b7 Flow \u00b7 Pressure \u00b7 Temperature \u00b7 Level \u00b7 Quality\n\r\n Every sensor in your plant measures one of five process variables. Know all five : their definitions, units, instruments and why they matter : in one place.\n\r\n Process variables (PVs) are the physical quantities that an instrumentation and control system measures, monitors and controls in a process plant. The five primary process variables are Flow, Pressure, Temperature, Level and Quality (analytical). This guide covers all five with definitions, measurement units, typical instruments, and a unit converter.\n\r\n \r\n 5 Process Variables \r\n SI and Imperial Units \r\n Instruments Guide \r\n Unit Converter \r\n \n\r\n\n\r\n\r\n\r\n \r\n The Five Process Variables at a Glance\n\r\n\r\n \r\n \r\n \ud83c\udf0a \r\n FLOW\n\r\n m\u00b3/h \u00b7 kg/h \u00b7 L/min \r\n Volume or mass of fluid moving per unit time\n\r\n \n\r\n \r\n \ud83d\udd34 \r\n PRESSURE\n\r\n kPa \u00b7 bar \u00b7 PSI \r\n Force per unit area exerted by a fluid\n\r\n \n\r\n \r\n \ud83c\udf21 \r\n TEMPERATURE\n\r\n \u00b0C \u00b7 \u00b0F \u00b7 K \r\n Measure of thermal energy in a substance\n\r\n \n\r\n \r\n \ud83d\udcca \r\n LEVEL\n\r\n m \u00b7 mm \u00b7 % \r\n Height of liquid or solid in a vessel or tank\n\r\n \n\r\n \r\n \u2697 \r\n QUALITY\n\r\n pH \u00b7 % \u00b7 ppm \u00b7 NTU \r\n Composition, purity or properties of a fluid\n\r\n \n\r\n\n\r\n\r\n \r\n \r\n \r\n \n\r\n \r\n Advertisement\r\n \r\n \n\r\n \n\r\n \r\n \r\n\r\n \r\n \n\r\n \r\n Advertisement\r\n \r\n \n\r\n \n\r\n\n\r\n \r\n \r\n Where Are Process Variables Measured in a Plant?\n\r\n\r\n \r\n Figure 1: Process Variables in a Typical Process Plant Loop\n\r\n \r\n \r\n\r\n \r\n \r\n PROCESS \r\n VESSEL \r\n \r\n \r\n\r\n \r\n \r\n \r\n LEVEL \r\n LT : m / % \r\n\r\n \r\n \r\n \r\n TEMPERATURE : TT : \u00b0C / \u00b0F \r\n\r\n \r\n \r\n \r\n PRESSURE : PT : kPa \r\n\r\n \r\n \r\n \r\n \r\n FT \r\n FLOW \r\n \r\n \r\n \r\n \r\n FLOW : m\u00b3/h \r\n\r\n \r\n \r\n \r\n AT \r\n QUALITY \r\n \r\n \r\n QUALITY : pH / ppm \r\n\r\n \r\n \r\n \r\n\r\n \r\n \r\n DCS / PLC CONTROLLER \r\n Receives all 5 PVs as 4-20 mA \r\n \r\n \r\n \r\n \r\n Figure 1: In a typical process loop, all five process variables are measured simultaneously. Flow transmitters (FT) on inlet/outlet pipes, pressure transmitters (PT) on the vessel, level transmitter (LT) inside the vessel, temperature transmitter (TT) on the vessel wall, and analyser transmitter (AT) on the outlet line. All transmit 4-20 mA to the DCS for monitoring and control.\n\r\n\n\r\n\r\n\r\n \r\n Process Variable 1: Flow : Definition, Units and Instruments\n\r\n\r\n \r\n \r\n \ud83c\udf0a\n\r\n \r\n FLOW\n\r\n The quantity of fluid (liquid, gas or steam) passing a point per unit time\n\r\n \n\r\n \n\r\n \r\n Flow is the movement of fluid from one point to another. It can be expressed as volumetric flow (volume per unit time: m\u00b3/h, L/min, GPM) or mass flow (mass per unit time: kg/h, t/h, lb/min). Mass flow is preferred in process industries because it is independent of fluid temperature and pressure : 100 kg/min is always 100 kg/min regardless of conditions. Volumetric flow varies with density changes.\n\r\n Flow measurement is the single most important process variable in terms of number of instruments installed. Process plants use flow measurement for material balance, product transfer, custody transfer, feed control, and reaction control .\n\r\n \r\n \r\n SI Units\n\r\n m\u00b3/s"
+}

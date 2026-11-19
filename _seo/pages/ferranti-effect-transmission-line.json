@@ -1,0 +1,30 @@
+{
+ "id": 18450,
+ "slug": "ferranti-effect-transmission-line",
+ "impr": 1529,
+ "ctr": 0.59,
+ "pos": 6.6,
+ "queries": [
+  "ferranti effect"
+ ],
+ "title": "Ferranti Effect: 3 Causes, Formula &#038; Calculator",
+ "rank_math_title": "",
+ "rank_math_description": "Ferranti effect explained: why receiving-end voltage rises above sending-end on long, lightly loaded lines, the formula, a calculator and how to reduce it.",
+ "focus_keyword": "Ferranti effect",
+ "headings": [
+  "What Is the Ferranti Effect?",
+  "3 Shocking Reasons the Voltage Rises",
+  "Voltage Rise Formula With Example",
+  "When the Ferranti Effect Appears",
+  "Methods to Control the Ferranti Effect",
+  "Ferranti Effect on Lines vs Cables",
+  "No Load Voltage Rise Calculator",
+  "Ferranti Effect Explained PDF",
+  "Voltage Rise Video Explanation",
+  "Ferranti Effect FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Power Systems\n\r\n Ferranti Effect: 3 Shocking Reasons Voltage Rises at No Load\n\r\n On a long line with little load, the far end voltage can climb above the source, the opposite of what most people expect.\n\r\n \r\n Line Charging Current \r\n Long Transmission Lines \r\n Shunt Reactors \r\n Voltage Rise \r\n \n\r\n\n\r\n\r\n The Ferranti effect is the rise of receiving end voltage above sending end voltage on a long, lightly loaded line or cable. It is caused by line capacitance drawing charging current through the series inductance.\n\r\n\r\n \r\n Hello everyone, today we are going to understand the Ferranti effect, why voltage can rise at the far end of a lightly loaded line, how to estimate it, and how utilities control it.\r\n\n\r\n \r\n \r\n \r\n What Is the Ferranti Effect?\n\r\n\r\n The Ferranti effect is a condition where the receiving end voltage of a long AC line becomes higher than the sending end voltage under light or no load. It was first observed by Sebastian de Ferranti in the 1880s on underground cables in London, and it follows from basic impedance and reactance behaviour.\n\r\n\r\n Normally we expect voltage to fall along a line because of load current. At light load, however, the line itself behaves like a capacitor and draws leading current.\n\r\n\r\n \r\n \r\n Image credit: EEPower \r\n \r\n\r\n That leading charging current flows through the inductive reactance of the line. The resulting voltage drop is in phase with the source voltage and actually adds to it.\n\r\n\r\n EEPower notes the effect is strongest on long lines and especially on cables, whose capacitance is far higher than that of overhead lines.\n\r\n\r\n 3 Shocking Reasons the Voltage Rises\n\r\n\r\n \r\n 1\n Line Charging Current\n Shunt capacitance draws leading current even with no load connected.\n\n\r\n 2\n Inductive Drop Adds in Phase\n Leading current through series inductance raises voltage along the line.\n\n\r\n 3\n Length Squared Growth\n The rise grows roughly with the square of line length.\n\n\r\n\n\r\n\r\n Reason 1 depends on capacitance between conductors and to earth, which is distributed along every metre of the line.\n\r\n\r\n Reason 2 is about phase angles, covered in phase angle in AC circuits . A leading current through an inductor produces a voltage that adds to the source rather than subtracting.\n\r\n\r\n Put together, these three reasons explain why engineers watch voltage closely during light load hours, holidays and night time. Grid operators often see their highest system voltages at these times, not at peak demand.\n\r\n\r\n Voltage Rise Formula With Example\n\r\n\r\n \r\n Vr \u00f7 Vs = 1 \u00f7 cos(\u03b2 \u00d7 \u2113), with \u03b2 = \u03c9 \u00d7 \u221a(L \u00d7 C) \n Approximate rise \u2248 \u03c9\u00b2 \u00d7 L \u00d7 C \u00d7 \u2113\u00b2 \u00f7 2 \n\nWorked example, overhead line at 50 Hz:\nL = 1 mH per km, C = 0.011 \u00b5F per km, \u2113 = 300 km\n\u03b2 = 314 \u00d7 \u221a(1 \u00d7 10^(minus 3) \u00d7 1.1 \u00d7 10^(minus 8)) = 0.00104 rad per km\n\u03b2 \u00d7 \u2113 = 0.3125 rad, cos = 0.9516\n Vr \u2248 1.051 \u00d7 Vs, about 5 percent rise at no load \r\n\n\r\n\r\n Doubling the length to 600 km raises the no load rise to roughly 22 percent. This is why very long lines always need compensation.\n\r\n\r\n EEPower notes t"
+}

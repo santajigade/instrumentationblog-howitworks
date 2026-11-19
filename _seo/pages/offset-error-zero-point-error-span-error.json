@@ -1,0 +1,30 @@
+{
+ "id": 11734,
+ "slug": "offset-error-zero-point-error-span-error",
+ "impr": 1944,
+ "ctr": 0.31,
+ "pos": 8.6,
+ "queries": [
+  "zero offset error"
+ ],
+ "title": "Offset Error, Zero Point Error and Span Error in Instrumentation Explained",
+ "rank_math_title": "Offset Error, Zero Error and Span Error in Instrumentation",
+ "rank_math_description": "Offset error, zero error and span error explained: how each affects the output signal, how to spot them on a calibration chart and how to correct them.",
+ "focus_keyword": "Offset Error",
+ "headings": [
+  "What is Offset Error in Instrumentation?",
+  "Offset Error and Zero-Point Error",
+  "What is Offset Error?",
+  "What is Zero-Point Error?",
+  "Relationship Between Offset Error and Zero-Point Error",
+  "Offset Error and Span Error",
+  "What is Offset Error?",
+  "What is Span Error?",
+  "Relationship Between Offset Error and Span Error",
+  "Case 1: Offset Error Without Span Error",
+  "Case 2: Span Error Without Offset Error",
+  "Why Correcting Both Errors is Important",
+  "What we learn today?"
+ ],
+ "text": "What is Offset Error in Instrumentation?\n In industrial measurement systems, accuracy is everything.\u00a0\n Whether you are measuring\u00a0 pressure ,\u00a0 flow ,\u00a0 temperature , or\u00a0 level , even a small deviation can affect process control and product quality. One of the most common calibration problems engineers face is Offset-Error .\n Offset-Error occurs when a sensor or transmitter shows a constant deviation from the true value across its measurement range.\u00a0\n The output shifts up or down, even though the slope of the measurement remains correct. This type of error is closely related to Zero Point Error , and it is often confused with Span Error during calibration.\n Understanding Offset-Error , Zero-Point Error, and Span Error is extremely important for instrumentation engineers and technicians because incorrect zero or span settings can lead to false readings, process imbalance, and unnecessary troubleshooting.\n In this article, we will clearly explain what Offset-Error means, how it differs from Zero-Point Error and Span Error, and how these errors affect industrial transmitters.\n Quick Answer\n What Is Zero Offset Error in Instrumentation?\n Zero offset error, or zero point error, is the deviation of a sensor output when the input is zero . It is a specific case of offset error, where the whole output shifts by a constant amount.\n Error What happens Example \n Offset Whole line shifts 0 psi gives 5 mV, 10 psi gives 105 mV \n Zero point Wrong reading at zero input only 0 psi gives 1 mV instead of 0 \n Span Wrong slope Error grows toward full scale \n \n \r\n \r\n \r\n \n\r\n \r\n Advertisement\r\n \r\n \n\r\n \n\r\n \r\n \r\n\r\n \r\n \n\r\n \r\n Advertisement\r\n \r\n \n\r\n \n\r\n\n\r\n Offset Error and Zero-Point Error\n In pressure measurement, Offset-Error and Zero-Point Error are classified as systematic errors . This means the error is predictable and repeatable it does not change randomly. Instead, the deviation remains consistent between the actual pressure and the sensor output.\n Although many technicians use these terms interchangeably, they are not exactly the same. To understand them clearly, we must first understand what Offset-Error really means.\n What is Offset Error?\n Offset Error occurs when the sensor output shifts by a fixed amount across the entire measurement range. The slope of the measurement remains correct, but the entire output curve moves upward or downward.\n You can think of Offset Error as a constant \u201cshift\u201d in the signal.\n Example:\n If a pressure sensor is designed to output:\n 0 psi \u2192 0 mV\n But instead it outputs:\n 0 psi \u2192 5 mV\n Then the sensor has an Offset-Error of 5 mV.\n Now let us check another point.\n If the same sensor should output:\n 10 psi \u2192 100 mV\n But instead it outputs:\n 10 psi \u2192 105 mV\n The deviation is still 5 mV.\n This confirms that the Offset-Error is consistent across the full pressure range. The slope is correct, but the entire output line has shifted.\n \r\n \r\n \r\n \n\r\n \r\n Advertisement\r\n \r\n \n\r\n \n\r\n \r\n \r\n\r\n \r\n \n\r\n \r\n Advertisement\r\n \r\n \n\r\n \n\r\n\n\r\n \r\n \r\n \r\n \n\r\n \r\n Adve"
+}

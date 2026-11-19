@@ -1,0 +1,32 @@
+{
+ "id": 18298,
+ "slug": "cable-derating-factors",
+ "impr": 1528,
+ "ctr": 0.72,
+ "pos": 9.6,
+ "queries": [
+  "cable derating factor",
+  "what is derating factor of cable"
+ ],
+ "title": "Cable Derating Factors: 5 Crucial Checks for Safe Sizing",
+ "rank_math_title": "",
+ "rank_math_description": "Learn how cable derating factors for ambient temperature, grouping, soil resistivity and depth reduce cable ampacity, with IEC values, formula and calculator.",
+ "focus_keyword": "cable derating factors",
+ "headings": [
+  "What Are Cable Derating Factors?",
+  "5 Crucial Cable Derating Factors to Check",
+  "Typical IEC Correction Values",
+  "Cable Derating Formula With a Worked Example",
+  "Buried Cables and Soil Conditions",
+  "Where Derating Is Most Often Missed",
+  "How to Apply Cable Derating Factors on a Project",
+  "Cable Derating Calculator",
+  "Cable Sizing Criteria PDF",
+  "Derating Factor Calculation Video",
+  "Cable Derating Factors FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Electrical Design & Calculations\n\r\n Cable Derating Factors: 5 Crucial Checks for Safe Cable Sizing\n\r\n A cable that looks big enough in the catalogue can overheat on site once real temperature and grouping are applied.\n\r\n \r\n IEC 60364 5 52 \r\n Ampacity \r\n Grouping Factor \r\n Ambient Temperature \r\n \n\r\n\n\r\n\r\n Cable derating factors reduce the catalogue current rating of a cable to match real installation conditions. Ignoring them is one of the most common causes of overheated cables and nuisance tripping.\n\r\n\r\n \r\n Hello everyone, today we are going to learn what cable derating factors are, which conditions reduce a cable rating, and how to apply the correction step by step with a worked example.\r\n\n\r\n \r\n \r\n \r\n What Are Cable Derating Factors?\n\r\n\r\n Cable derating factors are multipliers below 1.0 that reduce the tabulated current rating of a cable when site conditions are worse than the standard reference conditions. They are a core part of cable sizing and ampacity calculations.\n\r\n\r\n Catalogue ratings assume ideal conditions, such as 30 \u00b0C air, a single circuit and standard soil. Real plants have hot roofs, crowded cable trays and dry soil, all of which stop heat escaping.\n\r\n\r\n \r\n \r\n Standard table of cable current rating derating factors for installation conditions: Image credit: ELEK Software \r\n \r\n\r\n\r\n\r\n Heat is the real limit. XLPE insulation is typically rated for a 90 \u00b0C conductor temperature and PVC for 70 \u00b0C, and any condition that traps heat pushes the conductor toward those limits.\n\r\n\r\n Standards such as IEC 60364 5 52, BS 7671 and AS/NZS 3008 publish tables of correction factors. In India, designers usually follow IEC values along with the cable maker catalogue.\n\r\n\r\n 5 Crucial Cable Derating Factors to Check\n\r\n\r\n \r\n 1\n Ambient Air Temperature\n Correct for air hotter than the 30 \u00b0C reference.\n\n\r\n 2\n Ground Temperature\n Correct buried cables for soil hotter than 20 \u00b0C.\n\n\r\n 3\n Soil Thermal Resistivity\n Dry or sandy soil holds heat and lowers the rating.\n\n\r\n 4\n Depth of Laying\n Deeper cables lose heat more slowly.\n\n\r\n 5\n Grouping\n Cables close together heat each other.\n\n\r\n\n\r\n\r\n Not every factor applies to every cable. A cable on a tray needs air temperature and grouping, while a buried cable needs ground temperature, soil resistivity, depth and grouping.\n\r\n\r\n Other conditions such as direct sunlight, thermal insulation and harmonic currents can also need correction. ELEK lists nine factors in total for Australian practice.\n\r\n\r\n Typical IEC Correction Values\n\r\n\r\n \r\n \r\n Condition Value XLPE Factor PVC Factor \n\r\n Ambient air 30 \u00b0C 1.00 1.00 \n\r\n Ambient air 40 \u00b0C 0.91 0.87 \n\r\n Ambient air 50 \u00b0C 0.82 0.71 \n\r\n Bunched circuits 2 circuits 0.80 0.80 \n\r\n Bunched circuits 3 circuits 0.70 0.70 \n\r\n Bunched circuits 6 circuits 0.57 0.57 \n\r\n \r\n\n\r\n\r\n These values come from IEC 60364 5 52 tables B.52.14 and B.52.17. PVC loses rating faster with heat because its maximum temperature is lower.\n\r\n\r\n In hot Indian summers, roof and outdoor trays often see 45 to 50 \u00b0C. "
+}

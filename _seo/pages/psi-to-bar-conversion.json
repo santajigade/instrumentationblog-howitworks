@@ -1,0 +1,30 @@
+{
+ "id": 20446,
+ "slug": "psi-to-bar-conversion",
+ "impr": 2430,
+ "ctr": 0.04,
+ "pos": 9.9,
+ "queries": [],
+ "title": "PSI to Bar: Formula, Chart, Psig vs Psia &#038; Calculator",
+ "rank_math_title": "",
+ "rank_math_description": "PSI to bar: multiply by 0.0689476, since 1 bar = 14.5038 psi. Chart from 1 to 10000 psi, psig vs psia, kPa and kg/cm\u00b2, solved examples and a calculator.",
+ "focus_keyword": "psi to bar",
+ "headings": [
+  "What Is PSI to Bar Conversion?",
+  "PSI to Bar Formula and Bar to PSI Formula",
+  "PSI to Bar Conversion Chart From 1 to 10000 psi",
+  "Psig vs Psia vs Bar g vs Bar a",
+  "Solved Examples of PSI to Bar Conversion",
+  "PSI to Bar Calculator With kPa and kg/cm\u00b2",
+  "Converting Gauge and Transmitter Ranges",
+  "Related Units: kPa, MPa, kg/cm\u00b2 and Inches of Water",
+  "Common PSI to Bar Mistakes in the Field",
+  "WIKA Pressure Unit Conversion Table PDF",
+  "Video: How to Convert Pressure Units, psi and bar",
+  "PSI to Bar FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Pressure\n\r\n PSI to Bar Conversion: Formula, Chart From 1 to 10000 psi, Psig vs Psia vs Bar g, kPa and kg/cm\u00b2 With Solved Examples\n\r\n Indian plants buy gauges, transmitters and compressors from the USA, Europe and Japan, so psi and bar often meet on the same skid. This guide gives the exact factor, a ready chart, the gauge and absolute trap and a calculator you can trust in the field.\n\r\n \r\n PSI to Bar Formula \r\n Conversion Chart \r\n Psig vs Psia \r\n kPa and kg/cm\u00b2 \r\n Transmitter Range \r\n \n\r\n\n\r\n\r\n Converting psi to bar is a single multiplication, but mixing gauge and absolute pressure causes real field errors. Here you get the exact factors, a chart from 1 to 10000 psi, solved examples and a calculator for daily instrument work.\n\r\n\r\n \r\n Hello everyone, today we are going to learn psi to bar conversion, the exact factor behind it, the difference between psig, psia and bar g, and how to convert transmitter and gauge ranges without mistakes.\r\n\n\r\n \r\n \r\n \r\n What Is PSI to Bar Conversion?\n\r\n\r\n PSI to bar conversion changes a pressure in pounds per square inch into bar by multiplying by 0.0689476, because 1 psi equals 6894.76 Pa and 1 bar is exactly 100,000 Pa. Going the other way, 1 bar equals about 14.5038 psi, so you can also divide the psi value by 14.5038.\n\r\n\r\n Quick Answer\n 1 psi = 0.0689476 bar = 6.894757 kPa\n 1 bar = 14.50377 psi = 100 kPa\n 100 psi = 6.8948 bar, 150 psi = 10.342 bar\n Psig converts to bar g; add about 1.013 bar to get bar a\n 1 kg/cm\u00b2 = 0.980665 bar, so 100 psi = 7.031 kg/cm\u00b2\n \n\r\n\r\n The factors above come from the WIKA data sheet IN 00.08 on commonly used pressure units, linked as a PDF further down. If the idea of reference pressure is new to you, start with our basics of pressure measurement before the examples.\n\r\n\r\n \r\n \r\n Image credit: Fluke . Image courtesy of Fluke, shown here for educational reference. \r\n \r\n\r\n Fluke states that one psi equals 6894.76 pascals and that sea level atmospheric pressure is about 14.69 psia. It also advises that a value marked only as psi should normally be read as a gauge pressure.\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n PSI to Bar Formula and Bar to PSI Formula\n\r\n\r\n Both directions use the same constant, so learn one and invert it. Keep at least four significant figures for calibration work and two decimals for operator displays.\n\r\n\r\n \r\n bar = psi \u00d7 0.0689476 \n psi = bar \u00d7 14.5038 \nkPa = psi \u00d7 6.894757\nMPa = psi \u00d7 0.00689476\nkg/cm\u00b2 = psi \u00d7 0.070307\r\n\n\r\n\r\n The factor follows from 1 lbf = 4.4482 N acting on 1 square inch of 0.00064516 m\u00b2, which gives 6894.76 Pa. Dividing by 100,000 Pa per bar gives the 0.0689476 used in every conversion of this kind.\n\r\n\r\n The same method links every pressure unit, as our pages on atm to kPa conversion and field instrument unit conversion show. Pressure itself is force over area, which is the idea behind Pascal law in pressure instruments .\n\r\n\r\n Do You Know?\n A quick mental shortcut is to multiply psi by 0.07, which reads about 1.5 percent high. For 100 psi it gives 7.0 b"
+}

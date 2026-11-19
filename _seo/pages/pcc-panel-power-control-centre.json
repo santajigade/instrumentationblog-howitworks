@@ -1,0 +1,33 @@
+{
+ "id": 19963,
+ "slug": "pcc-panel-power-control-centre",
+ "impr": 1528,
+ "ctr": 0.72,
+ "pos": 6.1,
+ "queries": [],
+ "title": "PCC Panel Guide: 8 Essential Parts of a Reliable LT Board",
+ "rank_math_title": "",
+ "rank_math_description": "PCC panel or MCC? A PCC panel takes power from the transformer or DG through ACB incomers and feeds MCCs and DBs. Compare roles, parts, separation, interlocks.",
+ "focus_keyword": "PCC panel",
+ "headings": [
+  "What Is a PCC Panel?",
+  "PCC Panel vs MCC: Clear Differences",
+  "8 Essential Parts of a PCC Panel",
+  "How Power Flows Through a PCC Panel",
+  "Bus Coupler and Interlock Logic",
+  "Forms of Separation in a PCC Panel",
+  "Sizing the Incomer and Fault Level",
+  "PCC Panel Incomer Calculator",
+  "Second Worked Example: A 1000 kVA Plant",
+  "Protection and Metering Schemes",
+  "Commissioning Checklist for a New PCC Panel",
+  "PCC Panel Selection Points for Indian Plants",
+  "BEAMA Guide to Forms of Separation",
+  "Power Control Centre Explained on Video",
+  "PCC Panel FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Industrial Electrical Systems\n\r\n PCC Panel Guide: 8 Essential Parts of a Reliable LT Board\n\r\n Every factory has one main LT board where transformer and generator power first meets the plant loads. That power control centre decides how safely and reliably every motor, light and computer downstream will run.\n\r\n \r\n ACB Incomers \r\n Bus Coupler \r\n Forms of Separation \r\n IEC 61439 \r\n \n\r\n\n\r\n\r\n A PCC panel is the main low voltage switchboard that receives power from transformers and DG sets and distributes it to MCCs and distribution boards. This guide explains its parts, interlocks, ratings and selection for Indian plants.\n\r\n\r\n \r\n Hello everyone, today we are going to learn what a PCC panel is, how it differs from an MCC, which parts it contains and how to size its incomer and busbar.\r\n\n\r\n \r\n \r\n \r\n\r\n What Is a PCC Panel?\n\r\n\r\n A PCC panel, or power control centre, is the main low voltage switchboard of a plant that receives power from one or more transformers or generators and distributes it to motor control centres, distribution boards and large single loads. It sits at the top of the LT system, just downstream of the transformer, and carries the full plant current on its main busbars .\n\r\n\r\n Edvard Csanyi of Electrical Engineering Portal describes main distribution boards, also called power centres, as assemblies placed directly downstream of MV/LV transformers or generators. In Indian practice this same board is called the PCC, and it usually works at 415 V or 433 V, 50 Hz.\n\r\n\r\n \r\n \r\n \r\n \r\n Image credit: Electrical Engineering Portal . Photo courtesy of Electrical Engineering Portal, shown here for educational reference. \r\n \r\n\r\n A PCC panel is built as a row of floor standing cubicles, with incomer sections, a bus coupler and many outgoing feeder modules. It is the starting point of the power distribution system for the whole site.\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n PCC Panel vs MCC: Clear Differences\n\r\n\r\n \r\n \r\n Point PCC Panel MCC \n\r\n Main job Receive and distribute bulk power Start, stop and protect motors \n\r\n Fed from Transformer LV or DG set PCC outgoing feeder \n\r\n Incomer device ACB, often 800 A to 4000 A MCCB or ACB \n\r\n Outgoing feeders MCCBs or ACBs to MCCs and DBs MPCB or MCCB with contactor and overload relay \n\r\n Typical loads MCCs, PDBs, APFC, big chillers Pumps, fans, compressors, conveyors \n\r\n Control logic Changeover, interlocks, load shedding Local and remote motor control \n\r\n \r\n\n\r\n\r\n In short, the PCC panel handles power while the motor control centre handles motors. Many small plants combine both in one board called a PMCC, with power feeders and motor starters sharing the same busbar.\n\r\n\r\n Do You Know?\n Electrical Engineering Portal notes that IEC 61439 1 requires switchboards in normal environments to be enclosed, giving at least IPXXB protection against direct contact. Open switchboards with accessible live parts are only allowed inside closed electrical operating areas.\n\n\r\n\r\n 8 Essential Parts of a PCC Panel\n\r\n\r\n \r\n \r\n Part Funct"
+}

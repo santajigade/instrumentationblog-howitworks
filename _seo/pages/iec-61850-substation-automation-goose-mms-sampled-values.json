@@ -1,0 +1,29 @@
+{
+ "id": 17254,
+ "slug": "iec-61850-substation-automation-goose-mms-sampled-values",
+ "impr": 1566,
+ "ctr": 0.89,
+ "pos": 9.0,
+ "queries": [],
+ "title": "IEC 61850 Standard for Substation Automation: GOOSE, MMS and SV Explained",
+ "rank_math_title": "IEC 61850 for Substation Automation: GOOSE, MMS & SV",
+ "rank_math_description": "IEC 61850 explained: how GOOSE, MMS and Sampled Values work in substation automation, merging unit architecture and a live protocol selector.",
+ "focus_keyword": "IEC 61850",
+ "headings": [
+  "What IEC 61850 Replaced and Why It Matters",
+  "GOOSE: Generic Object-Oriented Substation Event",
+  "What GOOSE Does",
+  "MMS: Manufacturing Message Specification",
+  "What MMS Does",
+  "Sampled Values: The Process Bus",
+  "What Sampled Values Do",
+  "GOOSE vs MMS vs Sampled Values: Protocol Comparison",
+  "IEC 61850 Protocol Use Case Selector",
+  "Watch: IEC 61850 \u2014 GOOSE, Sampled Values and MMS Animated (2026)",
+  "IEC 61850 Questions Engineers Ask",
+  "Related Articles on This Site",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Industrial Networking and Protocols\n\r\n IEC 61850 Standard for Substation Automation: GOOSE, MMS and SV Explained\n\r\n IEC 61850 is the international standard for communication in power utility automation. It defines how intelligent electronic devices (IEDs) in electrical substations communicate with each other and with the SCADA system.\n\r\n The standard uses three distinct communication services: GOOSE, MMS, and Sampled Values (SV).\n\r\n This guide explains each service, the substation automation architecture it enables, and how this standard differs from older SCADA protocols such as DNP3 and Modbus.\n\r\n \r\n GOOSE \u2014 Layer 2 Event \r\n MMS \u2014 Client/Server \r\n Sampled Values \u2014 Process Bus \r\n SCL Configuration \r\n \n\r\n\n\r\n\r\n Before IEC 61850, substation automation meant running copper wires between relays, RTUs, and meters \u2014 every signal a separate pair of conductors.\n\r\n The standard replaced most hardwired connections with an Ethernet-based framework. A protection relay trip that once needed a dedicated copper wire now travels as a GOOSE message in under 4 milliseconds.\n\r\n\r\n \r\n \r\n \r\n\r\n What IEC 61850 Replaced and Why It Matters\n\r\n\r\n \r\n Hello! Today we are covering IEC 61850, the standard that transformed substation automation into a digital communication architecture. Understanding this standard is essential for engineers working in power utility SCADA, substation protection, or smart grid integration. The three communication services \u2014 GOOSE, MMS, and Sampled Values \u2014 each serve a different function and operate at different layers of the network stack.\r\n\n\r\n\r\n Before IEC 61850, every signal between protection relays, control panels, and RTUs required a dedicated hardwired connection. A large substation could have tens of thousands of copper wire terminations.\n\r\n Any change required physical rewiring.\n\r\n\r\n The standard also standardised the data model \u2014 defining how a circuit breaker or protection relay describes itself to any other device on the network, regardless of vendor.\n\r\n\r\n Did You Know? The standard was developed by IEC Technical Committee 57 (TC 57) over nearly a decade, with the first edition published in 2003 and the second edition in 2011. It consolidated several competing proprietary standards including UCA 2.0 (Utility Communications Architecture, developed in North America) and SCSM (Specific Communication Service Mapping) used in Europe.\n\nThe standard was intentionally designed to have a lifespan of at least 30 years without major revision. One of its key architectural decisions was separating the abstract data model from the specific communication mappings \u2014 meaning a new communication technology could be added (for example, the standard over XMPP for IoT integration) without changing the data model that IEDs already use.\n\nThe second edition added support for communication between substations (not just within a single substation), wide-area protection schemes, and integration with IEC 61968/61970 (the CIM model used by energy management system"
+}

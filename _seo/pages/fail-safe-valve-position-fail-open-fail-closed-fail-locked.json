@@ -1,0 +1,23 @@
+{
+ "id": 17387,
+ "slug": "fail-safe-valve-position-fail-open-fail-closed-fail-locked",
+ "impr": 2418,
+ "ctr": 0.45,
+ "pos": 6.2,
+ "queries": [],
+ "title": "Fail Safe Valve Position: Fail-Open vs Fail-Closed vs Fail-Locked",
+ "rank_math_title": "Fail Safe Valve Position: Fail-Open vs Fail-Closed",
+ "rank_math_description": "Fail safe valve positions: fail-open (ATC), fail-closed (ATO) and fail-locked explained, with actuator mechanisms, SIS needs and a selector tool.",
+ "focus_keyword": "fail safe valve,fail-safe valve",
+ "headings": [
+  "What Is a Fail Safe Valve Position?",
+  "The Three Fail Safe Valve Positions Explained",
+  "How the Actuator Achieves Each Fail Safe Position",
+  "Fail-Safe Valve Position Selector Tool",
+  "Watch: Fail-Open, Fail-Closed and Fail-Lock Control Valve Explained",
+  "Fail Safe Valve Position Questions",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Process Instrumentation\n\r\n Fail Safe Valve Position: Fail Open vs Fail Closed vs Fail Locked\n\r\n A fail-safe valve position is the position a control valve moves to when it loses its control signal, instrument air, or actuator power.\n\r\n This is a deliberate engineering decision \u2014 not a default. It is based on what is safest for the process and personnel when something goes wrong.\n\r\n Selecting the wrong fail-safe valve position is a process safety error.\n\r\n It cannot be corrected in the field without changing the actuator spring or valve action, a significant rework requiring a management of change.\n\r\n \r\n FC / FO / FL Designation \r\n ATC vs ATO Action \r\n Spring Return vs Lock \r\n SIL and SIS Design \r\n \n\r\n\n\r\n\r\n The fail safe valve position is determined by the process hazard, not by instrumentation convenience.\n\r\n A cooling water valve should fail open. A fuel gas valve should fail closed. A fail-safe valve positioned incorrectly makes the process less safe when the instrument fails.\n\r\n\r\n \r\n \r\n \r\n\r\n Quick Answer\n What Is the Difference Between Fail Open, Fail Closed and Fail Locked Valves?\n A fail safe valve position is the position a control valve moves to when it loses its control signal, instrument air or actuator power . It is chosen from the process hazard analysis and shown on the P&ID.\n Position On loss of air or signal Actuator action Example \n FO, fail open Goes fully open ATC, air to close Cooling water valve \n FC, fail closed Goes fully closed ATO, air to open Fuel gas valve \n FL, fail locked Stays at last position Lock up relay needed Hold position duties \n \n What Is a Fail Safe Valve Position?\n\r\n\r\n \r\n Hello! Today we are covering fail safe valve positions: fail-open, fail-closed, and fail-locked. These are defined during the process hazard analysis (PHA) stage of a project and documented on the piping and instrumentation diagram (P&ID). Every control valve on a P&ID has one of these three designations \u2014 and it matters enormously for process safety.\r\n\n\r\n\r\n A control valve actuator has a preferred direction of travel when air or electrical signal is lost.\n\r\n\r\n For a pneumatic spring-return actuator, the spring pushes the valve to its fail safe position.\n\r\n For an electric actuator, the position is set by a spring return or a battery-backed drive that moves the valve on power loss. This is the fail-safe valve position .\n\r\n\r\n Did You Know? The terms \"air-to-close\" (ATC) and \"air-to-open\" (ATO) refer to the actuator action, not the fail-safe valve position directly.\n\nAn ATC actuator closes the valve when air pressure is applied (and opens when air is lost). So an ATC valve is fail-open.\n\nAn ATO actuator opens the valve when air pressure is applied (and closes when air is lost). So an ATO valve is fail-closed.\n\nOn a P&ID, the fail-safe position is shown by the valve symbol: FC (fail closed), FO (fail open), or FL (fail locked). These annotations are definitive. The ATC/ATO notation describes the actuator mechanism that achieves that position.\n\r"
+}

@@ -1,0 +1,33 @@
+{
+ "id": 17169,
+ "slug": "diode-rectifier-circuits",
+ "impr": 1615,
+ "ctr": 0.56,
+ "pos": 6.8,
+ "queries": [
+  "diode rectifier circuit"
+ ],
+ "title": "Diode Rectifier Circuits: Half Wave and Full Wave Explained",
+ "rank_math_title": "Diode Rectifier Circuits: Half Wave and Full Wave Explained",
+ "rank_math_description": "Diode rectifier circuits: half wave, full wave centre tap and bridge rectifier formulas, output voltage, comparison table and a live calculator.",
+ "focus_keyword": "diode rectifier",
+ "headings": [
+  "Diode Rectifier Circuit: How Diodes Convert AC to DC",
+  "Three Diode Rectifier Circuit Types",
+  "1. Half Wave Rectifier",
+  "2. Full Wave Centre Tap Rectifier",
+  "3. Full Wave Bridge Rectifier",
+  "Rectifier Output Voltage Calculator",
+  "Half Wave vs Full Wave Diode Rectifier: Comparison",
+  "Rectifier Circuit Applications",
+  "Mains Power Supply",
+  "Battery Chargers",
+  "Signal Demodulation",
+  "Instrumentation Power Rails",
+  "Watch: Bridge Rectifier vs Half Wave Rectifier Explained",
+  "Diode Rectifier Circuit Questions",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Electronics\n\r\n Diode Rectifier Circuits: Half Wave and Full Wave Explained\n\r\n A diode rectifier circuit converts AC voltage to pulsating DC by using the one-way conducting property of diodes. Half wave rectifiers use one diode and pass only one half of the AC cycle. Full wave rectifiers use two or four diodes and pass both halves.\n\r\n This guide covers all three diode rectifier types with waveforms, formulas, worked examples, and a live output voltage calculator.\n\r\n \r\n Half Wave \r\n Full Wave Centre Tap \r\n Bridge Rectifier \r\n Ripple and Smoothing \r\n \n\r\n\n\r\n\r\n A diode rectifier circuit produces pulsating DC. The average output voltage depends on the peak input voltage and the rectifier type: 0.318 \u00d7 Vpeak for half wave, 0.636 \u00d7 Vpeak for full wave. A filter capacitor smooths the ripple to usable DC.\n\r\n\r\n Diode Rectifier Circuit: How Diodes Convert AC to DC\n\r\n\r\n \r\n Hi everyone! Today we are going to look at diode rectifier circuits -- one of the most fundamental building blocks in power electronics. Every DC power supply, battery charger, and electronic device that runs from a mains plug contains a rectifier of one type or another. Let us go through the three main types: half wave, full wave centre tap, and full wave bridge.\r\n\n\r\n \r\n \r\n \r\n \r\n A diode conducts current in only one direction. When AC voltage drives a diode forward, current flows. When the AC reverses, the diode blocks. This selective conduction is what turns alternating current into pulsating direct current.\n\r\n Three circuit configurations use this property: the half wave rectifier , the centre tap full wave rectifier , and the bridge rectifier . Each trades circuit complexity for better DC output. Click any term to expand.\n\r\n Half Wave Rectifier: One diode in series with the load. Only the positive half cycle of the AC passes to the output. The negative half cycle is blocked. Output is pulsating DC at the supply frequency. Average output = 0.318 \u00d7 Vpeak. Efficiency is low (40.6%) because half the input is wasted. Suitable for low-power applications where simplicity matters more than efficiency.\n\r\n Centre Tap Full Wave Rectifier: Two diodes and a centre tapped transformer. During the positive half cycle, D1 conducts. During the negative half cycle, D2 conducts. Both half cycles appear at the output in the same polarity. Average output = 0.636 \u00d7 Vpeak. Ripple frequency is twice the supply frequency. Requires a centre tapped transformer, which adds cost and size.\n\r\n Bridge Rectifier: Four diodes in a bridge arrangement. No centre tapped transformer needed. During the positive half cycle, D1 and D3 conduct. During the negative half cycle, D2 and D4 conduct. Both half cycles drive current through the load in the same direction. Average output = 0.636 \u00d7 Vpeak (minus two diode drops). The most widely used diode rectifier circuit in modern power supplies.\n\r\n\n\r\n\r\n \r\n\r\n \r\n 0.318 \u00d7 Vp\n Average DC output of a half wave diode rectifier circuit\n\n\r\n 0.636 \u00d7 Vp\n Average DC output of a full wave diode re"
+}

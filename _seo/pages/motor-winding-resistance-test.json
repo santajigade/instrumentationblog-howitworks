@@ -1,0 +1,33 @@
+{
+ "id": 19344,
+ "slug": "motor-winding-resistance-test",
+ "impr": 1653,
+ "ctr": 0.48,
+ "pos": 8.2,
+ "queries": [],
+ "title": "Winding Resistance Test: 7 Proven Steps for Accurate Results",
+ "rank_math_title": "",
+ "rank_math_description": "Learn the motor winding resistance test: 4 wire Kelvin method, micro ohmmeter use, unbalance limits, temperature correction and star or delta readings.",
+ "focus_keyword": "winding resistance test",
+ "headings": [
+  "What Is a Winding Resistance Test?",
+  "What the Test Can Reveal",
+  "Why the 4 Wire Kelvin Method Is Used",
+  "Instruments for the Measurement",
+  "7 Steps to Perform a Winding Resistance Test",
+  "Unbalance Limits and How to Judge Them",
+  "Star and Delta Connection Readings",
+  "Temperature Correction Formula",
+  "Winding Resistance Test Calculator",
+  "Second Worked Example: Transformer HV Winding",
+  "Standards and Good Practice",
+  "Where Engineers Use It",
+  "Megger Guide to Low Resistance Testing",
+  "Motor Winding Test Video",
+  "Winding Resistance Test FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Motors & Drives\n\r\n Winding Resistance Test: 7 Proven Steps for Accurate Results\n\r\n A loose lug, a cracked strand or a few shorted turns can hide inside a motor that still passes its insulation test. Measuring the DC resistance of each winding accurately, and comparing the phases, exposes these faults before they burn the machine.\n\r\n \r\n 4 Wire Kelvin \r\n Micro Ohmmeter \r\n Unbalance Percent \r\n Temperature Correction \r\n \n\r\n\n\r\n\r\n A winding resistance test measures the small DC resistance of motor and transformer windings to find loose connections, open strands and shorted turns. Done with the right instrument and a temperature correction, it gives a reliable health check in minutes.\n\r\n\r\n \r\n Hello everyone, today we are going to learn how a winding resistance test is done on motors and transformers, why the 4 wire method matters, how to calculate unbalance and how to correct readings for temperature.\r\n\n\r\n \r\n \r\n \r\n What Is a Winding Resistance Test?\n\r\n\r\n A winding resistance test is the measurement of the DC resistance of each winding of a motor, generator or transformer, followed by a comparison between phases and with earlier or factory values. It checks the copper path itself, unlike an insulation resistance test , which checks the insulation around it.\n\r\n\r\n The values are small, often below 1 \u03a9 for large machines, so a normal multimeter is not accurate enough. The test follows Ohm law , with a known DC current passed through the winding and the voltage drop measured across it.\n\r\n\r\n \r\n \r\n Image credit: DV Power . Diagram courtesy of DV Power, shown here for educational reference. \r\n \r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n What the Test Can Reveal\n\r\n\r\n Electrom Instruments explains that resistance measurements can find resistive connections inside or outside the machine, partial breaks in multi strand coils, open or shorted coils and wrong wire gauges. Some of these faults are not always visible to a surge test alone.\n\r\n\r\n \r\n High Resistance Joint\n One phase reads higher because of a loose lug, corroded terminal or poor brazed joint.\n Best for: terminal box and lead connections\n Hot Spot Risk \n\r\n Open or Broken Strand\n Resistance rises when some parallel strands or a parallel path break.\n Best for: old or vibrating motors\n Hidden Fault \n\r\n Shorted Turns\n One phase reads lower because turns are bypassed through damaged insulation.\n Best for: after overheating or a surge\n Burnout Risk \n\r\n\n\r\n\r\n The relative balance between phases matters more than the absolute value. In a healthy induction motor , all three phases are wound identically, so their resistances should be almost equal.\n\r\n\r\n Do You Know?\n Copper has a temperature coefficient of about 0.0039 per \u00b0C, according to Electrom Instruments. A 10 \u00b0C change in winding temperature therefore changes the reading by roughly 4 percent.\n\n\r\n\r\n Why the 4 Wire Kelvin Method Is Used\n\r\n\r\n In a 2 wire winding resistance test, the leads and clamp contacts add their own resistance, which can be as large as the winding "
+}

@@ -1,0 +1,22 @@
+{
+ "id": 7130,
+ "slug": "bonded-and-unbonded-strain-gauges",
+ "impr": 2333,
+ "ctr": 0.81,
+ "pos": 8.2,
+ "queries": [
+  "bonded strain gauge",
+  "bonded strain gauge diagram",
+  "unbonded strain gauge",
+  "bonded and unbonded strain gauge"
+ ],
+ "title": "Bonded and Unbonded Strain Gauges: Difference, Construction and Applications",
+ "rank_math_title": "Bonded and Unbonded Strain Gauges: Difference & Uses",
+ "rank_math_description": "Understand bonded and unbonded strain gauges. Covers construction, element attachment, gauge factor, temperature compensation, and force measurement.",
+ "focus_keyword": "Bonded and Unbonded Strain Gauges,Difference Between Bonded and Unbonded Strain Gauges,Types of Strain Gauges,Working Principle of Strain Gauge",
+ "headings": [
+  "Bonded Strain Gauge Diagram: Parts and Layout",
+  "How the Four Gauges Are Arranged"
+ ],
+ "text": "Bonded and Unbonded strain gauges: Introduction In this article, we will learn the difference between bonded and unbonded strain gauges , two common types of devices used to measure strain. But before we learn the differences, let us first understand the basic working principle of strain gauges and why they are so widely used.\n Quick Answer\n What Is the Difference Between Bonded and Unbonded Strain Gauge?\n Bonded and unbonded strain gauges differ in how the resistance element is mounted. A bonded strain gauge has foil or wire glued directly to a diaphragm , while an unbonded gauge stretches fine wire between fixed and movable posts.\n Feature Bonded Unbonded \n Element mounting Glued to diaphragm Stretched between posts \n Moving parts None Movable frame \n Shock and vibration Better resistance Sensitive to shocks \n Main advantage Rugged and compact Low mass, fast response, overpressure protection \n \n What is a Strain Gauge? A strain gauge is a device used to measure strain (or deformation) in a material when it is subjected to force or pressure.\u00a0\n The basic idea is very simple: when a material is stretched or compressed, its electrical resistance changes . Strain gauges works on the same principle.\n These devices are used in many applications such as:\n 1) Measuring\u00a0 pressure\u00a0 in pressure transmitters \n 2) Monitoring weight in weighing machines \n 3) Checking strain and stress in structures like bridges, buildings, and machine parts \n How Does a Strain Gauge Work? The operation of a strain gauge is based on electrical resistance . When a material (like a metal wire or foil) is stretched , it becomes longer and thinner, which increases its resistance . When it is compressed , it gets shorter and thicker, and its resistance decreases .\n This change in resistance is measured using a Wheatstone bridge circuit , which converts the small changes in resistance into electrical signals. These signals can then be further processed to give a pressure or strain reading .\n To make these measurements more stable and accurate, modern strain gauge systems also include electronics that:\n 1) Compensate for temperature changes \n 2) Adjust the zero level \n 3) Calibrate the measurement range (span) \n What are different types of Strain Gauges? There are two main types of strain gauges based on their construction:\n Unbonded Strain Gauges \n\n Bonded Strain Gauges \n\n Now we will understand each of them in detail and see how they are different from one another.\n What is Unbonded Strain Gauge? Working Principle An unbonded strain gauge has a special frame that includes both stationary and movable parts . Very thin wires (about 0.4 mils in diameter) are stretched between these parts and wrapped around non-conductive posts .\n When pressure is applied, the movable part shifts , pulling or relaxing the wire. This action changes the length and tension in the wire, which results in a change in its electrical resistance . The change in resistance is then measured using the Wheatstone b"
+}
