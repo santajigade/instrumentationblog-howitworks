@@ -1,0 +1,10 @@
+# BEGIN IB redirects
+<IfModule mod_alias.c>
+Redirect 301 "/operational-amplifier-op amp-basics/" https://www.instrumentationblog.in/operational-amplifier-op-amp-basics/
+Redirect 301 "/calculate-short circuit-fault-current/" https://www.instrumentationblog.in/calculate-short-circuit-fault-current/
+Redirect 301 "/explosion proof-vs-intrinsically-safe-instruments/" https://www.instrumentationblog.in/explosion-proof-vs-intrinsically-safe-instruments/
+Redirect 301 /process-instrumentation/switches/ https://www.instrumentationblog.in/category/process-instrumentation/switches/
+Redirect 301 /tools/pid-tuning/pid-simulator/how-scada-systems-work https://www.instrumentationblog.in/how-scada-systems-work/
+Redirect 301 /author/AUTHOR_SLUG/ https://www.instrumentationblog.in/
+</IfModule>
+# END IB redirects

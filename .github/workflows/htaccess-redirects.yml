@@ -1,0 +1,38 @@
+name: htaccess redirects
+on: workflow_dispatch
+concurrency:
+  group: ftp-deploy
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+      - env:
+          H: ${{ secrets.FTP_SERVER }}
+          U: ${{ secrets.FTP_USERNAME }}
+          P: ${{ secrets.FTP_PASSWORD }}
+          D: ${{ secrets.FTP_SERVER_DIR }}
+        run: |
+          S="set ftp:ssl-allow no; set net:max-retries 2"
+          lftp -u "$U","$P" "$H" -e "$S; get ${D%/}/.htaccess -o orig.htaccess; bye"
+          test -s orig.htaccess
+          echo "orig lines: $(wc -l < orig.htaccess)"; grep -n "BEGIN" orig.htaccess | head
+          python3 - <<'PY'
+          import re
+          o = open('orig.htaccess').read()
+          o = re.sub(r'# BEGIN IB redirects[\s\S]*?# END IB redirects\n?', '', o)
+          open('new.htaccess', 'w').write(open('_redirects/block.txt').read() + '\n' + o)
+          PY
+          lftp -u "$U","$P" "$H" -e "$S; put new.htaccess -o ${D%/}/.htaccess; bye"
+          sleep 5
+          ok=1
+          for u in / /what-is-hmi-human-machine-interface/ /calculators/; do
+            c=$(curl -s -o /dev/null -w "%{http_code}" -A "Mozilla/5.0" "https://www.instrumentationblog.in$u"); echo "$u $c"
+            case "$c" in 5*) ok=0;; esac
+          done
+          if [ $ok = 0 ]; then lftp -u "$U","$P" "$H" -e "$S; put orig.htaccess -o ${D%/}/.htaccess; bye"; echo "ROLLED BACK"; exit 1; fi
+          for u in "/operational-amplifier-op%20amp-basics/" "/process-instrumentation/switches/" "/author/AUTHOR_SLUG/"; do
+            echo "$u -> $(curl -s -o /dev/null -w '%{http_code} %{redirect_url}' -A 'Mozilla/5.0' "https://www.instrumentationblog.in$u")"
+          done
