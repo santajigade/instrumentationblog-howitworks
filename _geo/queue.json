@@ -710,7 +710,7 @@
 "2oo3 voting logic",
 "voting logic in safety instrumented system"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "point-to-point-connection-multidrop-connection",
@@ -718,7 +718,7 @@
 "impr": 2762,
 "pos": 8.9,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "arithmetic-logic-unit-alu-architecture",
@@ -726,7 +726,7 @@
 "impr": 2740,
 "pos": 22.9,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "what-is-sensor-linearity",
@@ -736,7 +736,7 @@
 "queries": [
 "sensor linearity"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "condensate-pot-in-steam-applications",
@@ -747,7 +747,7 @@
 "condensate pot",
 "condensate pot working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "how-does-io-link-works",
@@ -757,7 +757,7 @@
 "queries": [
 "io link protocol"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "level-transmitter-5-point-calibration",
@@ -771,7 +771,7 @@
 "differential pressure transmitter calibration",
 "level transmitter"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "7-types-of-alarms-in-dcs",
@@ -779,7 +779,7 @@
 "impr": 2544,
 "pos": 6.0,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "controllogix-5590-plc",
@@ -789,7 +789,7 @@
 "queries": [
 "allen bradley controllogix plc"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "voting-architectures-safety-systems",
@@ -799,7 +799,7 @@
 "queries": [
 "voting logic in safety instrumented system"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "square-root-extraction-dp-flow",
@@ -810,7 +810,7 @@
 "dp flow square root formula",
 "flow transmitter square root calculator"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "bourdon-tube-pressure-gauges",
@@ -821,7 +821,7 @@
 "bourdon tube pressure gauge",
 "bourdon tube"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "types-of-allen-bradley-plcs",
@@ -832,7 +832,7 @@
 "allen bradley plc types",
 "allen bradley controllogix plc"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "digital-logic-gates-explained",
@@ -840,7 +840,7 @@
 "impr": 2431,
 "pos": 9.9,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "psi-to-bar-conversion",
@@ -856,7 +856,7 @@
 "impr": 2418,
 "pos": 6.2,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "mass-flow-controller-working-principle",
@@ -868,7 +868,7 @@
 "flow nozzle working principle",
 "how does mass flow controller work"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "lighting-design-calculation",
@@ -878,7 +878,7 @@
 "queries": [
 "lighting design calculations"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "lm35-temperature-sensor",
@@ -901,7 +901,7 @@
 "free industrial automation course",
 "industrial automation free course"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "pid-controller-types-explained",
@@ -914,7 +914,7 @@
 "pid types",
 "pid controller types"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "bonded-and-unbonded-strain-gauges",
@@ -927,7 +927,7 @@
 "unbonded strain gauge",
 "bonded and unbonded strain gauge"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "basics-of-differential-pressure-transmitter",
@@ -941,7 +941,7 @@
 "types of pressure transmitter",
 "differential pressure transmitter calibration"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "electrical-regulations-and-standards",
@@ -949,7 +949,7 @@
 "impr": 2255,
 "pos": 6.8,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "inverting-amplifier-gain-formula",
@@ -981,7 +981,7 @@
 "impr": 2218,
 "pos": 6.5,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "what-is-reynolds-number",
@@ -991,7 +991,7 @@
 "queries": [
 "reynolds number"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "types-of-pressure-transmitters",
@@ -1005,7 +1005,7 @@
 "types of pressure transmitters",
 "different types of pressure transmitter"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "types-of-controllers-in-instrumentation",
@@ -1018,7 +1018,7 @@
 "different types of controllers",
 "types of control loops in instrumentation"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "maximum-power-transfer-theorem",
@@ -1026,7 +1026,7 @@
 "impr": 2126,
 "pos": 8.1,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "mems-accelerometer-working-principle",
@@ -1040,7 +1040,7 @@
 "mems accelerometer sensor",
 "rtd working principle in hindi"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "electrical-energy-consumption-calculation",
@@ -1050,7 +1050,7 @@
 "queries": [
 "electrical energy formula kwh"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "split-range-control-working-principle",
@@ -1061,7 +1061,7 @@
 "split range control",
 "what is split range control"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "distributed-control-system-dcs",
@@ -1075,7 +1075,7 @@
 "what is dcs system",
 "what is open loop and closed loop control system"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "star-vs-delta-connection",
@@ -1089,7 +1089,7 @@
 "star to delta conversion",
 "star delta transformation formula"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "how-a-fire-alarm-system-works",
@@ -1103,7 +1103,7 @@
 "dcs alarm management system",
 "fire alarm basics"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "types-of-nuclear-level-measurement",
@@ -1117,7 +1117,7 @@
 "types of level transmitter",
 "open tank level measurement"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "bimetallic-thermometer-working-principle",
@@ -1131,7 +1131,7 @@
 "rtd working principle in hindi",
 "potentiometer working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "zero-and-span-adjustments",
@@ -1141,7 +1141,7 @@
 "queries": [
 "what is zero and span calibration"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "dcs-function-block-programming-explained",
@@ -1149,7 +1149,7 @@
 "impr": 1991,
 "pos": 6.0,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "multifunction-process-calibrator-uses",
@@ -1160,7 +1160,7 @@
 "multifunction calibrator",
 "multifunction process calibrator"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "offset-error-zero-point-error-span-error",
@@ -1170,7 +1170,7 @@
 "queries": [
 "zero offset error"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "gray-code-binary-conversion",
