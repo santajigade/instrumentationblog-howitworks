@@ -15,7 +15,7 @@ jobs:
           P: ${{ secrets.FTP_PASSWORD }}
           D: ${{ secrets.FTP_SERVER_DIR }}
         run: |
-          S="set ftp:ssl-allow no; set net:max-retries 2"
+          S="set ftp:ssl-force true; set ftp:ssl-protect-data true; set ssl:verify-certificate no; set net:max-retries 2"
           lftp -u "$U","$P" "$H" -e "$S; get ${D%/}/.htaccess -o orig.htaccess; bye"
           test -s orig.htaccess
           echo "orig lines: $(wc -l < orig.htaccess)"; grep -n "BEGIN" orig.htaccess | head
