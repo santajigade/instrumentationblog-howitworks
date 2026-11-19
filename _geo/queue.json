@@ -848,7 +848,7 @@
 "impr": 2430,
 "pos": 9.9,
 "queries": [],
-"status": "todo"
+"status": "has"
 },
 {
 "slug": "fail-safe-valve-position-fail-open-fail-closed-fail-locked",
@@ -888,7 +888,7 @@
 "queries": [
 "what is pt100 temperature sensor"
 ],
-"status": "todo"
+"status": "has"
 },
 {
 "slug": "industrial-automation-sensors",
@@ -960,7 +960,7 @@
 "inverting amplifier gain formula",
 "gain for inverting op amp"
 ],
-"status": "todo"
+"status": "has"
 },
 {
 "slug": "8-free-training-courses-plc-scada-hmi",
