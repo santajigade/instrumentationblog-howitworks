@@ -1002,7 +1002,7 @@
     "kd": 14
    }
   ],
-  "status": "todo"
+  "status": "skip"
  },
  {
   "slug": "power-inverter-working-principle",
@@ -1197,7 +1197,7 @@
     "kd": 27
    }
   ],
-  "status": "todo"
+  "status": "skip"
  },
  {
   "slug": "emergency-shutdown-system-esd",
@@ -1249,7 +1249,7 @@
     "kd": 17
    }
   ],
-  "status": "todo"
+  "status": "skip"
  },
  {
   "slug": "instrument-io-list-dcs-plc",
