@@ -858,7 +858,7 @@
     "kd": 8
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "corona-effect-transmission-line",
@@ -871,7 +871,7 @@
     "kd": 26
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "how-do-magnetic-level-switch-work",
@@ -884,7 +884,7 @@
     "kd": 3
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "skin-effect-in-conductors",
@@ -897,7 +897,7 @@
     "kd": 21
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "how-nitrogen-purging-works",
@@ -910,7 +910,7 @@
     "kd": 28
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "venturi-tube-flow-measurements",
@@ -937,7 +937,7 @@
     "kd": 10
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "ultrasonic-level-transmitter-working-principle",
@@ -963,7 +963,7 @@
     "kd": 27
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "atm-to-kpa-pressure-conversion",
@@ -976,7 +976,7 @@
     "kd": 23
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "types-of-allen-bradley-plcs",
@@ -989,7 +989,7 @@
     "kd": 10
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "100-flow-measurement-questions-answers",
@@ -1015,7 +1015,7 @@
     "kd": 14
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "switch-debouncing-hardware-software",
@@ -1028,7 +1028,7 @@
     "kd": 6
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "silica-analyzer-power-plant-water",
@@ -1041,7 +1041,7 @@
     "kd": 10
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "faradays-law-electromagnetic-induction",
@@ -1054,7 +1054,7 @@
     "kd": 27
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "working-principle-membrane-level-switch",
@@ -1067,7 +1067,7 @@
     "kd": 9
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "synchronous-motor-working-principle",
@@ -1080,7 +1080,7 @@
     "kd": 23
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "current-mirror-bjt-mosfet-circuit",
@@ -1093,7 +1093,7 @@
     "kd": 12
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "dv-dt-filter-vfd-motor-protection",
@@ -1106,7 +1106,7 @@
     "kd": 23
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "basics-of-differential-pressure-transmitter",
@@ -1119,7 +1119,7 @@
     "kd": 10
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "toc-analyzer-working-principle-water-quality",
@@ -1132,7 +1132,7 @@
     "kd": 11
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "motor-insulation-classes",
@@ -1145,7 +1145,7 @@
     "kd": 20
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "induction-motor-slip-explained",
@@ -1158,7 +1158,7 @@
     "kd": 21
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "photodiode-vs-phototransistor-key-differences",
@@ -1171,7 +1171,7 @@
     "kd": 19
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "idmt-relay-characteristics-tms-psm",
@@ -1184,7 +1184,7 @@
     "kd": 23
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "100-essential-engineering-formulas",
@@ -1210,7 +1210,7 @@
     "kd": 17
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "instrument-cable-schedule",
@@ -1223,7 +1223,7 @@
     "kd": 12
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "orifice-plate-sizing-guide",
@@ -1236,7 +1236,7 @@
     "kd": 11
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "free-plc-programming-software",
@@ -1262,7 +1262,7 @@
     "kd": 7
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "bonded-and-unbonded-strain-gauges",
@@ -1275,7 +1275,7 @@
     "kd": 10
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "instrument-junction-box-design",
@@ -1288,7 +1288,7 @@
     "kd": 26
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "impulse-line-installation-slope",
@@ -1301,7 +1301,7 @@
     "kd": 19
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "siemens-s7-1200-vs-s7-1500",
@@ -1314,7 +1314,7 @@
     "kd": 18
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "bourdon-tube-pressure-gauges",
@@ -1327,7 +1327,7 @@
     "kd": 23
    }
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "maximum-demand-calculation-diversity",
@@ -1340,6 +1340,6 @@
     "kd": 25
    }
   ],
-  "status": "todo"
+  "status": "done"
  }
 ]
