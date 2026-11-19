@@ -923,7 +923,8 @@
     "kd": 28
    }
   ],
-  "status": "todo"
+  "status": "error",
+  "err": "HTTP Error 404: Not Found"
  },
  {
   "slug": "zero-speed-switch-working",
@@ -949,7 +950,7 @@
     "kd": 31
    }
   ],
-  "status": "todo"
+  "status": "notpost"
  },
  {
   "slug": "pcb-via-types-through-hole-blind-buried",
