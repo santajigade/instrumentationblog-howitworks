@@ -557,7 +557,7 @@
 "allen bradley plc types",
 "allen bradley controllogix plc"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "digital-logic-gates-explained",
@@ -566,7 +566,7 @@
 "ctr": 0.45,
 "pos": 9.9,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "psi-to-bar-conversion",
@@ -575,7 +575,7 @@
 "ctr": 0.04,
 "pos": 9.9,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "fail-safe-valve-position-fail-open-fail-closed-fail-locked",
@@ -584,7 +584,7 @@
 "ctr": 0.45,
 "pos": 6.2,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "lm35-temperature-sensor",
@@ -595,7 +595,7 @@
 "queries": [
 "what is pt100 temperature sensor"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "bonded-and-unbonded-strain-gauges",
@@ -609,7 +609,7 @@
 "unbonded strain gauge",
 "bonded and unbonded strain gauge"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "inverting-amplifier-gain-formula",
@@ -621,7 +621,7 @@
 "inverting amplifier gain formula",
 "gain for inverting op amp"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "idmt-relay-characteristics-tms-psm",
@@ -630,7 +630,7 @@
 "ctr": 0.86,
 "pos": 6.5,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "maximum-power-transfer-theorem",
@@ -639,7 +639,7 @@
 "ctr": 0.38,
 "pos": 8.1,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "star-vs-delta-connection",
@@ -655,7 +655,7 @@
 "star delta transformation formula",
 "star-delta transformation"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "types-of-nuclear-level-measurement",
@@ -671,7 +671,7 @@
 "open tank level measurement",
 "types of level transmitter in instrumentation"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "offset-error-zero-point-error-span-error",
@@ -682,7 +682,7 @@
 "queries": [
 "zero offset error"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "negative-pressure-in-pipelines",
@@ -691,7 +691,7 @@
 "ctr": 0.76,
 "pos": 5.9,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "bernoullis-equation-formula",
@@ -700,7 +700,7 @@
 "ctr": 0.18,
 "pos": 7.6,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "motor-winding-resistance-test",
@@ -709,7 +709,7 @@
 "ctr": 0.48,
 "pos": 8.2,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "analog-vs-digital-instrumentation-system",
@@ -722,7 +722,7 @@
 "comparison of analog and digital instruments",
 "compare analog and digital instruments"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "diode-rectifier-circuits",
@@ -733,7 +733,7 @@
 "queries": [
 "diode rectifier circuit"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "iec-61850-substation-automation-goose-mms-sampled-values",
@@ -742,7 +742,7 @@
 "ctr": 0.89,
 "pos": 9.0,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "counters-explained-ripple-vs-synchronous",
@@ -751,7 +751,7 @@
 "ctr": 0.51,
 "pos": 6.2,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "instrumentation-automation-abbreviations",
@@ -760,7 +760,7 @@
 "ctr": 0.39,
 "pos": 7.2,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "ferranti-effect-transmission-line",
@@ -771,7 +771,7 @@
 "queries": [
 "ferranti effect"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "pcc-panel-power-control-centre",
@@ -780,7 +780,7 @@
 "ctr": 0.72,
 "pos": 6.1,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "cable-derating-factors",
@@ -792,7 +792,7 @@
 "cable derating factor",
 "what is derating factor of cable"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "what-are-process-variables",
@@ -801,7 +801,7 @@
 "ctr": 0.4,
 "pos": 6.8,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "conveyor-safety-switches-types",
@@ -810,7 +810,7 @@
 "ctr": 0.54,
 "pos": 6.2,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "zero-speed-switch-working",
@@ -825,7 +825,7 @@
 "magnetic level switch working principle",
 "zero speed sensor"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "types-of-flow-elements",
@@ -836,7 +836,7 @@
 "queries": [
 "flow elements"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "what-is-mmscfd-natural-gas-flow-rate",
@@ -845,7 +845,7 @@
 "ctr": 0.15,
 "pos": 6.2,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "plc-programming-languages",
@@ -861,7 +861,7 @@
 "plc structured text programming",
 "plc programming software for students"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "dsp-vs-dac-differences",
@@ -873,7 +873,7 @@
 "dsp vs dac",
 "dac vs dsp"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "voltage-follower-unity-gain-buffer-explained",
