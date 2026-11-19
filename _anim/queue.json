@@ -1,620 +1,620 @@
 [
- {
-  "slug": "mutual-inductance-coupling-coefficient",
-  "keywords": [
-   "mutual inductance formula"
-  ],
-  "status": "done"
- },
- {
-  "slug": "varactor-diode-working-principle",
-  "keywords": [
-   "varactor diode"
-  ],
-  "status": "done"
- },
- {
-  "slug": "open-loop-and-closed-loop-control-system",
-  "keywords": [
-   "open loop control system examples",
-   "difference between open loop and closed loop system",
-   "open loop and closed loop difference"
-  ],
-  "status": "done"
- },
- {
-  "slug": "bus-duct-busway-system",
-  "keywords": [
-   "bus duct"
-  ],
-  "status": "skip"
- },
- {
-  "slug": "npn-and-pnp-proximity-sensors",
-  "keywords": [
-   "pnp sensor",
-   "npn pnp sensor",
-   "pnp proximity sensor"
-  ],
-  "status": "done"
- },
- {
-  "slug": "digital-pressure-gauge-working",
-  "keywords": [
-   "digital pressure gauge"
-  ],
-  "status": "done"
- },
- {
-  "slug": "ultrasonic-distance-sensor-sr04",
-  "keywords": [
-   "ultrasonic sensor range",
-   "ultrasonic range",
-   "ultrasonic sensor dimensions"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "digital-logic-gates-explained",
-  "keywords": [
-   "xand gate",
-   "and using nor",
-   "logic gates and or not"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "8-free-training-courses-plc-scada-hmi",
-  "keywords": [
-   "plc scada course"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "rc-low-pass-high-pass-filter",
-  "keywords": [
-   "rc low pass filter",
-   "cutoff frequency high pass filter",
-   "f 1 2pirc"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "sequential-circuits-explained",
-  "keywords": [
-   "how many types of sequential circuits are"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "what-is-rtd-and-how-it-works",
-  "keywords": [
-   "platinum rtd"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "maximum-power-transfer-theorem",
-  "keywords": [
-   "maximum power transfer theorem proof"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "7-segment-display-decoder",
-  "keywords": [
-   "seven segment decoder",
-   "seven segment common cathode pin configuration"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "counters-explained-ripple-vs-synchronous",
-  "keywords": [
-   "what is ripple counter",
-   "what is a ripple counter"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "instrument-index-document-guide",
-  "keywords": [
-   "instrument index"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "time-of-flight-sensor-working",
-  "keywords": [
-   "time of flight sensor"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "cathode-ray-oscilloscope-cro-explained",
-  "keywords": [
-   "application of cathode ray oscilloscope",
-   "types of cro",
-   "advantages of cro"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "hipps-system-in-oil-and-gas",
-  "keywords": [
-   "hipps meaning"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "siphon-sizing-and-selecting-a-siphon-for-pressure-gauge-protection",
-  "keywords": [
-   "pressure gauge syphon",
-   "gauge siphon"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "basics-of-transistors",
-  "keywords": [
-   "transistor working principle"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "lvdt-linear-variable-differential-transformer",
-  "keywords": [
-   "construction and working of lvdt",
-   "lvdt diagram and working"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "float-level-switch-working-principle-and-applications",
-  "keywords": [
-   "float type level switch"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "wheatstone-bridge-10-applications",
-  "keywords": [
-   "function of wheatstone bridge"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "difference-between-3-1-and-3-2-material-certificates",
-  "keywords": [
-   "3.1 b"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "difference-between-bootp-and-dhcp",
-  "keywords": [
-   "bootp in computer networks",
-   "bootp vs dhcp"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "pt100-rtd-calibration-guide",
-  "keywords": [
-   "rtd resistance formula",
-   "rtd formula pt100",
-   "rtd pt100 formula"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "top-50-pid-controller-mcqs-2026",
-  "keywords": [
-   "a temperature control system is usually very sluggish",
-   "the derivative control mode is mcq"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "transformer-efficiency-calculation",
-  "keywords": [
-   "all day efficiency formula"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "what-is-a-diaphragm-seal",
-  "keywords": [
-   "diaphragm seal"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "electromagnetic-flow-meter-working-principle",
-  "keywords": [
-   "magnetic flow meter working principle"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "bimetallic-thermometer-working-principle",
-  "keywords": [
-   "bimetallic thermometer diagram"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "types-of-thermowells",
-  "keywords": [
-   "thermowell types"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "sensors-and-transducers-questions-answers",
-  "keywords": [
-   "sensors used in measurement systems are mcq"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "rtd-resistance-to-temperature-calculator",
-  "keywords": [
-   "pt1000 formula",
-   "pt100 ohm to celsius calculator"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "list-of-free-scada-software",
-  "keywords": [
-   "scada software free download",
-   "scada software list"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "smd-resistor-code",
-  "keywords": [
-   "smd resistor value chart"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "pid-controller-types-explained",
-  "keywords": [
-   "types of pid"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "plc-programming-languages",
-  "keywords": [
-   "plc language"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "74hc595-shift-register",
-  "keywords": [
-   "ic 74hc595"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "per-unit-system-power-system",
-  "keywords": [
-   "what is per unit system",
-   "per unit impedance"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "dol-vs-star-delta-starter-which-to-use",
-  "keywords": [
-   "difference between star delta and dol starter"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "dp-transmitter-level-measurement",
-  "keywords": [
-   "dp type level transmitter"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "ttl-vs-cmos-logic-families",
-  "keywords": [
-   "compare ttl and cmos"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "absolute-vs-gauge-pressure",
-  "keywords": [
-   "absolute vs gauge pressure"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "analog-vs-digital-instrumentation-system",
-  "keywords": [
-   "difference between analog and digital instruments"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "generator-excitation-system-avr",
-  "keywords": [
-   "excitation system"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "what-is-a-valve-manifold",
-  "keywords": [
-   "types of manifold valves"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "corona-effect-transmission-line",
-  "keywords": [
-   "visual critical voltage of corona formula"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "how-do-magnetic-level-switch-work",
-  "keywords": [
-   "magnetic level switch"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "skin-effect-in-conductors",
-  "keywords": [
-   "skin effect disadvantages"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "how-nitrogen-purging-works",
-  "keywords": [
-   "nitrogen purging meaning"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "venturi-tube-flow-measurements",
-  "keywords": [
-   "venturi pipe"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "zero-speed-switch-working",
-  "keywords": [
-   "zero speed switch sensor"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "ultrasonic-level-transmitter-working-principle",
-  "keywords": [
-   "ultrasonic level transmitter working principle"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "pcb-via-types-through-hole-blind-buried",
-  "keywords": [
-   "through hole pcb"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "atm-to-kpa-pressure-conversion",
-  "keywords": [
-   "101.325 kpa"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "types-of-allen-bradley-plcs",
-  "keywords": [
-   "controllogix plc"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "100-flow-measurement-questions-answers",
-  "keywords": [
-   "types of flow measurement"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "power-inverter-working-principle",
-  "keywords": [
-   "inverter output"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "switch-debouncing-hardware-software",
-  "keywords": [
-   "switch debouncing using sr latch"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "silica-analyzer-power-plant-water",
-  "keywords": [
-   "silica analyzer working principle"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "faradays-law-electromagnetic-induction",
-  "keywords": [
-   "faraday's law emf"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "working-principle-membrane-level-switch",
-  "keywords": [
-   "level switch working principle"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "synchronous-motor-working-principle",
-  "keywords": [
-   "difference between true synchronous mode and self controlled mode"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "current-mirror-bjt-mosfet-circuit",
-  "keywords": [
-   "current mirror circuit using bjt"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "dv-dt-filter-vfd-motor-protection",
-  "keywords": [
-   "dv dt protection"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "basics-of-differential-pressure-transmitter",
-  "keywords": [
-   "dp transmitter working principle"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "toc-analyzer-working-principle-water-quality",
-  "keywords": [
-   "toc analyzer principle"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "motor-insulation-classes",
-  "keywords": [
-   "f class insulation temperature"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "induction-motor-slip-explained",
-  "keywords": [
-   "slip percentage formula"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "photodiode-vs-phototransistor-key-differences",
-  "keywords": [
-   "photodiode phototransistor"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "idmt-relay-characteristics-tms-psm",
-  "keywords": [
-   "tms relay"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "100-essential-engineering-formulas",
-  "keywords": [
-   "engineering formulas"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "emergency-shutdown-system-esd",
-  "keywords": [
-   "emergency shutdown"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "instrument-cable-schedule",
-  "keywords": [
-   "cable schedule example"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "orifice-plate-sizing-guide",
-  "keywords": [
-   "plate diameter"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "free-plc-programming-software",
-  "keywords": [
-   "free plc software"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "instrument-io-list-dcs-plc",
-  "keywords": [
-   "plc io list"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "bonded-and-unbonded-strain-gauges",
-  "keywords": [
-   "bonded strain gauge diagram"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "instrument-junction-box-design",
-  "keywords": [
-   "instrument junction box"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "impulse-line-installation-slope",
-  "keywords": [
-   "impulse line"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "siemens-s7-1200-vs-s7-1500",
-  "keywords": [
-   "siemens 1500 plc"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "bourdon-tube-pressure-gauges",
-  "keywords": [
-   "types of bourdon tube"
-  ],
-  "status": "todo"
- },
- {
-  "slug": "maximum-demand-calculation-diversity",
-  "keywords": [
-   "maximum demand definition"
-  ],
-  "status": "todo"
- }
+{
+"slug": "mutual-inductance-coupling-coefficient",
+"keywords": [
+"mutual inductance formula"
+],
+"status": "done"
+},
+{
+"slug": "varactor-diode-working-principle",
+"keywords": [
+"varactor diode"
+],
+"status": "done"
+},
+{
+"slug": "open-loop-and-closed-loop-control-system",
+"keywords": [
+"open loop control system examples",
+"difference between open loop and closed loop system",
+"open loop and closed loop difference"
+],
+"status": "done"
+},
+{
+"slug": "bus-duct-busway-system",
+"keywords": [
+"bus duct"
+],
+"status": "skip"
+},
+{
+"slug": "npn-and-pnp-proximity-sensors",
+"keywords": [
+"pnp sensor",
+"npn pnp sensor",
+"pnp proximity sensor"
+],
+"status": "done"
+},
+{
+"slug": "digital-pressure-gauge-working",
+"keywords": [
+"digital pressure gauge"
+],
+"status": "done"
+},
+{
+"slug": "ultrasonic-distance-sensor-sr04",
+"keywords": [
+"ultrasonic sensor range",
+"ultrasonic range",
+"ultrasonic sensor dimensions"
+],
+"status": "done"
+},
+{
+"slug": "digital-logic-gates-explained",
+"keywords": [
+"xand gate",
+"and using nor",
+"logic gates and or not"
+],
+"status": "done"
+},
+{
+"slug": "8-free-training-courses-plc-scada-hmi",
+"keywords": [
+"plc scada course"
+],
+"status": "skip"
+},
+{
+"slug": "rc-low-pass-high-pass-filter",
+"keywords": [
+"rc low pass filter",
+"cutoff frequency high pass filter",
+"f 1 2pirc"
+],
+"status": "done"
+},
+{
+"slug": "sequential-circuits-explained",
+"keywords": [
+"how many types of sequential circuits are"
+],
+"status": "done"
+},
+{
+"slug": "what-is-rtd-and-how-it-works",
+"keywords": [
+"platinum rtd"
+],
+"status": "done"
+},
+{
+"slug": "maximum-power-transfer-theorem",
+"keywords": [
+"maximum power transfer theorem proof"
+],
+"status": "todo"
+},
+{
+"slug": "7-segment-display-decoder",
+"keywords": [
+"seven segment decoder",
+"seven segment common cathode pin configuration"
+],
+"status": "todo"
+},
+{
+"slug": "counters-explained-ripple-vs-synchronous",
+"keywords": [
+"what is ripple counter",
+"what is a ripple counter"
+],
+"status": "todo"
+},
+{
+"slug": "instrument-index-document-guide",
+"keywords": [
+"instrument index"
+],
+"status": "todo"
+},
+{
+"slug": "time-of-flight-sensor-working",
+"keywords": [
+"time of flight sensor"
+],
+"status": "todo"
+},
+{
+"slug": "cathode-ray-oscilloscope-cro-explained",
+"keywords": [
+"application of cathode ray oscilloscope",
+"types of cro",
+"advantages of cro"
+],
+"status": "todo"
+},
+{
+"slug": "hipps-system-in-oil-and-gas",
+"keywords": [
+"hipps meaning"
+],
+"status": "todo"
+},
+{
+"slug": "siphon-sizing-and-selecting-a-siphon-for-pressure-gauge-protection",
+"keywords": [
+"pressure gauge syphon",
+"gauge siphon"
+],
+"status": "todo"
+},
+{
+"slug": "basics-of-transistors",
+"keywords": [
+"transistor working principle"
+],
+"status": "todo"
+},
+{
+"slug": "lvdt-linear-variable-differential-transformer",
+"keywords": [
+"construction and working of lvdt",
+"lvdt diagram and working"
+],
+"status": "todo"
+},
+{
+"slug": "float-level-switch-working-principle-and-applications",
+"keywords": [
+"float type level switch"
+],
+"status": "todo"
+},
+{
+"slug": "wheatstone-bridge-10-applications",
+"keywords": [
+"function of wheatstone bridge"
+],
+"status": "todo"
+},
+{
+"slug": "difference-between-3-1-and-3-2-material-certificates",
+"keywords": [
+"3.1 b"
+],
+"status": "todo"
+},
+{
+"slug": "difference-between-bootp-and-dhcp",
+"keywords": [
+"bootp in computer networks",
+"bootp vs dhcp"
+],
+"status": "todo"
+},
+{
+"slug": "pt100-rtd-calibration-guide",
+"keywords": [
+"rtd resistance formula",
+"rtd formula pt100",
+"rtd pt100 formula"
+],
+"status": "todo"
+},
+{
+"slug": "top-50-pid-controller-mcqs-2026",
+"keywords": [
+"a temperature control system is usually very sluggish",
+"the derivative control mode is mcq"
+],
+"status": "todo"
+},
+{
+"slug": "transformer-efficiency-calculation",
+"keywords": [
+"all day efficiency formula"
+],
+"status": "todo"
+},
+{
+"slug": "what-is-a-diaphragm-seal",
+"keywords": [
+"diaphragm seal"
+],
+"status": "todo"
+},
+{
+"slug": "electromagnetic-flow-meter-working-principle",
+"keywords": [
+"magnetic flow meter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "bimetallic-thermometer-working-principle",
+"keywords": [
+"bimetallic thermometer diagram"
+],
+"status": "todo"
+},
+{
+"slug": "types-of-thermowells",
+"keywords": [
+"thermowell types"
+],
+"status": "todo"
+},
+{
+"slug": "sensors-and-transducers-questions-answers",
+"keywords": [
+"sensors used in measurement systems are mcq"
+],
+"status": "todo"
+},
+{
+"slug": "rtd-resistance-to-temperature-calculator",
+"keywords": [
+"pt1000 formula",
+"pt100 ohm to celsius calculator"
+],
+"status": "todo"
+},
+{
+"slug": "list-of-free-scada-software",
+"keywords": [
+"scada software free download",
+"scada software list"
+],
+"status": "todo"
+},
+{
+"slug": "smd-resistor-code",
+"keywords": [
+"smd resistor value chart"
+],
+"status": "todo"
+},
+{
+"slug": "pid-controller-types-explained",
+"keywords": [
+"types of pid"
+],
+"status": "todo"
+},
+{
+"slug": "plc-programming-languages",
+"keywords": [
+"plc language"
+],
+"status": "todo"
+},
+{
+"slug": "74hc595-shift-register",
+"keywords": [
+"ic 74hc595"
+],
+"status": "todo"
+},
+{
+"slug": "per-unit-system-power-system",
+"keywords": [
+"what is per unit system",
+"per unit impedance"
+],
+"status": "todo"
+},
+{
+"slug": "dol-vs-star-delta-starter-which-to-use",
+"keywords": [
+"difference between star delta and dol starter"
+],
+"status": "todo"
+},
+{
+"slug": "dp-transmitter-level-measurement",
+"keywords": [
+"dp type level transmitter"
+],
+"status": "todo"
+},
+{
+"slug": "ttl-vs-cmos-logic-families",
+"keywords": [
+"compare ttl and cmos"
+],
+"status": "todo"
+},
+{
+"slug": "absolute-vs-gauge-pressure",
+"keywords": [
+"absolute vs gauge pressure"
+],
+"status": "todo"
+},
+{
+"slug": "analog-vs-digital-instrumentation-system",
+"keywords": [
+"difference between analog and digital instruments"
+],
+"status": "todo"
+},
+{
+"slug": "generator-excitation-system-avr",
+"keywords": [
+"excitation system"
+],
+"status": "todo"
+},
+{
+"slug": "what-is-a-valve-manifold",
+"keywords": [
+"types of manifold valves"
+],
+"status": "todo"
+},
+{
+"slug": "corona-effect-transmission-line",
+"keywords": [
+"visual critical voltage of corona formula"
+],
+"status": "todo"
+},
+{
+"slug": "how-do-magnetic-level-switch-work",
+"keywords": [
+"magnetic level switch"
+],
+"status": "todo"
+},
+{
+"slug": "skin-effect-in-conductors",
+"keywords": [
+"skin effect disadvantages"
+],
+"status": "todo"
+},
+{
+"slug": "how-nitrogen-purging-works",
+"keywords": [
+"nitrogen purging meaning"
+],
+"status": "todo"
+},
+{
+"slug": "venturi-tube-flow-measurements",
+"keywords": [
+"venturi pipe"
+],
+"status": "todo"
+},
+{
+"slug": "zero-speed-switch-working",
+"keywords": [
+"zero speed switch sensor"
+],
+"status": "todo"
+},
+{
+"slug": "ultrasonic-level-transmitter-working-principle",
+"keywords": [
+"ultrasonic level transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "pcb-via-types-through-hole-blind-buried",
+"keywords": [
+"through hole pcb"
+],
+"status": "todo"
+},
+{
+"slug": "atm-to-kpa-pressure-conversion",
+"keywords": [
+"101.325 kpa"
+],
+"status": "todo"
+},
+{
+"slug": "types-of-allen-bradley-plcs",
+"keywords": [
+"controllogix plc"
+],
+"status": "todo"
+},
+{
+"slug": "100-flow-measurement-questions-answers",
+"keywords": [
+"types of flow measurement"
+],
+"status": "todo"
+},
+{
+"slug": "power-inverter-working-principle",
+"keywords": [
+"inverter output"
+],
+"status": "todo"
+},
+{
+"slug": "switch-debouncing-hardware-software",
+"keywords": [
+"switch debouncing using sr latch"
+],
+"status": "todo"
+},
+{
+"slug": "silica-analyzer-power-plant-water",
+"keywords": [
+"silica analyzer working principle"
+],
+"status": "todo"
+},
+{
+"slug": "faradays-law-electromagnetic-induction",
+"keywords": [
+"faraday's law emf"
+],
+"status": "todo"
+},
+{
+"slug": "working-principle-membrane-level-switch",
+"keywords": [
+"level switch working principle"
+],
+"status": "todo"
+},
+{
+"slug": "synchronous-motor-working-principle",
+"keywords": [
+"difference between true synchronous mode and self controlled mode"
+],
+"status": "todo"
+},
+{
+"slug": "current-mirror-bjt-mosfet-circuit",
+"keywords": [
+"current mirror circuit using bjt"
+],
+"status": "todo"
+},
+{
+"slug": "dv-dt-filter-vfd-motor-protection",
+"keywords": [
+"dv dt protection"
+],
+"status": "todo"
+},
+{
+"slug": "basics-of-differential-pressure-transmitter",
+"keywords": [
+"dp transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "toc-analyzer-working-principle-water-quality",
+"keywords": [
+"toc analyzer principle"
+],
+"status": "todo"
+},
+{
+"slug": "motor-insulation-classes",
+"keywords": [
+"f class insulation temperature"
+],
+"status": "todo"
+},
+{
+"slug": "induction-motor-slip-explained",
+"keywords": [
+"slip percentage formula"
+],
+"status": "todo"
+},
+{
+"slug": "photodiode-vs-phototransistor-key-differences",
+"keywords": [
+"photodiode phototransistor"
+],
+"status": "todo"
+},
+{
+"slug": "idmt-relay-characteristics-tms-psm",
+"keywords": [
+"tms relay"
+],
+"status": "todo"
+},
+{
+"slug": "100-essential-engineering-formulas",
+"keywords": [
+"engineering formulas"
+],
+"status": "todo"
+},
+{
+"slug": "emergency-shutdown-system-esd",
+"keywords": [
+"emergency shutdown"
+],
+"status": "todo"
+},
+{
+"slug": "instrument-cable-schedule",
+"keywords": [
+"cable schedule example"
+],
+"status": "todo"
+},
+{
+"slug": "orifice-plate-sizing-guide",
+"keywords": [
+"plate diameter"
+],
+"status": "todo"
+},
+{
+"slug": "free-plc-programming-software",
+"keywords": [
+"free plc software"
+],
+"status": "todo"
+},
+{
+"slug": "instrument-io-list-dcs-plc",
+"keywords": [
+"plc io list"
+],
+"status": "todo"
+},
+{
+"slug": "bonded-and-unbonded-strain-gauges",
+"keywords": [
+"bonded strain gauge diagram"
+],
+"status": "todo"
+},
+{
+"slug": "instrument-junction-box-design",
+"keywords": [
+"instrument junction box"
+],
+"status": "todo"
+},
+{
+"slug": "impulse-line-installation-slope",
+"keywords": [
+"impulse line"
+],
+"status": "todo"
+},
+{
+"slug": "siemens-s7-1200-vs-s7-1500",
+"keywords": [
+"siemens 1500 plc"
+],
+"status": "todo"
+},
+{
+"slug": "bourdon-tube-pressure-gauges",
+"keywords": [
+"types of bourdon tube"
+],
+"status": "todo"
+},
+{
+"slug": "maximum-demand-calculation-diversity",
+"keywords": [
+"maximum demand definition"
+],
+"status": "todo"
+}
 ]
