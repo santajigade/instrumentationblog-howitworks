@@ -1,0 +1,54 @@
+/* Instrumentation Blog: shared header for static sections (/assets/ib-header.css) */
+.ibhd-top,.ibhd,.ibhd *{box-sizing:border-box}
+.ibhd-top{background:#1e73be;color:#fff;font-family:"Open Sans","Segoe UI",Arial,sans-serif}
+.ibhd-in{max-width:1240px;margin:0 auto;padding:0 20px;display:flex;align-items:center;gap:16px}
+.ibhd-top .ibhd-in{min-height:38px;justify-content:space-between}
+.ibhd-top a{color:#fff;text-decoration:none}
+.ibhd-mail{display:inline-flex;align-items:center;gap:8px;font-size:15px}
+.ibhd-mail svg{width:16px;height:16px;fill:none;stroke:#fff;stroke-width:2}
+.ibhd-soc{display:flex;gap:16px}
+.ibhd-soc svg{width:16px;height:16px;fill:#fff;display:block}
+.ibhd-soc a:hover svg{fill:#ffed00}
+.ibhd{background:#fff;border-bottom:1px solid #e3e7ee;position:relative;z-index:1000;font-family:"Open Sans","Segoe UI",Arial,sans-serif}
+.ibhd .ibhd-in{min-height:100px}
+.ibhd-logo{flex:none;display:block}
+.ibhd-logo img{width:80px;height:80px;display:block}
+.ibhd-nav{flex:1;display:flex;justify-content:center}
+.ibhd-nav>ul{list-style:none;margin:0;padding:0;display:flex;align-items:center;flex-wrap:nowrap;gap:0}
+.ibhd-nav li{position:relative;margin:0;list-style:none}
+.ibhd-nav>ul>li{display:flex;align-items:center}
+.ibhd-nav>ul>li>a,.ibhd-lbl{display:block;padding:36px 2px 36px 12px;color:#111;font-size:16px;line-height:1.6;text-decoration:none;cursor:pointer;white-space:nowrap}
+.ibhd-nav>ul>li:not(.ibhd-has)>a{padding-right:12px}
+.ibhd-nav>ul>li>a:hover,.ibhd-nav>ul>li:hover>a,.ibhd-nav>ul>li:hover>.ibhd-lbl,.ibhd-nav>ul>li.on>a,.ibhd-nav>ul>li.on>.ibhd-lbl{color:#e4004b}
+.ibhd-sub{border:0;background:none;padding:0 8px 0 2px;cursor:pointer;color:#111;display:flex;align-items:center}
+.ibhd-sub svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:3}
+.ibhd-nav li ul{list-style:none;margin:0;padding:10px 0;position:absolute;left:0;top:100%;min-width:250px;background:#fff;border-top:3px solid #e4004b;box-shadow:0 12px 30px rgba(0,0,0,.12);opacity:0;visibility:hidden;transform:translateY(8px);transition:opacity .15s,transform .15s,visibility .15s}
+.ibhd-nav li:hover>ul,.ibhd-nav li:focus-within>ul,.ibhd-nav li.open>ul{opacity:1;visibility:visible;transform:none}
+.ibhd-nav li ul a{display:block;padding:8px 22px;color:#333;font-size:15px;line-height:1.5;text-decoration:none;white-space:nowrap}
+.ibhd-nav li ul a:hover{color:#e4004b;background:#f6f7f9}
+.ibhd-search{flex:none;display:flex;align-items:center;position:relative}
+.ibhd-search input{width:0;opacity:0;border:1px solid #d5dbe3;border-radius:6px;padding:8px 10px;font-size:15px;transition:width .2s,opacity .2s;font-family:inherit}
+.ibhd-search:focus-within input,.ibhd-search.open input{width:180px;opacity:1}
+.ibhd-search button{border:0;background:none;cursor:pointer;padding:8px;color:#777}
+.ibhd-search svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2.4;display:block}
+.ibhd-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.ibhd-burger{display:none;margin-left:auto;border:0;background:none;padding:10px;cursor:pointer}
+.ibhd-burger span{display:block;width:26px;height:3px;background:#111;margin:5px 0;border-radius:2px}
+@media(max-width:1240px){.ibhd-nav>ul>li>a,.ibhd-lbl{font-size:15px;padding-left:8px}.ibhd-sub{padding-right:4px}}
+@media(max-width:1100px){
+.ibhd .ibhd-in{min-height:76px;flex-wrap:wrap}
+.ibhd-logo img{width:60px;height:60px}
+.ibhd-burger{display:block}
+.ibhd-search{order:3}
+.ibhd-nav{display:none;order:4;flex-basis:100%;border-top:1px solid #e3e7ee}
+.ibhd.menu-open .ibhd-nav{display:block}
+.ibhd-nav>ul{flex-direction:column;align-items:stretch;padding:6px 0 14px}
+.ibhd-nav>ul>li{flex-wrap:wrap;border-bottom:1px solid #eef1f5}
+.ibhd-nav>ul>li>a,.ibhd-lbl{flex:1;padding:12px 4px}
+.ibhd-sub{padding:12px}
+.ibhd-nav li ul{position:static;opacity:1;visibility:visible;transform:none;box-shadow:none;border:0;display:none;flex-basis:100%;padding:0 0 8px 14px;min-width:0}
+.ibhd-nav li:hover>ul,.ibhd-nav li:focus-within>ul{display:none}
+.ibhd-nav li.open>ul{display:block}
+.ibhd-nav li ul a{white-space:normal}
+.ibhd-top .ibhd-soc{display:none}
+}
