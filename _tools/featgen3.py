@@ -70,6 +70,39 @@ def body(title, ribbon, chips, topic, t):
 <div class="a" style="left:80px;top:400px;width:560px;font:600 26px/1.3 Pop;color:#e11d48">{R}</div>
 <div class="a chips" style="left:80px;top:500px">{"".join(f'<div style="background:#fff1f2;color:#9f1239;border:2px solid #fecdd3">{H.escape(c)}</div>' for c in chips)}</div>
 <div class="a logo" style="left:40px;top:36px;color:#fff"><b style="background:#fff;color:#e11d48">ib</b>instrumentationblog.in</div>"""
+    if t == 12:  # Retro terminal
+        svg = ill(topic, dict(d="#03140a", m="#0a3b1f", a="#39ff88", a2="#16a34a", t="#39ff88", h="#39ff88", p="#03140a", r="#062b16"))
+        return f"""<div class="a" style="inset:0;background:#020a05"></div>
+<div class="a" style="inset:30px;border-radius:30px;background:radial-gradient(ellipse at center,#06260f 0%,#020a05 80%);box-shadow:inset 0 0 80px rgba(57,255,136,.25);border:3px solid #1f6f3f"></div>
+<div class="a" style="inset:30px;border-radius:30px;background:repeating-linear-gradient(0deg,rgba(0,0,0,.25) 0 2px,transparent 2px 5px)"></div>
+<div class="a" style="right:70px;top:110px;opacity:.9;filter:drop-shadow(0 0 8px rgba(57,255,136,.6))">{svg}</div>
+<div class="a" style="left:80px;top:80px;font:700 24px 'DejaVu Sans Mono',monospace;color:#39ff88">C:\\IB&gt; run guide.exe<span style="background:#39ff88;color:#020a05">_</span></div>
+<div class="a" style="left:80px;top:140px;width:600px;font:700 {fit(title,64,20,590,0.62)}px/1.1 'DejaVu Sans Mono',monospace;color:#39ff88;text-shadow:0 0 12px rgba(57,255,136,.7)">{T}</div>
+<div class="a" style="left:80px;top:430px;width:560px;font:500 26px/1.3 'DejaVu Sans Mono',monospace;color:#a7f3c5">// {R}</div>
+<div class="a chips" style="left:80px;top:530px">{"".join(f'<div style="background:transparent;color:#39ff88;border:2px solid #39ff88;border-radius:4px;font-family:DejaVu Sans Mono,monospace">[{H.escape(c)}]</div>' for c in chips)}</div>
+<div class="a logo" style="right:70px;top:60px;color:#39ff88"><b style="background:#39ff88;color:#020a05">ib</b>instrumentationblog.in</div>"""
+    if t == 13:  # Magazine cover
+        svg = ill(topic, dict(d="#111", m="#444", a="#c8102e", a2="#0f4c81", t="#111", h="#c8102e", p="#fff", r="#111"))
+        return f"""<div class="a" style="inset:0;background:#fbfaf7"></div>
+<div class="a" style="left:0;top:0;width:1200px;height:120px;background:#c8102e"></div>
+<div class="a" style="left:50px;top:4px;font:400 118px/1 Bebas;letter-spacing:10px;color:#fff">ELECTRONICS</div>
+<div class="a" style="right:50px;top:24px;text-align:right;font:700 20px/1.3 Pop;color:#fff">BENCH SERIES<br>2026 EDITION</div>
+<div class="a" style="right:30px;top:150px;transform:scale(1.05);transform-origin:right top">{svg}</div>
+<div class="a" style="left:50px;top:160px;width:600px;font:900 {fit(title,76,20,590,0.6)}px/1.02 Playfair;color:#111">{T}</div>
+<div class="a" style="left:50px;top:430px;width:540px;font:700 italic 28px/1.25 Playfair;color:#c8102e">{R}</div>
+<div class="a chips" style="left:50px;top:520px">{"".join(f'<div style="background:#111;color:#fbfaf7;border-radius:0;font:700 22px Pop;letter-spacing:1px;text-transform:uppercase">{H.escape(c)}</div>' for c in chips)}</div>
+<div class="a logo" style="left:50px;bottom:28px;color:#111"><b style="background:#c8102e;color:#fff">ib</b>instrumentationblog.in</div>"""
+    if t == 14:  # Oscilloscope teal with outlined title
+        svg = ill(topic, dict(d="#0b2b2b", m="#134e4a", a="#fb7185", a2="#5eead4", t="#fff", h="#fb7185", p="#0b2b2b", r="#0f3d3d"))
+        wave = ''.join(f'{x},{round(337-150*min(1,max(-1,(((x%300)/75)-2))) if (x%300)<150 else 337+150*min(1,max(-1,((((x%300)-150)/75)-1))))} ' for x in range(0,1201,10))
+        return f"""<div class="a" style="inset:0;background:#0b2b2b"></div>
+<div class="a" style="inset:0;background-image:linear-gradient(rgba(94,234,212,.12) 1px,transparent 1px),linear-gradient(90deg,rgba(94,234,212,.12) 1px,transparent 1px);background-size:75px 75px"></div>
+<svg class="a" style="inset:0;opacity:.35" width="1200" height="675"><polyline points="{wave}" fill="none" stroke="#5eead4" stroke-width="4"/></svg>
+<div class="a" style="right:40px;top:90px;width:460px;height:470px;border-radius:24px;background:#0f3d3d;border:3px solid #5eead4;overflow:hidden"><div class="a" style="left:-30px;top:-10px">{svg}</div></div>
+<div class="a" style="left:60px;top:120px;width:600px;font:{fit(title,84,18,590,0.72)}px/1.0 Archivo;color:transparent;-webkit-text-stroke:2.5px #5eead4;text-transform:uppercase">{T}</div>
+<div class="a" style="left:60px;top:440px;background:#fb7185;color:#0b2b2b;font:800 26px/1.25 Pop;padding:12px 22px;border-radius:40px;max-width:600px">{R}</div>
+<div class="a chips" style="left:60px;top:550px">{"".join(f'<div style="background:#134e4a;color:#5eead4;border:2px solid #5eead4">{H.escape(c)}</div>' for c in chips)}</div>
+<div class="a logo" style="left:60px;top:50px;color:#fff"><b style="background:#5eead4;color:#0b2b2b">ib</b>instrumentationblog.in</div>"""
     # 8 Neon glass
     svg = ill(topic, PAL['neon'])
     return f"""<div class="a" style="inset:0;background:radial-gradient(circle at 80% 20%,#5b21b6 0%,#1a1033 55%,#0d0820 100%)"></div>
