@@ -1,62 +1,32 @@
 [
  {
-  "id": 20864,
+  "id": 20887,
   "status": "draft",
-  "link": "https://www.instrumentationblog.in/?p=20864",
-  "preview": "https://www.instrumentationblog.in/?p=20864&preview=true",
-  "edit": "https://www.instrumentationblog.in/wp-admin/post.php?post=20864&action=elementor",
+  "link": "https://www.instrumentationblog.in/?p=20887",
+  "preview": "https://www.instrumentationblog.in/?p=20887&preview=true",
+  "edit": "https://www.instrumentationblog.in/wp-admin/post.php?post=20887&action=elementor",
   "pin_image": "",
-  "media": 20863,
-  "slug": "24vdc-power-supply-sizing"
+  "media": 20886,
+  "slug": "binary-to-hexadecimal-conversion"
  },
  {
-  "id": 20866,
+  "id": 20889,
   "status": "draft",
-  "link": "https://www.instrumentationblog.in/?p=20866",
-  "preview": "https://www.instrumentationblog.in/?p=20866&preview=true",
-  "edit": "https://www.instrumentationblog.in/wp-admin/post.php?post=20866&action=elementor",
+  "link": "https://www.instrumentationblog.in/?p=20889",
+  "preview": "https://www.instrumentationblog.in/?p=20889&preview=true",
+  "edit": "https://www.instrumentationblog.in/wp-admin/post.php?post=20889&action=elementor",
   "pin_image": "",
-  "media": 20865,
-  "slug": "control-valve-authority"
+  "media": 20888,
+  "slug": "how-to-test-a-diode"
  },
  {
-  "id": 20868,
+  "id": 20891,
   "status": "draft",
-  "link": "https://www.instrumentationblog.in/?p=20868",
-  "preview": "https://www.instrumentationblog.in/?p=20868&preview=true",
-  "edit": "https://www.instrumentationblog.in/wp-admin/post.php?post=20868&action=elementor",
+  "link": "https://www.instrumentationblog.in/?p=20891",
+  "preview": "https://www.instrumentationblog.in/?p=20891&preview=true",
+  "edit": "https://www.instrumentationblog.in/wp-admin/post.php?post=20891&action=elementor",
   "pin_image": "",
-  "media": 20867,
-  "slug": "hysteresis-error-calibration"
- },
- {
-  "id": 20870,
-  "status": "draft",
-  "link": "https://www.instrumentationblog.in/?p=20870",
-  "preview": "https://www.instrumentationblog.in/?p=20870&preview=true",
-  "edit": "https://www.instrumentationblog.in/wp-admin/post.php?post=20870&action=elementor",
-  "pin_image": "",
-  "media": 20869,
-  "slug": "ph-electrode-slope-calculation"
- },
- {
-  "id": 20872,
-  "status": "draft",
-  "link": "https://www.instrumentationblog.in/?p=20872",
-  "preview": "https://www.instrumentationblog.in/?p=20872&preview=true",
-  "edit": "https://www.instrumentationblog.in/wp-admin/post.php?post=20872&action=elementor",
-  "pin_image": "",
-  "media": 20871,
-  "slug": "pressure-switch-troubleshooting"
- },
- {
-  "id": 20874,
-  "status": "draft",
-  "link": "https://www.instrumentationblog.in/?p=20874",
-  "preview": "https://www.instrumentationblog.in/?p=20874&preview=true",
-  "edit": "https://www.instrumentationblog.in/wp-admin/post.php?post=20874&action=elementor",
-  "pin_image": "",
-  "media": 20873,
-  "slug": "rtd-lead-wire-resistance-error"
+  "media": 20890,
+  "slug": "op-amp-slew-rate"
  }
 ]
