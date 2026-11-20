@@ -37,10 +37,10 @@ Add new topics anywhere; keep slugs unique and blog slugs from _src/blog_slugs.t
 - [x] hart-protocol | HART Protocol | Signals | hart-protocol-how-it-works
 - [x] pid-controller | PID Controller | DCS | pid-controller-types-explained
 - [x] plc-analog-scaling | PLC Analog Input Scaling | PLC | plc-analog-scaling-raw-count
-- [ ] float-level-switch | Float Level Switch | Switches | float-level-switch-working-principle-and-applications
-- [ ] historian-swinging-door | Historian Swinging Door Compression | SCADA | historian-data-compression-swinging-door
-- [ ] ratio-control | Ratio Control | DCS | what-is-ratio-control-in-process-industries
-- [ ] sinking-sourcing-plc | Sinking and Sourcing PLC Inputs | PLC | sinking-and-sourcing-in-plc
+- [x] float-level-switch | Float Level Switch | Switches | float-level-switch-working-principle-and-applications
+- [x] historian-swinging-door | Historian Swinging Door Compression | SCADA | historian-data-compression-swinging-door
+- [x] ratio-control | Ratio Control | DCS | what-is-ratio-control-in-process-industries
+- [x] sinking-sourcing-plc | Sinking and Sourcing PLC Inputs | PLC | sinking-and-sourcing-in-plc
 - [ ] vibrating-fork-level-switch | Vibrating Fork Level Switch | Switches | vibrating-fork-level-switch-working
 - [ ] modbus-rtu | Modbus RTU Communication | Signals | modbus-protocol-explained
 - [ ] override-control | Override (Selector) Control | DCS | override-control-selector-dcs
