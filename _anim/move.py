@@ -6,7 +6,7 @@ def call(path, data=None):
     with urllib.request.urlopen(req, timeout=120) as r: return json.loads(r.read())
 def txt(s): return re.sub(r'\s+', ' ', H.unescape(re.sub('<[^>]+>', '', s))).strip()
 import urllib.parse
-MOVES = {'open-loop-and-closed-loop-control-system': ('Comparision of Open Loop vs Closed Loop', 'after'), 'npn-and-pnp-proximity-sensors': ('Basic Working Principle (In Very Simple Language)', 'after'), 'digital-pressure-gauge-working': ('How the Gauge Turns Pressure Into Numbers', 'after'), 'varactor-diode-working-principle': ('Why Reverse Voltage Controls Capacitance', 'after')}
+MOVES = {'maximum-power-transfer-theorem': ('What Is the Maximum Power Transfer Theorem?', 'after'), '7-segment-display-decoder': ('BCD to 7 Segment Decoder ICs', 'after'), 'time-of-flight-sensor-working': ('How a Time of Flight Sensor Measures Distance', 'after'), 'cathode-ray-oscilloscope-cro-explained': ('Cathode Ray Oscilloscope (CRO)', 'after')}
 for slug, (target, mode) in MOVES.items():
     pid = call('/wp/v2/posts?slug=' + urllib.parse.quote(slug) + '&_fields=id')[0]['id']
     w = call(f'/ib/v1/widgets/{pid}')
