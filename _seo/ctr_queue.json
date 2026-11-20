@@ -884,7 +884,7 @@
 "queries": [
 "unity gain buffer"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "boost-converter-working-principle",
@@ -900,7 +900,7 @@
 "differential pressure transmitter working principle",
 "pressure gauge snubber working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "equipotential-bonding-electrical-safety",
@@ -911,7 +911,7 @@
 "queries": [
 "equipotential bonding"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "temperature-measurement-errors",
@@ -920,7 +920,7 @@
 "ctr": 0.7,
 "pos": 9.0,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "displacer-level-transmitter-working-principle",
@@ -936,7 +936,7 @@
 "working principle of differential pressure transmitter",
 "float level switch working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "vfd-parameter-configuration",
@@ -945,7 +945,7 @@
 "ctr": 0.33,
 "pos": 5.3,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "earth-leakage-relay-elr-cbct",
@@ -954,7 +954,7 @@
 "ctr": 0.57,
 "pos": 7.6,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "op-amp-integrator-differentiator",
@@ -967,7 +967,7 @@
 "precision rectifier op amp circuit",
 "gain for inverting op amp"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "conductivity-sensor-cell-constant-calibration",
@@ -978,7 +978,7 @@
 "queries": [
 "conductivity cell constant range"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "choked-flow-in-control-valves",
@@ -992,7 +992,7 @@
 "choked flow in control valve",
 "flow characteristics of control valve"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "buck-converter-working-principle",
@@ -1008,7 +1008,7 @@
 "differential pressure transmitter working principle",
 "pressure gauge snubber working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "universal-motor-working-principle",
@@ -1024,7 +1024,7 @@
 "differential pressure transmitter working principle",
 "pressure gauge snubber working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "ttl-vs-cmos-logic-families",
@@ -1033,7 +1033,7 @@
 "ctr": 0.43,
 "pos": 6.8,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "4-to-20-ma-signal-conversion",
@@ -1042,7 +1042,7 @@
 "ctr": 0.98,
 "pos": 7.8,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "thermocouple-mv-to-temperature",
@@ -1051,7 +1051,7 @@
 "ctr": 0.63,
 "pos": 5.9,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "vacuum-measurement-sensor-types",
@@ -1064,7 +1064,7 @@
 "types of photoelectric sensor",
 "photo electric sensor types"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "instrument-io-list-dcs-plc",
@@ -1073,7 +1073,7 @@
 "ctr": 0.95,
 "pos": 5.3,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "marshalling-cabinet-dcs-wiring",
@@ -1084,7 +1084,7 @@
 "queries": [
 "plc cabinet wiring"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "questions-and-answers-on-level-sensors",
@@ -1093,7 +1093,7 @@
 "ctr": 0.77,
 "pos": 6.2,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "scada-rtu-remote-terminal-unit-architecture-communication",
@@ -1102,7 +1102,7 @@
 "ctr": 0.48,
 "pos": 10.0,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "orifice-plate-vs-venturi-tube",
@@ -1118,7 +1118,7 @@
 "orifice plate sizes",
 "standard orifice plate"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "plc-multiple-outputs-configuration",
@@ -1127,7 +1127,7 @@
 "ctr": 0.7,
 "pos": 7.6,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "instrument-cable-schedule",
@@ -1142,7 +1142,7 @@
 "cable schedule template excel",
 "instrument cable color code standard"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "power-distribution-system-radial-ring",
@@ -1151,7 +1151,7 @@
 "ctr": 0.21,
 "pos": 5.8,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "plc-memory-addressing",
@@ -1160,7 +1160,7 @@
 "ctr": 0.87,
 "pos": 8.8,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "insulating-gloves-6-essential-classes-and-safe-testing-tips",
@@ -1169,7 +1169,7 @@
 "ctr": 0.44,
 "pos": 9.5,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "process-variables-in-hart-transmitters",
@@ -1178,7 +1178,7 @@
 "ctr": 0.67,
 "pos": 5.6,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "safety-signal-override-explained",
@@ -1187,7 +1187,7 @@
 "ctr": 0.68,
 "pos": 6.0,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "plc-data-move-instructions",
@@ -1202,7 +1202,7 @@
 "data types in plc programming",
 "comparison instructions in plc"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "instrument-tag-numbering-isa-5-1",
@@ -1213,7 +1213,7 @@
 "queries": [
 "isa 5.4 instrument loop diagrams pdf"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "thermostat-working-principle",
