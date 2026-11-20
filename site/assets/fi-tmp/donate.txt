@@ -4,6 +4,8 @@
 .ibd h1,.ibd h2,.ibd h3{font-family:'Segoe UI',Arial,sans-serif !important;text-transform:none !important;letter-spacing:0;color:#0b2540;margin:0}
 .ibd p{margin:0}
 .ibd a{text-decoration:none !important}
+.ibd a,.ibd button,.ibd span,.ibd h3,.ibd li,.ibd p{text-transform:none !important;font-family:'Segoe UI',Arial,sans-serif !important}
+.ibd .ibd-eyebrow{text-transform:uppercase !important}
 .ibd-wrap{max-width:1140px;margin:0 auto;padding:0 20px}
 .ibd-hero{background:linear-gradient(135deg,#0b2540 0%,#12365c 55%,#0077c0 100%);color:#fff;padding:64px 0 72px;position:relative;overflow:hidden}
 .ibd-hero:after{content:"";position:absolute;right:-120px;top:-120px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(255,237,0,.22),rgba(255,237,0,0) 70%)}
@@ -85,6 +87,11 @@ body:has(.ibd) #content :has(.ibd){padding-top:0 !important;margin-top:0 !import
 body:has(.ibd) .site-main>article,body:has(.ibd) .entry-content{margin:0 !important;padding:0 !important}
 body:has(.ibd) .elementor-section:has(.ibd),body:has(.ibd) .elementor-container:has(.ibd),body:has(.ibd) .elementor-column:has(.ibd)>.elementor-widget-wrap,body:has(.ibd) .e-con:has(.ibd){padding:0 !important;margin:0 !important;max-width:none !important}
 body:has(.ibd) .elementor-widget:has(.ibd){margin:0 !important}
+body:has(.ibd) .entry-thumbnail{display:none !important}
+body:has(.ibd) .fixed-bar-coloum{display:none !important}
+body:has(.ibd) .col-xl-9:has(.ibd){flex:0 0 100% !important;max-width:100% !important;width:100% !important;padding:0 !important}
+body:has(.ibd) .container:has(.ibd){max-width:none !important;width:100% !important;padding:0 !important}
+body:has(.ibd) .row:has(.ibd){margin:0 !important}
 </style>
 <div class="ibd">
 
