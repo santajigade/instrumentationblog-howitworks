@@ -1,0 +1,32 @@
+{
+ "id": 20459,
+ "slug": "thermocouple-mv-to-temperature",
+ "impr": 1119,
+ "ctr": 0.63,
+ "pos": 5.9,
+ "queries": [],
+ "title": "Thermocouple mV to Temperature: K, J, T Table &#038; Calculator",
+ "rank_math_title": "",
+ "rank_math_description": "Thermocouple mV to temperature for Type K, J and T with NIST ITS 90 table, cold junction math, solved example and calculator. Type K is 4.096 mV at 100 \u00b0C.",
+ "focus_keyword": "thermocouple mV to temperature",
+ "headings": [
+  "What Is Thermocouple mV to Temperature Conversion?",
+  "Thermocouple mV Table for Type K, J and T",
+  "Why Thermocouple Output Is Not Linear",
+  "Cold Junction Compensation Formula and Method",
+  "Solved Example: Thermocouple mV to Temperature for Type K",
+  "Second Example: Type J with a Warm Panel",
+  "Thermocouple mV to Temperature Calculator for Type K",
+  "How to Test a Thermocouple With a Multimeter",
+  "Extension Wire, Copper Joints and Other Error Sources",
+  "Converting mV in a Transmitter or PLC",
+  "Advantages and Limits of Manual Conversion",
+  "Texas Instruments Thermocouple Measurement Guide PDF",
+  "Video: Understanding Cold Junction Compensation",
+  "Thermocouple mV to Temperature FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Temperature\n\r\n Thermocouple mV to Temperature: Type K, J and T mV Tables, Cold Junction Compensation Math, Multimeter Test and Solved Examples\n\r\n A thermocouple only gives you a few millivolts, and that number means nothing until you add the cold junction voltage and read the right table. This guide shows the exact method with NIST values, two solved examples and a calculator you can use in the field.\n\r\n \r\n Type K, J, T mV Table \r\n Cold Junction Math \r\n NIST ITS 90 \r\n Multimeter Test \r\n Calculator \r\n \n\r\n\n\r\n\r\n Converting thermocouple millivolts to temperature is easy once you know why the curve is not a straight line and where the cold junction voltage goes. We use NIST ITS 90 values, solved examples and a Type K calculator to make the method stick.\n\r\n\r\n \r\n Hello everyone, today we are going to learn thermocouple mV to temperature conversion step by step, from reading the NIST table and adding cold junction voltage to testing a sensor with a multimeter.\r\n\n\r\n \r\n \r\n \r\n\r\n What Is Thermocouple mV to Temperature Conversion?\n\r\n\r\n Thermocouple mV to temperature conversion turns the small voltage of a thermocouple into the hot junction temperature, using a standard reference table or polynomial made for a cold junction at 0 \u00b0C. You first add the voltage of the actual cold junction to the measured millivolts, then look up the total in the table for that thermocouple type.\n\r\n\r\n Quick Answer\n Total emf = measured mV + emf of the cold junction temperature\n Look up the total emf in the NIST ITS 90 table for the correct type\n Type K: 4.096 mV at 100 \u00b0C and 41.276 mV at 1000 \u00b0C\n Type J: 5.269 mV at 100 \u00b0C, Type T: 4.279 mV at 100 \u00b0C\n Never add the cold junction temperature to the table temperature\n \n\r\n\r\n The voltage comes from the Seebeck effect at the junction of two different metals, a basic idea covered in our page on basics of thermocouples and RTD . Each letter type uses a different metal pair, so each has its own table and range, as listed in types of thermocouples and ranges .\n\r\n\r\n \r\n \r\n \r\n \r\n\r\n NIST thermocouple output voltage versus temperature chart for common thermocouple types \r\n \r\n\r\n Each line on the chart bends slightly, which is why a fixed mV per degree factor is never exact.\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n Thermocouple mV Table for Type K, J and T\n\r\n\r\n The values below come straight from the NIST ITS 90 Thermocouple Database, with the reference junction at 0 \u00b0C. Keep this short table on your calibration sheet for quick checks during a thermocouple mV to temperature conversion.\n\r\n\r\n \r\n \r\n Temperature Type K (mV) Type J (mV) Type T (mV) \n\r\n 0 \u00b0C 0.000 0.000 0.000 \n\r\n 20 \u00b0C 0.798 1.019 0.790 \n\r\n 25 \u00b0C 1.000 1.277 0.992 \n\r\n 30 \u00b0C 1.203 1.537 1.196 \n\r\n 100 \u00b0C 4.096 5.269 4.279 \n\r\n 200 \u00b0C 8.138 10.779 9.288 \n\r\n 300 \u00b0C 12.209 16.327 14.862 \n\r\n 400 \u00b0C 16.397 21.848 20.872 \n\r\n 500 \u00b0C 20.644 27.393 not in range \n\r\n 600 \u00b0C 24.905 33.102 not in range \n\r\n 700 \u00b0C 29.129 39.132 not in range \n\r\n 800 \u00b0C 33.275 45.494 not in range \n\r\n 1000 \u00b0C 41.276 57.953 "
+}

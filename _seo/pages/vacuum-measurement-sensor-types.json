@@ -1,0 +1,29 @@
+{
+ "id": 17580,
+ "slug": "vacuum-measurement-sensor-types",
+ "impr": 1106,
+ "ctr": 0.63,
+ "pos": 5.8,
+ "queries": [
+  "photoelectric sensor types",
+  "types of photoelectric sensor",
+  "photo electric sensor types"
+ ],
+ "title": "Vacuum Measurement: Pirani, Penning and Capacitance Manometer Explained",
+ "rank_math_title": "Vacuum Measurement: Pirani, Penning & Capacitance Gauges",
+ "rank_math_description": "Vacuum measurement explained: how Pirani, Penning and capacitance manometers work, the range of each, gas dependence, accuracy and selection.",
+ "focus_keyword": "vacuum measurement,Pirani Gauge",
+ "headings": [
+  "Vacuum Measurement: Three Gauge Types and Their Pressure Ranges",
+  "Pirani Gauge Working Principle",
+  "Penning Gauge Working Principle",
+  "Capacitance Manometer Working Principle",
+  "Pirani vs Penning vs Capacitance Manometer: Full Comparison",
+  "Watch: Pirani Gauge for Measuring Vacuum",
+  "Vacuum Measurement Questions Engineers Ask",
+  "Related Articles on This Site",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Pressure Measurement\n\r\n Vacuum Measurement: Pirani, Penning and Capacitance Manometer Explained\n\r\n No single vacuum gauge covers the full pressure range from atmospheric down to ultra-high vacuum. Each technology works within a specific pressure range and uses a different physical principle to infer pressure.\n\r\n Pirani, Penning and capacitance manometer gauges together cover the range from roughing vacuum down to high vacuum, and each has distinct accuracy, gas-type sensitivity, and application characteristics.\n\r\n \r\n Pirani Gauge \r\n Penning Gauge \r\n Capacitance Manometer \r\n Vacuum Range \r\n Thermal Conductivity \r\n \n\r\n\n\r\n\r\n Choosing the wrong vacuum gauge gives either no reading or a wildly inaccurate one. Understanding each gauge type and its pressure range is essential before specifying a vacuum system.\n\r\n\r\n \r\n Hello everyone, today we are going to learn about vacuum measurement using the Pirani gauge, the Penning gauge, and the capacitance manometer.\n\n\r\n We will cover the working principle of each type, the pressure range each covers, how gas type affects the reading, and a comparison table to help you select the right gauge for your application.\r\n\n\r\n \r\n \r\n \r\n Vacuum Measurement: Three Gauge Types and Their Pressure Ranges\n\r\n\r\n \r\n \r\n Pirani Gauge\n\r\n Thermal conductivity gauge. Measures heat loss from a heated filament to surrounding gas molecules. Works from 1 atm down to 10-3 mbar (1000 Pa to 0.1 Pa).\n\r\n Gas-type dependent. Used for roughing and medium vacuum monitoring.\n\r\n \n\r\n \r\n Penning Gauge\n\r\n Cold cathode ionisation gauge. Measures ion current produced by electron bombardment of gas molecules. Works from 10-2 to 10-7 mbar.\n\r\n Gas-type dependent. Used for high vacuum monitoring and interlock systems.\n\r\n \n\r\n \r\n Capacitance Manometer\n\r\n Mechanical diaphragm gauge. Measures physical deflection of a thin metal diaphragm against a reference vacuum. Works from atmosphere down to 10-4 mbar.\n\r\n Gas-type independent. The most accurate of the three types.\n\r\n \n\r\n\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n Pirani Gauge Working Principle\n\r\n\r\n The Pirani gauge uses the thermal conductivity of a gas to measure its pressure.\n\r\n A thin filament (usually platinum or tungsten) is heated by electrical current inside a tube connected to the vacuum system.\n\r\n\r\n Gas molecules collide with the hot filament and carry heat away. At higher pressures, more heat is removed and the filament cools.\n\r\n At lower pressures, fewer molecules carry heat away and the filament stays hotter.\n\r\n\r\n The gauge circuit measures the filament resistance change. Since resistance changes with temperature, this gives a direct indication of gas molecule density, which is proportional to pressure.\n\r\n\r\n \r\n Pressure range\n Approximately 1000 Pa (1 atm) down to 0.1 Pa (10-3 mbar). Above 1000 Pa, all gauges at that pressure read similarly since gas conduction dominates. Below 0.1 Pa, the molecular mean free path exceeds the filament dimensions and thermal conductivity becomes pressure-independent.\n\n\r"
+}

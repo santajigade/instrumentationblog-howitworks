@@ -1,0 +1,31 @@
+{
+ "id": 18177,
+ "slug": "voltage-follower-unity-gain-buffer-explained",
+ "impr": 1338,
+ "ctr": 0.52,
+ "pos": 9.9,
+ "queries": [
+  "unity gain buffer"
+ ],
+ "title": "Voltage Follower (Unity Gain Buffer) Explained",
+ "rank_math_title": "",
+ "rank_math_description": "Voltage Follower explained: unity gain buffer working principle, formulas, common mistakes, and where impedance matching buffers are used.",
+ "focus_keyword": "Voltage Follower",
+ "headings": [
+  "Voltage Follower Working Principle",
+  "4 Steps in Buffered Signal Transfer",
+  "Related Buffer Configurations",
+  "Buffer Isolating Source from Load",
+  "Closed Loop Gain Check",
+  "Where a Voltage Follower Is Used",
+  "Common Mistakes When Using a Buffer",
+  "Loading Error Calculator",
+  "Reference Document",
+  "Watch: Op Amp Voltage Follower Explained",
+  "Frequently Asked Questions",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Analog Electronics\n\r\n Voltage Follower (Unity Gain Buffer) Explained\n\r\n This circuit copies its input voltage to its output exactly, without amplifying it, and that single trait makes it one of the most quietly useful op amp configurations in analog design.\n\r\n \r\n Voltage Follower \r\n Unity Gain Buffer \r\n Impedance Matching \r\n \n\r\n\n\r\n\r\n A Voltage Follower takes advantage of an op amp's near infinite input impedance and near zero output impedance, isolating a sensitive source from a load that would otherwise pull its voltage down.\n\r\n\r\n \r\n Hello everyone, today we are going to look at this simple but powerful op amp circuit, why its gain works out to exactly one, and where it quietly solves loading problems in real designs.\n\n\r\n This circuit is one of the simplest applications built on the general operational amplifier basics every analog design starts from.\r\n\n\r\n \r\n \r\n \r\n Voltage Follower Working Principle\n\r\n\r\n The op amp's output is fed directly back into its inverting input, forming negative feedback with no resistors in the loop at all.\n\r\n\r\n That direct feedback forces the output voltage to track the non inverting input voltage as closely as the op amp's open loop gain and bandwidth allow.\n\r\n\r\n \r\n \r\n Image credit: Bermix Studio, Unsplash \r\n \r\n\r\n Because the gain works out to almost exactly one, the circuit passes the input signal through unchanged in amplitude while contributing a large amount of current drive at the output.\n\r\n\r\n\r\n 4 Steps in Buffered Signal Transfer\n\r\n\r\n \r\n 1\n Source Presents Voltage\n A high impedance source, such as a sensor, presents its signal to the buffer input.\n\n\r\n 2\n Op Amp Draws Almost No Current\n The near infinite input impedance means the source is barely loaded at all.\n\n\r\n 3\n Feedback Forces Unity Gain\n Direct feedback keeps output voltage equal to input voltage at all times.\n\n\r\n 4\n Buffer Drives the Load\n Low output impedance lets the buffer supply current without dropping voltage.\n\n\r\n\n\r\n\r\n Related Buffer Configurations\n\r\n\r\n \r\n Op Amp Voltage Follower\n The classic configuration, offering the highest input impedance and best precision.\n Best for: precision sensor buffering\n Precision \n\r\n Emitter Follower\n A transistor based buffer with lower input impedance but higher current capability.\n Best for: driving low impedance loads\n High Current \n\r\n Source Follower\n A FET based buffer offering very high input impedance with moderate drive strength.\n Best for: ultra high impedance sources\n Ultra High Z \n\r\n\n\r\n\r\n\r\n Buffer Isolating Source from Load\n\r\n\r\n \r\n High Impedance Source\n\r\n \n\r\n Buffer Stage, Gain = 1\n\r\n \n\r\n Low Impedance Load\n\r\n \r\n Input side, high impedance \r\n Output side, low impedance \r\n \n\r\n\n\r\n\r\n \r\n Tip\n\r\n Not every op amp is stable in this configuration without a small series output resistor, so check the datasheet's stability notes before wiring the feedback path directly with no resistor at all.\n\r\n\n\r\n\r\n Closed Loop Gain Check\n\r\n\r\n \r\nClosed Loop Gain = 1 (ideal, no resistors in feedback path)\n\n\r\nExample:\n\r\nInput volta"
+}

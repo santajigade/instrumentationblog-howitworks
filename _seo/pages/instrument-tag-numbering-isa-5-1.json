@@ -1,0 +1,32 @@
+{
+ "id": 20383,
+ "slug": "instrument-tag-numbering-isa-5-1",
+ "impr": 879,
+ "ctr": 0.46,
+ "pos": 4.5,
+ "queries": [
+  "isa 5.4 instrument loop diagrams pdf"
+ ],
+ "title": "Instrument Tag Numbering: ISA 5.1 Letter Table &#038; Examples",
+ "rank_math_title": "",
+ "rank_math_description": "Instrument tag numbering as per ISA 5.1: first and succeeding letter tables, loop numbers, area prefixes, PT, FIC and LSHH examples and a loop planner.",
+ "focus_keyword": "instrument tag numbering",
+ "headings": [
+  "How Does Instrument Tag Numbering Work?",
+  "ISA 5.1 Identification Letters Table: First Letter",
+  "Succeeding Letters: Readout, Output and Modifiers",
+  "Instrument Tag Number Meaning: Worked Examples",
+  "Loop Numbers and Area Prefixes in Instrument Tag Numbering",
+  "Instrument Tag Numbering Procedure for a Project",
+  "Loop Number Planner Calculator",
+  "Common Instrument Tag Numbering Mistakes",
+  "Instrument Tag Numbering for Alarms, Switches and Safety Devices",
+  "P&amp;IDs and Symbols Primer PDF",
+  "Video on Reading ISA 5.1 Symbols",
+  "Instrument Tag Numbering FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Design\n\r\n Instrument Tag Numbering as per ISA 5.1: Letter Codes, Loop Numbers, Prefixes and Worked Examples\n\r\n Every transmitter, switch and valve on a P&ID carries a short code that tells you what it measures and what it does. Once you can read those letters and numbers, any loop drawing, I/O list or datasheet becomes far easier to follow.\n\r\n \r\n First Letter \r\n Succeeding Letters \r\n Loop Number \r\n Area Prefix \r\n Suffix Letters \r\n \n\r\n\n\r\n\r\n An instrument tag such as FIC 205 packs the measured variable, the function and the loop into a few characters. This guide explains the ISA 5.1 rules, the letter tables and the numbering choices made on real projects.\n\r\n\r\n \r\n Hello everyone, today we are going to learn instrument tag numbering as per ISA 5.1, including the letter codes, loop numbers, area prefixes, suffixes and the mistakes that confuse drawings.\r\n\n\r\n \r\n \r\n \r\n How Does Instrument Tag Numbering Work?\n\r\n\r\n Instrument tag numbering gives each device a unique identity made of letters that describe the measured variable and its function, followed by a loop number shared by every device in that control loop. In FIC 205, F means flow, I means indicate, C means control and 205 is the loop, as shown on the piping and instrumentation diagram .\n\r\n\r\n Quick Answer\n The first letter is the measured or initiating variable, such as P, T, F or L.\n Succeeding letters give the function, such as I, T, C, S or V.\n The number is the loop number, shared by all devices in one loop.\n Optional prefixes show the plant area, and suffixes such as A and B separate twins.\n ISA 5.1 is the standard most plants follow.\n \n\r\n\r\n \r\n \r\n \r\n \r\n\r\n Instrument bubble showing tag FT 304, where F is flow, T is transmitter and 304 is the loop number \r\n \r\n\r\n Please note that the tag FT 304 this way: F is the process variable, T is the device type and 304 is the loop number. A flow transmitter in loop 304 then sends its 4 to 20 mA signal to FIC 304 in the control room.\n\r\n\r\n Do You Know?\n Control.com notes that the first letter follows the variable being measured, not the hardware. A pressure transmitter used to infer tank level is therefore tagged LT, not PT.\n\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n ISA 5.1 Identification Letters Table: First Letter\n\r\n\r\n The first letter, sometimes followed by a modifier, names the measured or initiating variable. The table follows the letters listed by Control.com from ANSI/ISA 5.1, where C, G, M, N and O are left as user choice letters.\n\r\n\r\n \r\n \r\n Letter Measured Variable As a Modifier \n\r\n A Analysis, composition None \n\r\n B Burner, combustion None \n\r\n D User choice Differential \n\r\n E Voltage None \n\r\n F Flow rate Ratio, fraction \n\r\n H Hand, manual None \n\r\n I Current None \n\r\n J Power Scan \n\r\n K Time, schedule Time rate of change \n\r\n L Level None \n\r\n P Pressure, vacuum None \n\r\n Q Quantity Integrate, totalise \n\r\n R Radiation None \n\r\n S Speed, frequency Safety \n\r\n T Temperature None \n\r\n U Multivariable None \n\r\n V Vibration None \n\r\n W Weight, force None \n\r\n X Uncla"
+}

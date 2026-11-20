@@ -1,0 +1,32 @@
+{
+ "id": 19596,
+ "slug": "insulating-gloves-6-essential-classes-and-safe-testing-tips",
+ "impr": 903,
+ "ctr": 0.44,
+ "pos": 9.5,
+ "queries": [],
+ "title": "Insulating Gloves: 6 Essential Classes and Safe Testing Tips",
+ "rank_math_title": "",
+ "rank_math_description": "Learn insulating gloves classes 00 to 4 under IEC 60903 and ASTM D120, voltage ratings, air inflation test, 6 month retest, leather protectors and storage.",
+ "focus_keyword": "insulating gloves",
+ "headings": [
+  "What Are Insulating Gloves?",
+  "The 6 Insulating Gloves Classes and Voltage Ratings",
+  "How to Select Insulating Gloves for a Job",
+  "Insulating Gloves Class Selector Formula",
+  "Insulating Gloves Class Calculator",
+  "Air Inflation Test Before Every Use",
+  "Periodic Electrical Retest of Insulating Gloves",
+  "Leather Protectors and Correct Wearing",
+  "Storage and Care of Electrical Gloves",
+  "Common Mistakes With Insulating Gloves",
+  "Where Electrical Gloves Are Used",
+  "Safetec Guidance on Glove Retesting",
+  "How to Inspect Electrical Gloves Video",
+  "Insulating Gloves FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Electrical Safety & Standards\n\r\n Insulating Gloves: 6 Essential Classes and Safe Testing Tips\n\r\n Rubber gloves are the last barrier between an electrician and a live conductor, so the right class and a clean test record matter every single day. This guide explains the six glove classes, the field air test, retest rules, protectors and storage in plain language.\n\r\n \r\n Class 00 to 4 \r\n IEC 60903 \r\n Air Inflation Test \r\n 6 Month Retest \r\n \n\r\n\n\r\n\r\n Electrical insulating gloves are graded into six classes by the highest voltage they can safely handle. Choosing the right class, testing before every use and storing them properly keeps electricians alive.\n\r\n\r\n \r\n Hello everyone, today we are going to learn how insulating gloves are classified under IEC 60903 and ASTM D120, how to pick the right class, and how to test, protect and store them.\r\n\n\r\n \r\n \r\n \r\n What Are Insulating Gloves?\n\r\n\r\n Insulating gloves are rubber gloves made from natural or synthetic elastomer that are tested to withstand a specified voltage, so a worker can touch or work near energised parts without current flowing through the body. They are the core item in any electrical safety PPE kit for live work, switching and testing.\n\r\n\r\n A shock happens when the body completes a circuit between a live part and earth or another phase. As explained in electrical shock causes and prevention , even a few tens of milliamps across the chest can stop the heart, so the glove has to block that path completely.\n\r\n\r\n \r\n \r\n Image credit: Power and Cables . Photo courtesy of Power and Cables, shown here for educational reference. \r\n \r\n\r\n The international standard is IEC 60903, adopted in Europe as EN 60903, while North America uses ASTM D120 for the glove itself and OSHA 1910.137 for care and use. In India, IS 4770 covers rubber gloves for electrical purposes, and many utilities now specify IEC 60903 gloves directly.\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n The 6 Insulating Gloves Classes and Voltage Ratings\n\r\n\r\n \r\n \r\n Class Label Colour Max Use AC Max Use DC Proof Test AC \n\r\n 00 Beige 500 V 750 V 2.5 kV \n\r\n 0 Red 1000 V 1500 V 5 kV \n\r\n 1 White 7500 V 11250 V 10 kV \n\r\n 2 Yellow 17000 V 25500 V 20 kV \n\r\n 3 Green 26500 V 39750 V 30 kV \n\r\n 4 Orange 36000 V 54000 V 40 kV \n\r\n \r\n\n\r\n\r\n Power and Cables, a UK cable accessories supplier, lists class 0 gloves at 1000 V AC and 1500 V DC, rising to 36000 V AC and 54000 V DC for class 4. It also notes that class 4 gloves are made longer, about 410 mm against 360 mm for the lower classes, to protect more of the forearm.\n\r\n\r\n \r\n Class 00 and Class 0\n Thin gloves for low voltage panels and MCCs up to 1000 V AC.\n Best for: LV switchboards and testing\n Low Voltage \n\r\n Class 1\n Thicker gloves for systems up to 7500 V AC.\n Best for: 6.6 kV industrial networks\n Medium \n\r\n Class 2 and Class 3\n Heavy gloves for 11 kV and 22 kV distribution.\n Best for: 11 kV and 22 kV feeders\n High \n\r\n Class 4\n Thickest and longest gloves, rated up to 36000 V AC.\n Best for: 33 kV live line work\n "
+}

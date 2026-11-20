@@ -1,0 +1,38 @@
+{
+ "id": 19590,
+ "slug": "universal-motor-working-principle",
+ "impr": 1172,
+ "ctr": 0.51,
+ "pos": 7.5,
+ "queries": [
+  "igbt working principle",
+  "rtd working principle",
+  "rtd working principle in hindi",
+  "potentiometer working principle",
+  "differential pressure transmitter working principle",
+  "pressure gauge snubber working principle"
+ ],
+ "title": "Universal Motor: 6 Essential Parts and Easy Working Guide",
+ "rank_math_title": "",
+ "rank_math_description": "Learn the universal motor working principle on AC and DC, its 6 key parts, commutator and brushes, triac speed control, brush wear checks and a calculator.",
+ "focus_keyword": "universal motor",
+ "headings": [
+  "What Is a Universal Motor?",
+  "6 Essential Parts of a Universal Motor",
+  "How a Universal Motor Works on AC and DC",
+  "Speed and Torque Characteristics",
+  "Uncompensated and Compensated Types",
+  "Speed Control With a Triac",
+  "Second Worked Example: Torque at Rated Speed",
+  "Brush Wear and Maintenance",
+  "Where These Motors Are Used",
+  "Selecting a Universal Motor for a Product",
+  "NXP Motor Drive Application Note",
+  "Animated Motor Working Video",
+  "Universal Motor FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Electrical Machines\n\r\n Universal Motor: 6 Essential Parts and Easy Working Guide\n\r\n The mixer grinder in an Indian kitchen and the drill in a workshop share the same small, fast and powerful machine. It runs on AC or DC, reaches very high speed and packs a lot of power into a light body.\n\r\n \r\n Series Wound \r\n AC and DC \r\n Commutator and Brushes \r\n Triac Speed Control \r\n \n\r\n\n\r\n\r\n A universal motor is a series wound commutator motor that runs on both AC and DC supplies. Its high speed and high starting torque make it the heart of mixers, drills, vacuum cleaners and many other portable appliances.\n\r\n\r\n \r\n Hello everyone, today we are going to learn the universal motor, its parts, how it works on AC and DC, how its speed is controlled with a triac and how to look after its brushes.\r\n\n\r\n \r\n \r\n \r\n What Is a Universal Motor?\n\r\n\r\n A universal motor is a series wound commutator motor that can run on either AC or DC supply at about the same rated voltage. Its field winding and armature are connected in series, exactly like the series motor described in DC motor types, series, shunt and compound .\n\r\n\r\n The name comes from this ability to work on both kinds of supply. In practice almost every one you meet today runs from the 230 V single phase AC mains, inside a household or workshop appliance.\n\r\n\r\n \r\n \r\n Image credit: Eltra Trade . Diagram courtesy of Eltra Trade, shown here for educational reference. \r\n \r\n\r\n The diagram shows the universal motor stator with its field coils, the rotating armature, the commutator on the shaft and the carbon brushes pressing on it. Every part has a clear job, and knowing them makes fault finding much easier.\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n 6 Essential Parts of a Universal Motor\n\r\n\r\n \r\n 1\n Laminated Stator\n Carries the field poles and is built from thin steel sheets to cut eddy current loss on AC.\n\n\r\n 2\n Field Winding\n Coils on the stator poles, connected in series with the armature.\n\n\r\n 3\n Armature\n Laminated rotor core with many coils that carry the load current.\n\n\r\n 4\n Commutator\n Copper segments on the shaft that reverse current in each armature coil as it turns.\n\n\r\n 5\n Carbon Brushes\n Spring loaded carbon blocks that feed current into the commutator.\n\n\r\n 6\n Bearings and Fan\n Support the high speed shaft and push cooling air through the motor.\n\n\r\n\n\r\n\r\n The stator must be laminated because, on AC, its flux reverses 100 times every second on a 50 Hz supply. A solid iron stator, which is acceptable in many DC machines, would overheat from eddy currents.\n\r\n\r\n Insulation on the windings must survive heat from high current density and fast speed. Appliance makers choose the insulation class with the same thinking explained in motor insulation classes .\n\r\n\r\n Do You Know?\n A series motor on AC develops torque in the same direction during both half cycles. Field and armature currents reverse together, so their product, and hence the torque, stays positive.\n\n\r\n\r\n How a Universal Motor Works on AC and DC\n\r\n\r\n Current flows thro"
+}

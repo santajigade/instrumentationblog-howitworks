@@ -1,0 +1,27 @@
+{
+ "id": 17479,
+ "slug": "vfd-parameter-configuration",
+ "impr": 1229,
+ "ctr": 0.33,
+ "pos": 5.3,
+ "queries": [],
+ "title": "VFD Parameter Configuration: Acceleration, Deceleration and V/f Ratio Explained",
+ "rank_math_title": "VFD Parameter Configuration: Accel, Decel & V/f Ratio",
+ "rank_math_description": "VFD parameter configuration: acceleration and deceleration time, V/f ratio, ramp formulas, braking resistor selection, fault codes and a calculator.",
+ "focus_keyword": "VFD Parameter Configuration,VFD",
+ "headings": [
+  "The 3 Parameters That Control Every VFD Start and Stop",
+  "Acceleration Time: How to Calculate the Right Setting",
+  "Deceleration Time: Managing Regenerative Energy",
+  "V/f Ratio: Setting the Correct Volts per Hertz",
+  "VFD Ramp Time and V/f Calculator",
+  "Worked Example: 7.5 kW Pump, 400 V, 50 Hz",
+  "4 Common VFD Faults Caused by Wrong Parameter Settings",
+  "Watch: VFD Parameter Setup and Tuning Guide",
+  "VFD Parameter Configuration Questions Engineers Ask",
+  "Related Articles on This Site",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "DCS and Automation\n\r\n VFD Parameter Configuration: Acceleration, Deceleration and V/f Ratio Explained\n\r\n Three parameters determine how a VFD handles its motor: the acceleration ramp time, the deceleration ramp time, and the V/f ratio. Getting these wrong causes nuisance trips, mechanical damage, or motor overheating.\n\r\n This guide explains how each parameter works, how to calculate the right values for your application, and how to identify the fault codes that wrong settings produce.\n\r\n \r\n Acceleration Time \r\n Deceleration Time \r\n V/f Ratio \r\n Ramp Calculation \r\n Overcurrent Trip \r\n \n\r\n\n\r\n\r\n \r\n Hello everyone, today we are going to learn about VFD parameter configuration . We will understand how acceleration time, deceleration time, and the V/f ratio work, learn the formulas used to calculate the correct settings, and work through real examples for common industrial applications such as pumps, conveyors, and fans.\r\n\n\r\n\r\n A VFD that trips on overcurrent at startup almost always has an acceleration time that is too short for the load.\n\r\n A VFD that trips on overvoltage during braking has a deceleration time that is too short.\n\r\n Both faults are caused by misconfigured ramp parameters and are corrected without any hardware change.\n\r\n\r\n \r\n \r\n \r\n\r\n The 3 Parameters That Control Every VFD Start and Stop\n\r\n\r\n \r\n \r\n Acceleration Time\n\r\n Typical label: Acc, ACC, P1-03, F002\n\r\n The time for the VFD output frequency to ramp from 0 Hz to maximum. A longer acceleration time reduces the starting current and the mechanical shock on couplings and gearboxes.\n\r\n Too short: overcurrent trip (OC) at startup. Too long: motor stays in low-speed high-slip region too long, causing overheating in fixed-cooling motors.\n\r\n \n\r\n \r\n Deceleration Time\n\r\n Typical label: Dec, DEC, P1-04, F003\n\r\n The time for the VFD output frequency to ramp from maximum down to 0 Hz. A longer deceleration time reduces regenerative energy fed back into the DC bus and prevents overvoltage trips.\n\r\n Too short: overvoltage trip (OV) during braking. Too long: load coasts and overruns in gravity or inertia-driven applications such as downhill conveyors.\n\r\n \n\r\n \r\n V/f Ratio (Volts per Hertz)\n\r\n Typical label: V/f, Vf, P1-07, F004\n\r\n The ratio of the VFD output voltage to output frequency. In V/f mode, voltage and frequency increase together in a fixed ratio set by the motor nameplate base frequency and rated voltage.\n\r\n Too high a ratio: magnetic saturation, high no-load current, motor overheating. Too low: insufficient torque at low speed, the motor stalls under load.\n\r\n \n\r\n\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n Acceleration Time: How to Calculate the Right Setting\n\r\n\r\n The minimum acceleration time depends on the motor and load inertia and the available accelerating torque. The formula below gives the theoretical minimum.\n\r\n In practice, always set the acceleration time 20 to 50 percent longer than the theoretical minimum to allow for load variations and starting current peaks.\n\r\n\r\n \r\n \r\n \r\n \r\n \r\n \r"
+}

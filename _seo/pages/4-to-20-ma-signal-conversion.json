@@ -1,0 +1,27 @@
+{
+ "id": 13254,
+ "slug": "4-to-20-ma-signal-conversion",
+ "impr": 1120,
+ "ctr": 0.98,
+ "pos": 7.8,
+ "queries": [],
+ "title": "4 to 20 mA Signal Conversion: Percentage to mA and mA to Percentage Calculator",
+ "rank_math_title": "4 to 20 mA Signal Conversion: % to mA Calculator",
+ "rank_math_description": "4 to 20 mA signal conversion calculator: convert percentage to mA and mA to percentage instantly, with formula, worked examples and reference table.",
+ "focus_keyword": "4 to 20 mA Signal Conversion,4-20 mA signal conveter,4-20 mA",
+ "headings": [
+  "4 to 20 mA Signal Conversion",
+  "4 to 20 mA Signal Converter: Interactive Calculator",
+  "The Formula: Where It Comes From",
+  "Deriving the formulas from first principles",
+  "Worked Examples: Percentage to mA",
+  "Worked Examples: mA to Percentage",
+  "Converting mA to Engineering Units: Worked Examples",
+  "Out-of-Range Signal Values: NAMUR NE43 Fault Zones",
+  "Complete 4-20 mA Reference Table: Every 5%",
+  "Common Conversion Mistakes to Avoid",
+  "Further Reading and External Resources",
+  "Frequently Asked Questions: 4-20 mA Conversion"
+ ],
+ "text": "Instrumentation \u00b7 4-20 mA \u00b7 Signal Conversion\n\r\n 4-20 mA Signal Conversion: Percentage to Current and Current to Percentage\n\r\n A complete practical guide with an interactive calculator, formula derivation, worked examples in both directions, engineering unit conversion and a full reference table covering all key 4 to 20 mA signal points.\n\r\n \r\n Interactive Calculator \r\n Both Directions: % to mA and mA to % \r\n Engineering Unit Conversion \r\n Full Reference Table \r\n \n\r\n\n\r\n\r\n \r\n 4 to 20 mA Signal Conversion\n\r\n Every instrumentation technician and process engineer uses the 4-20 mA signal conversion formula every single working day. When a pressure transmitter reads 10.4 mA, what pressure does that represent? When a control system needs to send 75% to a valve positioner, what current should it output? When a calibration procedure asks for 25% of range, what mA value do you inject with the loop calibrator?\n\r\n\r\n These are the conversions you need at your fingertips: instantly, reliably and without reaching for a calculator app that may not give the right answer if you do not know the formula. This article gives you the interactive calculator, the complete derivation of the formula, worked examples in both directions, the formula extended to real engineering units (bar, \u00b0C, m\u00b3/h), and a complete reference table you can print and keep in your instrument kit.\n\r\n\r\n This page covers signal conversion only. For a full explanation of how the 4-20 mA current loop works, why it uses current instead of voltage and how to wire 2-wire vs 4-wire transmitters, see our complete guide on 4-20 mA current loop explained .\n\r\n\r\n \r\n What this guide covers\n\r\n Interactive calculator: % to mA and mA to % with engineering unit output \u00a0\u00b7\u00a0 Complete formula derivation from first principles \u00a0\u00b7\u00a0 Worked examples in both directions \u00a0\u00b7\u00a0 Extended formula for engineering units (LRV/URV/Span) \u00a0\u00b7\u00a0 Out-of-range and NAMUR fault signal values \u00a0\u00b7\u00a0 Full reference table at every 5% increment \u00a0\u00b7\u00a0 Common calculation mistakes to avoid.\r\n\n\r\n\r\n \r\n \r\n \r\n \n\r\n \r\n Advertisement\r\n \r\n \n\r\n \n\r\n \r\n \r\n\r\n \r\n \n\r\n \r\n Advertisement\r\n \r\n \n\r\n \n\r\n\n\r\n \r\n \r\n 4 to 20 mA Signal Converter: Interactive Calculator\n\r\n\r\n Use the calculator below for instant conversion in both directions. Enter a percentage to find the mA, or enter a mA value to find the percentage. Optionally add your transmitter range (LRV and URV) to also see the engineering unit value.\n\r\n\r\n \r\n \r\n \u26a1\n\r\n \r\n 4-20 mA Signal Converter\n\r\n Convert between percentage and milliamps, with engineering unit output\n\r\n \n\r\n \n\r\n \r\n\r\n \r\n \r\n % to mA \r\n mA to % \r\n \n\r\n\r\n \r\n \r\n \r\n Enter percentage value \r\n Enter 0 for LRV (4 mA) and 100 for URV (20 mA). Values outside 0-100 are also supported. \r\n \r\n \r\n % \r\n \n\r\n \n\r\n \r\n Optional: Engineering unit range (for process value output)\n\r\n \r\n \r\n LRV (value at 0% / 4 mA) \r\n \r\n \n\r\n \r\n URV (value at 100% / 20 mA) \r\n \r\n \n\r\n \r\n Unit label \r\n \r\n \n\r\n \n\r\n \n\r\n Calculate mA output \r\n \n\r\n \r\n \u2714 Result\n\r\n \r\n \n\r\n \n\r\n \r\n Engineering unit value\n\r\n \n\r\n \n\r\n"
+}

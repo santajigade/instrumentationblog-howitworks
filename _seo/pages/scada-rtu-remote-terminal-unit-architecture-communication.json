@@ -1,0 +1,28 @@
+{
+ "id": 17294,
+ "slug": "scada-rtu-remote-terminal-unit-architecture-communication",
+ "impr": 1035,
+ "ctr": 0.48,
+ "pos": 10.0,
+ "queries": [],
+ "title": "SCADA RTU (Remote Terminal Unit): Architecture and Communication Explained",
+ "rank_math_title": "SCADA RTU: Architecture and Communication Explained",
+ "rank_math_description": "SCADA RTU architecture: CPU, I/O and power modules, DNP3 and IEC 104 links, store-and-forward, RTU vs PLC vs IED and an I/O sizing calculator.",
+ "focus_keyword": "SCADA RTU",
+ "headings": [
+  "What Is a SCADA RTU and How Is It Used?",
+  "SCADA RTU Hardware Architecture",
+  "CPU Module",
+  "Power Supply Module",
+  "I/O Modules",
+  "Communication Modules",
+  "SCADA RTU Local Autonomy: Why It Matters",
+  "SCADA RTU vs PLC vs IED: Key Differences",
+  "RTU I/O Sizing and Communication Estimator",
+  "Watch: Why DNP3 Protocol Is Used Between SCADA and RTU",
+  "SCADA RTU Questions",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "SCADA and Automation\n\r\n SCADA Remote Terminal Unit (RTU): Architecture and Communication Explained\n\r\n A SCADA RTU (Remote Terminal Unit) is a ruggedised, microprocessor-based field device that acquires analog and digital signals from field equipment at a remote site.\n\r\n It executes limited local control logic and communicates collected data to the central SCADA master station over a wide-area network link.\n\r\n This guide covers RTU hardware architecture, I/O modules, communication protocols, local autonomy, and the differences between an RTU, a PLC, and an IED.\n\r\n \r\n CPU and I/O Modules \r\n DNP3 and IEC 104 Communication \r\n Local Autonomy Design \r\n RTU vs PLC vs IED \r\n \n\r\n\n\r\n\r\n The \"remote\" in SCADA RTU refers to geography, not capability. Modern RTUs run embedded operating systems, support multiple protocols, and trigger local alarms or fail-safe actions independently of the master station.\n\r\n This local autonomy separates an RTU from a simple I/O multiplexer \u2014 the RTU continues to protect the site even when the SCADA communication link is down.\n\r\n \r\n \r\n \r\n What Is a SCADA RTU and How Is It Used?\n\r\n\r\n \r\n Hello! Today we are covering the SCADA RTU \u2014 what it is, how it is built internally, how it communicates with the master station, and what makes it different from a PLC. RTUs are the outermost intelligent nodes in any SCADA system. They sit at pipeline pump stations, electrical substations, water treatment lift stations, and oil well sites \u2014 far from the control room and often beyond reliable LAN coverage. Understanding the RTU architecture is fundamental to designing any remote SCADA installation.\r\n\n\r\n\r\n An RTU is the hardware interface between the physical process and the supervisory control layer. It reads sensor inputs, writes actuator outputs, and relays data to the SCADA master station.\n\r\n\r\n The SCADA RTU is installed at the remote site, not the control room. The master station link goes over a wide-area network \u2014 cellular, leased serial, licensed radio, satellite, or IP WAN.\n\r\n The RTU must handle these link limitations \u2014 latency, intermittent connectivity, bandwidth \u2014 without losing data or abandoning control.\n\r\n\r\n Did You Know? The earliest RTUs predated SCADA systems as we know them today. They were hardwired relay-logic devices installed in the 1960s on electrical transmission networks to report breaker status and meter readings to a central dispatch centre.\n\nThese devices had no microprocessors \u2014 the \"programming\" was done with physical wiring and relay contacts. When a breaker opened, a specific relay contact closed, completing a circuit that sent a specific coded signal back to the control centre.\n\nThe introduction of microprocessor-based RTUs in the late 1970s and 1980s transformed this into the programmable, multi-protocol devices we use today. The function is the same \u2014 interface between field and control centre \u2014 but the capability is vastly greater.\n\r\n\r\n \r\n 4 I/O types\n Standard SCADA RTU I/O: Digital Input, Digital Output, Anal"
+}

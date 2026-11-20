@@ -1,0 +1,40 @@
+{
+ "id": 19775,
+ "slug": "instrument-cable-schedule",
+ "impr": 980,
+ "ctr": 0.82,
+ "pos": 5.4,
+ "queries": [
+  "cable schedule",
+  "instrument cable colour code",
+  "instrument cable schedule",
+  "cable schedule template excel",
+  "instrument cable color code standard"
+ ],
+ "title": "Instrument Cable Schedule: 10 Essential Columns Done Right",
+ "rank_math_title": "",
+ "rank_math_description": "Learn how an instrument cable schedule is built: 10 key columns, cable numbering, multipair and single pair cables, IS segregation, length margins and JB links.",
+ "focus_keyword": "instrument cable schedule",
+ "headings": [
+  "What Is an Instrument Cable Schedule?",
+  "10 Essential Columns of a Cable Schedule",
+  "Cable Types Found in an Instrument Cable Schedule",
+  "Cable Numbering Philosophy",
+  "Segregation and Intrinsic Safety",
+  "Cable Length Formula",
+  "Instrument Cable Schedule Length Calculator",
+  "Second Worked Example: Sizing a Multipair Cable",
+  "How to Prepare an Instrument Cable Schedule in 8 Steps",
+  "Review Checklist Before Issue",
+  "Who Uses the Cable Schedule",
+  "BHEL Instrumentation Cable Specification",
+  "Cable Schedule and JB Wiring Video",
+  "Cable Schedule Example With Sample Entries",
+  "How to Read and Fill Each Row",
+  "Instrument Cable Schedule FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Design\n\r\n Instrument Cable Schedule: 10 Essential Columns Done Right\n\r\n Every signal in a plant travels on a cable that must be bought, routed, pulled, glanded and terminated without confusion. A clean schedule lists each one once, with its route and ends, so design, purchase and site teams work from the same truth.\n\r\n \r\n Cable Numbering \r\n Multipair Cables \r\n IS Segregation \r\n Length Margin \r\n \n\r\n\n\r\n\r\n The cable schedule is the master register that ties field instruments, junction boxes and control cabinets together. A well built instrument cable schedule saves cable, prevents wrong terminations and speeds up loop checks.\n\r\n\r\n \r\n Hello everyone, today we are going to learn what an instrument cable schedule is, which columns it needs, how cables are numbered and sized, and how to estimate cable length.\r\n\n\r\n \r\n \r\n \r\n What Is an Instrument Cable Schedule?\n\r\n\r\n An instrument cable schedule is a design document, usually a spreadsheet or a database report, that lists every instrument cable in a project with its unique number, type, size, from and to points, route and length. It is the single reference used to order cable, plan trays and terminate both ends correctly.\n\r\n\r\n The schedule covers branch cables from field instruments to junction boxes, multipair main cables from junction boxes to the marshalling cabinet , and the system cables that run inside the control room. It sits next to the instrument index, the JB schedule and the loop drawings.\n\r\n\r\n \r\n \r\n Image credit: Automation Forum . Image courtesy of Automation Forum, shown here for educational reference. \r\n \r\n\r\n Merobix describes a cable schedule as the master register of every cable in an installation, where each cable number appears only once. That single rule prevents two crews from pulling the same cable or leaving one out.\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n 10 Essential Columns of a Cable Schedule\n\r\n\r\n \r\n \r\n No Column What to Enter \n\r\n 1 Cable number Unique tag such as IC FT1001 \n\r\n 2 Cable type Single pair, multipair, triad, IS or non IS \n\r\n 3 Size and cores For example 1 pair \u00d7 1.5 sq mm \n\r\n 4 Screen and armour Individual and overall screen, armoured or not \n\r\n 5 From Instrument tag or JB and its terminal \n\r\n 6 To JB, marshalling cabinet or system cabinet \n\r\n 7 Route Tray or trench sections the cable follows \n\r\n 8 Length Estimated length in metres with margin \n\r\n 9 Gland details Gland type and size at each end \n\r\n 10 Remarks and revision Spares, IS notes, status and revision mark \n\r\n \r\n\n\r\n\r\n Automation Forum adds that many projects also record signal type, range, protocol and test details. Keep extra columns only if someone will maintain them, because an outdated column is worse than no column.\n\r\n\r\n The gland column must match the cable outer diameter and the area classification, which is explained in cable gland types and selection . The route column later feeds the cable tray fill calculation for each tray section.\n\r\n\r\n Do You Know?\n Automation Forum points out that the lengths in "
+}

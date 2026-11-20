@@ -1,0 +1,35 @@
+{
+ "id": 17199,
+ "slug": "conductivity-sensor-cell-constant-calibration",
+ "impr": 1180,
+ "ctr": 0.59,
+ "pos": 6.0,
+ "queries": [
+  "conductivity cell constant range"
+ ],
+ "title": "Conductivity Sensor Cell Constant: How to Select and Calibrate It",
+ "rank_math_title": "Cell Constant of Conductivity Sensor: Select & Calibrate",
+ "rank_math_description": "Conductivity sensor cell constant: what it is, how to select K for your range, and how to calibrate with KCl solution and temperature compensation.",
+ "focus_keyword": "cell constant",
+ "headings": [
+  "The Cell Constant: What It Is and Why It Matters in Conductivity Measurement",
+  "How to Select the Right Cell Constant for Your Application",
+  "Formula and Worked Example",
+  "How to Calibrate the Conductivity Sensor Cell Constant",
+  "Step 1: Prepare the KCl Standard Solution",
+  "Step 2: Rinse the Sensor",
+  "Step 3: Measure Temperature and Correct to 25\u00b0C",
+  "Step 4: Adjust the Cell Constant",
+  "Conductivity Cell Constant Calculator",
+  "Where Cell Constant Selection Makes a Critical Difference",
+  "Pharmaceutical Ultrapure Water",
+  "Boiler Water and Condensate",
+  "CIP (Clean-in-Place) Monitoring",
+  "Cooling Tower and Reverse Osmosis",
+  "Watch: Cell Constant Determination and Conductivity Cell Calibration",
+  "Questions About Conductivity Cell Constant",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Analytical Measurements\n\r\n Conductivity Sensor Cell Constant: How to Select and Calibrate It\n\r\n The cell constant (K) of a conductivity sensor defines the electrode geometry and converts raw conductance to specific conductivity in mS/cm.\n\r\n Choosing the wrong cell constant causes inaccurate readings, even with a correctly functioning analyser.\n\r\n This guide covers what cell constant means, how to select the right value for your process, and how to calibrate it using standard KCl solution.\n\r\n \r\n K = L/A Formula \r\n 0.01 to 100 cm\u207b\u00b9 \r\n KCl Standard Solution \r\n Temperature Compensation \r\n \n\r\n\n\r\n\r\n Cell constant K = L/A (electrode gap over electrode area). A larger K suits high conductivity solutions. A smaller K gives better resolution in very low conductivity water. Units are cm\u207b\u00b9.\n\r\n\r\n The Cell Constant: What It Is and Why It Matters in Conductivity Measurement\n\r\n\r\n \r\n Hello! Today we are going to understand the conductivity sensor cell constant -- one of those parameters that many field technicians set once at commissioning and never revisit. Getting this value right is the difference between accurate process conductivity readings and systematic measurement error. Let us go through the concept, the selection rules, and the calibration procedure step by step.\r\n\n\r\n \r\n \r\n \r\n \r\n A conductivity sensor applies AC voltage between electrodes immersed in a liquid and measures the resulting current.\n\r\n The measured value depends on electrode size and spacing as well as the liquid. The cell constant corrects for this geometry effect.\n\r\n The cell constant (K) normalises readings for electrode geometry. The temperature compensation factor corrects for the temperature dependence of conductivity.\n\r\n The polarisation effect causes error when the K value does not match the process range. Click any term above to expand.\n\r\n Cell Constant (K): The ratio of the distance between the two electrode plates (L, in cm) to the electrode surface area (A, in cm\u00b2). K = L/A. The unit is cm\u207b\u00b9. A cell with plates 1 cm apart and 1 cm\u00b2 area has K = 1.0 cm\u207b\u00b9. Specific conductivity (mS/cm) = Measured conductance (mS) \u00d7 K. Every conductivity sensor has its K value printed on its data sheet. The analyser must be programmed with this value to produce a correct reading.\n\r\n Temperature Compensation: Conductivity increases with temperature because higher temperature gives ions more kinetic energy. For most process solutions, conductivity changes approximately 2% per degree Celsius. Standard temperature compensation normalises all readings to 25\u00b0C. The analyser applies: \u03c3(25\u00b0C) = \u03c3(T) / (1 + \u03b1 \u00d7 (T minus 25)), where \u03b1 is typically 0.02 per \u00b0C for general solutions. For ultrapure water, a different non-linear compensation model is used (EN 27888 / USP standards).\n\r\n Polarisation Effect: At very low conductivity with a large cell constant, the measured signal is extremely small. At very high conductivity with a small cell constant, the electrodes can become polarised by ionic buildup, reducing"
+}

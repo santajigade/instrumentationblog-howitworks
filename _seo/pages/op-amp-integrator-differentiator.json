@@ -1,0 +1,33 @@
+{
+ "id": 18481,
+ "slug": "op-amp-integrator-differentiator",
+ "impr": 1187,
+ "ctr": 0.17,
+ "pos": 9.2,
+ "queries": [
+  "precision rectifier using op amp",
+  "precision rectifier op amp circuit",
+  "gain for inverting op amp"
+ ],
+ "title": "Op Amp Integrator and Differentiator: 4 Smart Design Fixes",
+ "rank_math_title": "",
+ "rank_math_description": "Learn how an op amp integrator and differentiator work, output formulas with worked examples, 4 practical design fixes, a ramp calculator and real uses.",
+ "focus_keyword": "op amp integrator",
+ "headings": [
+  "What Is an Op Amp Integrator?",
+  "Integrator and Differentiator Formulas",
+  "How the Integrator Output Builds Up",
+  "4 Smart Design Fixes",
+  "Integrator vs Differentiator",
+  "Where These Circuits Are Used",
+  "Choosing R and C Values",
+  "Integrator Ramp Calculator",
+  "TI Integrator Circuit PDF",
+  "Integrator and Differentiator Video",
+  "Op Amp Integrator FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Analog Electronics\n\r\n Op Amp Integrator and Differentiator: 4 Smart Design Fixes\n\r\n Swap a resistor for a capacitor and an op amp starts doing calculus, integrating or differentiating the input signal.\n\r\n \r\n Integrator \r\n Differentiator \r\n RC Time Constant \r\n Wave Shaping \r\n \n\r\n\n\r\n\r\n An op amp integrator produces an output proportional to the integral of its input, while a differentiator responds to the rate of change. Both use a resistor and capacitor around an inverting op amp.\n\r\n\r\n \r\n Hello everyone, today we are going to learn how an op amp integrator and differentiator work, how to calculate their outputs, and which simple fixes make them stable in real circuits.\r\n\n\r\n \r\n \r\n \r\n What Is an Op Amp Integrator?\n\r\n\r\n An op amp integrator is an inverting amplifier with a capacitor in the feedback path instead of a resistor. The output voltage is proportional to the integral of the input over time, built on the op amp basics of virtual ground.\n\r\n\r\n The input resistor converts input voltage into a current, and that current charges the feedback capacitor. Because the inverting input stays at virtual ground, the capacitor voltage grows steadily as long as current flows.\n\r\n\r\n \r\n \r\n Image credit: All About Circuits \r\n \r\n\r\n A differentiator swaps the positions, with the capacitor at the input and the resistor in feedback. Its output depends on how fast the input changes.\n\r\n\r\n Both circuits rely on capacitor charging behaviour explained in RC time constant basics.\n\r\n\r\n Integrator and Differentiator Formulas\n\r\n\r\n \r\n Integrator: Vout = minus (1 \u00f7 RC) \u00d7 \u222b Vin dt \n Differentiator: Vout = minus R \u00d7 C \u00d7 dVin \u00f7 dt \n\nIntegrator example, constant input:\nVin = 1 V, R = 10 k\u03a9, C = 1 \u00b5F, t = 5 ms\nChange = 1 \u00d7 0.005 \u00f7 (10000 \u00d7 0.000001) = 0.5 V\nOutput ramps down by 0.5 V\n\nDifferentiator example:\nInput ramp = 1 V per ms, R = 10 k\u03a9, C = 0.1 \u00b5F\n Output = 10000 \u00d7 0.0000001 \u00d7 1000 = 1 V, inverted \r\n\n\r\n\r\n The minus sign in both formulas comes from the inverting configuration. A positive input gives a falling output.\n\r\n\r\n A square wave into an integrator becomes a triangle wave. A triangle wave into a differentiator becomes a square wave.\n\r\n\r\n How the Integrator Output Builds Up\n\r\n\r\n \r\n Input Voltage Applied through resistor R\n\r\n Constant Current I = Vin \u00f7 R into virtual ground\n\r\n Capacitor Charges Voltage rises as current flows\n\r\n Output Ramps Opposite polarity to input\n\r\n Saturation Eventually reaches a supply rail\n\r\n\n\r\n\r\n With any DC input or offset, the ideal integrator keeps ramping until it hits a rail. That is the biggest practical problem with the circuit.\n\r\n\r\n Even the tiny input offset voltage of the op amp will slowly drive the output into saturation. The fixes below solve this.\n\r\n\r\n 4 Smart Design Fixes\n\r\n\r\n \r\n 1\n Resistor Across C\n A large resistor in parallel with the capacitor limits DC gain.\n\n\r\n 2\n Reset Switch\n A switch across the capacitor zeroes the integrator on demand.\n\n\r\n 3\n Input Resistor on Differentiator\n Limits high frequency gain and noise.\n\n\r\n 4\n S"
+}

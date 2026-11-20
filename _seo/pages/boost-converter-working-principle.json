@@ -1,0 +1,39 @@
+{
+ "id": 17461,
+ "slug": "boost-converter-working-principle",
+ "impr": 1323,
+ "ctr": 0.45,
+ "pos": 9.8,
+ "queries": [
+  "igbt working principle",
+  "rtd working principle",
+  "rtd working principle in hindi",
+  "potentiometer working principle",
+  "differential pressure transmitter working principle",
+  "pressure gauge snubber working principle"
+ ],
+ "title": "Boost Converter Working Principle: Output Voltage Formula and Design",
+ "rank_math_title": "Boost Converter Working Principle: Formula and Design",
+ "rank_math_description": "Boost converter working principle: Vout = Vin/(1-D), duty cycle, inductor selection and a live calculator with a worked 3.3 V to 12 V example.",
+ "focus_keyword": "boost converter",
+ "headings": [
+  "How a Boost Converter Works: The 2-Phase Switching Cycle",
+  "Boost Converter Output Voltage Formula",
+  "4 Key Components in a Boost Converter",
+  "Live Boost Converter Calculator",
+  "Worked Example: 3.3 V to 12 V at 1 A, 300 kHz",
+  "Boost Converter Design Checklist",
+  "Calculate duty cycle and verify it is below 0.85",
+  "Calculate average input current   it is much higher than output current",
+  "Select inductor: saturation current above Ipeak = Iin + \u0394IL/2",
+  "Select MOSFET with voltage rating above Vout x 1.3",
+  "Select output capacitor for low ESR and sufficient capacitance",
+  "Boost vs Buck vs Buck-Boost Converters",
+  "Watch: Boost Converter Working Principle Explained",
+  "Boost Converter Questions Engineers Ask",
+  "Related Articles on This Site",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Electrical Fundamentals\n\r\n Boost Converter Working Principle: Output Voltage Formula and Design\n\r\n A boost converter is a DC-DC power supply that steps up an input voltage to a higher output voltage. It uses an inductor, a switch, and a diode.\n\r\n This guide explains the switching cycle, the output voltage formula, component selection, a fully worked design example, and a live calculator.\n\r\n \r\n Step-Up Converter \r\n Duty Cycle Formula \r\n Inductor Design \r\n CCM vs DCM \r\n Efficiency \r\n \n\r\n\n\r\n\r\n \r\n Hello everyone, today we are going to learn about the boost converter working principle . We will understand how a boost converter steps up a DC voltage, derive the output voltage formula, and work through a complete design example step by step. By the end of this article, you will be able to calculate the duty cycle, inductor value, and peak current for any boost converter design.\r\n\n\r\n\r\n A battery discharges from 4.2 V to 3.0 V as it drains. The circuit may need a stable 5 V.\n\r\n A boost converter steps up the battery voltage continuously, even as it falls. This is one of its most common uses in portable electronics and industrial sensors.\n\r\n\r\n \r\n \r\n \r\n\r\n How a Boost Converter Works: The 2-Phase Switching Cycle\n\r\n\r\n A boost converter stores energy in an inductor during the ON phase and releases that energy at a higher voltage during the OFF phase.\n\r\n\r\n \r\n \r\n ON\n\r\n \r\n Switch closed duration = D x T \r\n MOSFET conducts. Inductor current rises. Energy stores in the magnetic field.\n\r\n The low-side MOSFET switches on. Current flows from Vin through the inductor and through the MOSFET to ground. The inductor current rises linearly. The diode is reverse-biased and blocks current from the output capacitor. During this phase, the output capacitor alone supplies the load.\n\r\n \n\r\n \n\r\n \r\n OFF\n\r\n \r\n Switch open duration = (1-D) x T \r\n MOSFET opens. Inductor adds its voltage to Vin and pushes current through the diode.\n\r\n The MOSFET switches off. The inductor opposes the change in current and reverses its voltage polarity. The inductor voltage now adds to Vin, creating a voltage higher than Vin at the diode anode. The diode conducts, charging the output capacitor and supplying the load. The inductor current falls linearly.\n\r\n \n\r\n \n\r\n\n\r\n\r\n \r\n \r\n Inductor current (IL) \r\n \r\n Switch state \r\n \r\n \r\n \r\n \r\n ON \r\n OFF \r\n ON \r\n OFF \r\n \r\n \r\n \r\n One switching period T = 1/f \r\n \r\n D x T \r\n \r\n (1-D) x T \r\n \r\n \r\n \r\n \u0394IL \r\n \r\n\n\r\n\r\n Did You Know? The key difference between a boost converter and a buck converter is the position of the inductor. In a buck converter, the inductor is between the switch and the output. In a boost converter, the inductor is between the input and the switch. This position change is what allows the boost converter to create a voltage higher than Vin.\n\nThe buck converter working principle explains the complementary step-down topology. Together, buck and boost cover the two fundamental DC-DC conversion directions.\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n Boost Converte"
+}

@@ -1,0 +1,39 @@
+{
+ "id": 17436,
+ "slug": "buck-converter-working-principle",
+ "impr": 1176,
+ "ctr": 0.85,
+ "pos": 9.1,
+ "queries": [
+  "igbt working principle",
+  "rtd working principle",
+  "rtd working principle in hindi",
+  "potentiometer working principle",
+  "differential pressure transmitter working principle",
+  "pressure gauge snubber working principle"
+ ],
+ "title": "Buck Converter Working Principle: Duty Cycle Formula and Design Guide",
+ "rank_math_title": "Buck Converter Working Principle: Duty Cycle & Design",
+ "rank_math_description": "Buck converter working principle: duty cycle D = Vout/Vin, inductor selection, a worked 12 V to 5 V design and a live duty cycle calculator.",
+ "focus_keyword": "buck converter",
+ "headings": [
+  "How a Buck Converter Works: The 2-Phase Switching Cycle",
+  "The Duty Cycle Formula Explained",
+  "4 Key Components in a Buck Converter",
+  "Live Duty Cycle and Inductor Design Calculator",
+  "Worked Example: 12 V to 5 V at 2 A, 300 kHz",
+  "5-Step Buck Converter Design Checklist",
+  "Define the specification: Vin range, Vout, Iout max, efficiency target",
+  "Choose switching frequency: higher frequency means smaller L and Co but lower efficiency",
+  "Calculate inductance for target ripple current (20 to 40 percent of Iout)",
+  "Select components: MOSFET for low RDS(on), inductor above Ipeak saturation current",
+  "Verify thermal performance: MOSFET and inductor must stay below their rated temperatures",
+  "Buck Converter vs Linear Regulator: When to Choose Each",
+  "Watch: Buck Converter Working Principle Explained",
+  "Buck Converter Questions Engineers Ask",
+  "Related Articles on This Site",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Electrical Fundamentals\n\r\n Buck Converter Working Principle: Duty Cycle Formula and Design Guide\n\r\n A buck converter steps down a DC input voltage to a lower DC output voltage. It switches a transistor on and off at high frequency. The on/off ratio sets the output voltage.\n\r\n This guide explains the switching cycle, the duty cycle formula, the role of each component, a fully worked design example, and a live duty cycle calculator.\n\r\n \r\n Duty Cycle Formula \r\n MOSFET Switching \r\n Inductor Selection \r\n Output Ripple \r\n Efficiency \r\n \n\r\n\n\r\n\r\n A linear regulator wastes excess voltage as heat. A buck converter recycles it, achieving efficiencies of 85 to 97 percent.\n\r\n For any application where a supply must power circuits at a lower voltage, a buck converter is almost always the right choice.\n\r\n \r\n \r\n \r\n How a Buck Converter Works: The 2-Phase Switching Cycle\n\r\n\r\n A buck converter controls output voltage by repeating two phases thousands of times per second. The ratio of the ON phase to the full period is called the duty cycle .\n\r\n\r\n \r\n \r\n ON\n\r\n \r\n Switch closed duration = D x T \r\n MOSFET conducts. Energy stores in the inductor.\n\r\n The high-side MOSFET switches on. Current flows from Vin through the MOSFET, through the inductor, and into the output capacitor and load. The inductor current rises linearly. Energy is stored in the inductor's magnetic field. The output capacitor absorbs the extra current above what the load needs.\n\r\n \n\r\n \n\r\n \r\n OFF\n\r\n \r\n Switch open duration = (1-D) x T \r\n MOSFET opens. Inductor releases stored energy.\n\r\n The MOSFET switches off. The inductor opposes the change in current and forces current to continue flowing in the same direction. The freewheeling diode (or synchronous rectifier MOSFET) provides a path for this inductor current. The inductor current falls linearly. The output capacitor supplies the load during this phase.\n\r\n \n\r\n \n\r\n\n\r\n\r\n \r\n \r\n \r\n Inductor current (IL) \r\n \r\n \r\n Switch state \r\n \r\n \r\n \r\n \r\n ON \r\n OFF \r\n ON \r\n OFF \r\n \r\n \r\n \r\n \r\n One switching period T = 1/f \r\n \r\n \r\n D x T \r\n \r\n (1-D) x T \r\n \r\n \r\n \r\n \r\n \u0394IL \r\n \r\n\n\r\n\r\n Did You Know? A buck converter in continuous conduction mode (CCM) means the inductor current never falls to zero during the OFF phase. In discontinuous conduction mode (DCM), the inductor current reaches zero before the next ON phase begins. CCM gives lower output ripple and is used at full load. DCM occurs at light loads and changes the gain formula. Most designs target CCM at full load.\n\nThe boundary between CCM and DCM occurs at the critical inductance: L critical = (Vout x (1 minus D)) / (2 x f x Iload). Choosing an inductance above this value keeps the converter in CCM at the target load current.\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n The Duty Cycle Formula Explained\n\r\n\r\n \r\n D = Vout / Vin\n\r\n Duty Cycle = Output Voltage divided by Input Voltage (ideal buck converter, CCM)\n\r\n \r\n D \n Duty cycle (0 to 1). Fraction of each switching period that the MOSFET is ON. \n\r\n Vout \n Target output voltag"
+}

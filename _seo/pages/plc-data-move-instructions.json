@@ -1,0 +1,32 @@
+{
+ "id": 17527,
+ "slug": "plc-data-move-instructions",
+ "impr": 887,
+ "ctr": 0.68,
+ "pos": 6.0,
+ "queries": [
+  "plc data types",
+  "data types in plc",
+  "data type in plc",
+  "data types in plc programming",
+  "comparison instructions in plc"
+ ],
+ "title": "PLC Data Move Instructions: MOV, FILL, COP in Ladder Logic Explained",
+ "rank_math_title": "PLC Data Move Instructions: MOV, FILL, COP Explained",
+ "rank_math_description": "PLC data move instructions MOV, FILL and COP in ladder logic: how each works, parameters, worked examples and real automation applications.",
+ "focus_keyword": "PLC data move instructions,MOV FILL COP",
+ "headings": [
+  "PLC Data Move Instructions MOV FILL COP: What Each One Does",
+  "MOV Instruction: Copy a Single Value",
+  "FILL Instruction: Write One Value to an Entire Array",
+  "COP Instruction: Copy an Entire Array Block",
+  "MOV vs FILL vs COP: Side by Side",
+  "Real Applications of MOV FILL COP in PLC Programs",
+  "Watch: PLC Data Move Instructions Explained",
+  "PLC Data Move Instruction Questions Engineers Ask",
+  "Related Articles on This Site",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "DCS and Automation\n\r\n PLC Data Move Instructions: MOV, FILL, COP in Ladder Logic Explained\n\r\n PLC data move instructions copy values between memory locations. MOV copies a single value. FILL writes one value into a range of registers. COP copies a block of consecutive registers.\n\r\n \r\n MOV Instruction \r\n FILL Instruction \r\n COP Instruction \r\n Ladder Logic \r\n Data Handling \r\n \n\r\n\n\r\n Data move instructions are among the most frequently used in any PLC program. They are the foundation of recipe management, setpoint loading, data logging, and initialisation routines in industrial automation.\n\r\n \r\n Hello everyone, today we are going to learn about PLC data move instructions: MOV, FILL, and COP .\n\n\r\n We will understand what each instruction does, how the source and destination parameters work, and when to use each one.\r\n We will also cover the key differences between MOV, FILL, and COP, look at worked examples for each instruction, and see real application uses in PLC ladder logic programs.\r\n\n\r\n\r\n\r\n \r\n \r\n \r\n PLC Data Move Instructions MOV FILL COP: What Each One Does\n\r\n\r\n \r\n \r\n MOV (Move)\n\r\n Source \u2192 Destination\n\r\n Copies a single value from a source tag or constant into a single destination tag. The source is not cleared. MOV executes every scan when the rung is true.\n\r\n \n\r\n \r\n FILL (File Fill)\n\r\n Value \u2192 Array[0..N]\n\r\n Writes the same single value into every element of a destination array over a specified length. Used to initialise or reset arrays to a known value.\n\r\n \n\r\n \r\n COP (Copy File)\n\r\n Array[0..N] \u2192 Array[0..N]\n\r\n Copies a block of consecutive elements from a source array into a destination array of the same length. Used to copy recipes, buffer data, or snapshot an array.\n\r\n \n\r\n\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n MOV Instruction: Copy a Single Value\n\r\n\r\n The MOV instruction has two parameters: Source and Destination. When the rung is true, the source value is copied into the destination every scan. The source is not changed by the instruction.\n\r\n\r\n \r\n MOV Instruction Parameters\n\r\n MOV \n\r\n \u00a0\u00a0Source: Setpoint_HMI \u00a0 ( any tag, constant, or input register ) \n\r\n \u00a0\u00a0Dest: \u00a0\u00a0 PID_Setpoint \u00a0 ( any writable tag or register ) \n\r\n\n\r\n\r\n \r\n MOV Example: Transfer HMI setpoint to PID block\n\r\n \r\n Rung: [HMI_Write_Bit] ----[MOV]----\n\r\n Source: HMI_Setpoint_Tag (value = 75.0)\n\r\n Dest: PID_SP_Tag\n\n\r\n Result: \n\r\nWhen HMI_Write_Bit is ON, PID_SP_Tag = 75.0\n\r\nHMI_Setpoint_Tag is unchanged = 75.0\n\r\nOn the next scan, the copy repeats while the rung stays true.\r\n \n\r\n\n\r\n\r\n \r\n \r\n Executes\n\r\n Every scan while rung is true. Use a one-shot (OSR) if you only want the copy to happen once per rising edge.\n\r\n \n\r\n \r\n Data types\n\r\n INT, DINT, REAL, BOOL. The source and destination must be compatible data types or use a conversion instruction first.\n\r\n \n\r\n \r\n Source options\n\r\n Any tag, input register, constant value, or the result of a math instruction stored in a temporary tag.\n\r\n \n\r\n \r\n Common use\n\r\n Transfer a setpoint from HMI to a PID block. Copy an analogue input value in"
+}
