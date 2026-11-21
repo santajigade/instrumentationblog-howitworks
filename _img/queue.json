@@ -63,7 +63,7 @@
 "7 segment display truth table",
 "bcd to 7 segment decoder truth table"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "open-loop-and-closed-loop-control-system",
@@ -75,7 +75,7 @@
 "open loop system and closed loop system",
 "difference between open loop and closed loop"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "cathode-ray-oscilloscope-cro-explained",
@@ -84,7 +84,7 @@
 "cathode ray oscilloscope",
 "cathode ray oscilloscope diagram"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "dp-transmitter-level-measurement",
@@ -96,7 +96,7 @@
 "level measurement",
 "dp type level transmitter"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "correction-factor-in-calibration",
@@ -107,7 +107,7 @@
 "correction factor calculation",
 "calibration correction"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "orifice-plate-sizing-guide",
@@ -119,7 +119,7 @@
 "orifice plate sizes",
 "standard orifice plate"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "reflux-ratio-in-distillation-column",
@@ -131,7 +131,7 @@
 "reflux ratio in distillation",
 "what is reflux ratio in distillation column"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "signal-conditioning-in-instrumentation",
@@ -143,7 +143,7 @@
 "signal conditioning device",
 "what is signal conditioning"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "earth-fault-loop-impedance-zs-testing",
@@ -155,7 +155,7 @@
 "earth fault loop",
 "earth loop impedance"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "how-plc-scan-cycle-works",
@@ -167,13 +167,13 @@
 "plc scan cycle diagram",
 "scan cycle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "drain-and-vent-hole-in-orifice-plate",
 "impr": 6072,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "motor-insulation-classes",
@@ -185,7 +185,7 @@
 "electrical insulation classes",
 "electric motor insulation class"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "rtd-sensor-connections",
@@ -194,7 +194,7 @@
 "rtd sensor connection",
 "rtd sensor wiring"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "9-plc-data-types-explained",
@@ -206,7 +206,7 @@
 "ab plc types",
 "data type in plc"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "atm-to-kpa-pressure-conversion",
@@ -218,7 +218,7 @@
 "kpa to atm",
 "how to convert atm to kpa formula"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "mutual-inductance-coupling-coefficient",
@@ -229,7 +229,7 @@
 "formula for mutual inductance",
 "mutual inductance of two coils formula"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "how-nitrogen-purging-works",
@@ -241,7 +241,7 @@
 "what is nitrogen purging",
 "nitrogen purging to remove oxygen"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "rc-low-pass-high-pass-filter",
@@ -249,7 +249,7 @@
 "queries": [
 "cut off frequency of low pass filter"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "annubar-flow-meter-working",
@@ -261,7 +261,7 @@
 "annubar type flow meter",
 "flow nozzle working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "joukowsky-equation-water-hammer",
@@ -272,7 +272,7 @@
 "water hammer formula",
 "joukowsky equation water hammer"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "cold-loop-and-hot-loop-testing",
