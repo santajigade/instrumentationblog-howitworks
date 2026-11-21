@@ -1763,7 +1763,7 @@
 "impr": 1338,
 "pos": 12.7,
 "queries": [],
-"status": "todo"
+"status": "skip"
 },
 {
 "slug": "voltage-follower-unity-gain-buffer-explained",
