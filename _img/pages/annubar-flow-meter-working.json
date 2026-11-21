@@ -1,0 +1,61 @@
+{
+ "id": 8390,
+ "slug": "annubar-flow-meter-working",
+ "mode": "elementor",
+ "title": "Annubar Flow Meter: Working Principle, Formula & vs Orifice",
+ "focus": "Annubar Flow Meter",
+ "queries": [
+  "annubar flow meter",
+  "gas flow meter calibration",
+  "multiphase flow meter",
+  "annubar type flow meter",
+  "flow nozzle working principle"
+ ],
+ "h2s": [
+  {
+   "text": "What is an Annubar flow meter (averaging Pitot)",
+   "unique": true,
+   "where": "heading",
+   "section": 0
+  },
+  {
+   "text": "How Annubar Flow Meter works?",
+   "unique": true,
+   "where": "heading",
+   "section": 3
+  },
+  {
+   "text": "Basic Formula Behind it",
+   "unique": true,
+   "where": "heading",
+   "section": 6
+  },
+  {
+   "text": "Advantages of using Annubar Flow Meter",
+   "unique": true,
+   "where": "heading",
+   "section": 9
+  },
+  {
+   "text": "Disadvantages of using Annubar Flow Meter",
+   "unique": true,
+   "where": "heading",
+   "section": 11
+  },
+  {
+   "text": "Checklist during installation & commissioning of Annubar Flow Meter",
+   "unique": true,
+   "where": "heading",
+   "section": 14
+  },
+  {
+   "text": "Operation & maintenance of Annubar Flow Meter",
+   "unique": true,
+   "where": "heading",
+   "section": 16
+  }
+ ],
+ "has_ib_img": false,
+ "images_now": 1,
+ "text": "What is an Annubar flow meter (averaging Pitot) Annubar\u00a0 Flow Meter \u00a0is nothing but as a smart bar (a probe) that you insert into the pipe. It has many small pressure taps (holes) along its face upstream and a corresponding set (or a chamber) downstream.\u00a0\n These taps \u201caverage\u201d the pressure profile rather than relying on just one point. The difference between \u201chigh side\u201d (impact + static) and \u201clow side\u201d (static, suction) is your differential pressure (\u0394P). From that \u0394P, you infer flow rate using the relevant equation.\n Because real flow inside pipes is never perfectly uniform (boundary layers, turbulence, bends, etc.), using multiple taps helps reduce error compared to a single-point measurement. Many of the best explanations online call it an \u201caveraging Pitot\u201d or \u201caveraging bar.\u201d\u00a0\n \u201cAnnubar\u201d is a brand name ( Emerson / Rosemount ) but over time the term is used generally for that style of device.\n Quick Answer\n What Is an Annubar Flow Meter and How Does It Work?\n An Annubar flow meter is an averaging Pitot tube: a bar inserted across the pipe with several upstream taps that average total pressure and a downstream tap that senses lower static pressure.\n A DP transmitter reads the difference and the flow is found by square root extraction: Q = K \u00d7 \u221aDP . For example, with K = 10 and DP = 25, Q = 10 \u00d7 5 = 50 flow units.\n It gives lower permanent pressure loss than an orifice plate but needs clean fluid and good straight runs.\n How Annubar Flow Meter works? Here is what actually happens inside the pipe when you mount an Annubar:\n Insertion and obstruction \n You insert the bar so that it spans (or partially spans) across the pipe cross-section. It is not a full blockage, but it disturbs the flow slightly. That disturbance causes a pressure difference between upstream side and downstream side.\u00a0\n Tapping pressures (high and low side) \n 1) Upstream side: Several ports facing the flow pick up total pressure (static + dynamic). These ports feed into a common chamber (or manifold) that gives you an averaged \u201chigh side\u201d pressure reading.\u00a0 \n 2) Downstream: There is a downstream port or chamber that senses mostly static (lower) pressure, or what you'd call the \u201csuction\u201d side.\u00a0 \n Forming \u0394P (differential pressure)\n The differential Pressure = High Pressure - Low Pressure \n That difference is (theoretically) proportional to (velocity)2, by\u00a0 Bernoulli\u2019s principle . From that, with known pipe cross-sectional area etc., you calculate volumetric flow.\n Conversion to flow \n A DP transmitter which is an secondary device reads the \u0394P. Then in your flow computer,\u00a0 DCS or PLC \u00a0logic you apply calibration constants, K-factors, and square-root extraction (or a lookup) to convert that \u0394P into flow rate.\u00a0\n So\u00a0 Annubar creates \u0394P \u2192 DP transmitter measures \u2192 we convert \u0394P \u2192 FLOW .\n Basic Formula Behind it The Basic Formula is as below:\n where:\n Q = Flow Rate\n K = Annubar Flow Coefficient\n DP = Differential Pressure\n The Annubar creates a pressure difference (DP) by partially blocking the pipe. When the fluid hits the front of the Annubar, its speed slows down and comes to a stop at that point, which builds up the high pressure.\n Please see below functional diagram of Annubar Flow Meter.\n Advantages of using Annubar Flow Meter 1) Low pressure drop / minimal blockage\n Because it's not a full obstruction, permanent pressure loss is pretty low, better than many orifice or flanged flow elements.\u00a0 \n 2) Better represent average flow\n Using multiple taps helps mitigate nonidealities in velocity profile, so you get a more reliable average reading compared to a single point Pitot.\u00a0 \n 3) Flexible installation\n You don\u2019t always need long flanged spool sections or special piping, many Annubars flow meters are designed for insertion or \u201cthrough the wall\u201d style installations using pack-offs or small apertures.\u00a0 \n 4) Scalable to large pipes\n For very large pipe diameters, the forces on a primary element (if fully spanning) can be large. But many Annubar flow meter designs support ends or supports so the bar is held securely, making them robust even in large diameter lines. \n Disadvantages of using Annubar Flow Meter 1) Clogging / fouling (dirty fluids) If your fluid carries particulates, deposits, or solids, the small taps can block. Cleaning sometimes requires removing the bar (mechanical cleaning) or high-pressure purge.\u00a0\n 2) Viscosity limitations If fluid viscosity is high (say approaching or exceeding ~50 cP), the assumption of ideal Bernoulli behavior starts to break down; the measurement error may increase.\u00a0\n 3) Sensitivity (low DP signals) Because the \u0394P is often quite small (especially at low flow), instrumentation noise, zero drift, transmitter resolution become more critical.\n 4) Straight-run requirements The upstream and downstream piping must be fairly \u201cclean\u201d (no disturbances) over certain lengths, otherwise the flow profile is distorted and your measurement becomes inaccurate. For example:\n 4.1 => For a pipe bend: allow ~23 diameters upstream and 4 downstream.\n 4.2 =>For a valve upstream: maybe ~30 upstream diameters, 4 downstream.\u00a0\n 5) Single instrument point / single sensor Even though Annubar flow meter samples multiple taps, it is still one primary that you rely on. If it fails, your entire flow measurement is lost. Some people ask whether you can put multiple DP transmitters on one Annubar flow meter to improve redundancy, but that has tradeoffs, as if the sensor itself fails, all are lost.\n Checklist during installation & commissioning of Annubar Flow Meter Here is a \u201cchecklist\u201d you should have in your pocket when going in the field. Use this, and we reduce surprises:\n 1) Confirm pipe sizing, fluid properties, working range We must ensure that the Annubar we pick is sized for the expected flow range, fluid density, temperature, pressure, etc. Also check viscosity, particulate load, corrosivity.\n 2) Proper orientation and insertion depth The bar (or \u201caveraging section\u201d) should ideally span the full cross-section or be positioned so that the multiple taps sample the velocity profile well. It must be centered (or as manufacturer prescribes) and not too close to walls.\n 3) Straight run lengths Make sure upstream and downstream sections are adequate and free from disturbances (bends, valves, reducers) according to the recommended rules. If you can not get full length, sometimes you may consider straighteners or vanes upstream.\u00a0\n 4) Impulse/connection lines / tubing Use matched tubing, minimal slope, and avoid loops (air pocket). Make sure you purge before commissioning and ensure no leaks. Keep impulse lines short & consistent.\n 5) Zeroing / calibration After you mount and connect the DP transmitter, you must zero the system in no-flow condition (if possible). Also check span calibration. Use calibration gas if needed.\n 6) Signal filtering / dampening Because \u0394P might fluctuate, consider whether filtering or signal smoothing is required in transmitter or DCS side. But don\u2019t over-filter and lose fidelity.\n 7) Leak tightness Check all joints, fittings, impulse port connections for leaks (especially on high side). Leaks skew \u0394P dramatically.\n 8) Vibration / support The bar should be mechanically stable; avoid vibration or movement in the pipe that can shift it. Use supports, proper mounting.\n 9) Redundancy & diagnostics If possible, configure diagnostics (e.g. check \u0394P differential, alarms on drift, diagnostics in transmitter). Always plan for a fallback or bypass.\n Operation & maintenance of Annubar Flow Meter Once you have commissioned it, the Annubar still needs attention. Here\u2019s what I\u2019d keep in mind and what I\u2019d tell you to monitor:\n 1) Periodic inspection & cleaning If process fluid has sediments, scale or fouling. Sometimes you might need to shut off flow, remove the bar, clean taps. Or in some systems, do a purge (if a purge port exists).\n 2) Zero drift & re-zeroing Periodically check zero offset (especially when process is shut). Drift can occur due to temperature, stress, transmitter aging.\n 3) Check for tap blockages If reading seems off or erratic, suspect one or more ports are blocked. One port blocked is especially harmful because averaging is skewed.\n 4) Check impulse lines Over time, moisture, condensation, or debris can accumulate. Also watch out for leaks, corrosion.\n 5) Monitor transmitter health Watch for transmitters going out of range, alarms, unexpected \u0394P behavior.\n 6) Record trends & compare Use redundancy (if you have alternate flow measurement) occasionally to compare. If readings diverge, dig in.\n 7) Replace before catastrophic failure Bars may eventually corrode or weaken over time; replace before cracks or major damage develop.\n I hope you like above blog. There is no cost associated in sharing the article in your social media. Thanks for reading!! Happy Learning!!"
+}
