@@ -1,0 +1,6429 @@
+[
+{
+"slug": "signals-in-instrumentation-ai-ao-di-do",
+"impr": 20511,
+"queries": [
+"ai ao di do",
+"ai ao di do examples",
+"ai ao di do in plc",
+"examples of ai, ao, di, do",
+"ai ao di do full form"
+],
+"status": "todo"
+},
+{
+"slug": "npn-and-pnp-proximity-sensors",
+"impr": 14802,
+"queries": [
+"pnp proximity sensor",
+"magnetic proximity sensors market",
+"npn proximity sensor",
+"pnp and npn sensor",
+"difference between pnp and npn proximity sensor"
+],
+"status": "todo"
+},
+{
+"slug": "impedance-reactance-ac-circuits",
+"impr": 14578,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "basic-parts-of-a-control-valve",
+"impr": 13800,
+"queries": [
+"control valve parts",
+"control valve",
+"control valve diagram",
+"parts of control valve",
+"control valve characteristics"
+],
+"status": "todo"
+},
+{
+"slug": "plc-block-diagram",
+"impr": 12822,
+"queries": [
+"plc block diagram",
+"block diagram of plc",
+"plc architecture diagram",
+"plc diagram",
+"diagram of plc"
+],
+"status": "todo"
+},
+{
+"slug": "7-segment-display-decoder",
+"impr": 10639,
+"queries": [
+"7 segment display pin diagram",
+"seven segment display pin diagram",
+"7 segment display pinout",
+"7 segment display truth table",
+"bcd to 7 segment decoder truth table"
+],
+"status": "todo"
+},
+{
+"slug": "open-loop-and-closed-loop-control-system",
+"impr": 9771,
+"queries": [
+"open loop and closed loop control system",
+"open loop and closed loop",
+"difference between open loop and closed loop control system",
+"open loop system and closed loop system",
+"difference between open loop and closed loop"
+],
+"status": "todo"
+},
+{
+"slug": "cathode-ray-oscilloscope-cro-explained",
+"impr": 9565,
+"queries": [
+"cathode ray oscilloscope",
+"cathode ray oscilloscope diagram"
+],
+"status": "todo"
+},
+{
+"slug": "dp-transmitter-level-measurement",
+"impr": 8978,
+"queries": [
+"dp level transmitter",
+"differential pressure level transmitter",
+"dp transmitter",
+"level measurement",
+"dp type level transmitter"
+],
+"status": "todo"
+},
+{
+"slug": "correction-factor-in-calibration",
+"impr": 8435,
+"queries": [
+"correction factor formula",
+"correction factor",
+"correction factor calculation",
+"calibration correction"
+],
+"status": "todo"
+},
+{
+"slug": "orifice-plate-sizing-guide",
+"impr": 7702,
+"queries": [
+"conditioning orifice plate",
+"orifice plate sizing",
+"orifice plate dimensions",
+"orifice plate sizes",
+"standard orifice plate"
+],
+"status": "todo"
+},
+{
+"slug": "reflux-ratio-in-distillation-column",
+"impr": 7694,
+"queries": [
+"reflux ratio formula",
+"reflux ratio",
+"minimum reflux ratio formula",
+"reflux ratio in distillation",
+"what is reflux ratio in distillation column"
+],
+"status": "todo"
+},
+{
+"slug": "signal-conditioning-in-instrumentation",
+"impr": 7627,
+"queries": [
+"signal conditioning",
+"signal conditioning types",
+"analog signal conditioning",
+"signal conditioning device",
+"what is signal conditioning"
+],
+"status": "todo"
+},
+{
+"slug": "earth-fault-loop-impedance-zs-testing",
+"impr": 6220,
+"queries": [
+"earth fault loop impedance",
+"fault loop impedance",
+"fault loop impedance calculator",
+"earth fault loop",
+"earth loop impedance"
+],
+"status": "todo"
+},
+{
+"slug": "how-plc-scan-cycle-works",
+"impr": 6098,
+"queries": [
+"plc scan cycle",
+"plc cycle",
+"scan cycle of plc",
+"plc scan cycle diagram",
+"scan cycle"
+],
+"status": "todo"
+},
+{
+"slug": "drain-and-vent-hole-in-orifice-plate",
+"impr": 6072,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "motor-insulation-classes",
+"impr": 5994,
+"queries": [
+"insulation class of motor",
+"motor insulation class",
+"motor insulation classes",
+"electrical insulation classes",
+"electric motor insulation class"
+],
+"status": "todo"
+},
+{
+"slug": "rtd-sensor-connections",
+"impr": 5913,
+"queries": [
+"rtd sensor connection",
+"rtd sensor wiring"
+],
+"status": "todo"
+},
+{
+"slug": "9-plc-data-types-explained",
+"impr": 5859,
+"queries": [
+"plc data types",
+"allen bradley plc types",
+"data types in plc",
+"ab plc types",
+"data type in plc"
+],
+"status": "todo"
+},
+{
+"slug": "atm-to-kpa-pressure-conversion",
+"impr": 5383,
+"queries": [
+"atm to kpa",
+"how to convert atm to kpa",
+"1 atm to kpa",
+"kpa to atm",
+"how to convert atm to kpa formula"
+],
+"status": "todo"
+},
+{
+"slug": "mutual-inductance-coupling-coefficient",
+"impr": 5094,
+"queries": [
+"mutual inductance formula",
+"formula of mutual inductance",
+"formula for mutual inductance",
+"mutual inductance of two coils formula"
+],
+"status": "todo"
+},
+{
+"slug": "how-nitrogen-purging-works",
+"impr": 5066,
+"queries": [
+"nitrogen purging",
+"nitrogen purging meaning",
+"nitrogen purging pipeline",
+"what is nitrogen purging",
+"nitrogen purging to remove oxygen"
+],
+"status": "todo"
+},
+{
+"slug": "rc-low-pass-high-pass-filter",
+"impr": 4986,
+"queries": [
+"cut off frequency of low pass filter"
+],
+"status": "todo"
+},
+{
+"slug": "annubar-flow-meter-working",
+"impr": 4742,
+"queries": [
+"annubar flow meter",
+"gas flow meter calibration",
+"multiphase flow meter",
+"annubar type flow meter",
+"flow nozzle working principle"
+],
+"status": "todo"
+},
+{
+"slug": "joukowsky-equation-water-hammer",
+"impr": 4507,
+"queries": [
+"joukowsky equation",
+"water hammer equation",
+"water hammer formula",
+"joukowsky equation water hammer"
+],
+"status": "todo"
+},
+{
+"slug": "cold-loop-and-hot-loop-testing",
+"impr": 4493,
+"queries": [
+"cold loop and hot loop",
+"hot loop checking in instrumentation",
+"hot loop check and cold loop check",
+"cold loop checking in instrumentation"
+],
+"status": "todo"
+},
+{
+"slug": "star-delta-transformation-formula",
+"impr": 4468,
+"queries": [
+"star to delta conversion formula",
+"star delta transformation",
+"star delta conversion formula",
+"star to delta conversion",
+"star delta transformation formula"
+],
+"status": "todo"
+},
+{
+"slug": "namur-ne43-standard-explained",
+"impr": 4396,
+"queries": [
+"namur ne43",
+"namur standard",
+"namur ne43 standard",
+"namur 43 standard"
+],
+"status": "todo"
+},
+{
+"slug": "half-adder-vs-full-adder",
+"impr": 4326,
+"queries": [
+"half adder and full adder",
+"difference between half adder and full adder"
+],
+"status": "todo"
+},
+{
+"slug": "list-of-free-scada-software",
+"impr": 4259,
+"queries": [
+"free scada software",
+"scada software free download for windows 10",
+"open source scada software",
+"free plc programming software",
+"rapid scada free download"
+],
+"status": "todo"
+},
+{
+"slug": "different-types-of-photoelectric-sensors",
+"impr": 4064,
+"queries": [
+"photoelectric sensor types",
+"different types of pressure transmitter",
+"types of photoelectric sensor",
+"3 types of photoelectric sensors",
+"types of photoelectric sensors"
+],
+"status": "todo"
+},
+{
+"slug": "flow-characteristics-of-control-valves",
+"impr": 4042,
+"queries": [
+"control valves",
+"control valve characteristics",
+"control valves parts",
+"choked flow in control valve",
+"flow characteristics of control valve"
+],
+"status": "todo"
+},
+{
+"slug": "what-is-a-mimic-panel-types-uses",
+"impr": 4010,
+"queries": [
+"mimic panel",
+"mimic panel full form",
+"what is mimic panel",
+"mimic diagram in panel"
+],
+"status": "todo"
+},
+{
+"slug": "wheatstone-bridge-10-applications",
+"impr": 3954,
+"queries": [
+"application of wheatstone bridge",
+"applications of wheatstone bridge",
+"wheatstone bridge application",
+"name two practical applications of wheatstone bridge",
+"wheatstone bridge applications"
+],
+"status": "todo"
+},
+{
+"slug": "100-essential-engineering-formulas",
+"impr": 3872,
+"queries": [
+"engineering formulas",
+"basic engineering formulas",
+"engineering calculations and formulas",
+"all engineering formulas"
+],
+"status": "todo"
+},
+{
+"slug": "difference-between-3-1-and-3-2-material-certificates",
+"impr": 3850,
+"queries": [
+"difference between half adder and full adder",
+"difference between strainer and filter",
+"difference between open loop and closed loop control system",
+"difference between filter and strainer",
+"difference between pnp and npn proximity sensor"
+],
+"status": "todo"
+},
+{
+"slug": "cascode-amplifier-working-principle",
+"impr": 3727,
+"queries": [
+"cascode amplifier",
+"igbt working principle",
+"rtd working principle",
+"rtd working principle in hindi",
+"potentiometer working principle"
+],
+"status": "todo"
+},
+{
+"slug": "flip-flop-types-sr-jk-d-t",
+"impr": 3721,
+"queries": [
+"types of flip flop"
+],
+"status": "todo"
+},
+{
+"slug": "induction-motor-slip-explained",
+"impr": 3718,
+"queries": [
+"induction motor slip formula"
+],
+"status": "todo"
+},
+{
+"slug": "what-is-rtd-and-how-it-works",
+"impr": 3663,
+"queries": [
+"differential pressure transmitter how it works"
+],
+"status": "todo"
+},
+{
+"slug": "types-of-thermocouples-and-ranges",
+"impr": 3661,
+"queries": [
+"thermocouple types and ranges",
+"types of thermocouples and their ranges"
+],
+"status": "todo"
+},
+{
+"slug": "hazardous-area-classification-zone",
+"impr": 3589,
+"queries": [
+"hazardous area classification zone",
+"hazardous area classification zone 0 1 2 pdf"
+],
+"status": "todo"
+},
+{
+"slug": "astable-vs-monostable-vs-bistable-multivibrator",
+"impr": 3564,
+"queries": [
+"astable monostable and bistable multivibrator",
+"difference between monostable and astable multivibrator",
+"difference between astable monostable and bistable multivibrator",
+"astable vs monostable vs bistable",
+"astable bistable and monostable multivibrator"
+],
+"status": "todo"
+},
+{
+"slug": "rtd-resistance-to-temperature-calculator",
+"impr": 3563,
+"queries": [
+"rtd calculator",
+"rtd pt100 resistance to temperature calculator",
+"conductivity temperature compensation calculator",
+"pt100 formula for temperature from resistance",
+"cable resistance calculator"
+],
+"status": "todo"
+},
+{
+"slug": "temperature-sensor-response-time",
+"impr": 3537,
+"queries": [
+"rtd response time",
+"what is pt100 temperature sensor"
+],
+"status": "todo"
+},
+{
+"slug": "measurement-uncertainty-in-calibration",
+"impr": 3422,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "gas-groups-iia-iib-iic-what-is-the-difference",
+"impr": 3338,
+"queries": [
+"gas group iia iib iic",
+"atex iia iib iic",
+"iia iib iic gas group"
+],
+"status": "todo"
+},
+{
+"slug": "strainer-and-filter-difference",
+"impr": 3163,
+"queries": [
+"strainer vs filter",
+"difference between strainer and filter",
+"strainer and filter",
+"difference between filter and strainer",
+"filter vs strainer"
+],
+"status": "todo"
+},
+{
+"slug": "free-plc-programming-software",
+"impr": 3149,
+"queries": [
+"plc programming software",
+"free scada software",
+"data types in plc programming",
+"scada software free download for windows 10",
+"free plc programming software"
+],
+"status": "todo"
+},
+{
+"slug": "top-50-pid-controller-mcqs-2026",
+"impr": 3035,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "pressure-tappings-in-orifice-plate",
+"impr": 3027,
+"queries": [
+"conditioning orifice plate",
+"orifice plate sizing",
+"pressure tappings",
+"orifice plate dimensions",
+"orifice plate sizes"
+],
+"status": "todo"
+},
+{
+"slug": "cems-continuous-emissions-monitoring-system",
+"impr": 3004,
+"queries": [
+"continuous emission monitoring system",
+"cems continuous emission monitoring system"
+],
+"status": "todo"
+},
+{
+"slug": "scada-communication-problems",
+"impr": 2974,
+"queries": [
+"aveva scada communication issues fix"
+],
+"status": "todo"
+},
+{
+"slug": "pressure-gauge-accuracy-classes",
+"impr": 2887,
+"queries": [
+"gauge pressure formula",
+"pressure transmitter accuracy",
+"pressure gauge calibration",
+"deadweight pressure gauge",
+"pressure gauge snubber working principle"
+],
+"status": "todo"
+},
+{
+"slug": "flemings-left-hand-rule-motor",
+"impr": 2828,
+"queries": [
+"fleming left hand rule",
+"newton's left hand rule",
+"flemings left hand rule examples"
+],
+"status": "todo"
+},
+{
+"slug": "2-wire-and-4-wire-transmitters",
+"impr": 2827,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "what-is-2oo3-voting-logic",
+"impr": 2807,
+"queries": [
+"2oo3 voting logic",
+"voting logic in safety instrumented system"
+],
+"status": "todo"
+},
+{
+"slug": "point-to-point-connection-multidrop-connection",
+"impr": 2762,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "arithmetic-logic-unit-alu-architecture",
+"impr": 2740,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "what-is-sensor-linearity",
+"impr": 2721,
+"queries": [
+"sensor linearity"
+],
+"status": "todo"
+},
+{
+"slug": "condensate-pot-in-steam-applications",
+"impr": 2668,
+"queries": [
+"condensate pot",
+"condensate pot working principle"
+],
+"status": "todo"
+},
+{
+"slug": "how-does-io-link-works",
+"impr": 2606,
+"queries": [
+"io link protocol"
+],
+"status": "todo"
+},
+{
+"slug": "level-transmitter-5-point-calibration",
+"impr": 2597,
+"queries": [
+"dp level transmitter",
+"differential pressure level transmitter",
+"dp type level transmitter",
+"differential pressure transmitter calibration",
+"level transmitter"
+],
+"status": "todo"
+},
+{
+"slug": "7-types-of-alarms-in-dcs",
+"impr": 2544,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "controllogix-5590-plc",
+"impr": 2519,
+"queries": [
+"allen bradley controllogix plc"
+],
+"status": "todo"
+},
+{
+"slug": "voting-architectures-safety-systems",
+"impr": 2517,
+"queries": [
+"voting logic in safety instrumented system"
+],
+"status": "todo"
+},
+{
+"slug": "square-root-extraction-dp-flow",
+"impr": 2516,
+"queries": [
+"dp flow square root formula",
+"flow transmitter square root calculator"
+],
+"status": "todo"
+},
+{
+"slug": "bourdon-tube-pressure-gauges",
+"impr": 2446,
+"queries": [
+"bourdon tube pressure gauge",
+"bourdon tube"
+],
+"status": "todo"
+},
+{
+"slug": "types-of-allen-bradley-plcs",
+"impr": 2443,
+"queries": [
+"allen bradley plc types",
+"allen bradley controllogix plc"
+],
+"status": "todo"
+},
+{
+"slug": "digital-logic-gates-explained",
+"impr": 2431,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "psi-to-bar-conversion",
+"impr": 2430,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "fail-safe-valve-position-fail-open-fail-closed-fail-locked",
+"impr": 2418,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "mass-flow-controller-working-principle",
+"impr": 2397,
+"queries": [
+"mass flow controller",
+"flow nozzle working principle",
+"how does mass flow controller work"
+],
+"status": "todo"
+},
+{
+"slug": "lighting-design-calculation",
+"impr": 2392,
+"queries": [
+"lighting design calculations"
+],
+"status": "todo"
+},
+{
+"slug": "lm35-temperature-sensor",
+"impr": 2386,
+"queries": [
+"what is pt100 temperature sensor"
+],
+"status": "todo"
+},
+{
+"slug": "industrial-automation-sensors",
+"impr": 2354,
+"queries": [
+"industrial sensors",
+"architecture of industrial automation system",
+"free industrial automation course",
+"industrial automation free course"
+],
+"status": "todo"
+},
+{
+"slug": "pid-controller-types-explained",
+"impr": 2353,
+"queries": [
+"what is the main function of pid inverter controller ? 1 point a) provides \nfast cooling b) maintains voltage fluctuations c) maintains precise \ntemperature d) auto restarts the ac after power cut",
+"types of pid controller",
+"pid types",
+"pid controller types"
+],
+"status": "todo"
+},
+{
+"slug": "bonded-and-unbonded-strain-gauges",
+"impr": 2333,
+"queries": [
+"bonded strain gauge",
+"bonded strain gauge diagram",
+"unbonded strain gauge",
+"bonded and unbonded strain gauge"
+],
+"status": "todo"
+},
+{
+"slug": "basics-of-differential-pressure-transmitter",
+"impr": 2271,
+"queries": [
+"differential pressure level transmitter",
+"how do differential pressure transmitters work",
+"pressure transmitter types",
+"types of pressure transmitter",
+"differential pressure transmitter calibration"
+],
+"status": "todo"
+},
+{
+"slug": "electrical-regulations-and-standards",
+"impr": 2255,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "inverting-amplifier-gain-formula",
+"impr": 2251,
+"queries": [
+"inverting amplifier gain formula",
+"gain for inverting op amp"
+],
+"status": "todo"
+},
+{
+"slug": "8-free-training-courses-plc-scada-hmi",
+"impr": 2236,
+"queries": [
+"hmi scada training",
+"plc hmi scada training",
+"plc scada hmi courses",
+"scada training free"
+],
+"status": "todo"
+},
+{
+"slug": "idmt-relay-characteristics-tms-psm",
+"impr": 2218,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "what-is-reynolds-number",
+"impr": 2205,
+"queries": [
+"reynolds number"
+],
+"status": "todo"
+},
+{
+"slug": "types-of-pressure-transmitters",
+"impr": 2151,
+"queries": [
+"how do differential pressure transmitters work",
+"pressure transmitter types",
+"types of pressure transmitter",
+"types of pressure transmitters",
+"different types of pressure transmitter"
+],
+"status": "todo"
+},
+{
+"slug": "types-of-controllers-in-instrumentation",
+"impr": 2141,
+"queries": [
+"types of controllers",
+"types of level transmitter in instrumentation",
+"different types of controllers",
+"types of control loops in instrumentation"
+],
+"status": "todo"
+},
+{
+"slug": "maximum-power-transfer-theorem",
+"impr": 2126,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "mems-accelerometer-working-principle",
+"impr": 2121,
+"queries": [
+"mems accelerometer",
+"igbt working principle",
+"rtd working principle",
+"mems accelerometer sensor",
+"rtd working principle in hindi"
+],
+"status": "todo"
+},
+{
+"slug": "electrical-energy-consumption-calculation",
+"impr": 2111,
+"queries": [
+"electrical energy formula kwh"
+],
+"status": "todo"
+},
+{
+"slug": "split-range-control-working-principle",
+"impr": 2097,
+"queries": [
+"split range control",
+"what is split range control"
+],
+"status": "todo"
+},
+{
+"slug": "distributed-control-system-dcs",
+"impr": 2089,
+"queries": [
+"open loop and closed loop control system",
+"distributed control system",
+"difference between open loop and closed loop control system",
+"what is dcs system",
+"what is open loop and closed loop control system"
+],
+"status": "todo"
+},
+{
+"slug": "star-vs-delta-connection",
+"impr": 2063,
+"queries": [
+"star to delta conversion formula",
+"star delta transformation",
+"star delta conversion formula",
+"star to delta conversion",
+"star delta transformation formula"
+],
+"status": "todo"
+},
+{
+"slug": "how-a-fire-alarm-system-works",
+"impr": 2061,
+"queries": [
+"fire detection and alarm system design",
+"fire detection system",
+"alarm management system in dcs",
+"dcs alarm management system",
+"fire alarm basics"
+],
+"status": "todo"
+},
+{
+"slug": "types-of-nuclear-level-measurement",
+"impr": 2033,
+"queries": [
+"level measurement",
+"level transmitter types",
+"nuclear level transmitter",
+"types of level transmitter",
+"open tank level measurement"
+],
+"status": "todo"
+},
+{
+"slug": "bimetallic-thermometer-working-principle",
+"impr": 2010,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"bimetallic thermometer",
+"rtd working principle in hindi",
+"potentiometer working principle"
+],
+"status": "todo"
+},
+{
+"slug": "zero-and-span-adjustments",
+"impr": 2000,
+"queries": [
+"what is zero and span calibration"
+],
+"status": "todo"
+},
+{
+"slug": "dcs-function-block-programming-explained",
+"impr": 1991,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "multifunction-process-calibrator-uses",
+"impr": 1962,
+"queries": [
+"multifunction calibrator",
+"multifunction process calibrator"
+],
+"status": "todo"
+},
+{
+"slug": "offset-error-zero-point-error-span-error",
+"impr": 1944,
+"queries": [
+"zero offset error"
+],
+"status": "todo"
+},
+{
+"slug": "gray-code-binary-conversion",
+"impr": 1913,
+"queries": [
+"gray code"
+],
+"status": "todo"
+},
+{
+"slug": "sensors-and-transducers-questions-answers",
+"impr": 1905,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "transformer-efficiency-calculation",
+"impr": 1903,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "what-is-functional-safety-assessment",
+"impr": 1884,
+"queries": [
+"functional safety assessment"
+],
+"status": "todo"
+},
+{
+"slug": "short-circuit-current-calculation",
+"impr": 1873,
+"queries": [
+"current mirror circuit",
+"symmetrical vs asymmetrical short circuit current"
+],
+"status": "todo"
+},
+{
+"slug": "negative-pressure-in-pipelines",
+"impr": 1847,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "pipe-expansion-loop-in-steam-piping",
+"impr": 1846,
+"queries": [
+"steam expansion loop"
+],
+"status": "todo"
+},
+{
+"slug": "karnaugh-map-explained",
+"impr": 1844,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "transistor-common-emitter-amplifier",
+"impr": 1810,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "instrument-hook-up-drawing-guide",
+"impr": 1804,
+"queries": [
+"hook up drawing",
+"instrument hook up drawing"
+],
+"status": "todo"
+},
+{
+"slug": "circuit-breaker-coordination-time-current-curves-selectivity",
+"impr": 1733,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "lvdt-linear-variable-differential-transformer",
+"impr": 1697,
+"queries": [
+"linear variable differential transformer"
+],
+"status": "todo"
+},
+{
+"slug": "igbt-working-principle-applications",
+"impr": 1692,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"igbt working",
+"rtd working principle in hindi",
+"potentiometer working principle"
+],
+"status": "todo"
+},
+{
+"slug": "motor-efficiency-classes-iec-60034",
+"impr": 1682,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "boiler-drum-level-control",
+"impr": 1682,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "plc-compare-instructions",
+"impr": 1672,
+"queries": [
+"comparison instructions in plc"
+],
+"status": "todo"
+},
+{
+"slug": "bernoullis-equation-formula",
+"impr": 1661,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "motor-winding-resistance-test",
+"impr": 1653,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "analog-vs-digital-instrumentation-system",
+"impr": 1651,
+"queries": [
+"digital instrumentation",
+"comparison of analog and digital instruments",
+"compare analog and digital instruments"
+],
+"status": "todo"
+},
+{
+"slug": "rms-value-explained-ac-measurements",
+"impr": 1629,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "diode-rectifier-circuits",
+"impr": 1615,
+"queries": [
+"diode rectifier circuit"
+],
+"status": "todo"
+},
+{
+"slug": "7-types-of-pressure-relief-valves",
+"impr": 1615,
+"queries": [
+"pressure transmitter types",
+"types of pressure transmitter",
+"types of pressure transmitters",
+"different types of pressure transmitter",
+"pressure relief valve sizing calculator excel free download"
+],
+"status": "todo"
+},
+{
+"slug": "instrument-loop-diagram-isa-5-4",
+"impr": 1566,
+"queries": [
+"isa 5.4 instrument loop diagrams pdf"
+],
+"status": "todo"
+},
+{
+"slug": "iec-61850-substation-automation-goose-mms-sampled-values",
+"impr": 1566,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "counters-explained-ripple-vs-synchronous",
+"impr": 1562,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "conditioning-orifice-plate-and-standard-orifice-plate",
+"impr": 1550,
+"queries": [
+"conditioning orifice plate",
+"orifice plate sizing",
+"orifice plate dimensions",
+"orifice plate sizes",
+"standard orifice plate"
+],
+"status": "todo"
+},
+{
+"slug": "apfc-panel-working-sizing",
+"impr": 1549,
+"queries": [
+"apfc panel",
+"apfc panel components"
+],
+"status": "todo"
+},
+{
+"slug": "plc-wiring-field-instrument-to-system-cabinet",
+"impr": 1538,
+"queries": [
+"plc cabinet wiring"
+],
+"status": "todo"
+},
+{
+"slug": "types-of-instrumentation",
+"impr": 1537,
+"queries": [
+"types of level transmitter in instrumentation",
+"types of control loops in instrumentation"
+],
+"status": "todo"
+},
+{
+"slug": "instrumentation-automation-abbreviations",
+"impr": 1532,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "ferranti-effect-transmission-line",
+"impr": 1529,
+"queries": [
+"ferranti effect"
+],
+"status": "todo"
+},
+{
+"slug": "pcc-panel-power-control-centre",
+"impr": 1528,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "cable-derating-factors",
+"impr": 1528,
+"queries": [
+"cable derating factor",
+"what is derating factor of cable"
+],
+"status": "todo"
+},
+{
+"slug": "deaerator-working-principle",
+"impr": 1526,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"rtd working principle in hindi",
+"potentiometer working principle",
+"differential pressure transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "how-a-hall-effect-sensor-works",
+"impr": 1516,
+"queries": [
+"what is hall effect sensor",
+"hall effect principle",
+"hall sensor working principle"
+],
+"status": "todo"
+},
+{
+"slug": "types-of-level-transmitters",
+"impr": 1508,
+"queries": [
+"level transmitter types",
+"types of pressure transmitters",
+"types of level transmitter",
+"types of level transmitter in instrumentation"
+],
+"status": "todo"
+},
+{
+"slug": "varactor-diode-working-principle",
+"impr": 1504,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"varactor diode",
+"rtd working principle in hindi",
+"potentiometer working principle"
+],
+"status": "todo"
+},
+{
+"slug": "zero-elevation-and-zero-suppression",
+"impr": 1501,
+"queries": [
+"zero elevation",
+"zero suppression",
+"zero suppression and elevation in level measurement",
+"zero elevation and suppression calculation"
+],
+"status": "todo"
+},
+{
+"slug": "current-mirror-bjt-mosfet-circuit",
+"impr": 1499,
+"queries": [
+"current mirror circuit"
+],
+"status": "todo"
+},
+{
+"slug": "types-of-thermowells",
+"impr": 1496,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "what-are-process-variables",
+"impr": 1493,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "u-tube-manometer-working-formula",
+"impr": 1488,
+"queries": [
+"u tube manometer"
+],
+"status": "todo"
+},
+{
+"slug": "conveyor-safety-switches-types",
+"impr": 1486,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "servo-level-gauge-working-principle",
+"impr": 1482,
+"queries": [
+"servo level gauge",
+"pressure gauge snubber working principle",
+"penning gauge working principle",
+"displacer type level transmitter working principle",
+"servo gauge working principle"
+],
+"status": "todo"
+},
+{
+"slug": "zero-speed-switch-working",
+"impr": 1473,
+"queries": [
+"zero speed switch",
+"reed switch sensor working principle",
+"float level switch working principle",
+"magnetic level switch working principle",
+"zero speed sensor"
+],
+"status": "todo"
+},
+{
+"slug": "single-line-diagram-symbols-and-how-to-read-one",
+"impr": 1464,
+"queries": [
+"single line diagram"
+],
+"status": "todo"
+},
+{
+"slug": "venturi-tube-flow-measurements",
+"impr": 1461,
+"queries": [
+"venturi tube"
+],
+"status": "todo"
+},
+{
+"slug": "how-to-calculate-vacuum-pressure",
+"impr": 1453,
+"queries": [
+"vacuum pressure formula",
+"vacuum pressure example"
+],
+"status": "todo"
+},
+{
+"slug": "generator-excitation-system-avr",
+"impr": 1438,
+"queries": [
+"excitation system"
+],
+"status": "todo"
+},
+{
+"slug": "static-pressure-vs-differential-pressure",
+"impr": 1436,
+"queries": [
+"differential pressure level transmitter",
+"how do differential pressure transmitters work",
+"differential pressure transmitter calibration",
+"how does a pressure differential transmitter work",
+"differential pressure transmitter how it works"
+],
+"status": "todo"
+},
+{
+"slug": "scada-hmi-screen-design-isa-101-best-practices",
+"impr": 1386,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "what-is-a-safety-relay",
+"impr": 1368,
+"queries": [
+"safety relay",
+"safety relay wiring diagram",
+"safety rated relay",
+"safety relay wiring diagram pdf"
+],
+"status": "todo"
+},
+{
+"slug": "actual-flow-standard-flow-normal-flow",
+"impr": 1364,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "types-of-flow-elements",
+"impr": 1361,
+"queries": [
+"flow elements"
+],
+"status": "todo"
+},
+{
+"slug": "what-is-mmscfd-natural-gas-flow-rate",
+"impr": 1346,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "plc-programming-languages",
+"impr": 1344,
+"queries": [
+"plc programming software",
+"data types in plc programming",
+"free plc programming software",
+"structured text plc programming",
+"plc structured text programming"
+],
+"status": "todo"
+},
+{
+"slug": "dsp-vs-dac-differences",
+"impr": 1343,
+"queries": [
+"dsp vs dac",
+"dac vs dsp"
+],
+"status": "todo"
+},
+{
+"slug": "best-pid-software-tools-for-process-engineers",
+"impr": 1338,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "voltage-follower-unity-gain-buffer-explained",
+"impr": 1338,
+"queries": [
+"unity gain buffer"
+],
+"status": "todo"
+},
+{
+"slug": "synchronous-motor-working-principle",
+"impr": 1324,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"rtd working principle in hindi",
+"potentiometer working principle",
+"differential pressure transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "boost-converter-working-principle",
+"impr": 1323,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"rtd working principle in hindi",
+"potentiometer working principle",
+"differential pressure transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "equipotential-bonding-electrical-safety",
+"impr": 1304,
+"queries": [
+"equipotential bonding"
+],
+"status": "todo"
+},
+{
+"slug": "ladder-logic-for-beginners",
+"impr": 1301,
+"queries": [
+"ladder logic"
+],
+"status": "todo"
+},
+{
+"slug": "temperature-measurement-errors",
+"impr": 1293,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "communication-protocols-in-dcs-systems",
+"impr": 1278,
+"queries": [
+"dcs communication protocols",
+"dcs communication"
+],
+"status": "todo"
+},
+{
+"slug": "motor-protection-relay-types",
+"impr": 1276,
+"queries": [
+"motor protection relay",
+"motor protection relay setting calculation excel"
+],
+"status": "todo"
+},
+{
+"slug": "lc-resonant-circuit-frequency",
+"impr": 1272,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "displacer-level-transmitter-working-principle",
+"impr": 1265,
+"queries": [
+"displacer level transmitter",
+"differential pressure transmitter working principle",
+"displacer type level transmitter working principle",
+"absolute pressure transmitter working principle",
+"working principle of differential pressure transmitter"
+],
+"status": "todo"
+},
+{
+"slug": "ct-burden-calculation-va",
+"impr": 1260,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "what-is-galvanic-isolation",
+"impr": 1254,
+"queries": [
+"galvanic isolation"
+],
+"status": "todo"
+},
+{
+"slug": "calibration-error-calculation",
+"impr": 1239,
+"queries": [
+"calibration error",
+"calibration error formula",
+"calibration error example"
+],
+"status": "todo"
+},
+{
+"slug": "insulation-resistance-testing-with-a-megger",
+"impr": 1239,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "temperature-and-pressure-compensation",
+"impr": 1235,
+"queries": [
+"conductivity temperature compensation calculator"
+],
+"status": "todo"
+},
+{
+"slug": "coriolis-flow-meter-troubleshooting",
+"impr": 1231,
+"queries": [
+"annubar flow meter",
+"gas flow meter calibration",
+"multiphase flow meter",
+"annubar type flow meter",
+"anubar flow meter"
+],
+"status": "todo"
+},
+{
+"slug": "vfd-parameter-configuration",
+"impr": 1229,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "earth-leakage-relay-elr-cbct",
+"impr": 1220,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "fuse-selection-guide",
+"impr": 1219,
+"queries": [
+"fuse selection calculation"
+],
+"status": "todo"
+},
+{
+"slug": "motor-nameplate-details-explained",
+"impr": 1216,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "pressure-snubber-working-principle-types-selection",
+"impr": 1209,
+"queries": [
+"differential pressure transmitter working principle",
+"pressure gauge snubber working principle",
+"absolute pressure transmitter working principle",
+"working principle of differential pressure transmitter",
+"differential pressure transmitter working principle with diagram"
+],
+"status": "todo"
+},
+{
+"slug": "op-amp-integrator-differentiator",
+"impr": 1187,
+"queries": [
+"precision rectifier using op amp",
+"precision rectifier op amp circuit",
+"gain for inverting op amp"
+],
+"status": "todo"
+},
+{
+"slug": "electrical-shock-causes-effects-prevention",
+"impr": 1181,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "conductivity-sensor-cell-constant-calibration",
+"impr": 1180,
+"queries": [
+"conductivity cell constant range"
+],
+"status": "todo"
+},
+{
+"slug": "choked-flow-in-control-valves",
+"impr": 1177,
+"queries": [
+"control valves",
+"control valves parts",
+"choked flow in control valve",
+"flow characteristics of control valve"
+],
+"status": "todo"
+},
+{
+"slug": "buck-converter-working-principle",
+"impr": 1176,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"rtd working principle in hindi",
+"potentiometer working principle",
+"differential pressure transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "universal-motor-working-principle",
+"impr": 1172,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"rtd working principle in hindi",
+"potentiometer working principle",
+"differential pressure transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "differential-pressure-transmitter-working-principle",
+"impr": 1171,
+"queries": [
+"differential pressure level transmitter",
+"differential pressure transmitter calibration",
+"how does a pressure differential transmitter work",
+"differential pressure transmitter how it works",
+"differential pressure transmitter"
+],
+"status": "todo"
+},
+{
+"slug": "ttl-vs-cmos-logic-families",
+"impr": 1156,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "burnout-function-in-temperature-transmitter",
+"impr": 1153,
+"queries": [
+"temperature transmitter",
+"what is the main function of pid inverter controller ? 1 point a) provides \nfast cooling b) maintains voltage fluctuations c) maintains precise \ntemperature d) auto restarts the ac after power cut"
+],
+"status": "todo"
+},
+{
+"slug": "electrical-isolation-permit-to-work",
+"impr": 1145,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "thermowell-u-length-wake-frequency",
+"impr": 1144,
+"queries": [
+"thermowell u length"
+],
+"status": "todo"
+},
+{
+"slug": "difference-between-bootp-and-dhcp",
+"impr": 1142,
+"queries": [
+"difference between half adder and full adder",
+"difference between strainer and filter",
+"difference between open loop and closed loop control system",
+"difference between filter and strainer",
+"difference between pnp and npn proximity sensor"
+],
+"status": "todo"
+},
+{
+"slug": "wet-leg-dry-leg-level-measurement",
+"impr": 1125,
+"queries": [
+"dry leg and wet leg level measurement",
+"wet leg dp level transmitter"
+],
+"status": "todo"
+},
+{
+"slug": "4-to-20-ma-signal-conversion",
+"impr": 1120,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "h2s-gas-detector-working-principle-safety",
+"impr": 1120,
+"queries": [
+"h2s gas detector working principle",
+"h2s gas detector alarm levels",
+"h2s detector working principle"
+],
+"status": "todo"
+},
+{
+"slug": "thermocouple-mv-to-temperature",
+"impr": 1119,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "vacuum-measurement-sensor-types",
+"impr": 1106,
+"queries": [
+"photoelectric sensor types",
+"types of photoelectric sensor",
+"photo electric sensor types"
+],
+"status": "todo"
+},
+{
+"slug": "shielded-cable-and-twisted-pair",
+"impr": 1090,
+"queries": [
+"shielded twisted pair cable",
+"shielded twisted pair"
+],
+"status": "todo"
+},
+{
+"slug": "pressure-switch-wiring-no-nc",
+"impr": 1086,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "amf-panel-working-dg-auto-start",
+"impr": 1081,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "zirconia-oxygen-analyzer-working-principle",
+"impr": 1075,
+"queries": [
+"zirconia oxygen analyzer working principle",
+"cems analyzer working principle"
+],
+"status": "todo"
+},
+{
+"slug": "reverse-polarity-protection-circuits",
+"impr": 1067,
+"queries": [
+"reverse polarity protection"
+],
+"status": "todo"
+},
+{
+"slug": "meter-prover-flow-meter-proving",
+"impr": 1061,
+"queries": [
+"annubar flow meter",
+"gas flow meter calibration",
+"multiphase flow meter",
+"annubar type flow meter",
+"anubar flow meter"
+],
+"status": "todo"
+},
+{
+"slug": "instrument-io-list-dcs-plc",
+"impr": 1057,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "ph-meter-calibration-buffers",
+"impr": 1056,
+"queries": [
+"gas flow meter calibration"
+],
+"status": "todo"
+},
+{
+"slug": "marshalling-cabinet-dcs-wiring",
+"impr": 1055,
+"queries": [
+"plc cabinet wiring"
+],
+"status": "todo"
+},
+{
+"slug": "pt100-rtd-calibration-guide",
+"impr": 1053,
+"queries": [
+"how to calibrate rtd pt100",
+"pt100 calibration",
+"rtd pt100 resistance to temperature calculator"
+],
+"status": "todo"
+},
+{
+"slug": "plc-math-instructions",
+"impr": 1052,
+"queries": [
+"comparison instructions in plc"
+],
+"status": "todo"
+},
+{
+"slug": "questions-and-answers-on-level-sensors",
+"impr": 1035,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "scada-rtu-remote-terminal-unit-architecture-communication",
+"impr": 1035,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "emergency-shutdown-system-esd",
+"impr": 1032,
+"queries": [
+"emergency shutdown system",
+"emergency shut down system"
+],
+"status": "todo"
+},
+{
+"slug": "mems-gyroscope-working-principle",
+"impr": 1030,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"mems gyroscope",
+"rtd working principle in hindi",
+"potentiometer working principle"
+],
+"status": "todo"
+},
+{
+"slug": "iso-17025-calibration-laboratory-requirements",
+"impr": 1028,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "slip-ring-induction-motor-working",
+"impr": 1025,
+"queries": [
+"induction motor slip formula"
+],
+"status": "todo"
+},
+{
+"slug": "what-is-a-valve-manifold",
+"impr": 1014,
+"queries": [
+"manifold valve",
+"valve manifold"
+],
+"status": "todo"
+},
+{
+"slug": "free-scada-training-free-resources",
+"impr": 1010,
+"queries": [
+"free scada software",
+"hmi scada training",
+"plc hmi scada training",
+"scada software free download for windows 10",
+"rapid scada free download"
+],
+"status": "todo"
+},
+{
+"slug": "pressure-transmitter-installation-best-practices",
+"impr": 1008,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "orifice-plate-vs-venturi-tube",
+"impr": 1005,
+"queries": [
+"conditioning orifice plate",
+"venturi tube",
+"orifice plate sizing",
+"orifice plate dimensions",
+"orifice plate sizes"
+],
+"status": "todo"
+},
+{
+"slug": "plc-multiple-outputs-configuration",
+"impr": 1000,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "top-industrial-automation-companies",
+"impr": 999,
+"queries": [
+"architecture of industrial automation system",
+"free industrial automation course",
+"industrial automation free course"
+],
+"status": "todo"
+},
+{
+"slug": "instrument-junction-box-design",
+"impr": 997,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "impulse-line-installation-slope",
+"impr": 994,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "magnetic-level-gauge-troubleshooting",
+"impr": 991,
+"queries": [
+"level gauge radiation",
+"servo level gauge",
+"magnetic level switch working principle",
+"enraf level gauge working principle"
+],
+"status": "todo"
+},
+{
+"slug": "switch-debouncing-hardware-software",
+"impr": 989,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "rtd-temperature-sensor-working",
+"impr": 986,
+"queries": [
+"rtd sensor connection",
+"rtd sensor wiring",
+"rtd working principle",
+"rtd working principle in hindi",
+"reed switch sensor working principle"
+],
+"status": "todo"
+},
+{
+"slug": "instrument-cable-schedule",
+"impr": 980,
+"queries": [
+"cable schedule",
+"instrument cable colour code",
+"instrument cable schedule",
+"cable schedule template excel",
+"instrument cable color code standard"
+],
+"status": "todo"
+},
+{
+"slug": "sequence-of-events-recording-in-dcs",
+"impr": 975,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "how-to-calculate-the-range-for-differential-pressure-level-transmitters",
+"impr": 972,
+"queries": [
+"differential pressure level transmitter",
+"how do differential pressure transmitters work",
+"pressure differential level transmitter"
+],
+"status": "todo"
+},
+{
+"slug": "calibration-process-differential-pressure-transmitter",
+"impr": 971,
+"queries": [
+"differential pressure level transmitter",
+"differential pressure transmitter calibration",
+"how does a pressure differential transmitter work",
+"differential pressure transmitter how it works",
+"differential pressure transmitter"
+],
+"status": "todo"
+},
+{
+"slug": "resistor-types-fixed-variable-special-purpose",
+"impr": 967,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "rc-and-rl-time-constant-explained",
+"impr": 965,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "thermocouple-types-comparision",
+"impr": 964,
+"queries": [
+"thermocouple types",
+"types of thermocouple",
+"thermocouple types and ranges",
+"thermocouple different types"
+],
+"status": "todo"
+},
+{
+"slug": "dcs-io-card-types-explained",
+"impr": 960,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "dcs-objective-questions-and-answers",
+"impr": 956,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "plc-analog-input-problems-solutions",
+"impr": 956,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "reed-switch-working-principle",
+"impr": 956,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"rtd working principle in hindi",
+"potentiometer working principle",
+"differential pressure transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "flow-nozzle-vs-orifice-plate-vs-venturi",
+"impr": 954,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "flow-nozzle-working-principle",
+"impr": 954,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"flow nozzle diagram",
+"flow nozzle",
+"rtd working principle in hindi"
+],
+"status": "todo"
+},
+{
+"slug": "scada-historian-integration-osisoft-pi-aveva-architecture",
+"impr": 948,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "power-distribution-system-radial-ring",
+"impr": 932,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "basics-of-level-measurement",
+"impr": 927,
+"queries": [
+"level measurement",
+"open tank level measurement",
+"nuclear level measurement",
+"zero suppression and elevation in level measurement",
+"capacitance level measurement"
+],
+"status": "todo"
+},
+{
+"slug": "floating-vs-grounded-voltage",
+"impr": 926,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "precision-rectifier-op-amp-circuit",
+"impr": 925,
+"queries": [
+"precision rectifier using op amp",
+"precision rectifier op amp circuit"
+],
+"status": "todo"
+},
+{
+"slug": "plc-memory-addressing",
+"impr": 921,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "insulating-gloves-6-essential-classes-and-safe-testing-tips",
+"impr": 903,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "maximum-demand-calculation-diversity",
+"impr": 902,
+"queries": [
+"maximum demand"
+],
+"status": "todo"
+},
+{
+"slug": "cause-and-effect-matrix",
+"impr": 901,
+"queries": [
+"cause and effect matrix meaning",
+"matrix cause and effect"
+],
+"status": "todo"
+},
+{
+"slug": "temperature-measurements-questions-answers",
+"impr": 901,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "calculate-pressure-drop-in-pipes",
+"impr": 901,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "plc-high-speed-counter-encoder",
+"impr": 899,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "earth-conductor-size-calculation",
+"impr": 897,
+"queries": [
+"earth fault loop impedance calculation",
+"earth conductor size calculation"
+],
+"status": "todo"
+},
+{
+"slug": "flow-totalizer-working-principle",
+"impr": 894,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"rtd working principle in hindi",
+"potentiometer working principle",
+"differential pressure transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "calibrate-flow-meters-with-gases",
+"impr": 893,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "process-variables-in-hart-transmitters",
+"impr": 891,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "schmitt-trigger-hysteresis",
+"impr": 889,
+"queries": [
+"schmitt trigger circuit",
+"schmitt trigger"
+],
+"status": "todo"
+},
+{
+"slug": "safety-signal-override-explained",
+"impr": 888,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "plc-data-move-instructions",
+"impr": 887,
+"queries": [
+"plc data types",
+"data types in plc",
+"data type in plc",
+"data types in plc programming",
+"comparison instructions in plc"
+],
+"status": "todo"
+},
+{
+"slug": "instrument-tag-numbering-isa-5-1",
+"impr": 879,
+"queries": [
+"isa 5.4 instrument loop diagrams pdf"
+],
+"status": "todo"
+},
+{
+"slug": "toc-analyzer-working-principle-water-quality",
+"impr": 879,
+"queries": [
+"zirconia oxygen analyzer working principle",
+"cems analyzer working principle"
+],
+"status": "todo"
+},
+{
+"slug": "pressure-transmitter-loop-check-procedure",
+"impr": 877,
+"queries": [
+"loop checking of pressure transmitter"
+],
+"status": "todo"
+},
+{
+"slug": "insulation-resistance-test-megger",
+"impr": 868,
+"queries": [
+"megger test"
+],
+"status": "todo"
+},
+{
+"slug": "magnetic-flow-meter-troubleshooting",
+"impr": 863,
+"queries": [
+"annubar flow meter",
+"gas flow meter calibration",
+"multiphase flow meter",
+"annubar type flow meter",
+"anubar flow meter"
+],
+"status": "todo"
+},
+{
+"slug": "difference-between-atex-and-iecex",
+"impr": 862,
+"queries": [
+"difference between half adder and full adder",
+"difference between strainer and filter",
+"difference between open loop and closed loop control system",
+"difference between filter and strainer",
+"atex iecex marking"
+],
+"status": "todo"
+},
+{
+"slug": "thermostat-working-principle",
+"impr": 854,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"rtd working principle in hindi",
+"potentiometer working principle",
+"differential pressure transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "what-is-cascade-control",
+"impr": 851,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "pull-up-pull-down-resistor-values",
+"impr": 851,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "process-control-valves-instrumentation",
+"impr": 847,
+"queries": [
+"control valves",
+"control valves parts",
+"types of control loops in instrumentation"
+],
+"status": "todo"
+},
+{
+"slug": "electrical-safety-ppe-selection-guide",
+"impr": 845,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "skin-temperature-measurement-thermocouple-pad-surface-sensor",
+"impr": 840,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "led-resistor-calculation",
+"impr": 840,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "60-plc-io-types-questions-and-answers",
+"impr": 840,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "ethernet-ip-protocol-cip-object-model-device-profile",
+"impr": 839,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "under-frequency-load-shedding-ufls",
+"impr": 829,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "safety-relief-valve-psv-sizing",
+"impr": 823,
+"queries": [
+"pressure relief valve sizing calculator excel free download"
+],
+"status": "todo"
+},
+{
+"slug": "control-room-layout-design",
+"impr": 822,
+"queries": [
+"control room design"
+],
+"status": "todo"
+},
+{
+"slug": "potentiometer-working-principle",
+"impr": 821,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"rtd working principle in hindi",
+"potentiometer working principle",
+"differential pressure transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "pressure-transmitter-damping-response-time",
+"impr": 820,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "orifice-plate-flow-measurement",
+"impr": 820,
+"queries": [
+"conditioning orifice plate",
+"orifice plate sizing",
+"orifice plate dimensions",
+"orifice plate sizes",
+"standard orifice plate"
+],
+"status": "todo"
+},
+{
+"slug": "transimpedance-amplifier-photodiode",
+"impr": 808,
+"queries": [
+"transimpedance amplifier",
+"transimpedance photodiode amplifier"
+],
+"status": "todo"
+},
+{
+"slug": "microcontroller-working-principle",
+"impr": 802,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"rtd working principle in hindi",
+"potentiometer working principle",
+"differential pressure transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "ultrasonic-flow-meter-troubleshooting",
+"impr": 797,
+"queries": [
+"annubar flow meter",
+"gas flow meter calibration",
+"multiphase flow meter",
+"annubar type flow meter",
+"anubar flow meter"
+],
+"status": "todo"
+},
+{
+"slug": "step-and-touch-voltage-ieee-80",
+"impr": 797,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "pressure-switch-setpoint-deadband-configuration",
+"impr": 795,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "hx711-load-cell-amplifier",
+"impr": 790,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "4-20ma-the-best-signal-for-industrial-automation",
+"impr": 790,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "barometric-pressure-sensor-working",
+"impr": 789,
+"queries": [
+"differential pressure transmitter working principle",
+"pressure gauge snubber working principle",
+"reed switch sensor working principle",
+"npn proximity sensor working principle",
+"absolute pressure transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "74hc595-shift-register",
+"impr": 789,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "live-zero-and-dead-zero-in-4-to-20-ma",
+"impr": 788,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "sensor-trim-and-output-trim",
+"impr": 783,
+"queries": [
+"sensor trim"
+],
+"status": "todo"
+},
+{
+"slug": "voltage-drop-calculation",
+"impr": 782,
+"queries": [
+"voltage drop calculator",
+"cable voltage drop calculator"
+],
+"status": "todo"
+},
+{
+"slug": "mosfet-gate-driver-ics-explained",
+"impr": 776,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "plc-fault-handling-major-minor-fault-codes-recovery",
+"impr": 773,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "capacitance-level-measurement",
+"impr": 771,
+"queries": [
+"level measurement",
+"capacitance level measurements",
+"open tank level measurement",
+"nuclear level measurement",
+"zero suppression and elevation in level measurement"
+],
+"status": "todo"
+},
+{
+"slug": "pneumatic-volume-booster-control-valve",
+"impr": 769,
+"queries": [
+"volume booster in control valve",
+"volume booster valve"
+],
+"status": "todo"
+},
+{
+"slug": "quine-mccluskey-method-explained",
+"impr": 764,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "corona-effect-transmission-line",
+"impr": 763,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "power-factor-improvement-calculation",
+"impr": 759,
+"queries": [
+"correction factor calculation"
+],
+"status": "todo"
+},
+{
+"slug": "harmonic-distortion-thd-calculation-power-systems",
+"impr": 749,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "cable-color-codes-wiring-for-field-instruments",
+"impr": 747,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "thermocouple-burnout-detection",
+"impr": 741,
+"queries": [
+"thermocouple burnout"
+],
+"status": "todo"
+},
+{
+"slug": "scada-and-dcs-questions-answers",
+"impr": 741,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "what-is-custody-transfer",
+"impr": 738,
+"queries": [
+"custody transfer",
+"what is custody transfer"
+],
+"status": "todo"
+},
+{
+"slug": "flyback-converter-working-principle-explained",
+"impr": 737,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "single-stage-and-multi-stage-compressor",
+"impr": 733,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "generative-ai-industrial-automation",
+"impr": 720,
+"queries": [
+"architecture of industrial automation system",
+"free industrial automation course",
+"industrial automation free course"
+],
+"status": "todo"
+},
+{
+"slug": "spring-loaded-rtd-thermowell",
+"impr": 719,
+"queries": [
+"spring loaded rtd"
+],
+"status": "todo"
+},
+{
+"slug": "dp-flow-transmitter-calibration-5-point",
+"impr": 715,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "what-are-pressure-sensing-lines",
+"impr": 715,
+"queries": [
+"sensing lines"
+],
+"status": "todo"
+},
+{
+"slug": "free-training-electrical-control-drawings",
+"impr": 713,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "communication-protocols-in-plc",
+"impr": 713,
+"queries": [
+"dcs communication protocols"
+],
+"status": "todo"
+},
+{
+"slug": "pressure-gauge-and-pressure-transmitter",
+"impr": 713,
+"queries": [
+"differential pressure level transmitter",
+"pressure transmitter types",
+"types of pressure transmitter",
+"differential pressure transmitter calibration",
+"gauge pressure formula"
+],
+"status": "todo"
+},
+{
+"slug": "nfpa-70e-explained-electrical-safety",
+"impr": 709,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "different-types-of-communication-protocols",
+"impr": 708,
+"queries": [
+"different types of pressure transmitter",
+"dcs communication protocols",
+"different types of controllers",
+"different types of photoelectric sensors",
+"thermocouple different types"
+],
+"status": "todo"
+},
+{
+"slug": "thermowell-design-standard-asme-ptc-19-3-tw-2016",
+"impr": 706,
+"queries": [
+"asme ptc 19.3 tw",
+"asme ptc 19.3 tw-2016"
+],
+"status": "todo"
+},
+{
+"slug": "75-pressure-measurements-questions-and-answers",
+"impr": 702,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "why-foam-affects-level-sensors",
+"impr": 699,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "modbus-function-codes-explained",
+"impr": 699,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "plc-and-automation-questions-and-answers",
+"impr": 694,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "hipps-system-in-oil-and-gas",
+"impr": 693,
+"queries": [
+"hipps in oil and gas",
+"what is hipps in oil and gas",
+"en oil and gas"
+],
+"status": "todo"
+},
+{
+"slug": "bubbler-level-measurement-purge",
+"impr": 691,
+"queries": [
+"level measurement",
+"open tank level measurement",
+"nuclear level measurement",
+"zero suppression and elevation in level measurement",
+"capacitance level measurement"
+],
+"status": "todo"
+},
+{
+"slug": "emergency-stop-push-buttons",
+"impr": 687,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "13-important-factors-affecting-flow-meter-readings-and-their-solutions",
+"impr": 682,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "tri-state-buffer-high-impedance",
+"impr": 682,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "magnetic-proximity-sensors",
+"impr": 682,
+"queries": [
+"magnetic proximity sensors market",
+"magnetic proximity sensor"
+],
+"status": "todo"
+},
+{
+"slug": "interface-level-measurement",
+"impr": 678,
+"queries": [
+"level measurement",
+"open tank level measurement",
+"nuclear level measurement",
+"zero suppression and elevation in level measurement",
+"capacitance level measurement"
+],
+"status": "todo"
+},
+{
+"slug": "phase-angle-in-ac-circuits",
+"impr": 678,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "temperature-classes-in-hazardous-areas",
+"impr": 677,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "io-modules-in-industrial-automation",
+"impr": 675,
+"queries": [
+"architecture of industrial automation system",
+"free industrial automation course",
+"industrial automation free course"
+],
+"status": "todo"
+},
+{
+"slug": "dcs-control-modes-manual-auto-cascade",
+"impr": 672,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "wien-bridge-oscillator-circuit",
+"impr": 671,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "555-timer-ic-explained",
+"impr": 671,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "instrumentation-and-control-standards",
+"impr": 665,
+"queries": [
+"instrumentation standards",
+"types of control loops in instrumentation"
+],
+"status": "todo"
+},
+{
+"slug": "how-to-calculate-mcb-rating-circuit",
+"impr": 664,
+"queries": [
+"how to calculate mcb rating"
+],
+"status": "todo"
+},
+{
+"slug": "top-3-types-and-applications-of-pressure-transmitters",
+"impr": 661,
+"queries": [
+"types of pressure transmitters"
+],
+"status": "todo"
+},
+{
+"slug": "control-valve-seat-leakage-classes",
+"impr": 658,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "chatgpt-for-plc-programming",
+"impr": 657,
+"queries": [
+"plc programming software",
+"data types in plc programming",
+"free plc programming software",
+"structured text plc programming",
+"plc structured text programming"
+],
+"status": "todo"
+},
+{
+"slug": "piping-and-instrumentation-diagram",
+"impr": 651,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "tvs-diode-transient-voltage-suppression-explained",
+"impr": 650,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "hydrotest-procedure-for-piping-system",
+"impr": 644,
+"queries": [
+"piping procedure"
+],
+"status": "todo"
+},
+{
+"slug": "steam-flow-measurement-methods",
+"impr": 642,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "cable-tray-fill-calculation",
+"impr": 639,
+"queries": [
+"nec 392 cable tray fill"
+],
+"status": "todo"
+},
+{
+"slug": "comparator-circuits-explained",
+"impr": 638,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "restriction-orifice-blowdown-valve-spacing",
+"impr": 637,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "plc-output-module-types",
+"impr": 637,
+"queries": [
+"plc data types",
+"allen bradley plc types",
+"data types in plc",
+"ab plc types",
+"data types in plc programming"
+],
+"status": "todo"
+},
+{
+"slug": "schottky-diode-advantages-limitations",
+"impr": 637,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "industrial-communication-protocols-mcqs",
+"impr": 636,
+"queries": [
+"dcs communication protocols"
+],
+"status": "todo"
+},
+{
+"slug": "trace-moisture-analyzer-natural-gas",
+"impr": 635,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "dead-weight-pressure-tester",
+"impr": 633,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "inter-discipline-check",
+"impr": 631,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "inductor-working-principle",
+"impr": 629,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"rtd working principle in hindi",
+"potentiometer working principle",
+"differential pressure transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "induction-generator-working-principle",
+"impr": 629,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"induction generator",
+"rtd working principle in hindi",
+"potentiometer working principle"
+],
+"status": "todo"
+},
+{
+"slug": "directional-overcurrent-relay-67",
+"impr": 627,
+"queries": [
+"directional overcurrent relay"
+],
+"status": "todo"
+},
+{
+"slug": "restricted-earth-fault-protection-ref",
+"impr": 617,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "valve-positioner-calibration-procedure",
+"impr": 617,
+"queries": [
+"level transmitter calibration procedure pdf"
+],
+"status": "todo"
+},
+{
+"slug": "capillary-tubing-in-pressure-measurements",
+"impr": 612,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "residual-chlorine-analyzer-working",
+"impr": 608,
+"queries": [
+"what online chlorine residual analysers are used by indian water utilities \nfor distribution network monitoring?",
+"zirconia oxygen analyzer working principle",
+"cems analyzer working principle"
+],
+"status": "todo"
+},
+{
+"slug": "what-is-ratio-control-in-process-industries",
+"impr": 607,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "ndir-gas-analyzer-working-principle-co-co2-ch4",
+"impr": 606,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "averaging-pitot-tube-working-principle",
+"impr": 602,
+"queries": [
+"averaging pitot tube"
+],
+"status": "todo"
+},
+{
+"slug": "dcs-control-strategies",
+"impr": 601,
+"queries": [
+"what is a dcs control system"
+],
+"status": "todo"
+},
+{
+"slug": "active-filter-sallen-and-key",
+"impr": 601,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "valve-abbreviations-explained",
+"impr": 601,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "pcb-return-current-path",
+"impr": 597,
+"queries": [
+"return current path"
+],
+"status": "todo"
+},
+{
+"slug": "dnp3-iec-60870-5-104-scada-protocol-comparison",
+"impr": 597,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "mineral-insulated-thermocouple-cable",
+"impr": 595,
+"queries": [
+"mineral insulated thermocouple"
+],
+"status": "todo"
+},
+{
+"slug": "signal-to-noise-ratio-snr-calculator",
+"impr": 588,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "faradays-law-electromagnetic-induction",
+"impr": 588,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "acb-vs-vcb-vs-sf6-circuit-breaker",
+"impr": 586,
+"queries": [
+"acb vs vcb vs sf6"
+],
+"status": "todo"
+},
+{
+"slug": "differential-pressure-switch-working",
+"impr": 584,
+"queries": [
+"differential pressure level transmitter",
+"how do differential pressure transmitters work",
+"differential pressure transmitter calibration",
+"how does a pressure differential transmitter work",
+"differential pressure transmitter how it works"
+],
+"status": "todo"
+},
+{
+"slug": "orifice-plate-thickness-performance",
+"impr": 580,
+"queries": [
+"conditioning orifice plate",
+"orifice plate sizing",
+"orifice plate dimensions",
+"orifice plate sizes",
+"standard orifice plate"
+],
+"status": "todo"
+},
+{
+"slug": "automatic-tank-gauging-explained",
+"impr": 579,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "ferrite-bead-vs-common-mode-choke-when-to-use-which",
+"impr": 578,
+"queries": [
+"common mode choke vs ferrite bead"
+],
+"status": "todo"
+},
+{
+"slug": "paramagnetic-oxygen-analyzer-working",
+"impr": 578,
+"queries": [
+"zirconia oxygen analyzer working principle",
+"cems analyzer working principle"
+],
+"status": "todo"
+},
+{
+"slug": "sensor-selection-criteria",
+"impr": 578,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "rs485-termination-biasing-resistors",
+"impr": 577,
+"queries": [
+"rs485 bias resistors"
+],
+"status": "todo"
+},
+{
+"slug": "calculating-network-speed-bandwidth-and-throughput",
+"impr": 577,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "alternator-working-principle-explained",
+"impr": 576,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"rtd working principle in hindi",
+"potentiometer working principle",
+"differential pressure transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "parshall-flume-open-channel-flow",
+"impr": 573,
+"queries": [
+"open channel flow calculator",
+"manning equation open channel flow calculator"
+],
+"status": "todo"
+},
+{
+"slug": "float-level-switch-working-principle-and-applications",
+"impr": 572,
+"queries": [
+"reed switch sensor working principle",
+"displacer type level transmitter working principle",
+"float level switch working principle",
+"magnetic level switch working principle",
+"enraf level gauge working principle"
+],
+"status": "todo"
+},
+{
+"slug": "SIL-Manual.pdf",
+"impr": 568,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "temperature-measurement-hazardous-area-sensors",
+"impr": 563,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "pressure-gauge-calibration-procedure",
+"impr": 559,
+"queries": [
+"differential pressure transmitter calibration",
+"gauge pressure formula",
+"pressure gauge calibration",
+"deadweight pressure gauge",
+"pressure gauge snubber working principle"
+],
+"status": "todo"
+},
+{
+"slug": "ferrite-bead-emi-filter",
+"impr": 558,
+"queries": [
+"common mode choke vs ferrite bead",
+"ferrite bead filter design",
+"ferrite bead for power supply filtering"
+],
+"status": "todo"
+},
+{
+"slug": "internet-protocols-explained",
+"impr": 558,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "industrial-protocol-gateway",
+"impr": 556,
+"queries": [
+"industrial protocol gateway",
+"protocol gateway"
+],
+"status": "todo"
+},
+{
+"slug": "sis-and-bpcs-differences",
+"impr": 554,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "liquid-filled-pressure-gauge",
+"impr": 554,
+"queries": [
+"gauge pressure formula",
+"pressure gauge calibration",
+"deadweight pressure gauge",
+"pressure gauge snubber working principle",
+"bourdon tube pressure gauge"
+],
+"status": "todo"
+},
+{
+"slug": "control-valve-packing-low-emission",
+"impr": 552,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "logic-level-shifter-3v3-5v",
+"impr": 552,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "capacitor-working-principle",
+"impr": 551,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"rtd working principle in hindi",
+"potentiometer working principle",
+"differential pressure transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "what-is-burner-management-system",
+"impr": 550,
+"queries": [
+"burner management system",
+"alarm management system in dcs",
+"dcs alarm management system"
+],
+"status": "todo"
+},
+{
+"slug": "control-narrative-functional-specification",
+"impr": 541,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "flow-rate-formula",
+"impr": 539,
+"queries": [
+"molar flow rate",
+"dp flow square root formula",
+"calculate velocity from flow rate"
+],
+"status": "todo"
+},
+{
+"slug": "ups-capacity-kva-calculation",
+"impr": 537,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "instrumentation-amplifier-vs-op-amp-key-differences",
+"impr": 532,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "flow-meter-wet-vs-dry-calibration",
+"impr": 528,
+"queries": [
+"gas flow meter calibration"
+],
+"status": "todo"
+},
+{
+"slug": "npsh-and-cavitation-explained",
+"impr": 527,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "control-valve-troubleshooting",
+"impr": 520,
+"queries": [
+"control valve parts",
+"control valve",
+"control valve diagram",
+"parts of control valve",
+"control valve characteristics"
+],
+"status": "todo"
+},
+{
+"slug": "rtd-pt100-vs-pt1000-differences",
+"impr": 520,
+"queries": [
+"how to calibrate rtd pt100",
+"rtd pt100 resistance to temperature calculator"
+],
+"status": "todo"
+},
+{
+"slug": "override-control-selector-dcs",
+"impr": 515,
+"queries": [
+"what is a dcs control system"
+],
+"status": "todo"
+},
+{
+"slug": "plc-bit-shift-rotate-instructions",
+"impr": 515,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "pressure-gauge-over-range-protection",
+"impr": 514,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "voltage-sag-swell-and-flicker-explained",
+"impr": 514,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "what-is-smart-transmitter",
+"impr": 514,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "hart-protocol-how-it-works",
+"impr": 514,
+"queries": [
+"differential pressure transmitter how it works"
+],
+"status": "todo"
+},
+{
+"slug": "silica-analyzer-power-plant-water",
+"impr": 512,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "plc-structured-text-programming",
+"impr": 510,
+"queries": [
+"plc programming software",
+"data types in plc programming",
+"free plc programming software",
+"structured text plc programming",
+"plc structured text programming"
+],
+"status": "todo"
+},
+{
+"slug": "phototransistor-working-principle-applications",
+"impr": 510,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"rtd working principle in hindi",
+"potentiometer working principle",
+"differential pressure transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "2-wire-3-wire-4-wire-transmitters-in-industrial-automation",
+"impr": 508,
+"queries": [
+"architecture of industrial automation system",
+"free industrial automation course",
+"industrial automation free course"
+],
+"status": "todo"
+},
+{
+"slug": "rupture-disc-explained",
+"impr": 505,
+"queries": [
+"reverse acting rupture disc"
+],
+"status": "todo"
+},
+{
+"slug": "thermocouple-polarity-identification",
+"impr": 504,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "non-inverting-amplifier-gain",
+"impr": 503,
+"queries": [
+"inverting amplifier gain formula",
+"gain for inverting op amp"
+],
+"status": "todo"
+},
+{
+"slug": "how-decoupling-capacitors-work",
+"impr": 502,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "instrument-loop-checking-procedure",
+"impr": 501,
+"queries": [
+"hot loop checking in instrumentation",
+"isa 5.4 instrument loop diagrams pdf",
+"loop checking of pressure transmitter",
+"cold loop checking in instrumentation",
+"loop checking in instrumentation"
+],
+"status": "todo"
+},
+{
+"slug": "gas-pressure-switch-burner",
+"impr": 501,
+"queries": [
+"differential pressure switch",
+"pressure switch calibrator"
+],
+"status": "todo"
+},
+{
+"slug": "how-does-a-gas-filled-thermometer-work",
+"impr": 500,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "pcb-creepage-and-clearance",
+"impr": 500,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "wellhead-control-panel-whcp",
+"impr": 499,
+"queries": [
+"control panel wire color code"
+],
+"status": "todo"
+},
+{
+"slug": "metal-tube-rotameter-working",
+"impr": 493,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "lenzs-law-electromagnetic-induction",
+"impr": 493,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "hart-loop-resistor-in-hart-communication",
+"impr": 493,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "thermistor-vs-thermocouple",
+"impr": 492,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "peltier-effect",
+"impr": 491,
+"queries": [
+"peltier effect explained"
+],
+"status": "todo"
+},
+{
+"slug": "auto-negotiation-in-networking",
+"impr": 491,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "pfc-circuit-boost-power-factor-correction",
+"impr": 489,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "patch-panel-explained-types-and-how-it-works",
+"impr": 489,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "dv-dt-filter-vfd-motor-protection",
+"impr": 488,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "pressure-switch-vs-pressure-transmitter",
+"impr": 482,
+"queries": [
+"differential pressure level transmitter",
+"pressure transmitter types",
+"types of pressure transmitter",
+"differential pressure transmitter calibration",
+"pressure transmitter accuracy"
+],
+"status": "todo"
+},
+{
+"slug": "control-valve-body-types-globe-angle-rotary-three-way",
+"impr": 479,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "what-is-a-varistor-working-principle-applications",
+"impr": 478,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"rtd working principle in hindi",
+"potentiometer working principle",
+"differential pressure transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "absolute-pressure-transmitter-working-principle",
+"impr": 477,
+"queries": [
+"absolute pressure transmitter",
+"differential pressure transmitter working principle",
+"pressure gauge snubber working principle",
+"displacer type level transmitter working principle",
+"absolute pressure transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "safety-signal-bypass-explained",
+"impr": 477,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "bode-plot-gain-phase-margin",
+"impr": 475,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "what-is-a-diaphragm-seal",
+"impr": 475,
+"queries": [
+"diaphragm seal"
+],
+"status": "todo"
+},
+{
+"slug": "weigh-feeder-working-principle",
+"impr": 475,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"rtd working principle in hindi",
+"potentiometer working principle",
+"differential pressure transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "hydrogen-purity-analyzer-generator",
+"impr": 475,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "electromagnetic-flow-meter-working-principle",
+"impr": 475,
+"queries": [
+"flow nozzle working principle"
+],
+"status": "todo"
+},
+{
+"slug": "difference-between-ac-and-dc",
+"impr": 471,
+"queries": [
+"difference between half adder and full adder",
+"difference between strainer and filter",
+"difference between open loop and closed loop control system",
+"difference between filter and strainer",
+"difference between pnp and npn proximity sensor"
+],
+"status": "todo"
+},
+{
+"slug": "earthing-transformer-zigzag",
+"impr": 469,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "eddy-current-loss-hysteresis-loss",
+"impr": 469,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "dcs-migration-and-obsolescence-management",
+"impr": 469,
+"queries": [
+"alarm management system in dcs",
+"dcs alarm management system"
+],
+"status": "todo"
+},
+{
+"slug": "valve-limit-switch-box",
+"impr": 468,
+"queries": [
+"limit switch"
+],
+"status": "todo"
+},
+{
+"slug": "radar-level-selection-non-contact-vs-guided-wave",
+"impr": 468,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "instrument-location-plan-layout",
+"impr": 466,
+"queries": [
+"instrument location plan"
+],
+"status": "todo"
+},
+{
+"slug": "magmeter-empty-pipe-detection",
+"impr": 460,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "plc-raw-count-calculation",
+"impr": 460,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "piezoresistive-vs-capacitive-pressure-sensor",
+"impr": 455,
+"queries": [
+"capacitive touch sensor design guide"
+],
+"status": "todo"
+},
+{
+"slug": "pressure-switch-calibration-8-simple-steps-for-safe-trips",
+"impr": 452,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "oil-in-water-analyzer-working",
+"impr": 452,
+"queries": [
+"zirconia oxygen analyzer working principle",
+"cems analyzer working principle"
+],
+"status": "todo"
+},
+{
+"slug": "bulk-solids-level-measurement-silo",
+"impr": 452,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "industrial-dmz-it-ot-level-3-5",
+"impr": 450,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "analog-signal-resolution-in-plc",
+"impr": 449,
+"queries": [
+"analog signal conditioner",
+"analog signal conditioning"
+],
+"status": "todo"
+},
+{
+"slug": "active-vs-passive-components",
+"impr": 448,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "gas-chromatograph-basics-process-analytics",
+"impr": 447,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "how-to-tune-a-pid-controller",
+"impr": 446,
+"queries": [
+"what is the main function of pid inverter controller ? 1 point a) provides \nfast cooling b) maintains voltage fluctuations c) maintains precise \ntemperature d) auto restarts the ac after power cut",
+"types of pid controller",
+"pid controller types"
+],
+"status": "todo"
+},
+{
+"slug": "control-system-philosophy-30-key-concerns",
+"impr": 445,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "what-is-serial-communication",
+"impr": 445,
+"queries": [
+"serial communication"
+],
+"status": "todo"
+},
+{
+"slug": "4-generations-of-scada-architecture",
+"impr": 443,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "flow-meter-k-factor-calculations",
+"impr": 442,
+"queries": [
+"annubar flow meter",
+"gas flow meter calibration",
+"multiphase flow meter",
+"annubar type flow meter",
+"anubar flow meter"
+],
+"status": "todo"
+},
+{
+"slug": "hydrostatic-pressure-formula",
+"impr": 442,
+"queries": [
+"gauge pressure formula",
+"vacuum pressure formula",
+"vaccum pressure formula"
+],
+"status": "todo"
+},
+{
+"slug": "industrial-network-protocols-crash-courses",
+"impr": 440,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "100-flow-measurement-questions-answers",
+"impr": 439,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "valve-actuator-types-applications",
+"impr": 436,
+"queries": [
+"actuator valve body",
+"types of valve actuators"
+],
+"status": "todo"
+},
+{
+"slug": "statcom-working-principle-vs-svc",
+"impr": 435,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"rtd working principle in hindi",
+"potentiometer working principle",
+"differential pressure transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "control-valve-passing-causes",
+"impr": 433,
+"queries": [
+"control valve parts",
+"control valve",
+"control valve diagram",
+"parts of control valve",
+"control valve characteristics"
+],
+"status": "todo"
+},
+{
+"slug": "electrolytic-capacitor-lifetime-calculation",
+"impr": 433,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "layer-of-protection-analysis-lopa-sil-assessment",
+"impr": 432,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "turbidity-measurement-guide",
+"impr": 432,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "dcs-bad-pv-signal-quality-handling",
+"impr": 431,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "how-to-test-an-rtd-pt100",
+"impr": 431,
+"queries": [
+"how to calibrate rtd pt100",
+"rtd pt100 resistance to temperature calculator"
+],
+"status": "todo"
+},
+{
+"slug": "actuator-bench-set-spring-range",
+"impr": 431,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "ct-secondary-open-circuit-risks",
+"impr": 427,
+"queries": [
+"what happens if ct secondary is open"
+],
+"status": "todo"
+},
+{
+"slug": "mistakes-in-dp-flow-measurement",
+"impr": 426,
+"queries": [
+"closed tank level measurement using dp transmitter",
+"dp flow square root formula"
+],
+"status": "todo"
+},
+{
+"slug": "plc-online-offline-programming",
+"impr": 424,
+"queries": [
+"plc programming software",
+"data types in plc programming",
+"free plc programming software",
+"structured text plc programming",
+"plc structured text programming"
+],
+"status": "todo"
+},
+{
+"slug": "dcs-fieldbus-integration-hart-foundation-fieldbus-profibus-pa",
+"impr": 423,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "types-of-natural-gas-flow-meters",
+"impr": 423,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "system-architecture-in-industrial-automation",
+"impr": 422,
+"queries": [
+"architecture of industrial automation system",
+"plc system architecture",
+"free industrial automation course",
+"industrial automation free course"
+],
+"status": "todo"
+},
+{
+"slug": "cold-junction-compensation-in-thermocouple",
+"impr": 422,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "dielectric-constant-level-measurement",
+"impr": 421,
+"queries": [
+"level measurement",
+"open tank level measurement",
+"nuclear level measurement",
+"zero suppression and elevation in level measurement",
+"capacitance level measurement"
+],
+"status": "todo"
+},
+{
+"slug": "hardware-fault-tolerance-sff-iec-61508",
+"impr": 419,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "lightning-protection-system-rolling-sphere",
+"impr": 415,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "multivariable-transmitter-working",
+"impr": 415,
+"queries": [
+"differential pressure transmitter working principle",
+"displacer type level transmitter working principle",
+"absolute pressure transmitter working principle",
+"working principle of differential pressure transmitter",
+"differential pressure transmitter working principle with diagram"
+],
+"status": "todo"
+},
+{
+"slug": "free-ot-cybersecurity-training",
+"impr": 414,
+"queries": [
+"scada training free"
+],
+"status": "todo"
+},
+{
+"slug": "brushless-dc-motor-working-principle",
+"impr": 413,
+"queries": [
+"stepper motor working principle",
+"brushless dc motor working principle",
+"synchronous motor working principle"
+],
+"status": "todo"
+},
+{
+"slug": "bus-duct-busway-system",
+"impr": 413,
+"queries": [
+"bus duct"
+],
+"status": "todo"
+},
+{
+"slug": "temperature-switch-vs-temperature-transmitter",
+"impr": 412,
+"queries": [
+"temperature transmitter"
+],
+"status": "todo"
+},
+{
+"slug": "differential-amplifier-explained-basics-and-cmrr",
+"impr": 412,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "how-to-calibrate-a-temperature-transmitter",
+"impr": 412,
+"queries": [
+"temperature transmitter"
+],
+"status": "todo"
+},
+{
+"slug": "cable-sizing-motor-feeders",
+"impr": 411,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "autotransformer-working-principle",
+"impr": 409,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"rtd working principle in hindi",
+"potentiometer working principle",
+"differential pressure transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "sample-conditioning-system-analyzer",
+"impr": 408,
+"queries": [
+"sample conditioning system"
+],
+"status": "todo"
+},
+{
+"slug": "tdlas-tunable-diode-laser-analyzer",
+"impr": 407,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "flow-conditioner-straight-run",
+"impr": 407,
+"queries": [
+"flow conditioner"
+],
+"status": "todo"
+},
+{
+"slug": "wedge-flow-meter-working-principle",
+"impr": 407,
+"queries": [
+"flow nozzle working principle"
+],
+"status": "todo"
+},
+{
+"slug": "capacitive-touch-sensor-working",
+"impr": 406,
+"queries": [
+"reed switch sensor working principle",
+"npn proximity sensor working principle",
+"hall sensor working principle",
+"capacitive touch sensor design guide"
+],
+"status": "todo"
+},
+{
+"slug": "earthing-aspects-in-industrial-process-plants",
+"impr": 406,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "instrument-datasheet-isa-20-guide",
+"impr": 405,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "dcs-components-es-os-as",
+"impr": 405,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "iec-61131-3-programming-languages",
+"impr": 403,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "gauge-pressure-transmitter-working",
+"impr": 403,
+"queries": [
+"differential pressure level transmitter",
+"pressure transmitter types",
+"types of pressure transmitter",
+"differential pressure transmitter calibration",
+"gauge pressure formula"
+],
+"status": "todo"
+},
+{
+"slug": "analytical-instruments-questions-answers",
+"impr": 402,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "thermocouple-calibration-procedure",
+"impr": 401,
+"queries": [
+"thermocouple calibration",
+"level transmitter calibration procedure pdf"
+],
+"status": "todo"
+},
+{
+"slug": "siphon-sizing-and-selecting-a-siphon-for-pressure-gauge-protection",
+"impr": 401,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "plc-retentive-memory-data-retention",
+"impr": 400,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "spurious-trip-rate-sis-mttfs",
+"impr": 398,
+"queries": [
+"spurious trip rate"
+],
+"status": "todo"
+},
+{
+"slug": "types-of-integrated-circuits-explained",
+"impr": 398,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "how-to-select-right-plc",
+"impr": 397,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "scada-reporting-historian-reports",
+"impr": 397,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "plc-objective-questions-and-answers-quiz",
+"impr": 392,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "how-ultrasonic-flow-meter-works",
+"impr": 392,
+"queries": [
+"annubar flow meter",
+"gas flow meter calibration",
+"multiphase flow meter",
+"annubar type flow meter",
+"anubar flow meter"
+],
+"status": "todo"
+},
+{
+"slug": "what-is-a-magnetometer",
+"impr": 390,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "plc-watchdog-timer-explained",
+"impr": 388,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "time-sensitive-networking-tsn",
+"impr": 388,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "sil-verification",
+"impr": 387,
+"queries": [
+"sil verification calculation example"
+],
+"status": "todo"
+},
+{
+"slug": "lube-oil-console-api-614-requirements",
+"impr": 386,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "8-different-types-of-level-gauges",
+"impr": 384,
+"queries": [
+"level transmitter types",
+"different types of pressure transmitter",
+"types of level transmitter",
+"types of level transmitter in instrumentation",
+"different types of controllers"
+],
+"status": "todo"
+},
+{
+"slug": "remaining-useful-life-prediction",
+"impr": 382,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "transformer-routine-and-type-tests",
+"impr": 381,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "scada-time-synchronization-ntp-ptp",
+"impr": 380,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "synchronous-condenser-working",
+"impr": 376,
+"queries": [
+"synchronous motor working principle"
+],
+"status": "todo"
+},
+{
+"slug": "pressure-transmitter-troubleshooting",
+"impr": 374,
+"queries": [
+"differential pressure level transmitter",
+"pressure transmitter types",
+"types of pressure transmitter",
+"differential pressure transmitter calibration",
+"pressure transmitter accuracy"
+],
+"status": "todo"
+},
+{
+"slug": "key-electronic-components-in-industrial-automation",
+"impr": 373,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "instrument-index-document-guide",
+"impr": 372,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "control-valve-trim-types",
+"impr": 371,
+"queries": [
+"control valve parts",
+"control valve",
+"control valve diagram",
+"parts of control valve",
+"control valve characteristics"
+],
+"status": "todo"
+},
+{
+"slug": "radar-level-antenna-types",
+"impr": 366,
+"queries": [
+"level transmitter types",
+"types of level transmitter",
+"types of level transmitter in instrumentation"
+],
+"status": "todo"
+},
+{
+"slug": "adc-working-principle-explained",
+"impr": 366,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"rtd working principle in hindi",
+"potentiometer working principle",
+"differential pressure transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "stepper-motor-working-principle-and-3-main-types",
+"impr": 366,
+"queries": [
+"stepper motor working principle",
+"brushless dc motor working principle",
+"synchronous motor working principle"
+],
+"status": "todo"
+},
+{
+"slug": "saddle-seal-in-instrumentation",
+"impr": 366,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "common-mode-choke-working-principle",
+"impr": 365,
+"queries": [
+"common mode choke",
+"common mode choke vs ferrite bead"
+],
+"status": "todo"
+},
+{
+"slug": "motor-thermistor-protection-ptc-relay",
+"impr": 364,
+"queries": [
+"motor protection relay",
+"motor protection relay setting calculation excel"
+],
+"status": "todo"
+},
+{
+"slug": "control-valve-stroking-time",
+"impr": 363,
+"queries": [
+"control valve parts",
+"control valve",
+"control valve diagram",
+"parts of control valve",
+"control valve characteristics"
+],
+"status": "todo"
+},
+{
+"slug": "optocoupler-working-principle",
+"impr": 363,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"rtd working principle in hindi",
+"potentiometer working principle",
+"differential pressure transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "sepic-converter-working-design",
+"impr": 362,
+"queries": [
+"buck converter working"
+],
+"status": "todo"
+},
+{
+"slug": "electromagnetic-relay-working-coil-suppression",
+"impr": 362,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "callendar-van-dusen-equation-rtd",
+"impr": 361,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "plc-subroutine-jsr-jmp-instructions",
+"impr": 360,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "load-flow-analysis-for-industrial-plants",
+"impr": 359,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "head-mount-temperature-transmitter",
+"impr": 359,
+"queries": [
+"temperature transmitter"
+],
+"status": "todo"
+},
+{
+"slug": "hot-work-permit-explained",
+"impr": 359,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "compressor-anti-surge-controller",
+"impr": 357,
+"queries": [
+"compressor anti surge control"
+],
+"status": "todo"
+},
+{
+"slug": "safety-plc-sil-3-controller",
+"impr": 356,
+"queries": [
+"programmable logic controller plc block diagram",
+"emerson safety plc"
+],
+"status": "todo"
+},
+{
+"slug": "capacitors-in-series-and-parallel",
+"impr": 354,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "pcb-via-current-capacity",
+"impr": 352,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "siemens-s7-1200-vs-s7-1500",
+"impr": 350,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "lock-up-valve-pneumatic-actuator",
+"impr": 346,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "flow-control-vs-needle-valve",
+"impr": 344,
+"queries": [
+"control valve parts",
+"control valve",
+"control valve diagram",
+"parts of control valve",
+"control valve characteristics"
+],
+"status": "todo"
+},
+{
+"slug": "applications-of-rtd-and-thermocouples",
+"impr": 339,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "msg-instructions-in-plc-programming",
+"impr": 338,
+"queries": [
+"plc programming software",
+"data types in plc programming",
+"free plc programming software",
+"structured text plc programming",
+"comparison instructions in plc"
+],
+"status": "todo"
+},
+{
+"slug": "proof-test-interval-coverage-safety-transmitters-iec-61511",
+"impr": 337,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "electrical-safety-audit-checklist",
+"impr": 337,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "machine-vision-for-quality-inspection-in-manufacturing",
+"impr": 337,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "smd-resistor-code",
+"impr": 337,
+"queries": [
+"1002 smd resistor value",
+"smd resistor code",
+"smd resistor code list"
+],
+"status": "todo"
+},
+{
+"slug": "difference-between-mass-flow-and-volumetric-flow",
+"impr": 337,
+"queries": [
+"difference between mass flow and volumetric flow",
+"mass flow to volumetric flow"
+],
+"status": "todo"
+},
+{
+"slug": "ground-bounce-pcb-simultaneous-switching",
+"impr": 333,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "ammonia-analyzer-water-wastewater",
+"impr": 333,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "transformer-differential-protection-87t",
+"impr": 333,
+"queries": [
+"linear variable differential transformer"
+],
+"status": "todo"
+},
+{
+"slug": "on-load-tap-changer-oltc",
+"impr": 333,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "substation-battery-sizing-ieee-485",
+"impr": 330,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "vfd-motor-bearing-currents",
+"impr": 330,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "sample-and-hold-circuit",
+"impr": 329,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "multipoint-thermocouples-tank-reactor-monitoring",
+"impr": 329,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "pid-controller-tuning-guide",
+"impr": 328,
+"queries": [
+"what is the main function of pid inverter controller ? 1 point a) provides \nfast cooling b) maintains voltage fluctuations c) maintains precise \ntemperature d) auto restarts the ac after power cut",
+"types of pid controller",
+"pid controller types",
+"pid tuning simulator"
+],
+"status": "todo"
+},
+{
+"slug": "control-valve-signature-test-diagnostics",
+"impr": 325,
+"queries": [
+"valve signature test"
+],
+"status": "todo"
+},
+{
+"slug": "alarm-management-isa-18-2",
+"impr": 323,
+"queries": [
+"scada alarm management",
+"alarm management system in dcs",
+"dcs alarm management system"
+],
+"status": "todo"
+},
+{
+"slug": "laser-level-transmitter-working-principle",
+"impr": 322,
+"queries": [
+"laser level transmitter",
+"differential pressure transmitter working principle",
+"displacer type level transmitter working principle",
+"absolute pressure transmitter working principle",
+"working principle of differential pressure transmitter"
+],
+"status": "todo"
+},
+{
+"slug": "control-valve-positioner-working",
+"impr": 322,
+"queries": [
+"control valve parts",
+"control valve",
+"control valve diagram",
+"parts of control valve",
+"control valve characteristics"
+],
+"status": "todo"
+},
+{
+"slug": "analog-vs-digital-signals-instrumentation",
+"impr": 319,
+"queries": [
+"digital instrumentation",
+"instrumentation signals",
+"comparison of analog and digital instruments",
+"compare analog and digital instruments"
+],
+"status": "todo"
+},
+{
+"slug": "plate-heat-exchanger-working-principle",
+"impr": 318,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "elbow-flow-meter-working-principle",
+"impr": 317,
+"queries": [
+"flow nozzle working principle"
+],
+"status": "todo"
+},
+{
+"slug": "voltage-unbalance-calculation-motors",
+"impr": 316,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "temperature-sensor-failure-warning-signs",
+"impr": 316,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "isolation-transformer-working-uses",
+"impr": 311,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "darlington-pair-working-applications",
+"impr": 311,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "magnetic-level-gauge-working-principle",
+"impr": 310,
+"queries": [
+"pressure gauge snubber working principle",
+"penning gauge working principle",
+"displacer type level transmitter working principle",
+"servo gauge working principle",
+"float level switch working principle"
+],
+"status": "todo"
+},
+{
+"slug": "decibel-in-electronics-db-dbm",
+"impr": 310,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "orifice-beta-ratio-calculation",
+"impr": 309,
+"queries": [
+"orifice sizing calculation excel"
+],
+"status": "todo"
+},
+{
+"slug": "air-filter-regulator-instrument",
+"impr": 309,
+"queries": [
+"air filter regulator"
+],
+"status": "todo"
+},
+{
+"slug": "how-to-calculate-capacitor-bank-kvar-formula",
+"impr": 307,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "conduit-fill-calculation",
+"impr": 306,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "adnoc-wearable-gas-detectors",
+"impr": 305,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "plc-redundancy-hot-standby",
+"impr": 304,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "instrument-air-consumption-calculation",
+"impr": 303,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "power-inverter-working-principle",
+"impr": 303,
+"queries": [
+"what is the main function of pid inverter controller ? 1 point a) provides \nfast cooling b) maintains voltage fluctuations c) maintains precise \ntemperature d) auto restarts the ac after power cut",
+"igbt working principle",
+"rtd working principle",
+"rtd working principle in hindi",
+"potentiometer working principle"
+],
+"status": "todo"
+},
+{
+"slug": "pressure-transmitter-installation-tips",
+"impr": 302,
+"queries": [
+"differential pressure level transmitter",
+"pressure transmitter types",
+"types of pressure transmitter",
+"differential pressure transmitter calibration",
+"pressure transmitter accuracy"
+],
+"status": "todo"
+},
+{
+"slug": "electrolytic-vs-ceramic-vs-tantalum-capacitor-failure-modes",
+"impr": 302,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "vortex-flow-meter-troubleshooting",
+"impr": 298,
+"queries": [
+"annubar flow meter",
+"gas flow meter calibration",
+"multiphase flow meter",
+"annubar type flow meter",
+"anubar flow meter"
+],
+"status": "todo"
+},
+{
+"slug": "factory-acceptance-test-dcs-fat-sat",
+"impr": 298,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "hvdc-transmission-lcc-vsc",
+"impr": 298,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "rtd-tolerance-class-iec-60751",
+"impr": 298,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "66-level-measurement-questions-answers",
+"impr": 294,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "de-energize-to-trip-vs-energize-to-trip",
+"impr": 293,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "intrinsic-safety-calculation",
+"impr": 291,
+"queries": [
+"\"intrinsic safety proofing tool\""
+],
+"status": "todo"
+},
+{
+"slug": "per-unit-system-power-system",
+"impr": 288,
+"queries": [
+"what is per unit system in power system"
+],
+"status": "todo"
+},
+{
+"slug": "top-5-advantages-of-platinum-rtds",
+"impr": 286,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "insertion-vs-full-bore-flow-meter",
+"impr": 285,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "ldr-light-dependent-resistor-working-principle",
+"impr": 283,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "hazop-study-explained",
+"impr": 283,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "industrial-electronics-questions-answers",
+"impr": 281,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "level-transmitter-troubleshooting",
+"impr": 281,
+"queries": [
+"dp level transmitter",
+"differential pressure level transmitter",
+"dp type level transmitter",
+"level transmitter",
+"level transmitter types"
+],
+"status": "todo"
+},
+{
+"slug": "sequential-function-chart-sfc-plc",
+"impr": 277,
+"queries": [
+"sequential function chart plc"
+],
+"status": "todo"
+},
+{
+"slug": "impulse-line-pressure-testing-procedure",
+"impr": 276,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "plc-indirect-addressing-pointers",
+"impr": 276,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "signal-integrity-high-speed-pcb-design",
+"impr": 276,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "magnetic-flow-meter-grounding-rings",
+"impr": 275,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "coriolis-flow-meter-working-principle",
+"impr": 275,
+"queries": [
+"flow nozzle working principle"
+],
+"status": "todo"
+},
+{
+"slug": "force-vs-override-in-safety-systems",
+"impr": 274,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "gis-vs-ais-substation",
+"impr": 271,
+"queries": [
+"gis vs ais substation"
+],
+"status": "todo"
+},
+{
+"slug": "vfd-sizing-selection-guide",
+"impr": 270,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "soil-moisture-sensor-capacitive-resistive",
+"impr": 268,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "time-of-flight-sensor-working",
+"impr": 268,
+"queries": [
+"reed switch sensor working principle",
+"npn proximity sensor working principle",
+"hall sensor working principle"
+],
+"status": "todo"
+},
+{
+"slug": "plc-fifo-lifo-instructions",
+"impr": 266,
+"queries": [
+"comparison instructions in plc"
+],
+"status": "todo"
+},
+{
+"slug": "fire-and-gas-mapping-detector-coverage",
+"impr": 263,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "piezoresistive-vs-piezoelectric-pressure-sensors",
+"impr": 263,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "how-do-magnetic-level-switch-work",
+"impr": 263,
+"queries": [
+"magnetic level switch working principle"
+],
+"status": "todo"
+},
+{
+"slug": "pressure-gauge-installation-mistakes",
+"impr": 262,
+"queries": [
+"gauge pressure formula",
+"pressure gauge calibration",
+"deadweight pressure gauge",
+"pressure gauge snubber working principle",
+"bourdon tube pressure gauge"
+],
+"status": "todo"
+},
+{
+"slug": "mos-gas-sensor-mq-series",
+"impr": 261,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "vibration-analysis-with-ai-for-predictive-maintenance",
+"impr": 261,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "power-quality-analyzer-guide",
+"impr": 258,
+"queries": [
+"plc tripping power quality"
+],
+"status": "todo"
+},
+{
+"slug": "plc-diagnostic-status-bits",
+"impr": 257,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "ot-asset-inventory-ics-guide",
+"impr": 257,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "gas-analyzers-explained",
+"impr": 256,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "differential-pair-routing-pcb",
+"impr": 255,
+"queries": [
+"differential pair routing guidelines"
+],
+"status": "todo"
+},
+{
+"slug": "material-take-off-mto-guide",
+"impr": 255,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "tilt-switch-bulk-solids-level",
+"impr": 255,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "how-to-increase-plc-speed",
+"impr": 255,
+"queries": [
+"plc processor speed"
+],
+"status": "todo"
+},
+{
+"slug": "flow-measurement-formulas-and-calculators",
+"impr": 255,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "lpg-level-measurement-bullet-sphere",
+"impr": 254,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "instrument-calibration-common-terms",
+"impr": 253,
+"queries": [
+"instrument calibration sheet template excel free download"
+],
+"status": "todo"
+},
+{
+"slug": "vibration-switch-machine-protection",
+"impr": 253,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "capacitor-esr-equivalent-series-resistance",
+"impr": 253,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "ethernet-ip-vs-ethercat",
+"impr": 250,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "industrial-battery-charger-float-boost",
+"impr": 249,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "level-measurement-in-corrosive-chemicals",
+"impr": 249,
+"queries": [
+"level measurement",
+"open tank level measurement",
+"nuclear level measurement",
+"zero suppression and elevation in level measurement",
+"capacitance level measurement"
+],
+"status": "todo"
+},
+{
+"slug": "dissolved-oxygen-sensor-calibration",
+"impr": 248,
+"queries": [
+"optical dissolved oxygen sensor"
+],
+"status": "todo"
+},
+{
+"slug": "scada-sql-database-logging",
+"impr": 246,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "network-switches-scada-dcs",
+"impr": 246,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "power-quality-issues-vfd-plc",
+"impr": 246,
+"queries": [
+"plc tripping power quality"
+],
+"status": "todo"
+},
+{
+"slug": "dead-weight-tester-calculation",
+"impr": 245,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "cod-analyzer-wastewater",
+"impr": 245,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "temperature-transmitter-configuration-ranging",
+"impr": 244,
+"queries": [
+"temperature transmitter"
+],
+"status": "todo"
+},
+{
+"slug": "electronic-pressure-switch-io-link",
+"impr": 243,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "types-of-temperature-calibrators",
+"impr": 240,
+"queries": [
+"temperature calibrators"
+],
+"status": "todo"
+},
+{
+"slug": "can-bus-canopen-industrial",
+"impr": 238,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "spd-selection-iec-61643",
+"impr": 237,
+"queries": [
+"iec 61643"
+],
+"status": "todo"
+},
+{
+"slug": "4-to-20-ma-current-loop-explained",
+"impr": 236,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "transformer-cooling-methods-onan-onaf",
+"impr": 234,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "ipsec-protocol",
+"impr": 231,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "diaphragm-actuator-vs-piston-actuator",
+"impr": 229,
+"queries": [
+"piston actuator"
+],
+"status": "todo"
+},
+{
+"slug": "control-valve-rangeability-turndown",
+"impr": 229,
+"queries": [
+"control valve parts",
+"control valve",
+"control valve diagram",
+"parts of control valve",
+"control valve characteristics"
+],
+"status": "todo"
+},
+{
+"slug": "standard-colors-in-plc-systems",
+"impr": 226,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "heat-sink-calculation",
+"impr": 223,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "float-switch-wiring",
+"impr": 221,
+"queries": [
+"float level switch working principle"
+],
+"status": "todo"
+},
+{
+"slug": "dol-vs-star-delta-starter-which-to-use",
+"impr": 221,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "dcs-controller-redundancy-types",
+"impr": 220,
+"queries": [
+"types of pid controller",
+"pid controller types"
+],
+"status": "todo"
+},
+{
+"slug": "first-out-alarm-plc-logic",
+"impr": 217,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "motor-starting-voltage-dip-calculation",
+"impr": 217,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "plc-troubleshooting-steps",
+"impr": 217,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "ai-in-plc-scada-and-dcs",
+"impr": 216,
+"queries": [
+"ai ao di do in plc",
+"plc hmi scada training",
+"plc scada hmi courses"
+],
+"status": "todo"
+},
+{
+"slug": "hart-ip-protocol-explained",
+"impr": 215,
+"queries": [
+"opc ua protocol explained"
+],
+"status": "todo"
+},
+{
+"slug": "what-is-reactance",
+"impr": 215,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "thermowell-45-degree-angle-installation",
+"impr": 211,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "conductivity-to-tds-conversion",
+"impr": 211,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "neutral-conductor-sizing-harmonics",
+"impr": 210,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "valve-positioner-troubleshooting",
+"impr": 209,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "historian-data-compression-swinging-door",
+"impr": 208,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "temperature-data-logger-guide",
+"impr": 208,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "fill-fluid-selection-for-diaphragm-seals",
+"impr": 208,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "transformer-vector-group-explained",
+"impr": 204,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "test-uncertainty-ratio-tur-calibration",
+"impr": 204,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "bjt-currents-and-voltages-explained",
+"impr": 202,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "level-measurement-in-slurries",
+"impr": 202,
+"queries": [
+"level measurement",
+"open tank level measurement",
+"nuclear level measurement",
+"zero suppression and elevation in level measurement",
+"capacitance level measurement"
+],
+"status": "todo"
+},
+{
+"slug": "emerson-pacsystems-safety-controller",
+"impr": 201,
+"queries": [
+"emerson safety plc"
+],
+"status": "todo"
+},
+{
+"slug": "thermowell-failure-causes-and-fixes",
+"impr": 198,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "modbus-rtu-troubleshooting",
+"impr": 198,
+"queries": [
+"modbus rtu"
+],
+"status": "todo"
+},
+{
+"slug": "motor-full-load-current-flc",
+"impr": 198,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "reflex-vs-transparent-level-gauge",
+"impr": 197,
+"queries": [
+"level gauge radiation",
+"servo level gauge",
+"enraf level gauge working principle"
+],
+"status": "todo"
+},
+{
+"slug": "power-factor-correction-explained",
+"impr": 197,
+"queries": [
+"correction factor formula",
+"correction factor",
+"correction factor calculation"
+],
+"status": "todo"
+},
+{
+"slug": "absolute-vs-gauge-pressure",
+"impr": 195,
+"queries": [
+"gauge pressure formula",
+"pressure gauge calibration",
+"deadweight pressure gauge",
+"absolute pressure transmitter",
+"pressure gauge snubber working principle"
+],
+"status": "todo"
+},
+{
+"slug": "hall-effect-current-sensor-acs712",
+"impr": 194,
+"queries": [
+"what is hall effect sensor"
+],
+"status": "todo"
+},
+{
+"slug": "electronic-cooling-fans-thermal-efficiency",
+"impr": 193,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "viscosity-measurement-explained",
+"impr": 191,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "flow-switch-working-principle-paddle-dp-thermal",
+"impr": 190,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "turbine-flow-meter-working",
+"impr": 189,
+"queries": [
+"annubar flow meter",
+"gas flow meter calibration",
+"multiphase flow meter",
+"annubar type flow meter",
+"flow nozzle working principle"
+],
+"status": "todo"
+},
+{
+"slug": "namur-output-sensor",
+"impr": 188,
+"queries": [
+"namur output"
+],
+"status": "todo"
+},
+{
+"slug": "isa100-wireless-isa100-11a",
+"impr": 188,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "orifice-flow-meter-flange-rating",
+"impr": 187,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "microwave-barrier-level-switch",
+"impr": 187,
+"queries": [
+"float level switch working principle",
+"magnetic level switch working principle",
+"how level switch works"
+],
+"status": "todo"
+},
+{
+"slug": "control-valve-actuator-sizing",
+"impr": 186,
+"queries": [
+"control valve parts",
+"control valve",
+"control valve diagram",
+"parts of control valve",
+"control valve characteristics"
+],
+"status": "todo"
+},
+{
+"slug": "pressure-gauge-selection-7-factors",
+"impr": 183,
+"queries": [
+"gauge pressure formula",
+"pressure gauge calibration",
+"deadweight pressure gauge",
+"pressure gauge snubber working principle",
+"bourdon tube pressure gauge"
+],
+"status": "todo"
+},
+{
+"slug": "dcs-historian-explained-data-storage",
+"impr": 182,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "globe-valve-vs-ball-valve-vs-butterfly-valve-selection",
+"impr": 182,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "artificial-intelligence-machine-learning",
+"impr": 181,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "plc-analog-scaling-raw-count",
+"impr": 181,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "control-valve-noise-prediction-reduction",
+"impr": 180,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "strain-gauge-working-principle",
+"impr": 179,
+"queries": [
+"bonded strain gauge",
+"igbt working principle",
+"rtd working principle",
+"bonded strain gauge diagram",
+"unbonded strain gauge"
+],
+"status": "todo"
+},
+{
+"slug": "measure-flow-rate-level-sensors",
+"impr": 179,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "electrical-units-of-measure-explained",
+"impr": 177,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "ceramic-resonator-working-applications",
+"impr": 175,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "what-is-a-semiconductor",
+"impr": 174,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "hydrogen-permeation-gold-plated-diaphragm",
+"impr": 173,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "thermal-overload-relay-explained",
+"impr": 173,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "ot-vs-it-security-differences",
+"impr": 171,
+"queries": [
+"ot security"
+],
+"status": "todo"
+},
+{
+"slug": "what-are-the-features-of-triconex-plc",
+"impr": 171,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "wise-scada-training-free-courses",
+"impr": 171,
+"queries": [
+"scada training free"
+],
+"status": "todo"
+},
+{
+"slug": "scotch-yoke-vs-rack-and-pinion-actuator",
+"impr": 169,
+"queries": [
+"scotch yoke vs rack and pinion",
+"scotch yoke actuator vs rack and pinion"
+],
+"status": "todo"
+},
+{
+"slug": "hart-loop-voltage-budget-calculator",
+"impr": 169,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "scada-trending-real-time-historical",
+"impr": 169,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "how-bypass-level-indicators-work",
+"impr": 168,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "480v-three-phase-data-center-power-distribution",
+"impr": 167,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "pid-controller-tuning-parameters",
+"impr": 167,
+"queries": [
+"what is the main function of pid inverter controller ? 1 point a) provides \nfast cooling b) maintains voltage fluctuations c) maintains precise \ntemperature d) auto restarts the ac after power cut",
+"types of pid controller",
+"pid controller types",
+"pid tuning simulator"
+],
+"status": "todo"
+},
+{
+"slug": "grounding-techniques-explained",
+"impr": 165,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "thermal-effect-on-sensors-zero-span-shift",
+"impr": 164,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "how-to-calculate-generator-size-industrial-load",
+"impr": 163,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "thermowell-types-explained",
+"impr": 162,
+"queries": [
+"thermowell types"
+],
+"status": "todo"
+},
+{
+"slug": "4-types-of-signals-in-instrumentation-ai-ao-di-do",
+"impr": 160,
+"queries": [
+"ai ao di do",
+"ai ao di do examples",
+"ai ao di do in plc",
+"examples of ai, ao, di, do",
+"ai ao di do full form"
+],
+"status": "todo"
+},
+{
+"slug": "thermocouple-drift-causes-prevention",
+"impr": 157,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "magnetostrictive-level-transmitter-working",
+"impr": 157,
+"queries": [
+"dp level transmitter",
+"differential pressure level transmitter",
+"dp type level transmitter",
+"level transmitter",
+"level transmitter types"
+],
+"status": "todo"
+},
+{
+"slug": "orifice-flowmeter-rangeability",
+"impr": 156,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "generator-synchronizing-procedure",
+"impr": 156,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "safety-requirements-specification-iec-61511",
+"impr": 155,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "tn-tt-it-earthing-systems",
+"impr": 155,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "isa-88-batch-control",
+"impr": 154,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "yokogawa-oprex-pressure-transmitter",
+"impr": 154,
+"queries": [
+"differential pressure level transmitter",
+"pressure transmitter types",
+"types of pressure transmitter",
+"differential pressure transmitter calibration",
+"pressure transmitter accuracy"
+],
+"status": "todo"
+},
+{
+"slug": "plc-interrupt-event-periodic-tasks",
+"impr": 154,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "control-loop-performance-monitoring-clpm",
+"impr": 153,
+"queries": [
+"control loop performance monitoring"
+],
+"status": "todo"
+},
+{
+"slug": "thermocouple-and-rtd-installation-precautions",
+"impr": 153,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "stilling-well-level-measurement",
+"impr": 153,
+"queries": [
+"level measurement",
+"open tank level measurement",
+"nuclear level measurement",
+"zero suppression and elevation in level measurement",
+"capacitance level measurement"
+],
+"status": "todo"
+},
+{
+"slug": "ethernet-apl-advanced-physical-layer",
+"impr": 152,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "temperature-switch-calibration-procedure",
+"impr": 151,
+"queries": [
+"level transmitter calibration procedure pdf"
+],
+"status": "todo"
+},
+{
+"slug": "solar-pv-system-sizing-calculation",
+"impr": 151,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "target-flow-meter-working-principle",
+"impr": 151,
+"queries": [
+"flow nozzle working principle"
+],
+"status": "todo"
+},
+{
+"slug": "ceramic-vs-metal-diaphragm-pressure-sensor",
+"impr": 150,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "partial-stroke-testing-esd-valves",
+"impr": 145,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "complementary-split-range-control",
+"impr": 144,
+"queries": [
+"split range control",
+"split range",
+"what is split range control"
+],
+"status": "todo"
+},
+{
+"slug": "paddle-type-level-switch",
+"impr": 144,
+"queries": [
+"dp type level transmitter",
+"level transmitter dp type",
+"displacer type level transmitter working principle",
+"servo type level transmitter",
+"float level switch working principle"
+],
+"status": "todo"
+},
+{
+"slug": "what-is-insulation-electrical",
+"impr": 143,
+"queries": [
+"electrical insulation classes"
+],
+"status": "todo"
+},
+{
+"slug": "remote-io-failure-modes",
+"impr": 141,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "pfdavg-calculation-formula",
+"impr": 140,
+"queries": [
+"lux calculation formula",
+"lux level calculation formula excel",
+"lux level calculation formula"
+],
+"status": "todo"
+},
+{
+"slug": "latches-in-digital-logic-explained",
+"impr": 140,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "thin-film-rtd-its-advantages",
+"impr": 139,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "calculate-heat-loss-in-piping",
+"impr": 139,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "altitude-effects-on-instrumentation",
+"impr": 136,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "plc-analog-input-explained",
+"impr": 135,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "voltage-reference-ic-selection",
+"impr": 135,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "pressure-transmitter-remote-seal-temperature-effect",
+"impr": 134,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "sil-determination-risk-graph-lopa-consequence-severity-matrix",
+"impr": 132,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "dcs-online-download-configuration-in-run",
+"impr": 132,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "sensor-scaling-instrumentation",
+"impr": 131,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "plc-sequencer-instruction-sqo-sqi",
+"impr": 131,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "electronic-vs-mechanical-pressure-sensors",
+"impr": 130,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "emergency-stop-and-emergency-power-off",
+"impr": 130,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "ntc-thermistor-beta-equation",
+"impr": 129,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "plc-version-control-git-change-management",
+"impr": 127,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "scada-tag-database-design",
+"impr": 125,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "capsule-pressure-gauge-low-pressure",
+"impr": 123,
+"queries": [
+"gauge pressure formula",
+"pressure gauge calibration",
+"deadweight pressure gauge",
+"pressure gauge snubber working principle",
+"bourdon tube pressure gauge"
+],
+"status": "todo"
+},
+{
+"slug": "turbine-flow-meter-working-principle",
+"impr": 123,
+"queries": [
+"flow nozzle working principle",
+"turbine flow meter",
+"turbine alternator working principle"
+],
+"status": "todo"
+},
+{
+"slug": "raid-parity",
+"impr": 121,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "plc-timer-instructions-ton-tof-rto",
+"impr": 120,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "coriolis-flow-meter-uncertainty",
+"impr": 117,
+"queries": [
+"annubar flow meter",
+"gas flow meter calibration",
+"multiphase flow meter",
+"annubar type flow meter",
+"anubar flow meter"
+],
+"status": "todo"
+},
+{
+"slug": "plugged-impulse-line-detection",
+"impr": 117,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "ai-ppe-detection-computer-vision",
+"impr": 116,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "control-valve-output-velocity",
+"impr": 113,
+"queries": [
+"control valve parts",
+"control valve",
+"control valve diagram",
+"parts of control valve",
+"control valve characteristics"
+],
+"status": "todo"
+},
+{
+"slug": "mtbf-calculation",
+"impr": 111,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "importance-of-analytical-measurements",
+"impr": 110,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "capacitance-type-level-transmitter-calibration",
+"impr": 109,
+"queries": [
+"dp type level transmitter",
+"level transmitter dp type",
+"displacer type level transmitter working principle",
+"servo type level transmitter",
+"level transmitter calibration"
+],
+"status": "todo"
+},
+{
+"slug": "coriolis-flow-meter-uncertainty-calculation",
+"impr": 106,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "calculate-short-circuit-fault-current",
+"impr": 105,
+"queries": [
+"symmetrical vs asymmetrical short circuit current"
+],
+"status": "todo"
+},
+{
+"slug": "control-valve-outlet-velocity",
+"impr": 105,
+"queries": [
+"control valve parts",
+"control valve",
+"control valve diagram",
+"parts of control valve",
+"control valve characteristics"
+],
+"status": "todo"
+},
+{
+"slug": "supercapacitor-working-principle",
+"impr": 105,
+"queries": [
+"igbt working principle",
+"rtd working principle",
+"rtd working principle in hindi",
+"potentiometer working principle",
+"differential pressure transmitter working principle"
+],
+"status": "todo"
+},
+{
+"slug": "orifice-plate-bidirectional-flow",
+"impr": 104,
+"queries": [
+"conditioning orifice plate",
+"orifice plate sizing",
+"orifice plate dimensions",
+"orifice plate sizes",
+"standard orifice plate"
+],
+"status": "todo"
+},
+{
+"slug": "working-principle-membrane-level-switch",
+"impr": 104,
+"queries": [
+"reed switch sensor working principle",
+"displacer type level transmitter working principle",
+"float level switch working principle",
+"magnetic level switch working principle",
+"enraf level gauge working principle"
+],
+"status": "todo"
+},
+{
+"slug": "tier-iv-data-center-power-architecture",
+"impr": 104,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "sil-vs-atex-iecex",
+"impr": 103,
+"queries": [
+"atex iecex marking",
+"difference between atex and iecex certification"
+],
+"status": "todo"
+},
+{
+"slug": "temperature-gauge-calibration",
+"impr": 100,
+"queries": [
+"pressure gauge calibration"
+],
+"status": "todo"
+},
+{
+"slug": "types-of-pressure-signal-outputs",
+"impr": 98,
+"queries": [
+"pressure transmitter types",
+"signal conditioning types",
+"types of pressure transmitter",
+"types of pressure transmitters",
+"different types of pressure transmitter"
+],
+"status": "todo"
+},
+{
+"slug": "dp-level-measurement-varying-density",
+"impr": 96,
+"queries": [
+"closed tank level measurement using dp transmitter"
+],
+"status": "todo"
+},
+{
+"slug": "opc-ua-explained",
+"impr": 96,
+"queries": [
+"opc ua protocol explained",
+"opc ua iec 62541"
+],
+"status": "todo"
+},
+{
+"slug": "what-is-resistance",
+"impr": 96,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "industrial-fiber-optic-network",
+"impr": 94,
+"queries": [
+"industrial network training"
+],
+"status": "todo"
+},
+{
+"slug": "busbar-sizing-calculation-guide",
+"impr": 94,
+"queries": [
+"orifice sizing calculation excel",
+"line sizing calculation excel sheet",
+"pipe sizing calculation excel sheet"
+],
+"status": "todo"
+},
+{
+"slug": "surge-arrester-working-selection",
+"impr": 94,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "select-flow-meter-for-high-temperature-fluids",
+"impr": 93,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "modbus-protocol-explained",
+"impr": 92,
+"queries": [
+"opc ua protocol explained"
+],
+"status": "todo"
+},
+{
+"slug": "level-measurement-in-agitated-vessels",
+"impr": 91,
+"queries": [
+"level measurement",
+"open tank level measurement",
+"nuclear level measurement",
+"zero suppression and elevation in level measurement",
+"capacitance level measurement"
+],
+"status": "todo"
+},
+{
+"slug": "ultrasonic-gap-level-switch",
+"impr": 91,
+"queries": [
+"ultrasonic level transmitter",
+"float level switch working principle",
+"magnetic level switch working principle",
+"how level switch works"
+],
+"status": "todo"
+},
+{
+"slug": "fiber-optic-temperature-sensors",
+"impr": 90,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "mosfet-power-loss-calculation",
+"impr": 89,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "python-in-industrial-automation",
+"impr": 86,
+"queries": [
+"architecture of industrial automation system",
+"free industrial automation course",
+"industrial automation free course"
+],
+"status": "todo"
+},
+{
+"slug": "magnetrol-genesis-multiphase-level-detector",
+"impr": 82,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "how-to-fix-a-servo-drive-problem",
+"impr": 79,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "vacuum-effect-on-field-instruments",
+"impr": 76,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "control-valve-sizing-basic-requirements",
+"impr": 74,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "dp-level-transmitter-calibration",
+"impr": 73,
+"queries": [
+"dp level transmitter",
+"differential pressure level transmitter",
+"dp transmitter",
+"dp type level transmitter",
+"differential pressure transmitter calibration"
+],
+"status": "todo"
+},
+{
+"slug": "panel-heat-load-calculation",
+"impr": 68,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "types-of-transistor-oscillators",
+"impr": 68,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "role-based-access-control-ot",
+"impr": 59,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "measure-pulsating-flow-industrial-piping",
+"impr": 53,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "water-vapor-in-instrument-air-lines",
+"impr": 47,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "thermal-vias-pcb-heat-dissipation",
+"impr": 42,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "process-safety-vs-functional-safety",
+"impr": 28,
+"queries": [
+"functional safety assessment"
+],
+"status": "todo"
+}
+]

@@ -1,0 +1,24 @@
+name: Article images apply
+on:
+  workflow_dispatch:
+    inputs:
+      n:
+        default: "20"
+concurrency:
+  group: geo
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q cairosvg pillow
+      - env:
+          U: ${{ secrets.WP_USER }}
+          P: ${{ secrets.WP_APP_PASSWORD }}
+        run: python3 _img/apply.py ${{ inputs.n }}
+      - run: |
+          git config user.name "ib-img-bot"; git config user.email "ib-img-bot@users.noreply.github.com"
+          git add _img && (git diff --cached --quiet || git commit -m "Article images apply") && git pull --rebase -q && git push -q
