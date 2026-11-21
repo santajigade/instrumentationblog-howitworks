@@ -41,10 +41,10 @@ Add new topics anywhere; keep slugs unique and blog slugs from _src/blog_slugs.t
 - [x] historian-swinging-door | Historian Swinging Door Compression | SCADA | historian-data-compression-swinging-door
 - [x] ratio-control | Ratio Control | DCS | what-is-ratio-control-in-process-industries
 - [x] sinking-sourcing-plc | Sinking and Sourcing PLC Inputs | PLC | sinking-and-sourcing-in-plc
-- [ ] vibrating-fork-level-switch | Vibrating Fork Level Switch | Switches | vibrating-fork-level-switch-working
-- [ ] modbus-rtu | Modbus RTU Communication | Signals | modbus-protocol-explained
-- [ ] override-control | Override (Selector) Control | DCS | override-control-selector-dcs
-- [ ] plc-shift-register | PLC Shift Register | PLC | plc-shift-register-shl-shr
+- [x] vibrating-fork-level-switch | Vibrating Fork Level Switch | Switches | vibrating-fork-level-switch-working
+- [x] modbus-rtu | Modbus RTU Communication | Signals | modbus-protocol-explained
+- [x] override-control | Override (Selector) Control | DCS | override-control-selector-dcs
+- [x] plc-shift-register | PLC Shift Register | PLC | plc-shift-register-shl-shr
 - [ ] pressure-switch | Pressure Switch | Switches | what-is-a-pressure-switch
 - [ ] scada-redundancy | SCADA Server Redundancy | SCADA | scada-redundancy-architecture
 - [ ] pt100-rtd | Pt100 RTD | Temperature | what-is-rtd-and-how-it-works
