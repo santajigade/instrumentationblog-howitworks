@@ -144,7 +144,7 @@
 "keywords": [
 "hipps meaning"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "siphon-sizing-and-selecting-a-siphon-for-pressure-gauge-protection",
@@ -152,14 +152,14 @@
 "pressure gauge syphon",
 "gauge siphon"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "basics-of-transistors",
 "keywords": [
 "transistor working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "lvdt-linear-variable-differential-transformer",
@@ -167,14 +167,14 @@
 "construction and working of lvdt",
 "lvdt diagram and working"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "float-level-switch-working-principle-and-applications",
 "keywords": [
 "float type level switch"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "wheatstone-bridge-10-applications",
