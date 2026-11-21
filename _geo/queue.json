@@ -1647,7 +1647,8 @@
 "queries": [
 "venturi tube"
 ],
-"status": "todo"
+"status": "error",
+"err": "HTTP Error 404: Not Found"
 },
 {
 "slug": "how-to-calculate-vacuum-pressure",
@@ -1902,7 +1903,7 @@
 "calibration error formula",
 "calibration error example"
 ],
-"status": "todo"
+"status": "has"
 },
 {
 "slug": "insulation-resistance-testing-with-a-megger",
