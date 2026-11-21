@@ -1581,7 +1581,7 @@
 "impr": 1493,
 "pos": 6.8,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "u-tube-manometer-working-formula",
@@ -1591,7 +1591,7 @@
 "queries": [
 "u tube manometer"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "conveyor-safety-switches-types",
@@ -1599,7 +1599,7 @@
 "impr": 1486,
 "pos": 6.2,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "servo-level-gauge-working-principle",
@@ -1613,7 +1613,7 @@
 "displacer type level transmitter working principle",
 "servo gauge working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "zero-speed-switch-working",
@@ -1627,7 +1627,7 @@
 "magnetic level switch working principle",
 "zero speed sensor"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "single-line-diagram-symbols-and-how-to-read-one",
@@ -1637,7 +1637,7 @@
 "queries": [
 "single line diagram"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "venturi-tube-flow-measurements",
@@ -1659,7 +1659,7 @@
 "vacuum pressure formula",
 "vacuum pressure example"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "generator-excitation-system-avr",
@@ -1669,7 +1669,7 @@
 "queries": [
 "excitation system"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "static-pressure-vs-differential-pressure",
@@ -1683,7 +1683,7 @@
 "how does a pressure differential transmitter work",
 "differential pressure transmitter how it works"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "scada-hmi-screen-design-isa-101-best-practices",
@@ -1704,7 +1704,7 @@
 "safety rated relay",
 "safety relay wiring diagram pdf"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "actual-flow-standard-flow-normal-flow",
@@ -1712,7 +1712,7 @@
 "impr": 1364,
 "pos": 11.6,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "types-of-flow-elements",
@@ -1722,7 +1722,7 @@
 "queries": [
 "flow elements"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "what-is-mmscfd-natural-gas-flow-rate",
@@ -1730,7 +1730,7 @@
 "impr": 1346,
 "pos": 6.2,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "plc-programming-languages",
@@ -1744,7 +1744,7 @@
 "structured text plc programming",
 "plc structured text programming"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "dsp-vs-dac-differences",
@@ -1755,7 +1755,7 @@
 "dsp vs dac",
 "dac vs dsp"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "best-pid-software-tools-for-process-engineers",
@@ -1773,7 +1773,7 @@
 "queries": [
 "unity gain buffer"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "synchronous-motor-working-principle",
@@ -1787,7 +1787,7 @@
 "potentiometer working principle",
 "differential pressure transmitter working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "boost-converter-working-principle",
@@ -1801,7 +1801,7 @@
 "potentiometer working principle",
 "differential pressure transmitter working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "equipotential-bonding-electrical-safety",
@@ -1811,7 +1811,7 @@
 "queries": [
 "equipotential bonding"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "ladder-logic-for-beginners",
@@ -1821,7 +1821,7 @@
 "queries": [
 "ladder logic"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "temperature-measurement-errors",
@@ -1829,7 +1829,7 @@
 "impr": 1293,
 "pos": 9.0,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "communication-protocols-in-dcs-systems",
@@ -1840,7 +1840,7 @@
 "dcs communication protocols",
 "dcs communication"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "motor-protection-relay-types",
@@ -1851,7 +1851,7 @@
 "motor protection relay",
 "motor protection relay setting calculation excel"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "lc-resonant-circuit-frequency",
@@ -1859,7 +1859,7 @@
 "impr": 1272,
 "pos": 12.5,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "displacer-level-transmitter-working-principle",
@@ -1873,7 +1873,7 @@
 "absolute pressure transmitter working principle",
 "working principle of differential pressure transmitter"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "ct-burden-calculation-va",
@@ -1881,7 +1881,7 @@
 "impr": 1260,
 "pos": 5.8,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "what-is-galvanic-isolation",
@@ -1891,7 +1891,7 @@
 "queries": [
 "galvanic isolation"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "calibration-error-calculation",
@@ -1911,7 +1911,7 @@
 "impr": 1239,
 "pos": 22.1,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "temperature-and-pressure-compensation",
@@ -1921,7 +1921,7 @@
 "queries": [
 "conductivity temperature compensation calculator"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "coriolis-flow-meter-troubleshooting",
@@ -1935,7 +1935,7 @@
 "annubar type flow meter",
 "anubar flow meter"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "vfd-parameter-configuration",
@@ -1943,7 +1943,7 @@
 "impr": 1229,
 "pos": 5.3,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "earth-leakage-relay-elr-cbct",
@@ -1951,7 +1951,7 @@
 "impr": 1220,
 "pos": 7.6,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "fuse-selection-guide",
@@ -1961,7 +1961,7 @@
 "queries": [
 "fuse selection calculation"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "motor-nameplate-details-explained",
@@ -1969,7 +1969,7 @@
 "impr": 1216,
 "pos": 14.8,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "pressure-snubber-working-principle-types-selection",
@@ -1983,7 +1983,7 @@
 "working principle of differential pressure transmitter",
 "differential pressure transmitter working principle with diagram"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "op-amp-integrator-differentiator",
@@ -1995,7 +1995,7 @@
 "precision rectifier op amp circuit",
 "gain for inverting op amp"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "electrical-shock-causes-effects-prevention",
@@ -2003,7 +2003,7 @@
 "impr": 1181,
 "pos": 11.8,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "conductivity-sensor-cell-constant-calibration",
@@ -2013,7 +2013,7 @@
 "queries": [
 "conductivity cell constant range"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "choked-flow-in-control-valves",
@@ -2026,7 +2026,7 @@
 "choked flow in control valve",
 "flow characteristics of control valve"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "buck-converter-working-principle",
