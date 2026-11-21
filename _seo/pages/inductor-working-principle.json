@@ -1,0 +1,38 @@
+{
+ "id": 16984,
+ "slug": "inductor-working-principle",
+ "impr": 629,
+ "ctr": 0.48,
+ "pos": 8.0,
+ "queries": [
+  "igbt working principle",
+  "rtd working principle",
+  "rtd working principle in hindi",
+  "potentiometer working principle",
+  "differential pressure transmitter working principle",
+  "pressure gauge snubber working principle"
+ ],
+ "title": "Inductor Working Principle: Magnetic Field and Energy Storage",
+ "rank_math_title": "Inductor Working Principle: Magnetic Field & Energy",
+ "rank_math_description": "Learn Inductor working principle, how inductors store energy in a magnetic field, Faraday and Lenz's Law, back-EMF, RL time constant, inductive reactance.",
+ "focus_keyword": "Inductor Working Principle,energy",
+ "headings": [
+  "The Physics: Faraday's Law and Lenz's Law",
+  "Key Inductor Formulas",
+  "RL Time Constant: Current Rise and Fall",
+  "Inductor Calculator",
+  "Inductor vs Capacitor: Key Differences",
+  "Industrial Applications",
+  "Power Supply Chokes and Filters",
+  "Transformer Action (Mutual Inductance)",
+  "Solenoid Valves and Relay Coils",
+  "Power Factor Correction (Reactors)",
+  "RF and EMI Filtering",
+  "Buck and Boost Converters (DC to DC)",
+  "Watch: Energy Stored in a Magnetic Field and Inductors Explained",
+  "Inductor Working Principle Questions",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Electronics\n\r\n Inductor Working Principle: Magnetic Field and Energy Storage\n\r\n An inductor stores energy in a magnetic field, not in an electric field like a capacitor.\n\r\n When current flows through a coil, it builds a magnetic field around each turn. That field stores energy and opposes any change in current, creating the back EMF that makes inductors both useful and dangerous.\n\r\n This guide covers Faraday's Law, Lenz's Law, the RL time constant, energy storage, inductive reactance, and key industrial applications.\n\r\n \r\n Faraday's Law \r\n Back EMF \r\n RL Time Constant \r\n E = \u00bdLI\u00b2 \r\n \n\r\n\n\r\n\r\n An inductor resists any change in current. Increasing current makes the field expand and the inductor opposes it.\n\r\n Decreasing current makes the field collapse and the inductor tries to maintain the flow -- releasing its stored energy back, sometimes at a much higher voltage than the supply.\n\r\n\r\n The Physics: Faraday's Law and Lenz's Law\n\r\n\r\n Faraday's Law states that a changing magnetic flux induces a voltage (EMF) in a conductor. In an inductor, the changing magnetic field from changing current induces a voltage in the same coil that produced it.\n\r\n\r\n Lenz's Law tells us that the induced voltage always opposes the change that caused it.\n\r\n\r\n \r\n \r\n \r\n Increase current and the induced EMF opposes the increase. Decrease current and the EMF reverses, trying to sustain it. This opposing voltage is called back EMF.\n\r\n\r\n The result is electrical inertia -- an inductor resists changes in current the same way a flywheel resists changes in rotation speed. The greater the inductance, the more it resists change. See the inductor working principle guide for core types and inductance calculation.\n\r\n\r\n \r\n \r\n V = L \u00d7 dI/dt\n\r\n Back EMF equals inductance times rate of current change\n\r\n \n\r\n \r\n E = \u00bdLI\u00b2\n\r\n Energy stored in the magnetic field\n\r\n \n\r\n \r\n \u03c4 = L/R\n\r\n RL time constant in seconds\n\r\n \n\r\n \r\n XL = 2\u03c0fL\n\r\n Inductive reactance -- rises with frequency\n\r\n \n\r\n\n\r\n\r\n \r\n \r\n \n Advertisement \n\n\r\n \r\n \r\n\n\r\n\r\n Key Inductor Formulas\n\r\n\r\n \r\n Back EMF and Energy Storage\n\r\n V_L = L \u00d7 dI/dt\n\r\n \r\n V_L = induced back EMF (V) -- opposes the change in current\n\r\n L = inductance (henries, H)\n\r\n dI/dt = rate of change of current (A/s)\n\n\r\n Example: 100 mH inductor with current changing at 500 A/s:\n\r\n V_L = 0.1 \u00d7 500 = 50 V back EMF -- even from a 24V supply\r\n \n\r\n\n\r\n\r\n \r\n Energy Stored and Inductive Reactance\n\r\n E = \u00bd \u00d7 L \u00d7 I\u00b2\n\r\n \r\n E = energy stored in the magnetic field (joules)\n\r\n L = inductance (H)\n\r\n I = steady-state current through the inductor (A)\n\r\n Example: 50 mH at 10 A: E = 0.5 \u00d7 0.05 \u00d7 100 = 2.5 J \n\n\r\n Inductive reactance: XL = 2\u03c0 \u00d7 f \u00d7 L \n\r\n XL rises with frequency -- opposite to capacitors (XC falls with frequency).\n\r\n An inductor passes DC freely (XL = 0 at DC) and blocks high frequency AC.\r\n \n\r\n\n\r\n\r\n When a circuit with an inductor is switched off suddenly, dI/dt becomes very large. The back EMF can spike to hundreds of volts even in low voltage circuits. This spike can destroy t"
+}

@@ -1,0 +1,28 @@
+{
+ "id": 18405,
+ "slug": "step-and-touch-voltage-ieee-80",
+ "impr": 797,
+ "ctr": 0.88,
+ "pos": 9.2,
+ "queries": [],
+ "title": "Step and Touch Voltage: 3 Lifesaving Checks From IEEE 80",
+ "rank_math_title": "",
+ "rank_math_description": "Learn how step and touch voltage arise during earth faults, IEEE 80 tolerable limit formulas, surface layer benefit, a worked example and a calculator.",
+ "focus_keyword": "step and touch voltage",
+ "headings": [
+  "What Is Step and Touch Voltage?",
+  "3 Lifesaving Checks in Earthing Design",
+  "IEEE 80 Tolerable Limit Formulas",
+  "Why Touch Voltage Usually Governs",
+  "Methods to Reduce Touch and Step Hazards",
+  "Typical Surface Materials Compared",
+  "Tolerable Touch and Step Calculator",
+  "Touch and Step Potential Testing Note",
+  "Substation Grounding Video",
+  "Earth Fault Safety Questions",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Electrical Safety & Standards\n\r\n Step and Touch Voltage: 3 Lifesaving Checks From IEEE 80\n\r\n During an earth fault, the ground itself becomes energized, and a person standing or touching nearby can bridge a dangerous voltage.\n\r\n \r\n Ground Potential Rise \r\n IEEE 80 \r\n Crushed Rock Layer \r\n Earth Grid Design \r\n \n\r\n\n\r\n\r\n Step and touch voltage are the potential differences a person can experience across the feet or between hand and feet during an earth fault. Keeping both below tolerable limits is the core goal of substation earthing design.\n\r\n\r\n \r\n Hello everyone, today we are going to understand step and touch voltage, how IEEE 80 sets safe limits, and how an earth grid and a surface layer keep people safe during faults.\r\n\n\r\n \r\n \r\n \r\n What Is Step and Touch Voltage?\n\r\n\r\n Step and touch voltage describe the dangerous voltages a person can bridge when fault current flows into the earth near equipment. They are central to earthing in industrial plants and substations.\n\r\n\r\n Touch voltage is the difference between a grounded metal structure a person touches and the ground under their feet. Step voltage is the difference between two points on the ground one metre apart, spanned by a stride.\n\r\n\r\n \r\n \r\n Image credit: EEPower \r\n \r\n\r\n Fault current flowing into soil raises the potential of the earth grid above remote earth. This rise, called ground potential rise or GPR, spreads out as a voltage gradient across the surface.\n\r\n\r\n The steeper the gradient, the higher the shock risk. Our guide on electrical shock explains why even short currents through the body can be fatal.\n\r\n\r\n 3 Lifesaving Checks in Earthing Design\n\r\n\r\n \r\n 1\n Ground Potential Rise\n Grid resistance multiplied by fault current into earth.\n\n\r\n 2\n Touch Voltage Check\n Worst touch voltage must stay below the tolerable limit.\n\n\r\n 3\n Step Voltage Check\n Worst step voltage at the grid edge must stay below its limit.\n\n\r\n\n\r\n\r\n GPR depends on grid resistance, found with methods from earthing resistance calculation , and on the part of fault current returning through soil.\n\r\n\r\n If GPR is already below the tolerable touch limit, the design is safe with little extra analysis. Otherwise the detailed touch and step values must be calculated or simulated.\n\r\n\r\n IEEE 80 Tolerable Limit Formulas\n\r\n\r\n \r\n E touch70 = (1000 + 1.5 \u00d7 Cs \u00d7 \u03c1s) \u00d7 0.157 \u00f7 \u221ats \n E step70 = (1000 + 6 \u00d7 Cs \u00d7 \u03c1s) \u00d7 0.157 \u00f7 \u221ats \n\n1000 \u03a9 = body resistance, 0.157 = factor for a 70 kg person\n\u03c1s = surface resistivity, Cs = surface layer factor, ts = fault time\n\nExample, bare soil 100 \u03a9\u00b7m, Cs = 1, ts = 0.5 s:\nTouch = (1000 + 150) \u00d7 0.157 \u00f7 0.707 = 255 V\nStep = (1000 + 600) \u00d7 0.157 \u00f7 0.707 = 355 V\n\nWith crushed rock 3000 \u03a9\u00b7m, Cs about 0.7:\n Touch = (1000 + 3150) \u00d7 0.157 \u00f7 0.707 \u2248 921 V \r\n\n\r\n\r\n For a 50 kg person, IEEE 80 uses 0.116 instead of 0.157, giving lower and more conservative limits. Many utilities design to the 50 kg case for public areas.\n\r\n\r\n The example shows why a crushed rock layer is so effective. It raises the tolerable touch li"
+}

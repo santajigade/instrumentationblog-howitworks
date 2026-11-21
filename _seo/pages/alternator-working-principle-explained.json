@@ -1,0 +1,41 @@
+{
+ "id": 17976,
+ "slug": "alternator-working-principle-explained",
+ "impr": 576,
+ "ctr": 0.87,
+ "pos": 8.6,
+ "queries": [
+  "igbt working principle",
+  "rtd working principle",
+  "rtd working principle in hindi",
+  "potentiometer working principle",
+  "differential pressure transmitter working principle",
+  "pressure gauge snubber working principle"
+ ],
+ "title": "Alternator Working Principle Explained",
+ "rank_math_title": "",
+ "rank_math_description": "Alternator Working Principle explained: rotor design, prime movers, paralleling, testing, and maintenance for reliable AC power generation.",
+ "focus_keyword": "Alternator Working Principle",
+ "headings": [
+  "The Core Alternator Working Principle",
+  "The Role of the Prime Mover",
+  "Why the Field Rotates Instead of the Output Winding",
+  "Main Components",
+  "Common Applications by Machine Size",
+  "Frequency and Speed Relationship",
+  "Salient Pole vs Cylindrical Rotor Designs",
+  "Why Speed Must Stay Constant",
+  "Voltage Regulation Under Load",
+  "Alternator vs DC Generator",
+  "Paralleling Multiple Machines",
+  "Testing and Commissioning",
+  "Common Mistakes to Avoid",
+  "Maintenance and Common Failure Points",
+  "Watch: Three Phase AC Generator Animation",
+  "Alternator Working Principle FAQs",
+  "Related Articles on This Site",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Electrical Machines\n\r\n Alternator Working Principle Explained\n\r\n Every backup generator, power plant, and vehicle charging system relies on the same alternator working principle, a rotating magnetic field inducing voltage in a set of stationary windings.\n\r\n \r\n Alternator Working Principle \r\n Rotor and Stator \r\n Electromagnetic Induction \r\n Excitation \r\n \n\r\n\n\r\n\r\n The alternator working principle relies on electromagnetic induction, a rotating magnetic field from the rotor sweeps past stationary stator windings, inducing an alternating voltage exactly as Faraday's law of induction predicts.\n\r\n\r\n \r\n Hello everyone, today we are going to walk through the alternator working principle step by step, from the rotor's magnetic field to the three phase voltage it induces in the stator windings.\n\n\r\n This machine shares much of its construction with the synchronous motor , run in reverse to generate power instead of consuming it.\r\n\n\r\n \r\n \r\n \r\n\r\n The Core Alternator Working Principle\n\r\n\r\n A rotor, carrying a magnetic field created by a DC current through its field winding, is spun by a prime mover such as a diesel engine, steam turbine, or water turbine.\n\r\n\r\n As that rotating magnetic field sweeps past the stationary stator windings, it induces an alternating voltage in each winding, following Faraday's law that a changing magnetic flux through a conductor induces an electromotive force.\n\r\n\r\n Three separate stator windings, spaced 120 electrical degrees apart, each see the rotating field at a slightly different moment, producing the three phase output most industrial machines deliver.\n\r\n\r\n The Role of the Prime Mover\n\r\n\r\n The prime mover, whether a diesel engine, gas turbine, steam turbine, or water turbine, supplies the mechanical energy that keeps the rotor spinning against the opposing torque created once electrical load is applied.\n\r\n\r\n As load increases, the electrical output draws more mechanical power from the shaft, and the prime mover's governor must respond by increasing fuel or steam flow to hold speed steady.\n\r\n\r\n Why the Field Rotates Instead of the Output Winding\n\r\n\r\n Placing the heavy, high current output windings on the stationary stator avoids the need for large slip rings and brushes to carry that current off a spinning shaft.\n\r\n\r\n Only the much smaller DC field current needs to reach the rotating rotor, which can be done through modest slip rings or, in many modern designs, through a brushless exciter system entirely.\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n Main Components\n\r\n\r\n \r\n Rotor\n Carries the DC excited field winding, spun by the prime mover\n\n\r\n Stator\n Holds the three phase output windings where voltage is induced\n\n\r\n Exciter\n Supplies the DC current to the rotor's field winding\n\n\r\n Voltage Regulator\n Adjusts field current to hold output voltage steady under changing load\n\n\r\n\n\r\n\r\n \r\n \r\n Component Function Location \n\r\n Field winding Creates the rotating magnetic field Rotor \n\r\n Armature winding Where output voltage is induced Stator \n\r"
+}

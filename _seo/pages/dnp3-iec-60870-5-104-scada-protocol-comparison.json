@@ -1,0 +1,24 @@
+{
+ "id": 17288,
+ "slug": "dnp3-iec-60870-5-104-scada-protocol-comparison",
+ "impr": 597,
+ "ctr": 0.67,
+ "pos": 5.4,
+ "queries": [],
+ "title": "DNP3 Protocol and IEC 60870-5-104 Protocol: SCADA Communication Compared",
+ "rank_math_title": "DNP3 vs IEC 60870-5-104: SCADA Protocols Compared",
+ "rank_math_description": "DNP3 vs IEC 60870-5-104 for SCADA: data classes, unsolicited responses, ASDU structure, Secure Authentication v5 and a bandwidth calculator.",
+ "focus_keyword": "DNP3",
+ "headings": [
+  "DNP3 Protocol and IEC 60870-5-104: Common Origin, Different Evolution",
+  "DNP3 Protocol Architecture and Working Principle",
+  "IEC 60870-5-104: How It Works",
+  "DNP3 Protocol vs IEC 60870-5-104: Full Comparison",
+  "DNP3 Protocol Poll Cycle and Bandwidth Estimator",
+  "Watch: SCADA Communication Protocols \u2014 Modbus, DNP3 and IEC 60870",
+  "DNP3 Protocol vs IEC 60870-5-104 Questions",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "SCADA and Automation\n\r\n DNP3 and IEC 60870-5-104 Protocols: SCADA Communication Compared\n\r\n DNP3 protocol and IEC 60870-5-104 are the two dominant SCADA protocols between master stations, RTUs, and IEDs in electric utility and infrastructure automation.\n\r\n Both were designed for the same job \u2014 reliable data acquisition and control over long-distance or unreliable links \u2014 but took different engineering paths.\n\r\n This guide explains how each protocol works, compares their architecture and data models, and shows when to choose one over the other.\n\r\n \r\n DNP3 Data Priority Classes \r\n IEC 104 APCI/ASDU Structure \r\n Secure Authentication v5 \r\n Geographic Deployment Patterns \r\n \n\r\n\n\r\n\r\n DNP3 protocol dominates North American electric utility SCADA deployments. IEC 60870-5-104 dominates European and international markets.\n\r\n Both emerged from the IEC 60870-5 document series and solve the same problem: reliable process data transfer between a control centre and field devices over a network not designed for real-time traffic.\n\r\n \r\n \r\n \r\n DNP3 Protocol and IEC 60870-5-104: Common Origin, Different Evolution\n\r\n\r\n \r\n Hello! Today we are comparing the DNP3 protocol and IEC 60870-5-104 \u2014 the two most widely deployed SCADA protocols in the utility and infrastructure sector. Engineers who have worked on one protocol often encounter the other when their company acquires a site in a different country, or when integrating with a partner company's control centre. Understanding the structural differences is essential for designing protocol gateways and multi-master SCADA architectures.\r\n\n\r\n\r\n Both DNP3 and IEC 60870-5-104 trace their origins to IEC 60870-5. That series defined a three-layer architecture \u2014 physical, data link, and application \u2014 without a full OSI stack.\n\r\n\r\n DNP3 was developed in 1993 by GE-Harris Canada from the partially completed IEC 60870-5 draft specifications, because IEC standardisation was too slow for the commercial need.\n\r\n IEC 60870-5-104 was standardised later as the TCP/IP transport variant of the serial IEC 60870-5-101 protocol.\n\r\n\r\n Did You Know? The \"3\" in DNP3 comes from the original product designation \"DNP V3.00,\" not from the number of protocol layers as is commonly assumed.\n\nThe DNP Users Group later shortened the name to \"DNP3\" specifically to remove the version-number implication \u2014 signalling that the protocol would not keep incrementing to DNP4 or DNP5. There has never been a DNP 3.1, DNP 4.0, or any successor version name.\n\nThe protocol does happen to use a three-layer model (data link, pseudo-transport, application), but this is coincidental with the name. The three layers are what makes DNP3 efficient for RTU communication \u2014 no session or presentation layer overhead from the OSI model.\n\r\n\r\n \r\n DNP3\n Dominant in North America, Asia-Pacific, and Latin America. Standardised as IEEE Std 1815.\n\n\r\n IEC 104\n Dominant in Europe, the Middle East, and international markets. Part of the IEC 60870-5 series.\n\n\r\n TCP/IP\n Both protocols use "
+}

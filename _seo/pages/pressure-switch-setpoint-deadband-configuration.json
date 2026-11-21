@@ -1,0 +1,27 @@
+{
+ "id": 17417,
+ "slug": "pressure-switch-setpoint-deadband-configuration",
+ "impr": 795,
+ "ctr": 0.88,
+ "pos": 6.5,
+ "queries": [],
+ "title": "Pressure Switch Setpoint and Deadband: How to Configure Them Correctly",
+ "rank_math_title": "Pressure Switch Setpoint and Deadband: How to Set Them",
+ "rank_math_description": "Pressure switch setpoint and deadband: how to calculate them, a 7-step procedure, two worked examples and a live setpoint and deadband calculator.",
+ "focus_keyword": "pressure switch setpoint",
+ "headings": [
+  "Pressure Switch Setpoint and Deadband: Key Definitions",
+  "Why the Deadband Matters: Chattering and Reset Delay",
+  "How to Calculate the Pressure Switch Setpoint and Deadband Correctly",
+  "Worked Examples: Pressure Switch Setpoint and Deadband",
+  "Example 1: High-Pressure Trip on a Pump Discharge Line",
+  "Example 2: Low-Pressure Trip on a Cooling Water Supply",
+  "Pressure Switch Setpoint Calculator",
+  "Watch: How to Adjust a Pressure Switch Setpoint",
+  "Pressure Switch Setpoint: High vs Low Switch Comparison",
+  "Pressure Switch Setpoint FAQ",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Process Instrumentation\n\r\n Pressure Switch Deadband and Setpoint: How to Configure Them Correctly\n\r\n A pressure switch setpoint is the pressure at which the switch contact trips. The deadband is the pressure gap between the trip point and the reset point.\n\r\n Both must be correctly calculated and set together \u2014 not independently.\n\r\n A wrongly configured pressure switch setpoint causes either contact chattering or an unacceptably long reset delay. This guide covers the pressure switch setpoint calculation procedure with worked examples.\n\r\n \r\n Trip Point and Reset Point \r\n Chattering Prevention \r\n High vs Low Pressure Switch \r\n Adjustable Deadband \r\n \n\r\n\n\r\n\r\n The most common pressure switch setpoint and deadband configuration mistake is setting the deadband too small.\n\r\n A switch tripping at 10 bar and resetting at 9.9 bar will chatter if the process pressure oscillates \u00b10.2 bar around the setpoint.\n\r\n The deadband must always exceed the normal pressure fluctuation at the trip point.\n\r\n\r\n \r\n \r\n \r\n\r\n Pressure Switch Setpoint and Deadband: Key Definitions\n\r\n\r\n \r\n Hello! Today we are covering the pressure switch setpoint and deadband \u2014 two parameters that are often set incorrectly because engineers focus on the trip point without thinking about the reset behaviour. Getting both right is essential for stable, reliable switching. Let us go through the definitions, the calculation method, and several worked examples for high-pressure and low-pressure switch applications.\r\n\n\r\n\r\n A pressure switch setpoint and its paired deadband together define two critical pressure values that define its behaviour.\n\r\n\r\n The trip point (also called the setpoint or switch point) is the pressure at which the contact changes state.\n\r\n The reset point is the pressure at which the contact returns to normal. The difference between them is the deadband .\n\r\n\r\n \r\n Core relationship\n\r\n \r\n High-pressure switch (trips when pressure rises): \n\r\n Trip point: pressure rises to \u2192 contact changes state\n\r\n Reset point = Trip point minus Deadband\n\r\n (pressure must fall below the reset point before the contact resets)\n\n\r\n Low-pressure switch (trips when pressure falls): \n\r\n Trip point: pressure falls to \u2192 contact changes state\n\r\n Reset point = Trip point plus Deadband\n\r\n (pressure must rise above the reset point before the contact resets)\r\n \n\r\n\n\r\n\r\n Did You Know? The deadband is sometimes called the \"reset differential\" or \"hysteresis\" in manufacturer data sheets.\n\nAll three terms describe the same thing: the pressure gap between the trip point and the reset point. However, \"hysteresis\" is technically the more general term (it describes any system where the output depends on the history of the input, not just the current value).\n\nIn process instrumentation, all three terms are used interchangeably and mean exactly the same thing for a pressure switch. See the deadband guide , the pressure switch guide , and the pressure switch vs transmitter guide for related concepts.\n\r\n\r\n \r\n Trip point\n Pres"
+}

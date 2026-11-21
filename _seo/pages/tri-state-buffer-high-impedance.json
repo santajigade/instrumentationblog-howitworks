@@ -1,0 +1,32 @@
+{
+ "id": 20248,
+ "slug": "tri-state-buffer-high-impedance",
+ "impr": 682,
+ "ctr": 0.73,
+ "pos": 6.7,
+ "queries": [],
+ "title": "Tri State Buffer: 7 Essential Rules for Safe Bus Sharing",
+ "rank_math_title": "",
+ "rank_math_description": "A tri state buffer adds a high impedance third state so many chips share one wire. See enable logic, 74HC125, 74HC245, bus contention and pull resistor sizing.",
+ "focus_keyword": "tri state buffer",
+ "headings": [
+  "What Is a Tri State Buffer?",
+  "How the High Impedance State Works",
+  "Active Low and Active High Enable Types",
+  "Sharing a Bus Without Collisions",
+  "Bus Contention and Why It Damages Chips",
+  "Floating Bus Lines and Pull Resistors",
+  "Tri State Buffer Pull Resistor Calculator",
+  "Second Worked Example: A Slow Pull Up",
+  "Bidirectional Buses With the 74HC245",
+  "7 Essential Rules for Using a Tri State Buffer",
+  "Troubleshooting Shared Bus Faults",
+  "Nexperia 74HC125 Datasheet",
+  "Tri State Buffer Video Lesson",
+  "Tri State Buffer FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Digital Electronics\n\r\n Tri State Buffer: 7 Essential Rules for Safe Bus Sharing\n\r\n A normal logic output always drives the wire high or low, so two outputs on one wire will fight. A third, disconnected state lets many chips take turns on the same bus line without damage or corrupted data.\n\r\n \r\n High Z Output \r\n Enable Pin \r\n 74HC125 \r\n 74HC245 \r\n Bus Contention \r\n \n\r\n\n\r\n\r\n Data buses, memory chips and SPI devices all depend on outputs that can step aside. This guide explains how a tri state buffer creates the high impedance state, how to avoid bus contention and how to size pull resistors.\n\r\n\r\n \r\n Hello everyone, today we are going to learn how a tri state buffer works, what the high impedance state really means and how to use enable pins, transceivers and pull resistors on a shared bus.\r\n\n\r\n \r\n \r\n \r\n What Is a Tri State Buffer?\n\r\n\r\n A tri state buffer is a logic buffer whose output can be high, low or high impedance, also called Z or the off state. When its enable input is active it copies the input to the output, and when disabled it electrically disconnects from the wire, as if it were not there at all.\n\r\n\r\n An ordinary logic gate has only two output states, and it always drives one of them. That is fine for point to point wiring, but a shared data line needs a way for each chip to stop driving when another chip is talking.\n\r\n\r\n \r\n \r\n Image credit: Build Electronic Circuits . Pinout courtesy of Build Electronic Circuits, shown here for educational reference. \r\n \r\n\r\n The pinout above is the 74HC125, a quad buffer with one enable per gate. Build Electronic Circuits shows the four output enable pins on pins 1, 4, 10 and 13, and notes that the HC version runs from 2 V to 6 V while the older 74LS125 needs 5 V.\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n How the High Impedance State Works\n\r\n\r\n Inside a CMOS output there is a P channel MOSFET to the supply and an N channel MOSFET to ground. For a high output the top transistor is on, for a low output the bottom one is on, and in the Z state both are switched off together.\n\r\n\r\n With both transistors off, the pin only shows a tiny leakage current and a few picofarads of capacitance. Nexperia specifies an off state output current of plus or minus 0.5 \u00b5A at 25 \u00b0C for the 74HC125, rising to plus or minus 5 \u00b5A over the industrial range up to 85 \u00b0C.\n\r\n\r\n \r\n \r\n Enable nOE Input nA Output nY Meaning \n\r\n L L L Buffer active, drives low \n\r\n L H H Buffer active, drives high \n\r\n H X Z Disabled, high impedance \n\r\n \r\n\n\r\n\r\n This function table comes from the Nexperia 74HC125 datasheet, where X means the input does not matter. The small circle on the enable pin in the symbol shows that the enable is active low.\n\r\n\r\n Do You Know?\n TRI STATE was originally a registered trademark of National Semiconductor for its three state logic products. Engineers now use the generic names three state, tri state and high Z for the same function.\n\n\r\n\r\n Active Low and Active High Enable Types\n\r\n\r\n \r\n 74HC125 Quad Buffer\n Four buffers, each w"
+}

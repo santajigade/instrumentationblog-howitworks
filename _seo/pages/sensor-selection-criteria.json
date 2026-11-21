@@ -1,0 +1,24 @@
+{
+ "id": 17787,
+ "slug": "sensor-selection-criteria",
+ "impr": 578,
+ "ctr": 0.69,
+ "pos": 9.2,
+ "queries": [],
+ "title": "Sensor Selection Criteria: 6 Essential Factors to Weigh",
+ "rank_math_title": "",
+ "rank_math_description": "Sensor Selection Criteria balance accuracy against cost and maintenance. See the 6 factors, plus range, response time, and safety tradeoffs to check first.",
+ "focus_keyword": "Sensor Selection Criteria,sensor selection",
+ "headings": [
+  "6 Core Sensor Selection Criteria to Weigh First",
+  "Reproducibility vs Repeatability, and Why the Difference Matters",
+  "Matching Sensor Range to the Actual Process",
+  "Process Environment Protection Affects Response Time Too",
+  "Dynamics, Maintenance, and Safety Considerations",
+  "Sensor Selection Criteria Questions Engineers Ask",
+  "Related Articles on This Site",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Instrumentation\n\r\n Sensor Selection Criteria: 6 Essential Factors to Weigh\n\r\n The best performing sensor on paper is not automatically the right choice for a given process.\n\r\n Here are the six factors worth weighing first, and why chasing top accuracy everywhere quietly drains a maintenance budget.\n\r\n \r\n Sensor Selection Criteria \r\n Accuracy \r\n Reliability \r\n Range \r\n \n\r\n\n\r\n\r\n Sensor Selection Criteria come down to a simple tradeoff, better performance almost always costs more to buy and more to maintain, so the goal is matching a sensor to what the process actually needs.\n\r\n\r\n \r\n Hello everyone, today we are going to learn the main Sensor Selection Criteria engineers weigh before specifying a device, and why the highest performing option is not always the correct one.\n\n\r\n We will cover accuracy, repeatability, range, reliability, linearity, and cost, along with process environment protection, response time, and safety considerations that apply across almost any sensor type.\r\n\n\r\n \r\n \r\n \r\n 6 Core Sensor Selection Criteria to Weigh First\n\r\n\r\n The greater the performance requirement, the higher the purchase and maintenance cost, so these six factors are usually weighed together rather than one at a time.\n\r\n\r\n \r\n \r\n 1\n\r\n Accuracy\n\r\n How closely a measured value matches the true value, usually stated as a maximum error in engineering units or as a percentage of range.\n\r\n \n\r\n \r\n 2\n\r\n Repeatability\n\r\n How consistent the same measurement comes out across repeated trials under identical conditions, approached from the same direction each time.\n\r\n \n\r\n \r\n 3\n\r\n Range\n\r\n The lower and upper measurement limits a sensor covers, with wider ranges generally trading away some accuracy and reproducibility.\n\r\n \n\r\n \r\n 4\n\r\n Reliability\n\r\n The probability a sensor keeps performing correctly over its intended service period, more critical wherever a failure risks safety or product quality.\n\r\n \n\r\n \r\n 5\n\r\n Linearity\n\r\n How closely the sensor's output tracks a straight line against the true process variable across its full range.\n\r\n \n\r\n \r\n 6\n\r\n Cost\n\r\n Total cost across purchase, installation, wiring, documentation, operation, and every year of maintenance over the sensor's working life.\n\r\n \n\r\n\n\r\n\r\n \r\n Did You Know\n\r\n A sensor's own linearity error can often be corrected mathematically after the fact, a square root correction for an orifice flow meter or a polynomial fit for a thermocouple, so nonlinearity alone is rarely a reason to reject an otherwise good sensor.\n\r\n\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n Reproducibility vs Repeatability, and Why the Difference Matters\n\r\n\r\n These two terms sound alike but answer different questions, and mixing them up leads to specifying the wrong test during vendor evaluation.\n\r\n\r\n \r\n \r\n Repeatability \r\n Consistency across a short run of consecutive measurements taken close together, under conditions that are essentially unchanged from one reading to the next.\n\r\n \n\r\n \r\n Reproducibility \r\n Consistency over a much longer operating period, "
+}

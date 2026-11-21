@@ -1,0 +1,25 @@
+{
+ "id": 17424,
+ "slug": "plc-fault-handling-major-minor-fault-codes-recovery",
+ "impr": 773,
+ "ctr": 0.52,
+ "pos": 5.4,
+ "queries": [],
+ "title": "PLC Fault Handling: Major Fault, Minor Fault Codes and Recovery Steps",
+ "rank_math_title": "PLC Fault Handling: Major & Minor Fault Codes, Recovery",
+ "rank_math_description": "Learn how PLC fault codes work: major vs minor, recoverable vs non-recoverable, common Type 4 fault codes, and the 7-step recovery procedure used in the field.",
+ "focus_keyword": "PLC fault",
+ "headings": [
+  "PLC Fault Classification: Major, Minor and I/O Faults",
+  "Major PLC Fault: What Happens and Common Fault Codes",
+  "Common Major PLC Fault Codes (Allen-Bradley Logix)",
+  "Minor PLC Fault: Behaviour and Common Codes",
+  "PLC Fault Recovery: Step-by-Step Procedure",
+  "PLC Fault Diagnosis Tool",
+  "Watch: PLC Fault Finding in RSLogix 5000",
+  "PLC Fault Handling Questions",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "DCS and Automation\n\r\n PLC Fault Handling: Major Fault, Minor Fault Codes and Recovery Steps\n\r\n A PLC fault stops or disrupts the scan cycle and requires a structured response before the controller returns to normal operation.\n\r\n Understanding whether a fault is major or minor, recoverable or non-recoverable, determines the correct recovery procedure.\n\r\n This guide covers the PLC fault classification system, the most common fault codes, and the step-by-step recovery procedure used in the field.\n\r\n \r\n Major vs Minor Fault \r\n Recoverable vs Non-Recoverable \r\n Type and Code System \r\n Fault Routine Programming \r\n \n\r\n\n\r\n\r\n A major PLC fault halts program execution immediately and puts the controller into faulted mode. All outputs go to their configured fault state and the machine stops.\n\r\n A minor fault is logged but does not stop the program. Reading the fault code before touching anything is the most important step in any PLC fault recovery.\n\r\n \r\n \r\n \r\n PLC Fault Classification: Major, Minor and I/O Faults\n\r\n\r\n \r\n Hello! Today we are covering PLC fault handling: how faults are classified, what the fault codes mean, and how to recover from them safely. This applies to Allen-Bradley Logix controllers (ControlLogix, CompactLogix) as the primary example, with equivalent concepts for Siemens S7 and Mitsubishi MELSEC platforms. The core logic is the same across all platforms \u2014 only the menu names and code numbers differ.\r\n\n\r\n\r\n Every PLC fault is assigned a type number and a code number. The type identifies the category of fault. The code identifies the specific condition within that category.\n\r\n\r\n These two numbers together tell you exactly what went wrong, where it happened in the program, and whether the controller can recover without a download or hardware intervention.\n\r\n\r\n Did You Know? In Allen-Bradley Logix5000 controllers, the fault log stores the last 16 fault events with timestamp, type number, code number, and a text description.\n\nThis log is your first diagnostic resource whenever a PLC fault occurs. Engineers often clear the fault immediately under production pressure \u2014 and then lose this information permanently.\n\nAlways read and record the full fault log entry (type, code, description, timestamp) before pressing any clear or reset button. A screenshot takes 5 seconds. It can save hours of guesswork when the fault returns.\n\r\n\r\n \r\n Major\n Halts program scan. Controller enters faulted mode. All outputs go to configured fault state.\n\n\r\n Minor\n Logged in the fault register. Program continues running. A status bit is set for the program to act on.\n\n\r\n Recoverable\n Fault can be cleared after fixing the cause. Program resumes without a new download.\n\n\r\n Non-recoverable\n Hardware or firmware level problem. May require firmware reload, battery replacement, or CPU swap.\n\n\r\n\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n Major PLC Fault: What Happens and Common Fault Codes\n\r\n\r\n When a major PLC fault occurs, the controller immediately stops the program. The scan"
+}

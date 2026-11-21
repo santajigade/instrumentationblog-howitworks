@@ -1,0 +1,33 @@
+{
+ "id": 19624,
+ "slug": "corona-effect-transmission-line",
+ "impr": 763,
+ "ctr": 0.13,
+ "pos": 9.5,
+ "queries": [],
+ "title": "Corona Effect on Power Lines: 8 Vital Factors and Easy Fixes",
+ "rank_math_title": "",
+ "rank_math_description": "Understand the corona effect in transmission lines with Peek formula for critical disruptive voltage, power loss, noise, radio interference and bundling.",
+ "focus_keyword": "corona effect",
+ "headings": [
+  "What Is the Corona Effect?",
+  "How Corona Starts Around a Conductor",
+  "Critical Disruptive Voltage and Peek Formula",
+  "Corona Effect Calculator",
+  "Peek Formula for Corona Effect Power Loss",
+  "8 Vital Factors Affecting the Corona Effect",
+  "Noise, Radio Interference and Ozone From the Corona Effect",
+  "Methods to Reduce the Corona Effect on EHV Lines",
+  "Detecting the Corona Effect in the Field",
+  "Corona on DC Lines and Substations",
+  "University Lecture Notes PDF",
+  "Video on Corona in Transmission Lines",
+  "Visual Critical Voltage of Corona Formula With Worked Example",
+  "Worked example using the same line",
+  "Corona Effect FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Power Systems\n\r\n Corona Effect on Power Lines: 8 Vital Factors and Easy Fixes\n\r\n On a damp night, high voltage lines hiss, crackle and sometimes show a faint violet glow around the conductors. That is air breaking down near the wire, and this guide explains why it happens, how to calculate its onset and how designers keep it small.\n\r\n \r\n Peek Formula \r\n Corona Loss \r\n Audible Noise \r\n Bundled Conductors \r\n \n\r\n\n\r\n\r\n The corona effect wastes power, creates noise and disturbs radio signals near high voltage lines. Learn the physics, the Peek formulas, the factors that matter and the design methods that control it.\n\r\n\r\n \r\n Hello everyone, today we are going to learn what the corona effect is, how to calculate the critical disruptive voltage and corona loss, which factors affect it and how engineers reduce it.\r\n\n\r\n \r\n \r\n \r\n What Is the Corona Effect?\n\r\n\r\n The corona effect is the partial ionisation of the air around a high voltage conductor when the electric field at its surface exceeds the breakdown strength of air. The air close to the wire becomes conducting, producing a faint glow, a hissing sound, ozone and a small but continuous power loss.\n\r\n\r\n Air is normally a good electrical insulation between line conductors. Near a thin conductor, however, the field is concentrated, so the air breaks down locally while the rest of the gap still insulates, which is why corona is a partial discharge and not a flashover.\n\r\n\r\n \r\n \r\n \r\n Image credit: EE Power . Image courtesy of EE Power, shown here for educational reference. \r\n\n\r\n\r\n A few free electrons always exist in air because of cosmic rays and natural radioactivity. In a strong field they gain enough energy to knock more electrons out of gas molecules, and this electron avalanche is the start of the corona effect.\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n How Corona Starts Around a Conductor\n\r\n\r\n \r\n Free Electrons Natural ionisation leaves a few electrons in air\n\r\n Strong Field Surface gradient reaches about 30 kV per cm peak\n\r\n Avalanche Electrons collide with molecules and multiply\n\r\n Ionised Layer Air near the wire glows and conducts\n\r\n Losses and Noise Energy goes into light, heat, sound and radio waves\n\r\n\n\r\n\r\n EE Power notes that the threshold for corona formation is typically about 30 kV per cm in dry air, which equals about 21.2 kV per cm rms. The field falls quickly with distance, so the ionised layer stays as a thin sheath around the conductor, much like the charge distribution described in capacitance between two wires.\n\r\n\r\n On AC lines, the corona effect appears in each half cycle when the voltage is near its peak. In the positive half cycle the glow is fairly uniform, while in the negative half cycle it forms as small reddish spots or beads along the conductor.\n\r\n\r\n Do You Know?\n The corona effect is visible more easily on the negative half cycle as separate beads, because negative corona forms at points of roughness on the conductor surface. A camera that records ultraviolet light can see corona"
+}

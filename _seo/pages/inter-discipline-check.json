@@ -1,0 +1,26 @@
+{
+ "id": 17748,
+ "slug": "inter-discipline-check",
+ "impr": 631,
+ "ctr": 0.32,
+ "pos": 4.6,
+ "queries": [],
+ "title": "Inter Discipline Check: 5 Essential Disciplines Covered",
+ "rank_math_title": "",
+ "rank_math_description": "Inter Discipline Check lines up process, mechanical, piping, civil and electrical design before construction. See the 5 disciplines and what each one reviews.",
+ "focus_keyword": "Inter Discipline Check",
+ "headings": [
+  "What Is Inter Discipline Check",
+  "5 Disciplines an Inter Discipline Check Covers",
+  "What Instrumentation Checks During an IDC Review",
+  "Reviewing Vendor Packages and Skids",
+  "Common Interdisciplinary Items Every Review Catches",
+  "Who Performs This Review, and When",
+  "Why This Review Matters on Every Project",
+  "Inter Discipline Check Questions Engineers Ask",
+  "Related Articles on This Site",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Instrumentation\n\r\n Inter Discipline Check: 5 Disciplines Engineers Coordinate\n\r\n A P&ID that looks perfect on paper can still send a project back for rework.\n\r\n This review step catches that before a single cable is pulled or a single nozzle is welded.\n\r\n \r\n Inter Discipline Check \r\n IDC \r\n P&ID Review \r\n EPC Engineering \r\n \n\r\n\n\r\n\r\n Inter Discipline Check makes sure design output from one engineering department actually works for every other department that has to build around it.\n\r\n\r\n \r\n Hello everyone, today we are going to learn Inter Discipline Check, the review step that lines up process, mechanical, piping, civil and electrical design before construction begins.\n\n\r\n We will cover what each discipline checks, the documents involved, who performs the review, and why skipping it gets expensive fast.\r\n\n\r\n \r\n \r\n \r\n What Is Inter Discipline Check\n\r\n\r\n Inter Discipline Check, usually shortened to IDC, is a formal review step where every engineering discipline on a project checks its own design output against the documents produced by every other discipline.\n\r\n\r\n The goal is simple. A P&ID drawn by the process team, a layout drawn by the piping team, and a cable schedule drawn by the electrical team all have to describe the same physical plant. IDC is where a design engineer confirms they actually do.\n\r\n\r\n This review happens before drawings are issued for construction, since a conflict caught on paper costs far less than the same conflict caught on site with a crane already in place.\n\r\n\r\n \r\n Did You Know\n\r\n IDC is sometimes called a squad check in EPC contracts. Both names describe the same review, engineers from every discipline sitting together and checking one drawing set against another before it gets issued.\n\r\n\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n 5 Disciplines an Inter Discipline Check Covers\n\r\n\r\n A real IDC touches every discipline that has to physically build around the same equipment, so each one reviews a different slice of the same design.\n\r\n\r\n \r\n \r\n 1\n\r\n Process and Chemical\n\r\n Reviews the P&ID itself, instrument legend, process connection sizes, signal types, and which instruments belong to a vendor package versus the main plant.\n\r\n \n\r\n \r\n 2\n\r\n Mechanical\n\r\n Reviews vendor package specifications, PLC and HMI preferences, control panel enclosure material, and the cabling inside a skid.\n\r\n \n\r\n \r\n 3\n\r\n Piping\n\r\n Reviews the 3D model for instrument connection details, cable tray routing on pipe racks, and alignment with hookup drawings.\n\r\n \n\r\n \r\n 4\n\r\n Civil and Structural\n\r\n Reviews layout drawings for wall and floor cutouts, since cable routes have to physically pass through a structure that civil already designed.\n\r\n \n\r\n \r\n 5\n\r\n Electrical\n\r\n Reviews the load list against the P&ID for motor quantity, signal considerations for I/O lists, cable tray layout, and earth pit placement.\n\r\n \n\r\n\n\r\n\r\n \r\n Tip\n\r\n Bring the actual P&ID into the review room, not a summary of it. Most IDC conflicts get caught only when someone traces a real line numb"
+}
