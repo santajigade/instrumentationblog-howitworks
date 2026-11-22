@@ -1,0 +1,5 @@
+{
+ "slug": "zirconia-oxygen-analyzer-working-principle",
+ "question": "What Is the Working Principle of a Zirconia Oxygen Analyzer?",
+ "body_html": "<p style=\"margin:0 0 8px;\">A zirconia oxygen analyzer measures flue gas oxygen with a heated zirconium dioxide cell that conducts oxygen ions above 600 °C. The oxygen difference between reference air (20.9%) and flue gas creates a voltage between two platinum electrodes.</p><p style=\"margin:0 0 8px;\"><strong>EMF (mV) = 0.0496 × T × log (P_ref ÷ P_sample)</strong>, with T in kelvin.</p><p style=\"margin:0;\">Example: at 650 °C and 2% oxygen, the output is about 47 mV.</p>"
+}

@@ -1,0 +1,5 @@
+{
+ "slug": "meter-prover-flow-meter-proving",
+ "question": "What Is a Meter Prover and How Is Meter Factor Calculated?",
+ "body_html": "<p style=\"margin:0 0 8px;\">A meter prover is a device with an accurately known reference volume used to check a flow meter in service, under actual flowing product, pressure and temperature.</p><p style=\"margin:0 0 8px;\">The liquid passes through the meter and prover in series, and the flow computer compares both corrected volumes: <strong>MF = Corrected prover volume ÷ Corrected meter volume</strong>.</p><p style=\"margin:0;\">Example: 998.5 L prover volume ÷ 1001.40 L meter volume gives MF = 0.9971, so the meter reads high by 0.29 percent.</p>"
+}

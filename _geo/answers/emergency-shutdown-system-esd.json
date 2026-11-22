@@ -1,0 +1,5 @@
+{
+ "slug": "emergency-shutdown-system-esd",
+ "question": "What Is an Emergency Shutdown System?",
+ "body_html": "<p style=\"margin:0 0 8px;\">An emergency shutdown system (ESD) is an independent safety instrumented system that detects hazards and automatically isolates, depressurises or stops equipment to bring the plant to a safe state. Its four parts are dedicated transmitters, a certified logic solver, fail closed shutdown valves and fail open blowdown valves, all designed to fail safe under IEC 61511.</p><p style=\"margin:0;\">Reliability uses <strong>PFDavg ≈ λDU × TI ÷ 2</strong>. Example: 0.000002 per hour × 8760 h ÷ 2 = 0.00876, RRF ≈ 114, within SIL 2.</p>"
+}

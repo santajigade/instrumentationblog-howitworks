@@ -1,0 +1,5 @@
+{
+ "slug": "marshalling-cabinet-dcs-wiring",
+ "question": "What Is a Marshalling Cabinet in DCS Wiring?",
+ "body_html": "<p style=\"margin:0 0 8px;\">A marshalling cabinet is an intermediate panel between field junction boxes and the DCS system cabinets, where field cables are terminated and cross wired to the correct I/O channels.</p><p style=\"margin:0 0 8px;\">Field wiring arrives by plant area on 16 or 24 pair multipair cables, while system wiring is grouped by I/O card type. The panel also holds isolators, IS barriers and interposing relays.</p><p style=\"margin:0;\">Because the two sides are separated, a late change needs only a new jumper. Keep about 20 percent spare terminals, channels and cable pairs.</p>"
+}

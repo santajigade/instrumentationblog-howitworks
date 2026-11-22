@@ -2291,7 +2291,7 @@
 "impr": 1035,
 "pos": 6.2,
 "queries": [],
-"status": "todo"
+"status": "skip"
 },
 {
 "slug": "scada-rtu-remote-terminal-unit-architecture-communication",
@@ -2367,7 +2367,7 @@
 "scada software free download for windows 10",
 "rapid scada free download"
 ],
-"status": "todo"
+"status": "skip"
 },
 {
 "slug": "pressure-transmitter-installation-best-practices",
@@ -2409,7 +2409,7 @@
 "free industrial automation course",
 "industrial automation free course"
 ],
-"status": "todo"
+"status": "skip"
 },
 {
 "slug": "instrument-junction-box-design",

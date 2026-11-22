@@ -1,0 +1,5 @@
+{
+ "slug": "scada-rtu-remote-terminal-unit-architecture-communication",
+ "question": "What Is an RTU in SCADA and How Does It Work?",
+ "body_html": "<p style=\"margin:0 0 8px;\">A SCADA RTU (Remote Terminal Unit) is a rugged microprocessor based field device at a remote site that reads analog and digital signals, runs limited local control logic and sends the data to the SCADA master station over a wide area link such as cellular, radio, satellite or IP WAN.</p><p style=\"margin:0;\">It uses protocols like DNP3 and IEC 104 and keeps protecting the site with local alarms and fail safe actions even when the communication link is down.</p>"
+}

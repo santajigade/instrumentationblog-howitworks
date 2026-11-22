@@ -1,0 +1,5 @@
+{
+ "slug": "ph-meter-calibration-buffers",
+ "question": "How to Calibrate a pH Meter With Buffers?",
+ "body_html": "<p style=\"margin:0 0 8px;\">pH meter calibration measures the electrode millivolts in buffers of known pH and calculates the slope and offset the meter uses.</p><ol style=\"margin:0 0 0 20px;\"><li>Inspect the glass bulb, junction and electrolyte level.</li><li>Rinse with deionised water and blot, never wipe.</li><li>Calibrate at pH 7 first and wait for a stable reading.</li><li>Add pH 4 or pH 10, then a third buffer for wide range work.</li><li>Accept a slope of 95 to 103% (ideal 59.16 mV per pH at 25 °C) and record the results.</li></ol>"
+}

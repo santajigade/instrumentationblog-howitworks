@@ -1,0 +1,5 @@
+{
+ "slug": "instrument-io-list-dcs-plc",
+ "question": "What Is an IO List in DCS and PLC Design?",
+ "body_html": "<p style=\"margin:0 0 8px;\">An IO list is the project document that lists every input and output signal between field devices and the control system, one row per signal, with its tag, signal type (AI, AO, DI or DO), range and assigned channel.</p><p style=\"margin:0;\">It starts from the P&amp;ID and instrument index and grows as motor, valve and package signals are added. One control valve with a positioner and two limit switches is one index row but three IO rows. Engineers use it to size cards and cabinets, plan spares and run loop checks.</p>"
+}

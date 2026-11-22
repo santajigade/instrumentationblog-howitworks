@@ -1,0 +1,5 @@
+{
+ "slug": "rtd-temperature-sensor-working",
+ "question": "What Is the Working Principle of an RTD Sensor?",
+ "body_html": "<p style=\"margin:0 0 8px;\">An RTD temperature sensor works on the principle that the electrical resistance of a metal, usually platinum, rises in a predictable and nearly linear way as temperature increases.</p><p style=\"margin:0 0 8px;\">The relation is <strong>Rt = R0 (1 + αΔT)</strong>, where R0 is the resistance at 0 °C and α is the temperature coefficient.</p><p style=\"margin:0;\">Example: a PT100 reads 100 Ω at 0 °C and about 138.5 Ω at 100 °C. The transmitter measures this resistance and converts it into temperature.</p>"
+}

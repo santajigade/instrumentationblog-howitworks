@@ -1,0 +1,5 @@
+{
+ "slug": "differential-pressure-transmitter-working-principle",
+ "question": "How Does a Differential Pressure Transmitter Work?",
+ "body_html": "<p style=\"margin:0 0 8px;\">A differential pressure transmitter measures the difference between pressures at its HP and LP ports. A sensing diaphragm between the two chambers deflects in proportion to that difference, and a capacitance, piezoelectric or strain gauge element turns the deflection into a 4 to 20 mA or HART signal.</p><p style=\"margin:0;\">4 mA means zero DP and 20 mA means the upper range value. The same transmitter measures flow (across an orifice, with <strong>Q ∝ √ΔP</strong>), level or density, depending only on how the impulse lines are connected.</p>"
+}

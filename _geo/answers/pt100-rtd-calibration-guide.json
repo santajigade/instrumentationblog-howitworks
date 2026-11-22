@@ -1,0 +1,5 @@
+{
+ "slug": "pt100-rtd-calibration-guide",
+ "question": "How to Calibrate a PT100 RTD?",
+ "body_html": "<p style=\"margin:0 0 8px;\">PT100 RTD calibration compares the sensor resistance at known temperatures with the expected platinum values, since a PT100 has 100 Ω at 0 °C and resistance rises with temperature.</p><p style=\"margin:0 0 8px;\">The simplified formula is <strong>Rt = R0 (1 + αt), with α = 0.00385 per °C</strong>.</p><p style=\"margin:0;\">Example: at 100 °C, Rt = 100 × (1 + 0.00385 × 100) = 138.5 Ω. A reading far from 138.5 Ω at 100 °C points to sensor drift, wiring or lead resistance problems.</p>"
+}

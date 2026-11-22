@@ -1,0 +1,5 @@
+{
+ "slug": "buck-converter-working-principle",
+ "question": "How Does a Buck Converter Work?",
+ "body_html": "<p style=\"margin:0 0 8px;\">A buck converter steps a DC input down to a lower DC output by switching a MOSFET on and off at high frequency. When the switch is on, current flows through the inductor and stores energy; when it is off, the inductor keeps current flowing through the diode or synchronous MOSFET into the load.</p><p style=\"margin:0;\">The ideal output is set by the duty cycle: <strong>D = Vout / Vin</strong>. Example: 12 V in, 5 V out gives D = 5 / 12 = 0.417, about 42% on time.</p>"
+}

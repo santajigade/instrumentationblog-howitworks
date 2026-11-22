@@ -1,0 +1,5 @@
+{
+ "slug": "h2s-gas-detector-working-principle-safety",
+ "question": "How Does an H2S Gas Detector Work?",
+ "body_html": "<p style=\"margin:0 0 8px;\">An H2S gas detector most often uses an electrochemical cell. Gas diffuses through a membrane to the working electrode, where H2S oxidises (H2S → S + 2H⁺ + 2e⁻) and produces a current proportional to concentration. A counter electrode completes the circuit and a reference electrode holds a stable potential.</p><p style=\"margin:0;\">The electronics turn this tiny current into a ppm reading and a 4 to 20 mA output, with typical alarms at 10 ppm and 15 ppm. Smell cannot be trusted above about 100 ppm.</p>"
+}

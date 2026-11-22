@@ -1,0 +1,5 @@
+{
+ "slug": "slip-ring-induction-motor-working",
+ "question": "How Does a Slip Ring Induction Motor Work?",
+ "body_html": "<p style=\"margin:0 0 8px;\">A slip ring induction motor is a 3 phase induction motor whose wound rotor is brought out through slip rings and brushes to an external resistance bank, giving high starting torque with lower starting current.</p><p style=\"margin:0 0 8px;\">Peak torque occurs at <strong>sm = R2 ÷ X2</strong>, so added rotor resistance shifts maximum torque toward standstill.</p><p style=\"margin:0;\">Example: R2 = 0.2 Ω and X2 = 1 Ω gives sm = 0.2. Resistance is cut out step by step, then the rings are shorted.</p>"
+}

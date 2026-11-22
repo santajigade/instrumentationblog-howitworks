@@ -1,0 +1,5 @@
+{
+ "slug": "mems-gyroscope-working-principle",
+ "question": "How Does a MEMS Gyroscope Work?",
+ "body_html": "<p style=\"margin:0 0 8px;\">A MEMS gyroscope measures angular rate by detecting the Coriolis force on a silicon proof mass vibrating at its resonant frequency, typically 10 to 40 kHz.</p><p style=\"margin:0 0 8px;\">When the chip rotates, the force deflects the mass perpendicular to the drive motion, and capacitive electrodes sense this deflection: <strong>F = 2 × m × v × ω</strong>.</p><p style=\"margin:0;\">Example: m = 1 µg, v = 1 mm/s and ω = 1.745 rad/s (100 deg/s) give F = 2 × 10⁻⁹ × 0.001 × 1.745 = 3.49 × 10⁻¹² N.</p>"
+}

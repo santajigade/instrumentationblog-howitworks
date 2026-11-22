@@ -1,0 +1,5 @@
+{
+ "slug": "electrical-isolation-permit-to-work",
+ "question": "What Is the Safe Electrical Isolation Procedure?",
+ "body_html": "<p style=\"margin:0 0 8px;\">Electrical isolation and permit to work means making equipment dead, proving it dead and locking it off before any work starts.</p><ol style=\"margin:0 0 0 20px;\"><li>Identify every circuit and energy source feeding the equipment.</li><li>Obtain the permit to work from the permit issuer.</li><li>Open every switch, breaker and isolator, all three phases.</li><li>Fit a personal lock and danger tag at each isolation point.</li><li>Prove dead with an approved voltage indicator, tested on a known live source before and after.</li><li>Discharge stored energy and apply earths where required.</li></ol><p style=\"margin:0;\">Then work starts under the permit.</p>"
+}

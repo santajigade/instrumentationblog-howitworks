@@ -1,0 +1,5 @@
+{
+ "slug": "amf-panel-working-dg-auto-start",
+ "question": "How Does an AMF Panel Work?",
+ "body_html": "<p style=\"margin:0 0 8px;\">An AMF panel (automatic mains failure panel) watches the utility supply, starts the standby diesel generator when mains fail and transfers the load automatically.</p><ol style=\"margin:0 0 0 20px;\"><li>Controller senses mains failure (about 0.5 to 2 s).</li><li>It cranks the DG, with retries if the engine does not start.</li><li>DG voltage and frequency stabilise (about 10 to 15 s).</li><li>Interlocked changeover moves the load to the DG.</li><li>When mains stay healthy (about 5 to 10 min), load returns to mains and the DG stops after a cooling run.</li></ol><p style=\"margin:0;\">Interlocks stop both sources closing together.</p>"
+}

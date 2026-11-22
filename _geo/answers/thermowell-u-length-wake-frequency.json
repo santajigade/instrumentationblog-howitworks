@@ -1,0 +1,5 @@
+{
+ "slug": "thermowell-u-length-wake-frequency",
+ "question": "What Is Thermowell U Length and Wake Frequency?",
+ "body_html": "<p style=\"margin:0 0 8px;\">Thermowell U length is the immersion length from the pipe inner wall to the thermowell tip. Wake frequency is the rate at which flowing fluid sheds vortices from the thermowell.</p><p style=\"margin:0 0 8px;\">The textbook wake frequency is <strong>fw = St × V ÷ D</strong>, where St is the Strouhal number, V the fluid velocity and D the tip diameter.</p><p style=\"margin:0;\">ASME PTC 19.3 TW 2016 checks that fw stays safely below the natural frequency, which limits the maximum U length.</p>"
+}

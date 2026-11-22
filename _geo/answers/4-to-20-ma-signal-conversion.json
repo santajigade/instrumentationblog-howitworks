@@ -1,0 +1,5 @@
+{
+ "slug": "4-to-20-ma-signal-conversion",
+ "question": "How to Convert Percentage to 4 to 20 mA and Back?",
+ "body_html": "<p style=\"margin:0 0 8px;\">4 to 20 mA signal conversion uses the 16 mA span between 4 mA (0%) and 20 mA (100%), so every 1% of range equals 0.16 mA.</p><p style=\"margin:0 0 8px;\"><strong>mA = 4 + (% / 100 × 16)</strong> and <strong>% = (mA − 4) / 16 × 100</strong></p><p style=\"margin:0;\">Example: 25% gives 4 + 0.25 × 16 = 8 mA, and 12 mA gives (12 − 4) / 16 × 100 = 50%. For engineering units use Value = LRV + (mA − 4) / 16 × Span.</p>"
+}

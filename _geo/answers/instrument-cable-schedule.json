@@ -1,0 +1,5 @@
+{
+ "slug": "instrument-cable-schedule",
+ "question": "What Is an Instrument Cable Schedule?",
+ "body_html": "<p style=\"margin:0 0 8px;\">An instrument cable schedule is a design document, usually a spreadsheet or database report, that lists every instrument cable in a project once, with its unique number, type, size, from and to points, route and length.</p><p style=\"margin:0;\">It covers branch cables from field instruments to junction boxes, multipair cables from junction boxes to the marshalling cabinet and system cables in the control room. Teams use it to order cable, plan trays, fit glands and terminate both ends correctly, alongside the instrument index, JB schedule and loop drawings.</p>"
+}

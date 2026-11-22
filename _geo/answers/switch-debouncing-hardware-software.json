@@ -1,0 +1,5 @@
+{
+ "slug": "switch-debouncing-hardware-software",
+ "question": "What Is Switch Debouncing and How Does It Work?",
+ "body_html": "<p style=\"margin:0 0 8px;\">Switch debouncing removes the rapid on and off chatter a mechanical contact makes when it opens or closes, so the input sees one clean change of state. Bounce usually lasts a few milliseconds, so designs filter 1 to 20 ms.</p><p style=\"margin:0 0 8px;\">An RC and Schmitt trigger circuit uses <strong>t = R × C × ln(Vcc ÷ (Vcc − Vth))</strong>.</p><p style=\"margin:0;\">Example: 10 kΩ, 1 µF, Vcc 5 V, Vth 2.5 V gives t = 10 × ln 2 ≈ 6.9 ms.</p>"
+}
