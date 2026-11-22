@@ -2087,7 +2087,8 @@
 "temperature transmitter",
 "what is the main function of pid inverter controller ? 1 point a) provides \nfast cooling b) maintains voltage fluctuations c) maintains precise \ntemperature d) auto restarts the ac after power cut"
 ],
-"status": "todo"
+"status": "error",
+"err": "HTTP Error 404: Not Found"
 },
 {
 "slug": "electrical-isolation-permit-to-work",
@@ -2158,7 +2159,7 @@
 "impr": 1119,
 "pos": 5.9,
 "queries": [],
-"status": "todo"
+"status": "has"
 },
 {
 "slug": "vacuum-measurement-sensor-types",
@@ -2189,7 +2190,7 @@
 "impr": 1086,
 "pos": 5.6,
 "queries": [],
-"status": "todo"
+"status": "has"
 },
 {
 "slug": "amf-panel-working-dg-auto-start",
