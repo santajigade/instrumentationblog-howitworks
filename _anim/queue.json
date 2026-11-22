@@ -181,14 +181,14 @@
 "keywords": [
 "function of wheatstone bridge"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "difference-between-3-1-and-3-2-material-certificates",
 "keywords": [
 "3.1 b"
 ],
-"status": "todo"
+"status": "skip"
 },
 {
 "slug": "difference-between-bootp-and-dhcp",
@@ -196,7 +196,7 @@
 "bootp in computer networks",
 "bootp vs dhcp"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "pt100-rtd-calibration-guide",
@@ -205,7 +205,7 @@
 "rtd formula pt100",
 "rtd pt100 formula"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "top-50-pid-controller-mcqs-2026",
@@ -213,28 +213,28 @@
 "a temperature control system is usually very sluggish",
 "the derivative control mode is mcq"
 ],
-"status": "todo"
+"status": "skip"
 },
 {
 "slug": "transformer-efficiency-calculation",
 "keywords": [
 "all day efficiency formula"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "what-is-a-diaphragm-seal",
 "keywords": [
 "diaphragm seal"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "electromagnetic-flow-meter-working-principle",
 "keywords": [
 "magnetic flow meter working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "bimetallic-thermometer-working-principle",
