@@ -455,7 +455,7 @@
 "engineering calculations and formulas",
 "all engineering formulas"
 ],
-"status": "skip"
+"status": "done"
 },
 {
 "slug": "difference-between-3-1-and-3-2-material-certificates",
@@ -2040,7 +2040,7 @@
 "potentiometer working principle",
 "differential pressure transmitter working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "universal-motor-working-principle",
@@ -2054,7 +2054,7 @@
 "potentiometer working principle",
 "differential pressure transmitter working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "differential-pressure-transmitter-working-principle",
@@ -2068,7 +2068,7 @@
 "differential pressure transmitter how it works",
 "differential pressure transmitter"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "ttl-vs-cmos-logic-families",
@@ -2076,7 +2076,7 @@
 "impr": 1156,
 "pos": 6.8,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "burnout-function-in-temperature-transmitter",
@@ -2096,7 +2096,7 @@
 "impr": 1145,
 "pos": 9.3,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "thermowell-u-length-wake-frequency",
@@ -2106,7 +2106,7 @@
 "queries": [
 "thermowell u length"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "difference-between-bootp-and-dhcp",
@@ -2120,7 +2120,7 @@
 "difference between filter and strainer",
 "difference between pnp and npn proximity sensor"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "wet-leg-dry-leg-level-measurement",
@@ -2131,7 +2131,7 @@
 "dry leg and wet leg level measurement",
 "wet leg dp level transmitter"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "4-to-20-ma-signal-conversion",
@@ -2139,7 +2139,7 @@
 "impr": 1120,
 "pos": 7.8,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "h2s-gas-detector-working-principle-safety",
@@ -2151,7 +2151,7 @@
 "h2s gas detector alarm levels",
 "h2s detector working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "thermocouple-mv-to-temperature",
@@ -2171,7 +2171,7 @@
 "types of photoelectric sensor",
 "photo electric sensor types"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "shielded-cable-and-twisted-pair",
@@ -2182,7 +2182,7 @@
 "shielded twisted pair cable",
 "shielded twisted pair"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "pressure-switch-wiring-no-nc",
@@ -2198,7 +2198,7 @@
 "impr": 1081,
 "pos": 5.8,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "zirconia-oxygen-analyzer-working-principle",
@@ -2209,7 +2209,7 @@
 "zirconia oxygen analyzer working principle",
 "cems analyzer working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "reverse-polarity-protection-circuits",
@@ -2219,7 +2219,7 @@
 "queries": [
 "reverse polarity protection"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "meter-prover-flow-meter-proving",
@@ -2233,7 +2233,7 @@
 "annubar type flow meter",
 "anubar flow meter"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "instrument-io-list-dcs-plc",
@@ -2241,7 +2241,7 @@
 "impr": 1057,
 "pos": 5.3,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "ph-meter-calibration-buffers",
@@ -2251,7 +2251,7 @@
 "queries": [
 "gas flow meter calibration"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "marshalling-cabinet-dcs-wiring",
@@ -2261,7 +2261,7 @@
 "queries": [
 "plc cabinet wiring"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "pt100-rtd-calibration-guide",
@@ -2273,7 +2273,7 @@
 "pt100 calibration",
 "rtd pt100 resistance to temperature calculator"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "plc-math-instructions",
@@ -2283,7 +2283,7 @@
 "queries": [
 "comparison instructions in plc"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "questions-and-answers-on-level-sensors",
@@ -2299,7 +2299,7 @@
 "impr": 1035,
 "pos": 10.0,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "emergency-shutdown-system-esd",
@@ -2310,7 +2310,7 @@
 "emergency shutdown system",
 "emergency shut down system"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "mems-gyroscope-working-principle",
@@ -2324,7 +2324,7 @@
 "rtd working principle in hindi",
 "potentiometer working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "iso-17025-calibration-laboratory-requirements",
@@ -2332,7 +2332,7 @@
 "impr": 1028,
 "pos": 24.4,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "slip-ring-induction-motor-working",
@@ -2342,7 +2342,7 @@
 "queries": [
 "induction motor slip formula"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "what-is-a-valve-manifold",
@@ -2353,7 +2353,7 @@
 "manifold valve",
 "valve manifold"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "free-scada-training-free-resources",
@@ -2375,7 +2375,7 @@
 "impr": 1008,
 "pos": 4.8,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "orifice-plate-vs-venturi-tube",
@@ -2389,7 +2389,7 @@
 "orifice plate dimensions",
 "orifice plate sizes"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "plc-multiple-outputs-configuration",
@@ -2397,7 +2397,7 @@
 "impr": 1000,
 "pos": 7.6,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "top-industrial-automation-companies",
@@ -2417,7 +2417,7 @@
 "impr": 997,
 "pos": 4.7,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "impulse-line-installation-slope",
@@ -2425,7 +2425,7 @@
 "impr": 994,
 "pos": 6.5,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "magnetic-level-gauge-troubleshooting",
@@ -2438,7 +2438,7 @@
 "magnetic level switch working principle",
 "enraf level gauge working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "switch-debouncing-hardware-software",
@@ -2446,7 +2446,7 @@
 "impr": 989,
 "pos": 10.1,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "rtd-temperature-sensor-working",
@@ -2460,7 +2460,7 @@
 "rtd working principle in hindi",
 "reed switch sensor working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "instrument-cable-schedule",
@@ -2474,7 +2474,7 @@
 "cable schedule template excel",
 "instrument cable color code standard"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "sequence-of-events-recording-in-dcs",
@@ -2482,7 +2482,7 @@
 "impr": 975,
 "pos": 6.9,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "how-to-calculate-the-range-for-differential-pressure-level-transmitters",
