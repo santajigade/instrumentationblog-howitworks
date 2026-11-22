@@ -17,6 +17,11 @@ ICONS = {
     'ph': '<path d="M80 20h40M88 20v60l-50 85a10 10 0 0 0 9 15h106a10 10 0 0 0 9-15l-50-85V20"/><path d="M58 140h84"/>',
     'rtd': '<path d="M115 125V35a15 15 0 0 0-30 0v90a30 30 0 1 0 30 0z"/><path d="M100 60v75"/><path d="M140 50h40M140 80h30M140 110h40"/>',
     # added 21 Nov 2026
+    'scada': '<rect x="20" y="30" width="160" height="110" rx="10"/><path d="M40 115l30-35 25 20 30-45 35 30"/><path d="M80 170h40M100 140v30"/>',
+    'dcs': '<rect x="45" y="20" width="110" height="160" rx="8"/><path d="M45 60h110M45 100h110M45 140h110"/><circle cx="70" cy="40" r="6"/><circle cx="70" cy="80" r="6"/><circle cx="70" cy="120" r="6"/><circle cx="70" cy="160" r="6"/><path d="M95 40h40M95 80h40M95 120h40M95 160h40"/>',
+    'shield': '<path d="M100 20l65 25v50c0 45-30 75-65 88-35-13-65-43-65-88V45z"/><rect x="75" y="95" width="50" height="40" rx="6"/><path d="M85 95V80a15 15 0 0 1 30 0v15"/>',
+    'topology': '<circle cx="100" cy="100" r="18"/><circle cx="40" cy="40" r="14"/><circle cx="160" cy="40" r="14"/><circle cx="40" cy="160" r="14"/><circle cx="160" cy="160" r="14"/><path d="M87 87L52 52M113 87l35-35M87 113l-35 35M113 113l35 35"/><path d="M54 40h92M54 160h92" opacity=".6"/>',
+    'turbine': '<circle cx="100" cy="100" r="75"/><circle cx="100" cy="100" r="16"/><path d="M100 84V30M100 116v54M84 100H30M116 100h54M89 89L52 52M111 111l37 37M89 111l-37 37M111 89l37-37"/>',
     'tacho': '<path d="M30 140a70 70 0 0 1 140 0"/><path d="M100 140l45-50"/><circle cx="100" cy="140" r="9"/><path d="M42 105l12 7M100 70v14M158 105l-12 7"/><path d="M50 170h100"/>',
     'threephase': '<path d="M10 100c20-60 40-60 60 0s40 60 60 0 40-60 60 0"/><path d="M10 60c20 60 40 60 60 0" opacity=".6"/><path d="M70 140c20-60 40-60 60 0s40 60 60 0" opacity=".6"/>',
     'pcb': '<rect x="65" y="65" width="70" height="70" rx="6"/><path d="M80 65V30M100 65V20M120 65V30M80 135v35M100 135v45M120 135v35M65 85H30M65 115H20M135 85h35M135 115h45"/><circle cx="30" cy="85" r="6"/><circle cx="170" cy="115" r="6"/>',
@@ -83,11 +88,11 @@ HUB_OF = {
 }
 
 POSTS = [
-    ('tachometer-working-principle-types', 'Tachometer Working Principle', 'Types and RPM Calculator', 'Electronic Sensors', ['RPM Formula', 'Hall Sensor', 'PPR'], 'tacho', None),
-    ('why-three-phase-voltage-is-440v', 'Why Three Phase Voltage Is 440V', 'Formula, Chart and Calculator', 'Electronics Fundamentals', ['√3 Rule', '415 V', 'Phasor'], 'threephase', None),
-    ('pcb-propagation-delay-calculation', 'PCB Propagation Delay', 'Formula, Calculator and Solved Example', 'PCB Design & Signal Integrity', ['Microstrip', 'Stripline', 'Skew'], 'pcb', None),
-    ('intelligent-mcc-imcc', 'Intelligent MCC (iMCC)', 'Diagram, Calculator and Table', 'Power Electronics & Protection', ['iMCC', 'Smart Relay', 'Profinet'], 'mcc', None),
-    ('instruction-list-plc-programming', 'Instruction List PLC Programming', 'Examples and Calculator', 'PLC', ['IEC 61131 3', 'LD AND ST', 'Ladder to IL'], 'ladder', None),
+    ('scada-applications-by-industry', 'SCADA Applications by Industry', 'Table and Poll Calculator', 'SCADA', ['Water', 'Power Grid', 'Pipelines'], 'scada', None),
+    ('yokogawa-centum-vp-dcs-overview', 'Yokogawa CENTUM VP', 'Architecture Diagram and I/O Calculator', 'DCS', ['CENTUM VP', 'Vnet/IP', 'FCS'], 'dcs', None),
+    ('modbus-tcp-security', 'Modbus TCP Security', 'Risk Calculator and Firewall Diagram', 'Cybersecurity', ['Port 502', 'TLS 802', 'IEC 62443'], 'shield', None),
+    ('network-topology-star-bus-ring', 'Network Topology', 'Star, Bus, Ring and Mesh Comparison Table', 'Communication', ['PROFINET', 'MRP Ring', 'Full Mesh'], 'topology', None),
+    ('steam-turbine-barring-gear-logic', 'Steam Turbine Barring Gear Logic', 'Logic Diagram and Calculator', 'Safety Systems', ['Barring', 'Interlocks', 'Rotor Bow'], 'turbine', None),
 ]
 
 if __name__ == '__main__':
