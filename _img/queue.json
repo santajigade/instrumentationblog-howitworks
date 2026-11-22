@@ -283,7 +283,7 @@
 "hot loop check and cold loop check",
 "cold loop checking in instrumentation"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "star-delta-transformation-formula",
@@ -295,7 +295,7 @@
 "star to delta conversion",
 "star delta transformation formula"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "namur-ne43-standard-explained",
@@ -306,7 +306,7 @@
 "namur ne43 standard",
 "namur 43 standard"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "half-adder-vs-full-adder",
@@ -315,7 +315,7 @@
 "half adder and full adder",
 "difference between half adder and full adder"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "list-of-free-scada-software",
@@ -339,7 +339,7 @@
 "3 types of photoelectric sensors",
 "types of photoelectric sensors"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "flow-characteristics-of-control-valves",
@@ -351,7 +351,7 @@
 "choked flow in control valve",
 "flow characteristics of control valve"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "what-is-a-mimic-panel-types-uses",
@@ -362,7 +362,7 @@
 "what is mimic panel",
 "mimic diagram in panel"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "wheatstone-bridge-10-applications",
@@ -374,7 +374,7 @@
 "name two practical applications of wheatstone bridge",
 "wheatstone bridge applications"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "100-essential-engineering-formulas",
@@ -385,7 +385,7 @@
 "engineering calculations and formulas",
 "all engineering formulas"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "difference-between-3-1-and-3-2-material-certificates",
@@ -397,7 +397,7 @@
 "difference between filter and strainer",
 "difference between pnp and npn proximity sensor"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "cascode-amplifier-working-principle",
@@ -409,7 +409,7 @@
 "rtd working principle in hindi",
 "potentiometer working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "flip-flop-types-sr-jk-d-t",
@@ -417,7 +417,7 @@
 "queries": [
 "types of flip flop"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "induction-motor-slip-explained",
@@ -425,7 +425,7 @@
 "queries": [
 "induction motor slip formula"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "what-is-rtd-and-how-it-works",
@@ -433,7 +433,7 @@
 "queries": [
 "differential pressure transmitter how it works"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "types-of-thermocouples-and-ranges",
@@ -442,7 +442,7 @@
 "thermocouple types and ranges",
 "types of thermocouples and their ranges"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "hazardous-area-classification-zone",
@@ -451,7 +451,7 @@
 "hazardous area classification zone",
 "hazardous area classification zone 0 1 2 pdf"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "astable-vs-monostable-vs-bistable-multivibrator",
@@ -463,7 +463,7 @@
 "astable vs monostable vs bistable",
 "astable bistable and monostable multivibrator"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "rtd-resistance-to-temperature-calculator",
@@ -475,7 +475,7 @@
 "pt100 formula for temperature from resistance",
 "cable resistance calculator"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "temperature-sensor-response-time",
@@ -484,7 +484,7 @@
 "rtd response time",
 "what is pt100 temperature sensor"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "measurement-uncertainty-in-calibration",
