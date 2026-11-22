@@ -1,0 +1,24 @@
+{
+ "id": 13979,
+ "slug": "sis-and-bpcs-differences",
+ "impr": 554,
+ "ctr": 0.54,
+ "pos": 7.6,
+ "queries": [],
+ "title": "SIS and BPCS: 5 Critical Differences Every Automation Engineer Must Know",
+ "rank_math_title": "SIS and BPCS: 5 Critical Differences Explained",
+ "rank_math_description": "SIS and BPCS differences explained: independence requirements, purpose, failure modes, and IEC 61511 compliance for safety instrumented systems.",
+ "focus_keyword": "SIS and BPCS",
+ "headings": [
+  "One System Runs the Plant, the Other Keeps It From Becoming a Disaster",
+  "The 5 Critical Differences Between SIS and BPCS",
+  "Where Each System Sits in the Layers of Protection",
+  "Full Comparison Table: SIS vs BPCS",
+  "Where SIL Fits Into This Picture",
+  "Watch: BPCS vs SIS, A HAZOP Crash Course",
+  "Why Independence Is Not Just Theory: The 2017 Triton Incident",
+  "Quick FAQs: SIS and BPCS",
+  "External References"
+ ],
+ "text": "Process Safety \u00b7 Functional Safety \u00b7 IEC 61511\n\r\n SIS and BPCS: 5 Critical Differences Every Automation Engineer Must Know\n\r\n Every hazardous process plant runs two separate systems side by side, and confusing their roles is a genuinely dangerous mistake. This guide explains SIS and BPCS in depth, with real reference diagrams, a comparison table, a video, and a documented real world case.\n\r\n \r\n Purpose and Independence \r\n Active vs Dormant Operation \r\n IEC 61511 Requirements \r\n Real Security Case Study \r\n \n\r\n\n\r\n\r\n\r\n \r\n One System Runs the Plant, the Other Keeps It From Becoming a Disaster\n\r\n\r\n A Basic Process Control System, or BPCS, is the everyday control system that keeps a plant running, continuously adjusting valves, pumps, and heaters to hold pressure, temperature, level, and flow within normal operating targets. A Safety Instrumented System, or SIS, exists for a completely different reason. It sits quietly in the background, doing nothing most of the time, ready to force the process into a safe state the moment BPCS control genuinely fails.\n\r\n\r\n Both systems often use similar hardware, sensors, logic solvers, and final control elements, which is exactly why the two get confused. But their intent could not be more different, and that distinction connects directly to concepts already covered in what SIL actually means for an instrumentation engineer.\n\r\n\r\n \r\n \r\n \r\n\r\n\r\n \r\n The 5 Critical Differences Between SIS and BPCS\n\r\n\r\n \r\n \r\n 1\n\r\n Purpose differs: continuous control vs last line of defense BPCS exists to keep process variables within normal operating range, continuously and automatically. SIS exists purely to detect hazardous conditions and force a safe state when everything else has already failed.\n\r\n \n\r\n \r\n 2\n\r\n Independence is mandatory for SIS, optional for BPCS Industry standards state plainly that a device performing part of a safety instrumented function should not also be used for basic process control, unless a documented analysis confirms the shared risk is acceptable.\n\r\n \n\r\n \r\n 3\n\r\n Operating state differs: active and dynamic vs passive and dormant BPCS is constantly working, responding to countless inputs every second. SIS spends most of its life idle, simply watching, which is precisely why its failures behave so differently.\n\r\n \n\r\n \r\n 4\n\r\n Failure visibility differs: self revealing vs hidden A failed BPCS loop usually shows itself quickly through an obvious process upset. A failed SIS component can sit silently broken for months, since it was never actually called upon, which is exactly why SIS relies so heavily on diagnostics and scheduled proof testing.\n\r\n \n\r\n \r\n 5\n\r\n Governing standards and change control differ sharply SIS design, testing, and modification are governed by IEC 61511 and enforced through strict Management of Change procedures, while BPCS changes, though still controlled, happen far more routinely and with lighter formal process.\n\r\n \n\r\n\n\r\n \r\n \r\n \r\n \n\r\n \r\n Advertisement\r\n \r\n \n\r\n \n\r\n \r\n \r\n\r\n \r\n \n\r\n \r\n Adverti"
+}

@@ -1,0 +1,32 @@
+{
+ "id": 17211,
+ "slug": "rtd-pt100-vs-pt1000-differences",
+ "impr": 520,
+ "ctr": 0.19,
+ "pos": 8.3,
+ "queries": [
+  "how to calibrate rtd pt100",
+  "rtd pt100 resistance to temperature calculator"
+ ],
+ "title": "Pt100 vs Pt1000: Resistance, Sensitivity and Application Differences",
+ "rank_math_title": "Pt100 vs Pt1000: Resistance, Sensitivity & Differences",
+ "rank_math_description": "Pt100 vs Pt1000 compared: resistance, sensitivity, lead wire error, self-heating, wiring and range, plus a live resistance and lead error calculator.",
+ "focus_keyword": "Pt100 vs Pt1000",
+ "headings": [
+  "Pt100 vs Pt1000: Why the Resistance Value Matters",
+  "Pt100 vs Pt1000 Resistance at Key Temperatures",
+  "Pt100 vs Pt1000: Full Comparison",
+  "Lead Wire Error: The Most Critical Pt100 vs Pt1000 Difference",
+  "Pt100 vs Pt1000 Resistance and Lead Error Calculator",
+  "When to Choose Pt100 vs Pt1000",
+  "Choose Pt100 when:",
+  "Choose Pt1000 when:",
+  "Pt100 in 4-wire for highest accuracy",
+  "Replacing one with the other",
+  "Watch: Pt100 vs Pt1000 RTD Sensor Differences Explained",
+  "Pt100 vs Pt1000 Questions",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Temperature Measurement\n\r\n Pt100 vs Pt1000: Resistance, Sensitivity and Application Differences\n\r\n The Pt100 vs Pt1000 question comes down to nominal resistance at 0\u00b0C: 100 \u03a9 versus 1000 \u03a9 at ice point.\n\r\n Both share the same platinum material, the same temperature range, and the same temperature coefficient. The practical differences appear in sensitivity, lead wire error, self-heating, and transmitter compatibility.\n\r\n This guide covers every Pt100 vs Pt1000 difference that matters for sensor selection, wiring, and measurement accuracy.\n\r\n \r\n 100 \u03a9 vs 1000 \u03a9 at 0\u00b0C \r\n 0.385 vs 3.85 \u03a9/\u00b0C \r\n Lead Wire Error \r\n Self-Heating Effect \r\n \n\r\n\n\r\n\r\n In the Pt100 vs Pt1000 comparison: both use platinum, IEC 60751, TCR 0.00385 \u03a9/\u03a9/\u00b0C. The Pt1000 is ten times more sensitive. The same 1 \u03a9 lead wire resistance causes 2.6\u00b0C error in a Pt100 but only 0.26\u00b0C in a Pt1000.\n\r\n\r\n Pt100 vs Pt1000: Why the Resistance Value Matters\n\r\n\r\n \r\n Hello! Today we are comparing Pt100 vs Pt1000 RTD sensors. These are the two most common platinum RTD types in industrial and commercial temperature measurement. They look identical on the outside and measure temperature by the same physical principle. But their different base resistance values create real differences in sensitivity, lead wire error, self-heating, and instrument compatibility that affect which one belongs in your application.\r\n\n\r\n \r\n \r\n \r\n \r\n Both Pt100 and Pt1000 are platinum resistance thermometers (RTDs). Platinum resistance increases linearly with temperature.\n\r\n At 0\u00b0C, the Pt100 = 100 \u03a9 and the Pt1000 = 1000 \u03a9. This 10:1 ratio is the only electrical difference between them.\n\r\n Three consequences follow from this ratio: the sensitivity difference , the lead wire error difference , and the self-heating difference . Each affects which sensor is appropriate for your application. Click any term to expand.\n\r\n Sensitivity: Sensitivity is the change in resistance per degree Celsius. For a Pt100 this is 0.385 \u03a9/\u00b0C. For a Pt1000 it is 3.85 \u03a9/\u00b0C. The Pt1000 produces ten times more signal per degree, which is easier for the measurement electronics to resolve. This makes the Pt1000 more immune to electrical noise on long cable runs and a better choice for low-cost transmitters or direct microcontroller input where the ADC has limited resolution.\n\r\n Lead Wire Error: Every meter of copper lead wire adds resistance to the measured value. The same length of 0.5 mm\u00b2 copper wire adds the same resistance in ohms regardless of whether it is connected to a Pt100 or a Pt1000. But that resistance represents a much larger fraction of the total Pt100 signal. A 1 \u03a9 lead resistance causes approximately 2.6\u00b0C of error in a Pt100 (2-wire configuration). The same 1 \u03a9 lead causes only 0.26\u00b0C error in a Pt1000. This is why Pt1000 sensors are preferred for 2-wire installations with long cable runs.\n\r\n Self-Heating: When an excitation current flows through the RTD, it dissipates power as heat (P = I\u00b2 \u00d7 R). A Pt1000 with the same excitation curre"
+}

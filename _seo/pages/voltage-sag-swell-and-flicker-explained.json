@@ -1,0 +1,33 @@
+{
+ "id": 17970,
+ "slug": "voltage-sag-swell-and-flicker-explained",
+ "impr": 514,
+ "ctr": 0.58,
+ "pos": 9.4,
+ "queries": [],
+ "title": "Voltage Sag, Swell, and Flicker Explained",
+ "rank_math_title": "",
+ "rank_math_description": "Voltage Sag, Swell, and Flicker explained: causes, standards, monitoring, and how sensitive equipment responds to each disturbance type.",
+ "focus_keyword": "Voltage Sag",
+ "headings": [
+  "Defining the Three Events",
+  "Reading a Recorded Waveform",
+  "Why These Are Grouped Together",
+  "Common Causes of Each Event",
+  "Impact on Plant Equipment",
+  "How Sensitive Equipment Actually Responds",
+  "Measuring Flicker Severity",
+  "Mitigation Approaches",
+  "Setting Up Effective Monitoring",
+  "Sag and Swell vs Long Duration Outage",
+  "Standards and Contractual Limits",
+  "Common Mistakes to Avoid",
+  "Where This Shows Up on a Plant Floor",
+  "Watch: Voltage Sag and Swell Simulated Results",
+  "Voltage Sag, Swell, and Flicker FAQs",
+  "Related Articles on This Site",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Power Quality and Protection\n\r\n Voltage Sag, Swell, and Flicker Explained\n\r\n Lights that dim for a second, a drive that trips without warning, or a bulb that visibly flickers all trace back to the same family of short duration power quality disturbances.\n\r\n \r\n Voltage Sag Swell Flicker \r\n Power Quality \r\n IEEE 1159 \r\n RMS Disturbance \r\n \n\r\n\n\r\n\r\n Voltage sag, swell, and flicker are three distinct short duration power quality events, a sag is a brief drop in voltage, a swell is a brief rise, and flicker is a rapid, repeated fluctuation that shows up as visible light flicker.\n\r\n\r\n \r\n Hello everyone, today we are going to walk through voltage sag, swell, and flicker one at a time, how each is measured, what typically causes it, and how it differs from the longer duration harmonics problems covered separately.\n\n\r\n This complements our existing look at power harmonics and power quality issues with VFDs and PLCs .\r\n\n\r\n \r\n \r\n \r\n Defining the Three Events\n\r\n\r\n A voltage sag, sometimes called a dip, is a decrease to between 10 and 90 percent of nominal voltage lasting from half a cycle up to one minute, most often caused by a fault or a large motor starting nearby.\n\r\n\r\n A voltage swell is the opposite, a temporary rise above 110 percent of nominal voltage for the same duration range, often caused by a sudden large load switching off or a single line fault on a nearby feeder.\n\r\n\r\n Flicker is different from both, a rapid, repeated variation in voltage magnitude, usually caused by loads like arc furnaces or large motors that draw fluctuating current, perceived by the human eye as visible light flicker rather than a single dip or rise.\n\r\n\r\n Reading a Recorded Waveform\n\r\n\r\n A power quality recorder captures the RMS voltage on a per cycle basis, plotting it as a trend line that dips or spikes clearly whenever one of these events occurs, making them easy to spot after the fact.\n\r\n\r\n Reviewing the raw waveform alongside the RMS trend often reveals the underlying cause, a fault shows a sharp asymmetric dip, while a load switching event tends to produce a cleaner step change.\n\r\n\r\n Why These Are Grouped Together\n\r\n\r\n All three fall under the IEEE 1159 standard's classification of short duration RMS variations, distinguishing them from the longer term harmonic distortion problems that persist continuously rather than appearing briefly.\n\r\n\r\n Grouping them together makes sense operationally too, since the same power quality monitoring equipment typically captures and reports all three event types from the same recorded waveform data.\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n Common Causes of Each Event\n\r\n\r\n \r\n Sag Causes\n Motor starting, transformer energizing, or a fault elsewhere on the network\n\n\r\n Swell Causes\n Sudden load rejection, capacitor bank switching, or single line to ground faults\n\n\r\n Flicker Causes\n Arc furnaces, welding equipment, and other loads with rapidly varying current draw\n\n\r\n Shared Impact\n Sensitive electronics, VFDs, and PLCs can all misbehave durin"
+}

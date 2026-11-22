@@ -1,0 +1,30 @@
+{
+ "id": 19019,
+ "slug": "override-control-selector-dcs",
+ "impr": 515,
+ "ctr": 0.78,
+ "pos": 5.5,
+ "queries": [
+  "what is a dcs control system"
+ ],
+ "title": "Override Control: 5 Essential Steps for Best Selector Design",
+ "rank_math_title": "",
+ "rank_math_description": "Learn how override control uses high and low selectors in a DCS to guard equipment, why integral windup happens, external reset fixes and a selector calculator.",
+ "focus_keyword": "override control",
+ "headings": [
+  "What Is Override Control?",
+  "High and Low Select in Override Control",
+  "Typical Override Control Examples",
+  "Integral Windup in Override Control",
+  "Selector Logic Formula",
+  "Selector Calculator",
+  "5 Essential Override Control Design Steps",
+  "External Reset Feedback PDF",
+  "Introduction to Selector Overrides Video",
+  "Override Control FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "DCS\n\r\n Override Control: 5 Essential Steps for Best Selector Design\n\r\n A pump or compressor must meet its production target, yet it must never cross a pressure or temperature limit. Selector based strategies let a second controller take over smoothly whenever a constraint gets close, then hand control back.\n\r\n \r\n Low Select \r\n High Select \r\n External Reset \r\n Override Control \r\n \n\r\n\n\r\n\r\n Many loops have one normal goal and one or more limits that must never be crossed. Selectors in the DCS pick whichever controller output is safest and hand control back when the limit clears.\n\r\n\r\n \r\n Hello everyone, today we are going to learn how override control works with high and low selectors, why the unselected controller winds up and how external reset feedback keeps the switchover bumpless.\r\n\n\r\n \r\n \r\n \r\n What Is Override Control?\n\r\n\r\n Override control is a strategy in which two or more controllers share one final element, and a high or low selector passes only one of their outputs to the valve or drive. The normal controller runs most of the time, while a constraint controller takes over when a limit is approached, extending ideas from PID controller types .\n\r\n\r\n This article covers process selectors, not the bypass of safety signals. For that other meaning of the word, read safety signal override explained .\n\r\n\r\n \r\n \r\n Image credit: Control.com \r\n \r\n\r\n Control.com calls this soft override, because the constraint controller acts gradually through PID action instead of a hard trip. The shutdown system still remains as the last layer.\n\r\n\r\n High and Low Select in Override Control\n\r\n\r\n Control.com explains that a high select function outputs the greatest of its inputs, and a low select outputs the least. The choice depends on which direction makes the process safer.\n\r\n\r\n \r\n Low Select\n Passes the smallest output.\n Best for: limit maximum pressure or load\n LS \n\r\n High Select\n Passes the largest output.\n Best for: keep a minimum flow or level\n HS \n\r\n Median Select\n Passes the middle of three inputs.\n Best for: redundant transmitters\n MS \n\r\n\n\r\n\r\n Think about the fail position of the valve before choosing the selector. A fail closed valve and a fail open valve can need opposite selectors for the same constraint, much like the direction logic in cascade control .\n\r\n\r\n Typical Override Control Examples\n\r\n\r\n \r\n Pump Protection\n A flow controller normally drives the pump, while a pressure controller takes over near a pressure limit.\n\n\r\n Compressor Limits\n Speed is limited by discharge pressure or motor current.\n\n\r\n Boiler Firing\n Fuel demand is limited by available combustion air.\n\n\r\n Furnace Tubes\n Firing is cut back when tube skin temperature rises.\n\n\r\n\n\r\n\r\n Compressor systems use selectors heavily, along with the anti surge loop covered in compressor anti surge controller . The DCS usually builds these schemes from standard blocks, see DCS function block programming .\n\r\n\r\n Integral Windup in Override Control\n\r\n\r\n Control.com points out the main problem: the desele"
+}

@@ -1,0 +1,26 @@
+{
+ "id": 17533,
+ "slug": "plc-bit-shift-rotate-instructions",
+ "impr": 515,
+ "ctr": 0.39,
+ "pos": 5.8,
+ "queries": [],
+ "title": "PLC Bit Shift and Rotate Instructions: BSL, BSR, ROL, ROR Explained",
+ "rank_math_title": "PLC Bit Shift and Rotate: BSL, BSR, ROL, ROR Explained",
+ "rank_math_description": "PLC bit shift and rotate instructions BSL, BSR, ROL and ROR: parameters, bit-state tables, shift vs rotate and real automation examples.",
+ "focus_keyword": "PLC bit shift,BSL",
+ "headings": [
+  "PLC Bit Shift and Rotate Instructions: BSL BSR ROL ROR Overview",
+  "BSL: Bit Shift Left Instruction",
+  "BSR: Bit Shift Right Instruction",
+  "ROL and ROR: Rotate Instructions",
+  "BSL vs BSR vs ROL vs ROR: Full Comparison",
+  "Real Applications of Bit Shift and Rotate in PLC Programs",
+  "Watch: PLC Bit Shift Instructions Explained",
+  "PLC Bit Shift and Rotate Questions Engineers Ask",
+  "Related Articles on This Site",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "DCS and Automation\n\r\n PLC Bit Shift and Rotate Instructions: BSL, BSR, ROL, ROR Explained\n\r\n Bit shift and rotate instructions move bits through a register or array one position at a time. BSL and BSR shift through arrays. ROL and ROR rotate within a single register.\n\r\n \r\n BSL Bit Shift Left \r\n BSR Bit Shift Right \r\n ROL Rotate Left \r\n ROR Rotate Right \r\n Ladder Logic \r\n \n\r\n\n\r\n\r\n \r\n Hello everyone, today we are going to learn about PLC bit shift and rotate instructions: BSL, BSR, ROL, and ROR .\n\n\r\n We will understand how each instruction moves bits through registers or arrays, what happens to the bit that falls off the end, and what value enters from the other end.\n\r\n We will also cover the key differences between shift and rotate instructions, look at bit-state tables for each instruction, and see real application examples in PLC ladder logic programs.\r\n\n\r\n\r\n Bit shift and rotate instructions are used in conveyor tracking, step sequencers, and pattern generators where a bit must move through a series of positions in a controlled way.\n\r\n \r\n \r\n \r\n PLC Bit Shift and Rotate Instructions: BSL BSR ROL ROR Overview\n\r\n\r\n \r\n \r\n BSL (Bit Shift Left)\n\r\n Array \u2192 shifts toward higher bit\n\r\n Shifts all bits in an array toward the high end. A new bit enters at bit 0 from Source. The exiting bit goes to the UL overflow bit.\n\r\n \n\r\n \r\n BSR (Bit Shift Right)\n\r\n Array \u2192 shifts toward lower bit\n\r\n Shifts all bits in an array toward the low end. A new bit enters at the top from the Source parameter. The exiting bit goes to the UL overflow bit.\n\r\n \n\r\n \r\n ROL (Rotate Left)\n\r\n Register \u2192 wraps bit back to bit 0\n\r\n Rotates all bits in a single register one position to the left. The bit exiting the top wraps back to bit 0. No bit is lost. The register content circulates continuously.\n\r\n \n\r\n \r\n ROR (Rotate Right)\n\r\n Register \u2192 wraps bit back to top\n\r\n Rotates all bits in a single register one position to the right. The bit that shifts out of bit 0 wraps back and re-enters at the top bit. No bit is lost.\n\r\n \n\r\n\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n BSL: Bit Shift Left Instruction\n\r\n\r\n BSL operates on a bit array. Each rising edge shifts every bit one position left. A new bit enters at bit 0 from Source. The exiting bit goes to the UL bit.\n\r\n\r\n \r\n BSL Instruction Parameters\n\r\n BSL \n\r\n \u00a0\u00a0File: \u00a0\u00a0 Conveyor_Bits[0] \u00a0 ( DINT array, starting element ) \n\r\n \u00a0\u00a0Source: New_Part_Sensor \u00a0\u00a0 ( bit to enter at position 0 on each shift ) \n\r\n \u00a0\u00a0Control: R6:0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 ( control structure: .UL = overflow bit ) \n\r\n \u00a0\u00a0Length: 16 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 ( total bits to use in the array ) \n\r\n\n\r\n\r\n \r\n \r\n State Bit 0 Bit 1 Bit 2 Bit 3 UL (overflow) \n\r\n Before shift 1 0 1 1 0 \n\r\n Source bit = 0 \n\r\n After BSL 0 1 0 1 1 \n\r\n \r\n\n\r\n\r\n The original bit 3 (value 1) moved into the overflow (UL) bit. Source bit value 0 entered at bit 0. Every other bit moved one step to the left.\n\r\n\r\n \r\n Executes on\n Rising edge of rung only. Each false-to-true transition shifts by one position.\n\n\r\n New bit source\n The Source paramete"
+}

@@ -1,0 +1,24 @@
+{
+ "id": 14512,
+ "slug": "how-does-a-gas-filled-thermometer-work",
+ "impr": 500,
+ "ctr": 0.8,
+ "pos": 7.2,
+ "queries": [],
+ "title": "How Does a Gas Filled Thermometer Work? 6 Facts Every Engineer Should Know",
+ "rank_math_title": "Gas Filled Thermometer: How It Works, 6 Key Facts",
+ "rank_math_description": "How does a gas filled thermometer work? Bourdon tube mechanism, ideal gas law, real range and accuracy data, ambient compensation explained.",
+ "focus_keyword": "gas filled thermometer",
+ "headings": [
+  "How a Gas Filled Thermometer Actually Works",
+  "6 Facts About Gas Filled Thermometers Every Engineer Should Know",
+  "Watch: How Does a Gas Filled Thermometer Work?",
+  "A Worked Example: Seeing the Gas Law in Action",
+  "Gas Filled vs Bimetal vs Vapor Filled Thermometers",
+  "Advantages and Disadvantages of Gas Filled Thermometers",
+  "Where Gas Filled Thermometers Are Actually Used",
+  "Quick FAQs: Gas Filled Thermometers",
+  "External References"
+ ],
+ "text": "Temperature Measurement \u00b7 Mechanical Instruments \u00b7 Bourdon Tube\n\r\n How Does a Gas Filled Thermometer Work? 6 Facts Every Engineer Should Know\n\r\n No battery, no wiring, no signal loop, and it still reads temperature accurately from -200\u00b0C to 650\u00b0C. This guide explains how a gas filled thermometer works, the real physics behind it, and a video showing the mechanism in motion.\n\r\n \r\n Bourdon Tube Mechanism \r\n Ideal Gas Law in Practice \r\n Real Range and Accuracy Data \r\n Ambient Temperature Compensation \r\n \n\r\n\n\r\n\r\n\r\n How a Gas Filled Thermometer Actually Works\n\r\n\r\n A gas filled thermometer measures temperature by sealing an inert gas inside a fixed volume and reading the pressure that builds up as it heats. That pressure change bends a Bourdon tube, and the bend itself becomes the pointer movement you read on the dial.\n\r\n\r\n The whole system, sensing bulb, capillary tube, and Bourdon tube, is welded shut and filled with gas under pressure at the factory. Nothing enters or leaves once it's sealed. Heat the bulb, and the trapped gas has nowhere to expand, so its pressure rises instead. That pressure is exactly what a Bourdon tube is built to measure, a curved metal tube that straightens slightly under internal pressure, and that small mechanical movement gets amplified through a linkage into a full pointer sweep across the dial.\n\r\n\r\n This is genuinely different from how a thermocouple or RTD works. Those are electrical sensors, producing a voltage or resistance that a transmitter converts into a signal. A gas filled thermometer produces nothing electrical at all. It's pure mechanics, sealed gas, pressure, and a spring shaped tube, which is exactly why it needs no power supply and works reliably in areas where running an electrical signal would be a genuine hazard.\n\r\n\r\n Some modern designs go a step further, using a carbon-based molecular sieve inside the bulb. This material adsorbs gas at lower temperatures and releases it as temperature rises, which lets manufacturers use a lower initial system pressure while still achieving the same full-scale reading. Lower internal pressure means less mechanical stress on the Bourdon tube over its service life, directly extending how long the instrument holds calibration before needing replacement.\n\r\n\r\n \r\n \r\n Image: Gas actuated dial thermometer, courtesy of WIKA \n\r\n\n\r\n\r\n\r\n \r\n \r\n \r\n \n\r\n \r\n Advertisement\r\n \r\n \n\r\n \n\r\n \r\n \r\n \r\n \n\r\n \r\n Advertisement\r\n \r\n \n\r\n \n\r\n\n\r\n \r\n\r\n\r\n \r\n 6 Facts About Gas Filled Thermometers Every Engineer Should Know\n\r\n\r\n \r\n \r\n 1\n\r\n It's officially classified as a Class III filled system ASME B40.200 splits filled-system thermometers into Class I, liquid filled, Class II, vapor filled, and Class III, gas filled. Each fill type behaves completely differently, and gas filled systems sit apart from the other two specifically because of how they follow the ideal gas law.\n\r\n \n\r\n \r\n 2\n\r\n The pressure-temperature relationship is genuinely linear Because the system holds a fixed volume, pressure rises in dir"
+}

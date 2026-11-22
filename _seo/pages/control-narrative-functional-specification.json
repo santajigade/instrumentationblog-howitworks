@@ -1,0 +1,33 @@
+{
+ "id": 20060,
+ "slug": "control-narrative-functional-specification",
+ "impr": 541,
+ "ctr": 0.92,
+ "pos": 6.0,
+ "queries": [],
+ "title": "Control Narrative: 9 Essential Sections for Smooth Projects",
+ "rank_math_title": "",
+ "rank_math_description": "A control narrative explains in plain words how every loop, interlock, sequence and alarm in a DCS or PLC must behave. See its 9 sections, review and FAT link.",
+ "focus_keyword": "control narrative",
+ "headings": [
+  "What Is a Control Narrative?",
+  "Why Every DCS Project Needs One",
+  "9 Essential Sections of a Control Narrative",
+  "Writing a Good Loop Description",
+  "Interlocks, Permissives and Sequences",
+  "Control Narrative Versus Related Documents",
+  "Review With Process and Operations",
+  "Effort Formula for a Control Narrative",
+  "Control Narrative Effort Calculator",
+  "Second Worked Example: A Small Dosing Skid",
+  "From Narrative to FAT and Commissioning",
+  "Control Narrative Quality Checklist",
+  "Real Water Treatment Plant Control Narrative",
+  "How Control Systems Are Tested at FAT",
+  "Control Narrative FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "DCS\n\r\n Control Narrative: 9 Essential Sections for Smooth Projects\n\r\n P&IDs show what is installed, but they do not say how the plant should behave when a pump trips or a level climbs too high. A clear written description of the control intent fills that gap before a single line of logic is written.\n\r\n \r\n Loop Descriptions \r\n Interlocks and Permissives \r\n Sequences and Modes \r\n Review and FAT \r\n \n\r\n\n\r\n\r\n Every DCS and PLC project needs one document that says, in plain language, how the plant must be controlled. A well written control narrative aligns process, operations and programmers, and later becomes the yardstick for testing.\n\r\n\r\n \r\n Hello everyone, today we are going to learn what a control narrative is, which sections it must contain, how it is reviewed with process and operations teams, and how it drives the factory acceptance test.\r\n\n\r\n \r\n \r\n \r\n What Is a Control Narrative?\n\r\n\r\n A control narrative is a written description, in plain engineering language, of how a process unit must be monitored and controlled, covering each loop, interlock, sequence, operating mode and alarm. It turns the static picture of a piping and instrumentation diagram into behaviour that a programmer can configure and an operator can understand.\n\r\n\r\n The document is also called a functional description, a loop description or, in larger projects, part of the functional design specification. The names vary between companies, but the purpose is the same: agree what the system must do before anyone decides how to program it.\n\r\n\r\n \r\n \r\n Image credit: Cross Company . Image courtesy of Cross Company, shown here for educational reference. \r\n \r\n\r\n Cross Company, a US system integrator, says a typical control narrative defines all control loops, including range, description, alarms, graphic depiction, interlocks and automated logic. It also lists the equipment, the software items such as totalizers and calculations, and the concurrent tasks that run outside sequences.\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n Why Every DCS Project Needs One\n\r\n\r\n Tetra Tech states that a functional specification defines how an automation or control system must operate, including its response during normal operation, edge cases and fault conditions. It advises developing the document before programming begins and keeping it as a living document as the system evolves.\n\r\n\r\n Without a control narrative, programmers guess the intent from P&IDs and old logic, and the guesses surface as arguments during commissioning. With one, the process engineer, the operations team and the DCS function block programmer all work from the same words.\n\r\n\r\n \r\n 9 Essential sections in this guide \n\r\n 3 Parts in the Vegas documentation approach \n\r\n 2007 Year of ANSI/ISA 5.06.01 \n\r\n Rev F Hudson\u2019s Hope narrative revision \n\r\n\n\r\n\r\n Do You Know?\n In an ISA Mentor Program discussion on Emerson Exchange 365, Hiten Dalal describes a functional specification as a progressive elaboration of a simple process description written by "
+}

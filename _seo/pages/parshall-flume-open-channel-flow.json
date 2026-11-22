@@ -1,0 +1,35 @@
+{
+ "id": 19465,
+ "slug": "parshall-flume-open-channel-flow",
+ "impr": 573,
+ "ctr": 0.52,
+ "pos": 8.8,
+ "queries": [
+  "open channel flow calculator",
+  "manning equation open channel flow calculator"
+ ],
+ "title": "Parshall Flume Guide: 6 Smart Steps for Accurate Flow Data",
+ "rank_math_title": "",
+ "rank_math_description": "Learn how a Parshall flume measures open channel flow with Q = C H^n, throat sizes, free and submerged flow, ultrasonic head sensors and an STP flow calculator.",
+ "focus_keyword": "Parshall flume",
+ "headings": [
+  "What Is a Parshall Flume?",
+  "Parts of the Flume and Head Point",
+  "The Parshall Flume Discharge Equation",
+  "Parshall Flume Flow Calculator",
+  "Free Flow vs Submerged Flow",
+  "6 Smart Steps to Install a Parshall Flume",
+  "Head Sensors for Flume Flow Metering",
+  "Parshall Flume Use in Indian Effluent and STP Plants",
+  "Troubleshooting a Flume Flow Reading",
+  "Second Worked Example: 6 Inch Throat at Low Flow",
+  "Standards for Flume Measurement",
+  "VPC Fiberglass Parshall Flume Manual",
+  "Working With Flumes Video",
+  "Parshall Flume FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Flow\n\r\n Parshall Flume Guide: 6 Smart Steps for Accurate Flow Data\n\r\n A Parshall flume turns the depth of water in an open channel into a reliable flow rate, with no moving parts and very little head loss. It is the workhorse primary element for effluent, sewage and irrigation flow across India and the world.\n\r\n \r\n Q = C H^n \r\n Throat Widths \r\n Free and Submerged Flow \r\n Ultrasonic Head Sensor \r\n \n\r\n\n\r\n\r\n Open channels carry effluent, sewage and irrigation water without a full pipe, so ordinary meters cannot be used. A Parshall flume solves this by forcing a known relation between upstream depth and discharge.\n\r\n\r\n \r\n Hello everyone, today we are going to learn how a Parshall flume works, how to read its head and apply Q = C H^n, how free and submerged flow differ and how to install an ultrasonic sensor correctly.\r\n\n\r\n \r\n \r\n \r\n What Is a Parshall Flume?\n\r\n\r\n A Parshall flume is a fixed hydraulic structure with a converging inlet, a narrow sloping throat and a diverging outlet, used to measure flow in an open channel from a single depth reading. It belongs to the family of primary elements described in open channel flow measurement .\n\r\n\r\n Ralph Parshall developed the design at Colorado in the 1920s for irrigation canals. Its throat forces the water through critical depth, so the upstream depth alone fixes the discharge under free flow.\n\r\n\r\n \r\n \r\n Image credit: VPC Fiberglass . Photo courtesy of VPC Fiberglass, shown here for educational reference. \r\n \r\n\r\n The flume itself is only the primary element. A level sensor reads the head, and a transmitter converts depth to flow, much like a weir or a venturi tube uses a known geometry to relate a simple measurement to flow.\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n Parts of the Flume and Head Point\n\r\n\r\n \r\n Approach Channel Calm, straight, uniform inflow\n\r\n Converging Section Level floor, head point Ha here\n\r\n Throat Short, downward sloping floor\n\r\n Diverging Section Rising floor, Hb point near throat end\n\r\n Outlet Free discharge to downstream channel\n\r\n\n\r\n\r\n The VPC Fiberglass user manual states that the primary free flow point of measurement, Ha, is located two thirds of the converging wall length upstream of the throat. Reading the level anywhere else breaks the calibration that the rating table assumes.\n\r\n\r\n A second point, Hb, sits near the downstream end of the throat and is used only to check or correct for submerged flow. Many small effluent installations never need Hb if the outlet discharges freely.\n\r\n\r\n Do You Know?\n The USBR Water Measurement Manual lists standard Parshall flume sizes from a 1 inch throat up to a 50 foot throat. Together they cover discharges from about 0.03 to 3000 cubic feet per second.\n\n\r\n\r\n The Parshall Flume Discharge Equation\n\r\n\r\n Under free flow, discharge follows a simple power law of upstream head, Q = C Ha^n, where C and n depend only on throat width. The exponent sits near 1.5 because flow through a critical section varies with head to the power three halves, a result f"
+}
