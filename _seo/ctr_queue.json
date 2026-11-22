@@ -1545,7 +1545,7 @@
 "open channel flow calculator",
 "manning equation open channel flow calculator"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "sis-and-bpcs-differences",
@@ -1554,7 +1554,7 @@
 "ctr": 0.54,
 "pos": 7.6,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "control-narrative-functional-specification",
@@ -1563,7 +1563,7 @@
 "ctr": 0.92,
 "pos": 6.0,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "instrumentation-amplifier-vs-op-amp-key-differences",
@@ -1572,7 +1572,7 @@
 "ctr": 0.56,
 "pos": 6.4,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "rtd-pt100-vs-pt1000-differences",
@@ -1584,7 +1584,7 @@
 "how to calibrate rtd pt100",
 "rtd pt100 resistance to temperature calculator"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "override-control-selector-dcs",
@@ -1595,7 +1595,7 @@
 "queries": [
 "what is a dcs control system"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "plc-bit-shift-rotate-instructions",
@@ -1604,7 +1604,7 @@
 "ctr": 0.39,
 "pos": 5.8,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "voltage-sag-swell-and-flicker-explained",
@@ -1613,7 +1613,7 @@
 "ctr": 0.58,
 "pos": 9.4,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "thermocouple-polarity-identification",
@@ -1622,7 +1622,7 @@
 "ctr": 0.4,
 "pos": 8.6,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "non-inverting-amplifier-gain",
@@ -1634,7 +1634,7 @@
 "inverting amplifier gain formula",
 "gain for inverting op amp"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "how-does-a-gas-filled-thermometer-work",
@@ -1643,6 +1643,6 @@
 "ctr": 0.8,
 "pos": 7.2,
 "queries": [],
-"status": "todo"
+"status": "done"
 }
 ]
