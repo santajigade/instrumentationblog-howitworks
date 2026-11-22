@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How a Pressure Switch Works: Animated Diagram and Formula</title>
+<meta name="description" content="How a pressure switch works, animated: the diaphragm pushes against the range spring, the contact snaps at the set point and resets after the deadband.">
+<link rel="canonical" href="https://www.instrumentationblog.in/how-it-works/pressure-switch/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Instrumentation Blog">
+<meta property="og:title" content="How a Pressure Switch Works: Animated Diagram and Formula">
+<meta property="og:description" content="How a pressure switch works, animated: the diaphragm pushes against the range spring, the contact snaps at the set point and resets after the deadband.">
+<meta property="og:url" content="https://www.instrumentationblog.in/how-it-works/pressure-switch/">
+<meta property="og:image" content="https://www.instrumentationblog.in/how-it-works/pressure-switch/pressure-switch-working-diagram.webp">
+<meta property="og:image:width" content="1560">
+<meta property="og:image:height" content="988">
+<meta property="og:image:alt" content="Labelled diagram showing how a pressure switch works">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://www.instrumentationblog.in/how-it-works/pressure-switch/pressure-switch-working-diagram.webp">
+<link rel="icon" href="https://www.instrumentationblog.in/favicon.ico">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R3NLR1WRYC"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-R3NLR1WRYC");</script>
+<style>
+html{-webkit-text-size-adjust:100%}body{margin:0;background:#f1f3f7;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#1f2733}
+.ibs-top{background:#1e73be;color:#fff;font-size:13.5px}
+.ibs-in{max-width:1100px;margin:0 auto;padding:0 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ibs-top .ibs-in{min-height:36px}
+.ibs-top a{color:#fff;text-decoration:none}
+.ibs-head{background:#fff;border-bottom:1px solid #e3e7ee}
+.ibs-head .ibs-in{min-height:86px}
+.ibs-logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.ibs-mark{width:58px;height:58px;background:#ffef00;display:flex;align-items:center;justify-content:center;font:900 38px/1 Arial,Helvetica,sans-serif;color:#1e73be;letter-spacing:-2px}
+.ibs-name{font-weight:800;font-size:18px;color:#1a2333;line-height:1.1}.ibs-name small{display:block;font-weight:500;font-size:12px;color:#6b7383}
+.ibs-nav{display:flex;flex-wrap:wrap;gap:4px 22px}
+.ibs-nav a{color:#1f2733;text-decoration:none;font-size:16px}
+.ibs-nav a:hover,.ibs-nav a.on{color:#e4004b}
+.ibs-main{padding:22px 16px 30px}
+.ibs-pv{text-align:center;padding:6px 16px 18px;font:13px/1.4 Arial,Helvetica,sans-serif;color:#5b6573}.ibs-pv span{display:inline-block;background:#fff;border:1px solid #dde3ea;border-radius:999px;padding:5px 14px}
+.ibs-foot{background:#1a2333;color:#aab3c5;font-size:13px}.ibs-foot .ibs-in{min-height:56px}.ibs-foot a{color:#d6dcea}
+@media(max-width:700px){.ibs-top a{display:none}.ibs-head .ibs-in{padding:10px 16px}.ibs-nav{gap:4px 16px}.ibs-nav a{font-size:15px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/assets/ib-header.css"></head>
+<body>
+<div class="ibhd-top"><div class="ibhd-in"><a class="ibhd-mail" href="mailto:ceo@instrumentationblog.in"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3zM3 6l9 7 9-7"/></svg>ceo@instrumentationblog.in</a><div class="ibhd-soc"><a href="https://www.facebook.com/instrumentationblogs" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3c-2.8 0-4 1.8-4 4.5V11H7v4h3v9h4v-9h3l1-4h-4V8.8c0-.5.3-.8 1-.8z"/></svg></a><a href="https://www.linkedin.com/company/instrumentation-blog/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4v12H4zM6 3a2 2 0 1 1 0 4 2 2 0 0 1 0-4zM10 9h4v1.7c.6-1 1.9-2 3.9-2 4 0 4.6 2.6 4.6 6V21h-4v-5.6c0-1.4 0-3.2-2-3.2s-2.4 1.5-2.4 3.1V21h-4z"/></svg></a><a href="https://www.youtube.com/@InstrumentationBlog/" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.8 15.1V8.9l5.6 3.1z"/></svg></a><a href="https://www.instagram.com/instrumentation_blogs/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM16 3H8a5 5 0 0 0-5 5v8a5 5 0 0 0 5 5h8a5 5 0 0 0 5-5V8a5 5 0 0 0-5-5zm3.2 13A3.2 3.2 0 0 1 16 19.2H8A3.2 3.2 0 0 1 4.8 16V8A3.2 3.2 0 0 1 8 4.8h8A3.2 3.2 0 0 1 19.2 8z"/></svg></a></div></div></div><header class="ibhd"><div class="ibhd-in"><a class="ibhd-logo" href="https://www.instrumentationblog.in/" aria-label="Instrumentation Blog home"><img src="https://www.instrumentationblog.in/wp-content/uploads/2023/10/IB-LOGO-small-1.png" alt="Instrumentation Blog" width="80" height="80"></a><button type="button" class="ibhd-burger" aria-label="Open menu" aria-expanded="false" aria-controls="ibhd-nav"><span></span><span></span><span></span></button><nav class="ibhd-nav" id="ibhd-nav" aria-label="Main"><ul><li><a href="https://www.instrumentationblog.in/">Home</a></li><li class="ibhd-has"><a href="https://www.instrumentationblog.in/category/process-instrumentation/">Instrumentation</a><button type="button" class="ibhd-sub" aria-label="Open Instrumentation menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><ul><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/flow-measurement/">Flow</a></li><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/pressure-measurement/">Pressure</a></li><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/level-measurement/">Level</a></li><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/temperature-measurements/">Temperature</a></li><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/analytical-measurements/">Analytical</a></li><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/switches/">Switches</a></li><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/control-valves/">Control Valves</a></li><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/calibration/">Calibration</a></li><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/design/">Design</a></li></ul></li><li class="ibhd-has"><a href="https://www.instrumentationblog.in/category/electronics/">Electronics</a><button type="button" class="ibhd-sub" aria-label="Open Electronics menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><ul><li><a href="https://www.instrumentationblog.in/category/electronics/electronic-components/">Electronic Components</a></li><li><a href="https://www.instrumentationblog.in/category/electronics/digital-electronics/">Digital Electronics</a></li><li><a href="https://www.instrumentationblog.in/category/electronics/analog-electronics/">Analog Electronics</a></li><li><a href="https://www.instrumentationblog.in/category/electronics/electronic-sensors/">Electronic Sensors</a></li><li><a href="https://www.instrumentationblog.in/category/electronics/electronics-fundamentals/">Electronics Fundamentals</a></li><li><a href="https://www.instrumentationblog.in/category/electronics/pcb-design-signal-integrity/">PCB Design &amp; Signal Integrity</a></li><li><a href="https://www.instrumentationblog.in/category/electronics/power-electronics-protection/">Power Electronics &amp; Protection</a></li></ul></li><li class="ibhd-has"><a href="https://www.instrumentationblog.in/category/electrical/">Electrical</a><button type="button" class="ibhd-sub" aria-label="Open Electrical menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><ul><li><a href="https://www.instrumentationblog.in/category/electrical/electrical-design-calculations/">Electrical Design &amp; Calculations</a></li><li><a href="https://www.instrumentationblog.in/category/electrical/electrical-fundamentals/">Electrical Fundamentals</a></li><li><a href="https://www.instrumentationblog.in/category/electrical/electrical-machines/">Electrical Machines</a></li><li><a href="https://www.instrumentationblog.in/category/electrical/electrical-safety-standards/">Electrical Safety &amp; Standards</a></li><li><a href="https://www.instrumentationblog.in/category/electrical/industrial-electrical-systems/">Industrial Electrical Systems</a></li><li><a href="https://www.instrumentationblog.in/category/electrical/motors-drives/">Motors &amp; Drives</a></li><li><a href="https://www.instrumentationblog.in/category/electrical/power-quality-protection/">Power Quality &amp; Protection</a></li><li><a href="https://www.instrumentationblog.in/category/electrical/power-systems/">Power Systems</a></li></ul></li><li class="ibhd-has"><a href="https://www.instrumentationblog.in/category/automation/">Automation</a><button type="button" class="ibhd-sub" aria-label="Open Automation menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><ul><li><a href="https://www.instrumentationblog.in/category/automation/plc-programmable-logic-controller/">PLC</a></li><li><a href="https://www.instrumentationblog.in/category/automation/scada/">SCADA</a></li><li><a href="https://www.instrumentationblog.in/category/automation/distributed-control-system/">DCS</a></li><li><a href="https://www.instrumentationblog.in/category/automation/cybersecurity/">Cybersecurity</a></li><li><a href="https://www.instrumentationblog.in/category/automation/communication/">Communication</a></li><li><a href="https://www.instrumentationblog.in/category/automation/safety/">Safety Systems</a></li><li><a href="https://www.instrumentationblog.in/category/automation/industrial-ai/">Industrial AI</a></li></ul></li><li class="ibhd-has on"><span class="ibhd-lbl" tabindex="0">Learn</span><button type="button" class="ibhd-sub" aria-label="Open Learn menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><ul><li><a href="https://www.instrumentationblog.in/glossary/">Glossary</a></li><li><a href="https://www.instrumentationblog.in/category/interview-questions-answers-instrumentation/">Q&amp;A</a></li><li><a href="https://www.instrumentationblog.in/compare/">Compare</a></li><li><a href="https://www.instrumentationblog.in/how-it-works/">How It Works</a></li></ul></li><li class="ibhd-has"><a href="https://www.instrumentationblog.in/calculators/">Calculators</a><button type="button" class="ibhd-sub" aria-label="Open Calculators menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><ul><li><a href="https://www.instrumentationblog.in/unit-converters/">Unit Converters</a></li><li><a href="https://www.instrumentationblog.in/calculators/flow/">Flow</a></li><li><a href="https://www.instrumentationblog.in/calculators/pressure/">Pressure</a></li><li><a href="https://www.instrumentationblog.in/calculators/level/">Level</a></li><li><a href="https://www.instrumentationblog.in/calculators/temperature/">Temperature</a></li><li><a href="https://www.instrumentationblog.in/calculators/instrumentation-signal/">Instrumentation Signal</a></li><li><a href="https://www.instrumentationblog.in/calculators/plc-signal/">PLC Digital Signal</a></li><li><a href="https://www.instrumentationblog.in/calculators/control-valve/">Control Valve</a></li><li><a href="https://www.instrumentationblog.in/calculators/calibration/">Calibration</a></li><li><a href="https://www.instrumentationblog.in/calculators/electrical/">Electrical</a></li><li><a href="https://www.instrumentationblog.in/calculators/electronics/">Electronics</a></li><li><a href="https://www.instrumentationblog.in/calculators/safety/">Safety and SIL</a></li><li><a href="https://www.instrumentationblog.in/calculators/analytical/">Analytical</a></li></ul></li><li class="ibhd-has"><a href="https://www.instrumentationblog.in/tools/">Tools</a><button type="button" class="ibhd-sub" aria-label="Open Tools menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><ul><li><a href="https://www.instrumentationblog.in/tools/instrument-tags/">Instrument Tag Decoder</a></li><li><a href="https://www.instrumentationblog.in/tools/enclosure-ratings/">IP, NEMA and Ex Rating Decoder</a></li><li><a href="https://www.instrumentationblog.in/tools/wire-color-codes/">Wire and Cable Color Codes</a></li><li><a href="https://www.instrumentationblog.in/tools/pid-tuning/">PID Tuning Tools</a></li><li><a href="https://www.instrumentationblog.in/tools/communication-protocols/">Communication Protocols</a></li><li><a href="https://www.instrumentationblog.in/tools/troubleshooting/">Troubleshooting Guides</a></li><li><a href="https://www.instrumentationblog.in/tools/practice-tests/">Practice Tests</a></li><li><a href="https://www.instrumentationblog.in/tools/pid-symbols/">P&amp;ID Symbols</a></li><li><a href="https://www.instrumentationblog.in/tools/pipe-flange-charts/">Pipe and Flange Charts</a></li><li><a href="https://www.instrumentationblog.in/tools/thread-charts/">Thread Size Charts</a></li></ul></li><li class="ibhd-has"><a href="https://www.instrumentationblog.in/downloads/">Downloads</a><button type="button" class="ibhd-sub" aria-label="Open Downloads menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><ul><li><a href="https://www.instrumentationblog.in/downloads/templates/">Templates and Downloads</a></li><li><a href="https://www.instrumentationblog.in/downloads/cheat-sheets/">Cheat Sheets</a></li><li><a href="https://www.instrumentationblog.in/downloads/excel-calculators/">Excel Calculation Tools</a></li><li><a href="https://www.instrumentationblog.in/downloads/procedures/">Procedures (SOPs)</a></li><li><a href="https://www.instrumentationblog.in/downloads/fault-finding-guides/">Fault Finding Guides</a></li><li><a href="https://www.instrumentationblog.in/downloads/engineering-reference-tables/">Reference Tables</a></li></ul></li></ul></nav><form class="ibhd-search" role="search" action="https://www.instrumentationblog.in/" method="get"><label for="ibhd-q" class="ibhd-sr">Search</label><input id="ibhd-q" type="search" name="s" placeholder="Search"><button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 18a7 7 0 1 1 0-14 7 7 0 0 1 0 14zM20 20l-3.5-3.5"/></svg></button></form></div></header>
+<main class="ibs-main"><style>
+.ibuc .hw-stage{max-width:780px;margin:0 auto;background:#fff;border:1px solid var(--b);border-radius:14px;overflow:hidden}
+.ibuc .hw-stage canvas{display:block;width:100%}
+.ibuc .hw-bar{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin:12px auto 0;max-width:780px}
+.ibuc button.hw-pp{background:var(--n) !important;color:#fff !important;border:0 !important;border-radius:999px !important;padding:8px 16px !important;font-size:14px;font-weight:700;cursor:pointer;line-height:1.2}
+.ibuc .hw-note{font-size:13px;color:var(--m)}
+.ibuc .hw-ctl{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px 22px;margin:18px 0 0}
+.ibuc .hw-s label{display:flex;justify-content:space-between;font-size:14px;font-weight:700;color:var(--n);margin:0 0 6px}
+.ibuc .hw-s label b{color:var(--gc);font-variant-numeric:tabular-nums}
+.ibuc .hw-s input[type=range]{width:100%;accent-color:var(--gc);height:28px;margin:0}
+.ibuc .hw-leg{list-style:none;padding:0;margin:16px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:8px 18px}
+.ibuc .hw-leg li{display:flex;gap:10px;align-items:flex-start;font-size:14.5px}
+.ibuc .hw-leg i{flex:0 0 24px;height:24px;border-radius:50%;background:#d9622b;color:#fff;font-style:normal;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center}
+.ibuc ol.hw-steps{list-style:none;counter-reset:s;padding:0;margin:0}
+.ibuc ol.hw-steps li{counter-increment:s;position:relative;padding:0 0 14px 46px;margin:0}
+.ibuc ol.hw-steps li:before{content:counter(s);position:absolute;left:0;top:-2px;width:32px;height:32px;border-radius:50%;background:var(--gc);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center}
+.ibuc .hw-fig{margin:0;text-align:center}
+.ibuc .hw-fig img{width:100%;max-width:780px;height:auto;border:1px solid var(--b);border-radius:12px}
+.ibuc .hw-fig figcaption{font-size:14px;color:var(--m);margin:10px auto 0;max-width:780px;text-align:left}
+.ibuc button.hw-dl{background:#fff !important;color:var(--n) !important;border:1.5px solid var(--n) !important}
+.ibuc .hw-uses{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.ibuc .hw-use{background:var(--l);border:1px solid var(--b);border-left:4px solid var(--gc);border-radius:10px;padding:12px 14px}
+.ibuc .hw-use b{display:block;color:var(--n);margin:0 0 4px}
+.ibuc .hw-use span{font-size:14.5px;color:#334155}
+.ibuc ul.hw-tips{list-style:none;padding:0;margin:0}
+.ibuc ul.hw-tips li{position:relative;padding:0 0 10px 30px}
+.ibuc ul.hw-tips li:before{content:"✓";position:absolute;left:0;top:0;width:20px;height:20px;border-radius:50%;background:var(--gc);color:#fff;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center}
+.ibuc .hw-f{background:#1a2333;color:#e6edf7;border-radius:12px;padding:16px 18px;font-family:'Courier New',monospace;font-size:15.5px;line-height:1.75;overflow-x:auto}
+.ibuc .hw-f b{color:#fbbf24;font-weight:700}
+</style><style>
+.ibuc{--n:#1a2333;--t:#1f2733;--m:#5b6576;--b:#dde3ee;--l:#f6f8fc;--a:#d9622b;--g:#1f9d55;color:var(--t);font-size:16px;line-height:1.6;max-width:1100px;margin:0 auto}
+.ibuc *{box-sizing:border-box}
+.ibuc a{color:#1f5fbf;text-decoration:none}.ibuc a:hover{text-decoration:underline}
+.ibuc h1,.ibuc h2,.ibuc h3{line-height:1.25;margin:0 0 12px;color:var(--n);font-weight:700;letter-spacing:0;text-transform:none}
+.ibuc h2{font-size:24px;margin-top:8px}.ibuc h3{font-size:18px}
+.ibuc p{margin:0 0 12px}
+.ibuc .ibuc-crumb{font-size:13px;color:var(--m);margin:0 0 12px}
+.ibuc .ibuc-hero{border-radius:16px;padding:28px 26px;color:#fff;margin:0 0 20px}
+.ibuc .ibuc-hero h1{color:#fff !important;font-size:34px;margin:6px 0 10px}
+.ibuc .ibuc-eye{font-size:12px;letter-spacing:.12em;text-transform:uppercase;opacity:.85;font-weight:700}
+.ibuc .ibuc-hero p{color:#e8ecf4;margin:0 0 14px;max-width:760px}
+.ibuc .ibuc-pills{display:flex;flex-wrap:wrap;gap:8px}
+.ibuc .ibuc-pill{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);color:#fff;border-radius:999px;padding:3px 12px;font-size:13px}
+.ibuc .ibuc-card{background:#fff;border:1px solid var(--b);border-radius:14px;padding:22px;margin:0 0 22px;box-shadow:0 2px 10px rgba(26,35,51,.05)}
+.ibuc .ibuc-tool{border-top:4px solid var(--a);scroll-margin-top:90px}
+.ibuc .ibuc-grid{display:grid;grid-template-columns:1fr 1.3fr auto 1.3fr;gap:12px;align-items:end}
+.ibuc .ibuc-field label{display:block;font-size:13px;font-weight:700;color:var(--m);margin:0 0 5px}
+.ibuc .ibuc-field input,.ibuc .ibuc-field select{width:100%;height:46px;border:1.5px solid var(--b) !important;border-radius:10px !important;padding:0 12px !important;font-size:16px;background:#fff !important;color:var(--t) !important;margin:0;box-shadow:none}
+.ibuc .ibuc-field input:focus,.ibuc .ibuc-field select:focus{outline:none;border-color:var(--a) !important;box-shadow:0 0 0 3px rgba(217,98,43,.15)}
+.ibuc .ibuc-field input.ibuc-bad{border-color:#c0392b !important}
+.ibuc button.ibuc-swap{height:46px;width:46px;border-radius:50% !important;border:1.5px solid var(--b) !important;background:var(--l) !important;color:var(--n) !important;font-size:20px;cursor:pointer;padding:0 !important;line-height:1}
+.ibuc button.ibuc-swap:hover{background:var(--n) !important;color:#fff !important}
+.ibuc .ibuc-result{background:var(--l);border-radius:12px;padding:16px 18px;margin:16px 0 12px}
+.ibuc .ibuc-res-main{font-size:22px;color:var(--n);word-break:break-word}
+.ibuc .ibuc-res-main b{color:var(--a);font-size:28px}
+.ibuc .ibuc-res-sub{font-size:14px;color:var(--m);margin-top:6px;word-break:break-word}
+.ibuc .ibuc-bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:14px;color:var(--m)}
+.ibuc .ibuc-bar select{height:36px;border:1.5px solid var(--b) !important;border-radius:8px !important;padding:0 8px !important;background:#fff !important;color:var(--t) !important;width:auto}
+.ibuc button.ibuc-btn{background:var(--n) !important;color:#fff !important;border:0 !important;border-radius:8px !important;padding:8px 16px !important;font-size:14px;font-weight:600;cursor:pointer;line-height:1.2}
+.ibuc button.ibuc-btn:hover{background:var(--a) !important}
+.ibuc .ibuc-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;align-items:center}
+.ibuc .ibuc-chips span{font-size:13px;font-weight:700;color:var(--m)}
+.ibuc button.ibuc-chip,.ibuc a.ibuc-chip{background:#fff !important;border:1.5px solid var(--b) !important;color:var(--n) !important;border-radius:999px !important;padding:5px 13px !important;font-size:13px;cursor:pointer;line-height:1.3;font-weight:500;text-decoration:none}
+.ibuc button.ibuc-chip:hover,.ibuc a.ibuc-chip:hover{border-color:var(--a) !important;color:var(--a) !important;text-decoration:none}
+.ibuc .ibuc-tw{overflow-x:auto;border:1px solid var(--b);border-radius:10px}
+.ibuc table.ibuc-t{width:100%;border-collapse:collapse;margin:0;font-size:15px;border:0}
+.ibuc table.ibuc-t th{background:var(--n) !important;color:#fff !important;text-align:left;padding:10px 12px;font-weight:600;border:0 !important}
+.ibuc table.ibuc-t td{padding:8px 12px;border:0 !important;border-bottom:1px solid var(--b) !important;background:#fff;vertical-align:top}
+.ibuc table.ibuc-t tr:nth-child(even) td{background:#fafbfd}
+.ibuc table.ibuc-t tr:last-child td{border-bottom:0 !important}
+.ibuc table.ibuc-t td.ibuc-num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.ibuc #ibuc-all tr{cursor:pointer}.ibuc #ibuc-all tr:hover td{background:#fff4ee}
+.ibuc #ibuc-all tr.ibuc-hl td{background:#fde9de;font-weight:700}
+.ibuc .ibuc-two{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.ibuc .ibuc-fbox{background:var(--n);color:#fff;border-radius:12px;padding:16px 18px;margin:12px 0;font-family:Consolas,Menlo,monospace;font-size:15px;word-break:break-word}
+.ibuc .ibuc-key{border-left:4px solid var(--a);background:#fff6f1;border-radius:0 10px 10px 0;padding:12px 16px;margin:12px 0}
+.ibuc .ibuc-steps{margin:0 0 12px;padding-left:22px}.ibuc .ibuc-steps li{margin-bottom:6px}
+.ibuc details{border:1px solid var(--b);border-radius:10px;margin:0 0 10px;background:#fff}
+.ibuc summary{cursor:pointer;padding:12px 16px;font-weight:700;color:var(--n);list-style:none}
+.ibuc summary::-webkit-details-marker{display:none}
+.ibuc summary:before{content:"Q";display:inline-block;background:var(--a);color:#fff;border-radius:6px;width:22px;height:22px;text-align:center;line-height:22px;font-size:12px;margin-right:10px}
+.ibuc details p{padding:0 16px 14px 48px;margin:0;color:var(--t)}
+.ibuc .ibuc-links{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.ibuc .ibuc-links a{display:block;border:1px solid var(--b);border-radius:10px;padding:10px 14px;background:#fff;color:var(--n);font-weight:600;font-size:15px}
+.ibuc .ibuc-links a small{display:block;font-weight:400;color:var(--m);font-size:12.5px;margin-top:2px}
+.ibuc .ibuc-links a:hover{border-color:var(--a);text-decoration:none;box-shadow:0 3px 12px rgba(217,98,43,.12)}
+.ibuc .ibuc-ymal{border-radius:14px;padding:22px;color:#fff;margin:0 0 22px}
+.ibuc .ibuc-ymal h3{color:#fff !important;margin-bottom:6px}
+.ibuc .ibuc-ymal .ibuc-yt{font-weight:700;font-size:18px;margin:0 0 6px}
+.ibuc .ibuc-ymal p{color:#e8ecf4}
+.ibuc a.ibuc-go{display:inline-block;background:var(--g);color:#fff !important;border-radius:999px;padding:8px 20px;font-weight:700;font-size:14px}
+.ibuc a.ibuc-go:hover{text-decoration:none;filter:brightness(1.08)}
+.ibuc .ibuc-ref{background:var(--l);border:1px solid var(--b);border-radius:14px;padding:20px 22px;margin:0 0 22px}
+.ibuc .ibuc-ad{margin:6px 0 24px;text-align:center}
+.ibuc .ibuc-adl{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#98a1b0;border-top:1px dotted #c8cfdb;border-bottom:1px dotted #c8cfdb;padding:3px 0;margin-bottom:8px}
+.ibuc .ibuc-adph{border:1.5px dashed #c8cfdb;border-radius:8px;padding:30px;color:#98a1b0;font-size:13px}
+.ibuc .ibuc-status{border-radius:8px;padding:10px 14px;font-size:14px;margin:12px 0 0}
+.ibuc .ibuc-ok{background:#e7f6ee;color:#14663a}.ibuc .ibuc-warn{background:#fff4dc;color:#7a5400}.ibuc .ibuc-err{background:#fde7e7;color:#9b1c1c}
+.ibuc .ibuc-g3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.ibuc .ibuc-g4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.ibuc .ibuc-sub{font-size:13px;color:var(--m);margin:6px 0 0}
+.ibuc .ibuc-search{width:100%;height:52px;border:2px solid rgba(255,255,255,.35) !important;background:rgba(255,255,255,.96) !important;border-radius:12px !important;padding:0 16px !important;font-size:17px;color:var(--t) !important;margin-top:6px}
+.ibuc .ibuc-cat{scroll-margin-top:90px}
+.ibuc .ibuc-cath{display:flex;align-items:center;gap:12px;margin:0 0 4px}
+.ibuc .ibuc-dot{width:12px;height:12px;border-radius:50%;flex:none}
+.ibuc .ibuc-toc{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.ibuc .ibuc-stats{display:flex;gap:22px;flex-wrap:wrap;margin:4px 0 14px}
+.ibuc .ibuc-stats b{display:block;font-size:26px;color:#fff}.ibuc .ibuc-stats span{font-size:13px;color:#cfd6e4}
+.ibuc .ibuc-empty{display:none;color:var(--m);padding:10px 0}
+@media (max-width:760px){
+ .ibuc .ibuc-grid{grid-template-columns:1fr}
+ .ibuc button.ibuc-swap{position:relative;grid-column:1/-1;width:100%;border-radius:10px !important;height:38px}
+ .ibuc .ibuc-two,.ibuc .ibuc-g3,.ibuc .ibuc-g4{grid-template-columns:1fr}
+ .ibuc .ibuc-hero{padding:22px 18px}.ibuc .ibuc-hero h1{font-size:26px}
+ .ibuc .ibuc-card{padding:16px}
+ .ibuc .ibuc-res-main{font-size:18px}.ibuc .ibuc-res-main b{font-size:22px}
+}
+</style><style>
+.ibuc .ibuc-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 16px}
+.ibuc button.ibuc-tab{background:var(--l) !important;color:var(--n) !important;border:1.5px solid var(--b) !important;border-radius:999px !important;padding:8px 16px !important;font-size:14px;font-weight:700;cursor:pointer;line-height:1.2}
+.ibuc button.ibuc-tab.on{background:var(--n) !important;color:#fff !important;border-color:var(--n) !important}
+.ibuc .ibuc-out{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:16px 0 0}
+.ibuc .ibuc-o{background:var(--l);border-radius:12px;padding:12px 14px}
+.ibuc .ibuc-o span{display:block;font-size:12.5px;color:var(--m);font-weight:600}
+.ibuc .ibuc-o b{display:block;font-size:22px;color:var(--n);font-variant-numeric:tabular-nums;word-break:break-word}
+.ibuc .ibuc-o.main{background:#fff1e9}.ibuc .ibuc-o.main b{color:var(--a);font-size:26px}
+.ibuc .ibuc-steps-box{background:#fff;border:1px dashed var(--b);border-radius:10px;padding:12px 16px;margin:14px 0 0;font-size:14.5px}
+.ibuc .ibuc-steps-box ol{margin:6px 0 0;padding-left:20px}
+.ibuc table.ibuc-grid10 td,.ibuc table.ibuc-grid10 th{text-align:right;padding:6px 8px;font-size:13.5px;white-space:nowrap}
+.ibuc table.ibuc-grid10 td:first-child,.ibuc table.ibuc-grid10 th:first-child{text-align:left;font-weight:700;background:#eef2f9}
+.ibuc .ibuc-soon a,.ibuc .ibuc-soon div{opacity:1}
+.ibuc .ibuc-links div.ibuc-dis{display:block;border:1px dashed var(--b);border-radius:10px;padding:10px 14px;background:#fafbfd;color:#8a93a3;font-weight:600;font-size:15px}
+.ibuc .ibuc-links div.ibuc-dis small{display:block;font-weight:400;font-size:12.5px;margin-top:2px}
+.ibuc .ibuc-badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:middle}
+.ibuc .ibuc-badge.live{background:#e7f6ee;color:#14663a}.ibuc .ibuc-badge.soon{background:#eef1f6;color:#6b7383}
+.ibuc .ibuc-catgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.ibuc .ibuc-catcard{display:block;border-radius:14px;padding:18px;color:#fff !important;min-height:150px;position:relative}
+.ibuc a.ibuc-catcard:hover{text-decoration:none;transform:translateY(-2px);box-shadow:0 8px 22px rgba(26,35,51,.18)}
+.ibuc .ibuc-catcard h3{color:#fff !important;margin:0 0 6px;font-size:19px}
+.ibuc .ibuc-catcard p{color:#e3e8f1;font-size:14px;margin:0 0 10px}
+.ibuc .ibuc-catcard span{font-size:12.5px;font-weight:700;background:rgba(255,255,255,.16);border-radius:999px;padding:3px 10px}
+@media print{.ibs-top,.ibs-head,.ibs-foot,.ibuc-ad,.ibuc-hero,.ibuc-noprint{display:none !important}.ibuc .ibuc-card{box-shadow:none;border:0}}
+</style><style>
+.ibuc .ibx-bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 14px}
+.ibuc .ibx-q{flex:1 1 260px;min-width:0;padding:12px 14px 12px 40px !important;border:1px solid #cfd8e3 !important;border-radius:12px !important;font-size:15px !important;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236b7686' stroke-width='2.4'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m20 20-3.5-3.5'/%3E%3C/svg%3E") no-repeat 14px 50% !important;box-sizing:border-box}
+.ibuc .ibx-q:focus{outline:2px solid #1e73be;border-color:#1e73be !important}
+.ibuc .ibx-n{font-size:13.5px;color:#5a6575;white-space:nowrap;font-weight:600}
+.ibuc .ibx-chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.ibuc .ibx-chip{border:1px solid var(--b,#cfd8e3) !important;background:var(--l,#fff) !important;color:var(--d,#1f2733) !important;border-radius:999px !important;padding:7px 15px !important;font-size:13.5px !important;font-weight:700;cursor:pointer;line-height:1.3;transition:transform .12s}
+.ibuc .ibx-chip:hover{transform:translateY(-1px)}
+.ibuc .ibx-chip.on{background:var(--d,#1a2333) !important;color:#fff !important;border-color:var(--d,#1a2333) !important}
+.ibuc .ibx-chip b{font-weight:600;opacity:.7;margin-left:5px}
+.ibuc .ibx-grp{margin:0 0 26px}
+.ibuc .ibx-gh{display:flex;align-items:center;gap:10px;margin:0 0 12px;font-size:17px;font-weight:800;color:var(--d)}
+.ibuc .ibx-gh:before{content:"";width:10px;height:22px;border-radius:4px;background:var(--d)}
+.ibuc .ibx-gh small{font-size:12.5px;font-weight:700;background:var(--l);border:1px solid var(--b);color:var(--d);border-radius:999px;padding:2px 9px}
+.ibuc .ibx-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
+.ibuc a.ibx-card{position:relative;display:flex;flex-direction:column;gap:6px;min-height:120px;padding:16px 16px 14px;border:1px solid var(--b);border-top:4px solid var(--d);border-radius:14px;background:var(--l);color:#1f2733 !important;text-decoration:none !important;transition:transform .15s,box-shadow .15s;box-sizing:border-box}
+.ibuc a.ibx-card:hover{transform:translateY(-3px);box-shadow:0 10px 22px rgba(26,35,51,.13)}
+.ibuc .ibx-card .ibx-t{max-width:calc(100% - 34px);box-sizing:border-box;align-self:flex-start;font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--d);background:#fff;border:1px solid var(--b);border-radius:999px;padding:2px 8px}
+.ibuc .ibx-card .ibx-h{font-size:15.5px;font-weight:700;line-height:1.35;padding-right:20px}
+.ibuc .ibx-card .ibx-s{font-size:13px;color:#4f5a6a;line-height:1.4;margin-top:auto}
+.ibuc .ibx-card:after{content:"→";position:absolute;right:14px;top:14px;width:24px;height:24px;line-height:24px;text-align:center;border-radius:50%;background:#fff;color:var(--d);font-weight:800;font-size:13px;transition:transform .15s}
+.ibuc .ibx-card:hover:after{transform:translateX(3px)}
+.ibuc .ibx-adslot{margin:4px 0 30px}
+.ibuc .ibx-adslot .ibuc-ad{margin:0}
+.ibuc .ibx-none{display:none;padding:18px;text-align:center;color:#5a6575;border:1px dashed #cfd8e3;border-radius:12px;margin:0 0 20px}
+@media(max-width:520px){.ibuc .ibx-grid{grid-template-columns:1fr;gap:12px}.ibuc a.ibx-card{min-height:0}}
+</style><style>
+.ibuc .cmp-verdict{font-size:17.5px;line-height:1.55;background:#fff;border-left:5px solid var(--gc);border-radius:12px;padding:16px 18px;margin:0 0 22px;box-shadow:0 1px 3px rgba(26,35,51,.08)}
+.ibuc .cmp-verdict b{color:var(--gc)}
+.ibuc .cmp-wrap{overflow-x:auto;margin:0 -4px;padding:0 4px}
+.ibuc table.cmp-t{width:100%;border-collapse:separate;border-spacing:0;font-size:15px;min-width:520px}
+.ibuc table.cmp-t th{background:var(--gc);color:#fff;text-align:left;padding:11px 12px;font-size:14.5px}
+.ibuc table.cmp-t th:first-child{border-radius:10px 0 0 0;background:#1a2333}.ibuc table.cmp-t th:last-child{border-radius:0 10px 0 0;background:#3b4bb0}
+.ibuc table.cmp-t td{padding:10px 12px;border-bottom:1px solid #e3e7ee;vertical-align:top}
+.ibuc table.cmp-t tr:nth-child(even) td{background:#f6f8fb}
+.ibuc table.cmp-t td:first-child{font-weight:700;color:#13283f;width:24%}
+.ibuc .cmp-two{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 22px}
+.ibuc .cmp-box{border-radius:14px;padding:18px 20px;border:1px solid var(--b);background:var(--l);border-top:4px solid var(--d)}
+.ibuc .cmp-box h3{margin:0 0 10px;color:var(--d);font-size:18px}
+.ibuc .cmp-box ul{margin:0;padding-left:20px}.ibuc .cmp-box li{margin:0 0 6px}
+@media(max-width:640px){.ibuc .cmp-two{grid-template-columns:1fr}
+.ibuc table.cmp-t{min-width:0}.ibuc table.cmp-t thead{display:none}
+.ibuc table.cmp-t tr{display:block;border:1px solid #e3e7ee;border-radius:12px;margin:0 0 12px;overflow:hidden}
+.ibuc table.cmp-t td{display:block;width:auto !important;border-bottom:1px solid #eef1f5}
+.ibuc table.cmp-t td:first-child{background:#1a2333 !important;color:#fff}
+.ibuc table.cmp-t td[data-l]:before{content:attr(data-l);display:block;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:var(--gc);margin-bottom:2px}
+.ibuc table.cmp-t td:last-child[data-l]:before{color:#3b4bb0}
+.ibuc table.cmp-t tr:nth-child(even) td{background:#fff}}
+</style>
+<div class="ibuc" id="ibuc-app" style="--gc:#0f7b80">
+<nav class="ibuc-crumb" aria-label="Breadcrumb"><a href="https://www.instrumentationblog.in/">Home</a> › <a href="https://www.instrumentationblog.in/how-it-works/">How It Works</a> › Pressure Switch</nav>
+<header class="ibuc-hero" style="background:linear-gradient(135deg,#0f7b80 0%,#06393b 100%)">
+  <div class="ibuc-eye">Switches · How It Works</div>
+  <h1>How a Pressure Switch Works</h1>
+  <p>Set the cut out pressure and the deadband of the switch. Watch the compressor charge the receiver, the contact snap over at the set point and the compressor restart only when the pressure has fallen by the deadband.</p>
+  <div class="ibuc-pills"><span class="ibuc-pill">Live animation</span><span class="ibuc-pill">Adjustable sliders</span><span class="ibuc-pill">Formula and example</span></div>
+</header>
+<p class="cmp-verdict"><b>Quick answer:</b> A pressure switch lets the process pressure act on a diaphragm, piston or bellows that pushes against an adjustable range spring. When the pressure force beats the spring force, a snap acting microswitch changes over, and it changes back only after the pressure has fallen by the deadband.</p>
+<section class="ibuc-card"><h2>What Is a Pressure Switch?</h2><p>A pressure switch is a point device: it does not give a continuous signal, it only tells you that the pressure is above or below a set value. It is used for compressor and pump control, low pressure alarms, high pressure trips and permissives in interlocks.</p><p>Inside, the pressure acts on a sensing element with a known area, so it produces a force. A range spring holds that force back, and turning the adjusting screw changes the spring preload and with it the set point.</p><p>Every pressure switch has a deadband, the difference between the switching point on rising pressure and the reset point on falling pressure. The deadband stops the contact from chattering when the pressure hovers near the set point.</p></section>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>How a Pressure Switch Works: Interactive Animation</h2>
+<div class="hw-stage"><canvas id="hw-cv" role="img" aria-label="Animated diagram showing how a pressure switch works"></canvas></div>
+<div class="hw-bar"><span><button type="button" class="hw-pp" id="hw-pp">Pause animation</button> <button type="button" class="hw-pp hw-dl" id="hw-dl" data-name="pressure-switch-working-diagram.png" data-title="How a Pressure Switch Works">Download diagram</button></span><span class="hw-note">Numbered markers match the parts list below.</span></div>
+<div class="hw-ctl" id="hw-ctl"><div class="hw-s"><label for="hw-sp">Set point (cut out, rising) <b id="hw-sp-v"></b></label><input type="range" id="hw-sp" data-k="sp" min="3" max="9" step="0.1" value="6" data-d="1" data-u="bar"></div><div class="hw-s"><label for="hw-db">Deadband <b id="hw-db-v"></b></label><input type="range" id="hw-db" data-k="db" min="0.3" max="2" step="0.1" value="1" data-d="1" data-u="bar"></div></div>
+<div class="ibuc-out"><div class="ibuc-o"><span>Spring force at set point, F = P × A (A = 2 cm²)</span><b id="hw-o-f">…</b></div><div class="ibuc-o main"><span>Reset point (cut in, falling)</span><b id="hw-o-ci">…</b></div><div class="ibuc-o"><span>Deadband as % of the 10 bar range</span><b id="hw-o-dp">…</b></div><div class="ibuc-o"><span>Contact now</span><b id="hw-o-st">…</b></div></div>
+<ol class="hw-leg"><li><i>1</i><span>Compressor driven through the NC contact</span></li><li><i>2</i><span>Air receiver</span></li><li><i>3</i><span>Impulse line to the switch</span></li><li><i>4</i><span>Diaphragm: pressure force P × A</span></li><li><i>5</i><span>Range spring and set point screw</span></li><li><i>6</i><span>Snap acting microswitch C, NC, NO</span></li><li><i>7</i><span>Motor starter and contact state</span></li><li><i>8</i><span>Trend: pressure, set and reset points</span></li></ol>
+</section>
+<section class="ibuc-card"><h2>Pressure Switch Working Principle Step by Step</h2><ol class="hw-steps"><li>The process pressure reaches the diaphragm through the impulse line and pushes it up with a force equal to pressure times area.</li><li>The range spring pushes down; its preload, set with the adjusting screw, decides the pressure at which the forces balance.</li><li>When the rising pressure passes the set point, the pushrod trips the snap acting microswitch, so the common terminal moves from NC to NO.</li><li>In this demo the NC contact opens and drops the compressor starter, so the compressor stops and the air users start to lower the pressure.</li><li>The contact snaps back only when the pressure has fallen below the set point minus the deadband, so the compressor restarts at the reset point.</li></ol></section>
+<section class="ibuc-card"><h2>Pressure Switch Labelled Diagram</h2><figure class="hw-fig"><img src="https://www.instrumentationblog.in/how-it-works/pressure-switch/pressure-switch-working-diagram.webp" alt="Labelled diagram showing how a pressure switch works" title="How a Pressure Switch Works" width="1560" height="988" loading="lazy" decoding="async"><figcaption>Numbered parts: 1 compressor driven through the nc contact; 2 air receiver; 3 impulse line to the switch; 4 diaphragm: pressure force p × a; 5 range spring and set point screw; 6 snap acting microswitch c, nc, no; 7 motor starter and contact state; 8 trend: pressure, set and reset points.</figcaption></figure></section>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>Pressure Switch Formula</h2><div class="hw-f"><b>Switch point: P set = F spring ÷ A, where the diaphragm force P × A just equals the spring force</b><br>Reset point on falling pressure: P reset = P set − deadband<br>Deadband in % of range = deadband ÷ range × 100<br>A larger diaphragm area gives more force per bar, so the switch can be set more finely at low pressures<br>Example: A = 2 cm² = 0.0002 m², P set 6 bar = 600 000 Pa: F = 600 000 × 0.0002 = 120 N; deadband 1 bar: reset = 6 − 1 = 5 bar, which is 10 % of a 10 bar range</div></section>
+<section class="ibuc-card"><h2>Main Parts of a Pressure Switch</h2><div class="cmp-wrap"><table class="cmp-t"><thead><tr><th>Part</th><th>What it does</th></tr></thead><tbody><tr><td>Sensing element</td><td data-l="What it does">Diaphragm, piston or bellows that turns the pressure into a force</td></tr><tr><td>Range spring</td><td data-l="What it does">Holds back the pressure force; its preload sets the switching point</td></tr><tr><td>Adjusting screw</td><td data-l="What it does">Changes the spring preload to move the set point within the range</td></tr><tr><td>Snap acting microswitch</td><td data-l="What it does">Changes over quickly with C, NC and NO terminals so the contact does not arc slowly</td></tr><tr><td>Deadband adjustment</td><td data-l="What it does">On adjustable models, a second spring or screw that sets the gap between switch and reset points</td></tr></tbody></table></div></section>
+<section class="ibuc-card"><h2>Where a Pressure Switch Is Used</h2><div class="hw-uses"><div class="hw-use"><b>Compressor control</b><span>Stops the compressor at the cut out pressure and restarts it at the cut in pressure.</span></div><div class="hw-use"><b>Pump protection</b><span>Low suction or low discharge pressure trip to stop a pump running dry or against a closed line.</span></div><div class="hw-use"><b>Lube oil permissive</b><span>Proves oil pressure before a large motor or turbine is allowed to start.</span></div><div class="hw-use"><b>Low pressure alarm</b><span>Warns the operator when instrument air or a utility header drops.</span></div></div></section>
+<div class="cmp-two"><div class="cmp-box" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2"><h3>Advantages</h3><ul><li>Simple, robust and needs no power supply for the sensing part</li><li>Direct contact output that can switch a starter or a PLC input</li><li>Low cost compared with a transmitter and trip amplifier</li></ul></div><div class="cmp-box" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8"><h3>Limitations</h3><ul><li>Gives only on off information, no trend of the actual pressure</li><li>Set point can drift with spring fatigue and must be checked on a test bench</li><li>A fixed deadband may be too wide or too narrow for the application</li></ul></div></div>
+<section class="ibuc-card"><h2>Pressure Switch Field Tips and Common Problems</h2><ul class="hw-tips"><li>Choose a range so the set point sits between about 30 % and 70 % of the switch range; the set point is more stable there.</li><li>Remember the set point is usually adjusted on rising pressure; check the datasheet to know whether the deadband is added above or below it.</li><li>For a low pressure alarm wire the contact so it opens on alarm; a broken wire then gives an alarm instead of hiding one.</li><li>Fit a snubber or a pulsation damper on pump discharge service so pressure spikes do not make the contact chatter.</li></ul></section>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>Related Calculators and Tools</h2><div class="ibx-grid"><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://www.instrumentationblog.in/calculators/pressure/pressure-force-calculator/"><span class="ibx-t">Calculator</span><span class="ibx-h">Pressure Force Calculator</span><span class="ibx-s">Free online calculator with formula and worked example.</span></a><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://www.instrumentationblog.in/calculators/pressure/pressure-gauge-range-selector/"><span class="ibx-t">Calculator</span><span class="ibx-h">Pressure Gauge Range Selector</span><span class="ibx-s">Free online calculator with formula and worked example.</span></a><a class="ibx-card" style="--l:#e4f6f7;--d:#0f7b80;--b:#bfe6e8" href="https://www.instrumentationblog.in/tools/practice-tests/pressure-measurement-quiz/"><span class="ibx-t">Tool</span><span class="ibx-h">Pressure Measurement Quiz</span><span class="ibx-s">Step by step interactive troubleshooting.</span></a><a class="ibx-card" style="--l:#fff4e0;--d:#a8620a;--b:#f5ddb0" href="https://www.instrumentationblog.in/glossary/pressure-switch-deadband/"><span class="ibx-t">Glossary</span><span class="ibx-h">Pressure Switch Deadband</span><span class="ibx-s">Definition, formula and example.</span></a><a class="ibx-card" style="--l:#fff4e0;--d:#a8620a;--b:#f5ddb0" href="https://www.instrumentationblog.in/glossary/hysteresis/"><span class="ibx-t">Glossary</span><span class="ibx-h">Hysteresis</span><span class="ibx-s">Definition, formula and example.</span></a><a class="ibx-card" style="--l:#fff4e0;--d:#a8620a;--b:#f5ddb0" href="https://www.instrumentationblog.in/glossary/set-pressure/"><span class="ibx-t">Glossary</span><span class="ibx-h">Set Pressure</span><span class="ibx-s">Definition, formula and example.</span></a></div></section>
+<section class="ibuc-card"><h2>Frequently Asked Questions</h2><details open><summary>What is the deadband of a pressure switch?</summary><p>It is the difference between the pressure at which the contact switches on rising pressure and the pressure at which it resets on falling pressure. It stops the contact chattering near the set point.</p></details><details><summary>Should I use the NO or NC contact?</summary><p>It depends on what must happen on failure. For alarms and trips use the contact that opens on the abnormal condition, so a broken wire or a loose terminal also gives the safe result.</p></details><details><summary>How do I calibrate a pressure switch?</summary><p>Connect it to a pressure source with a reference gauge, raise the pressure slowly and note where the contact changes, then lower it and note the reset point. Adjust the range screw and repeat until both points are within tolerance.</p></details><details><summary>Is a pressure switch the same as a pressure transmitter?</summary><p>No. A transmitter gives a continuous 4 to 20 mA or digital value over the whole range, while a switch only changes a contact at one pressure.</p></details></section>
+<div class="ibuc-ymal" style="background:linear-gradient(135deg,#0f7b80 0%,#06393b 100%)"><div class="ibuc-eye">You May Also Like</div><h3>Learn more on the blog</h3><p class="ibuc-yt">What is a pressure switch</p><p>A practical guide on instrumentationblog.in that goes deeper into this topic with field examples.</p><a class="ibuc-go" href="https://www.instrumentationblog.in/what-is-a-pressure-switch/">Read Full Article</a></div>
+<section class="ibuc-card"><h2>More How It Works</h2><div class="ibx-grid"><a class="ibx-card" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8" href="https://www.instrumentationblog.in/how-it-works/capacitive-proximity-sensor/"><span class="ibx-t">Switches</span><span class="ibx-h">How a Capacitive Proximity Sensor Works</span><span class="ibx-s">A capacitive proximity sensor builds an electric field in front of its face between an active el…</span></a><a class="ibx-card" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8" href="https://www.instrumentationblog.in/how-it-works/float-level-switch/"><span class="ibx-t">Switches</span><span class="ibx-h">How a Float Level Switch Works</span><span class="ibx-s">A float level switch uses a buoyant float that rises and falls with the liquid surface…</span></a><a class="ibx-card" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8" href="https://www.instrumentationblog.in/how-it-works/flow-switch/"><span class="ibx-t">Switches</span><span class="ibx-h">How a Paddle Flow Switch Works</span><span class="ibx-s">A paddle flow switch hangs a thin paddle across the pipe…</span></a><a class="ibx-card" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8" href="https://www.instrumentationblog.in/how-it-works/inductive-proximity-sensor/"><span class="ibx-t">Switches</span><span class="ibx-h">How an Inductive Proximity Sensor Works</span><span class="ibx-s">An inductive proximity sensor drives a coil with a high frequency oscillator to create a magneti…</span></a><a class="ibx-card" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8" href="https://www.instrumentationblog.in/how-it-works/limit-switch/"><span class="ibx-t">Switches</span><span class="ibx-h">How a Limit Switch Works</span><span class="ibx-s">A limit switch is a mechanical switch operated by physical contact…</span></a><a class="ibx-card" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8" href="https://www.instrumentationblog.in/how-it-works/photoelectric-sensor/"><span class="ibx-t">Switches</span><span class="ibx-h">How a Photoelectric Sensor Works</span><span class="ibx-s">A photoelectric sensor sends a pulsed beam of light from an emitter and checks how much of it ar…</span></a><a class="ibx-card" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8" href="https://www.instrumentationblog.in/how-it-works/vibrating-fork-level-switch/"><span class="ibx-t">Switches</span><span class="ibx-h">How a Vibrating Fork Level Switch Works</span><span class="ibx-s">A vibrating fork level switch keeps a tuning fork vibrating at its resonant frequency with a pie…</span></a><a class="ibx-card" style="--l:#eaf2fe;--d:#1e63b8;--b:#c9dcf8" href="https://www.instrumentationblog.in/how-it-works/orifice-plate/"><span class="ibx-t">Flow</span><span class="ibx-h">How an Orifice Plate Works</span><span class="ibx-s">An orifice plate is a thin plate with a hole that squeezes the flow…</span></a></div></section>
+<p style="text-align:center;margin:0 0 22px"><a href="https://www.instrumentationblog.in/how-it-works/"><b>All How It Works animations</b></a> · <a href="https://www.instrumentationblog.in/glossary/"><b>Instrumentation glossary</b></a> · <a href="https://www.instrumentationblog.in/compare/"><b>Comparisons</b></a></p>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+</div>
+<script>
+(function(){
+var cv=document.getElementById('hw-cv');if(!cv)return;
+var C=cv.getContext('2d'),W=640,H=360,run=true,vis=true,last=0,T=0,P={},dirty=true;
+function fit(){var w=cv.parentNode.clientWidth,d=window.devicePixelRatio||1,s=w/W;cv.width=Math.round(w*d);cv.height=Math.round(H*s*d);cv.style.height=Math.round(H*s)+'px';C.setTransform(s*d,0,0,s*d,0,0);dirty=true;}
+function m(x,d){var s=Math.abs(x).toFixed(d);return(x<0&&Number(s)!==0?'−':'')+s;}
+function o(id,v){var e=document.getElementById('hw-o-'+id);if(e&&e.textContent!==v)e.textContent=v;}
+function L(t,x,y,sz,c,a,b){C.font=(b?'700 ':'')+(sz||13)+'px "Segoe UI",Arial,sans-serif';C.fillStyle=c||'#1f2733';C.textAlign=a||'center';C.textBaseline='middle';C.fillText(t,x,y);}
+function ln(x1,y1,x2,y2,c,w,d){C.strokeStyle=c;C.lineWidth=w||1.5;C.setLineDash(d||[]);C.beginPath();C.moveTo(x1,y1);C.lineTo(x2,y2);C.stroke();C.setLineDash([]);}
+function rc(x,y,w,h,f,s,r){C.beginPath();if(r&&C.roundRect)C.roundRect(x,y,w,h,r);else C.rect(x,y,w,h);if(f){C.fillStyle=f;C.fill();}if(s){C.strokeStyle=s;C.lineWidth=1.5;C.stroke();}}
+function ci(x,y,r,f,s,w){C.beginPath();C.arc(x,y,r,0,Math.PI*2);if(f){C.fillStyle=f;C.fill();}if(s){C.strokeStyle=s;C.lineWidth=w||1.5;C.stroke();}}
+function mk(n,x,y){ci(x,y,11,'#d9622b','#fff',2);L(String(n),x,y+1,13,'#fff','center',1);}
+function ar(x1,y1,x2,y2,c,w){ln(x1,y1,x2,y2,c,w);var a=Math.atan2(y2-y1,x2-x1),h=8;C.fillStyle=c;C.beginPath();C.moveTo(x2,y2);C.lineTo(x2-h*Math.cos(a-.45),y2-h*Math.sin(a-.45));C.lineTo(x2-h*Math.cos(a+.45),y2-h*Math.sin(a+.45));C.closePath();C.fill();}
+function sm(u){u=u<0?0:u>1?1:u;return u*u*(3-2*u);}
+function clamp(x,a,b){return x<a?a:x>b?b:x;}
+function rd(){[].forEach.call(document.querySelectorAll('#hw-ctl input'),function(i){P[i.dataset.k]=parseFloat(i.value);var e=document.getElementById(i.id+'-v');if(e)e.textContent=m(P[i.dataset.k],+i.dataset.d)+(i.dataset.u?' '+i.dataset.u:'');});upd();dirty=true;}
+function wave(x1,x2,y,yb,col,ph){C.fillStyle=col;C.beginPath();C.moveTo(x1,yb);for(var x=x1;x<=x2;x+=4)C.lineTo(x,y+2.2*Math.sin(x/17+T*3+(ph||0))+1.2*Math.sin(x/7-T*5));C.lineTo(x2,yb);C.closePath();C.fill();C.strokeStyle='#1e3a8a';C.lineWidth=2;C.beginPath();for(var x=x1;x<=x2;x+=4){var yy=y+2.2*Math.sin(x/17+T*3+(ph||0))+1.2*Math.sin(x/7-T*5);if(x==x1)C.moveTo(x,yy);else C.lineTo(x,yy);}C.stroke();}
+function stream(x,y1,y2){C.setLineDash([6,8]);C.lineDashOffset=-T*60;C.strokeStyle='#3b82f6';C.lineWidth=4;C.beginPath();C.moveTo(x,y1);C.lineTo(x,y2);C.stroke();C.setLineDash([]);C.lineDashOffset=0;}
+function exp(){var o=document.createElement('canvas'),w=1560,h=878,bh=110,dl=document.getElementById('hw-dl');o.width=w;o.height=h+bh;var x=o.getContext('2d');x.fillStyle='#fff';x.fillRect(0,0,w,h+bh);x.drawImage(cv,0,0,w,h);x.fillStyle='#f6f8fc';x.fillRect(0,h,w,bh);x.fillStyle='#dde3ee';x.fillRect(0,h,w,2);
+x.fillStyle='#ffe500';x.beginPath();if(x.roundRect)x.roundRect(40,h+20,70,70,10);else x.rect(40,h+20,70,70);x.fill();x.fillStyle='#1e63b8';x.font='800 44px "Segoe UI",Arial,sans-serif';x.textAlign='center';x.textBaseline='middle';x.fillText('ib',75,h+56);
+x.textAlign='left';x.fillStyle='#1a2333';x.font='700 30px "Segoe UI",Arial,sans-serif';x.fillText('Instrumentation Blog',128,h+42);x.fillStyle='#5b6576';x.font='22px "Segoe UI",Arial,sans-serif';x.fillText('instrumentationblog.in/how-it-works',128,h+76);
+x.textAlign='right';x.fillStyle='#1a2333';x.font='700 28px "Segoe UI",Arial,sans-serif';x.fillText(dl?dl.dataset.title:'',w-40,h+56);return o;}
+window.__hwExport=function(){return exp().toDataURL('image/png');};
+function pipe(x1,x2,cy,R,fl){rc(x1,cy-R-12,x2-x1,12,'#9aa5b8');rc(x1,cy+R,x2-x1,12,'#9aa5b8');rc(x1,cy-R,x2-x1,2*R,fl||'#e6f0fd');}
+
+var p=4.5,mot=true,hist=[],pre=0,ang=0,dots=[];for(var i=0;i<60;i++)dots.push([Math.random(),Math.random(),Math.random()*6.28]);
+function rs(){return Math.max(0,P.sp-P.db);}
+function upd(){if(!pre){pre=1;for(var q=0;q<500;q++){T+=0.04;step(0.04);}}o('f',m(P.sp*1e5*2e-4,0)+' N');o('ci',m(rs(),1)+' bar');o('dp',m(P.db/10*100,0)+' %');o('st',mot?'Below set point: C to NC closed, compressor running':'Tripped: C to NO, compressor stopped');}
+function step(dt){p+=(mot?0.9:-0.6)*dt;p=clamp(p,0,10);var w=mot;if(mot&&p>=P.sp)mot=false;else if(!mot&&p<=rs())mot=true;if(w!==mot)upd();ang+=mot?dt*12:0;
+hist.push([T,p]);while(hist.length&&T-hist[0][0]>20)hist.shift();}
+function draw(){
+L('Pressure cycle sped up; diaphragm movement exaggerated',20,22,11,'#5b6576','left');
+ci(64,250,30,'#e2e8f0','#334155',2);for(var k=0;k<3;k++){var a=ang+k*2.094;ln(64,250,64+22*Math.cos(a),250+22*Math.sin(a),'#475569',4);}ci(64,250,6,'#334155');
+L('Compressor',64,294,11,'#1a2333','center',1);L(mot?'Running':'Stopped',64,308,11,mot?'#16a34a':'#b91c1c','center',1);
+ln(94,250,140,250,'#64748b',6);if(mot){C.setLineDash([5,8]);C.lineDashOffset=-T*40;ln(94,250,140,250,'#bfdbfe',2,[5,8]);C.setLineDash([]);C.lineDashOffset=0;}
+rc(140,110,100,190,'#e2e8f0','#475569',30);var den=Math.round(p*6);for(var i=0;i<den;i++){var d=dots[i],x=152+76*((d[0]+0.03*Math.sin(T*3+d[2]))%1),y=132+150*((d[1]+0.03*Math.cos(T*2.6+d[2]))%1);ci(x,y,2.4,'#1e63b8');}
+rc(152,192,76,40,'rgba(255,255,255,0.92)','#94a3b8',6);L('Receiver',190,204,12,'#1a2333','center',1);L(m(p,2)+' bar',190,221,12,'#1e63b8','center',1);
+ln(240,280,282,280,'#64748b',5);C.setLineDash([4,8]);C.lineDashOffset=-T*20;ln(240,280,282,280,'#bfdbfe',2,[4,8]);C.setLineDash([]);C.lineDashOffset=0;ar(270,294,286,294,'#1e63b8',2);L('To air users',244,308,11,'#1e63b8','left',1);
+ln(190,110,190,92,'#475569',3);ci(190,72,20,'#fff','#334155',2);var ga=Math.PI*0.75+p/10*Math.PI*1.5;ln(190,72,190+15*Math.cos(ga),72+15*Math.sin(ga),'#b91c1c',2);ci(190,72,3,'#334155');L('0 to 10 bar',190,42,11,'#5b6576','center');
+ln(232,130,268,130,'#475569',3);ln(268,130,268,214,'#475569',3);ln(268,214,312,214,'#475569',3);
+rc(290,36,190,196,'#f8fafc','#cbd5e1',8);L('Switch close up',298,48,11,'#5b6576','left',1);
+var dfl=p/10*8;rc(312,206,150,18,'rgba(147,197,253,0.6)','#334155',3);L('P',326,215,11,'#1e63b8','center',1);
+C.strokeStyle='#1a2333';C.lineWidth=3;C.beginPath();C.moveTo(332,206);C.quadraticCurveTo(387,206-2*dfl,442,206);C.stroke();
+var top=196-dfl;ar(370,214,370,top+4,'#1e63b8',2);ar(404,214,404,top+4,'#1e63b8',2);
+rc(382,top-50,10,50,'#64748b','#334155',2);rc(362,top-56,50,6,'#334155');
+var sy0=74,sy1=top-56;C.strokeStyle='#0f7b80';C.lineWidth=2.5;C.beginPath();for(var k=0;k<=12;k++){var y=sy0+(sy1-sy0)*k/12,x=387+(k%2?14:-14);if(k==0||k==12)x=387;if(k)C.lineTo(x,y);else C.moveTo(x,y);}C.stroke();
+rc(362,66,50,8,'#334155');rc(381,54,12,12,'#a8620a','#4a2a04',2);L('Set screw',412,60,11,'#a8620a','left',1);
+rc(418,96,56,62,'#1a2333',null,6);L('C',430,108,11,'#fde68a','center',1);L('NC',448,108,11,'#cbd5e1','center',1);L('NO',448,146,11,'#cbd5e1','center',1);
+var ty=mot?118:136;ci(430,127,3,'#fde68a');ln(430,127,462,ty,'#fbbf24',3);ci(462,118,3,mot?'#22c55e':'#94a3b8');ci(462,136,3,mot?'#94a3b8':'#22c55e');
+ln(392,top-30,418,top-30,'#475569',2);
+rc(496,40,134,124,'#1a2333',null,8);L('Motor starter',563,54,11,'#cbd5e1','center',1);ci(520,84,12,mot?'#22c55e':'#334155','#94a3b8',2);if(!mot){var g=0.5+0.5*Math.sin(T*8);ci(520,84,16+3*g,null,'rgba(251,113,133,0.7)',2);}
+L(mot?'Running':'Stopped',540,84,12,'#fff','left',1);L('Cut out '+m(P.sp,1)+' bar',563,116,11,'#fde68a','center',1);L('Cut in '+m(rs(),1)+' bar',563,136,11,'#bfdbfe','center',1);L('Now '+m(p,2)+' bar',563,154,11,'#cbd5e1','center');
+var gx0=330,gx1=620,gy0=254,gy1=334,TY=function(v){return gy1-v/10*(gy1-gy0);},TX=function(t){return gx1-(T-t)/20*(gx1-gx0);};
+rc(gx0,gy0,gx1-gx0,gy1-gy0,'#f8fafc','#e2e8f0');ln(gx0,TY(P.sp),gx1,TY(P.sp),'#b91c1c',1,[4,4]);ln(gx0,TY(rs()),gx1,TY(rs()),'#16a34a',1,[4,4]);
+L('set '+m(P.sp,1),gx1-4,TY(P.sp)-8,11,'#b91c1c','right');L('reset '+m(rs(),1),gx1-4,TY(rs())+9,11,'#16a34a','right');
+L('10',gx0-4,gy0,11,'#5b6576','right');L('0',gx0-4,gy1,11,'#5b6576','right');
+C.strokeStyle='#1e63b8';C.lineWidth=2;C.beginPath();hist.forEach(function(q,i){var x=TX(q[0]),y=TY(q[1]);if(i)C.lineTo(x,y);else C.moveTo(x,y);});C.stroke();
+L('Pressure, bar',gx0,gy0-10,11,'#1e63b8','left',1);L('last 20 s',gx1,gy0-10,11,'#5b6576','right');
+mk(1,30,214);mk(2,150,126);mk(3,268,172);mk(4,452,196);mk(5,346,120);mk(6,474,90);mk(7,616,164);mk(8,gx0+16,gy1-14);}
+
+function fr(t){var dt=Math.min(.05,((t-last)/1000)||0);last=t;if(run&&vis&&!document.hidden){T+=dt;step(dt);dirty=true;}if(dirty&&vis){C.clearRect(0,0,W,H);draw();dirty=false;}requestAnimationFrame(fr);}
+[].forEach.call(document.querySelectorAll('#hw-ctl input'),function(i){i.addEventListener('input',rd);});
+var dl=document.getElementById('hw-dl');if(dl&&cv.toBlob)dl.addEventListener('click',function(){exp().toBlob(function(b){var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=dl.dataset.name;document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove();},500);},'image/png');});
+var pp=document.getElementById('hw-pp');if(pp)pp.addEventListener('click',function(){run=!run;pp.textContent=run?'Pause animation':'Play animation';});
+if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){run=false;if(pp)pp.textContent='Play animation';}
+if('IntersectionObserver' in window)new IntersectionObserver(function(e){vis=e[0].isIntersecting;dirty=true;}).observe(cv);
+window.addEventListener('resize',function(){fit();C.clearRect(0,0,W,H);draw();});fit();rd();step(0.016);draw();requestAnimationFrame(fr);
+})();
+</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.instrumentationblog.in/"},{"@type":"ListItem","position":2,"name":"How It Works","item":"https://www.instrumentationblog.in/how-it-works/"},{"@type":"ListItem","position":3,"name":"How a Pressure Switch Works","item":"https://www.instrumentationblog.in/how-it-works/pressure-switch/"}]},{"@type":"ImageObject","contentUrl":"https://www.instrumentationblog.in/how-it-works/pressure-switch/pressure-switch-working-diagram.webp","name":"How a Pressure Switch Works","caption":"Labelled diagram showing how a pressure switch works","width":1560,"height":988},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the deadband of a pressure switch?","acceptedAnswer":{"@type":"Answer","text":"It is the difference between the pressure at which the contact switches on rising pressure and the pressure at which it resets on falling pressure. It stops the contact chattering near the set point."}},{"@type":"Question","name":"Should I use the NO or NC contact?","acceptedAnswer":{"@type":"Answer","text":"It depends on what must happen on failure. For alarms and trips use the contact that opens on the abnormal condition, so a broken wire or a loose terminal also gives the safe result."}},{"@type":"Question","name":"How do I calibrate a pressure switch?","acceptedAnswer":{"@type":"Answer","text":"Connect it to a pressure source with a reference gauge, raise the pressure slowly and note where the contact changes, then lower it and note the reset point. Adjust the range screw and repeat until both points are within tolerance."}},{"@type":"Question","name":"Is a pressure switch the same as a pressure transmitter?","acceptedAnswer":{"@type":"Answer","text":"No. A transmitter gives a continuous 4 to 20 mA or digital value over the whole range, while a switch only changes a contact at one pressure."}}]}]}</script></main>
+<footer class="ibs-foot"><div class="ibs-in"><span>© 2026 instrumentationblog.in · Free tools for instrumentation and control engineers</span><span><a href="https://www.instrumentationblog.in/">Home</a> · <a href="https://www.instrumentationblog.in/calculators/">Calculators</a> · <a href="https://www.instrumentationblog.in/unit-converters/">Unit Converters</a> · <a href="https://www.instrumentationblog.in/tools/">Tools</a> · <a href="https://www.instrumentationblog.in/downloads/">Downloads</a> · <a href="https://www.instrumentationblog.in/glossary/">Glossary</a></span></div></footer><script src="/assets/ib-footer.js" defer></script>
+<script src="/assets/ib-header.js" defer></script></body>
+</html>

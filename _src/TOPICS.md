@@ -45,10 +45,10 @@ Add new topics anywhere; keep slugs unique and blog slugs from _src/blog_slugs.t
 - [x] modbus-rtu | Modbus RTU Communication | Signals | modbus-protocol-explained
 - [x] override-control | Override (Selector) Control | DCS | override-control-selector-dcs
 - [x] plc-shift-register | PLC Shift Register | PLC | plc-shift-register-shl-shr
-- [ ] pressure-switch | Pressure Switch | Switches | what-is-a-pressure-switch
-- [ ] scada-redundancy | SCADA Server Redundancy | SCADA | scada-redundancy-architecture
-- [ ] pt100-rtd | Pt100 RTD | Temperature | what-is-rtd-and-how-it-works
-- [ ] flow-switch | Paddle Flow Switch | Switches | flow-switch-working-principle-paddle-dp-thermal
+- [x] pressure-switch | Pressure Switch | Switches | what-is-a-pressure-switch
+- [x] scada-redundancy | SCADA Server Redundancy | SCADA | scada-redundancy-architecture
+- [x] pt100-rtd | Pt100 RTD | Temperature | what-is-rtd-and-how-it-works
+- [x] flow-switch | Paddle Flow Switch | Switches | flow-switch-working-principle-paddle-dp-thermal
 - [ ] sequential-function-chart | Sequential Function Chart (SFC) | PLC | sequential-function-chart-sfc-plc
 - [ ] guided-wave-radar | Guided Wave Radar Level Transmitter | Level | guided-wave-radar-level-transmitter
 - [ ] zener-barrier | Zener Barrier | Safety | what-is-a-zener-diode

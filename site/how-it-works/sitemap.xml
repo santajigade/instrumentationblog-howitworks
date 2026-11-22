@@ -18,6 +18,7 @@
 <url><loc>https://www.instrumentationblog.in/how-it-works/cascade-control/</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://www.instrumentationblog.in/how-it-works/dcs-controller-redundancy/</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://www.instrumentationblog.in/how-it-works/float-level-switch/</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://www.instrumentationblog.in/how-it-works/flow-switch/</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://www.instrumentationblog.in/how-it-works/hart-protocol/</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://www.instrumentationblog.in/how-it-works/historian-swinging-door/</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://www.instrumentationblog.in/how-it-works/inductive-proximity-sensor/</loc><lastmod>2026-11-15</lastmod></url>
@@ -32,8 +33,11 @@
 <url><loc>https://www.instrumentationblog.in/how-it-works/plc-scan-cycle/</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://www.instrumentationblog.in/how-it-works/plc-shift-register/</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://www.instrumentationblog.in/how-it-works/plc-timer/</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://www.instrumentationblog.in/how-it-works/pressure-switch/</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://www.instrumentationblog.in/how-it-works/pt100-rtd/</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://www.instrumentationblog.in/how-it-works/ratio-control/</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://www.instrumentationblog.in/how-it-works/scada-polling/</loc><lastmod>2026-11-15</lastmod></url>
+<url><loc>https://www.instrumentationblog.in/how-it-works/scada-redundancy/</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://www.instrumentationblog.in/how-it-works/scada-report-by-exception/</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://www.instrumentationblog.in/how-it-works/sinking-sourcing-plc/</loc><lastmod>2026-11-15</lastmod></url>
 <url><loc>https://www.instrumentationblog.in/how-it-works/split-range-control/</loc><lastmod>2026-11-15</lastmod></url>
