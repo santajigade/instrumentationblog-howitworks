@@ -241,7 +241,7 @@
   "keywords": [
    "bimetallic thermometer diagram"
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "types-of-thermowells",
@@ -263,7 +263,7 @@
    "pt1000 formula",
    "pt100 ohm to celsius calculator"
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "list-of-free-scada-software",
@@ -285,7 +285,7 @@
   "keywords": [
    "types of pid"
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "plc-programming-languages",
@@ -299,7 +299,7 @@
   "keywords": [
    "ic 74hc595"
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "per-unit-system-power-system",
@@ -314,7 +314,7 @@
   "keywords": [
    "difference between star delta and dol starter"
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "dp-transmitter-level-measurement",
