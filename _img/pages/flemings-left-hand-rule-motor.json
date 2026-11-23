@@ -1,0 +1,92 @@
+{
+ "id": 20188,
+ "slug": "flemings-left-hand-rule-motor",
+ "mode": "elementor",
+ "title": "Flemings Left Hand Rule: Simple Guide With 5 Easy Examples",
+ "focus": "Flemings Left Hand Rule",
+ "queries": [
+  "fleming left hand rule",
+  "newton's left hand rule",
+  "flemings left hand rule examples"
+ ],
+ "h2s": [
+  {
+   "text": "What Is Fleming's Left Hand Rule?",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "The Three Fingers and What They Mean",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Force on a Conductor: F = BIL sin \u03b8",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Fleming's Left Hand Rule Force Calculator",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "How to Apply the Rule Step by Step",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Second Worked Example: Torque on a Motor Coil",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "5 Easy Examples of Fleming's Left Hand Rule in Machines",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Left Hand Rule Versus Right Hand Rule",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Common Mistakes Students Make",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Where Engineers Use It on the Job",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "NCERT Chapter on Magnetic Effects PDF",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Motor Rule Video Lesson",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Fleming's Left Hand Rule FAQ",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Related Articles",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "External References",
+   "unique": true,
+   "where": "html"
+  }
+ ],
+ "has_ib_img": false,
+ "images_now": 2,
+ "text": "Electrical Fundamentals\n Fleming's Left Hand Rule: Simple Guide With 5 Easy Examples\n Put a wire carrying current inside a magnetic field and it gets pushed sideways, which is the effect that spins every electric motor. Three fingers of your left hand tell you exactly which way that push acts, before you write a single equation.\n Motor Rule \r\n Thumb Force \r\n Forefinger Field \r\n Middle Finger Current \r\n F = BIL sin \u03b8 \r\n A current carrying conductor in a magnetic field feels a force, and its direction decides which way a motor turns. A simple three finger trick finds that direction, while F = BIL sin \u03b8 gives its size.\n Hello everyone, today we are going to learn Flemings left hand rule, how the thumb, forefinger and middle finger show force, field and current, and how F = BIL sin \u03b8 gives the force inside motors.\r\n Quick Answer\n What Is Fleming's Left Hand Rule?\n Fleming's left hand rule gives the direction of force on a current carrying conductor in a magnetic field, as in a motor. Hold the thumb, forefinger and middle finger at right angles: forefinger is the field (north to south), middle finger is conventional current, and the thumb shows the force.\n The size of the force is F = BIL sin \u03b8 . With B = 0.5 T, I = 10 A, L = 0.2 m and \u03b8 = 90\u00b0, F = 1 N.\n What Is Fleming's Left Hand Rule?\n Fleming's left hand rule is a memory aid that gives the direction of the force on a current carrying conductor placed in a magnetic field. It applies to motor action, where electrical energy becomes motion, and it is the starting point for understanding every DC motor .\n Hold the thumb, forefinger and middle finger of the left hand mutually at right angles. The forefinger points along the magnetic field from north to south, the middle finger along the conventional current, and the thumb then shows the force or motion.\n The British engineer John Ambrose Fleming created the left and right hand rules in the late 19th century. His aim was to help students tell motor action apart from generator action, a confusion that still trips up many learners today.\n Advertisement \n The Three Fingers and What They Mean\n Thumb\n Points in the direction of the force, thrust or motion of the conductor.\n Best for: motion of the wire or rotor\n Force F \n Forefinger\n Points along the magnetic field, from the north pole toward the south pole.\n Best for: field of magnet or stator\n Field B \n Middle Finger\n Points along the conventional current, from positive to negative.\n Best for: current in the conductor\n Current I \n A popular way to remember the order is FBI. The thumb is Force, the forefinger is the B field and the middle finger is the current I, reading from the top finger down.\n Do You Know?\n Fleming also invented the thermionic valve, or vacuum diode, in 1904. That one device opened the road to radio and early electronics.\n NCERT introduces Fleming's left hand rule in the Class 10 Science chapter on Magnetic Effects of Electric Current, right after the experiment where a rod in a horseshoe magnet jumps when current flows. That same chapter recalls that Oersted discovered in 1820 that a current deflects a compass needle.\n Force on a Conductor: F = BIL sin \u03b8\n The finger rule gives direction only, so the size of the force needs a formula. Electrical4U gives it as F = BIL sin \u03b8, where \u03b8 is the angle between the current and the field.\n F = B \u00d7 I \u00d7 L \u00d7 sin \u03b8 \nF = force on the conductor in newton\nB = magnetic flux density in tesla\nI = current in ampere\nL = length of conductor inside the field in metre\nExample:\nB = 0.5 T, I = 10 A, L = 0.2 m, \u03b8 = 90\u00b0\nF = 0.5 \u00d7 10 \u00d7 0.2 \u00d7 sin 90\u00b0\n F = 1 \u00d7 1 = 1.000 N \r\n The force is largest when the current crosses the field at 90\u00b0, because sin 90\u00b0 equals 1. Electrical4U points out that the force becomes zero when the current runs parallel to the field, since sin 0\u00b0 equals 0.\n Each quantity uses its SI unit, and the tesla, ampere and newton are explained in electrical units of measure . Doubling any one of B, I or L doubles the force, which is why motors use strong magnets, many turns and long active conductors.\n Fleming's Left Hand Rule Force Calculator\n Force on a Current Carrying Conductor\n Flux density B, tesla \n Current I, ampere \n Active length L, metre \n Angle between current and field, degrees \n 180){o.innerText='Please enter positive B, I and L, and an angle from 0 to 180 degrees';}else{var f=b*i*l*Math.sin(a*Math.PI/180);if(Math.abs(f) Calculate \r\n Result\n Force on conductor 1.000 N\n Quick Tip\n Enter the angle between the wire and the field, not between the wire and the magnet face. A wire running straight along the field lines feels no force at all.\n Advertisement \n How to Apply the Rule Step by Step\n 1\n Find the Field\n Mark the field from the north pole to the south pole.\n 2\n Find the Current\n Mark conventional current from positive to negative.\n 3\n Set the Fingers\n Point forefinger along the field and middle finger along the current.\n 4\n Read the Thumb\n The thumb now points along the force on the conductor.\n Try it on a horizontal wire between magnet poles, with north on the left and south on the right, and current flowing away from you into the page. Your forefinger points right, your middle finger points away, and your thumb points upward, so the wire is pushed up.\n Reverse either the current or the field and the force reverses. Reverse both together and the force stays the same, which is why a DC series motor keeps turning in the same direction even when the supply polarity is swapped.\n Second Worked Example: Torque on a Motor Coil\n A rectangular coil of 50 turns sits in a 0.4 T field and carries 2 A. Each active side is 0.05 m long and the two sides are 0.04 m apart.\n Force on one side = N \u00d7 B \u00d7 I \u00d7 L \n Torque = Force \u00d7 coil width \nForce = 50 \u00d7 0.4 \u00d7 2 \u00d7 0.05 = 2 N\nTorque = 2 \u00d7 0.04\n Torque = 0.08 N m \r\n Fleming's left hand rule shows that the two sides are pushed in opposite directions, because their currents flow opposite ways in the same field. The two forces form a couple that turns the coil, and a commutator reverses the current every half turn so the torque keeps the same sense.\n 5 Easy Examples of Fleming's Left Hand Rule in Machines\n DC Motors\n Armature conductors under the field poles are pushed sideways, producing torque.\n Brushless DC Motors\n Stator currents switched by electronics act on rotor magnets.\n Induction Motors\n Induced rotor bar currents in the rotating field produce driving force.\n Moving Coil Meters\n A coil in a permanent magnet field deflects in proportion to current.\n Loudspeakers\n A voice coil in a radial magnet field pushes the cone back and forth.\n The Association for Advancing Automation notes that the rule can describe motion in DC, AC, brushed, brushless and induction motors. You can follow the same idea through brushless DC motor working and how an AC induction motor works .\n In an induction motor the rotor current is itself induced, so the full picture needs both rules, as explained in induction motor slip . Precise positioning machines such as those in stepper motor types rely on the same force between current and field.\n Do You Know?\n The same force acts on electrons moving inside a semiconductor slab, crowding them to one side. That sideways push creates the Hall voltage used in current and position sensors.\n You can see this in how a Hall effect sensor works , where the deflection is measured as a small voltage instead of mechanical motion.\n Left Hand Rule Versus Right Hand Rule\n Feature\n Left Hand Rule\n Right Hand Rule\n Used for\n Motors\n Generators\n Input\n Current and field\n Motion and field\n Output found\n Force or motion\n Induced current\n Thumb\n Force\n Motion of conductor\n Middle finger\n Current supplied\n Current induced\n Fleming's right hand rule applies when a conductor is moved through a field and a current is induced in it, which is generator action described by Faraday law of electromagnetic induction . Use it for an alternator or a DC generator.\n In a running motor both effects happen together, since the turning armature also generates a back EMF that opposes the supply. This link between the two rules is covered in AC motors, generators and back EMF .\n Quick Tip\n Remember motors drive on the left, just like traffic in India. Generators use the right hand.\n Myth: The thumb shows the current.\n Fact: The thumb shows force or motion, and the middle finger shows the current.\n Myth: Electron flow is used.\n Fact: The rule uses conventional current, from positive to negative.\n Myth: The rule gives the size of the force.\n Fact: It gives direction only, and F = BIL sin \u03b8 gives the magnitude.\n Myth: Any hand works if you are careful.\n Fact: Using the right hand for a motor gives the opposite and wrong direction.\n Common Mistakes Students Make\n Fingers held mutually at 90\u00b0 to each other.\n Forefinger points from north to south.\n Middle finger follows conventional current.\n Left hand used for motors only.\n Angle \u03b8 taken between current and field.\n Only the length inside the field counted as L.\n Most wrong answers in exams come from using electron flow, mixing up the hands or bending the fingers loosely. Practise Fleming's left hand rule on two or three diagrams each day until the three right angles feel natural.\n Advantages of the Rule\n Gives force direction instantly without vector maths.\n Works for motors, meters, speakers and relays.\n Easy to teach and remember with FBI.\n Builds intuition for torque in machines.\n Limitations\n Gives direction only, not magnitude.\n Needs field and current at right angles for clarity.\n Easy to confuse with the right hand rule.\n Does not handle complex field shapes by itself.\n Advertisement \n Where Engineers Use It on the Job\n Plant engineers meet the motor force daily in conveyors, pumps and fans, and they reverse a 3 phase motor by swapping two supply lines, which reverses the rotating field. Similar current and field forces act in a solenoid valve and an electromagnetic relay , although the force there pulls on iron.\n Electromagnetic flow meters use the generator side of the story, since the conductive liquid moving through a field induces a voltage, as shown in electromagnetic flow meter working principle . Knowing both rules helps you read such instruments correctly.\n NCERT Chapter on Magnetic Effects PDF\n PDF\n Magnetic Effects of Electric Current, NCERT Class 10 Science\n NCERT textbook chapter with the motor experiment\n Motor Rule Video Lesson\n Fleming's Left Hand Rule FAQ\n What does Fleming's left hand rule tell us?\n It gives the direction of the force on a current carrying conductor placed in a magnetic field. The thumb shows the force, the forefinger the field and the middle finger the current.\n It is used wherever electrical energy becomes motion, such as in motors and meters. It gives direction only, so a formula is needed for the size.\n Why do we use the left hand for motors?\n Fleming chose the left hand for motors and the right hand for generators to keep the two actions separate. Using one hand for each makes the direction easy to recall.\n If you use the right hand for a motor, you get the opposite and wrong direction. A simple memory line is that motors drive on the left.\n What is the formula for the force?\n The force is F = BIL sin \u03b8, with B in tesla, I in ampere and L in metre. The angle \u03b8 is measured between the current and the magnetic field.\n With 0.5 T, 10 A, 0.2 m and 90\u00b0, the force is 1 newton. When the current runs parallel to the field, the force drops to zero.\n Does the rule use electron flow?\n No, the middle finger must always point along conventional current, flowing from the positive terminal to the negative terminal. Electron flow, which physically happens in a metal wire, runs the other way.\n If you follow electron flow by mistake, your thumb points in the opposite direction. Always convert to conventional current first before you set your three fingers.\n What happens if both current and field reverse?\n The force keeps the same direction when both quantities reverse together. Reversing only one of them flips the force to the opposite side straight away.\n This is why a DC series motor turns the same way on either supply polarity. Changing the motor direction needs a reversal in only the armature or only the field.\n How is the right hand rule different?\n The right hand rule is used for generators, where motion through a field induces a current. Its thumb shows the motion and its middle finger the induced current.\n The left hand rule starts with a known current and finds the force. In a running motor both effects happen together, so the turning armature also generates a voltage.\n Which machines follow this rule?\n DC motors, brushless motors, induction motors, moving coil meters and loudspeakers all follow it in the same simple way. In each one, a current flowing in a magnetic field produces a sideways push.\n The Association for Advancing Automation notes it can describe motion in brushed, brushless and induction motors. Engineers use it to predict the rotation direction before wiring.\n Advertisement \n Related Articles\n Faraday Law of Electromagnetic Induction \n DC Motor Types Series, Shunt and Compound \n AC Motors, Generators and Back EMF \n Brushless DC Motor Working Principle \n How a Hall Effect Sensor Works \n External References\n Magnetic Effects of Electric Current, NCERT \n Fleming Left and Right Hand Rules, Electrical4U \n Fleming Rule for Motors, Wikipedia \n What We Learn Today\n Fleming's left hand rule uses the thumb for force, the forefinger for the magnetic field and the middle finger for conventional current, all held at right angles.\n The size of the force on a conductor is F = BIL sin \u03b8, so 0.5 T, 10 A and 0.2 m at 90\u00b0 give exactly 1 newton.\n Motors use the left hand while generators use the right hand, and in a running motor both actions appear together through back EMF.\n I hope you like above blog. There is no cost associated in sharing the article in your social media. Thanks for reading!! Happy Learning!!\n Author \u00b7 instrumentationblog.in \r\n Editorial Staff\n Instrumentation Blog\u2019s Editorial Staff are industry professionals and technical writers with a strong interest in industrial electrical systems. They specialize in simplifying complex technical concepts into clear, practical, and easy to understand insights. All articles written by the Editorial Staff are technically reviewed before publication.\n Technically reviewed on 12 October 2026 \n WhatsApp\r\n Telegram\r\n Buy Me a Coffee"
+}

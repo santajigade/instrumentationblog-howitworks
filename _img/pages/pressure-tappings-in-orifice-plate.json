@@ -1,0 +1,84 @@
+{
+ "id": 11660,
+ "slug": "pressure-tappings-in-orifice-plate",
+ "mode": "elementor",
+ "title": "Pressure Tappings in Orifice Plate: Corner, Flange and D and D/2 Types Explained",
+ "focus": "Pressure Tappings in Orifice Plate",
+ "queries": [
+  "conditioning orifice plate",
+  "orifice plate sizing",
+  "pressure tappings",
+  "orifice plate dimensions",
+  "orifice plate sizes"
+ ],
+ "h2s": [
+  {
+   "text": "Pressure Tappings in Orifice Plate: Introduction",
+   "unique": true,
+   "where": "text-editor"
+  },
+  {
+   "text": "What Are Pressure Tappings in Orifice Plate?",
+   "unique": true,
+   "where": "text-editor"
+  },
+  {
+   "text": "Why Tapping Location Matters So Much?",
+   "unique": true,
+   "where": "text-editor"
+  },
+  {
+   "text": "Types of Pressure Tappings in Orifice Plate",
+   "unique": true,
+   "where": "text-editor"
+  },
+  {
+   "text": "1. Flange Taps",
+   "unique": true,
+   "where": "text-editor"
+  },
+  {
+   "text": "2. Vena Contracta Taps",
+   "unique": true,
+   "where": "text-editor"
+  },
+  {
+   "text": "3. Radius Taps",
+   "unique": true,
+   "where": "text-editor"
+  },
+  {
+   "text": "4. Corner Taps",
+   "unique": true,
+   "where": "text-editor"
+  },
+  {
+   "text": "5. Pipe Taps (Full Flow Taps)",
+   "unique": true,
+   "where": "text-editor"
+  },
+  {
+   "text": "6. Elbow Taps",
+   "unique": true,
+   "where": "text-editor"
+  },
+  {
+   "text": "Comparison of Pressure Tappings in Orifice Plate",
+   "unique": true,
+   "where": "text-editor"
+  },
+  {
+   "text": "How to Select the Right Pressure Tapping?",
+   "unique": true,
+   "where": "text-editor"
+  },
+  {
+   "text": "What we learn today?",
+   "unique": true,
+   "where": "text-editor"
+  }
+ ],
+ "has_ib_img": false,
+ "images_now": 0,
+ "text": "Pressure Tappings in Orifice Plate: Introduction\n When we talk about differential pressure flow measurement, the\u00a0 orifice plate \u00a0is often the first device that comes to mind. It is simple, reliable, and widely used across industries like oil & gas, water treatment, power plants, and chemical processing.\n But here is something many beginners ignore.\n The accuracy of an orifice plate system does not depend only on the plate itself. It heavily depends on how and where the pressure is tapped from the pipe.\n This is where Pressure Tappings in Orifice Plate become extremely important.\n In this article, we will clearly understand:\n What pressure tappings are\n Why their location matters\n Types of pressure taps used with orifice plates\n When to use which tapping type\n Practical selection guidance\n Let us begin from the basics.\n Quick Answer\n What Are the Types of Pressure Tappings in an Orifice Plate?\n Pressure tappings in an orifice plate are small holes upstream and downstream of the plate that feed the DP transmitter. Their location changes the differential pressure and discharge coefficient.\n Tapping\n Upstream\n Downstream\n Flange taps\n 1 inch\n 1 inch\n Corner taps\n At plate face\n At plate face\n Radius (D and D/2) taps\n 1D\n 0.5D\n Vena contracta taps\n 1D\n Point of minimum pressure\n Pipe taps\n 2.5D\n 8D\n What Are Pressure Tappings in Orifice Plate?\n An orifice plate works on Bernoulli\u2019s principle.\n When fluid passes through the restriction (orifice), velocity increases and pressure decreases. By measuring the pressure difference between two points (upstream and downstream), we can calculate the flow rate.\n But how do we measure this pressure difference?\n We drill small holes in the pipe or flange and connect impulse lines to a differential pressure transmitter. These holes are called pressure tappings .\n So in simple words:\n Pressure tappings are small openings in the pipe that allow us to measure high and low pressure across the orifice plate.\n Their position determines:\n The magnitude of differential pressure\n Measurement accuracy\n Calibration constant\n Compliance with standards like ISO 5167 and ASME\n Even a small change in tapping location can change the discharge coefficient and final flow reading.\n That is why understanding pressure tappings in orifice plate is critical.\n Why Tapping Location Matters So Much?\n After fluid passes through an orifice plate:\n Pressure drops suddenly at the restriction.\n The lowest pressure occurs slightly downstream at the vena contracta.\n Pressure gradually recovers further downstream.\n Now imagine this.\n If you take the downstream pressure reading at the wrong point, you will not measure the correct differential pressure. That directly affects flow calculation.\n Different industries and standards allow different tapping locations. Each has its own advantages and limitations.\n Let us now explore each type in detail.\n Types of Pressure Tappings in Orifice Plate\n There are six commonly referenced pressure tapping types associated with orifice flow measurement:\n Flange Taps\n Vena Contracta Taps\n Radius Taps\n Pipe Taps (Full Flow Taps)\n Corner Taps\n Elbow Taps\n We will understand each one clearly.\n 1. Flange Taps\n Flange taps are the most widely used pressure tappings in orifice plate installations.\n They are positioned:\n One inch upstream of the orifice plate\n One inch downstream of the orifice plate\n For pipe sizes greater than 2 inches, this one-inch rule applies regardless of pipe diameter.\n Important points:\n Not recommended for pipe sizes below 1.5 inches\n Generally avoided below 2 inches\n Very common in North America\n Why are they popular?\n Easy to machine in flanges\n Repeatable geometry\n Well standardized in ISO and ASME\n In real industrial installations, if you open an orifice meter run, most likely you will see flange taps.\n 2. Vena Contracta Taps\n After fluid passes through the orifice, the narrowest jet forms slightly downstream. This point is called the vena contracta.\n Here:\n Pressure is minimum\n Velocity is maximum\n In vena contracta tapping:\n Upstream tap is placed one pipe diameter upstream\n Downstream tap is placed at the point of minimum pressure\n These taps aim to capture the maximum possible differential pressure.\n However:\n Exact vena contracta location varies with beta ratio\n Not as standardized as flange taps\n Installation accuracy becomes critical\n They are sometimes preferred in smaller pipe diameters where maximizing DP is necessary.\n 3. Radius Taps\n Radius taps are more formalized and geometrically defined.\n Their positions are:\n Upstream tap at 1 pipe diameter (1D) upstream\n Downstream tap at 0.5 pipe diameter (0.5D) downstream\n These taps are typically recommended for:\n Pipe sizes 6 inches or larger\n Situations requiring better standard compliance\n Compared to flange taps:\n They are located further away\n Less influenced by flange machining tolerance\n In high accuracy flow measurement systems, radius taps are often preferred.\n 4. Corner Taps\n Corner taps are positioned directly at the faces of the orifice plate.\n In other words:\n Upstream tap is located at the upstream face\n Downstream tap is located at the downstream face\n They are very similar to flange taps but physically located at the plate edge.\n Usage differences:\n In Europe, corner taps are used for all pipe diameters\n In North America, mainly used for pipe sizes below 2 inches\n Advantages:\n Very compact design\n Suitable for small line sizes\n Good repeatability\n If you are working on small bore piping, corner taps are usually the preferred choice.\n 5. Pipe Taps (Full Flow Taps)\n Pipe taps are located further away from the orifice plate.\n Typical locations:\n 2.5 pipe diameters upstream\n 8 pipe diameters downstream\n Because they are not close to the orifice flange:\n Exact location tolerance is less critical\n However, measurement error can be higher\n Pressure recovery may influence reading\n These taps were more common in older installations.\n In modern standardized systems, flange or corner taps are more preferred.\n 6. Elbow Taps\n Elbow taps are different from the previous types.\n Here:\n No orifice plate is used\n Pressure difference is measured across an elbow\n When fluid flows around an elbow:\n Centrifugal force creates pressure difference\n Outer side pressure is higher\n Inner side pressure is lower\n Although:\n They are inexpensive\n Easy to install\n They are:\n Not highly accurate\n Very sensitive to flow profile\n Not recommended for custody transfer\n Elbow taps are generally used where cost is more important than high accuracy.\n Comparison of Pressure Tappings in Orifice Plate\n Let us summarize key practical differences:\n Flange Taps \u2013 Most common and standardized\n Corner Taps \u2013 Best for small diameter pipes\n Radius Taps \u2013 Used in larger pipes with better geometry control\n Vena Contracta Taps \u2013 Capture maximum DP but less standardized\n Pipe Taps \u2013 Older design, more measurement variation\n Elbow Taps \u2013 Low cost but lower accuracy\n How to Select the Right Pressure Tapping?\n Selecting pressure tappings in orifice plate depends on:\n Pipe Diameter\n Industry Standard Requirement\n Required Accuracy\n Space Availability\n Type of Fluid\n For example:\n If pipe size is below 2 inches, corner taps are preferred.\n If pipe size is above 6 inches and high accuracy is required, radius taps are recommended.\n If following ISO 5167 strictly, tapping type must match calculation constants.\n Always remember:\n Changing tapping type changes discharge coefficient.\n You cannot replace flange taps with pipe taps without recalculation.\n What we learn today?\n Pressure tappings in orifice plate systems may look like a small detail.\n But in reality, they define the entire measurement accuracy.\n Many times, engineers focus only on beta ratio and plate thickness. They forget tapping geometry.\n In instrumentation, precision is not only about expensive transmitters.\n It is about correct positioning.\n If you understand pressure tapping types clearly, you can:\n Design better meter runs\n Avoid calibration issues\n Reduce measurement uncertainty\n Improve plant performance\n Flow measurement is science.\n Pressure tapping location is geometry.\n And geometry defines accuracy.\n I hope you like above blog. There is no cost associated in sharing the article in your social media. Thanks for Reading !! Happy Learning"
+}
