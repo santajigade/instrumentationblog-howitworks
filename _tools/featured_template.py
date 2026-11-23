@@ -16,6 +16,11 @@ ICONS = {
     'switch': '<circle cx="100" cy="100" r="70"/><path d="M100 100l40-40"/><path d="M55 140h90"/><circle cx="100" cy="100" r="8"/>',
     'ph': '<path d="M80 20h40M88 20v60l-50 85a10 10 0 0 0 9 15h106a10 10 0 0 0 9-15l-50-85V20"/><path d="M58 140h84"/>',
     'rtd': '<path d="M115 125V35a15 15 0 0 0-30 0v90a30 30 0 1 0 30 0z"/><path d="M100 60v75"/><path d="M140 50h40M140 80h30M140 110h40"/>',
+    # added 23 Nov 2026
+    'ai': '<rect x="55" y="55" width="90" height="90" rx="12"/><path d="M80 55V25M100 55V25M120 55V25M80 145v30M100 145v30M120 145v30M55 80H25M55 100H25M55 120H25M145 80h30M145 100h30M145 120h30"/><path d="M78 125l12-50 10 30 10-30 12 50"/>',
+    'orifice': '<path d="M10 60h180M10 140h180"/><path d="M95 60v30M95 140v-30M105 60v30M105 140v-30"/><path d="M60 40v20M140 40v20"/><path d="M60 40c0-15 80-15 80 0"/><path d="M20 100h55M125 100h55" opacity=".6"/>',
+    'gauge': '<circle cx="100" cy="95" r="70"/><path d="M100 95l40-35"/><circle cx="100" cy="95" r="9"/><path d="M50 95h14M136 95h14M100 45v14M65 60l10 10"/><path d="M90 165h20v25h-20z"/>',
+    'tank': '<path d="M45 30h110v150H45z"/><path d="M45 110h110" /><path d="M55 120h20M85 135h20M115 125h20" opacity=".6"/><path d="M100 30V10M85 10h30"/><path d="M100 30l-15 25M100 30l15 25" opacity=".6"/>',
     # added 21 Nov 2026
     'scada': '<rect x="20" y="30" width="160" height="110" rx="10"/><path d="M40 115l30-35 25 20 30-45 35 30"/><path d="M80 170h40M100 140v30"/>',
     'dcs': '<rect x="45" y="20" width="110" height="160" rx="8"/><path d="M45 60h110M45 100h110M45 140h110"/><circle cx="70" cy="40" r="6"/><circle cx="70" cy="80" r="6"/><circle cx="70" cy="120" r="6"/><circle cx="70" cy="160" r="6"/><path d="M95 40h40M95 80h40M95 120h40M95 160h40"/>',
@@ -88,11 +93,11 @@ HUB_OF = {
 }
 
 POSTS = [
-    ('scada-applications-by-industry', 'SCADA Applications by Industry', 'Table and Poll Calculator', 'SCADA', ['Water', 'Power Grid', 'Pipelines'], 'scada', None),
-    ('yokogawa-centum-vp-dcs-overview', 'Yokogawa CENTUM VP', 'Architecture Diagram and I/O Calculator', 'DCS', ['CENTUM VP', 'Vnet/IP', 'FCS'], 'dcs', None),
-    ('modbus-tcp-security', 'Modbus TCP Security', 'Risk Calculator and Firewall Diagram', 'Cybersecurity', ['Port 502', 'TLS 802', 'IEC 62443'], 'shield', None),
-    ('network-topology-star-bus-ring', 'Network Topology', 'Star, Bus, Ring and Mesh Comparison Table', 'Communication', ['PROFINET', 'MRP Ring', 'Full Mesh'], 'topology', None),
-    ('steam-turbine-barring-gear-logic', 'Steam Turbine Barring Gear Logic', 'Logic Diagram and Calculator', 'Safety Systems', ['Barring', 'Interlocks', 'Rotor Bow'], 'turbine', None),
+    ('confusion-matrix-fault-detection', 'Confusion Matrix for Fault Detection', 'Calculator & Formula', 'Industrial AI', ['TP FP FN TN', 'Precision', 'F1 score'], 'ai', None),
+    ('permanent-pressure-loss-flow-meter', 'Permanent Pressure Loss', 'Formula, Calculator & Solved Example', 'Flow Measurement', ['Orifice', 'Venturi', 'Pump energy'], 'orifice', None),
+    ('pirani-gauge-working-principle', 'Pirani Gauge Working Principle', 'Diagram & Calculator', 'Pressure Measurement', ['Heated wire', 'Vacuum', 'Gas factor'], 'gauge', None),
+    ('contact-vs-non-contact-level-sensor', 'Contact vs Non Contact Level Sensor', 'Comparison Table', 'Level Measurement', ['Contact', 'Non contact', 'Radar'], 'tank', None),
+    ('liquid-in-glass-thermometer', 'Liquid in Glass Thermometer', 'Stem Correction Calculator', 'Temperature Measurement', ['Mercury', 'Immersion', 'Calibration'], 'rtd', None),
 ]
 
 if __name__ == '__main__':

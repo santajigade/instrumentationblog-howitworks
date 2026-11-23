@@ -8,6 +8,14 @@ def call(path, data, ctype):
 out = []
 for f in sorted(glob.glob('_upload/ibtmp-*/*.json')):
     d = json.load(open(f)); p = d['payload']; slug = p['slug']
+    if any(isinstance(c, str) for c in p.get('categories', [])):
+        ids = []
+        for c in p['categories']:
+            if isinstance(c, str):
+                rq = urllib.request.Request(B + '/wp/v2/categories?slug=' + c, headers=H)
+                with urllib.request.urlopen(rq, timeout=60) as r: c = json.loads(r.read())[0]['id']
+            ids.append(c)
+        p['categories'] = ids
     img = f[:-5] + '.webp'
     m = call('/wp/v2/media', open(img, 'rb').read(), {'Content-Type': 'image/webp', 'Content-Disposition': f'attachment; filename="{slug}.webp"'})
     kw = p['rank_math_focus_keyword']
