@@ -2494,7 +2494,7 @@
 "how do differential pressure transmitters work",
 "pressure differential level transmitter"
 ],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "calibration-process-differential-pressure-transmitter",
@@ -2508,7 +2508,7 @@
 "differential pressure transmitter how it works",
 "differential pressure transmitter"
 ],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "resistor-types-fixed-variable-special-purpose",
@@ -2516,7 +2516,7 @@
 "impr": 967,
 "pos": 13.8,
 "queries": [],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "rc-and-rl-time-constant-explained",
@@ -2524,7 +2524,7 @@
 "impr": 965,
 "pos": 15.2,
 "queries": [],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "thermocouple-types-comparision",
@@ -2537,7 +2537,7 @@
 "thermocouple types and ranges",
 "thermocouple different types"
 ],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "dcs-io-card-types-explained",
@@ -2545,7 +2545,7 @@
 "impr": 960,
 "pos": 4.6,
 "queries": [],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "dcs-objective-questions-and-answers",
@@ -2561,7 +2561,7 @@
 "impr": 956,
 "pos": 6.2,
 "queries": [],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "reed-switch-working-principle",
@@ -2575,7 +2575,7 @@
 "potentiometer working principle",
 "differential pressure transmitter working principle"
 ],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "flow-nozzle-vs-orifice-plate-vs-venturi",
@@ -2583,7 +2583,7 @@
 "impr": 954,
 "pos": 5.1,
 "queries": [],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "flow-nozzle-working-principle",
@@ -2597,7 +2597,7 @@
 "flow nozzle",
 "rtd working principle in hindi"
 ],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "scada-historian-integration-osisoft-pi-aveva-architecture",
@@ -2605,7 +2605,7 @@
 "impr": 948,
 "pos": 11.8,
 "queries": [],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "power-distribution-system-radial-ring",
@@ -2613,7 +2613,7 @@
 "impr": 932,
 "pos": 5.8,
 "queries": [],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "basics-of-level-measurement",
@@ -2636,7 +2636,7 @@
 "impr": 926,
 "pos": 12.5,
 "queries": [],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "precision-rectifier-op-amp-circuit",
@@ -2647,7 +2647,7 @@
 "precision rectifier using op amp",
 "precision rectifier op amp circuit"
 ],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "plc-memory-addressing",
@@ -2655,7 +2655,7 @@
 "impr": 921,
 "pos": 8.8,
 "queries": [],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "insulating-gloves-6-essential-classes-and-safe-testing-tips",
@@ -2663,7 +2663,7 @@
 "impr": 903,
 "pos": 9.5,
 "queries": [],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "maximum-demand-calculation-diversity",
@@ -2673,7 +2673,7 @@
 "queries": [
 "maximum demand"
 ],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "cause-and-effect-matrix",
@@ -2684,7 +2684,7 @@
 "cause and effect matrix meaning",
 "matrix cause and effect"
 ],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "temperature-measurements-questions-answers",
@@ -2700,7 +2700,7 @@
 "impr": 901,
 "pos": 19.6,
 "queries": [],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "plc-high-speed-counter-encoder",
@@ -2708,7 +2708,7 @@
 "impr": 899,
 "pos": 28.0,
 "queries": [],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "earth-conductor-size-calculation",
@@ -2719,7 +2719,7 @@
 "earth fault loop impedance calculation",
 "earth conductor size calculation"
 ],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "flow-totalizer-working-principle",
@@ -2733,7 +2733,7 @@
 "potentiometer working principle",
 "differential pressure transmitter working principle"
 ],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "calibrate-flow-meters-with-gases",
@@ -2741,7 +2741,7 @@
 "impr": 893,
 "pos": 36.2,
 "queries": [],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "process-variables-in-hart-transmitters",
@@ -2749,7 +2749,7 @@
 "impr": 891,
 "pos": 5.6,
 "queries": [],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "schmitt-trigger-hysteresis",
@@ -2760,7 +2760,7 @@
 "schmitt trigger circuit",
 "schmitt trigger"
 ],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "safety-signal-override-explained",
@@ -2768,7 +2768,7 @@
 "impr": 888,
 "pos": 6.0,
 "queries": [],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "plc-data-move-instructions",
@@ -2782,7 +2782,7 @@
 "data types in plc programming",
 "comparison instructions in plc"
 ],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "instrument-tag-numbering-isa-5-1",
@@ -2803,7 +2803,7 @@
 "zirconia oxygen analyzer working principle",
 "cems analyzer working principle"
 ],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "pressure-transmitter-loop-check-procedure",
@@ -2813,7 +2813,7 @@
 "queries": [
 "loop checking of pressure transmitter"
 ],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "insulation-resistance-test-megger",
@@ -2823,7 +2823,7 @@
 "queries": [
 "megger test"
 ],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "magnetic-flow-meter-troubleshooting",
@@ -2837,7 +2837,7 @@
 "annubar type flow meter",
 "anubar flow meter"
 ],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "difference-between-atex-and-iecex",
@@ -2851,7 +2851,7 @@
 "difference between filter and strainer",
 "atex iecex marking"
 ],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "thermostat-working-principle",
@@ -2865,7 +2865,7 @@
 "potentiometer working principle",
 "differential pressure transmitter working principle"
 ],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "what-is-cascade-control",
@@ -2873,7 +2873,7 @@
 "impr": 851,
 "pos": 24.9,
 "queries": [],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "pull-up-pull-down-resistor-values",
@@ -2881,7 +2881,7 @@
 "impr": 851,
 "pos": 14.0,
 "queries": [],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "process-control-valves-instrumentation",
@@ -2901,7 +2901,7 @@
 "impr": 845,
 "pos": 23.1,
 "queries": [],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "skin-temperature-measurement-thermocouple-pad-surface-sensor",
@@ -2909,7 +2909,7 @@
 "impr": 840,
 "pos": 8.0,
 "queries": [],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "led-resistor-calculation",
