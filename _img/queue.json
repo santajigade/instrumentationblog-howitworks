@@ -490,7 +490,7 @@
 "slug": "measurement-uncertainty-in-calibration",
 "impr": 3422,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "gas-groups-iia-iib-iic-what-is-the-difference",
@@ -500,7 +500,7 @@
 "atex iia iib iic",
 "iia iib iic gas group"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "strainer-and-filter-difference",
@@ -512,7 +512,7 @@
 "difference between filter and strainer",
 "filter vs strainer"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "free-plc-programming-software",
@@ -542,7 +542,7 @@
 "orifice plate dimensions",
 "orifice plate sizes"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "cems-continuous-emissions-monitoring-system",
@@ -551,7 +551,7 @@
 "continuous emission monitoring system",
 "cems continuous emission monitoring system"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "scada-communication-problems",
@@ -559,7 +559,7 @@
 "queries": [
 "aveva scada communication issues fix"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "pressure-gauge-accuracy-classes",
@@ -571,7 +571,7 @@
 "deadweight pressure gauge",
 "pressure gauge snubber working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "flemings-left-hand-rule-motor",
@@ -581,13 +581,13 @@
 "newton's left hand rule",
 "flemings left hand rule examples"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "2-wire-and-4-wire-transmitters",
 "impr": 2827,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "what-is-2oo3-voting-logic",
@@ -596,19 +596,19 @@
 "2oo3 voting logic",
 "voting logic in safety instrumented system"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "point-to-point-connection-multidrop-connection",
 "impr": 2762,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "arithmetic-logic-unit-alu-architecture",
 "impr": 2740,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "what-is-sensor-linearity",
@@ -616,7 +616,7 @@
 "queries": [
 "sensor linearity"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "condensate-pot-in-steam-applications",
@@ -625,7 +625,7 @@
 "condensate pot",
 "condensate pot working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "how-does-io-link-works",
@@ -633,7 +633,7 @@
 "queries": [
 "io link protocol"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "level-transmitter-5-point-calibration",
@@ -645,13 +645,13 @@
 "differential pressure transmitter calibration",
 "level transmitter"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "7-types-of-alarms-in-dcs",
 "impr": 2544,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "controllogix-5590-plc",
@@ -659,7 +659,7 @@
 "queries": [
 "allen bradley controllogix plc"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "voting-architectures-safety-systems",
