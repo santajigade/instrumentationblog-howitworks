@@ -2627,7 +2627,8 @@
 "zero suppression and elevation in level measurement",
 "capacitance level measurement"
 ],
-"status": "todo"
+"status": "error",
+"err": "HTTP Error 404: Not Found"
 },
 {
 "slug": "floating-vs-grounded-voltage",
@@ -2791,7 +2792,7 @@
 "queries": [
 "isa 5.4 instrument loop diagrams pdf"
 ],
-"status": "todo"
+"status": "has"
 },
 {
 "slug": "toc-analyzer-working-principle-water-quality",
