@@ -1,0 +1,5 @@
+{
+ "slug": "toc-analyzer-working-principle-water-quality",
+ "question": "What Is the TOC Analyzer Working Principle?",
+ "body_html": "<p style=\"margin:0 0 8px;\">A TOC analyzer measures the carbon bound in organic compounds in water in three steps: remove or quantify inorganic carbon, oxidise the remaining organics to CO2 by combustion, UV persulfate or wet chemical methods, then measure the CO2, typically with an NDIR detector.</p><p style=\"margin:0;\"><strong>TOC = TC − IC</strong>. Example: TC of 5 mg/L and IC of 3 mg/L gives TOC of 2 mg/L.</p>"
+}

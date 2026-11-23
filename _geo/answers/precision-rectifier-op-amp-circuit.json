@@ -1,0 +1,5 @@
+{
+ "slug": "precision-rectifier-op-amp-circuit",
+ "question": "What Is a Precision Rectifier Using Op Amp?",
+ "body_html": "<p style=\"margin:0 0 8px;\">A precision rectifier is an op amp circuit that rectifies an AC signal without the 0.6 V to 0.7 V forward drop of a plain diode, so it can handle signals of only a few millivolts. The diode sits inside the op amp feedback loop, and the op amp raises its output by exactly the diode drop.</p><p style=\"margin:0;\"><strong>Effective threshold = diode drop ÷ open loop gain</strong>. Example: 0.6 V ÷ 100000 = 6 µV.</p>"
+}

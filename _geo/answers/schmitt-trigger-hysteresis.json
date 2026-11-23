@@ -1,0 +1,5 @@
+{
+ "slug": "schmitt-trigger-hysteresis",
+ "question": "What Is a Schmitt Trigger Circuit?",
+ "body_html": "<p style=\"margin:0 0 8px;\">A Schmitt trigger is a comparator with positive feedback and two switching thresholds, an upper one for a rising input and a lower one for a falling input. The gap between them, called hysteresis, stops noise from causing false switching.</p><p style=\"margin:0;\"><strong>UTP = β × Vsat, where β = R1 ÷ (R1 + R2)</strong>. Example: R1 = 10 kΩ, R2 = 100 kΩ, Vsat = 12 V gives UTP = 1.09 V and LTP = −1.09 V.</p>"
+}

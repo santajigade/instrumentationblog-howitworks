@@ -1,0 +1,5 @@
+{
+ "slug": "reed-switch-working-principle",
+ "question": "What Is the Working Principle of a Reed Switch?",
+ "body_html": "<p style=\"margin:0 0 8px;\">The reed switch working principle is purely magnetic: two thin ferromagnetic reeds sealed in a glass tube attract each other when a magnet comes near, touch and close the circuit. When the magnet moves away, the reeds spring apart and the circuit opens.</p><p style=\"margin:0;\">A reed switch needs no power of its own and switches both AC and DC within its rated limits, so it is used in door alarms, position sensing, speed measurement and level detection.</p>"
+}

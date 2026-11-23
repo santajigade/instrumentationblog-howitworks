@@ -1,0 +1,5 @@
+{
+ "slug": "scada-historian-integration-osisoft-pi-aveva-architecture",
+ "question": "How Does a SCADA Historian Integrate with OSIsoft PI and AVEVA?",
+ "body_html": "<p style=\"margin:0 0 8px;\">A SCADA historian stores every process value, event and alarm from a SCADA or DCS system with timestamps for months or years, in a compressed time series format. OSIsoft PI (now AVEVA PI) collects data through PI interfaces and OPC connectors, and AVEVA Historian through SuiteLink.</p><p style=\"margin:0;\">The key design rule is store and forward: a buffer node records data locally and forwards the gap when the connection returns, so an outage loses no history.</p>"
+}

@@ -1,0 +1,5 @@
+{
+ "slug": "rc-and-rl-time-constant-explained",
+ "question": "What Is the RC and RL Time Constant?",
+ "body_html": "<p style=\"margin:0 0 8px;\">The RC and RL time constant, tau, tells how fast a capacitor or inductor circuit responds to a sudden change, in seconds. After 1 tau the circuit reaches 63.2% of its final value, and after 5 tau (99.3%) it is treated as fully charged or discharged.</p><p style=\"margin:0;\"><strong>τ = R × C</strong>: 10 kΩ × 100 µF = 1 s. <strong>τ = L ÷ R</strong>: 2 H ÷ 500 Ω = 4 ms.</p>"
+}

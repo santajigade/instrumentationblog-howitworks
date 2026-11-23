@@ -1,0 +1,5 @@
+{
+ "slug": "what-is-cascade-control",
+ "question": "What Is Cascade Control?",
+ "body_html": "<p style=\"margin:0 0 8px;\">Cascade control is a control strategy where two loops work together to control one important variable: the primary (master) controller sets the setpoint of a fast secondary (slave) loop.</p><p style=\"margin:0;\">Example: on a heat exchanger, the master temperature controller TIC sets the setpoint of the slave steam flow controller FIC. The inner flow loop corrects steam disturbances quickly, before they upset the slower temperature, giving faster response and a more stable process.</p>"
+}

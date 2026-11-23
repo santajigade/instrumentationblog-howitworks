@@ -1,0 +1,5 @@
+{
+ "slug": "calculate-pressure-drop-in-pipes",
+ "question": "How to Calculate Pressure Drop in Pipes?",
+ "body_html": "<p style=\"margin:0 0 8px;\">To calculate pressure drop in pipes, add the major friction loss from the Darcy Weisbach equation to the minor losses from fittings, found with K values.</p><p style=\"margin:0 0 8px;\"><strong>ΔP = f × (L / D) × (ρ × V² / 2)</strong>, and each fitting adds <strong>ΔP = K × ½ρV²</strong>. For laminar flow, f = 64 / Re.</p><p style=\"margin:0;\">Example: f = 0.02, L = 100 m, D = 0.1 m, water at 2 m/s gives 0.02 × 1000 × 2000 = 40,000 Pa, or 0.4 bar.</p>"
+}

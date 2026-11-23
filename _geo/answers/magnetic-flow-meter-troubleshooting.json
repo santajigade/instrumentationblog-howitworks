@@ -1,0 +1,5 @@
+{
+ "slug": "magnetic-flow-meter-troubleshooting",
+ "question": "How to Troubleshoot a Magnetic Flow Meter?",
+ "body_html": "<p style=\"margin:0 0 8px;\">Magnetic flow meter troubleshooting starts with installation and process checks, because most faults come from grounding, empty pipes or fluid conditions rather than meter failure.</p><ol style=\"margin:0 0 0 20px;\"><li>Confirm fluid conductivity is at least 5 µS/cm.</li><li>Make sure the pipe runs full.</li><li>Check electrodes sit at 3 and 9 o'clock in horizontal lines.</li><li>Verify 5D upstream and 2D downstream straight run.</li><li>Check grounding and earth ring continuity.</li><li>Do a zero calibration with a full pipe and no flow.</li></ol>"
+}

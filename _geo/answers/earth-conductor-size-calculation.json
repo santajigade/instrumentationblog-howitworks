@@ -1,0 +1,5 @@
+{
+ "slug": "earth-conductor-size-calculation",
+ "question": "How to Calculate Earth Conductor Size?",
+ "body_html": "<p style=\"margin:0 0 8px;\">Earth conductor size is calculated either from the IEC 60364 table based on phase size, or with the adiabatic equation when fault current and clearance time are known.</p><p style=\"margin:0 0 8px;\"><strong>S = √(I² × t) / k</strong>, where S is in mm², I is fault current in A, t is disconnection time in s and k is the material constant.</p><p style=\"margin:0;\">Example: I = 1000 A, t = 0.4 s and k = 115 for a copper PVC cable core give 632.5 / 115 = 5.5 mm², so select 6 mm².</p>"
+}

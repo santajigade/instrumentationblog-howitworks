@@ -1,0 +1,5 @@
+{
+ "slug": "flow-nozzle-working-principle",
+ "question": "What Is the Working Principle of a Flow Nozzle?",
+ "body_html": "<p style=\"margin:0 0 8px;\">A flow nozzle works on Bernoulli's principle: its shaped convergent inlet reduces the flow area, so fluid velocity rises and pressure falls, creating a differential pressure that is proportional to the square of the flow rate.</p><p style=\"margin:0;\">A DP transmitter measures this pressure difference between the ISO 5167 taps, upstream at 1D and downstream at 0.5D, and the flow rate is calculated from it. Flow nozzles suit high velocity steam and gas, with lower pressure loss and less erosion than an orifice plate.</p>"
+}

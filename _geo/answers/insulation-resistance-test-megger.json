@@ -1,0 +1,5 @@
+{
+ "slug": "insulation-resistance-test-megger",
+ "question": "What Is a Megger Insulation Resistance Test?",
+ "body_html": "<p style=\"margin:0 0 8px;\">An insulation resistance test, or megger test, applies 500 to 5000 V DC between conductors and earth and measures leakage current, showing insulation health in megohms.</p><p style=\"margin:0 0 8px;\">Readings are taken at 30 s, 1 min and 10 min. <strong>PI = R10 min ÷ R1 min</strong> and <strong>DAR = R60 s ÷ R30 s</strong>.</p><p style=\"margin:0;\">Example: R30 s = 600 MΩ, R1 min = 800 MΩ, R10 min = 2000 MΩ give DAR = 1.33 and PI = 2000 ÷ 800 = 2.5.</p>"
+}

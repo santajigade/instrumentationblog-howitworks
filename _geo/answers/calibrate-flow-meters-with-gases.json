@@ -1,0 +1,5 @@
+{
+ "slug": "calibrate-flow-meters-with-gases",
+ "question": "How to Calibrate Flow Meters With Gases?",
+ "body_html": "<p style=\"margin:0 0 8px;\">To calibrate flow meters with gases, compare the meter against a traceable reference standard such as a bell prover or sonic nozzle at stable pressure and temperature, then correct every reading to reference conditions because gas is compressible.</p><p style=\"margin:0 0 8px;\"><strong>Q_standard = Q_actual × (P_actual / P_standard) × (T_standard / T_actual) × (Z_standard / Z_actual)</strong></p><p style=\"margin:0;\">Example: 100 m³/h at 5 bar abs and 20 °C, with Z = 1, gives 100 × 4.9348 × 0.9318 = 459.8 Nm³/h.</p>"
+}

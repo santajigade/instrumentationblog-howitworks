@@ -1,0 +1,5 @@
+{
+ "slug": "flow-totalizer-working-principle",
+ "question": "How Does a Flow Totalizer Work?",
+ "body_html": "<p style=\"margin:0 0 8px;\">A flow totalizer works by integrating flow rate over time: it counts meter pulses, or samples a 4 to 20 mA rate signal every cycle, and adds each increment to a running total.</p><p style=\"margin:0 0 8px;\"><strong>Total volume = Pulse count ÷ K factor</strong>, where K is pulses per unit volume from the calibration certificate.</p><p style=\"margin:0;\">Example: K = 50 pulses per litre and 1,250,000 pulses gives 1,250,000 ÷ 50 = 25,000 L, or 25 m³.</p>"
+}

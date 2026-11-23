@@ -1,0 +1,5 @@
+{
+ "slug": "calibration-process-differential-pressure-transmitter",
+ "question": "How to Calibrate a Differential Pressure Transmitter?",
+ "body_html": "<p style=\"margin:0 0 8px;\">Differential pressure transmitter calibration checks that the 4 to 20 mA output matches applied pressure across the range, for example 0 to 1000 Pa.</p><ol style=\"margin:0 0 0 20px;\"><li>Record range, span and maximum working pressure.</li><li>Power with 24 V DC, multimeter in series, pressure source on the high side.</li><li>Apply 0, 25, 50, 75 and 100% pressure, rising then falling, and record mA.</li><li>Trim zero at 0% to 4 mA and span at 100% to 20 mA with a HART calibrator.</li><li>Recheck zero and confirm all errors are within limits.</li></ol>"
+}

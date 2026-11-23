@@ -1,0 +1,5 @@
+{
+ "slug": "maximum-demand-calculation-diversity",
+ "question": "How to Calculate Maximum Demand With Diversity Factor?",
+ "body_html": "<p style=\"margin:0 0 8px;\">Maximum demand calculation applies demand factors to each load group, then divides the sum by the diversity factor to estimate the real peak load.</p><p style=\"margin:0 0 8px;\"><strong>Maximum demand = Sum of (connected load × demand factor) ÷ diversity factor</strong>, and kVA = kW ÷ power factor.</p><p style=\"margin:0;\">Example: motors 160 kW, lighting 45 kW and sockets 30 kW sum to 235 kW. 235 ÷ 1.2 = 195.8 kW, which is 230.4 kVA at 0.85 power factor.</p>"
+}

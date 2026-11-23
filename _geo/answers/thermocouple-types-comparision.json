@@ -1,0 +1,5 @@
+{
+ "slug": "thermocouple-types-comparision",
+ "question": "What Are the Thermocouple Types and Ranges?",
+ "body_html": "<p style=\"margin:0 0 8px;\">Thermocouple types are the eight standard types J, K, T, E, N, S, R and B defined by IEC 60584 and ASTM E230, each using a different pair of alloys.</p><table style=\"width:100%;border-collapse:collapse;margin:8px 0 4px;font-size:16px;\"><tr style=\"background:#1a2b4a;color:#fff;\"><th style=\"padding:8px;text-align:left;\">Family</th><th style=\"padding:8px;text-align:left;\">Types</th><th style=\"padding:8px;text-align:left;\">Key point</th></tr><tr style=\"background:#eef4fb;\"><td style=\"padding:8px;\">Base metal</td><td style=\"padding:8px;\">J, K, T, E, N</td><td style=\"padding:8px;\">Low cost, most processes up to about 1,260 °C</td></tr><tr style=\"background:#fff;\"><td style=\"padding:8px;\">Noble metal</td><td style=\"padding:8px;\">S, R, B</td><td style=\"padding:8px;\">Platinum alloys, up to 1,820 °C</td></tr></table><p style=\"margin:0;\">Type K is the most widely used, covering −270 °C to +1,260 °C, while Type T is the best choice below 0 °C.</p>"
+}

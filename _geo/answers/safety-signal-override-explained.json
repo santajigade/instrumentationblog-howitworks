@@ -1,0 +1,5 @@
+{
+ "slug": "safety-signal-override-explained",
+ "question": "What Is a Safety Signal Override in SIS?",
+ "body_html": "<p style=\"margin:0 0 8px;\">A safety signal override temporarily disables one specific safety instrumented function, so maintenance or a planned process condition can proceed without an unwanted trip.</p><table style=\"width:100%;border-collapse:collapse;margin:8px 0 4px;font-size:16px;\"><tr style=\"background:#1a2b4a;color:#fff;\"><th style=\"padding:8px;text-align:left;\">Switch</th><th style=\"padding:8px;text-align:left;\">When it is used</th></tr><tr style=\"background:#eef4fb;\"><td style=\"padding:8px;\">MOS, maintenance override</td><td style=\"padding:8px;\">Sensor or final element out of service for repair, calibration or proof testing</td></tr><tr style=\"background:#fff;\"><td style=\"padding:8px;\">POS, process override</td><td style=\"padding:8px;\">Defined process condition, such as a startup sequence</td></tr></table><p style=\"margin:0;\">Because it removes real protection, IEC 61511 expects authorization, time limits, alarm indication and logging of every override.</p>"
+}

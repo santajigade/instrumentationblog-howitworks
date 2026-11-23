@@ -1,0 +1,5 @@
+{
+ "slug": "plc-high-speed-counter-encoder",
+ "question": "What Is a PLC High Speed Counter?",
+ "body_html": "<p style=\"margin:0 0 8px;\">A PLC high speed counter is a hardware counting circuit inside a PLC or on a dedicated module that counts input pulses independently of the program scan, so it catches fast encoder pulses that ordinary CTU and CTD counters miss. High speed inputs usually accept up to about 100 kHz.</p><p style=\"margin:0;\"><strong>Input frequency = PPR × RPM ÷ 60</strong>. Example: a 1024 PPR encoder at 3000 RPM gives 1024 × 3000 ÷ 60 = 51.2 kHz, and x4 decoding gives 204.8 k counts per second.</p>"
+}

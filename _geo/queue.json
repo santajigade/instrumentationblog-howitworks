@@ -2553,7 +2553,7 @@
 "impr": 956,
 "pos": 5.5,
 "queries": [],
-"status": "todo"
+"status": "skip"
 },
 {
 "slug": "plc-analog-input-problems-solutions",
@@ -2692,7 +2692,7 @@
 "impr": 901,
 "pos": 6.8,
 "queries": [],
-"status": "todo"
+"status": "skip"
 },
 {
 "slug": "calculate-pressure-drop-in-pipes",
@@ -2893,7 +2893,7 @@
 "control valves parts",
 "types of control loops in instrumentation"
 ],
-"status": "todo"
+"status": "skip"
 },
 {
 "slug": "electrical-safety-ppe-selection-guide",

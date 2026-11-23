@@ -1,0 +1,5 @@
+{
+ "slug": "how-to-calculate-the-range-for-differential-pressure-level-transmitters",
+ "question": "How to Calculate the Range of a DP Level Transmitter?",
+ "body_html": "<p style=\"margin:0 0 8px;\">To calculate a DP level transmitter range, find ΔP = HP − LP at 0% level and at 100% level; these two values become the 4 mA and 20 mA points.</p><p style=\"margin:0 0 8px;\">Wet leg: <strong>HP = ρ₁ × (level + h)</strong>, <strong>LP = ρ₂ × H</strong>.</p><p style=\"margin:0;\">Example: ρ = 0.96, h = 200 mm, H = 1000 mm, tank 700 mm. At 0%: 192 − 960 = −768 mmH₂O. At 100%: 864 − 960 = −96 mmH₂O. Range is −768 to −96 mmH₂O.</p>"
+}

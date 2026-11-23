@@ -1,0 +1,5 @@
+{
+ "slug": "pressure-transmitter-loop-check-procedure",
+ "question": "How to Do Loop Checking of Pressure Transmitter?",
+ "body_html": "<p style=\"margin:0 0 8px;\">Loop checking of a pressure transmitter verifies the installed loop sends the correct signal to the DCS, without adjusting anything.</p><ol style=\"margin:0 0 0 20px;\"><li>Confirm 12 to 30 VDC at the transmitter terminals.</li><li>Check tag, LRV, URV and units by HART.</li><li>Force 4 and 20 mA; the DCS must show LRV and URV.</li><li>Test every alarm and trip setpoint.</li><li>Confirm failsafe direction.</li><li>Hot loop check: apply five reference pressures.</li></ol><p style=\"margin:0;\"><strong>mA = 4 + ((P − LRV) ÷ (URV − LRV)) × 16</strong>; 5 bar on 0 to 10 bar gives 12 mA.</p>"
+}
