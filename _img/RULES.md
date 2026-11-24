@@ -14,7 +14,7 @@ Approved by Santaji on 21 Nov 2026: 20 posts a day, publish directly. Queue: `_i
 - a) Diagram: construction, cross section, circuit, wiring, loop or block diagram of the article's subject.
 - b) Flowchart: working sequence, procedure, calculation steps or troubleshooting decision flow from the article.
 - c) Infographic: formula card with the article's own worked example, comparison or selection chart, key numbers, or a labelled graph.
-- Every number, label and claim must come from the article text or be standard textbook fact. If the article has a worked example, reuse its numbers exactly. If the article contradicts itself, use the step by step values and note the slug in the summary.
+- Every number, label and claim must come from the article text or be standard textbook fact. If the article has a worked example, reuse its numbers exactly. If the article contradicts itself, use the step by step values and fix the article text as `_anim/fixes/RULES.md` explains.
 - Different layouts and colours per article (pick an accent colour per post). White background, viewBox 800 wide, height 380 to 600, text 17 px or more (titles 24), heading at top.
 - No dash characters in any SVG text or caption (write "minus", "to"). No external images or fonts.
 
