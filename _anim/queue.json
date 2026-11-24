@@ -307,7 +307,7 @@
    "what is per unit system",
    "per unit impedance"
   ],
-  "status": "todo"
+  "status": "skip"
  },
  {
   "slug": "dol-vs-star-delta-starter-which-to-use",
@@ -321,42 +321,42 @@
   "keywords": [
    "dp type level transmitter"
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "ttl-vs-cmos-logic-families",
   "keywords": [
    "compare ttl and cmos"
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "absolute-vs-gauge-pressure",
   "keywords": [
    "absolute vs gauge pressure"
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "analog-vs-digital-instrumentation-system",
   "keywords": [
    "difference between analog and digital instruments"
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "generator-excitation-system-avr",
   "keywords": [
    "excitation system"
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "what-is-a-valve-manifold",
   "keywords": [
    "types of manifold valves"
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "corona-effect-transmission-line",
