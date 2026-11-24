@@ -40,10 +40,10 @@ jobs:
           tar czf backup-static-html.tgz static
           python3 _ga/ga_rewrite.py static
           if [ "${{ inputs.dry }}" = "no" ]; then
-            : > up.lftp; echo "$S" >> up.lftp
+            : > up.lftp; echo "$S" >> up.lftp; echo "open -u \"$U\",\"$P\" \"$H\"" >> up.lftp
             while read f; do [ -z "$f" ] && continue; r=${f#static/}; echo "put -O ${D%/}/$(dirname "$r") $f" >> up.lftp; done < changed.txt
             echo bye >> up.lftp
-            lftp -u "$U","$P" "$H" -f up.lftp && echo "UPLOADED $(wc -l < changed.txt)"
+            lftp -f up.lftp && echo "UPLOADED $(wc -l < changed.txt)"
           else
             echo "DRY RUN: nothing uploaded ($(grep -c . changed.txt) pages would change)"
           fi
