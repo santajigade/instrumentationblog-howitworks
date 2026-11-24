@@ -1,3 +1,5 @@
+import sys as _s, os as _o; _s.path.insert(0, _o.path.join(_o.path.dirname(_o.path.abspath(__file__)), '..', '_ads'))
+from slots import rewrite as rewrite_ads
 import json, os, re, glob, base64, urllib.request
 B = 'https://www.instrumentationblog.in/wp-json'
 AUTH = 'Basic ' + base64.b64encode(f"{os.environ['U']}:{os.environ['P']}".encode()).decode()
@@ -30,6 +32,7 @@ for f in sorted(glob.glob('_upload/ibtmp-*/*.json')):
         call(f"/wp/v2/media/{mi['id']}", json.dumps({'alt_text': a_alt, 'title': a_alt, 'caption': a_alt}).encode(), {'Content-Type': 'application/json'})
         html = html.replace('{{IMG:' + fn + '}}', mi['source_url'])
     assert '{{IMG' not in html, slug
+    html = rewrite_ads(html)
     body = dict(p, html=html, featured_media=m['id'])
     r = call('/ib/v1/article', json.dumps(body).encode(), {'Content-Type': 'application/json'})
     r['media'] = m['id']; r['slug'] = slug; out.append(r); print(json.dumps(r))
