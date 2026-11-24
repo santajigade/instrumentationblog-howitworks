@@ -1,0 +1,55 @@
+name: Static sections GA4 tag (filter fake Singapore hits)
+
+# Downloads the static sections over FTPS, keeps a backup of the originals as a run artifact,
+# swaps the plain GA4 snippet for the filtered one that tags real visits (traffic_type=ib_verified)
+# and uploads only the changed pages. Run with dry=yes first: nothing is uploaded.
+# How It Works pages are not listed here: they live in site/ and go out with deploy.yml.
+on:
+  workflow_dispatch:
+    inputs:
+      dirs:
+        default: "calculators tools downloads glossary compare unit-converters"
+      dry:
+        default: "yes"
+
+concurrency:
+  group: geo
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+      - name: Download, back up, rewrite, upload
+        env:
+          H: ${{ secrets.FTP_SERVER }}
+          U: ${{ secrets.FTP_USERNAME }}
+          P: ${{ secrets.FTP_PASSWORD }}
+          D: ${{ secrets.FTP_SERVER_DIR }}
+        run: |
+          S="set ftp:ssl-force true; set ftp:ssl-protect-data true; set ssl:verify-certificate no; set net:max-retries 3"
+          echo "TOP LEVEL FOLDERS:"; lftp -u "$U","$P" "$H" -e "$S; cls -1 --sort=name ${D%/}/; bye" | grep '/$' || true
+          mkdir -p static
+          for d in ${{ inputs.dirs }}; do
+            lftp -u "$U","$P" "$H" -e "$S; mirror --parallel=4 -I '*.html' ${D%/}/$d static/$d; bye" || echo "MISSING $d"
+          done
+          echo "HTML $(find static -name '*.html' | wc -l)  WITH_GA $(grep -rl G-R3NLR1WRYC static | wc -l)"
+          for d in ${{ inputs.dirs }}; do echo "  $d: $(find static/$d -name '*.html' 2>/dev/null | wc -l) pages"; done
+          tar czf backup-static-html.tgz static
+          python3 _ga/ga_rewrite.py static
+          if [ "${{ inputs.dry }}" = "no" ]; then
+            : > up.lftp; echo "$S" >> up.lftp
+            while read f; do [ -z "$f" ] && continue; r=${f#static/}; echo "put -O ${D%/}/$(dirname "$r") $f" >> up.lftp; done < changed.txt
+            echo bye >> up.lftp
+            lftp -u "$U","$P" "$H" -f up.lftp && echo "UPLOADED $(wc -l < changed.txt)"
+          else
+            echo "DRY RUN: nothing uploaded ($(grep -c . changed.txt) pages would change)"
+          fi
+      - name: Keep backup of original pages
+        uses: actions/upload-artifact@v4
+        with:
+          name: backup-static-html-${{ github.run_number }}
+          path: backup-static-html.tgz
+          retention-days: 30
