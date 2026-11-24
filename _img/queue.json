@@ -667,7 +667,7 @@
 "queries": [
 "voting logic in safety instrumented system"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "square-root-extraction-dp-flow",
@@ -676,7 +676,7 @@
 "dp flow square root formula",
 "flow transmitter square root calculator"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "bourdon-tube-pressure-gauges",
@@ -685,7 +685,7 @@
 "bourdon tube pressure gauge",
 "bourdon tube"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "types-of-allen-bradley-plcs",
@@ -694,25 +694,25 @@
 "allen bradley plc types",
 "allen bradley controllogix plc"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "digital-logic-gates-explained",
 "impr": 2431,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "psi-to-bar-conversion",
 "impr": 2430,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "fail-safe-valve-position-fail-open-fail-closed-fail-locked",
 "impr": 2418,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "mass-flow-controller-working-principle",
@@ -722,7 +722,7 @@
 "flow nozzle working principle",
 "how does mass flow controller work"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "lighting-design-calculation",
@@ -730,7 +730,7 @@
 "queries": [
 "lighting design calculations"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "lm35-temperature-sensor",
@@ -738,7 +738,7 @@
 "queries": [
 "what is pt100 temperature sensor"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "industrial-automation-sensors",
@@ -749,7 +749,7 @@
 "free industrial automation course",
 "industrial automation free course"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "pid-controller-types-explained",
@@ -760,7 +760,7 @@
 "pid types",
 "pid controller types"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "bonded-and-unbonded-strain-gauges",
@@ -771,7 +771,7 @@
 "unbonded strain gauge",
 "bonded and unbonded strain gauge"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "basics-of-differential-pressure-transmitter",
@@ -783,13 +783,13 @@
 "types of pressure transmitter",
 "differential pressure transmitter calibration"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "electrical-regulations-and-standards",
 "impr": 2255,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "inverting-amplifier-gain-formula",
@@ -798,7 +798,7 @@
 "inverting amplifier gain formula",
 "gain for inverting op amp"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "8-free-training-courses-plc-scada-hmi",
@@ -815,7 +815,7 @@
 "slug": "idmt-relay-characteristics-tms-psm",
 "impr": 2218,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "what-is-reynolds-number",
@@ -823,7 +823,7 @@
 "queries": [
 "reynolds number"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "types-of-pressure-transmitters",
@@ -835,7 +835,7 @@
 "types of pressure transmitters",
 "different types of pressure transmitter"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "types-of-controllers-in-instrumentation",
