@@ -2933,7 +2933,7 @@
 "impr": 839,
 "pos": 7.2,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "under-frequency-load-shedding-ufls",
@@ -2941,7 +2941,7 @@
 "impr": 829,
 "pos": 5.5,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "safety-relief-valve-psv-sizing",
@@ -2951,7 +2951,7 @@
 "queries": [
 "pressure relief valve sizing calculator excel free download"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "control-room-layout-design",
@@ -2961,7 +2961,7 @@
 "queries": [
 "control room design"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "potentiometer-working-principle",
@@ -2975,7 +2975,7 @@
 "potentiometer working principle",
 "differential pressure transmitter working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "pressure-transmitter-damping-response-time",
@@ -2983,7 +2983,7 @@
 "impr": 820,
 "pos": 7.3,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "orifice-plate-flow-measurement",
@@ -2997,7 +2997,7 @@
 "orifice plate sizes",
 "standard orifice plate"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "transimpedance-amplifier-photodiode",
@@ -3008,7 +3008,7 @@
 "transimpedance amplifier",
 "transimpedance photodiode amplifier"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "microcontroller-working-principle",
@@ -3022,7 +3022,7 @@
 "potentiometer working principle",
 "differential pressure transmitter working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "ultrasonic-flow-meter-troubleshooting",
@@ -3036,7 +3036,7 @@
 "annubar type flow meter",
 "anubar flow meter"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "step-and-touch-voltage-ieee-80",
@@ -3044,7 +3044,7 @@
 "impr": 797,
 "pos": 9.2,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "pressure-switch-setpoint-deadband-configuration",
@@ -3052,7 +3052,7 @@
 "impr": 795,
 "pos": 6.5,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "hx711-load-cell-amplifier",
@@ -3060,7 +3060,7 @@
 "impr": 790,
 "pos": 6.3,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "4-20ma-the-best-signal-for-industrial-automation",
@@ -3068,7 +3068,7 @@
 "impr": 790,
 "pos": 41.5,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "barometric-pressure-sensor-working",
@@ -3082,7 +3082,7 @@
 "npn proximity sensor working principle",
 "absolute pressure transmitter working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "74hc595-shift-register",
@@ -3090,7 +3090,7 @@
 "impr": 789,
 "pos": 10.1,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "live-zero-and-dead-zero-in-4-to-20-ma",
@@ -3098,7 +3098,7 @@
 "impr": 788,
 "pos": 6.9,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "sensor-trim-and-output-trim",
@@ -3108,7 +3108,7 @@
 "queries": [
 "sensor trim"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "voltage-drop-calculation",
@@ -3119,7 +3119,7 @@
 "voltage drop calculator",
 "cable voltage drop calculator"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "mosfet-gate-driver-ics-explained",
@@ -3127,7 +3127,7 @@
 "impr": 776,
 "pos": 17.2,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "plc-fault-handling-major-minor-fault-codes-recovery",
@@ -3135,7 +3135,7 @@
 "impr": 773,
 "pos": 5.4,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "capacitance-level-measurement",
@@ -3149,7 +3149,7 @@
 "nuclear level measurement",
 "zero suppression and elevation in level measurement"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "pneumatic-volume-booster-control-valve",
@@ -3160,7 +3160,7 @@
 "volume booster in control valve",
 "volume booster valve"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "quine-mccluskey-method-explained",
@@ -3168,7 +3168,7 @@
 "impr": 764,
 "pos": 7.3,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "corona-effect-transmission-line",
@@ -3176,7 +3176,7 @@
 "impr": 763,
 "pos": 9.5,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "power-factor-improvement-calculation",
@@ -3186,7 +3186,7 @@
 "queries": [
 "correction factor calculation"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "harmonic-distortion-thd-calculation-power-systems",
@@ -3194,7 +3194,7 @@
 "impr": 749,
 "pos": 8.5,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "cable-color-codes-wiring-for-field-instruments",
@@ -3202,7 +3202,7 @@
 "impr": 747,
 "pos": 6.9,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "thermocouple-burnout-detection",
@@ -3212,7 +3212,7 @@
 "queries": [
 "thermocouple burnout"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "scada-and-dcs-questions-answers",
@@ -3231,7 +3231,7 @@
 "custody transfer",
 "what is custody transfer"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "flyback-converter-working-principle-explained",
@@ -3239,7 +3239,7 @@
 "impr": 737,
 "pos": 23.1,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "single-stage-and-multi-stage-compressor",
@@ -3247,7 +3247,7 @@
 "impr": 733,
 "pos": 9.5,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "generative-ai-industrial-automation",
@@ -3259,7 +3259,7 @@
 "free industrial automation course",
 "industrial automation free course"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "spring-loaded-rtd-thermowell",
@@ -3269,7 +3269,7 @@
 "queries": [
 "spring loaded rtd"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "dp-flow-transmitter-calibration-5-point",
@@ -3277,7 +3277,7 @@
 "impr": 715,
 "pos": 5.8,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "what-are-pressure-sensing-lines",
@@ -3287,7 +3287,7 @@
 "queries": [
 "sensing lines"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "free-training-electrical-control-drawings",
@@ -3295,7 +3295,7 @@
 "impr": 713,
 "pos": 8.2,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "communication-protocols-in-plc",
@@ -3305,7 +3305,7 @@
 "queries": [
 "dcs communication protocols"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "pressure-gauge-and-pressure-transmitter",
