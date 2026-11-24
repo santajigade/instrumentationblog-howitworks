@@ -1,0 +1,34 @@
+name: Static pages inventory (read only)
+
+# Lists every top-level folder in public_html and counts the .html pages in each one
+# outside WordPress core, plus how many still carry the old untagged GA4 code.
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: ga-tag-inventory
+  cancel-in-progress: false
+
+jobs:
+  ls:
+    runs-on: ubuntu-latest
+    steps:
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+      - env:
+          H: ${{ secrets.FTP_SERVER }}
+          U: ${{ secrets.FTP_USERNAME }}
+          P: ${{ secrets.FTP_PASSWORD }}
+          D: ${{ secrets.FTP_SERVER_DIR }}
+        run: |
+          S="set ftp:ssl-force true; set ftp:ssl-protect-data true; set ssl:verify-certificate no; set net:max-retries 3"
+          lftp -u "$U","$P" "$H" -e "$S; cls -1 -F ${D%/}/; bye" > root.txt || true
+          echo "ROOT ENTRIES $(wc -l < root.txt)"
+          sed 's#.*/\([^/]*/\?\)$#\1#' root.txt | sed 's/^/ROOT|/'
+          grep '/$' root.txt | sed 's#/$##; s#.*/##' | grep -vE '^(wp-admin|wp-content|wp-includes|cgi-bin|\.well-known|\.)$' > dirs.txt || true
+          mkdir -p probe
+          while read d; do
+            [ -z "$d" ] && continue
+            lftp -u "$U","$P" "$H" -e "$S; find ${D%/}/$d; bye" 2>/dev/null | grep -i '\.html$' > "probe/$d.txt" || true
+            echo "DIR|$d|$(wc -l < "probe/$d.txt") html"
+          done < dirs.txt
+          grep -iE '\.html$' root.txt | sed 's#.*/##; s/^/ROOTHTML|/' || true
