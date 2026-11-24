@@ -16,6 +16,10 @@ ICONS = {
     'switch': '<circle cx="100" cy="100" r="70"/><path d="M100 100l40-40"/><path d="M55 140h90"/><circle cx="100" cy="100" r="8"/>',
     'ph': '<path d="M80 20h40M88 20v60l-50 85a10 10 0 0 0 9 15h106a10 10 0 0 0 9-15l-50-85V20"/><path d="M58 140h84"/>',
     'rtd': '<path d="M115 125V35a15 15 0 0 0-30 0v90a30 30 0 1 0 30 0z"/><path d="M100 60v75"/><path d="M140 50h40M140 80h30M140 110h40"/>',
+    # added 24 Nov 2026
+    'recorder': '<rect x="30" y="25" width="140" height="150" rx="10"/><path d="M50 60h100M50 150h100" opacity=".6"/><path d="M50 120l20-25 15 15 20-40 15 30 15-15 15 10"/><path d="M150 85l15-10"/><circle cx="150" cy="85" r="5"/>',
+    'conveyor': '<circle cx="45" cy="120" r="25"/><circle cx="155" cy="120" r="25"/><path d="M45 95h110M45 145h110"/><path d="M100 95V55"/><circle cx="100" cy="45" r="12"/><path d="M112 45l30-20"/>',
+    'dust': '<path d="M40 170h120l-15-110H55z"/><path d="M70 60V30h60v30"/><circle cx="85" cy="110" r="4"/><circle cx="110" cy="95" r="4"/><circle cx="120" cy="130" r="4"/><circle cx="95" cy="140" r="4"/><circle cx="75" cy="135" r="3"/>',
     # added 23 Nov 2026
     'ai': '<rect x="55" y="55" width="90" height="90" rx="12"/><path d="M80 55V25M100 55V25M120 55V25M80 145v30M100 145v30M120 145v30M55 80H25M55 100H25M55 120H25M145 80h30M145 100h30M145 120h30"/><path d="M78 125l12-50 10 30 10-30 12 50"/>',
     'orifice': '<path d="M10 60h180M10 140h180"/><path d="M95 60v30M95 140v-30M105 60v30M105 140v-30"/><path d="M60 40v20M140 40v20"/><path d="M60 40c0-15 80-15 80 0"/><path d="M20 100h55M125 100h55" opacity=".6"/>',
@@ -93,11 +97,11 @@ HUB_OF = {
 }
 
 POSTS = [
-    ('confusion-matrix-fault-detection', 'Confusion Matrix for Fault Detection', 'Calculator & Formula', 'Industrial AI', ['TP FP FN TN', 'Precision', 'F1 score'], 'ai', None),
-    ('permanent-pressure-loss-flow-meter', 'Permanent Pressure Loss', 'Formula, Calculator & Solved Example', 'Flow Measurement', ['Orifice', 'Venturi', 'Pump energy'], 'orifice', None),
-    ('pirani-gauge-working-principle', 'Pirani Gauge Working Principle', 'Diagram & Calculator', 'Pressure Measurement', ['Heated wire', 'Vacuum', 'Gas factor'], 'gauge', None),
-    ('contact-vs-non-contact-level-sensor', 'Contact vs Non Contact Level Sensor', 'Comparison Table', 'Level Measurement', ['Contact', 'Non contact', 'Radar'], 'tank', None),
-    ('liquid-in-glass-thermometer', 'Liquid in Glass Thermometer', 'Stem Correction Calculator', 'Temperature Measurement', ['Mercury', 'Immersion', 'Calibration'], 'rtd', None),
+    ('spm-analyzer-suspended-particulate-matter', 'SPM Analyzer', 'Working, CPCB Limits & Calculator', 'Analytical Measurements', ['High volume', 'Beta', 'µg/m³'], 'dust', None),
+    ('belt-sway-switch-working-principle', 'Belt Sway Switch', 'Working, PLC Wiring & Calculator', 'Switches', ['Alarm 15°', 'Trip 25°', 'Conveyor'], 'conveyor', None),
+    ('breather-valve-working-principle', 'Breather Valve Working Principle', 'Set Pressure Calculator', 'Control Valves', ['Pallets', 'API 2000', 'Vacuum'], 'valve', None),
+    ('static-and-dynamic-characteristics-of-instruments', 'Static and Dynamic Characteristics', 'Table, Solved Example & Calculator', 'Calibration', ['Accuracy', 'Time constant', 'Step response'], 'gauge', None),
+    ('strip-chart-recorder-working-principle', 'Strip Chart Recorder', 'Working, Types & Speed Calculator', 'Design', ['Servo pen', 'Thermal head', 'Zero & span'], 'recorder', None),
 ]
 
 if __name__ == '__main__':
