@@ -29,9 +29,8 @@ jobs:
           echo "HTML $(find static -name '*.html' | wc -l)  OLD $(grep -rl 5950781970 static | wc -l)"
           python3 _ads/static_rewrite.py static
           if [ "${{ inputs.dry }}" = "no" ]; then
-            : > up.lftp; echo "$S" >> up.lftp
+            : > up.lftp
             while read f; do [ -z "$f" ] && continue; r=${f#static/}; echo "put -O ${D%/}/$(dirname "$r") $f" >> up.lftp; done < changed.txt
-            echo bye >> up.lftp
-            lftp -u "$U","$P" "$H" -f up.lftp && echo "UPLOADED $(wc -l < changed.txt)"
+                        lftp -u "$U","$P" "$H" -e "$S; source up.lftp; bye" && echo "UPLOADED $(wc -l < changed.txt)"
           fi
           echo "LEFT_OLD $(grep -rl 5950781970 static | wc -l)"
