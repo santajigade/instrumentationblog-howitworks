@@ -33,6 +33,11 @@ GC = {"Flow": ("#1e63b8", "#0f2a52"), "Level": ("#1d7a46", "#0b3320"), "Pressure
       "DCS": ("#0e7490", "#063241"), "SCADA": ("#7c3aed", "#2e1065"), "Safety": ("#b91c1c", "#450a0a"), "Electrical": ("#a16207", "#422006")}
 AD = '<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>'
 
+import sys as _sys; _sys.path.insert(0, str(HERE.parent / "_ads"))
+from slots import OLD as _OLD, order as _order
+def _ads(h):
+    it = iter(_order(h.count(_OLD))); return re.sub(re.escape(_OLD), lambda m: f'data-ad-slot="{next(it)}"', h)
+
 tpl = open(HERE / "template_page.html", encoding="utf-8").read()
 HEAD = tpl[:tpl.find('<div class="ibuc" id="ibuc-app"')]
 FOOT = tpl[tpl.find("</main>"):]
@@ -175,7 +180,7 @@ def page(p, others):
 <script>{js}</script>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False, separators=(',', ':'))}</script>"""
     os.makedirs(f"{OUT}/{p['slug']}", exist_ok=True)
-    open(f"{OUT}/{p['slug']}/index.html", "w", encoding="utf-8").write(head(p["title"], p["desc"], url, url + img_name(p["slug"]), "Labelled diagram showing " + p["kw"].lower()) + body + FOOT)
+    open(f"{OUT}/{p['slug']}/index.html", "w", encoding="utf-8").write(_ads(head(p["title"], p["desc"], url, url + img_name(p["slug"]), "Labelled diagram showing " + p["kw"].lower()) + body + FOOT))
 
 
 def hub():
@@ -225,7 +230,7 @@ def hub():
         {"@type": "ItemList", "name": "How It Works", "numberOfItems": n, "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": BASE + p["slug"] + "/", "name": p["h1"]} for i, p in enumerate(PAGES)]}]}
     body, k = re.subn(r'<script type="application/ld\+json">.*?</script>', '<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False, separators=(",", ":")) + "</script>", body, 1, flags=re.S)
     assert k == 1
-    open(f"{OUT}/index.html", "w", encoding="utf-8").write(h + body + FOOT)
+    open(f"{OUT}/index.html", "w", encoding="utf-8").write(_ads(h + body + FOOT))
 
 
 def sitemap():

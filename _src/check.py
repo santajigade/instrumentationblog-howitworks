@@ -60,7 +60,7 @@ def main():
             if kw and (kw not in t.lower() or kw not in d.lower()): e.append("keyword missing in title or description: " + kw)
             img = SITE / rel / f"{rel}-working-diagram.webp"
             if not img.exists(): e.append("diagram image missing (run snap.js + webp.py)")
-        if s.count('data-ad-slot="5950781970"') < 3 or "ca-pub-3931314195561246" not in s: e.append("AdSense")
+        if len(re.findall(r'data-ad-slot="(7215194230|6552849252|7839764783|5046401284)"', s)) < 3 or "ca-pub-3931314195561246" not in s: e.append("AdSense")
         if "G-R3NLR1WRYC" not in s: e.append("GA4")
         v = V(); v.feed(s); vis = " ".join(v.t)
         hy = re.findall(r".{0,18}[-‐-―].{0,18}", vis)
