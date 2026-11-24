@@ -1,0 +1,83 @@
+{
+ "id": 18431,
+ "slug": "idmt-relay-characteristics-tms-psm",
+ "mode": "elementor",
+ "title": "IDMT Relay: 4 Standard Curves With Easy Setting Examples",
+ "focus": "IDMT relay",
+ "queries": [],
+ "h2s": [
+  {
+   "text": "What Is an IDMT Relay?",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "PSM and TMS Explained",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "4 Standard IEC Curves",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "IDMT Relay Trip Time Formula",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Grading Relays in Series",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Curve Comparison at PSM 10",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Where IDMT Protection Is Used",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "IDMT Trip Time Calculator",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "IDMT Relay Curve Guide",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "PS and TMS Explained on Video",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "TMS Relay Setting: How the Time Multiplier Changes Trip Time",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "IDMT Relay FAQ",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Related Articles",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "External References",
+   "unique": true,
+   "where": "html"
+  }
+ ],
+ "has_ib_img": false,
+ "images_now": 2,
+ "text": "Power Quality & Protection\n IDMT Relay: 4 Standard Curves With Easy Setting Examples\n Trip faster for big faults and slower for small overloads, the simple idea behind selective overcurrent protection.\n Overcurrent Protection \r\n PSM and TMS \r\n IEC 60255 Curves \r\n Relay Grading \r\n An IDMT relay trips in a time that falls as fault current rises, but never faster than a definite minimum. This inverse behaviour lets several relays in series grade with each other so only the nearest breaker opens.\n Hello everyone, today we are going to learn how an IDMT relay works, what PSM and TMS mean, how the four IEC curves differ, and how to calculate trip time for a real fault.\r\n Quick Answer\n What Is an IDMT Relay and How Do PSM and TMS Set Its Trip Time?\n An IDMT relay is an inverse definite minimum time overcurrent relay whose trip time falls as fault current rises , but never below a definite minimum. PSM is fault current divided by pickup current, and TMS shifts the curve in time.\n t = TMS \u00d7 k \u00f7 (PSM^\u03b1 \u2212 1) , with k = 0.14 and \u03b1 = 0.02 for standard inverse.\n Example: 400/1 CT, 100 percent plug, 4000 A fault gives PSM 10, so t = 0.1 \u00d7 0.14 \u00f7 0.0471 \u2248 0.30 s at TMS 0.1.\n What Is an IDMT Relay?\n An IDMT relay, short for inverse definite minimum time, is an overcurrent relay whose operating time decreases as current increases. It is one of the most common protective relays on feeders, transformers and motors.\n At currents just above the pickup setting, the relay waits a long time, allowing for temporary overloads. At high fault currents, it trips quickly, but the curve flattens to a definite minimum time.\n Image credit: Electrical Engineering Portal \r\n The relay receives current through a current transformer , usually with a 1 A or 5 A secondary. Modern numerical relays calculate the curve digitally from IEC or IEEE equations.\n Older electromechanical relays used an induction disc whose speed rose with current. The same curve shapes are kept today for compatibility with existing grading studies.\n PSM and TMS Explained\n Plug Setting Pickup current as a percent of CT rating\n Pickup Current Is Plug setting times CT primary\n PSM Fault current divided by pickup current\n Curve Equation Gives base time from PSM\n TMS Multiplies base time to shift the curve\n The plug setting multiplier, PSM, tells how many times the fault current exceeds the pickup. For a 400/1 CT with 100 percent plug setting, pickup is 400 A, so a 4000 A fault gives a PSM of 10.\n The time multiplier setting, TMS, slides the whole curve up or down in time without changing its shape. It is the main tool for grading relays against each other.\n 4 Standard IEC Curves\n 1\n Standard Inverse\n Constants 0.14 and 0.02, general purpose feeders.\n 2\n Very Inverse\n Constants 13.5 and 1, where fault current falls sharply with distance.\n 3\n Extremely Inverse\n Constants 80 and 2, grading with fuses and motor starting.\n 4\n Long Time Inverse\n Constants 120 and 1, earth fault and overload duties.\n Very inverse suits systems where fault current depends strongly on fault location. Extremely inverse matches fuse curves closely, which helps when a relay backs up downstream fuses.\n IEEE curves such as moderately, very and extremely inverse follow similar ideas with different constants. Use the same family for every relay in one grading chain.\n IDMT Relay Trip Time Formula\n t = TMS \u00d7 k \u00f7 (PSM^\u03b1 minus 1) \nStandard inverse: k = 0.14, \u03b1 = 0.02\nVery inverse: k = 13.5, \u03b1 = 1\nExtremely inverse: k = 80, \u03b1 = 2\nWorked example, standard inverse:\nCT 400/1, plug 100 percent, fault 4000 A, so PSM = 10\n10^0.02 = 1.0471\nt = 0.1 \u00d7 0.14 \u00f7 (1.0471 minus 1) = 0.1 \u00d7 2.97\n t \u2248 0.30 s at TMS 0.1 \nVery inverse gives 0.15 s, extremely inverse 0.081 s\r\n The same fault gives very different times on each curve. That is why curve choice matters as much as the numeric settings.\n Fault currents for PSM come from short circuit current calculation at each relay location, for both maximum and minimum conditions.\n Grading Relays in Series\n For selectivity, the upstream relay must be slower than the downstream relay at every fault level by a grading margin. A margin of about 0.3 to 0.4 s is common with numerical relays and modern breakers.\n The margin covers breaker operating time, relay overshoot and CT errors. Too small a margin risks both relays tripping, and too large makes upstream clearing unnecessarily slow.\n Plotting all curves on one log log chart is the classic method, explained in time current curve coordination . Software now does the plotting, but engineers must still check the result.\n Curve Comparison at PSM 10\n Curve\n k\n \u03b1\n Time at PSM 10, TMS 0.1\n Standard inverse\n 0.14\n 0.02\n About 0.30 s\n Very inverse\n 13.5\n 1\n 0.15 s\n Extremely inverse\n 80\n 2\n About 0.081 s\n Long time inverse\n 120\n 1\n About 1.33 s\n At lower PSM values the differences grow even larger. Extremely inverse becomes very slow for small overloads, which helps ride through motor starting currents.\n For motors, the IDMT relay often works alongside dedicated functions described in motor protection relay types .\n Where IDMT Protection Is Used\n Distribution Feeders\n Main overcurrent protection on 11 kV and 33 kV feeders.\n Transformers\n Backup protection on HV and LV sides.\n Incomers\n Main breakers graded with outgoing feeders.\n Motors\n Overcurrent backup with extremely inverse curves.\n Earth Fault\n Sensitive earth fault elements with inverse curves.\n Generators\n Voltage controlled or restrained overcurrent.\n Earth fault elements use the same equations with lower pickup settings. The residual CT connection sums the three phases to detect earth current.\n Relay settings are only as good as the CT circuit, so never leave a secondary open, as warned in CT secondary open circuit risks .\n IDMT Trip Time Calculator\n IEC Curve Trip Time\n Fault current, A \n Pickup current, A \n TMS \n Constant k (0.14, 13.5, 80, 120) \n Exponent \u03b1 (0.02, 1, 2, 1) \n Calculate \r\n Trip time\n PSM 10.00, trip time 0.297 s\n Change k and \u03b1 to compare curves for the same fault. Then adjust TMS until the grading margin with the downstream relay is met.\n Advantages\n Fast clearing of heavy faults.\n Tolerates short overloads.\n Easy grading between relays.\n Standard, well understood curves.\n Limitations\n Slower for faults far from the source.\n Grading gets slow near the source.\n Depends on accurate fault studies.\n Needs CT performance checks.\n IDMT Relay Curve Guide\n GUIDE\n IDMT Relay Time Current Curve Guide\n European Arc Guide explanation of IEC and IEEE relay curves with examples\n PS and TMS Explained on Video\n TMS Relay Setting: How the Time Multiplier Changes Trip Time\n TMS relay setting is the time multiplier setting of an IDMT relay. It multiplies the base time from the curve equation, so it moves the whole curve up or down in time without changing its shape. Typical numerical relays allow TMS from about 0.05 to 1.0 in small steps.\n For the standard inverse curve at PSM 10, the base time is 0.14 \u00f7 (10^0.02 \u2212 1) = 2.97 s. The trip time is simply TMS \u00d7 2.97 s.\n TMS\n Trip time at PSM 10, standard inverse\n 0.05\n 0.15 s\n 0.1\n 0.30 s\n 0.2\n 0.59 s\n 0.3\n 0.89 s\n 0.5\n 1.49 s\n 1.0\n 2.97 s\n Choosing TMS for an upstream relay\n Find the trip time of the downstream relay at the maximum fault level it sees. Here it is 0.30 s at TMS 0.1.\n Add the grading margin, about 0.3 to 0.4 s with numerical relays. Using 0.35 s gives a target of 0.65 s.\n Calculate the PSM of the upstream relay for the same fault from its own CT ratio and plug setting.\n Find the base time from the curve equation at that PSM. If it is also 2.97 s, TMS = 0.65 \u00f7 2.97 = 0.22.\n Round to the nearest available setting and check the margin again at minimum fault current.\n A larger TMS gives more selectivity but slower clearing, so the smallest TMS that keeps the margin is the best choice.\n IDMT Relay FAQ\n What does IDMT mean?\n Inverse definite minimum time, where trip time falls as current rises.\n What is PSM?\n Fault current divided by the relay pickup current.\n What is TMS?\n A multiplier that shifts the curve up or down in time.\n Which curve suits fuse grading?\n Extremely inverse, because its shape matches fuses.\n What grading margin is typical?\n About 0.3 to 0.4 s between relays in series.\n What are the standard inverse constants?\n k = 0.14 and \u03b1 = 0.02.\n Can an IDMT relay protect against earth faults?\n Yes, with residual connection and lower pickup.\n Related Articles\n Protective Relays Explained \n Circuit Breaker Coordination \n Current Transformer Working Principle \n Short Circuit Current Calculation \n Motor Protection Relay Types \n External References\n IDMT Relay Curve Guide, European Arc Guide \n Types of Overcurrent Relay, EEP \n Relay Settings in Real Power Systems, Allumiax \n Protective Relay, Wikipedia \n What We Learn Today\n Inverse curves trip faster for larger currents, with a definite minimum time.\n PSM sets where on the curve the fault lands, TMS shifts the curve in time.\n Grading margins of about 0.3 to 0.4 s keep protection selective.\n I hope you like above blog. There is no cost associated in sharing the article in your social media. Thanks for reading!! Happy Learning!!\n WhatsApp\r\n Telegram\r\n Buy Me a Coffee"
+}

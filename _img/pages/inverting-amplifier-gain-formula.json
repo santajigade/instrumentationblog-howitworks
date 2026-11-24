@@ -1,0 +1,101 @@
+{
+ "id": 20297,
+ "slug": "inverting-amplifier-gain-formula",
+ "mode": "elementor",
+ "title": "Inverting Amplifier Gain: Formula, Examples & Calculator",
+ "focus": "inverting amplifier gain",
+ "queries": [
+  "inverting amplifier gain formula",
+  "gain for inverting op amp"
+ ],
+ "h2s": [
+  {
+   "text": "What Is Inverting Amplifier Gain?",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Inverting Amplifier Gain Formula Derivation",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Virtual Ground and Input Impedance",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Solved Example 1: Inverting Amplifier Gain of Minus 10",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Inverting Amplifier Gain Calculator",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Inverting Amplifier Gain and Bandwidth",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Solved Example 2: Output Swing and Slew Rate",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Inverting vs Non Inverting Amplifier",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "How to Choose Rf and Rin for the Right Inverting Amplifier Gain",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Applications of the Inverting Stage",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Myths About Inverting Amplifier Gain",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Troubleshooting an Inverting Op Amp Stage",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Analog Devices Gain and Bandwidth Tutorial",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Video on the Inverting Op Amp and Virtual Ground",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Inverting Amplifier Gain FAQ",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Related Articles",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "External References",
+   "unique": true,
+   "where": "html"
+  }
+ ],
+ "has_ib_img": false,
+ "images_now": 3,
+ "text": "Analog Electronics\n Inverting Amplifier Gain Formula: Derivation, Virtual Ground, Bandwidth and Solved Examples\n The inverting op amp stage is the first circuit most students build and the one engineers use every day for scaling, summing and filtering. Two resistors set its gain, but bandwidth, output swing and resistor choice decide whether it really works.\n Av = minus Rf/Rin \r\n Virtual Ground \r\n Input Impedance \r\n Noise Gain \r\n GBW Bandwidth \r\n Solved Examples \r\n Inverting amplifier gain depends only on the ratio of two resistors when the op amp is close to ideal. This guide derives the formula, explains virtual ground and input impedance, and shows how bandwidth and supply limits affect a real design.\n Hello everyone, today we are going to learn how inverting amplifier gain is derived, why the output is phase inverted, how to pick the resistors and how gain bandwidth limits a practical circuit.\r\n What Is Inverting Amplifier Gain?\n Inverting amplifier gain is the ratio of output voltage to input voltage in an op amp stage where the signal enters the inverting input through Rin and a resistor Rf feeds the output back to the same input. For an ideal op amp it equals minus Rf divided by Rin, so the output is Rf/Rin times larger and shifted by 180\u00b0.\n Quick Answer\n Inverting amplifier gain: Av = minus Rf \u00f7 Rin.\n Rf = 100 k\u03a9 and Rin = 10 k\u03a9 give a gain of minus 10, or 20 dB.\n The inverting input sits at virtual ground, about 0 V.\n Input impedance is simply Rin.\n Bandwidth = GBW \u00f7 (1 + Rf/Rin), not GBW \u00f7 gain.\n The minus sign does not mean the signal is made smaller. It only means the output moves in the opposite direction to the input, so a positive input gives a negative output.\n Inverting operational amplifier circuit diagram with input resistor, feedback resistor and grounded non inverting input \r\n In the circuit above the non inverting input is tied to ground, the input resistor carries the signal to the inverting input and the feedback resistor closes the loop. Circuit Digest labels them R2 and R1, so check the names before using any formula.\n Advertisement \n Inverting Amplifier Gain Formula Derivation\n The derivation uses two ideal op amp rules: no current flows into the inputs, and with negative feedback the two inputs sit at the same voltage. Applying Kirchhoff current law at the inverting input then gives the result in three lines.\nCurrent in Rin: I = (Vin minus 0) \u00f7 Rin\nSame current through Rf: I = (0 minus Vout) \u00f7 Rf\nEquate: Vin \u00f7 Rin = minus Vout \u00f7 Rf\n Av = Vout \u00f7 Vin = minus Rf \u00f7 Rin \nGain in dB = 20 \u00d7 log10(Rf \u00f7 Rin)\r\n Because the open loop gain of a real op amp is very large, the error from this ideal result is tiny. With the exact expression Av = minus (Rf/Rin) \u00f7 (1 + (1 + Rf/Rin) \u00f7 Aol), a 741 class part with an open loop gain of about 200000 at a gain of 10 is off by only about 0.006 percent.\n Do You Know?\n The inverting stage can have a gain magnitude below 1, which a non inverting stage cannot. With Rf = 4.7 k\u03a9 and Rin = 10 k\u03a9, the gain is minus 0.47, a handy way to attenuate and invert a signal at the same time.\n Virtual Ground and Input Impedance\n With the non inverting input grounded and negative feedback active, the op amp drives its output until the inverting input is also at 0 V. That node is called a virtual ground because it stays at ground potential without being connected to ground, and it draws no current into the op amp.\n Since the inverting input is at 0 V, the signal source sees only Rin to ground, so the input impedance equals Rin. This is the main weakness of the stage: a 10 k\u03a9 input resistor loads a high impedance source, which is why a voltage follower is often placed in front.\n Quick Tip\n When you probe a working inverting stage with a DMM, the inverting input should read within a few millivolts of 0 V. If it reads volts, the feedback loop is broken or the output is saturated.\n Solved Example 1: Inverting Amplifier Gain of Minus 10\nGiven: Rin = 10 k\u03a9, Rf = 100 k\u03a9, Vin = 0.2 V DC\nAv = minus 100 \u00f7 10 = minus 10\nGain in dB = 20 \u00d7 log10(10) = 20 dB\nVout = minus 10 \u00d7 0.2 = minus 2.0 V\nOp amp GBW = 1 MHz\nNoise gain = 1 + 100 \u00f7 10 = 11\n Bandwidth = 1 MHz \u00f7 11 = 90.9 kHz \r\n The inverting amplifier gain of minus 10 gives a 2 V output that is negative, exactly as predicted. Notice that the bandwidth uses 11 and not 10, a detail that many students miss in exams and designs.\n Inverting Amplifier Gain Calculator\n Gain, Output and Bandwidth of an Inverting Stage\n Input resistor Rin, k\u03a9 \n Feedback resistor Rf, k\u03a9 \n Input voltage, V \n Op amp GBW, MHz \n Calculate \r\n Result\n Gain minus 10.00 (20.0 dB), Vout minus 2.000 V, bandwidth about 90.9 kHz, input resistance 10 k\u03a9\n Inverting Amplifier Gain and Bandwidth\n Analog Devices tutorial MT 033 defines noise gain as 1 + R2/R1 and notes that it is the same for inverting and non inverting stages. The closed loop bandwidth equals the gain bandwidth product divided by this noise gain, not by the signal gain.\n The same tutorial gives a sizing example: a closed loop gain of 10 with 100 kHz bandwidth needs at least 1 MHz GBW. It then advises a safety factor of at least 5, so a 5 MHz part would be chosen in practice.\n Inverting Gain\n Noise Gain\n Bandwidth with 1 MHz GBW\n Minus 1\n 2\n 500 kHz\n Minus 2\n 3\n 333 kHz\n Minus 5\n 6\n 167 kHz\n Minus 10\n 11\n 90.9 kHz\n Minus 100\n 101\n 9.9 kHz\n This is why a unity gain inverter has only half the bandwidth of a unity gain follower using the same op amp. Phase margin also follows noise gain, as you can see on a Bode plot of the loop.\n Advertisement \n Solved Example 2: Output Swing and Slew Rate\n A sensor gives 1.5 V peak AC, and you want an inverted signal on a plus and minus 12 V supply with a 741 class op amp. A first try with Rin = 4.7 k\u03a9 and Rf = 47 k\u03a9 gives minus 10, so the output would need 15 V peak, beyond the supply.\nOutput swing on \u00b112 V supply \u2248 \u00b110.5 V\nChoose Rf = 22 k\u03a9, Rin = 4.7 k\u03a9\nAv = minus 22 \u00f7 4.7 = minus 4.68\nVout peak = 4.68 \u00d7 1.5 = 7.02 V, safely below 10.5 V\nSlew rate SR = 0.5 V/\u00b5s\nFull power bandwidth = SR \u00f7 (2\u03c0 \u00d7 Vp)\n = 500000 \u00f7 (6.283 \u00d7 7.02) \u2248 11.3 kHz \r\n So this stage can deliver a full 7 V peak sine only up to about 11.3 kHz, even though its small signal bandwidth is much higher. For audio or fast sensor signals, choose an op amp with a higher slew rate or reduce the output amplitude.\n Inverting vs Non Inverting Amplifier\n Property\n Inverting\n Non Inverting\n Gain formula\n Minus Rf \u00f7 Rin\n 1 + Rf \u00f7 Rin\n Phase shift\n 180\u00b0\n 0\u00b0\n Input impedance\n Equal to Rin\n Very high\n Minimum gain magnitude\n Can be below 1\n At least 1\n Common mode voltage\n Stays at 0 V\n Follows the input\n Summing several inputs\n Easy, virtual ground\n Not practical\n The inverting stage wins when you need attenuation, summing or very low common mode error, because its inputs never move. The non inverting stage wins when the source is weak, and the differential amplifier combines both ideas to reject common mode noise.\n Do You Know?\n Since both inputs stay at 0 V, an inverting stage avoids the common mode errors that limit a non inverting stage. That makes it a favourite for precision summing and filtering in measurement circuits.\n How to Choose Rf and Rin for the Right Inverting Amplifier Gain\n 1\n Set the Gain\n Decide the required magnitude from input range and output range.\n 2\n Pick Rin\n Choose Rin from the source impedance, often 4.7 k\u03a9 to 10 k\u03a9.\n 3\n Calculate Rf\n Rf = gain \u00d7 Rin, then round to an E96 value.\n 4\n Check Swing\n Make sure the peak output stays inside the op amp swing.\n 5\n Check Bandwidth\n Divide GBW by 1 + Rf/Rin and keep a margin.\n 6\n Add Compensation\n Place a resistor equal to Rin parallel Rf on the non inverting input for bipolar op amps.\n Circuit Digest suggests about 4.7 k\u03a9 to 10 k\u03a9 for the input resistor and around 100 k\u03a9 for the feedback resistor. Very small values load the op amp output, while values in megohms add thermal noise and make bias current errors worse, a point covered in our guide to the instrumentation amplifier .\n Use 1 percent metal film resistors, because the gain error is roughly the sum of both tolerances, up to about 2 percent. A small capacitor across Rf adds a low pass corner at 1 \u00f7 (2\u03c0 Rf Cf), exactly like an RC low pass filter , and also tames noise.\n Quick Tip\n For a gain of minus 10 with good E96 values, use 10.0 k\u03a9 and 100 k\u03a9, or 4.99 k\u03a9 and 49.9 k\u03a9. Matched resistor arrays keep the ratio accurate over temperature even when absolute values drift.\n Applications of the Inverting Stage\n Summing Amplifier\n Several inputs through their own resistors meet at the virtual ground, giving a weighted sum.\n Active Filters\n Adding capacitors around the stage builds integrators and low pass filters.\n Signal Scaling\n Converts a sensor range into an ADC input range with offset.\n Current to Voltage\n With no Rin, Rf converts a photodiode current into voltage.\n The op amp integrator is simply an inverting stage with a capacitor in place of Rf. The same virtual ground idea also appears in precision rectifiers and in the input stage of many ADC drivers.\n Myths About Inverting Amplifier Gain\n Myth: A negative gain reduces the signal.\n Fact: The minus sign only shows phase inversion; the magnitude is Rf/Rin.\n Myth: Bandwidth equals GBW divided by the gain.\n Fact: It equals GBW divided by the noise gain, 1 + Rf/Rin.\n Myth: The inverting input is connected to ground.\n Fact: It is only at virtual ground; connecting it to ground breaks the circuit.\n Myth: Bigger resistors are always better.\n Fact: Megohm values increase noise and bias current errors.\n Troubleshooting an Inverting Op Amp Stage\n Symptom\n Likely Cause\n Check\n Output stuck near a rail\n Open Rf or input overload\n Measure the inverting input voltage\n Gain lower than expected\n Wrong resistor or source loading\n Measure Rin, Rf and source impedance\n Output clipped\n Supply too low for the gain\n Reduce gain or raise supply\n Oscillation\n Long feedback trace or capacitive load\n Add Cf across Rf or isolate the load\n DC offset at output\n Bias current or offset voltage\n Add the compensation resistor\n Advertisement \n Advantages\n Gain set by a simple resistor ratio.\n Inputs stay at 0 V, so no common mode error.\n Gain can be below 1 for attenuation.\n Easy to sum many signals.\n Limitations\n Input impedance limited to Rin.\n Output is phase inverted.\n Bandwidth lower than a follower at unity gain.\n Needs a split supply or bias for AC signals.\n Gain magnitude equals Rf/Rin within resistor tolerance.\n Inverting input reads close to 0 V in operation.\n Peak output stays inside the op amp swing.\n Bandwidth from GBW and noise gain meets the signal need.\n Full power bandwidth covers the highest signal frequency.\n Bypass capacitors fitted close to the supply pins.\n Use this checklist before you lay out a board, and confirm the result on the bench with an oscilloscope. Our comparator and Sallen Key filter guides show how the same op amp behaves in other configurations.\n Analog Devices Gain and Bandwidth Tutorial\n PDF\n MT 033: Voltage Feedback Op Amp Gain and Bandwidth\n Analog Devices tutorial on noise gain, signal gain and closed loop bandwidth\n Video on the Inverting Op Amp and Virtual Ground\n Inverting Amplifier Gain FAQ\n What is the inverting amplifier gain formula?\n The ideal gain is minus Rf divided by Rin, where Rf is the feedback resistor and Rin the input resistor. With 100 k\u03a9 and 10 k\u03a9 the gain is minus 10.\n The minus sign shows that the output is inverted. The magnitude depends only on the resistor ratio as long as the op amp has enough open loop gain.\n Why is inverting amplifier gain negative?\n The signal enters the inverting input, so the op amp drives its output in the opposite direction to hold that input at zero volts. A positive input therefore produces a negative output.\n For a sine wave this is a 180\u00b0 phase shift. The size of the output is still set by the ratio of the feedback and input resistors in the circuit.\n What is virtual ground in an inverting amplifier?\n It is the inverting input node, which stays at almost 0 V because negative feedback forces both inputs to the same voltage. The non inverting input is grounded, so the inverting input follows it.\n It is called virtual because no wire joins it to ground. No current flows into the op amp there, so all the input current passes through the feedback resistor.\n What is the input impedance of an inverting amplifier?\n The input impedance equals the input resistor, because the far end of that resistor sits at virtual ground. A 10 k\u03a9 input resistor gives about 10 k\u03a9 input impedance.\n This can load weak sources such as sensors or high impedance probes. Add a buffer stage or raise both resistors in the same ratio when this becomes a problem.\n Can inverting amplifier gain be less than 1?\n Yes, simply make the feedback resistor smaller than the input resistor, and the output becomes smaller than the input. With 4.7 k\u03a9 feedback and 10 k\u03a9 input, the gain is minus 0.47.\n This is a useful way to attenuate and invert a signal in one stage. A non inverting stage cannot do this, because its minimum possible gain is exactly one.\n What is the difference between inverting and non inverting amplifier?\n An inverting stage has a gain of minus Rf over Rin and input impedance equal to Rin. A non inverting stage has a gain of 1 plus Rf over Rin and a very high input impedance.\n The inverting stage shifts phase by 180\u00b0 and keeps both inputs at zero volts. The non inverting stage keeps the phase but its inputs follow the signal.\n How does inverting amplifier gain affect bandwidth?\n Closed loop bandwidth equals the gain bandwidth product divided by the noise gain, which is 1 plus Rf over Rin. Higher gain therefore means lower bandwidth.\n With a 1 MHz op amp, a gain of minus 10 gives about 90.9 kHz bandwidth. A gain of minus 100 drops this to roughly 9.9 kHz, so plan your op amp choice early.\n Advertisement \n Related Articles\n Operational Amplifier Op Amp Basics \n Voltage Follower Unity Gain Buffer Explained \n Differential Amplifier Basics and CMRR \n Op Amp Integrator and Differentiator \n Bode Plot Gain and Phase Margin \n External References\n MT 033 Voltage Feedback Op Amp Gain and Bandwidth, Analog Devices \n Inverting Operational Amplifier, Circuit Digest \n Operational Amplifier Applications, Wikipedia \n What We Learn Today\n Inverting amplifier gain equals minus Rf divided by Rin, so two resistors set both the gain magnitude and the 180\u00b0 phase inversion.\n The inverting input sits at virtual ground, which makes the input impedance equal to Rin and keeps common mode error close to zero.\n Closed loop bandwidth equals the op amp GBW divided by the noise gain 1 + Rf/Rin, while slew rate limits large output swings.\n I hope you like above blog. There is no cost associated in sharing the article in your social media. Thanks for reading!! Happy Learning!!\n Author \u00b7 instrumentationblog.in \r\n Sunayana Gadepatil \n Ms. Sunayana Gadepatil is an instrumentation professional, technical writer, and the author behind Instrumentation Blog. With a strong interest in industrial instrumentation, process measurement, and automation, she specializes in simplifying complex technical concepts into clear, practical, and easy to understand insights. Through her articles, Ms. Sunayana shares valuable knowledge on flow, pressure, level, temperature, control systems, and industrial automation for engineers, students, technicians, and industry professionals.\n Technically reviewed on 13 October 2026 \n Connect On LinkedIn About Author Read Her Articles \u2192 \n WhatsApp\r\n Telegram\r\n Buy Me a Coffee"
+}

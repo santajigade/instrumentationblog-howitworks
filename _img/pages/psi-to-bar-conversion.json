@@ -1,0 +1,83 @@
+{
+ "id": 20446,
+ "slug": "psi-to-bar-conversion",
+ "mode": "elementor",
+ "title": "PSI to Bar: Formula, Chart, Psig vs Psia & Calculator",
+ "focus": "psi to bar",
+ "queries": [],
+ "h2s": [
+  {
+   "text": "What Is PSI to Bar Conversion?",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "PSI to Bar Formula and Bar to PSI Formula",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "PSI to Bar Conversion Chart From 1 to 10000 psi",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Psig vs Psia vs Bar g vs Bar a",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Solved Examples of PSI to Bar Conversion",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "PSI to Bar Calculator With kPa and kg/cm\u00b2",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Converting Gauge and Transmitter Ranges",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Related Units: kPa, MPa, kg/cm\u00b2 and Inches of Water",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Common PSI to Bar Mistakes in the Field",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "WIKA Pressure Unit Conversion Table PDF",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Video: How to Convert Pressure Units, psi and bar",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "PSI to Bar FAQ",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Related Articles",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "External References",
+   "unique": true,
+   "where": "html"
+  }
+ ],
+ "has_ib_img": false,
+ "images_now": 3,
+ "text": "Pressure\n PSI to Bar Conversion: Formula, Chart From 1 to 10000 psi, Psig vs Psia vs Bar g, kPa and kg/cm\u00b2 With Solved Examples\n Indian plants buy gauges, transmitters and compressors from the USA, Europe and Japan, so psi and bar often meet on the same skid. This guide gives the exact factor, a ready chart, the gauge and absolute trap and a calculator you can trust in the field.\n PSI to Bar Formula \r\n Conversion Chart \r\n Psig vs Psia \r\n kPa and kg/cm\u00b2 \r\n Transmitter Range \r\n Converting psi to bar is a single multiplication, but mixing gauge and absolute pressure causes real field errors. Here you get the exact factors, a chart from 1 to 10000 psi, solved examples and a calculator for daily instrument work.\n Hello everyone, today we are going to learn psi to bar conversion, the exact factor behind it, the difference between psig, psia and bar g, and how to convert transmitter and gauge ranges without mistakes.\r\n What Is PSI to Bar Conversion?\n PSI to bar conversion changes a pressure in pounds per square inch into bar by multiplying by 0.0689476, because 1 psi equals 6894.76 Pa and 1 bar is exactly 100,000 Pa. Going the other way, 1 bar equals about 14.5038 psi, so you can also divide the psi value by 14.5038.\n Quick Answer\n 1 psi = 0.0689476 bar = 6.894757 kPa\n 1 bar = 14.50377 psi = 100 kPa\n 100 psi = 6.8948 bar, 150 psi = 10.342 bar\n Psig converts to bar g; add about 1.013 bar to get bar a\n 1 kg/cm\u00b2 = 0.980665 bar, so 100 psi = 7.031 kg/cm\u00b2\n The factors above come from the WIKA data sheet IN 00.08 on commonly used pressure units, linked as a PDF further down. If the idea of reference pressure is new to you, start with our basics of pressure measurement before the examples.\n Image credit: Fluke . Image courtesy of Fluke, shown here for educational reference. \r\n Fluke states that one psi equals 6894.76 pascals and that sea level atmospheric pressure is about 14.69 psia. It also advises that a value marked only as psi should normally be read as a gauge pressure.\n Advertisement \n PSI to Bar Formula and Bar to PSI Formula\n Both directions use the same constant, so learn one and invert it. Keep at least four significant figures for calibration work and two decimals for operator displays.\n bar = psi \u00d7 0.0689476 \n psi = bar \u00d7 14.5038 \nkPa = psi \u00d7 6.894757\nMPa = psi \u00d7 0.00689476\nkg/cm\u00b2 = psi \u00d7 0.070307\r\n The factor follows from 1 lbf = 4.4482 N acting on 1 square inch of 0.00064516 m\u00b2, which gives 6894.76 Pa. Dividing by 100,000 Pa per bar gives the 0.0689476 used in every conversion of this kind.\n The same method links every pressure unit, as our pages on atm to kPa conversion and field instrument unit conversion show. Pressure itself is force over area, which is the idea behind Pascal law in pressure instruments .\n Do You Know?\n A quick mental shortcut is to multiply psi by 0.07, which reads about 1.5 percent high. For 100 psi it gives 7.0 bar against the exact 6.89 bar, fine for a rough check but never for calibration.\n PSI to Bar Conversion Chart From 1 to 10000 psi\n The chart covers the ranges seen on utility, process and hydraulic gauges. Values are rounded to four decimals for bar and two decimals for kPa.\n psi\n bar\n kPa\n kg/cm\u00b2\n 1\n 0.0689\n 6.89\n 0.0703\n 5\n 0.3447\n 34.47\n 0.3515\n 10\n 0.6895\n 68.95\n 0.7031\n 14.5\n 0.9997\n 99.97\n 1.0195\n 20\n 1.3790\n 137.90\n 1.4061\n 30\n 2.0684\n 206.84\n 2.1092\n 50\n 3.4474\n 344.74\n 3.5153\n 60\n 4.1369\n 413.69\n 4.2184\n 80\n 5.5158\n 551.58\n 5.6246\n 100\n 6.8948\n 689.48\n 7.0307\n 150\n 10.3421\n 1034.21\n 10.5460\n 200\n 13.7895\n 1378.95\n 14.0614\n 300\n 20.6843\n 2068.43\n 21.0921\n 500\n 34.4738\n 3447.38\n 35.1535\n 1000\n 68.9476\n 6894.76\n 70.3070\n 1500\n 103.4214\n 10342.14\n 105.4604\n 3000\n 206.8427\n 20684.27\n 210.9209\n 5000\n 344.7379\n 34473.79\n 351.5348\n 10000\n 689.4757\n 68947.57\n 703.0696\n Note that 14.5 psi is almost exactly 1 bar, which is the easiest number to remember on site. Instrument air headers at 100 psi run near 7 bar, while 3000 and 5000 psi are common hydraulic and wellhead ratings.\n Before you write any converted range on a datasheet, check the gauge accuracy as well, since a class 1.0 gauge cannot show four decimals; see pressure gauge accuracy classes .\n Advertisement \n Psig vs Psia vs Bar g vs Bar a\n Gauge pressure is measured against the local atmosphere, while absolute pressure is measured against a perfect vacuum. Setra puts average sea level pressure at roughly 14.7 psia, and ambient air always reads 0 psig.\n bar a = bar g + atmospheric pressure in bar \nStandard atmosphere = 101.325 kPa = 1.01325 bar = 14.696 psi\n psia = psig + 14.696 at sea level\nFull vacuum = 0 psia = minus 14.7 psig\r\n The conversion factor is the same for gauge and absolute values, but the reference must stay the same on both sides. So 50 psig becomes 3.447 bar g, while 50 psia becomes 3.447 bar a.\n Psig and Bar g\n Measured from local atmosphere, so a vented gauge reads zero when open to air.\n Best for: plant gauges, pump discharge, air headers\n Gauge \n Psia and Bar a\n Measured from a perfect vacuum, so the value never goes below zero.\n Best for: steam tables, gas flow, vacuum and barometric work\n Absolute \n Psid and Bar d\n The difference between two process pressures, with no link to the atmosphere.\n Best for: filters, orifice plates, level by DP\n Differential \n Our guide on absolute vs gauge pressure goes deeper into reference types. When you order a transmitter, the code for a gauge pressure transmitter differs from the one for an absolute pressure transmitter , so the unit letters matter.\n Quick Tip\n Write the reference letter on every converted value, such as 6.89 bar g or 7.90 bar a. Many commissioning errors in India start with a datasheet that says only bar.\n Solved Examples of PSI to Bar Conversion\n Example 1 takes a compressed air receiver set at 150 psig. Multiply by 0.0689476 to get the gauge value in bar.\n150 \u00d7 0.0689476 = 10.342 bar g \nAbsolute at sea level = 10.342 + 1.013 = 11.355 bar a \r\n Example 2 changes a transmitter range of 0 to 500 psig into bar. The span becomes 0 to 34.474 bar g, so a reading of 12 mA, which is 50 percent of span, means 17.237 bar g.\nURV = 500 \u00d7 0.0689476 = 34.474 bar g \n12 mA = 50 % of span\nPressure at 12 mA = 0.5 \u00d7 34.474 = 17.237 bar g \r\n The 4 to 20 mA scaling is explained in 4 to 20 mA signal conversion , and it works the same in any unit. Convert the range first, then scale the current.\n Example 3 is the reverse case, a European pump rated at 16 bar that must be checked against an American gauge in psi.\n16 \u00d7 14.5038 = 232.06 psi \nCheck: 232.06 \u00d7 0.0689476 = 16.000 bar\r\n PSI to Bar Calculator With kPa and kg/cm\u00b2\n Convert psi to bar, kPa, MPa, kg/cm\u00b2 and Bar Absolute\n Pressure, psi (gauge) \n Local atmospheric pressure, bar a \n 1.2||p Calculate \r\n Result\n 100.00 psi = 6.8948 bar g = 689.48 kPa = 0.68948 MPa = 7.0307 kg/cm\u00b2, and 7.9080 bar a\n Enter a negative psig value for vacuum, down to minus 14.7, and the tool will show the matching bar a; our vacuum pressure calculator covers deeper vacuum work. For high altitude sites, enter the local barometric pressure instead of 1.01325 bar.\n Quick Tip\n Pune sits at roughly 560 m and Shimla at over 2,000 m, so local atmospheric pressure is noticeably below sea level there. Use the real barometric value whenever you convert psig to bar a for gas flow or steam work.\n Try These Free Pressure Tools\n Check gauge, vacuum and transmitter ranges in a few clicks after you convert your units.\n Calculator Gauge Pressure Calculator Find gauge pressure from absolute and atmospheric values with worked steps and clear units. Open Calculator \r\n Calculator Vacuum Pressure Calculator Work out vacuum in bar, kPa or mmHg from absolute pressure and local atmosphere. Open Calculator \r\n Calculator Pressure Transmitter Sizing Calculator Pick the right transmitter range and turndown for your normal and maximum process pressure. Open Calculator \r\n Quiz 75 Pressure Measurement Questions Test yourself on pressure units, gauges and transmitters before an interview or exam. Open Quiz \r\n Converting Gauge and Transmitter Ranges\n When a gauge has a dual scale, the inner and outer rings use the same pointer, so check that both rings start from zero gauge. Our pressure gauge selection guide explains why the normal reading should sit in the middle third of the dial.\n 1\n Read the Nameplate\n Note the unit and the letters g, a or d.\n 2\n Convert LRV and URV\n Multiply both ends of the range by 0.0689476.\n 3\n Round Sensibly\n Keep the decimals your instrument accuracy supports.\n 4\n Update the DCS Tag\n Change the engineering unit and range together.\n 5\n Verify on the Bench\n Apply a known pressure and compare the two readings.\n The last step matters most, because a correct number in the wrong unit field is still a trip waiting to happen. Follow our pressure gauge calibration procedure for the bench check.\n 14.5038 psi in 1 bar \n 0.0689476 bar in 1 psi \n 6.894757 kPa in 1 psi \n 14.696 psi in 1 standard atmosphere \n Advertisement \n Related Units: kPa, MPa, kg/cm\u00b2 and Inches of Water\n Unit\n Equal to 1 psi\n Common Use in India\n bar\n 0.0689476\n Gauges, compressors, boilers\n kPa\n 6.894757\n Low pressure, HVAC, datasheets\n MPa\n 0.00689476\n Hydraulics, pipe ratings\n kg/cm\u00b2\n 0.070307\n Older gauges and boiler records\n inH2O\n 27.7076\n Draft and low DP\n inHg\n 2.03602\n Vacuum and barometers\n The inH2O and inHg values come from Setra, and WIKA lists 1 kp/cm\u00b2 as 0.980665 bar, the technical atmosphere still printed on many old Indian boiler gauges. For water column units, see our guide on the U tube manometer formula .\n Do You Know?\n Fluke points out that a flat tyre reads 0 psig, yet the air inside is still at about 14.7 psia. A gauge only shows how far a pressure sits above the local atmosphere.\n Myth: Bar and kg/cm\u00b2 are the same unit.\n Fact: They differ by about 2 percent, since 1 kg/cm\u00b2 is 0.980665 bar.\n Myth: Psig and psia convert with different factors.\n Fact: The factor is the same; only the zero reference changes.\n Myth: Multiplying by 0.07 is exact enough for calibration.\n Fact: It reads about 1.5 percent high and should only be used for a rough check.\n Common PSI to Bar Mistakes in the Field\n Mistake\n What Happens\n Fix\n Gauge and absolute mixed\n Error of about 1 bar in the result\n Mark g or a on every value\n kg/cm\u00b2 used as bar\n About 2 percent error\n Use the 0.980665 factor\n Too few decimals\n Visible calibration error\n Keep four significant figures\n Wrong unit in the DCS\n Operator sees false values\n Update unit and range together\n Why Bar Works Well in Indian Plants\n Close to 1 atmosphere, easy to picture.\n Decimal and linked to SI pascals.\n Matches most European gauges and valves.\n Why Psi Still Appears\n American vendor data uses it.\n Hydraulic ratings are often in psi.\n Easy to confuse gauge and absolute.\n WIKA Pressure Unit Conversion Table PDF\n PDF\n WIKA Data Sheet IN 00.08: Conversion Table of Commonly Used Pressure Units\n Factors for psi, bar, Pa, kPa, MPa, kp/cm\u00b2, mmHg and more in one table\n Video: How to Convert Pressure Units, psi and bar\n PSI to Bar FAQ\n How do you convert psi to bar?\n Multiply the psi value by 0.0689476 to get bar. For example, 100 psi times 0.0689476 gives 6.8948 bar, which is close to 7 bar.\n You can also divide the psi value by 14.5038, and it gives exactly the same answer. Keep the gauge or absolute label the same on both sides of the conversion, so psig always becomes bar g.\n How many psi is 1 bar?\n One bar is equal to about 14.5038 psi, and WIKA gives 14.50377 psi. So 10 bar is about 145 psi and 16 bar is about 232 psi.\n For a rough mental check, use 14.5 psi per bar. It is accurate to better than 0.03 percent, which is fine for almost all gauge readings in the field.\n Is psi to bar the same for psig and psia?\n Yes, the psi to bar factor of 0.0689476 is the same for both. Only the zero reference changes between gauge and absolute pressure.\n So psig always converts to bar g and psia always converts to bar a. To move from gauge to absolute pressure, add the local atmospheric pressure of about 1.013 bar at sea level.\n What is 100 psi in bar?\n 100 psi equals 6.8948 bar, or 689.48 kPa in SI units. This is close to the normal instrument air header pressure in many Indian process plants.\n In kg/cm\u00b2 the same value is about 7.031, since 1 kg/cm\u00b2 equals 0.980665 bar. Many older boiler and utility gauges in India still show this unit alongside the bar scale.\n Why is 14.7 psi important?\n 14.7 psi is the approximate atmospheric pressure at sea level. Setra gives roughly 14.7 psia, and Fluke quotes a value of 14.69 psia.\n It is the offset you add to a psig reading to get psia at sea level. In bar, the same offset is about 1.013 bar, and it falls as the site altitude rises.\n Is bar an SI unit?\n Bar is not an SI unit, but it is defined as exactly 100,000 pascals, the SI unit of pressure. That makes it a clean decimal multiple of the pascal.\n WIKA notes that Pa and bar are among the admissible units in Germany. In India, bar is the usual unit on gauges, valves and process datasheets.\n Advertisement \n Related Articles\n Absolute vs Gauge Pressure \n Atm to kPa Pressure Conversion \n Field Instrument Unit Conversion \n How to Calculate Gauge Pressure \n Pressure Gauge Selection Factors \n External References\n Conversion Table of Commonly Used Pressure Units, WIKA \n PSI vs PSIG vs PSIA: What Is the Difference, Fluke \n Pound per Square Inch, Wikipedia \n What We Learn Today\n The psi to bar factor is 0.0689476, and its inverse is 14.5038, so 100 psi equals 6.8948 bar and 16 bar equals 232.06 psi.\n Gauge and absolute values use the same factor, but you must keep the g or a label and add about 1.013 bar for absolute.\n A transmitter range is converted by multiplying both LRV and URV, then scaling the 4 to 20 mA signal in the new unit.\n I hope you like above blog. There is no cost associated in sharing the article in your social media. Thanks for reading!! Happy Learning!!\n Author \u00b7 instrumentationblog.in \r\n Sunayana Gadepatil \n Ms. Sunayana Gadepatil is an instrumentation professional, technical writer, and the author behind Instrumentation Blog. With a strong interest in industrial instrumentation, process measurement, and automation, she specializes in simplifying complex technical concepts into clear, practical, and easy to understand insights. Through her articles, Ms. Sunayana shares valuable knowledge on flow, pressure, level, temperature, control systems, and industrial automation for engineers, students, technicians, and industry professionals.\n Technically reviewed on 19 October 2026 \n Connect On LinkedIn About Author Read Her Articles \u2192 \n WhatsApp\r\n Telegram\r\n Buy Me a Coffee"
+}

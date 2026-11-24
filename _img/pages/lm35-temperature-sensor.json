@@ -1,0 +1,105 @@
+{
+ "id": 20304,
+ "slug": "lm35-temperature-sensor",
+ "mode": "elementor",
+ "title": "LM35 Temperature Sensor: Pinout, Formula & Calculator",
+ "focus": "LM35 temperature sensor",
+ "queries": [
+  "what is pt100 temperature sensor"
+ ],
+ "h2s": [
+  {
+   "text": "What Is the LM35 Temperature Sensor?",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "LM35 Temperature Sensor Pinout and Connection",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "How the LM35 Temperature Sensor Works",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "LM35 Grades and Accuracy",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "LM35 Temperature Sensor Arduino Formula",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "LM35 Temperature Sensor Calculator",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Second Solved Example: 1.1 V Internal Reference",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "LM35 Temperature Sensor Negative Temperature Circuit",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "LM35 vs Other Temperature Sensors",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Long Cable and Noise Tips",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Installation for Accurate Readings",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "LM35 Troubleshooting Table",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Where the LM35 Is Used",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "TI LM35 Datasheet",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "LM35 Video Tutorial",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "LM35 Temperature Sensor FAQ",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Related Articles",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "External References",
+   "unique": true,
+   "where": "html"
+  }
+ ],
+ "has_ib_img": false,
+ "images_now": 3,
+ "text": "Electronic Sensors\n LM35 Temperature Sensor: Pinout, Arduino Formula, Negative Temperature Wiring and Troubleshooting\n The LM35 is a small three pin IC that gives an output voltage directly proportional to temperature in degrees Celsius, at 10 mV for every degree. This guide shows how to wire it, read it on an Arduino and fix common errors.\n 10 mV per \u00b0C \r\n LM35 Pinout \r\n Arduino ADC Formula \r\n Negative Temperature Circuit \r\n Troubleshooting \r\n The LM35 temperature sensor is the easiest way to add accurate Celsius measurement to a microcontroller project, with no calibration and only three wires. Here you get the pinout, the ADC formula, a calculator, solved examples and field tips for long cables and noisy panels.\n Hello everyone, today we are going to understand how the LM35 temperature sensor works, how to wire it to an Arduino, how to convert its ADC reading into degrees Celsius and how to troubleshoot wrong readings.\r\n What Is the LM35 Temperature Sensor?\n The LM35 temperature sensor is a precision integrated circuit whose output voltage rises linearly by 10 mV for every 1 \u00b0C, so 250 mV means 25 \u00b0C. It needs no external calibration, draws less than 60 \u00b5A and runs from any supply between 4 V and 30 V.\n Quick Answer\n Output: 10 mV per \u00b0C, 0 V at 0 \u00b0C, so T (\u00b0C) = Vout in mV \u00f7 10.\n Pinout (flat face towards you): pin 1 +Vs, pin 2 Vout, pin 3 GND.\n Range: minus 55 \u00b0C to 150 \u00b0C for LM35 and LM35A; 0 \u00b0C to 100 \u00b0C for LM35D.\n Accuracy: \u00b10.5 \u00b0C at 25 \u00b0C for the A grade and \u00b11 \u00b0C for the standard part.\n Arduino Uno: T = reading \u00d7 500 \u00f7 1024 with the default 5 V reference.\n Texas Instruments, the maker, describes it as a centigrade sensor because its output is already scaled in Celsius, unlike Kelvin sensors that need an offset subtracted. Inside, it is a bandgap circuit, the same principle used in a precision reference voltage chip, trimmed at the wafer level.\n Image credit: Components101 . Pinout diagram courtesy of Components101, shown here for educational reference. \r\n The labelled diagram shows the common TO 92 plastic package seen in every Indian electronics shop and college lab kit. Components101 lists pin 1 as Vcc, pin 2 as the analog output and pin 3 as ground, with \u00b10.5 \u00b0C accuracy and a minus 55 \u00b0C to 150 \u00b0C range.\n Advertisement \n LM35 Temperature Sensor Pinout and Connection\n Hold the LM35 temperature sensor with the flat printed face towards you and the legs pointing down. From left to right the pins are +Vs, Vout and GND, and this order is the same for the TO 92 and TO 220 packages.\n Pin\n Name\n Connect To\n Note\n 1\n +Vs\n 5 V pin of Arduino\n 4 V to 30 V allowed\n 2\n Vout\n A0 analog input\n 10 mV per \u00b0C\n 3\n GND\n Arduino GND\n Common ground with ADC\n Quick Tip\n Before applying power, check the pin order twice, because a reversed LM35 gets hot within seconds and can be damaged. Touching the body gently after power up is a quick field check.\n How the LM35 Temperature Sensor Works\n Every silicon junction has a base emitter voltage that falls by roughly 2 mV per \u00b0C, while the difference between two junctions run at different current densities rises with absolute temperature. The LM35 combines these signals with an internal amplifier, much like an op amp stage, to produce a clean 10 mV per \u00b0C output.\n Because the output is linear, there is no lookup table as with an NTC thermistor and no cold junction compensation as with a thermocouple. TI specifies typical nonlinearity of only \u00b10.3 \u00b0C for the standard grade.\n 10 mV/\u00b0C Linear scale factor \n 60 \u00b5A Maximum quiescent current \n 0.08 \u00b0C Self heating in still air \n 4 V to 30 V Supply range \n Do You Know?\n The LM35 output impedance is only about 0.1 \u03a9 at 1 mA, so it can drive an ADC input directly. TI says it can drive 50 pF without special precautions, but a long cable needs extra care.\n LM35 Grades and Accuracy\n TI sells several grades of the same die, each tested to a different limit. The table below uses the tested limits from the TI datasheet SNIS159H, so you can choose a grade before buying.\n Grade\n Range\n Accuracy at 25 \u00b0C\n Full Range Accuracy\n LM35A\n minus 55 to 150 \u00b0C\n \u00b10.5 \u00b0C\n \u00b11 \u00b0C\n LM35\n minus 55 to 150 \u00b0C\n \u00b11 \u00b0C\n \u00b11.5 \u00b0C\n LM35CA\n minus 40 to 110 \u00b0C\n \u00b10.5 \u00b0C\n \u00b11 \u00b0C\n LM35C\n minus 40 to 110 \u00b0C\n \u00b11 \u00b0C\n \u00b11.5 \u00b0C\n LM35D\n 0 to 100 \u00b0C\n \u00b11.5 \u00b0C\n \u00b12 \u00b0C\n Most hobby modules in India use the LM35DZ version of the LM35 temperature sensor. It is ideal for room, panel and liquid temperatures between 0 \u00b0C and 100 \u00b0C, but it cannot report below zero.\n LM35 Temperature Sensor Arduino Formula\n An Arduino Uno has a 10 bit ADC that converts 0 V to 5 V into a reading from 0 to 1023. Each step is 5 \u00f7 1024 = 4.88 mV, or about 0.49 \u00b0C.\n Vout (mV) = reading \u00d7 Vref \u00d7 1000 \u00f7 1024 \n T (\u00b0C) = Vout (mV) \u00f7 10 \nShort form for 5 V: T = reading \u00d7 500 \u00f7 1024\nSolved example: reading = 62, Vref = 5 V\nVout = 62 \u00d7 5000 \u00f7 1024 = 302.7 mV\nT = 302.7 \u00f7 10 = 30.27 \u00b0C\n T (\u00b0F) = 30.27 \u00d7 1.8 plus 32 = 86.49 \u00b0F \r\n Some code divides by 1023 instead of 1024, and the difference is under 0.1 percent, far smaller than the sensor tolerance. In code, write float tempC = analogRead(A0) * 500.0 / 1024.0; and use a decimal point so the math is not done in integers.\n LM35 Temperature Sensor Calculator\n ADC Reading to Temperature\n ADC reading (counts) \n ADC reference voltage, V \n ADC resolution, bits \n 24||r Math.pow(2,b)-1){o.innerText='Please enter a reading between 0 and full scale, a positive reference and 1 to 24 bits';}else{var n=Math.pow(2,b);var mv=r*v*1000/n;var t=mv/10;var f=t*1.8+32;var s=v*100/n;o.innerText='Output '+mv.toFixed(1)+' mV, temperature '+t.toFixed(2)+' \u00b0C ('+f.toFixed(2)+' \u00b0F), resolution '+s.toFixed(2)+' \u00b0C per step';}document.getElementById('lmt-res').style.display='block';\">Calculate \r\n Result\n Output 302.7 mV, temperature 30.27 \u00b0C (86.49 \u00b0F), resolution 0.49 \u00b0C per step\n Second Solved Example: 1.1 V Internal Reference\n With analogReference(INTERNAL) the ATmega328P on the Uno uses its internal 1.1 V reference. Each step is now 1.1 \u00f7 1024 = 1.07 mV, so resolution improves to about 0.11 \u00b0C, while the usable range ends near 110 \u00b0C.\n For a reading of 233, Vout = 233 \u00d7 1100 \u00f7 1024 = 250.3 mV, which gives 25.03 \u00b0C. Because the internal reference can sit anywhere from about 1.0 V to 1.2 V on a given chip, measure it once at the AREF pin and use that value in your code.\n Quick Tip\n Take 10 to 20 readings, discard the first one after switching the ADC reference and average the rest. This simple filter steadies the last digit on an LCD.\n Advertisement \n LM35 Temperature Sensor Negative Temperature Circuit\n In the basic single supply circuit the LM35 temperature sensor output cannot go below ground, so it reads only from about 2 \u00b0C upwards. For the full minus 55 \u00b0C to 150 \u00b0C range, TI shows a resistor R1 from the output to a negative supply.\n R1 = Vs (negative) \u00f7 50 \u00b5A \nFor a minus 5 V rail: R1 = 5 V \u00f7 50 \u00b5A = 100 k\u03a9\nOutput: 1500 mV at 150 \u00b0C, 250 mV at 25 \u00b0C\n Output: minus 550 mV at minus 55 \u00b0C \r\n The ADC must then accept a bipolar input, so engineers usually add an offset and gain stage or use a sensor with a built in offset. Cold room and freezer projects in India often skip this effort and use a Pt100 RTD or a digital sensor instead.\n LM35 vs Other Temperature Sensors\n LM35\n Celsius output at 10 mV per \u00b0C with zero volts at 0 \u00b0C.\n Best for: Arduino, panels, lab practicals\n Celsius \n LM34\n Same idea scaled at 10 mV per \u00b0F.\n Best for: American designs in Fahrenheit\n Fahrenheit \n LM335\n Kelvin output at 10 mV per K, so 2.98 V at 25 \u00b0C.\n Best for: circuits that need absolute temperature\n Kelvin \n TMP36\n 500 mV offset at 0 \u00b0C lets a single supply read below zero.\n Best for: battery and 3.3 V boards\n Offset \n For a wider view, see this guide to types of temperature sensors and the comparison of thermistor vs thermocouple .\n Do You Know?\n The LM35 was originally introduced by National Semiconductor, which Texas Instruments acquired in 2011. That is why old datasheets and textbooks show the National logo on the same part.\n Long Cable and Noise Tips\n TI recommends a 0.1 \u00b5F bypass capacitor from +Vs to GND, placed close to the sensor, as explained in our guide on decoupling capacitors . For remote sensing it shows twisted pair wiring, so run the LM35 temperature sensor on a shielded twisted pair cable and ground the shield at one end only.\n A long cable adds capacitance that can make the LM35 temperature sensor output stage oscillate. TI suggests a series damper of 75 \u03a9 and 1 \u00b5F from output to ground, or a series resistor, and a simple RC low pass filter at the ADC pin removes most remaining hum.\n Keep the sensor ground and the microcontroller ground at the same point to avoid ground loops .\n Installation for Accurate Readings\n 1\n Pick the Grade\n Use LM35D for 0 to 100 \u00b0C and LM35 or LM35A for below zero work.\n 2\n Mount Close\n Glue or clamp the body to the surface with thermal epoxy.\n 3\n Seal the Leads\n Cover leads with epoxy so moisture cannot leak current.\n 4\n Bypass Supply\n Fit 0.1 \u00b5F from +Vs to GND at the sensor.\n 5\n Route the Cable\n Use twisted pair away from power cables.\n 6\n Verify\n Compare with a reference thermometer at two points.\n TI notes that the leads should be kept at the same temperature as the surface, otherwise heat flowing along the copper causes temperature measurement errors .\n LM35 Troubleshooting Table\n Symptom\n Likely Cause\n Fix\n Reads about 500 \u00b0C\n Vout shorted to 5 V or open ground\n Check pin order and GND wire\n Reads 0 \u00b0C always\n Output open or wrong analog pin\n Confirm A0 in code and wiring\n Jumps by several degrees\n Noise or long cable oscillation\n Add 0.1 \u00b5F bypass and RC damper\n Reads 2 to 5 \u00b0C high\n Self heating in still air or warm board\n Move away from regulator, reduce load\n Sensor body very hot\n Supply reversed\n Power off and rewire\n Myth: An LM35 needs calibration like a thermistor.\n Fact: It is trimmed at the factory to \u00b10.5 \u00b0C or \u00b11 \u00b0C at 25 \u00b0C depending on grade.\n Myth: It runs well on 3.3 V boards.\n Fact: Its minimum supply is 4 V, so power it from 5 V while the output stays below 1.5 V.\n Myth: Any LM35 can read minus 20 \u00b0C.\n Fact: The LM35D stops at 0 \u00b0C, and even full range grades need a negative supply circuit.\n Myth: More bits always means more accuracy.\n Fact: A 12 bit ADC improves resolution, but sensor tolerance still limits accuracy.\n Strengths\n Linear Celsius output, no lookup table.\n Low current draw below 60 \u00b5A.\n Factory trimmed, no calibration needed.\n Low cost and easy to source in India.\n Limitations\n Needs at least 4 V supply.\n Negative temperatures need extra circuitry.\n Analog signal picks up noise on long cables.\n Not for industrial hazardous areas or high vibration.\n Advertisement \n Where the LM35 Is Used\n Panel and Server Rooms\n Fan control and over temperature alarms inside control panels.\n Battery Packs\n Charge cut off when cell temperature rises.\n Incubators and Poultry\n Holding a set temperature with a relay or PWM heater.\n College Projects\n Digital thermometers and data loggers on Arduino.\n Power Electronics\n Heat sink monitoring for converters and drives.\n In a fan controller, the sensor feeds an Arduino that drives a fan through PWM and a MOSFET . This is the same principle used in commercial electronic cooling fans .\n TI LM35 Datasheet\n PDF\n LM35 Precision Centigrade Temperature Sensors\n Texas Instruments datasheet with grades, accuracy and application circuits\n LM35 Video Tutorial\n LM35 Temperature Sensor FAQ\n How do you convert LM35 output to Celsius?\n Divide the output voltage in millivolts by 10 to get the temperature in degrees Celsius. For example, 250 mV means 25 \u00b0C and 302 mV means about 30.2 degrees.\n On an Arduino Uno with a 5 V reference, multiply the reading by 500 and divide by 1024. Always use floating point math so the result keeps its decimal places.\n What is the output of LM35 at 25 \u00b0C?\n The output is 250 mV at 25 \u00b0C because the scale factor is 10 mV per degree. At 0 \u00b0C the output is zero volts in the basic circuit.\n At 100 \u00b0C the output reaches 1 V, and at 150 \u00b0C it reaches 1.5 V on full range grades. This is why the output stays safely inside a 3.3 V or 5 V input range.\n Can LM35 measure negative temperature?\n Yes, but only the full range grades and only with a resistor from the output to a negative supply. TI uses about 100 k\u03a9 for a minus 5 V rail in its circuit.\n The LM35D grade is rated only from 0 to 100 degrees. For freezers on a single supply, a sensor with a built in offset such as the TMP36 is often simpler.\n Is LM35 analog or digital?\n The LM35 temperature sensor is an analog sensor that gives a voltage proportional to temperature. You need an ADC, a multimeter or a comparator to read it.\n Digital sensors such as the DS18B20 or DHT11 send data as serial bits instead. The analog output of the LM35 makes it easy to test with a simple meter on the bench.\n What is the difference between LM35 and DHT11?\n The LM35 measures only temperature and gives an analog voltage with about \u00b10.5 \u00b0C to \u00b11 \u00b0C accuracy at room temperature. It covers a much wider range than the DHT11 as well.\n The DHT11 measures humidity and temperature together over a single digital wire. Its temperature accuracy is about \u00b12 \u00b0C and its range is roughly 0 to 50 degrees.\n Why is my LM35 reading wrong or fluctuating?\n The usual causes are noise on a long cable, a missing bypass capacitor or a 5 V USB supply that is not exactly five volts. Wrong pin order and integer math in code also give strange values.\n Add a 0.1 \u00b5F capacitor at the sensor and average several readings in software. Then compare the result with a reference thermometer at room temperature.\n Can LM35 work with 3.3 V boards like ESP32?\n The sensor needs at least 4 V on its supply pin, so power it from the 5 V or VIN pin of the board. Its output stays below 1.5 V, which a 3.3 V ADC input can accept safely.\n The ESP32 ADC is less linear than the Uno ADC near its ends. Calibrate it at two known temperatures or use an external ADC for better results.\n Advertisement \n Related Articles\n Types of Temperature Sensors \n NTC and PTC Thermistor Working \n ADC Working Principle Explained \n RTD Temperature Sensor Working \n Capacitive Humidity Sensor Working \n External References\n LM35 Precision Centigrade Temperature Sensors Datasheet, Texas Instruments \n LM35 Pinout, Features and Datasheet, Components101 \n Silicon Bandgap Temperature Sensor, Wikipedia \n What We Learn Today\n The LM35 temperature sensor gives 10 mV per \u00b0C, so dividing the output in millivolts by 10 gives the temperature directly in degrees Celsius.\n On an Arduino Uno with a 5 V reference, temperature equals reading \u00d7 500 \u00f7 1024, and the 1.1 V reference improves resolution to about 0.11 \u00b0C.\n Negative temperatures need a resistor to a negative supply, while long cables need a bypass capacitor, twisted pair wiring and an RC damper.\n I hope you like above blog. There is no cost associated in sharing the article in your social media. Thanks for reading!! Happy Learning!!\n Author \u00b7 instrumentationblog.in \r\n Sunayana Gadepatil \n Ms. Sunayana Gadepatil is an instrumentation professional, technical writer, and the author behind Instrumentation Blog. With a strong interest in industrial instrumentation, process measurement, and automation, she specializes in simplifying complex technical concepts into clear, practical, and easy to understand insights. Through her articles, Ms. Sunayana shares valuable knowledge on flow, pressure, level, temperature, control systems, and industrial automation for engineers, students, technicians, and industry professionals.\n Technically reviewed on 13 October 2026 \n Connect On LinkedIn About Author Read Her Articles \u2192 \n WhatsApp\r\n Telegram\r\n Buy Me a Coffee"
+}
