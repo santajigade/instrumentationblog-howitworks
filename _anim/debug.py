@@ -6,17 +6,12 @@ def get(p):
     try:
         with urllib.request.urlopen(req, timeout=60) as r: return json.loads(r.read())
     except Exception as e: return {'ERR': str(e)}
-for slug in ['mutual-inductance-coupling-coefficient','varactor-diode-working-principle','open-loop-and-closed-loop-control-system','npn-and-pnp-proximity-sensors','digital-pressure-gauge-working']:
+for slug in ['absolute-vs-gauge-pressure','analog-vs-digital-instrumentation-system','generator-excitation-system-avr','ttl-vs-cmos-logic-families','what-is-a-valve-manifold']:
     r = get('/wp/v2/posts?slug=' + slug + '&_fields=id')
     pid = r[0]['id']; w = get(f'/ib/v1/widgets/{pid}')
     allc = ' '.join(str(x.get('content','')) for x in w.get('widgets', []))
     i = allc.find('ib-anim')
     prev = [re.sub('<[^>]+>','',h) for h in re.findall(r'<h[23][^>]*>([\s\S]*?)</h[23]>', allc[:i])]
     nxt = [re.sub('<[^>]+>','',h) for h in re.findall(r'<h[23][^>]*>([\s\S]*?)</h[23]>', allc[i:])]
-    print('PLACE', slug, 'found' if i >= 0 else 'MISSING', '| after:', prev[-1:] , '| before:', nxt[:1])
+    print('PLACE', slug, 'found' if i >= 0 else 'MISSING', '| after:', prev[-2:] , '| before:', nxt[:1])
 
-r = get('/wp/v2/posts?slug=open-loop-and-closed-loop-control-system&_fields=id'); pid=r[0]['id']; w=get(f'/ib/v1/widgets/{pid}')
-for x in w.get('widgets',[]):
-    c=str(x.get('content',''))
-    hs=[re.sub('<[^>]+>','',h) for h in re.findall(r'<h[1-4][^>]*>([\s\S]*?)</h[1-4]>',c)]
-    print('WID', x.get('path'), x.get('type'), (re.sub('<[^>]+>','',c)[:60] if x.get('type')=='heading' else hs[:12]))
