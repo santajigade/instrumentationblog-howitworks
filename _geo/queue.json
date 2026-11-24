@@ -2925,7 +2925,7 @@
 "impr": 840,
 "pos": 6.1,
 "queries": [],
-"status": "todo"
+"status": "skip"
 },
 {
 "slug": "ethernet-ip-protocol-cip-object-model-device-profile",
@@ -3220,7 +3220,7 @@
 "impr": 741,
 "pos": 6.3,
 "queries": [],
-"status": "todo"
+"status": "skip"
 },
 {
 "slug": "what-is-custody-transfer",
