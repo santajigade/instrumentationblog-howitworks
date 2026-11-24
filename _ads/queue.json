@@ -2027,4156 +2027,4156 @@
 {
 "id": 14759,
 "slug": "types-of-electronic-switches",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14767,
 "slug": "plc-pac-rtu-dcs-scada-automation-terms",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14773,
 "slug": "vortex-flow-meter-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14780,
 "slug": "inductive-vs-capacitive-proximity-sensors",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14786,
 "slug": "incremental-vs-absolute-encoders",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14794,
 "slug": "alarm-management-isa-18-2",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14801,
 "slug": "purdue-model-ics-cybersecurity",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14808,
 "slug": "voting-architectures-safety-systems",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14815,
 "slug": "iec-61131-3-programming-languages",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14822,
 "slug": "isa-88-batch-control",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14829,
 "slug": "clean-in-place-cip-systems",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14844,
 "slug": "what-is-a-process-historian",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14851,
 "slug": "plc-redundancy-hot-standby",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14865,
 "slug": "isa-95-automation-pyramid",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14871,
 "slug": "cause-and-effect-matrix",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14878,
 "slug": "555-timer-ic-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14887,
 "slug": "linear-vs-switching-voltage-regulators",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14894,
 "slug": "digital-logic-gates-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14901,
 "slug": "servo-motor-vs-stepper-motor",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14914,
 "slug": "motor-starting-methods-compared",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14924,
 "slug": "thermal-overload-relay-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14931,
 "slug": "foundation-fieldbus-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14937,
 "slug": "load-cell-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14940,
 "slug": "strain-gauge-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14946,
 "slug": "npsh-and-cavitation-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14959,
 "slug": "centrifugal-vs-positive-displacement-pump",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14965,
 "slug": "control-valve-cavitation-flashing",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14971,
 "slug": "ups-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14978,
 "slug": "power-factor-correction-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14988,
 "slug": "tn-tt-it-earthing-systems",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 14995,
 "slug": "orp-measurement-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15003,
 "slug": "viscosity-measurement-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15009,
 "slug": "gas-analyzers-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15023,
 "slug": "opc-ua-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15031,
 "slug": "predictive-maintenance-preventive",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15038,
 "slug": "digital-twin-industrial-automation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15046,
 "slug": "star-vs-delta-connection",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15053,
 "slug": "siemens-s7-1200-vs-s7-1500",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15060,
 "slug": "single-phase-vs-three-phase-power",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15067,
 "slug": "cable-sizing-ampacity-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15076,
 "slug": "weigh-feeder-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15082,
 "slug": "automatic-tank-gauging-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15088,
 "slug": "steam-trap-types-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15094,
 "slug": "flame-arrester-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15100,
 "slug": "rupture-disc-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15106,
 "slug": "scotch-yoke-vs-rack-and-pinion-actuator",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15111,
 "slug": "diaphragm-actuator-vs-piston-actuator",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15123,
 "slug": "deadband-in-pressure-switches",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15129,
 "slug": "plc-objective-questions-and-answers-quiz",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15142,
 "slug": "free-plc-programming-software",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15152,
 "slug": "flip-flop-types-sr-jk-d-t",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15169,
 "slug": "plc-multiple-outputs-configuration",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15284,
 "slug": "active-vs-passive-components",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15289,
 "slug": "series-vs-parallel-circuits-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15296,
 "slug": "voltage-divider-rule-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15301,
 "slug": "current-divider-rule-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15306,
 "slug": "what-is-resistance",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15327,
 "slug": "what-is-reactance",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15332,
 "slug": "what-is-impedance",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15340,
 "slug": "solid-state-relay-vs-mechanical-relay",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15345,
 "slug": "boolean-algebra-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15350,
 "slug": "bcd-binary-coded-decimal-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15355,
 "slug": "types-of-integrated-circuits-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15371,
 "slug": "quine-mccluskey-method-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15381,
 "slug": "analog-to-digital-conversion-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15387,
 "slug": "sequential-circuits-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15393,
 "slug": "latches-in-digital-logic-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15399,
 "slug": "what-is-mmscfd-natural-gas-flow-rate",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15405,
 "slug": "wireless-pressure-transmitters-iiot-systems",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15412,
 "slug": "electronic-vs-mechanical-pressure-sensors",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15418,
 "slug": "static-vs-dynamic-pressure",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15424,
 "slug": "understanding-pascals-law-pressure-instruments",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15435,
 "slug": "superposition-theorem-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15441,
 "slug": "nortons-theorem-explained-solved-examples",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15447,
 "slug": "thevenins-theorem-made-simple",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15456,
 "slug": "kirchhoffs-voltage-law-kvl-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15468,
 "slug": "kirchhoffs-current-law-kcl-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15474,
 "slug": "silicon-carbide-vs-gallium-nitride",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15480,
 "slug": "electronic-cooling-fans-thermal-efficiency",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15487,
 "slug": "counters-explained-ripple-vs-synchronous",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15493,
 "slug": "half-adder-vs-full-adder",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15499,
 "slug": "adc-working-principle-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15505,
 "slug": "led-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15511,
 "slug": "voltage-regulator-ics-linear-vs-switching",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15517,
 "slug": "crystal-oscillator-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15523,
 "slug": "thyristor-and-triac-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15532,
 "slug": "operational-amplifier-op-amp-basics",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15538,
 "slug": "encoder-vs-decoder-digital-logic",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15544,
 "slug": "4-generations-of-scada-architecture",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15552,
 "slug": "10-enterprise-scada-tips",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15558,
 "slug": "how-scada-systems-work",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15566,
 "slug": "process-safety-vs-functional-safety",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15572,
 "slug": "75-ohm-termination-resistor-controlnet",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15584,
 "slug": "pcb-trace-width-calculator",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15591,
 "slug": "causes-of-battery-failure",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15597,
 "slug": "capacitance-type-level-transmitter-calibration",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15604,
 "slug": "common-leak-testing-errors",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15610,
 "slug": "ir-sensor-working-principle-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15616,
 "slug": "sis-safety-lifecycle-stages",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15623,
 "slug": "control-valve-passing-causes",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15629,
 "slug": "types-of-transistor-oscillators",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15647,
 "slug": "iec-62443-zones-conduits",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15653,
 "slug": "air-gapped-vs-segmented-ics-networks",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15659,
 "slug": "power-supply-aging-in-automation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15665,
 "slug": "why-servo-motors-fail",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15671,
 "slug": "electrical-conductivity-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15677,
 "slug": "automatic-transfer-switch-ats-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15683,
 "slug": "electrical-conductivity-explained-2",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15689,
 "slug": "lockout-tagout-loto-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15695,
 "slug": "voltage-drop-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15704,
 "slug": "synchronous-motor-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15710,
 "slug": "capacitor-bank-sizing-power-factor-correction",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15716,
 "slug": "induction-motor-slip-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15722,
 "slug": "power-harmonics-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15728,
 "slug": "power-quality-issues-vfd-plc",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15734,
 "slug": "vfd-overload-trip-causes",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15745,
 "slug": "key-electronic-components-in-industrial-automation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15751,
 "slug": "hmi-systems-manufacturers",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15757,
 "slug": "dc-drive-mistakes-and-prevention",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15763,
 "slug": "how-to-fix-a-servo-drive-problem",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15770,
 "slug": "io-modules-in-industrial-automation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15776,
 "slug": "ldr-light-dependent-resistor-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15782,
 "slug": "pcb-design-fundamentals",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15789,
 "slug": "network-switches-scada-dcs",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15795,
 "slug": "dcs-objective-questions-and-answers",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15805,
 "slug": "internet-protocols-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15828,
 "slug": "valve-torque-actuator-failure",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15834,
 "slug": "grounding-techniques-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15844,
 "slug": "electrical-units-of-measure-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15854,
 "slug": "electrical-regulations-and-standards",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 15862,
 "slug": "protective-relays-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15875,
 "slug": "bjt-currents-and-voltages-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15880,
 "slug": "ac-motors-and-generators-back-emf",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15920,
 "slug": "static-electricity-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15937,
 "slug": "cathode-ray-oscilloscope-cro-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15955,
 "slug": "thermocouple-and-rtd-installation-precautions",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15962,
 "slug": "flow-meter-k-factor-calculations",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15968,
 "slug": "pressure-transmitter-installation-tips",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15975,
 "slug": "flow-meter-readings-stability-factors",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15981,
 "slug": "coriolis-flow-meter-uncertainty",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15987,
 "slug": "orifice-flowmeter-rangeability",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 15993,
 "slug": "measure-flow-rate-level-sensors",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16012,
 "slug": "v-cone-flow-meter-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16019,
 "slug": "pressure-gauge-accuracy-classes",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16025,
 "slug": "displacer-level-transmitter-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16031,
 "slug": "fiber-optic-temperature-sensors",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16040,
 "slug": "gas-chromatograph-basics-process-analytics",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16048,
 "slug": "control-valve-seat-leakage-classes",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16054,
 "slug": "butterfly-valve-vs-ball-valve-control",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16060,
 "slug": "rc-and-rl-time-constant-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16066,
 "slug": "busbar-sizing-calculation-guide",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16072,
 "slug": "dcs-function-block-programming-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16078,
 "slug": "zero-trust-architecture-ot-networks",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16084,
 "slug": "mqtt-protocol-for-industrial-iot",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16093,
 "slug": "safety-instrumented-function-sif-design",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16099,
 "slug": "pressure-transmitter-damping-response-time",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16105,
 "slug": "servo-level-gauge-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16111,
 "slug": "radar-level-transmitter-false-echo-handling",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16120,
 "slug": "temperature-sensor-response-time",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16126,
 "slug": "level-measurement-in-agitated-vessels",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16132,
 "slug": "multipoint-thermocouples-tank-reactor-monitoring",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16139,
 "slug": "what-is-a-varistor-working-principle-applications",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16158,
 "slug": "common-mode-choke-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16164,
 "slug": "how-to-calculate-three-phase-power",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16170,
 "slug": "how-to-calculate-generator-size-industrial-load",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16176,
 "slug": "how-to-calculate-transformer-kva-rating",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16197,
 "slug": "how-to-select-right-mccb-rating",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16203,
 "slug": "how-to-calculate-mcb-rating-circuit",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16212,
 "slug": "ceramic-resonator-working-applications",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16219,
 "slug": "phototransistor-working-principle-applications",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16228,
 "slug": "darlington-pair-working-applications",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16234,
 "slug": "varactor-diode-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16241,
 "slug": "schottky-diode-advantages-limitations",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16259,
 "slug": "arithmetic-logic-unit-alu-architecture",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16265,
 "slug": "480v-three-phase-data-center-power-distribution",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16271,
 "slug": "pressure-transmitter-span-drift",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16280,
 "slug": "pressure-transmitter-zero-shift",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16289,
 "slug": "pressure-transmitter-temperature-effect",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16298,
 "slug": "measure-pulsating-flow-industrial-piping",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16307,
 "slug": "select-flow-meter-for-high-temperature-fluids",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16313,
 "slug": "flow-meter-for-low-flow-applications",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16319,
 "slug": "active-reactive-and-apparent-power",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16328,
 "slug": "phase-angle-in-ac-circuits",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16336,
 "slug": "rms-value-explained-ac-measurements",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16342,
 "slug": "ups-capacity-kva-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16351,
 "slug": "calculate-battery-backup-time",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16357,
 "slug": "how-to-calculate-capacitor-bank-kvar-formula",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16369,
 "slug": "level-measurement-in-high-viscosity-liquids",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16375,
 "slug": "level-measurement-in-corrosive-chemicals",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16381,
 "slug": "level-measurement-in-slurries",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16387,
 "slug": "thermocouple-extension-wire",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16394,
 "slug": "thermocouple-polarity-identification",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16400,
 "slug": "thermocouple-grounded-vs-ungrounded-junction",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16406,
 "slug": "plc-watchdog-timer-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16412,
 "slug": "plc-memory-addressing",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16418,
 "slug": "dcs-controller-redundancy-types",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16424,
 "slug": "dcs-network-redundancy-ring-star-dual",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16430,
 "slug": "dcs-historian-explained-data-storage",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16439,
 "slug": "scada-redundancy-architecture",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16445,
 "slug": "scada-alarm-management",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16451,
 "slug": "scada-tag-database-design",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16457,
 "slug": "sil-verification-vs-sil-validation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16463,
 "slug": "safe-failure-fraction-functional-safety",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16469,
 "slug": "sis-final-element-reliability",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16570,
 "slug": "ground-loop-causes-and-prevention",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16580,
 "slug": "hazop-study-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16586,
 "slug": "hot-work-permit-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16592,
 "slug": "how-decoupling-capacitors-work",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16598,
 "slug": "karnaugh-map-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16604,
 "slug": "mcb-vs-mccb-vs-elcb-vs-rccb",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16610,
 "slug": "modbus-rtu-vs-modbus-tcp",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16616,
 "slug": "multiplexer-vs-demultiplexer",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16622,
 "slug": "plc-counter-instructions-ctu-ctd",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16628,
 "slug": "plc-shift-register-shl-shr",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16634,
 "slug": "plc-timer-instructions-ton-tof-rto",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16640,
 "slug": "profibus-vs-profinet",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16646,
 "slug": "python-in-industrial-automation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16652,
 "slug": "thermowell-guide",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16658,
 "slug": "what-is-a-semiconductor",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16664,
 "slug": "what-is-arc-flash",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16670,
 "slug": "what-is-capacitance",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16676,
 "slug": "why-4-20-ma-is-used-instead-of-voltage-signal",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16682,
 "slug": "ip-rating-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16688,
 "slug": "transformer-efficiency-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16694,
 "slug": "electrical-energy-consumption-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16703,
 "slug": "earth-conductor-size-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16729,
 "slug": "control-valve-selection-key-factors",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16735,
 "slug": "mems-gyroscope-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16742,
 "slug": "what-is-a-magnetometer",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16751,
 "slug": "mems-accelerometer-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16857,
 "slug": "electrical-shock-causes-effects-prevention",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16862,
 "slug": "electrical-safety-ppe-selection-guide",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16867,
 "slug": "nfpa-70e-explained-electrical-safety",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16872,
 "slug": "cascode-amplifier-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16896,
 "slug": "coriolis-flow-meter-troubleshooting",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16905,
 "slug": "turbine-flow-meter-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16911,
 "slug": "vortex-flow-meter-troubleshooting",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16917,
 "slug": "differential-pressure-transmitter-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16923,
 "slug": "absolute-pressure-transmitter-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16936,
 "slug": "gauge-pressure-transmitter-working",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16941,
 "slug": "voltage-drop-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16959,
 "slug": "cable-sizing-motor-feeders",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16964,
 "slug": "short-circuit-current-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16969,
 "slug": "power-factor-improvement-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16974,
 "slug": "resistor-types-fixed-variable-special-purpose",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16979,
 "slug": "capacitor-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 16984,
 "slug": "inductor-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17023,
 "slug": "plate-heat-exchanger-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17030,
 "slug": "magnetic-flow-meter-troubleshooting",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17036,
 "slug": "ultrasonic-flow-meter-troubleshooting",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17046,
 "slug": "mass-flow-controller-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17065,
 "slug": "pressure-transmitter-loop-check-procedure",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17071,
 "slug": "high-pressure-transmitter-selection",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17077,
 "slug": "low-pressure-transmitter-selection",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17086,
 "slug": "plc-programming-languages",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17092,
 "slug": "dcs-control-strategies",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17102,
 "slug": "plc-compare-instructions",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17108,
 "slug": "plc-math-instructions",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17114,
 "slug": "lighting-design-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17119,
 "slug": "fuse-selection-guide",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17124,
 "slug": "impedance-reactance-ac-circuits",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17129,
 "slug": "igbt-working-principle-applications",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17134,
 "slug": "transistor-common-emitter-amplifier",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17169,
 "slug": "diode-rectifier-circuits",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17187,
 "slug": "cems-continuous-emissions-monitoring-system",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17193,
 "slug": "h2s-gas-detector-working-principle-safety",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17199,
 "slug": "conductivity-sensor-cell-constant-calibration",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17205,
 "slug": "temperature-transmitter-configuration-ranging",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17211,
 "slug": "rtd-pt100-vs-pt1000-differences",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17221,
 "slug": "circuit-breaker-coordination-time-current-curves-selectivity",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17235,
 "slug": "harmonic-distortion-thd-calculation-power-systems",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17241,
 "slug": "ethernet-ip-protocol-cip-object-model-device-profile",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17254,
 "slug": "iec-61850-substation-automation-goose-mms-sampled-values",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17264,
 "slug": "sil-determination-risk-graph-lopa-consequence-severity-matrix",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17270,
 "slug": "proof-test-interval-coverage-safety-transmitters-iec-61511",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17276,
 "slug": "layer-of-protection-analysis-lopa-sil-assessment",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17282,
 "slug": "scada-hmi-screen-design-isa-101-best-practices",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17288,
 "slug": "dnp3-iec-60870-5-104-scada-protocol-comparison",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17294,
 "slug": "scada-rtu-remote-terminal-unit-architecture-communication",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17300,
 "slug": "scada-historian-integration-osisoft-pi-aveva-architecture",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17306,
 "slug": "dcs-pid-auto-tune-step-test-relay-feedback-ziegler-nichols",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17312,
 "slug": "dcs-fieldbus-integration-hart-foundation-fieldbus-profibus-pa",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17318,
 "slug": "level-transmitter-5-point-calibration",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17324,
 "slug": "radar-level-selection-non-contact-vs-guided-wave",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17330,
 "slug": "magnetic-level-gauge-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17336,
 "slug": "pressure-transmitter-remote-seal-temperature-effect",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17342,
 "slug": "pressure-gauge-selection-7-factors",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17348,
 "slug": "pressure-snubber-working-principle-types-selection",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17354,
 "slug": "piezoresistive-vs-capacitive-pressure-sensor",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17360,
 "slug": "flow-nozzle-vs-orifice-plate-vs-venturi",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17369,
 "slug": "dp-flow-transmitter-calibration-5-point",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17375,
 "slug": "ultrasonic-vs-magnetic-flow-meter-7-differences",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17381,
 "slug": "control-valve-body-types-globe-angle-rotary-three-way",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17387,
 "slug": "fail-safe-valve-position-fail-open-fail-closed-fail-locked",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17393,
 "slug": "globe-valve-vs-ball-valve-vs-butterfly-valve-selection",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17399,
 "slug": "flow-switch-working-principle-paddle-dp-thermal",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17405,
 "slug": "level-switch-selection-float-vibrating-fork-conductivity-capacitance",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17411,
 "slug": "temperature-switch-vs-temperature-transmitter",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17417,
 "slug": "pressure-switch-setpoint-deadband-configuration",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17424,
 "slug": "plc-fault-handling-major-minor-fault-codes-recovery",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17430,
 "slug": "motor-efficiency-classes-iec-60034",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17436,
 "slug": "buck-converter-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17442,
 "slug": "ground-plane-pcb-design",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17448,
 "slug": "pcb-layer-stackup-design",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17454,
 "slug": "signal-integrity-high-speed-pcb-design",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17461,
 "slug": "boost-converter-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17467,
 "slug": "ups-topology-comparison",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17473,
 "slug": "spd-selection-iec-61643",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17479,
 "slug": "vfd-parameter-configuration",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17485,
 "slug": "motor-protection-relay-types",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17491,
 "slug": "motor-insulation-classes",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17497,
 "slug": "nfpa-70e-arc-flash-boundary-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17503,
 "slug": "cable-tray-fill-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17509,
 "slug": "electrical-isolation-permit-to-work",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17515,
 "slug": "rc-low-pass-high-pass-filter",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17521,
 "slug": "plc-output-module-types",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17527,
 "slug": "plc-data-move-instructions",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17533,
 "slug": "plc-bit-shift-rotate-instructions",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17539,
 "slug": "plc-diagnostic-status-bits",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17545,
 "slug": "plc-online-offline-programming",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17552,
 "slug": "averaging-pitot-tube-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17558,
 "slug": "insertion-vs-full-bore-flow-meter",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17567,
 "slug": "flow-meter-wet-vs-dry-calibration",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17574,
 "slug": "pressure-transmitter-installation-best-practices",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17580,
 "slug": "vacuum-measurement-sensor-types",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17587,
 "slug": "pressure-gauge-over-range-protection",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17593,
 "slug": "thermocouple-transmitter-configuration-hart",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17599,
 "slug": "skin-temperature-measurement-thermocouple-pad-surface-sensor",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17605,
 "slug": "temperature-measurement-hazardous-area-sensors",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17611,
 "slug": "zirconia-oxygen-analyzer-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17618,
 "slug": "ndir-gas-analyzer-working-principle-co-co2-ch4",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17625,
 "slug": "toc-analyzer-working-principle-water-quality",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17631,
 "slug": "calibration-interval-determination-iso-9001",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17637,
 "slug": "iso-17025-calibration-laboratory-requirements",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17643,
 "slug": "applications-of-rtd-and-thermocouples",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17655,
 "slug": "system-architecture-in-industrial-automation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17667,
 "slug": "control-system-philosophy-30-key-concerns",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17673,
 "slug": "lube-oil-console-api-614-requirements",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17680,
 "slug": "water-vapor-in-instrument-air-lines",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17688,
 "slug": "material-take-off-mto-guide",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17694,
 "slug": "pressure-sensor-specifications-guide",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17700,
 "slug": "temperature-sensor-failure-warning-signs",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17706,
 "slug": "thermowell-failure-causes-and-fixes",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17712,
 "slug": "what-is-a-mimic-panel-types-uses",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17718,
 "slug": "control-valve-sizing-basic-requirements",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17724,
 "slug": "thermal-effect-on-sensors-zero-span-shift",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17730,
 "slug": "history-of-the-ma-signal",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17736,
 "slug": "rotameter-selection-10-factors",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17742,
 "slug": "sil-verification",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17748,
 "slug": "inter-discipline-check",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17754,
 "slug": "cable-tray-sagging",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17760,
 "slug": "vacuum-effect-on-field-instruments",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17769,
 "slug": "field-instrument-unit-conversion",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17775,
 "slug": "pneumatic-manifold-selection",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17781,
 "slug": "wellhead-control-panel-whcp",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17787,
 "slug": "sensor-selection-criteria",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17793,
 "slug": "shielded-cable-and-twisted-pair",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17799,
 "slug": "floating-vs-grounded-voltage",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17817,
 "slug": "namur-output-sensor",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17823,
 "slug": "inductive-proximity-sensor-selection",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17829,
 "slug": "flow-control-vs-needle-valve",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17839,
 "slug": "oxygen-analyzer-calibration",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17846,
 "slug": "dry-block-calibrator",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17852,
 "slug": "types-of-temperature-calibrators",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17858,
 "slug": "devicenet-protocol",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17864,
 "slug": "raid-parity",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17870,
 "slug": "ipsec-protocol",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17876,
 "slug": "remote-io-failure-modes",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17882,
 "slug": "msg-instructions-in-plc-programming",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17888,
 "slug": "scada-database-growing-too-fast",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17894,
 "slug": "control-valve-output-velocity",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17904,
 "slug": "ai-and-automation-enterprise-infrastructure",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17910,
 "slug": "transit-time-vs-doppler-ultrasonic-flow-meter",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17918,
 "slug": "machine-vision-for-quality-inspection-in-manufacturing",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17924,
 "slug": "vibration-analysis-with-ai-for-predictive-maintenance",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17931,
 "slug": "edge-ai-vs-cloud-ai-in-industrial-automation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17938,
 "slug": "dcs-io-card-types-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17944,
 "slug": "sequence-of-events-recording-in-dcs",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17950,
 "slug": "dcs-migration-and-obsolescence-management",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17957,
 "slug": "motor-control-center-mcc-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17964,
 "slug": "dol-vs-star-delta-starter-which-to-use",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17970,
 "slug": "voltage-sag-swell-and-flicker-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17976,
 "slug": "alternator-working-principle-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17982,
 "slug": "flyback-converter-working-principle-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17989,
 "slug": "differential-amplifier-explained-basics-and-cmrr",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 17995,
 "slug": "types-of-flow-elements",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18001,
 "slug": "coriolis-flow-meter-uncertainty-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18007,
 "slug": "peltier-effect",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18013,
 "slug": "thermostat-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18019,
 "slug": "earthing-aspects-in-industrial-process-plants",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18025,
 "slug": "best-pid-software-tools-for-process-engineers",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18031,
 "slug": "single-line-diagram-symbols-and-how-to-read-one",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18040,
 "slug": "load-flow-analysis-for-industrial-plants",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18047,
 "slug": "brushless-dc-motor-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18053,
 "slug": "stepper-motor-working-principle-and-3-main-types",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18059,
 "slug": "comparator-circuits-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18065,
 "slug": "electrolytic-vs-ceramic-vs-tantalum-capacitor-failure-modes",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18074,
 "slug": "mosfet-gate-driver-ics-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18081,
 "slug": "force-vs-override-in-safety-systems",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18090,
 "slug": "safety-signal-bypass-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18096,
 "slug": "safety-signal-override-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18102,
 "slug": "calculating-network-speed-bandwidth-and-throughput",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18108,
 "slug": "patch-panel-explained-types-and-how-it-works",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18116,
 "slug": "neutral-grounding-resistor-sizing",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18122,
 "slug": "transformer-routine-and-type-tests",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18128,
 "slug": "acb-vs-vcb-vs-sf6-circuit-breaker",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18134,
 "slug": "transformer-vector-group-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18140,
 "slug": "generator-synchronizing-procedure",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18146,
 "slug": "tier-iv-data-center-power-architecture",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18152,
 "slug": "boost-converter-working-principle-2",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18158,
 "slug": "tvs-diode-transient-voltage-suppression-explained",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18165,
 "slug": "photodiode-vs-phototransistor-key-differences",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18171,
 "slug": "astable-vs-monostable-vs-bistable-multivibrator",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18177,
 "slug": "voltage-follower-unity-gain-buffer-explained",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18183,
 "slug": "pcb-via-types-through-hole-blind-buried",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18189,
 "slug": "flow-computer-working-principle",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18195,
 "slug": "wedge-flow-meter-working-principle",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18202,
 "slug": "multivariable-transmitter-working",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18208,
 "slug": "laser-level-transmitter-working-principle",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18214,
 "slug": "residual-chlorine-analyzer-working",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18220,
 "slug": "conveyor-safety-switches-types",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18226,
 "slug": "control-valve-trim-types",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18232,
 "slug": "multifunction-process-calibrator-uses",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18238,
 "slug": "plc-subroutine-jsr-jmp-instructions",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18243,
 "slug": "plc-one-shot-ons-osr-osf",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18248,
 "slug": "scada-time-synchronization-ntp-ptp",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18253,
 "slug": "dcs-control-modes-manual-auto-cascade",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18258,
 "slug": "data-diode-ot-network-security",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18263,
 "slug": "industrial-protocol-gateway",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18298,
 "slug": "cable-derating-factors",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18305,
 "slug": "faradays-law-electromagnetic-induction",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18311,
 "slug": "transformer-cooling-methods-onan-onaf",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18317,
 "slug": "insulation-resistance-test-megger",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18323,
 "slug": "soft-starter-working-principle",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18329,
 "slug": "transformer-differential-protection-87t",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18335,
 "slug": "potentiometer-working-principle",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18341,
 "slug": "schmitt-trigger-hysteresis",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18347,
 "slug": "instrumentation-amplifier-working",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18354,
 "slug": "pir-sensor-working-principle",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18360,
 "slug": "pulse-width-modulation-duty-cycle",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18366,
 "slug": "snubber-circuit-rc-design",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18372,
 "slug": "maximum-demand-calculation-diversity",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18382,
 "slug": "skin-effect-in-conductors",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18389,
 "slug": "dc-motor-types-series-shunt-compound",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18398,
 "slug": "on-load-tap-changer-oltc",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18405,
 "slug": "step-and-touch-voltage-ieee-80",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18412,
 "slug": "bus-duct-busway-system",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18418,
 "slug": "power-distribution-system-radial-ring",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18424,
 "slug": "vfd-braking-resistor-sizing",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18431,
 "slug": "idmt-relay-characteristics-tms-psm",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18438,
 "slug": "surge-arrester-working-selection",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18444,
 "slug": "per-unit-system-power-system",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18450,
 "slug": "ferranti-effect-transmission-line",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18457,
 "slug": "ntc-ptc-thermistor-working",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18463,
 "slug": "ferrite-bead-emi-filter",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18469,
 "slug": "74hc595-shift-register",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18475,
 "slug": "ttl-vs-cmos-logic-families",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18481,
 "slug": "op-amp-integrator-differentiator",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18488,
 "slug": "active-filter-sallen-and-key",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18494,
 "slug": "ultrasonic-distance-sensor-sr04",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18500,
 "slug": "capacitive-touch-sensor-working",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18507,
 "slug": "decibel-in-electronics-db-dbm",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18514,
 "slug": "pcb-crosstalk-reduction",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18520,
 "slug": "controlled-impedance-pcb-traces",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18526,
 "slug": "power-inverter-working-principle",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18533,
 "slug": "lightning-protection-system-rolling-sphere",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18539,
 "slug": "earth-fault-loop-impedance-zs-testing",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18545,
 "slug": "eddy-current-loss-hysteresis-loss",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18551,
 "slug": "generator-excitation-system-avr",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18557,
 "slug": "transformer-inrush-current",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18563,
 "slug": "infrared-thermography-electrical-panels",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18569,
 "slug": "apfc-panel-working-sizing",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18575,
 "slug": "dv-dt-filter-vfd-motor-protection",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18581,
 "slug": "active-harmonic-filter-working-sizing",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18587,
 "slug": "gis-vs-ais-substation",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18594,
 "slug": "cable-gland-types-selection",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18600,
 "slug": "motor-starting-voltage-dip-calculation",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18606,
 "slug": "electromagnetic-relay-working-coil-suppression",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18612,
 "slug": "capacitor-esr-equivalent-series-resistance",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18619,
 "slug": "spi-vs-i2c-protocol-comparison",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18625,
 "slug": "uart-communication-frame-baud-rate",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18631,
 "slug": "current-mirror-bjt-mosfet-circuit",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18638,
 "slug": "precision-rectifier-op-amp-circuit",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18644,
 "slug": "humidity-sensor-capacitive-rh",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18650,
 "slug": "hall-effect-current-sensor-acs712",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18658,
 "slug": "bode-plot-gain-phase-margin",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18664,
 "slug": "ground-bounce-pcb-simultaneous-switching",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18671,
 "slug": "thermal-vias-pcb-heat-dissipation",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18677,
 "slug": "pfc-circuit-boost-power-factor-correction",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18684,
 "slug": "plc-structured-text-programming",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18689,
 "slug": "ferrite-bead-vs-common-mode-choke-when-to-use-which",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18695,
 "slug": "instrumentation-amplifier-vs-op-amp-key-differences",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 18705,
 "slug": "insulation-resistance-testing-with-a-megger",
-"status": "todo"
+"status": "failed"
 },
 {
 "id": 18713,
 "slug": "sequential-function-chart-sfc-plc",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18720,
 "slug": "plc-high-speed-counter-encoder",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18726,
 "slug": "first-out-alarm-plc-logic",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18732,
 "slug": "report-by-exception-scada-dnp3",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18739,
 "slug": "store-and-forward-scada-historian",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18745,
 "slug": "scada-virtualization-servers-guide",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18751,
 "slug": "alarm-shelving-isa-18-2-dcs",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18757,
 "slug": "marshalling-cabinet-dcs-wiring",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18763,
 "slug": "factory-acceptance-test-dcs-fat-sat",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18770,
 "slug": "industrial-dmz-it-ot-level-3-5",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18776,
 "slug": "ot-patch-management-ics",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18782,
 "slug": "ot-asset-inventory-ics-guide",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18788,
 "slug": "ics-incident-response-plan-ot",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18794,
 "slug": "can-bus-canopen-industrial",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18804,
 "slug": "time-sensitive-networking-tsn",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18810,
 "slug": "rs485-termination-biasing-resistors",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18816,
 "slug": "lorawan-industrial-iot-guide",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18822,
 "slug": "emergency-shutdown-system-esd",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18828,
 "slug": "fire-and-gas-system-process-plants",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18834,
 "slug": "partial-stroke-testing-esd-valves",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18840,
 "slug": "soft-sensor-inferential-measurement",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18846,
 "slug": "anomaly-detection-machine-learning-industrial",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18852,
 "slug": "model-predictive-control-mpc-process",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18866,
 "slug": "flow-conditioner-straight-run",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18872,
 "slug": "target-flow-meter-working-principle",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18878,
 "slug": "proof-pressure-vs-burst-pressure",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18884,
 "slug": "plugged-impulse-line-detection",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18890,
 "slug": "bubbler-level-measurement-purge",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18897,
 "slug": "bulk-solids-level-measurement-silo",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18903,
 "slug": "infrared-thermometer-emissivity-guide",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18909,
 "slug": "bimetallic-thermometer-working-principle",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18915,
 "slug": "sample-conditioning-system-analyzer",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18921,
 "slug": "silica-analyzer-power-plant-water",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18927,
 "slug": "differential-pressure-switch-working",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18933,
 "slug": "vibration-switch-machine-protection",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18939,
 "slug": "control-valve-stiction-detection",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18945,
 "slug": "control-valve-packing-low-emission",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18951,
 "slug": "calibration-certificate-as-found-as-left",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18957,
 "slug": "test-uncertainty-ratio-tur-calibration",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18963,
 "slug": "instrument-datasheet-isa-20-guide",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18969,
 "slug": "instrument-hook-up-drawing-guide",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18976,
 "slug": "plc-pid-instruction-configuration",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18983,
 "slug": "plc-interrupt-event-periodic-tasks",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18989,
 "slug": "plc-simulation-software-virtual-commissioning",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 18995,
 "slug": "plc-indirect-addressing-pointers",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 19001,
 "slug": "thin-client-hmi-web-scada",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 19007,
 "slug": "scada-polling-rate-optimization",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 19013,
 "slug": "scada-reporting-historian-reports",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 19019,
 "slug": "override-control-selector-dcs",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 19026,
 "slug": "control-loop-performance-monitoring-clpm",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 19032,
 "slug": "dcs-online-download-configuration-in-run",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 19039,
 "slug": "ethernet-apl-advanced-physical-layer",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 19045,
 "slug": "isa100-wireless-isa100-11a",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 19051,
 "slug": "ot-vulnerability-assessment-ics",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 19057,
 "slug": "application-allowlisting-ics-hmi",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 19063,
 "slug": "ot-intrusion-detection-system-ics",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 19069,
 "slug": "industrial-firewall-deep-packet-inspection",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 19075,
 "slug": "private-5g-industrial-automation",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 19081,
 "slug": "industrial-fiber-optic-network",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 19087,
 "slug": "safety-plc-sil-3-controller",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 19093,
 "slug": "spurious-trip-rate-sis-mttfs",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 19099,
 "slug": "safety-requirements-specification-iec-61511",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 19105,
 "slug": "generative-ai-industrial-automation",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 19111,
 "slug": "reinforcement-learning-process-control",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 19117,
 "slug": "remaining-useful-life-prediction",
-"status": "todo"
+"status": "noads"
 },
 {
 "id": 19123,
 "slug": "solar-pv-system-sizing-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19129,
 "slug": "maximum-power-transfer-theorem",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19139,
 "slug": "motor-nameplate-details-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19146,
 "slug": "rcd-types-ac-a-f-b-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19152,
 "slug": "vfd-motor-bearing-currents",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19159,
 "slug": "statcom-working-principle-vs-svc",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19165,
 "slug": "switch-debouncing-hardware-software",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19171,
 "slug": "transimpedance-amplifier-photodiode",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19178,
 "slug": "time-of-flight-sensor-working",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19184,
 "slug": "pcb-creepage-and-clearance",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19190,
 "slug": "reverse-polarity-protection-circuits",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19196,
 "slug": "supercapacitor-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19202,
 "slug": "meter-prover-flow-meter-proving",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19208,
 "slug": "magnetic-flow-meter-grounding-rings",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19214,
 "slug": "liquid-filled-pressure-gauge",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19220,
 "slug": "hydrogen-permeation-gold-plated-diaphragm",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19226,
 "slug": "magnetostrictive-level-transmitter-working",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19235,
 "slug": "reflex-vs-transparent-level-gauge",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19241,
 "slug": "mineral-insulated-thermocouple-cable",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19247,
 "slug": "rtd-self-heating-error",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19253,
 "slug": "paramagnetic-oxygen-analyzer-working",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19259,
 "slug": "tdlas-tunable-diode-laser-analyzer",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19265,
 "slug": "zero-speed-switch-working",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19271,
 "slug": "valve-limit-switch-box",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19277,
 "slug": "control-valve-noise-prediction-reduction",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19283,
 "slug": "actuator-bench-set-spring-range",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19290,
 "slug": "calibration-traceability-chain",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19296,
 "slug": "pressure-gauge-calibration-procedure",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19302,
 "slug": "instrument-loop-diagram-isa-5-4",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19308,
 "slug": "instrument-index-document-guide",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19314,
 "slug": "ct-burden-calculation-va",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19320,
 "slug": "star-delta-transformation-formula",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19326,
 "slug": "induction-generator-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19332,
 "slug": "electrical-safety-audit-checklist",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19338,
 "slug": "amf-panel-working-dg-auto-start",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19344,
 "slug": "motor-winding-resistance-test",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19350,
 "slug": "restricted-earth-fault-protection-ref",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19356,
 "slug": "hvdc-transmission-lcc-vsc",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19362,
 "slug": "ptc-resettable-fuse-polyfuse",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19368,
 "slug": "gray-code-binary-conversion",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19375,
 "slug": "voltage-reference-ic-selection",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19383,
 "slug": "mos-gas-sensor-mq-series",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19389,
 "slug": "lc-resonant-circuit-frequency",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19396,
 "slug": "differential-pair-routing-pcb",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19402,
 "slug": "ldo-regulator-dropout-voltage",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19429,
 "slug": "transformer-maintenance-checklist",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19459,
 "slug": "steam-flow-measurement-methods",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19465,
 "slug": "parshall-flume-open-channel-flow",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19471,
 "slug": "u-tube-manometer-working-formula",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19477,
 "slug": "digital-pressure-gauge-working",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19483,
 "slug": "dielectric-constant-level-measurement",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19492,
 "slug": "radar-level-antenna-types",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19498,
 "slug": "callendar-van-dusen-equation-rtd",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19504,
 "slug": "sodium-analyzer-power-plant",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19510,
 "slug": "microwave-barrier-level-switch",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19516,
 "slug": "pneumatic-volume-booster-control-valve",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19522,
 "slug": "pressure-switch-calibration-8-simple-steps-for-safe-trips",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19528,
 "slug": "instrument-junction-box-design",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19534,
 "slug": "plc-fifo-lifo-instructions",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19540,
 "slug": "historian-data-compression-swinging-door",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19546,
 "slug": "dcs-bad-pv-signal-quality-handling",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19553,
 "slug": "ot-backup-and-recovery-7-proven-steps-to-beat-ransomware",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19560,
 "slug": "modbus-function-codes-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19566,
 "slug": "hardware-fault-tolerance-sff-iec-61508",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19572,
 "slug": "ai-energy-optimization-industrial-plants",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19578,
 "slug": "neutral-conductor-sizing-harmonics",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19584,
 "slug": "mutual-inductance-coupling-coefficient",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19590,
 "slug": "universal-motor-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19596,
 "slug": "insulating-gloves-6-essential-classes-and-safe-testing-tips",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19603,
 "slug": "industrial-battery-charger-float-boost",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19611,
 "slug": "slip-ring-induction-motor-working",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19617,
 "slug": "voltage-unbalance-calculation-motors",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19624,
 "slug": "corona-effect-transmission-line",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19631,
 "slug": "inductor-saturation-current",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19638,
 "slug": "logic-level-shifter-3v3-5v",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19644,
 "slug": "sample-and-hold-circuit",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19650,
 "slug": "hx711-load-cell-amplifier",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19656,
 "slug": "pull-up-pull-down-resistor-values",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19662,
 "slug": "pcb-return-current-path",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19668,
 "slug": "sepic-converter-working-design",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19674,
 "slug": "swirl-flow-meter-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19680,
 "slug": "coriolis-density-measurement",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19686,
 "slug": "air-filter-regulator-instrument",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19693,
 "slug": "barometric-pressure-sensor-working",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19700,
 "slug": "stilling-well-level-measurement",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19706,
 "slug": "wet-leg-dry-leg-level-measurement",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19712,
 "slug": "rtd-tolerance-class-iec-60751",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19718,
 "slug": "thermocouple-drift-causes-prevention",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19724,
 "slug": "cod-analyzer-wastewater",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19731,
 "slug": "oil-in-water-analyzer-working",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19737,
 "slug": "tilt-switch-bulk-solids-level",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19743,
 "slug": "electronic-pressure-switch-io-link",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19749,
 "slug": "control-valve-rangeability-turndown",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19755,
 "slug": "control-valve-actuator-sizing",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19762,
 "slug": "ph-meter-calibration-buffers",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19769,
 "slug": "thermocouple-calibration-procedure",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19775,
 "slug": "instrument-cable-schedule",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19781,
 "slug": "instrument-air-consumption-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19787,
 "slug": "flow-totalizer-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19794,
 "slug": "ceramic-vs-metal-diaphragm-pressure-sensor",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19803,
 "slug": "lpg-level-measurement-bullet-sphere",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19809,
 "slug": "spring-loaded-rtd-thermowell",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19815,
 "slug": "hydrogen-purity-analyzer-generator",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19821,
 "slug": "ultrasonic-gap-level-switch",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19827,
 "slug": "control-valve-signature-test-diagnostics",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19833,
 "slug": "valve-positioner-calibration-procedure",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19839,
 "slug": "instrument-io-list-dcs-plc",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19880,
 "slug": "plc-retentive-memory-data-retention",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19886,
 "slug": "plc-sequencer-instruction-sqo-sqi",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19892,
 "slug": "scada-sql-database-logging",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19899,
 "slug": "scada-alarm-notification-sms-email",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19905,
 "slug": "operator-training-simulator-dcs",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19911,
 "slug": "role-based-access-control-ot",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19918,
 "slug": "hart-ip-protocol-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19925,
 "slug": "fire-and-gas-mapping-detector-coverage",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19931,
 "slug": "ai-root-cause-analysis-process-upsets",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19938,
 "slug": "conduit-fill-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19944,
 "slug": "lenzs-law-electromagnetic-induction",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19950,
 "slug": "autotransformer-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19957,
 "slug": "earth-leakage-relay-elr-cbct",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19963,
 "slug": "pcc-panel-power-control-centre",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19974,
 "slug": "vfd-sizing-selection-guide",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19980,
 "slug": "power-quality-analyzer-guide",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19986,
 "slug": "under-frequency-load-shedding-ufls",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19992,
 "slug": "magmeter-empty-pipe-detection",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 19998,
 "slug": "capsule-pressure-gauge-low-pressure",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20004,
 "slug": "submersible-level-transmitter-working",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20011,
 "slug": "head-mount-temperature-transmitter",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20017,
 "slug": "trace-moisture-analyzer-natural-gas",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20023,
 "slug": "conductive-level-switch-probe",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20029,
 "slug": "lock-up-valve-pneumatic-actuator",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20036,
 "slug": "gas-detector-bump-test-calibration",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20042,
 "slug": "instrument-location-plan-layout",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20048,
 "slug": "plc-version-control-git-change-management",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20054,
 "slug": "scada-trending-real-time-historical",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20060,
 "slug": "control-narrative-functional-specification",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20066,
 "slug": "removable-media-security-ot-usb",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20072,
 "slug": "sparkplug-b-mqtt-specification",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20078,
 "slug": "de-energize-to-trip-vs-energize-to-trip",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20084,
 "slug": "ai-ppe-detection-computer-vision",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20090,
 "slug": "elbow-flow-meter-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20100,
 "slug": "diaphragm-pressure-gauge-working",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20106,
 "slug": "tank-overfill-protection-api-2350",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20113,
 "slug": "temperature-data-logger-guide",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20119,
 "slug": "ammonia-analyzer-water-wastewater",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20126,
 "slug": "gas-pressure-switch-burner",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20132,
 "slug": "control-valve-stroking-time",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20138,
 "slug": "temperature-switch-calibration-procedure",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20144,
 "slug": "control-room-layout-design",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20181,
 "slug": "substation-battery-sizing-ieee-485",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20188,
 "slug": "flemings-left-hand-rule-motor",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20196,
 "slug": "synchronous-condenser-working",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20202,
 "slug": "equipotential-bonding-electrical-safety",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20209,
 "slug": "isolation-transformer-working-uses",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20217,
 "slug": "motor-thermistor-protection-ptc-relay",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20225,
 "slug": "directional-overcurrent-relay-67",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20232,
 "slug": "earthing-transformer-zigzag",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20241,
 "slug": "electrolytic-capacitor-lifetime-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20248,
 "slug": "tri-state-buffer-high-impedance",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20254,
 "slug": "wien-bridge-oscillator-circuit",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20260,
 "slug": "soil-moisture-sensor-capacitive-resistive",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20266,
 "slug": "impedance-matching-explained",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20272,
 "slug": "pcb-copper-pour-guidelines",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20278,
 "slug": "synchronous-rectification-buck-converter",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20285,
 "slug": "how-to-test-a-capacitor",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20291,
 "slug": "7-segment-display-decoder",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20297,
 "slug": "inverting-amplifier-gain-formula",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20304,
 "slug": "lm35-temperature-sensor",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20310,
 "slug": "led-resistor-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20317,
 "slug": "pcb-via-current-capacity",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20323,
 "slug": "heat-sink-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20333,
 "slug": "flow-meter-accuracy-reading-vs-full-scale",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20340,
 "slug": "pressure-transmitter-troubleshooting",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20346,
 "slug": "level-transmitter-troubleshooting",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20352,
 "slug": "how-to-test-an-rtd-pt100",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20358,
 "slug": "ph-sensor-troubleshooting",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20364,
 "slug": "pressure-switch-wiring-no-nc",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20370,
 "slug": "control-valve-hunting-oscillation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20376,
 "slug": "calibration-error-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20383,
 "slug": "instrument-tag-numbering-isa-5-1",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20391,
 "slug": "plc-troubleshooting-steps",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20402,
 "slug": "scada-vs-dcs-differences",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20409,
 "slug": "dcs-vs-plc-differences",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20415,
 "slug": "ot-vs-it-security-differences",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20421,
 "slug": "modbus-rtu-troubleshooting",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20427,
 "slug": "pfdavg-calculation-formula",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20433,
 "slug": "chatgpt-for-plc-programming",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20440,
 "slug": "orifice-beta-ratio-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20446,
 "slug": "psi-to-bar-conversion",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20452,
 "slug": "displacer-level-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20459,
 "slug": "thermocouple-mv-to-temperature",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20466,
 "slug": "dissolved-oxygen-sensor-calibration",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20472,
 "slug": "level-switch-vs-level-transmitter",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20478,
 "slug": "valve-positioner-troubleshooting",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20484,
 "slug": "dead-weight-tester-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20490,
 "slug": "intrinsic-safety-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20521,
 "slug": "flow-rate-formula",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20527,
 "slug": "hydrostatic-pressure-formula",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20533,
 "slug": "guided-wave-radar-troubleshooting",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20539,
 "slug": "temperature-transmitter-wiring",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20545,
 "slug": "conductivity-to-tds-conversion",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20551,
 "slug": "float-switch-wiring",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20557,
 "slug": "control-valve-installation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20563,
 "slug": "temperature-gauge-calibration",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20569,
 "slug": "panel-heat-load-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20575,
 "slug": "smd-resistor-code",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20582,
 "slug": "2s-complement",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20588,
 "slug": "non-inverting-amplifier-gain",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20594,
 "slug": "ntc-thermistor-beta-equation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20601,
 "slug": "capacitors-in-series-and-parallel",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20607,
 "slug": "pcb-trace-resistance-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20613,
 "slug": "mosfet-power-loss-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20619,
 "slug": "plc-to-vfd-wiring",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20625,
 "slug": "scada-in-water-treatment",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20631,
 "slug": "dcs-commissioning-steps",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20637,
 "slug": "ot-network-segmentation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20643,
 "slug": "modbus-register-map",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20649,
 "slug": "mtbf-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20655,
 "slug": "ai-pid-tuning",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20662,
 "slug": "kva-to-amps",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20668,
 "slug": "kva-vs-kw",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20674,
 "slug": "oc-and-sc-test-of-transformer",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20680,
 "slug": "iec-61439-forms-of-separation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20686,
 "slug": "cable-tray-types",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20693,
 "slug": "motor-overheating-causes",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20699,
 "slug": "mcb-trip-curves",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20705,
 "slug": "transmission-line-sag-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20739,
 "slug": "plc-ladder-logic-examples",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20741,
 "slug": "dcs-io-allocation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20743,
 "slug": "scada-vs-hmi",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20749,
 "slug": "iso-13849-performance-level",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20751,
 "slug": "ai-in-oil-and-gas",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20755,
 "slug": "flow-meter-calibration",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20757,
 "slug": "filter-differential-pressure",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20759,
 "slug": "radar-level-transmitter-calibration",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20761,
 "slug": "rtd-vs-thermistor",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20763,
 "slug": "turbidity-sensor-calibration",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20770,
 "slug": "flow-switch-setpoint",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20772,
 "slug": "control-valve-maintenance",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20774,
 "slug": "hart-communicator-calibration",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20776,
 "slug": "instrument-air-header-sizing",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20823,
 "slug": "blocking-distance-radar-ultrasonic-level",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20825,
 "slug": "pipe-flow-velocity-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20827,
 "slug": "pressure-to-head-conversion",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20864,
 "slug": "24vdc-power-supply-sizing",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20866,
 "slug": "control-valve-authority",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20868,
 "slug": "hysteresis-error-calibration",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20870,
 "slug": "ph-electrode-slope-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20872,
 "slug": "pressure-switch-troubleshooting",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20874,
 "slug": "rtd-lead-wire-resistance-error",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20887,
 "slug": "binary-to-hexadecimal-conversion",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20889,
 "slug": "how-to-test-a-diode",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 20891,
 "slug": "op-amp-slew-rate",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 21115,
 "slug": "instruction-list-plc-programming",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 21120,
 "slug": "intelligent-mcc-imcc",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 21125,
 "slug": "pcb-propagation-delay-calculation",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 21130,
 "slug": "tachometer-working-principle-types",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 21135,
 "slug": "why-three-phase-voltage-is-440v",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 21231,
 "slug": "modbus-tcp-security",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 21236,
 "slug": "network-topology-star-bus-ring",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 21241,
 "slug": "scada-applications-by-industry",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 21246,
 "slug": "steam-turbine-barring-gear-logic",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 21251,
 "slug": "yokogawa-centum-vp-dcs-overview",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 21380,
 "slug": "confusion-matrix-fault-detection",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 21385,
 "slug": "contact-vs-non-contact-level-sensor",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 21390,
 "slug": "liquid-in-glass-thermometer",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 21395,
 "slug": "permanent-pressure-loss-flow-meter",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 21400,
 "slug": "pirani-gauge-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 21472,
 "slug": "belt-sway-switch-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 21477,
 "slug": "breather-valve-working-principle",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 21482,
 "slug": "spm-analyzer-suspended-particulate-matter",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 21487,
 "slug": "static-and-dynamic-characteristics-of-instruments",
-"status": "todo"
+"status": "done"
 },
 {
 "id": 21492,
 "slug": "strip-chart-recorder-working-principle",
-"status": "todo"
+"status": "done"
 }
 ]
