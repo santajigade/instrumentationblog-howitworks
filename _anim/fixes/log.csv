@@ -1,0 +1,5 @@
+date,slug,id,status,reason,result
+2026-11-24,what-is-reynolds-number,7337,ok,venturi min Re 200000 per ISO 5167-4 (FAQ said 10000),fix24.py
+2026-11-24,basics-of-differential-pressure-transmitter,5870,ok,LP side gap closes when diaphragm moves toward LP,fix24.py
+2026-11-24,lighting-design-calculation,17114,ok,step 4 example now uses worked example Hm 2.2 m RI 3.03,fix24.py
+2026-11-24,mass-flow-controller-working-principle,17046,ok,intro said four types; article lists five,fix24.py
