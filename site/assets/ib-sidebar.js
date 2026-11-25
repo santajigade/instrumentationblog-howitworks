@@ -32,6 +32,13 @@ ad('6904203044',0)+
 '<div class="ibsx-comm"><b>Get new guides first</b><p>New guides and calculators, the day they go live.</p><a class="wa" href="https://whatsapp.com/channel/0029Vare99K3mFY3QVjKF43r" target="_blank" rel="noopener">WhatsApp channel</a><a class="tg" href="https://t.me/Instrumentationblogs" target="_blank" rel="noopener">Telegram channel</a><a class="sp" href="'+SITE+'/donate-us-instrumentationblog/">&#9829; Support free learning</a></div>'+
 (shop?'':eb(1));
 var aside=document.createElement('aside');aside.className='ibsx';aside.setAttribute('aria-label','Sidebar');aside.innerHTML=html;main.appendChild(aside);
+
+/* in-content ads: top up static pages to 4 ads, never next to another ad, never after the last card */
+try{var ib=main.querySelector('.ibuc');if(ib){var kids=[].slice.call(ib.children),isAd=function(n){return !!n&&(/(^| )(ibuc-ad|ibsx-inad)( |$)/.test(n.className)||!!(n.querySelector&&n.querySelector('ins.adsbygoogle')));};
+var have=kids.filter(isAd).length,need=4-have,u=['6552849252','7839764783'],k=0,cards=kids.filter(function(n){return n.tagName==='SECTION';});
+for(var i=1;i<cards.length-1&&need>0;i++){var c=cards[i],nx=c.nextElementSibling,pv=c.previousElementSibling;if(isAd(nx)||isAd(pv))continue;
+var d=document.createElement('div');d.className='ibuc-ad ibsx-inad';d.innerHTML='<div class="ibsx-adl" style="text-align:center">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="'+CL+'" data-ad-slot="'+u[k++%2]+'" data-ad-format="auto" data-full-width-responsive="true"></ins>';
+c.parentNode.insertBefore(d,nx);try{(window.adsbygoogle=window.adsbygoogle||[]).push({});}catch(e){}need--;}}}catch(e){}
 var desk=window.matchMedia('(min-width:1100px)').matches;
 if(desk){[].forEach.call(aside.querySelectorAll('ins.adsbygoogle'),function(){try{(window.adsbygoogle=window.adsbygoogle||[]).push({});}catch(e){}});}
 else{[].forEach.call(aside.querySelectorAll('.ibsx-ad'),function(n){n.parentNode.removeChild(n);});}
