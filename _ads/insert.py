@@ -98,7 +98,7 @@ for it in todo:
                     for t, n in zip(tags, new): html = html.replace(t, n, 1)
                     call(f'/wp/v2/posts/{pid}', {'content': html})
             if not DRY: it['status'] = 'swapped' if k else 'hasads-none'
-        elif 'adsbygoogle' in html: it['status'] = 'hasads'; note = 'already has ad code'
+        elif re.search(r'data-ad-slot="(?!3541747929")\d+"', html): it['status'] = 'hasads'; note = 'already has ad code'
         elif False:
             k = html.count(OLD2); note = f'{mode} swap old unit x{k}'
             if not DRY:
@@ -112,7 +112,7 @@ for it in todo:
         elif 'adsbygoogle' in html: it['status'] = 'hasads-other'; note = 'other ad code'
         else:
             p = plan(html)
-            multi = '<div class="dcp-quote">' in html
+            multi = '<div class="dcp-quote">' in html and MULTI not in html
             p = [x if len(x) == 3 else ('BEFORE',) + tuple(x) for x in p]
             note = f'{mode} ads={len(p)}{"+multi" if multi else ""} :: ' + ' | '.join(f'{w[0][0]}{s[-4:]}<{H.unescape(re.sub("<[^>]+>","",t))[:40]}' for w, t, s in [(x[0], x[1], x[2]) for x in p])
             if not p: it['status'] = 'noplace'
