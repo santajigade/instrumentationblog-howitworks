@@ -6,7 +6,7 @@ def get(p):
     try:
         with urllib.request.urlopen(req, timeout=60) as r: return json.loads(r.read())
     except Exception as e: return {'ERR': str(e)}
-for slug in ['absolute-vs-gauge-pressure','analog-vs-digital-instrumentation-system','generator-excitation-system-avr','ttl-vs-cmos-logic-families','what-is-a-valve-manifold']:
+for slug in ['zero-speed-switch-working','how-do-magnetic-level-switch-work','skin-effect-in-conductors','corona-effect-transmission-line','how-nitrogen-purging-works']:
     r = get('/wp/v2/posts?slug=' + slug + '&_fields=id')
     pid = r[0]['id']; w = get(f'/ib/v1/widgets/{pid}')
     allc = ' '.join(str(x.get('content','')) for x in w.get('widgets', []))
