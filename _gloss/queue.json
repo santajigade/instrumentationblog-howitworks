@@ -1,0 +1,858 @@
+[
+{
+"slug": "vena-contracta",
+"clicks": 3.0,
+"impr": 1264.0,
+"ctr": 0.0024,
+"pos": 7.16,
+"status": "todo"
+},
+{
+"slug": "adc-resolution",
+"clicks": 4.0,
+"impr": 799.0,
+"ctr": 0.005,
+"pos": 7.12,
+"status": "todo"
+},
+{
+"slug": "level-bridle",
+"clicks": 3.0,
+"impr": 746.0,
+"ctr": 0.004,
+"pos": 6.84,
+"status": "todo"
+},
+{
+"slug": "ip-converter",
+"clicks": 3.0,
+"impr": 718.0,
+"ctr": 0.0042,
+"pos": 22.78,
+"status": "todo"
+},
+{
+"slug": "discharge-coefficient",
+"clicks": 7.0,
+"impr": 715.0,
+"ctr": 0.0098,
+"pos": 13.77,
+"status": "todo"
+},
+{
+"slug": "specific-gravity",
+"clicks": 0.0,
+"impr": 624.0,
+"ctr": 0.0,
+"pos": 37.31,
+"status": "todo"
+},
+{
+"slug": "stilling-well",
+"clicks": 5.0,
+"impr": 606.0,
+"ctr": 0.0083,
+"pos": 6.69,
+"status": "todo"
+},
+{
+"slug": "conductivity",
+"clicks": 1.0,
+"impr": 520.0,
+"ctr": 0.0019,
+"pos": 13.84,
+"status": "todo"
+},
+{
+"slug": "absolute-pressure",
+"clicks": 0.0,
+"impr": 467.0,
+"ctr": 0.0,
+"pos": 9.04,
+"status": "todo"
+},
+{
+"slug": "vacuum",
+"clicks": 1.0,
+"impr": 438.0,
+"ctr": 0.0023,
+"pos": 58.3,
+"status": "todo"
+},
+{
+"slug": "meter-factor",
+"clicks": 1.0,
+"impr": 417.0,
+"ctr": 0.0024,
+"pos": 5.9,
+"status": "todo"
+},
+{
+"slug": "alpha-coefficient",
+"clicks": 1.0,
+"impr": 383.0,
+"ctr": 0.0026,
+"pos": 6.55,
+"status": "todo"
+},
+{
+"slug": "thermowell",
+"clicks": 0.0,
+"impr": 383.0,
+"ctr": 0.0,
+"pos": 43.0,
+"status": "todo"
+},
+{
+"slug": "compressibility-factor",
+"clicks": 0.0,
+"impr": 360.0,
+"ctr": 0.0,
+"pos": 18.06,
+"status": "todo"
+},
+{
+"slug": "dew-point",
+"clicks": 2.0,
+"impr": 355.0,
+"ctr": 0.005600000000000001,
+"pos": 24.34,
+"status": "todo"
+},
+{
+"slug": "span-gas",
+"clicks": 1.0,
+"impr": 348.0,
+"ctr": 0.0029,
+"pos": 5.11,
+"status": "todo"
+},
+{
+"slug": "mtbf",
+"clicks": 0.0,
+"impr": 344.0,
+"ctr": 0.0,
+"pos": 87.2,
+"status": "todo"
+},
+{
+"slug": "rtd",
+"clicks": 1.0,
+"impr": 340.0,
+"ctr": 0.0029,
+"pos": 24.02,
+"status": "todo"
+},
+{
+"slug": "differential-pressure",
+"clicks": 0.0,
+"impr": 329.0,
+"ctr": 0.0,
+"pos": 38.63,
+"status": "todo"
+},
+{
+"slug": "mass-flow-rate",
+"clicks": 0.0,
+"impr": 327.0,
+"ctr": 0.0,
+"pos": 27.25,
+"status": "todo"
+},
+{
+"slug": "turbidity",
+"clicks": 0.0,
+"impr": 322.0,
+"ctr": 0.0,
+"pos": 73.55,
+"status": "todo"
+},
+{
+"slug": "reynolds-number",
+"clicks": 0.0,
+"impr": 306.0,
+"ctr": 0.0,
+"pos": 64.85,
+"status": "todo"
+},
+{
+"slug": "temperature-scales",
+"clicks": 0.0,
+"impr": 304.0,
+"ctr": 0.0,
+"pos": 53.7,
+"status": "todo"
+},
+{
+"slug": "beta-ratio",
+"clicks": 3.0,
+"impr": 302.0,
+"ctr": 0.009899999999999999,
+"pos": 5.98,
+"status": "todo"
+},
+{
+"slug": "dished-head",
+"clicks": 0.0,
+"impr": 292.0,
+"ctr": 0.0,
+"pos": 45.92,
+"status": "todo"
+},
+{
+"slug": "velocity-profile",
+"clicks": 0.0,
+"impr": 287.0,
+"ctr": 0.0,
+"pos": 7.28,
+"status": "todo"
+},
+{
+"slug": "nernst-slope",
+"clicks": 6.0,
+"impr": 279.0,
+"ctr": 0.0215,
+"pos": 4.6,
+"status": "todo"
+},
+{
+"slug": "guard-band",
+"clicks": 0.0,
+"impr": 278.0,
+"ctr": 0.0,
+"pos": 9.02,
+"status": "todo"
+},
+{
+"slug": "manometer",
+"clicks": 0.0,
+"impr": 270.0,
+"ctr": 0.0,
+"pos": 25.98,
+"status": "todo"
+},
+{
+"slug": "gas-chromatograph",
+"clicks": 0.0,
+"impr": 257.0,
+"ctr": 0.0,
+"pos": 65.01,
+"status": "todo"
+},
+{
+"slug": "analyser-shelter",
+"clicks": 3.0,
+"impr": 256.0,
+"ctr": 0.011699999999999999,
+"pos": 31.75,
+"status": "todo"
+},
+{
+"slug": "gray-code",
+"clicks": 1.0,
+"impr": 250.0,
+"ctr": 0.004,
+"pos": 12.67,
+"status": "todo"
+},
+{
+"slug": "safe-state",
+"clicks": 0.0,
+"impr": 249.0,
+"ctr": 0.0,
+"pos": 6.84,
+"status": "todo"
+},
+{
+"slug": "weir",
+"clicks": 0.0,
+"impr": 247.0,
+"ctr": 0.0,
+"pos": 21.2,
+"status": "todo"
+},
+{
+"slug": "volumetric-flow-rate",
+"clicks": 0.0,
+"impr": 242.0,
+"ctr": 0.0,
+"pos": 19.89,
+"status": "todo"
+},
+{
+"slug": "k-factor",
+"clicks": 0.0,
+"impr": 237.0,
+"ctr": 0.0,
+"pos": 27.22,
+"status": "todo"
+},
+{
+"slug": "gauge-pressure",
+"clicks": 0.0,
+"impr": 233.0,
+"ctr": 0.0,
+"pos": 28.18,
+"status": "todo"
+},
+{
+"slug": "dry-block-calibrator",
+"clicks": 0.0,
+"impr": 233.0,
+"ctr": 0.0,
+"pos": 47.03,
+"status": "todo"
+},
+{
+"slug": "fault-tree-analysis",
+"clicks": 1.0,
+"impr": 213.0,
+"ctr": 0.004699999999999999,
+"pos": 70.31,
+"status": "todo"
+},
+{
+"slug": "hysteresis",
+"clicks": 1.0,
+"impr": 208.0,
+"ctr": 0.0048,
+"pos": 15.27,
+"status": "todo"
+},
+{
+"slug": "encoder",
+"clicks": 1.0,
+"impr": 208.0,
+"ctr": 0.0048,
+"pos": 33.21,
+"status": "todo"
+},
+{
+"slug": "precision",
+"clicks": 0.0,
+"impr": 184.0,
+"ctr": 0.0,
+"pos": 15.3,
+"status": "todo"
+},
+{
+"slug": "repeatability",
+"clicks": 1.0,
+"impr": 181.0,
+"ctr": 0.0055000000000000005,
+"pos": 13.65,
+"status": "todo"
+},
+{
+"slug": "back-pressure",
+"clicks": 0.0,
+"impr": 179.0,
+"ctr": 0.0,
+"pos": 58.11,
+"status": "todo"
+},
+{
+"slug": "zero-elevation-and-suppression",
+"clicks": 3.0,
+"impr": 178.0,
+"ctr": 0.0169,
+"pos": 7.24,
+"status": "todo"
+},
+{
+"slug": "safety-bypass",
+"clicks": 2.0,
+"impr": 174.0,
+"ctr": 0.0115,
+"pos": 7.87,
+"status": "todo"
+},
+{
+"slug": "dp-level-measurement",
+"clicks": 0.0,
+"impr": 174.0,
+"ctr": 0.0,
+"pos": 7.33,
+"status": "todo"
+},
+{
+"slug": "spring-range",
+"clicks": 0.0,
+"impr": 171.0,
+"ctr": 0.0,
+"pos": 5.12,
+"status": "todo"
+},
+{
+"slug": "flow-totalizer",
+"clicks": 0.0,
+"impr": 168.0,
+"ctr": 0.0,
+"pos": 35.14,
+"status": "todo"
+},
+{
+"slug": "pfh",
+"clicks": 1.0,
+"impr": 167.0,
+"ctr": 0.006,
+"pos": 11.02,
+"status": "todo"
+},
+{
+"slug": "blowdown",
+"clicks": 1.0,
+"impr": 166.0,
+"ctr": 0.006,
+"pos": 10.22,
+"status": "todo"
+},
+{
+"slug": "thermal-expansion",
+"clicks": 0.0,
+"impr": 164.0,
+"ctr": 0.0,
+"pos": 33.35,
+"status": "todo"
+},
+{
+"slug": "signal-damping",
+"clicks": 1.0,
+"impr": 163.0,
+"ctr": 0.0060999999999999995,
+"pos": 4.67,
+"status": "todo"
+},
+{
+"slug": "measurement-uncertainty",
+"clicks": 0.0,
+"impr": 160.0,
+"ctr": 0.0,
+"pos": 44.38,
+"status": "todo"
+},
+{
+"slug": "analog-scaling",
+"clicks": 4.0,
+"impr": 159.0,
+"ctr": 0.0252,
+"pos": 6.76,
+"status": "todo"
+},
+{
+"slug": "rotameter",
+"clicks": 2.0,
+"impr": 159.0,
+"ctr": 0.0126,
+"pos": 20.97,
+"status": "todo"
+},
+{
+"slug": "dry-contact",
+"clicks": 2.0,
+"impr": 158.0,
+"ctr": 0.0127,
+"pos": 53.66,
+"status": "todo"
+},
+{
+"slug": "response-time",
+"clicks": 0.0,
+"impr": 157.0,
+"ctr": 0.0,
+"pos": 10.57,
+"status": "todo"
+},
+{
+"slug": "excess-air",
+"clicks": 2.0,
+"impr": 144.0,
+"ctr": 0.0139,
+"pos": 8.15,
+"status": "todo"
+},
+{
+"slug": "local-gravity",
+"clicks": 2.0,
+"impr": 142.0,
+"ctr": 0.0141,
+"pos": 5.3,
+"status": "todo"
+},
+{
+"slug": "low-flow-cutoff",
+"clicks": 0.0,
+"impr": 141.0,
+"ctr": 0.0,
+"pos": 4.82,
+"status": "todo"
+},
+{
+"slug": "emission-oxygen-correction",
+"clicks": 4.0,
+"impr": 130.0,
+"ctr": 0.0308,
+"pos": 3.61,
+"status": "todo"
+},
+{
+"slug": "turndown-ratio",
+"clicks": 0.0,
+"impr": 125.0,
+"ctr": 0.0,
+"pos": 8.77,
+"status": "todo"
+},
+{
+"slug": "spurious-trip",
+"clicks": 0.0,
+"impr": 117.0,
+"ctr": 0.0,
+"pos": 6.67,
+"status": "todo"
+},
+{
+"slug": "accumulation",
+"clicks": 0.0,
+"impr": 117.0,
+"ctr": 0.0,
+"pos": 13.57,
+"status": "todo"
+},
+{
+"slug": "flashing",
+"clicks": 0.0,
+"impr": 115.0,
+"ctr": 0.0,
+"pos": 9.17,
+"status": "todo"
+},
+{
+"slug": "blocking-distance",
+"clicks": 1.0,
+"impr": 113.0,
+"ctr": 0.0088,
+"pos": 4.53,
+"status": "todo"
+},
+{
+"slug": "valve-stiction",
+"clicks": 0.0,
+"impr": 110.0,
+"ctr": 0.0,
+"pos": 14.82,
+"status": "todo"
+},
+{
+"slug": "loop-resistance",
+"clicks": 1.0,
+"impr": 109.0,
+"ctr": 0.0092,
+"pos": 7.5,
+"status": "todo"
+},
+{
+"slug": "stroke-time",
+"clicks": 1.0,
+"impr": 108.0,
+"ctr": 0.009300000000000001,
+"pos": 3.81,
+"status": "todo"
+},
+{
+"slug": "pulse-output",
+"clicks": 0.0,
+"impr": 104.0,
+"ctr": 0.0,
+"pos": 6.06,
+"status": "todo"
+},
+{
+"slug": "choked-flow",
+"clicks": 0.0,
+"impr": 104.0,
+"ctr": 0.0,
+"pos": 11.31,
+"status": "todo"
+},
+{
+"slug": "temperature-class",
+"clicks": 3.0,
+"impr": 103.0,
+"ctr": 0.0291,
+"pos": 9.72,
+"status": "todo"
+},
+{
+"slug": "air-to-open",
+"clicks": 0.0,
+"impr": 102.0,
+"ctr": 0.0,
+"pos": 10.89,
+"status": "todo"
+},
+{
+"slug": "wake-frequency",
+"clicks": 1.0,
+"impr": 101.0,
+"ctr": 0.009899999999999999,
+"pos": 6.54,
+"status": "todo"
+},
+{
+"slug": "split-range-control",
+"clicks": 1.0,
+"impr": 101.0,
+"ctr": 0.009899999999999999,
+"pos": 13.57,
+"status": "todo"
+},
+{
+"slug": "set-pressure",
+"clicks": 0.0,
+"impr": 100.0,
+"ctr": 0.0,
+"pos": 10.2,
+"status": "todo"
+},
+{
+"slug": "pressure-recovery-factor",
+"clicks": 1.0,
+"impr": 99.0,
+"ctr": 0.0101,
+"pos": 8.13,
+"status": "todo"
+},
+{
+"slug": "design-pressure",
+"clicks": 0.0,
+"impr": 98.0,
+"ctr": 0.0,
+"pos": 7.56,
+"status": "todo"
+},
+{
+"slug": "cause-and-effect-matrix",
+"clicks": 3.0,
+"impr": 96.0,
+"ctr": 0.031200000000000002,
+"pos": 12.62,
+"status": "todo"
+},
+{
+"slug": "straight-pipe-run",
+"clicks": 1.0,
+"impr": 96.0,
+"ctr": 0.0104,
+"pos": 7.45,
+"status": "todo"
+},
+{
+"slug": "displacer-level-transmitter",
+"clicks": 0.0,
+"impr": 94.0,
+"ctr": 0.0,
+"pos": 6.86,
+"status": "todo"
+},
+{
+"slug": "guided-wave-radar",
+"clicks": 0.0,
+"impr": 91.0,
+"ctr": 0.0,
+"pos": 8.23,
+"status": "todo"
+},
+{
+"slug": "ph-temperature-compensation",
+"clicks": 1.0,
+"impr": 87.0,
+"ctr": 0.0115,
+"pos": 12.26,
+"status": "todo"
+},
+{
+"slug": "valve-trim",
+"clicks": 0.0,
+"impr": 84.0,
+"ctr": 0.0,
+"pos": 9.45,
+"status": "todo"
+},
+{
+"slug": "safe-failure-fraction",
+"clicks": 0.0,
+"impr": 84.0,
+"ctr": 0.0,
+"pos": 12.05,
+"status": "todo"
+},
+{
+"slug": "wet-leg",
+"clicks": 1.0,
+"impr": 82.0,
+"ctr": 0.012199999999999999,
+"pos": 4.23,
+"status": "todo"
+},
+{
+"slug": "burst-pressure",
+"clicks": 0.0,
+"impr": 79.0,
+"ctr": 0.0,
+"pos": 10.46,
+"status": "todo"
+},
+{
+"slug": "permanent-pressure-loss",
+"clicks": 3.0,
+"impr": 75.0,
+"ctr": 0.04,
+"pos": 4.0,
+"status": "todo"
+},
+{
+"slug": "risk-reduction-factor",
+"clicks": 1.0,
+"impr": 75.0,
+"ctr": 0.013300000000000001,
+"pos": 4.63,
+"status": "todo"
+},
+{
+"slug": "cable-shield-grounding",
+"clicks": 0.0,
+"impr": 75.0,
+"ctr": 0.0,
+"pos": 11.19,
+"status": "todo"
+},
+{
+"slug": "point-level-measurement",
+"clicks": 0.0,
+"impr": 74.0,
+"ctr": 0.0,
+"pos": 11.96,
+"status": "todo"
+},
+{
+"slug": "false-echo-suppression",
+"clicks": 1.0,
+"impr": 68.0,
+"ctr": 0.0147,
+"pos": 4.9,
+"status": "todo"
+},
+{
+"slug": "volume-booster",
+"clicks": 1.0,
+"impr": 67.0,
+"ctr": 0.0149,
+"pos": 14.54,
+"status": "todo"
+},
+{
+"slug": "as-found-as-left",
+"clicks": 0.0,
+"impr": 66.0,
+"ctr": 0.0,
+"pos": 11.17,
+"status": "todo"
+},
+{
+"slug": "dry-leg",
+"clicks": 1.0,
+"impr": 61.0,
+"ctr": 0.016399999999999998,
+"pos": 5.66,
+"status": "todo"
+},
+{
+"slug": "pressure-switch-deadband",
+"clicks": 0.0,
+"impr": 58.0,
+"ctr": 0.0,
+"pos": 7.22,
+"status": "todo"
+},
+{
+"slug": "fail-safe-position",
+"clicks": 1.0,
+"impr": 57.0,
+"ctr": 0.0175,
+"pos": 12.05,
+"status": "todo"
+},
+{
+"slug": "pfdavg",
+"clicks": 0.0,
+"impr": 57.0,
+"ctr": 0.0,
+"pos": 14.21,
+"status": "todo"
+},
+{
+"slug": "square-root-extraction",
+"clicks": 1.0,
+"impr": 56.0,
+"ctr": 0.0179,
+"pos": 5.52,
+"status": "todo"
+},
+{
+"slug": "upper-range-limit",
+"clicks": 0.0,
+"impr": 56.0,
+"ctr": 0.0,
+"pos": 3.86,
+"status": "todo"
+},
+{
+"slug": "calibration-correction",
+"clicks": 0.0,
+"impr": 54.0,
+"ctr": 0.0,
+"pos": 10.04,
+"status": "todo"
+},
+{
+"slug": "seebeck-effect",
+"clicks": 0.0,
+"impr": 54.0,
+"ctr": 0.0,
+"pos": 14.83,
+"status": "todo"
+},
+{
+"slug": "gas-group",
+"clicks": 2.0,
+"impr": 53.0,
+"ctr": 0.0377,
+"pos": 11.36,
+"status": "todo"
+},
+{
+"slug": "expansibility-factor",
+"clicks": 4.0,
+"impr": 52.0,
+"ctr": 0.07690000000000001,
+"pos": 6.48,
+"status": "todo"
+},
+{
+"slug": "type-a-and-type-b-uncertainty",
+"clicks": 0.0,
+"impr": 50.0,
+"ctr": 0.0,
+"pos": 9.44,
+"status": "todo"
+},
+{
+"slug": "diagnostic-coverage",
+"clicks": 0.0,
+"impr": 50.0,
+"ctr": 0.0,
+"pos": 12.34,
+"status": "todo"
+}
+]
