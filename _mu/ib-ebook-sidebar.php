@@ -12,3 +12,6 @@ add_action( 'wp_head', function () {
 		echo '<script src="/assets/ib-sidebar.js?v=2" defer></script>' . "\n";
 	}
 }, 99 );
+add_action( 'send_headers', function () {
+	header( 'X-IB-Ebook-Sidebar: ' . ( ib_ebook_sidebar_wanted() ? 'on' : 'off' ) );
+} );
