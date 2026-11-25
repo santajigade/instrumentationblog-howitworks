@@ -949,7 +949,7 @@
 "queries": [
 "what is zero and span calibration"
 ],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "dcs-function-block-programming-explained",
@@ -972,7 +972,7 @@
 "queries": [
 "zero offset error"
 ],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "gray-code-binary-conversion",
