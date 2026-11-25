@@ -67,7 +67,8 @@ N = int(sys.argv[1]) if len(sys.argv) > 1 else 10
 DRY = len(sys.argv) > 2 and sys.argv[2] == 'dry'
 ONLY = sys.argv[3].split(',') if len(sys.argv) > 3 and sys.argv[3] else None
 Q = '_ads/queue.json'; q = json.load(open(Q))
-todo = [x for x in q if x['status'] in ('noads', 'noplace', 'insfail') and (not ONLY or str(x['id']) in ONLY)][:N]
+SWAP = len(sys.argv) > 4 and sys.argv[4] == 'swap'
+todo = [x for x in q if (x['status'] in ('hasads', 'swapfail') if SWAP else x['status'] in ('noads', 'noplace', 'insfail')) and (not ONLY or str(x['id']) in ONLY)][:N]
 OLD2 = 'data-ad-slot="5109630877"'
 def order(n):
     if n <= 0: return []
@@ -82,7 +83,22 @@ for it in todo:
         except urllib.error.HTTPError as e:
             if e.code != 404: raise
             html = call(f'/wp/v2/posts/{pid}?context=edit&_fields=content')['content']['raw']; mode = 'classic'
-        if 'adsbygoogle' in html: it['status'] = 'hasads'; note = 'already has ad code'
+        NEW = (TOP, MID1, MID2, END, MULTI, '6904203044')
+        if SWAP:
+            tags = [m.group(0) for m in re.finditer(r'<ins\b[^>]*class="adsbygoogle"[^>]*>\s*</ins>', html, flags=re.S)]
+            tags = [t for t in tags if not any(f'"{n}"' in t for n in NEW)]
+            k = len(tags); note = f'{mode} swap x{k} ' + ','.join(sorted(set(re.findall(r'data-ad-slot="(\d+)"', ' '.join(tags)))))
+            if k and not DRY:
+                new = [f'<ins class="adsbygoogle" style="display:block" data-ad-client="{C}" data-ad-slot="{x}" data-ad-format="auto" data-full-width-responsive="true"></ins>' for x in order(k)]
+                if mode == 'el':
+                    r = call('/ib/v1/patch', {'id': pid, 'ops': [{'find': t, 'mode': 'replace', 'html': n} for t, n in zip(tags, new)]})
+                    bad = [x for x in r['report'] if not x.get('applied', True)]
+                    if bad: raise Exception('not applied %s' % bad)
+                else:
+                    for t, n in zip(tags, new): html = html.replace(t, n, 1)
+                    call(f'/wp/v2/posts/{pid}', {'content': html})
+            if not DRY: it['status'] = 'swapped' if k else 'hasads-none'
+        elif 'adsbygoogle' in html: it['status'] = 'hasads'; note = 'already has ad code'
         elif False:
             k = html.count(OLD2); note = f'{mode} swap old unit x{k}'
             if not DRY:
@@ -114,7 +130,7 @@ for it in todo:
                 it['status'] = 'inserted'
     except Exception as e:
         note = 'ERR ' + str(e)[:150]
-        if not DRY: it['status'] = 'insfail'
+        if not DRY: it['status'] = 'swapfail' if SWAP else 'insfail'
     if not DRY: lw.writerow([datetime.date.today().isoformat(), it['slug'], pid, it['status'], note])
     print(pid, it['slug'][:45], '|', note[:260])
 if not DRY: json.dump(q, open(Q, 'w'), indent=0)
