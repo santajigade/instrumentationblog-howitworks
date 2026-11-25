@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How a Bimetal Temperature Switch Works: Diagram and Formula</title>
+<meta name="description" content="How a bimetal temperature switch works, animated: the strip bends as it heats, opens the heater contact at the set point and recloses it below the differential.">
+<link rel="canonical" href="https://www.instrumentationblog.in/how-it-works/temperature-switch/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Instrumentation Blog">
+<meta property="og:title" content="How a Bimetal Temperature Switch Works: Diagram and Formula">
+<meta property="og:description" content="How a bimetal temperature switch works, animated: the strip bends as it heats, opens the heater contact at the set point and recloses it below the differential.">
+<meta property="og:url" content="https://www.instrumentationblog.in/how-it-works/temperature-switch/">
+<meta property="og:image" content="https://www.instrumentationblog.in/how-it-works/temperature-switch/temperature-switch-working-diagram.webp">
+<meta property="og:image:width" content="1560">
+<meta property="og:image:height" content="988">
+<meta property="og:image:alt" content="Labelled diagram showing how a bimetal temperature switch works">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://www.instrumentationblog.in/how-it-works/temperature-switch/temperature-switch-working-diagram.webp">
+<link rel="icon" href="https://www.instrumentationblog.in/favicon.ico">
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}(function(){var z="";try{z=Intl.DateTimeFormat().resolvedOptions().timeZone||""}catch(e){}if(z==="Asia/Singapore"||navigator.webdriver)return;gtag("js",new Date());gtag("config","G-R3NLR1WRYC",{traffic_type:"ib_verified"});var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-R3NLR1WRYC";document.head.appendChild(s)})();</script>
+<style>
+html{-webkit-text-size-adjust:100%}body{margin:0;background:#f1f3f7;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#1f2733}
+.ibs-top{background:#1e73be;color:#fff;font-size:13.5px}
+.ibs-in{max-width:1100px;margin:0 auto;padding:0 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ibs-top .ibs-in{min-height:36px}
+.ibs-top a{color:#fff;text-decoration:none}
+.ibs-head{background:#fff;border-bottom:1px solid #e3e7ee}
+.ibs-head .ibs-in{min-height:86px}
+.ibs-logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.ibs-mark{width:58px;height:58px;background:#ffef00;display:flex;align-items:center;justify-content:center;font:900 38px/1 Arial,Helvetica,sans-serif;color:#1e73be;letter-spacing:-2px}
+.ibs-name{font-weight:800;font-size:18px;color:#1a2333;line-height:1.1}.ibs-name small{display:block;font-weight:500;font-size:12px;color:#6b7383}
+.ibs-nav{display:flex;flex-wrap:wrap;gap:4px 22px}
+.ibs-nav a{color:#1f2733;text-decoration:none;font-size:16px}
+.ibs-nav a:hover,.ibs-nav a.on{color:#e4004b}
+.ibs-main{padding:22px 16px 30px}
+.ibs-pv{text-align:center;padding:6px 16px 18px;font:13px/1.4 Arial,Helvetica,sans-serif;color:#5b6573}.ibs-pv span{display:inline-block;background:#fff;border:1px solid #dde3ea;border-radius:999px;padding:5px 14px}
+.ibs-foot{background:#1a2333;color:#aab3c5;font-size:13px}.ibs-foot .ibs-in{min-height:56px}.ibs-foot a{color:#d6dcea}
+@media(max-width:700px){.ibs-top a{display:none}.ibs-head .ibs-in{padding:10px 16px}.ibs-nav{gap:4px 16px}.ibs-nav a{font-size:15px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/assets/ib-header.css"></head>
+<body>
+<div class="ibhd-top"><div class="ibhd-in"><a class="ibhd-mail" href="mailto:ceo@instrumentationblog.in"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3zM3 6l9 7 9-7"/></svg>ceo@instrumentationblog.in</a><div class="ibhd-soc"><a href="https://www.facebook.com/instrumentationblogs" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3c-2.8 0-4 1.8-4 4.5V11H7v4h3v9h4v-9h3l1-4h-4V8.8c0-.5.3-.8 1-.8z"/></svg></a><a href="https://www.linkedin.com/company/instrumentation-blog/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4v12H4zM6 3a2 2 0 1 1 0 4 2 2 0 0 1 0-4zM10 9h4v1.7c.6-1 1.9-2 3.9-2 4 0 4.6 2.6 4.6 6V21h-4v-5.6c0-1.4 0-3.2-2-3.2s-2.4 1.5-2.4 3.1V21h-4z"/></svg></a><a href="https://www.youtube.com/@InstrumentationBlog/" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.8 15.1V8.9l5.6 3.1z"/></svg></a><a href="https://www.instagram.com/instrumentation_blogs/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM16 3H8a5 5 0 0 0-5 5v8a5 5 0 0 0 5 5h8a5 5 0 0 0 5-5V8a5 5 0 0 0-5-5zm3.2 13A3.2 3.2 0 0 1 16 19.2H8A3.2 3.2 0 0 1 4.8 16V8A3.2 3.2 0 0 1 8 4.8h8A3.2 3.2 0 0 1 19.2 8z"/></svg></a></div></div></div><header class="ibhd"><div class="ibhd-in"><a class="ibhd-logo" href="https://www.instrumentationblog.in/" aria-label="Instrumentation Blog home"><img src="https://www.instrumentationblog.in/wp-content/uploads/2023/10/IB-LOGO-small-1.png" alt="Instrumentation Blog" width="80" height="80"></a><button type="button" class="ibhd-burger" aria-label="Open menu" aria-expanded="false" aria-controls="ibhd-nav"><span></span><span></span><span></span></button><nav class="ibhd-nav" id="ibhd-nav" aria-label="Main"><ul><li><a href="https://www.instrumentationblog.in/">Home</a></li><li class="ibhd-has"><a href="https://www.instrumentationblog.in/category/process-instrumentation/">Instrumentation</a><button type="button" class="ibhd-sub" aria-label="Open Instrumentation menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><ul><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/flow-measurement/">Flow</a></li><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/pressure-measurement/">Pressure</a></li><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/level-measurement/">Level</a></li><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/temperature-measurements/">Temperature</a></li><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/analytical-measurements/">Analytical</a></li><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/switches/">Switches</a></li><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/control-valves/">Control Valves</a></li><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/calibration/">Calibration</a></li><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/design/">Design</a></li></ul></li><li class="ibhd-has"><a href="https://www.instrumentationblog.in/category/electronics/">Electronics</a><button type="button" class="ibhd-sub" aria-label="Open Electronics menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><ul><li><a href="https://www.instrumentationblog.in/category/electronics/electronic-components/">Electronic Components</a></li><li><a href="https://www.instrumentationblog.in/category/electronics/digital-electronics/">Digital Electronics</a></li><li><a href="https://www.instrumentationblog.in/category/electronics/analog-electronics/">Analog Electronics</a></li><li><a href="https://www.instrumentationblog.in/category/electronics/electronic-sensors/">Electronic Sensors</a></li><li><a href="https://www.instrumentationblog.in/category/electronics/electronics-fundamentals/">Electronics Fundamentals</a></li><li><a href="https://www.instrumentationblog.in/category/electronics/pcb-design-signal-integrity/">PCB Design &amp; Signal Integrity</a></li><li><a href="https://www.instrumentationblog.in/category/electronics/power-electronics-protection/">Power Electronics &amp; Protection</a></li></ul></li><li class="ibhd-has"><a href="https://www.instrumentationblog.in/category/electrical/">Electrical</a><button type="button" class="ibhd-sub" aria-label="Open Electrical menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><ul><li><a href="https://www.instrumentationblog.in/category/electrical/electrical-design-calculations/">Electrical Design &amp; Calculations</a></li><li><a href="https://www.instrumentationblog.in/category/electrical/electrical-fundamentals/">Electrical Fundamentals</a></li><li><a href="https://www.instrumentationblog.in/category/electrical/electrical-machines/">Electrical Machines</a></li><li><a href="https://www.instrumentationblog.in/category/electrical/electrical-safety-standards/">Electrical Safety &amp; Standards</a></li><li><a href="https://www.instrumentationblog.in/category/electrical/industrial-electrical-systems/">Industrial Electrical Systems</a></li><li><a href="https://www.instrumentationblog.in/category/electrical/motors-drives/">Motors &amp; Drives</a></li><li><a href="https://www.instrumentationblog.in/category/electrical/power-quality-protection/">Power Quality &amp; Protection</a></li><li><a href="https://www.instrumentationblog.in/category/electrical/power-systems/">Power Systems</a></li></ul></li><li class="ibhd-has"><a href="https://www.instrumentationblog.in/category/automation/">Automation</a><button type="button" class="ibhd-sub" aria-label="Open Automation menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><ul><li><a href="https://www.instrumentationblog.in/category/automation/plc-programmable-logic-controller/">PLC</a></li><li><a href="https://www.instrumentationblog.in/category/automation/scada/">SCADA</a></li><li><a href="https://www.instrumentationblog.in/category/automation/distributed-control-system/">DCS</a></li><li><a href="https://www.instrumentationblog.in/category/automation/cybersecurity/">Cybersecurity</a></li><li><a href="https://www.instrumentationblog.in/category/automation/communication/">Communication</a></li><li><a href="https://www.instrumentationblog.in/category/automation/safety/">Safety Systems</a></li><li><a href="https://www.instrumentationblog.in/category/automation/industrial-ai/">Industrial AI</a></li></ul></li><li class="ibhd-has on"><span class="ibhd-lbl" tabindex="0">Learn</span><button type="button" class="ibhd-sub" aria-label="Open Learn menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><ul><li><a href="https://www.instrumentationblog.in/glossary/">Glossary</a></li><li><a href="https://www.instrumentationblog.in/category/interview-questions-answers-instrumentation/">Q&amp;A</a></li><li><a href="https://www.instrumentationblog.in/compare/">Compare</a></li><li><a href="https://www.instrumentationblog.in/how-it-works/">How It Works</a></li></ul></li><li class="ibhd-has"><a href="https://www.instrumentationblog.in/calculators/">Calculators</a><button type="button" class="ibhd-sub" aria-label="Open Calculators menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><ul><li><a href="https://www.instrumentationblog.in/unit-converters/">Unit Converters</a></li><li><a href="https://www.instrumentationblog.in/calculators/flow/">Flow</a></li><li><a href="https://www.instrumentationblog.in/calculators/pressure/">Pressure</a></li><li><a href="https://www.instrumentationblog.in/calculators/level/">Level</a></li><li><a href="https://www.instrumentationblog.in/calculators/temperature/">Temperature</a></li><li><a href="https://www.instrumentationblog.in/calculators/instrumentation-signal/">Instrumentation Signal</a></li><li><a href="https://www.instrumentationblog.in/calculators/plc-signal/">PLC Digital Signal</a></li><li><a href="https://www.instrumentationblog.in/calculators/control-valve/">Control Valve</a></li><li><a href="https://www.instrumentationblog.in/calculators/calibration/">Calibration</a></li><li><a href="https://www.instrumentationblog.in/calculators/electrical/">Electrical</a></li><li><a href="https://www.instrumentationblog.in/calculators/electronics/">Electronics</a></li><li><a href="https://www.instrumentationblog.in/calculators/safety/">Safety and SIL</a></li><li><a href="https://www.instrumentationblog.in/calculators/analytical/">Analytical</a></li></ul></li><li class="ibhd-has"><a href="https://www.instrumentationblog.in/tools/">Tools</a><button type="button" class="ibhd-sub" aria-label="Open Tools menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><ul><li><a href="https://www.instrumentationblog.in/tools/instrument-tags/">Instrument Tag Decoder</a></li><li><a href="https://www.instrumentationblog.in/tools/enclosure-ratings/">IP, NEMA and Ex Rating Decoder</a></li><li><a href="https://www.instrumentationblog.in/tools/wire-color-codes/">Wire and Cable Color Codes</a></li><li><a href="https://www.instrumentationblog.in/tools/pid-tuning/">PID Tuning Tools</a></li><li><a href="https://www.instrumentationblog.in/tools/communication-protocols/">Communication Protocols</a></li><li><a href="https://www.instrumentationblog.in/tools/troubleshooting/">Troubleshooting Guides</a></li><li><a href="https://www.instrumentationblog.in/tools/practice-tests/">Practice Tests</a></li><li><a href="https://www.instrumentationblog.in/tools/pid-symbols/">P&amp;ID Symbols</a></li><li><a href="https://www.instrumentationblog.in/tools/pipe-flange-charts/">Pipe and Flange Charts</a></li><li><a href="https://www.instrumentationblog.in/tools/thread-charts/">Thread Size Charts</a></li></ul></li><li class="ibhd-has"><a href="https://www.instrumentationblog.in/downloads/">Downloads</a><button type="button" class="ibhd-sub" aria-label="Open Downloads menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><ul><li><a href="https://www.instrumentationblog.in/downloads/templates/">Templates and Downloads</a></li><li><a href="https://www.instrumentationblog.in/downloads/cheat-sheets/">Cheat Sheets</a></li><li><a href="https://www.instrumentationblog.in/downloads/excel-calculators/">Excel Calculation Tools</a></li><li><a href="https://www.instrumentationblog.in/downloads/procedures/">Procedures (SOPs)</a></li><li><a href="https://www.instrumentationblog.in/downloads/fault-finding-guides/">Fault Finding Guides</a></li><li><a href="https://www.instrumentationblog.in/downloads/engineering-reference-tables/">Reference Tables</a></li></ul></li></ul></nav><form class="ibhd-search" role="search" action="https://www.instrumentationblog.in/" method="get"><label for="ibhd-q" class="ibhd-sr">Search</label><input id="ibhd-q" type="search" name="s" placeholder="Search"><button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 18a7 7 0 1 1 0-14 7 7 0 0 1 0 14zM20 20l-3.5-3.5"/></svg></button></form></div></header>
+<main class="ibs-main"><style>
+.ibuc .hw-stage{max-width:780px;margin:0 auto;background:#fff;border:1px solid var(--b);border-radius:14px;overflow:hidden}
+.ibuc .hw-stage canvas{display:block;width:100%}
+.ibuc .hw-bar{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin:12px auto 0;max-width:780px}
+.ibuc button.hw-pp{background:var(--n) !important;color:#fff !important;border:0 !important;border-radius:999px !important;padding:8px 16px !important;font-size:14px;font-weight:700;cursor:pointer;line-height:1.2}
+.ibuc .hw-note{font-size:13px;color:var(--m)}
+.ibuc .hw-ctl{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px 22px;margin:18px 0 0}
+.ibuc .hw-s label{display:flex;justify-content:space-between;font-size:14px;font-weight:700;color:var(--n);margin:0 0 6px}
+.ibuc .hw-s label b{color:var(--gc);font-variant-numeric:tabular-nums}
+.ibuc .hw-s input[type=range]{width:100%;accent-color:var(--gc);height:28px;margin:0}
+.ibuc .hw-leg{list-style:none;padding:0;margin:16px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:8px 18px}
+.ibuc .hw-leg li{display:flex;gap:10px;align-items:flex-start;font-size:14.5px}
+.ibuc .hw-leg i{flex:0 0 24px;height:24px;border-radius:50%;background:#d9622b;color:#fff;font-style:normal;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center}
+.ibuc ol.hw-steps{list-style:none;counter-reset:s;padding:0;margin:0}
+.ibuc ol.hw-steps li{counter-increment:s;position:relative;padding:0 0 14px 46px;margin:0}
+.ibuc ol.hw-steps li:before{content:counter(s);position:absolute;left:0;top:-2px;width:32px;height:32px;border-radius:50%;background:var(--gc);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center}
+.ibuc .hw-fig{margin:0;text-align:center}
+.ibuc .hw-fig img{width:100%;max-width:780px;height:auto;border:1px solid var(--b);border-radius:12px}
+.ibuc .hw-fig figcaption{font-size:14px;color:var(--m);margin:10px auto 0;max-width:780px;text-align:left}
+.ibuc button.hw-dl{background:#fff !important;color:var(--n) !important;border:1.5px solid var(--n) !important}
+.ibuc .hw-uses{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.ibuc .hw-use{background:var(--l);border:1px solid var(--b);border-left:4px solid var(--gc);border-radius:10px;padding:12px 14px}
+.ibuc .hw-use b{display:block;color:var(--n);margin:0 0 4px}
+.ibuc .hw-use span{font-size:14.5px;color:#334155}
+.ibuc ul.hw-tips{list-style:none;padding:0;margin:0}
+.ibuc ul.hw-tips li{position:relative;padding:0 0 10px 30px}
+.ibuc ul.hw-tips li:before{content:"✓";position:absolute;left:0;top:0;width:20px;height:20px;border-radius:50%;background:var(--gc);color:#fff;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center}
+.ibuc .hw-f{background:#1a2333;color:#e6edf7;border-radius:12px;padding:16px 18px;font-family:'Courier New',monospace;font-size:15.5px;line-height:1.75;overflow-x:auto}
+.ibuc .hw-f b{color:#fbbf24;font-weight:700}
+</style><style>
+.ibuc{--n:#1a2333;--t:#1f2733;--m:#5b6576;--b:#dde3ee;--l:#f6f8fc;--a:#d9622b;--g:#1f9d55;color:var(--t);font-size:16px;line-height:1.6;max-width:1100px;margin:0 auto}
+.ibuc *{box-sizing:border-box}
+.ibuc a{color:#1f5fbf;text-decoration:none}.ibuc a:hover{text-decoration:underline}
+.ibuc h1,.ibuc h2,.ibuc h3{line-height:1.25;margin:0 0 12px;color:var(--n);font-weight:700;letter-spacing:0;text-transform:none}
+.ibuc h2{font-size:24px;margin-top:8px}.ibuc h3{font-size:18px}
+.ibuc p{margin:0 0 12px}
+.ibuc .ibuc-crumb{font-size:13px;color:var(--m);margin:0 0 12px}
+.ibuc .ibuc-hero{border-radius:16px;padding:28px 26px;color:#fff;margin:0 0 20px}
+.ibuc .ibuc-hero h1{color:#fff !important;font-size:34px;margin:6px 0 10px}
+.ibuc .ibuc-eye{font-size:12px;letter-spacing:.12em;text-transform:uppercase;opacity:.85;font-weight:700}
+.ibuc .ibuc-hero p{color:#e8ecf4;margin:0 0 14px;max-width:760px}
+.ibuc .ibuc-pills{display:flex;flex-wrap:wrap;gap:8px}
+.ibuc .ibuc-pill{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);color:#fff;border-radius:999px;padding:3px 12px;font-size:13px}
+.ibuc .ibuc-card{background:#fff;border:1px solid var(--b);border-radius:14px;padding:22px;margin:0 0 22px;box-shadow:0 2px 10px rgba(26,35,51,.05)}
+.ibuc .ibuc-tool{border-top:4px solid var(--a);scroll-margin-top:90px}
+.ibuc .ibuc-grid{display:grid;grid-template-columns:1fr 1.3fr auto 1.3fr;gap:12px;align-items:end}
+.ibuc .ibuc-field label{display:block;font-size:13px;font-weight:700;color:var(--m);margin:0 0 5px}
+.ibuc .ibuc-field input,.ibuc .ibuc-field select{width:100%;height:46px;border:1.5px solid var(--b) !important;border-radius:10px !important;padding:0 12px !important;font-size:16px;background:#fff !important;color:var(--t) !important;margin:0;box-shadow:none}
+.ibuc .ibuc-field input:focus,.ibuc .ibuc-field select:focus{outline:none;border-color:var(--a) !important;box-shadow:0 0 0 3px rgba(217,98,43,.15)}
+.ibuc .ibuc-field input.ibuc-bad{border-color:#c0392b !important}
+.ibuc button.ibuc-swap{height:46px;width:46px;border-radius:50% !important;border:1.5px solid var(--b) !important;background:var(--l) !important;color:var(--n) !important;font-size:20px;cursor:pointer;padding:0 !important;line-height:1}
+.ibuc button.ibuc-swap:hover{background:var(--n) !important;color:#fff !important}
+.ibuc .ibuc-result{background:var(--l);border-radius:12px;padding:16px 18px;margin:16px 0 12px}
+.ibuc .ibuc-res-main{font-size:22px;color:var(--n);word-break:break-word}
+.ibuc .ibuc-res-main b{color:var(--a);font-size:28px}
+.ibuc .ibuc-res-sub{font-size:14px;color:var(--m);margin-top:6px;word-break:break-word}
+.ibuc .ibuc-bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:14px;color:var(--m)}
+.ibuc .ibuc-bar select{height:36px;border:1.5px solid var(--b) !important;border-radius:8px !important;padding:0 8px !important;background:#fff !important;color:var(--t) !important;width:auto}
+.ibuc button.ibuc-btn{background:var(--n) !important;color:#fff !important;border:0 !important;border-radius:8px !important;padding:8px 16px !important;font-size:14px;font-weight:600;cursor:pointer;line-height:1.2}
+.ibuc button.ibuc-btn:hover{background:var(--a) !important}
+.ibuc .ibuc-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;align-items:center}
+.ibuc .ibuc-chips span{font-size:13px;font-weight:700;color:var(--m)}
+.ibuc button.ibuc-chip,.ibuc a.ibuc-chip{background:#fff !important;border:1.5px solid var(--b) !important;color:var(--n) !important;border-radius:999px !important;padding:5px 13px !important;font-size:13px;cursor:pointer;line-height:1.3;font-weight:500;text-decoration:none}
+.ibuc button.ibuc-chip:hover,.ibuc a.ibuc-chip:hover{border-color:var(--a) !important;color:var(--a) !important;text-decoration:none}
+.ibuc .ibuc-tw{overflow-x:auto;border:1px solid var(--b);border-radius:10px}
+.ibuc table.ibuc-t{width:100%;border-collapse:collapse;margin:0;font-size:15px;border:0}
+.ibuc table.ibuc-t th{background:var(--n) !important;color:#fff !important;text-align:left;padding:10px 12px;font-weight:600;border:0 !important}
+.ibuc table.ibuc-t td{padding:8px 12px;border:0 !important;border-bottom:1px solid var(--b) !important;background:#fff;vertical-align:top}
+.ibuc table.ibuc-t tr:nth-child(even) td{background:#fafbfd}
+.ibuc table.ibuc-t tr:last-child td{border-bottom:0 !important}
+.ibuc table.ibuc-t td.ibuc-num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.ibuc #ibuc-all tr{cursor:pointer}.ibuc #ibuc-all tr:hover td{background:#fff4ee}
+.ibuc #ibuc-all tr.ibuc-hl td{background:#fde9de;font-weight:700}
+.ibuc .ibuc-two{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.ibuc .ibuc-fbox{background:var(--n);color:#fff;border-radius:12px;padding:16px 18px;margin:12px 0;font-family:Consolas,Menlo,monospace;font-size:15px;word-break:break-word}
+.ibuc .ibuc-key{border-left:4px solid var(--a);background:#fff6f1;border-radius:0 10px 10px 0;padding:12px 16px;margin:12px 0}
+.ibuc .ibuc-steps{margin:0 0 12px;padding-left:22px}.ibuc .ibuc-steps li{margin-bottom:6px}
+.ibuc details{border:1px solid var(--b);border-radius:10px;margin:0 0 10px;background:#fff}
+.ibuc summary{cursor:pointer;padding:12px 16px;font-weight:700;color:var(--n);list-style:none}
+.ibuc summary::-webkit-details-marker{display:none}
+.ibuc summary:before{content:"Q";display:inline-block;background:var(--a);color:#fff;border-radius:6px;width:22px;height:22px;text-align:center;line-height:22px;font-size:12px;margin-right:10px}
+.ibuc details p{padding:0 16px 14px 48px;margin:0;color:var(--t)}
+.ibuc .ibuc-links{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.ibuc .ibuc-links a{display:block;border:1px solid var(--b);border-radius:10px;padding:10px 14px;background:#fff;color:var(--n);font-weight:600;font-size:15px}
+.ibuc .ibuc-links a small{display:block;font-weight:400;color:var(--m);font-size:12.5px;margin-top:2px}
+.ibuc .ibuc-links a:hover{border-color:var(--a);text-decoration:none;box-shadow:0 3px 12px rgba(217,98,43,.12)}
+.ibuc .ibuc-ymal{border-radius:14px;padding:22px;color:#fff;margin:0 0 22px}
+.ibuc .ibuc-ymal h3{color:#fff !important;margin-bottom:6px}
+.ibuc .ibuc-ymal .ibuc-yt{font-weight:700;font-size:18px;margin:0 0 6px}
+.ibuc .ibuc-ymal p{color:#e8ecf4}
+.ibuc a.ibuc-go{display:inline-block;background:var(--g);color:#fff !important;border-radius:999px;padding:8px 20px;font-weight:700;font-size:14px}
+.ibuc a.ibuc-go:hover{text-decoration:none;filter:brightness(1.08)}
+.ibuc .ibuc-ref{background:var(--l);border:1px solid var(--b);border-radius:14px;padding:20px 22px;margin:0 0 22px}
+.ibuc .ibuc-ad{margin:6px 0 24px;text-align:center}
+.ibuc .ibuc-adl{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#98a1b0;border-top:1px dotted #c8cfdb;border-bottom:1px dotted #c8cfdb;padding:3px 0;margin-bottom:8px}
+.ibuc .ibuc-adph{border:1.5px dashed #c8cfdb;border-radius:8px;padding:30px;color:#98a1b0;font-size:13px}
+.ibuc .ibuc-status{border-radius:8px;padding:10px 14px;font-size:14px;margin:12px 0 0}
+.ibuc .ibuc-ok{background:#e7f6ee;color:#14663a}.ibuc .ibuc-warn{background:#fff4dc;color:#7a5400}.ibuc .ibuc-err{background:#fde7e7;color:#9b1c1c}
+.ibuc .ibuc-g3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.ibuc .ibuc-g4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.ibuc .ibuc-sub{font-size:13px;color:var(--m);margin:6px 0 0}
+.ibuc .ibuc-search{width:100%;height:52px;border:2px solid rgba(255,255,255,.35) !important;background:rgba(255,255,255,.96) !important;border-radius:12px !important;padding:0 16px !important;font-size:17px;color:var(--t) !important;margin-top:6px}
+.ibuc .ibuc-cat{scroll-margin-top:90px}
+.ibuc .ibuc-cath{display:flex;align-items:center;gap:12px;margin:0 0 4px}
+.ibuc .ibuc-dot{width:12px;height:12px;border-radius:50%;flex:none}
+.ibuc .ibuc-toc{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.ibuc .ibuc-stats{display:flex;gap:22px;flex-wrap:wrap;margin:4px 0 14px}
+.ibuc .ibuc-stats b{display:block;font-size:26px;color:#fff}.ibuc .ibuc-stats span{font-size:13px;color:#cfd6e4}
+.ibuc .ibuc-empty{display:none;color:var(--m);padding:10px 0}
+@media (max-width:760px){
+ .ibuc .ibuc-grid{grid-template-columns:1fr}
+ .ibuc button.ibuc-swap{position:relative;grid-column:1/-1;width:100%;border-radius:10px !important;height:38px}
+ .ibuc .ibuc-two,.ibuc .ibuc-g3,.ibuc .ibuc-g4{grid-template-columns:1fr}
+ .ibuc .ibuc-hero{padding:22px 18px}.ibuc .ibuc-hero h1{font-size:26px}
+ .ibuc .ibuc-card{padding:16px}
+ .ibuc .ibuc-res-main{font-size:18px}.ibuc .ibuc-res-main b{font-size:22px}
+}
+</style><style>
+.ibuc .ibuc-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 16px}
+.ibuc button.ibuc-tab{background:var(--l) !important;color:var(--n) !important;border:1.5px solid var(--b) !important;border-radius:999px !important;padding:8px 16px !important;font-size:14px;font-weight:700;cursor:pointer;line-height:1.2}
+.ibuc button.ibuc-tab.on{background:var(--n) !important;color:#fff !important;border-color:var(--n) !important}
+.ibuc .ibuc-out{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:16px 0 0}
+.ibuc .ibuc-o{background:var(--l);border-radius:12px;padding:12px 14px}
+.ibuc .ibuc-o span{display:block;font-size:12.5px;color:var(--m);font-weight:600}
+.ibuc .ibuc-o b{display:block;font-size:22px;color:var(--n);font-variant-numeric:tabular-nums;word-break:break-word}
+.ibuc .ibuc-o.main{background:#fff1e9}.ibuc .ibuc-o.main b{color:var(--a);font-size:26px}
+.ibuc .ibuc-steps-box{background:#fff;border:1px dashed var(--b);border-radius:10px;padding:12px 16px;margin:14px 0 0;font-size:14.5px}
+.ibuc .ibuc-steps-box ol{margin:6px 0 0;padding-left:20px}
+.ibuc table.ibuc-grid10 td,.ibuc table.ibuc-grid10 th{text-align:right;padding:6px 8px;font-size:13.5px;white-space:nowrap}
+.ibuc table.ibuc-grid10 td:first-child,.ibuc table.ibuc-grid10 th:first-child{text-align:left;font-weight:700;background:#eef2f9}
+.ibuc .ibuc-soon a,.ibuc .ibuc-soon div{opacity:1}
+.ibuc .ibuc-links div.ibuc-dis{display:block;border:1px dashed var(--b);border-radius:10px;padding:10px 14px;background:#fafbfd;color:#8a93a3;font-weight:600;font-size:15px}
+.ibuc .ibuc-links div.ibuc-dis small{display:block;font-weight:400;font-size:12.5px;margin-top:2px}
+.ibuc .ibuc-badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:middle}
+.ibuc .ibuc-badge.live{background:#e7f6ee;color:#14663a}.ibuc .ibuc-badge.soon{background:#eef1f6;color:#6b7383}
+.ibuc .ibuc-catgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.ibuc .ibuc-catcard{display:block;border-radius:14px;padding:18px;color:#fff !important;min-height:150px;position:relative}
+.ibuc a.ibuc-catcard:hover{text-decoration:none;transform:translateY(-2px);box-shadow:0 8px 22px rgba(26,35,51,.18)}
+.ibuc .ibuc-catcard h3{color:#fff !important;margin:0 0 6px;font-size:19px}
+.ibuc .ibuc-catcard p{color:#e3e8f1;font-size:14px;margin:0 0 10px}
+.ibuc .ibuc-catcard span{font-size:12.5px;font-weight:700;background:rgba(255,255,255,.16);border-radius:999px;padding:3px 10px}
+@media print{.ibs-top,.ibs-head,.ibs-foot,.ibuc-ad,.ibuc-hero,.ibuc-noprint{display:none !important}.ibuc .ibuc-card{box-shadow:none;border:0}}
+</style><style>
+.ibuc .ibx-bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 14px}
+.ibuc .ibx-q{flex:1 1 260px;min-width:0;padding:12px 14px 12px 40px !important;border:1px solid #cfd8e3 !important;border-radius:12px !important;font-size:15px !important;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236b7686' stroke-width='2.4'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m20 20-3.5-3.5'/%3E%3C/svg%3E") no-repeat 14px 50% !important;box-sizing:border-box}
+.ibuc .ibx-q:focus{outline:2px solid #1e73be;border-color:#1e73be !important}
+.ibuc .ibx-n{font-size:13.5px;color:#5a6575;white-space:nowrap;font-weight:600}
+.ibuc .ibx-chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.ibuc .ibx-chip{border:1px solid var(--b,#cfd8e3) !important;background:var(--l,#fff) !important;color:var(--d,#1f2733) !important;border-radius:999px !important;padding:7px 15px !important;font-size:13.5px !important;font-weight:700;cursor:pointer;line-height:1.3;transition:transform .12s}
+.ibuc .ibx-chip:hover{transform:translateY(-1px)}
+.ibuc .ibx-chip.on{background:var(--d,#1a2333) !important;color:#fff !important;border-color:var(--d,#1a2333) !important}
+.ibuc .ibx-chip b{font-weight:600;opacity:.7;margin-left:5px}
+.ibuc .ibx-grp{margin:0 0 26px}
+.ibuc .ibx-gh{display:flex;align-items:center;gap:10px;margin:0 0 12px;font-size:17px;font-weight:800;color:var(--d)}
+.ibuc .ibx-gh:before{content:"";width:10px;height:22px;border-radius:4px;background:var(--d)}
+.ibuc .ibx-gh small{font-size:12.5px;font-weight:700;background:var(--l);border:1px solid var(--b);color:var(--d);border-radius:999px;padding:2px 9px}
+.ibuc .ibx-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
+.ibuc a.ibx-card{position:relative;display:flex;flex-direction:column;gap:6px;min-height:120px;padding:16px 16px 14px;border:1px solid var(--b);border-top:4px solid var(--d);border-radius:14px;background:var(--l);color:#1f2733 !important;text-decoration:none !important;transition:transform .15s,box-shadow .15s;box-sizing:border-box}
+.ibuc a.ibx-card:hover{transform:translateY(-3px);box-shadow:0 10px 22px rgba(26,35,51,.13)}
+.ibuc .ibx-card .ibx-t{max-width:calc(100% - 34px);box-sizing:border-box;align-self:flex-start;font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--d);background:#fff;border:1px solid var(--b);border-radius:999px;padding:2px 8px}
+.ibuc .ibx-card .ibx-h{font-size:15.5px;font-weight:700;line-height:1.35;padding-right:20px}
+.ibuc .ibx-card .ibx-s{font-size:13px;color:#4f5a6a;line-height:1.4;margin-top:auto}
+.ibuc .ibx-card:after{content:"→";position:absolute;right:14px;top:14px;width:24px;height:24px;line-height:24px;text-align:center;border-radius:50%;background:#fff;color:var(--d);font-weight:800;font-size:13px;transition:transform .15s}
+.ibuc .ibx-card:hover:after{transform:translateX(3px)}
+.ibuc .ibx-adslot{margin:4px 0 30px}
+.ibuc .ibx-adslot .ibuc-ad{margin:0}
+.ibuc .ibx-none{display:none;padding:18px;text-align:center;color:#5a6575;border:1px dashed #cfd8e3;border-radius:12px;margin:0 0 20px}
+@media(max-width:520px){.ibuc .ibx-grid{grid-template-columns:1fr;gap:12px}.ibuc a.ibx-card{min-height:0}}
+</style><style>
+.ibuc .cmp-verdict{font-size:17.5px;line-height:1.55;background:#fff;border-left:5px solid var(--gc);border-radius:12px;padding:16px 18px;margin:0 0 22px;box-shadow:0 1px 3px rgba(26,35,51,.08)}
+.ibuc .cmp-verdict b{color:var(--gc)}
+.ibuc .cmp-wrap{overflow-x:auto;margin:0 -4px;padding:0 4px}
+.ibuc table.cmp-t{width:100%;border-collapse:separate;border-spacing:0;font-size:15px;min-width:520px}
+.ibuc table.cmp-t th{background:var(--gc);color:#fff;text-align:left;padding:11px 12px;font-size:14.5px}
+.ibuc table.cmp-t th:first-child{border-radius:10px 0 0 0;background:#1a2333}.ibuc table.cmp-t th:last-child{border-radius:0 10px 0 0;background:#3b4bb0}
+.ibuc table.cmp-t td{padding:10px 12px;border-bottom:1px solid #e3e7ee;vertical-align:top}
+.ibuc table.cmp-t tr:nth-child(even) td{background:#f6f8fb}
+.ibuc table.cmp-t td:first-child{font-weight:700;color:#13283f;width:24%}
+.ibuc .cmp-two{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 22px}
+.ibuc .cmp-box{border-radius:14px;padding:18px 20px;border:1px solid var(--b);background:var(--l);border-top:4px solid var(--d)}
+.ibuc .cmp-box h3{margin:0 0 10px;color:var(--d);font-size:18px}
+.ibuc .cmp-box ul{margin:0;padding-left:20px}.ibuc .cmp-box li{margin:0 0 6px}
+@media(max-width:640px){.ibuc .cmp-two{grid-template-columns:1fr}
+.ibuc table.cmp-t{min-width:0}.ibuc table.cmp-t thead{display:none}
+.ibuc table.cmp-t tr{display:block;border:1px solid #e3e7ee;border-radius:12px;margin:0 0 12px;overflow:hidden}
+.ibuc table.cmp-t td{display:block;width:auto !important;border-bottom:1px solid #eef1f5}
+.ibuc table.cmp-t td:first-child{background:#1a2333 !important;color:#fff}
+.ibuc table.cmp-t td[data-l]:before{content:attr(data-l);display:block;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:var(--gc);margin-bottom:2px}
+.ibuc table.cmp-t td:last-child[data-l]:before{color:#3b4bb0}
+.ibuc table.cmp-t tr:nth-child(even) td{background:#fff}}
+</style>
+<div class="ibuc" id="ibuc-app" style="--gc:#0f7b80">
+<nav class="ibuc-crumb" aria-label="Breadcrumb"><a href="https://www.instrumentationblog.in/">Home</a> › <a href="https://www.instrumentationblog.in/how-it-works/">How It Works</a> › Bimetal Temperature Switch</nav>
+<header class="ibuc-hero" style="background:linear-gradient(135deg,#0f7b80 0%,#06393b 100%)">
+  <div class="ibuc-eye">Switches · How It Works</div>
+  <h1>How a Bimetal Temperature Switch Works</h1>
+  <p>Move the set point and the differential and watch the water tank cycle between the two. Change the strip length to see how much the bimetal tip moves for every degree.</p>
+  <div class="ibuc-pills"><span class="ibuc-pill">Live animation</span><span class="ibuc-pill">Adjustable sliders</span><span class="ibuc-pill">Formula and example</span></div>
+</header>
+<p class="cmp-verdict"><b>Quick answer:</b> A bimetal temperature switch uses two metals with different expansion bonded into one strip. As the temperature rises the strip bends, and at the set point it moves a contact that switches a heater, fan or alarm.</p>
+<section class="ibuc-card"><h2>What Is a Bimetal Temperature Switch?</h2><p>Metals grow when heated, but not all by the same amount. Brass grows roughly fifteen times more than invar for the same temperature rise, so a strip made of the two bonded together must curl toward the invar side.</p><p>A bimetal temperature switch turns that curl into a contact movement. An adjusting screw sets how far the strip must travel, and a snap mechanism makes the contact jump cleanly open and shut.</p><p>These switches need no power and switch the load directly, which is why they are found in water heaters, motors, panels and overheat cut outs. Knowing the set point, the differential and the contact rating is enough to apply most of them correctly.</p></section>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="7215194230" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>How a Bimetal Temperature Switch Works: Interactive Animation</h2>
+<div class="hw-stage"><canvas id="hw-cv" role="img" aria-label="Animated diagram showing how a bimetal temperature switch works"></canvas></div>
+<div class="hw-bar"><span><button type="button" class="hw-pp" id="hw-pp">Pause animation</button> <button type="button" class="hw-pp hw-dl" id="hw-dl" data-name="temperature-switch-working-diagram.png" data-title="How a Bimetal Temperature Switch Works">Download diagram</button></span><span class="hw-note">Numbered markers match the parts list below.</span></div>
+<div class="hw-ctl" id="hw-ctl"><div class="hw-s"><label for="hw-sp">Set point (contact opens on rising temperature) <b id="hw-sp-v"></b></label><input type="range" id="hw-sp" data-k="sp" min="40" max="120" step="1" value="70" data-d="0" data-u="°C"></div><div class="hw-s"><label for="hw-df">Differential <b id="hw-df-v"></b></label><input type="range" id="hw-df" data-k="df" min="2" max="15" step="1" value="5" data-d="0" data-u="°C"></div><div class="hw-s"><label for="hw-L">Free strip length L (thickness t 0.5 mm) <b id="hw-L-v"></b></label><input type="range" id="hw-L" data-k="L" min="20" max="60" step="1" value="40" data-d="0" data-u="mm"></div></div>
+<div class="ibuc-out"><div class="ibuc-o"><span>Tip movement per °C, 3 × Δα × L² ÷ (4 × t)</span><b id="hw-o-k">…</b></div><div class="ibuc-o main"><span>Contact travel from 20 °C to the set point</span><b id="hw-o-g">…</b></div><div class="ibuc-o"><span>Reset point (contact closes on falling temperature)</span><b id="hw-o-rs">…</b></div><div class="ibuc-o"><span>Contact now</span><b id="hw-o-st">…</b></div></div>
+<ol class="hw-leg"><li><i>1</i><span>Water tank with immersion heater</span></li><li><i>2</i><span>Bimetal strip: brass bonded to invar</span></li><li><i>3</i><span>Contacts: closed when cold, open on rising temperature</span></li><li><i>4</i><span>Set point adjusting screw</span></li><li><i>5</i><span>Heater circuit state, set and reset points</span></li><li><i>6</i><span>Trend: temperature with set and reset lines</span></li></ol>
+</section>
+<section class="ibuc-card"><h2>Bimetal Temperature Switch Working Principle Step by Step</h2><ol class="hw-steps"><li>The sensing element sits in a thermowell or against the surface, and reaches the process temperature.</li><li>The brass layer expands more than the invar layer, so the bonded strip bends toward the invar side.</li><li>The tip carries a moving contact that rests on a fixed contact while the strip is cool.</li><li>At the set point the strip has moved far enough to lift the contact, and a snap mechanism opens it quickly to cut the heater.</li><li>As the process cools the strip straightens, and the contact recloses at the set point minus the differential.</li></ol></section>
+<section class="ibuc-card"><h2>Bimetal Temperature Switch Labelled Diagram</h2><figure class="hw-fig"><img src="https://www.instrumentationblog.in/how-it-works/temperature-switch/temperature-switch-working-diagram.webp" alt="Labelled diagram showing how a bimetal temperature switch works" title="How a Bimetal Temperature Switch Works" width="1560" height="988" loading="lazy" decoding="async"><figcaption>Numbered parts: 1 water tank with immersion heater; 2 bimetal strip: brass bonded to invar; 3 contacts: closed when cold, open on rising temperature; 4 set point adjusting screw; 5 heater circuit state, set and reset points; 6 trend: temperature with set and reset lines.</figcaption></figure></section>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="6552849252" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>Bimetal Temperature Switch Formula</h2><div class="hw-f"><b>Tip deflection d = 3 × Δα × ΔT × L² ÷ (4 × t), for two layers of equal thickness and stiffness</b><br>Δα is the difference in expansion coefficients, about 17 × 10⁻⁶ per °C for brass on invar<br>The contact opens when d reaches the travel set by the adjusting screw<br>Reset point = set point − differential<br>Example: L 40 mm and t 0.5 mm give 3 × 0.000017 × 1600 ÷ 2 = 0.0408 mm per °C, so a 70 °C set point needs 2.04 mm of travel from 20 °C and the switch resets at 65 °C</div></section>
+<section class="ibuc-card"><h2>Main Parts of a Bimetal Temperature Switch</h2><div class="cmp-wrap"><table class="cmp-t"><thead><tr><th>Part</th><th>What it does</th></tr></thead><tbody><tr><td>Bimetal element</td><td data-l="What it does">A flat strip, coil, spiral or snap disc made of two bonded metals with different expansion</td></tr><tr><td>Contacts</td><td data-l="What it does">Moving and fixed contacts, often silver alloy, wired as normally closed or normally open</td></tr><tr><td>Adjusting screw or knob</td><td data-l="What it does">Moves the fixed contact or preloads the strip to change the set point</td></tr><tr><td>Snap mechanism</td><td data-l="What it does">A small magnet or a domed snap disc that makes the contact jump and sets the differential</td></tr><tr><td>Housing and well</td><td data-l="What it does">Protects the element and lets it be removed without draining the process</td></tr></tbody></table></div></section>
+<section class="ibuc-card"><h2>Where a Bimetal Temperature Switch Is Used</h2><div class="hw-uses"><div class="hw-use"><b>Water heaters and tanks</b><span>Cut the heater at the set point and switch it back on as the water cools.</span></div><div class="hw-use"><b>Motor and transformer protection</b><span>Thermal cut outs in windings open the control circuit on overheating.</span></div><div class="hw-use"><b>Panel climate</b><span>Switch panel heaters on in cold weather and cooling fans on in hot weather.</span></div><div class="hw-use"><b>Overheat cut outs</b><span>Manual reset safety cut outs on heaters, dryers and boilers.</span></div></div></section>
+<div class="cmp-two"><div class="cmp-box" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2"><h3>Advantages</h3><ul><li>Needs no power supply and switches the load directly</li><li>Simple, robust and low cost</li><li>Snap action gives a clear on off signal with little contact chatter</li></ul></div><div class="cmp-box" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8"><h3>Limitations</h3><ul><li>Lower set point accuracy and repeatability than a transmitter with a trip</li><li>Slow response, especially inside a thick thermowell</li><li>Contacts wear and have a limited current rating</li></ul></div></div>
+<section class="ibuc-card"><h2>Bimetal Temperature Switch Field Tips and Common Problems</h2><ul class="hw-tips"><li>Check the contact rating against the real load; use the switch to drive a contactor for large heaters or inductive loads.</li><li>Do not set the differential so small that the load cycles every few seconds; frequent switching shortens contact life.</li><li>Verify the set point in a calibrated bath with the switch in its own well, rising slowly, and note both the trip and the reset temperature.</li><li>Use heat transfer paste in the thermowell if the maker allows it, to cut the response time.</li></ul></section>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="7839764783" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>Related Calculators and Tools</h2><div class="ibx-grid"><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://www.instrumentationblog.in/calculators/temperature/thermal-expansion-calculator/"><span class="ibx-t">Calculator</span><span class="ibx-h">Thermal Expansion Calculator</span><span class="ibx-s">Free online calculator with formula and worked example.</span></a><a class="ibx-card" style="--l:#e8f7ef;--d:#1d7a46;--b:#c3e8d2" href="https://www.instrumentationblog.in/calculators/temperature/sensor-response-time-calculator/"><span class="ibx-t">Calculator</span><span class="ibx-h">Sensor Response Time Calculator</span><span class="ibx-s">Free online calculator with formula and worked example.</span></a><a class="ibx-card" style="--l:#e4f6f7;--d:#0f7b80;--b:#bfe6e8" href="https://www.instrumentationblog.in/tools/practice-tests/temperature-measurement-quiz/"><span class="ibx-t">Tool</span><span class="ibx-h">Temperature Measurement Quiz</span><span class="ibx-s">Step by step interactive troubleshooting.</span></a><a class="ibx-card" style="--l:#fff4e0;--d:#a8620a;--b:#f5ddb0" href="https://www.instrumentationblog.in/glossary/bimetallic-thermometer/"><span class="ibx-t">Glossary</span><span class="ibx-h">Bimetallic Thermometer</span><span class="ibx-s">Definition, formula and example.</span></a><a class="ibx-card" style="--l:#fff4e0;--d:#a8620a;--b:#f5ddb0" href="https://www.instrumentationblog.in/glossary/hysteresis/"><span class="ibx-t">Glossary</span><span class="ibx-h">Hysteresis</span><span class="ibx-s">Definition, formula and example.</span></a></div></section>
+<section class="ibuc-card"><h2>Frequently Asked Questions</h2><details open><summary>What is the differential of a temperature switch?</summary><p>It is the gap between the temperature where the contact operates on rising temperature and where it resets on falling temperature. It stops the contact from chattering when the temperature hovers near the set point.</p></details><details><summary>Why does the strip bend instead of just getting longer?</summary><p>Both layers are bonded along their full length, so the layer that expands more is forced to sit on the outside of a curve. The strip curls toward the layer with the lower expansion.</p></details><details><summary>What is the difference between a strip and a snap disc?</summary><p>A strip moves gradually with temperature and needs a magnet or toggle for clean switching. A domed snap disc flips over suddenly at its rated temperature, which gives built in snap action and a fixed differential.</p></details><details><summary>Should I use a temperature switch or a transmitter?</summary><p>A switch is cheaper and needs no power for a simple on off job. A transmitter gives a live value, diagnostics and an adjustable trip, which is usually preferred for control and safety functions.</p></details></section>
+<div class="ibuc-ymal" style="background:linear-gradient(135deg,#0f7b80 0%,#06393b 100%)"><div class="ibuc-eye">You May Also Like</div><h3>Learn more on the blog</h3><p class="ibuc-yt">Temperature switch vs temperature transmitter</p><p>A practical guide on instrumentationblog.in that goes deeper into this topic with field examples.</p><a class="ibuc-go" href="https://www.instrumentationblog.in/temperature-switch-vs-temperature-transmitter/">Read Full Article</a></div>
+<section class="ibuc-card"><h2>More How It Works</h2><div class="ibx-grid"><a class="ibx-card" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8" href="https://www.instrumentationblog.in/how-it-works/capacitive-proximity-sensor/"><span class="ibx-t">Switches</span><span class="ibx-h">How a Capacitive Proximity Sensor Works</span><span class="ibx-s">A capacitive proximity sensor builds an electric field in front of its face between an active el…</span></a><a class="ibx-card" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8" href="https://www.instrumentationblog.in/how-it-works/float-level-switch/"><span class="ibx-t">Switches</span><span class="ibx-h">How a Float Level Switch Works</span><span class="ibx-s">A float level switch uses a buoyant float that rises and falls with the liquid surface…</span></a><a class="ibx-card" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8" href="https://www.instrumentationblog.in/how-it-works/flow-switch/"><span class="ibx-t">Switches</span><span class="ibx-h">How a Paddle Flow Switch Works</span><span class="ibx-s">A paddle flow switch hangs a thin paddle across the pipe…</span></a><a class="ibx-card" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8" href="https://www.instrumentationblog.in/how-it-works/inductive-proximity-sensor/"><span class="ibx-t">Switches</span><span class="ibx-h">How an Inductive Proximity Sensor Works</span><span class="ibx-s">An inductive proximity sensor drives a coil with a high frequency oscillator to create a magneti…</span></a><a class="ibx-card" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8" href="https://www.instrumentationblog.in/how-it-works/limit-switch/"><span class="ibx-t">Switches</span><span class="ibx-h">How a Limit Switch Works</span><span class="ibx-s">A limit switch is a mechanical switch operated by physical contact…</span></a><a class="ibx-card" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8" href="https://www.instrumentationblog.in/how-it-works/photoelectric-sensor/"><span class="ibx-t">Switches</span><span class="ibx-h">How a Photoelectric Sensor Works</span><span class="ibx-s">A photoelectric sensor sends a pulsed beam of light from an emitter and checks how much of it ar…</span></a><a class="ibx-card" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8" href="https://www.instrumentationblog.in/how-it-works/pressure-switch/"><span class="ibx-t">Switches</span><span class="ibx-h">How a Pressure Switch Works</span><span class="ibx-s">A pressure switch lets the process pressure act on a diaphragm, piston or bellows that pushes ag…</span></a><a class="ibx-card" style="--l:#fdecf1;--d:#b02a52;--b:#f5ccd8" href="https://www.instrumentationblog.in/how-it-works/reed-switch/"><span class="ibx-t">Switches</span><span class="ibx-h">How a Reed Switch Works</span><span class="ibx-s">A reed switch has two thin ferromagnetic blades sealed in a glass tube with a small gap between …</span></a></div></section>
+<p style="text-align:center;margin:0 0 22px"><a href="https://www.instrumentationblog.in/how-it-works/"><b>All How It Works animations</b></a> · <a href="https://www.instrumentationblog.in/glossary/"><b>Instrumentation glossary</b></a> · <a href="https://www.instrumentationblog.in/compare/"><b>Comparisons</b></a></p>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5046401284" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+</div>
+<script>
+(function(){
+var cv=document.getElementById('hw-cv');if(!cv)return;
+var C=cv.getContext('2d'),W=640,H=360,run=true,vis=true,last=0,T=0,P={},dirty=true;
+function fit(){var w=cv.parentNode.clientWidth,d=window.devicePixelRatio||1,s=w/W;cv.width=Math.round(w*d);cv.height=Math.round(H*s*d);cv.style.height=Math.round(H*s)+'px';C.setTransform(s*d,0,0,s*d,0,0);dirty=true;}
+function m(x,d){var s=Math.abs(x).toFixed(d);return(x<0&&Number(s)!==0?'−':'')+s;}
+function o(id,v){var e=document.getElementById('hw-o-'+id);if(e&&e.textContent!==v)e.textContent=v;}
+function L(t,x,y,sz,c,a,b){C.font=(b?'700 ':'')+(sz||13)+'px "Segoe UI",Arial,sans-serif';C.fillStyle=c||'#1f2733';C.textAlign=a||'center';C.textBaseline='middle';C.fillText(t,x,y);}
+function ln(x1,y1,x2,y2,c,w,d){C.strokeStyle=c;C.lineWidth=w||1.5;C.setLineDash(d||[]);C.beginPath();C.moveTo(x1,y1);C.lineTo(x2,y2);C.stroke();C.setLineDash([]);}
+function rc(x,y,w,h,f,s,r){C.beginPath();if(r&&C.roundRect)C.roundRect(x,y,w,h,r);else C.rect(x,y,w,h);if(f){C.fillStyle=f;C.fill();}if(s){C.strokeStyle=s;C.lineWidth=1.5;C.stroke();}}
+function ci(x,y,r,f,s,w){C.beginPath();C.arc(x,y,r,0,Math.PI*2);if(f){C.fillStyle=f;C.fill();}if(s){C.strokeStyle=s;C.lineWidth=w||1.5;C.stroke();}}
+function mk(n,x,y){ci(x,y,11,'#d9622b','#fff',2);L(String(n),x,y+1,13,'#fff','center',1);}
+function ar(x1,y1,x2,y2,c,w){ln(x1,y1,x2,y2,c,w);var a=Math.atan2(y2-y1,x2-x1),h=8;C.fillStyle=c;C.beginPath();C.moveTo(x2,y2);C.lineTo(x2-h*Math.cos(a-.45),y2-h*Math.sin(a-.45));C.lineTo(x2-h*Math.cos(a+.45),y2-h*Math.sin(a+.45));C.closePath();C.fill();}
+function sm(u){u=u<0?0:u>1?1:u;return u*u*(3-2*u);}
+function clamp(x,a,b){return x<a?a:x>b?b:x;}
+function rd(){[].forEach.call(document.querySelectorAll('#hw-ctl input'),function(i){P[i.dataset.k]=parseFloat(i.value);var e=document.getElementById(i.id+'-v');if(e)e.textContent=m(P[i.dataset.k],+i.dataset.d)+(i.dataset.u?' '+i.dataset.u:'');});upd();dirty=true;}
+function wave(x1,x2,y,yb,col,ph){C.fillStyle=col;C.beginPath();C.moveTo(x1,yb);for(var x=x1;x<=x2;x+=4)C.lineTo(x,y+2.2*Math.sin(x/17+T*3+(ph||0))+1.2*Math.sin(x/7-T*5));C.lineTo(x2,yb);C.closePath();C.fill();C.strokeStyle='#1e3a8a';C.lineWidth=2;C.beginPath();for(var x=x1;x<=x2;x+=4){var yy=y+2.2*Math.sin(x/17+T*3+(ph||0))+1.2*Math.sin(x/7-T*5);if(x==x1)C.moveTo(x,yy);else C.lineTo(x,yy);}C.stroke();}
+function stream(x,y1,y2){C.setLineDash([6,8]);C.lineDashOffset=-T*60;C.strokeStyle='#3b82f6';C.lineWidth=4;C.beginPath();C.moveTo(x,y1);C.lineTo(x,y2);C.stroke();C.setLineDash([]);C.lineDashOffset=0;}
+function exp(){var o=document.createElement('canvas'),w=1560,h=878,bh=110,dl=document.getElementById('hw-dl');o.width=w;o.height=h+bh;var x=o.getContext('2d');x.fillStyle='#fff';x.fillRect(0,0,w,h+bh);x.drawImage(cv,0,0,w,h);x.fillStyle='#f6f8fc';x.fillRect(0,h,w,bh);x.fillStyle='#dde3ee';x.fillRect(0,h,w,2);
+x.fillStyle='#ffe500';x.beginPath();if(x.roundRect)x.roundRect(40,h+20,70,70,10);else x.rect(40,h+20,70,70);x.fill();x.fillStyle='#1e63b8';x.font='800 44px "Segoe UI",Arial,sans-serif';x.textAlign='center';x.textBaseline='middle';x.fillText('ib',75,h+56);
+x.textAlign='left';x.fillStyle='#1a2333';x.font='700 30px "Segoe UI",Arial,sans-serif';x.fillText('Instrumentation Blog',128,h+42);x.fillStyle='#5b6576';x.font='22px "Segoe UI",Arial,sans-serif';x.fillText('instrumentationblog.in/how-it-works',128,h+76);
+x.textAlign='right';x.fillStyle='#1a2333';x.font='700 28px "Segoe UI",Arial,sans-serif';x.fillText(dl?dl.dataset.title:'',w-40,h+56);return o;}
+window.__hwExport=function(){return exp().toDataURL('image/png');};
+function pipe(x1,x2,cy,R,fl){rc(x1,cy-R-12,x2-x1,12,'#9aa5b8');rc(x1,cy+R,x2-x1,12,'#9aa5b8');rc(x1,cy-R,x2-x1,2*R,fl||'#e6f0fd');}
+
+var tp=50,on=true,hist=[],pre=0,bub=[];for(var i=0;i<26;i++)bub.push([Math.random(),Math.random()]);
+function kk(){return 3*17e-6*P.L*P.L/(4*0.5);}
+function rs(){return P.sp-P.df;}
+function upd(){if(!pre){pre=1;tp=rs()-2;for(var q=0;q<300;q++){T+=0.04;step(0.04);}}o('k',m(kk(),4)+' mm per °C');o('g',m(kk()*(P.sp-20),2)+' mm');o('rs',m(rs(),0)+' °C');o('st',on?'Closed: heater ON':'Open: heater OFF');}
+function step(dt){tp+=(on?3.0:-(tp-20)*0.04-0.5)*dt;var w=on;if(on&&tp>=P.sp)on=false;else if(!on&&tp<=rs())on=true;if(w!==on)upd();
+hist.push([T,tp]);while(hist.length&&T-hist[0][0]>20)hist.shift();}
+function draw(){
+L('Strip bending exaggerated; heating cycle sped up',20,22,11,'#5b6576','left');
+var hot=clamp((tp-20)/110,0,1);rc(30,70,170,230,'#e2e8f0','#475569',12);
+wave(36,194,112,294,'#bfdbfe');
+rc(110,46,14,170,'#cbd5e1','#475569',4);L('Thermowell',130,58,11,'#5b6576','left');
+var hc=on?'#ef4444':'#64748b';C.strokeStyle=hc;C.lineWidth=on?4:3;C.beginPath();C.moveTo(30,262);for(var k=0;k<=8;k++)C.lineTo(48+k*16,k%2?250:274);C.lineTo(190,262);C.stroke();
+if(on){for(var i=0;i<bub.length;i++){var b=bub[i],y=274-((T*40+b[1]*180)%160);ci(48+b[0]*140,y,2.5,'rgba(255,255,255,0.9)','#93c5fd',1);}}
+rc(136,128,58,24,'rgba(255,255,255,0.92)','#94a3b8',5);L(m(tp,1)+' °C',165,140,12,'#b91c1c','center',1);
+L('Heater '+(on?'ON':'OFF'),115,288,11,on?'#b91c1c':'#475569','center',1);L('Water tank',115,316,12,'#1a2333','center',1);
+ln(124,60,230,150,'#94a3b8',1,[3,3]);
+rc(230,40,270,200,'#f8fafc','#cbd5e1',8);L('Switch close up',240,54,11,'#5b6576','left',1);
+var S=Math.min(14,45/Math.max(0.1,kk()*(P.sp-20))),gap=kk()*(P.sp-20)*S,y0=200,yc=y0-gap,tip=on?yc:yc-10;
+rc(250,182,30,40,'#475569',null,3);
+for(var ly=0;ly<2;ly++){C.strokeStyle=ly?'#ea580c':'#94a3b8';C.lineWidth=4;C.beginPath();for(var s=0;s<=1.0001;s+=0.05){var x=280+150*s,y=tip+(y0-tip)*(1-s*s)+(ly?4:0);if(s)C.lineTo(x,y);else C.moveTo(x,y);}C.stroke();}
+L('Invar layer',290,140,11,'#475569','left',1);L('Brass layer',290,230,11,'#c2410c','left',1);
+
+rc(424,tip-2,12,6,'#f59e0b','#92400e',2);rc(424,yc+4,12,6,'#cbd5e1','#475569',2);
+rc(426,yc+10,8,Math.max(4,226-yc),'#a8620a','#4a2a04',2);for(var yy=yc+14;yy<234;yy+=6)ln(426,yy,434,yy+3,'#4a2a04',1);rc(420,232,20,6,'#4a2a04');
+L('Set screw',446,226,11,'#a8620a','left',1);
+L(on?'Contacts closed':'Contacts open, heater cut',365,80,12,on?'#16a34a':'#b91c1c','center',1);
+rc(510,40,120,124,'#1a2333',null,8);L('Heater circuit',522,54,11,'#cbd5e1','left',1);ci(538,88,12,on?'#f97316':'#334155','#94a3b8',2);
+if(on){var g=0.5+0.5*Math.sin(T*8);ci(538,88,16+3*g,null,'rgba(251,146,60,0.7)',2);}L(on?'ON':'OFF',558,88,12,'#fff','left',1);
+L('Opens at '+m(P.sp,0)+' °C',570,122,11,'#fde68a','center',1);L('Closes at '+m(rs(),0)+' °C',570,144,11,'#bfdbfe','center',1);
+var gx0=270,gx1=620,gy0=262,gy1=340,TY=function(v){return gy1-(v-20)/110*(gy1-gy0);},TX=function(t){return gx1-(T-t)/20*(gx1-gx0);};
+rc(gx0,gy0,gx1-gx0,gy1-gy0,'#f8fafc','#e2e8f0');ln(gx0,TY(P.sp),gx1,TY(P.sp),'#b91c1c',1,[4,4]);ln(gx0,TY(rs()),gx1,TY(rs()),'#16a34a',1,[4,4]);
+L('set '+m(P.sp,0),gx0+6,TY(P.sp)-8,11,'#b91c1c','left');L('reset '+m(rs(),0),gx0+6,TY(rs())+9,11,'#16a34a','left');
+L('130',gx0-4,gy0,11,'#5b6576','right');L('20',gx0-4,gy1,11,'#5b6576','right');
+C.strokeStyle='#dc2626';C.lineWidth=2;C.beginPath();hist.forEach(function(q,i){var x=TX(q[0]),y=TY(q[1]);if(i)C.lineTo(x,y);else C.moveTo(x,y);});C.stroke();
+L('Temperature, °C',gx0,gy0-10,11,'#dc2626','left',1);L('last 20 s',gx1,gy0-10,11,'#5b6576','right');
+mk(1,40,80);mk(2,355,166);mk(3,452,yc+2);mk(4,412,226);mk(5,618,52);mk(6,gx1-16,gy1-14);}
+
+function fr(t){var dt=Math.min(.05,((t-last)/1000)||0);last=t;if(run&&vis&&!document.hidden){T+=dt;step(dt);dirty=true;}if(dirty&&vis){C.clearRect(0,0,W,H);draw();dirty=false;}requestAnimationFrame(fr);}
+[].forEach.call(document.querySelectorAll('#hw-ctl input'),function(i){i.addEventListener('input',rd);});
+var dl=document.getElementById('hw-dl');if(dl&&cv.toBlob)dl.addEventListener('click',function(){exp().toBlob(function(b){var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=dl.dataset.name;document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove();},500);},'image/png');});
+var pp=document.getElementById('hw-pp');if(pp)pp.addEventListener('click',function(){run=!run;pp.textContent=run?'Pause animation':'Play animation';});
+if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){run=false;if(pp)pp.textContent='Play animation';}
+if('IntersectionObserver' in window)new IntersectionObserver(function(e){vis=e[0].isIntersecting;dirty=true;}).observe(cv);
+window.addEventListener('resize',function(){fit();C.clearRect(0,0,W,H);draw();});fit();rd();step(0.016);draw();requestAnimationFrame(fr);
+})();
+</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.instrumentationblog.in/"},{"@type":"ListItem","position":2,"name":"How It Works","item":"https://www.instrumentationblog.in/how-it-works/"},{"@type":"ListItem","position":3,"name":"How a Bimetal Temperature Switch Works","item":"https://www.instrumentationblog.in/how-it-works/temperature-switch/"}]},{"@type":"ImageObject","contentUrl":"https://www.instrumentationblog.in/how-it-works/temperature-switch/temperature-switch-working-diagram.webp","name":"How a Bimetal Temperature Switch Works","caption":"Labelled diagram showing how a bimetal temperature switch works","width":1560,"height":988},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the differential of a temperature switch?","acceptedAnswer":{"@type":"Answer","text":"It is the gap between the temperature where the contact operates on rising temperature and where it resets on falling temperature. It stops the contact from chattering when the temperature hovers near the set point."}},{"@type":"Question","name":"Why does the strip bend instead of just getting longer?","acceptedAnswer":{"@type":"Answer","text":"Both layers are bonded along their full length, so the layer that expands more is forced to sit on the outside of a curve. The strip curls toward the layer with the lower expansion."}},{"@type":"Question","name":"What is the difference between a strip and a snap disc?","acceptedAnswer":{"@type":"Answer","text":"A strip moves gradually with temperature and needs a magnet or toggle for clean switching. A domed snap disc flips over suddenly at its rated temperature, which gives built in snap action and a fixed differential."}},{"@type":"Question","name":"Should I use a temperature switch or a transmitter?","acceptedAnswer":{"@type":"Answer","text":"A switch is cheaper and needs no power for a simple on off job. A transmitter gives a live value, diagnostics and an adjustable trip, which is usually preferred for control and safety functions."}}]}]}</script></main>
+<footer class="ibs-foot"><div class="ibs-in"><span>© 2026 instrumentationblog.in · Free tools for instrumentation and control engineers</span><span><a href="https://www.instrumentationblog.in/">Home</a> · <a href="https://www.instrumentationblog.in/calculators/">Calculators</a> · <a href="https://www.instrumentationblog.in/unit-converters/">Unit Converters</a> · <a href="https://www.instrumentationblog.in/tools/">Tools</a> · <a href="https://www.instrumentationblog.in/downloads/">Downloads</a> · <a href="https://www.instrumentationblog.in/glossary/">Glossary</a></span></div></footer><script src="/assets/ib-footer.js" defer></script>
+<script src="/assets/ib-header.js" defer></script></body>
+</html>

@@ -57,10 +57,10 @@ Add new topics anywhere; keep slugs unique and blog slugs from _src/blog_slugs.t
 - [x] plc-pid-loop | PLC PID Loop Control | PLC | plc-pid-instruction-configuration
 - [x] rs485-network | RS485 Network and Termination | Signals | rs485-termination-biasing-resistors
 - [x] positive-displacement-flow-meter | Positive Displacement Flow Meter | Flow | positive-displacement-flow-meter
-- [ ] 2oo3-voting | 2oo3 Voting Logic | Safety | safety-instrumented-function-sif-design
-- [ ] temperature-switch | Bimetal Temperature Switch | Switches | temperature-switch-vs-temperature-transmitter
-- [ ] strain-gauge-pressure-sensor | Strain Gauge Pressure Sensor | Pressure | strain-gauge-working-principle
-- [ ] rotameter | Rotameter (Variable Area Flow Meter) | Flow | variable-area-flow-meter-working
+- [x] 2oo3-voting | 2oo3 Voting Logic | Safety | safety-instrumented-function-sif-design
+- [x] temperature-switch | Bimetal Temperature Switch | Switches | temperature-switch-vs-temperature-transmitter
+- [x] strain-gauge-pressure-sensor | Strain Gauge Pressure Sensor | Pressure | strain-gauge-working-principle
+- [x] rotameter | Rotameter (Variable Area Flow Meter) | Flow | variable-area-flow-meter-working
 - [ ] galvanic-isolator | Galvanic Isolator | Signals | what-is-galvanic-isolation
 - [ ] capacitance-level-probe | Capacitance Level Probe | Level | capacitance-level-measurement
 - [ ] solenoid-valve | Solenoid Valve | Control Valve | solenoid-valve-working-principle
