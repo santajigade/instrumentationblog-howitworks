@@ -98,3 +98,12 @@
 2026-11-25,multifunction-process-calibrator-uses,18232,fail,The read operation timed out
 2026-11-25,offset-error-zero-point-error-span-error,11734,ok,offset-error-vs-span-error-diagram|offset-error-calibration-flowchart|offset-error-zero-point-span-infographic
 2026-11-25,zero-and-span-adjustments,8432,ok,zero-and-span-calibration-line-chart|zero-and-span-shift-diagram|zero-and-span-calibration-flowchart
+2026-11-25,dcs-function-block-programming-explained,16072,ok,dcs-function-block-programming-ai-pid-ao-loop-diagram|dcs-function-block-programming-troubleshooting-flowchart|dcs-function-block-programming-anatomy-infographic
+2026-11-25,gray-code-binary-conversion,19368,ok,gray-code-absolute-encoder-disc-diagram|gray-code-to-binary-decoding-flowchart|gray-code-vs-binary-transition-infographic
+2026-11-25,multifunction-process-calibrator-uses,18232,ok,multifunction-process-calibrator-transmitter-setup-diagram|multifunction-process-calibrator-calibration-flowchart|multifunction-process-calibrator-error-infographic
+2026-11-25,negative-pressure-in-pipelines,12278,ok,negative-pressure-in-pipelines-high-point-diagram|negative-pressure-in-pipelines-cause-fix-flowchart|negative-pressure-in-pipelines-core-principle-infographic
+2026-11-25,offset-error-zero-point-error-span-error,11734,fail,already has ib-img figures
+2026-11-25,short-circuit-current-calculation,16964,ok,short-circuit-current-calculation-worked-example-diagram|short-circuit-current-calculation-iec-60909-flowchart|short-circuit-current-calculation-asymmetrical-waveform-chart
+2026-11-25,transformer-efficiency-calculation,16688,ok,transformer-efficiency-oc-sc-test-diagram|transformer-efficiency-calculation-steps-flowchart|transformer-efficiency-all-day-infographic
+2026-11-25,what-is-functional-safety-assessment,8754,ok,functional-safety-assessment-five-stages-diagram|functional-safety-assessment-modification-flowchart|functional-safety-assessment-benefits-infographic
+2026-11-25,zero-and-span-adjustments,8432,fail,already has ib-img figures

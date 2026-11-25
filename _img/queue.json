@@ -949,13 +949,13 @@
 "queries": [
 "what is zero and span calibration"
 ],
-"status": "done"
+"status": "failed"
 },
 {
 "slug": "dcs-function-block-programming-explained",
 "impr": 1991,
 "queries": [],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "multifunction-process-calibrator-uses",
@@ -964,7 +964,7 @@
 "multifunction calibrator",
 "multifunction process calibrator"
 ],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "offset-error-zero-point-error-span-error",
@@ -972,7 +972,7 @@
 "queries": [
 "zero offset error"
 ],
-"status": "done"
+"status": "failed"
 },
 {
 "slug": "gray-code-binary-conversion",
@@ -980,7 +980,7 @@
 "queries": [
 "gray code"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "sensors-and-transducers-questions-answers",
@@ -992,7 +992,7 @@
 "slug": "transformer-efficiency-calculation",
 "impr": 1903,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "what-is-functional-safety-assessment",
@@ -1000,7 +1000,7 @@
 "queries": [
 "functional safety assessment"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "short-circuit-current-calculation",
@@ -1009,13 +1009,13 @@
 "current mirror circuit",
 "symmetrical vs asymmetrical short circuit current"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "negative-pressure-in-pipelines",
 "impr": 1847,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "pipe-expansion-loop-in-steam-piping",
