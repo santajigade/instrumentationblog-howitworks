@@ -40,7 +40,8 @@ def paragraphs(html):
         tag = m.group(0)
         if re.match(r'<p\s[^>]*class=', tag): continue          # styled boxes (excerpt, quote...)
         inner = m.group(1); txt = H.unescape(re.sub(r'<[^>]+>', ' ', inner))
-        if len(txt) < 140 or 'zentacalculator.com' in inner or 'Hello everyone' in txt: continue
+        t2 = txt.strip()
+        if len(t2) < 140 or 'zentacalculator.com' in inner or 'Hello everyone' in t2 or '<br' in inner or not t2.endswith(('.', '!', '?')): continue
         out.append((m.start(), tag, txt))
     return out
 Q = '_bl/queue.json'; q = json.load(open(Q)); used = {}
