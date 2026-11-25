@@ -12,4 +12,4 @@ if(target){target.parentNode.insertBefore(box,target);if(old)old.remove();}else{
 })();
 
 /* shared sidebar for static sections (added 25 Nov 2026) */
-(function(){if(document.querySelector('script[src*="ib-sidebar.js"]'))return;var s=document.createElement('script');s.src='/assets/ib-sidebar.js?v=1';s.defer=true;document.head.appendChild(s);})();
+(function(){if(document.querySelector('script[src*="ib-sidebar"]'))return;var s=document.createElement('script');s.src='/assets/ib-sidebar-loader.js?v=1';s.defer=true;document.head.appendChild(s);})();

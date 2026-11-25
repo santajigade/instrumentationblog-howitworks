@@ -3,7 +3,7 @@
 (function(){
 if(window.__ibsx)return;window.__ibsx=1;
 var shop=document.querySelector('.entry-content > .ibe');var main=document.querySelector('main.ibs-main')||(shop&&shop.parentElement);if(!main||document.querySelector('.ibsx')||document.querySelector('.ibsb'))return;
-var PRE="@media(min-width:1100px){main.ibs-main,.entry-content:has(>.ibe),.entry-content:has(>.ibsx){display:grid;grid-template-columns:minmax(0,1fr) 300px;column-gap:30px;row-gap:0;max-width:1200px;margin-left:auto;margin-right:auto;box-sizing:border-box;align-items:start}main.ibs-main>*,.entry-content:has(>.ibe)>*{grid-column:1;min-width:0;max-width:none !important}main.ibs-main>.ibsx,.entry-content>.ibsx{grid-column:2;grid-row:1/span 40}}.ibuc-ad,.whc-ad,.ibsx-ad{max-width:100%;overflow:hidden}";
+var PRE="@media(min-width:1100px){main.ibs-main,.entry-content:has(>.ibe),.entry-content:has(>.ibsx){display:grid;grid-template-columns:minmax(0,1fr) 300px;column-gap:30px;row-gap:0;max-width:1200px;margin-left:auto;margin-right:auto;box-sizing:border-box;align-items:start}main.ibs-main>*,.entry-content:has(>.ibe)>*{grid-column:1;min-width:0;max-width:none !important}main.ibs-main>.ibsx,.entry-content>.ibsx{grid-column:2;grid-row:1/span 40}}.ibuc-ad,.whc-ad,.ibsx-ad{max-width:100%;overflow:hidden}.ibsx-ad:has(ins[data-ad-status='unfilled']),.ibsb-ad:has(ins[data-ad-status='unfilled']),.whc-ad:has(ins[data-ad-status='unfilled']),.ibuc-ad:has(ins[data-ad-status='unfilled']){display:none !important}";
 var SITE='https://www.instrumentationblog.in',EB=SITE+'/instrumentation-ebooks/',COVER=SITE+'/wp-content/uploads/2026/11/field-instruments-calibration-ebook-cover.webp',CL='ca-pub-3931314195561246';
 var css=PRE+
 ".ibsx{font-family:'Segoe UI',Arial,sans-serif;color:#374151;font-size:15px;line-height:1.5}.ibsx *{box-sizing:border-box}.ibsx a{text-decoration:none}"+
@@ -26,11 +26,11 @@ function eb(b){return '<div class="ibsx-eb'+(b?' ibsx-eb-b':'')+'"><span class="
 var T=[['/calculators/','Engineering calculators','#0077c0','<rect x="5" y="2" width="14" height="20" rx="2"/><path d="M8 6h8M8 11h2M14 11h2M8 15h2M14 15h2M8 19h2M14 19h2"/>'],['/unit-converters/','Unit converters','#0f766e','<path d="M7 7h11l-3-3M17 17H6l3 3"/>'],['/tools/','Free engineering tools','#6d28d9','<path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/>'],['/how-it-works/','How it works animations','#f97316','<circle cx="12" cy="12" r="9"/><path d="M10 8l6 4-6 4z"/>'],['/downloads/','Free downloads','#0b2540','<path d="M12 3v12M7 10l5 5 5-5M5 21h14"/>'],['/glossary/','Engineering glossary','#be185d','<path d="M4 4h6a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H4zM20 4h-6a3 3 0 0 0-3 3"/>']];
 var tools='<div class="ibsx-box ibsx-tools"><div class="ibsx-h">Calculators and tools</div>'+T.map(function(t){return '<a href="'+SITE+t[0]+'"><span class="ibsx-ti" style="background:'+t[2]+'"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#fff" stroke-width="2">'+t[3]+'</svg></span>'+t[1]+'<span class="ibsx-arr">&#8250;</span></a>';}).join('')+'</div>';
 var html='<form class="ibsx-search" role="search" method="get" action="'+SITE+'/"><input type="search" name="s" placeholder="Search guides, calculators..." aria-label="Search"><button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#0b2540" stroke-width="2.5"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button></form>'+
-ad('3541747929',1)+(shop?'':eb(0))+tools+
+(shop?'':eb(0))+ad('6904203044',0)+tools+
 '<div class="ibsx-box ibsx-latest"><div class="ibsx-h">Latest articles</div><div class="ibsx-ll"></div></div>'+
-ad('6904203044',0)+
+ad('3541747929',1)+
 '<div class="ibsx-comm"><b>Get new guides first</b><p>New guides and calculators, the day they go live.</p><a class="wa" href="https://whatsapp.com/channel/0029Vare99K3mFY3QVjKF43r" target="_blank" rel="noopener">WhatsApp channel</a><a class="tg" href="https://t.me/Instrumentationblogs" target="_blank" rel="noopener">Telegram channel</a><a class="sp" href="'+SITE+'/donate-us-instrumentationblog/">&#9829; Support free learning</a></div>'+
-ad('3541747929',1)+(shop?'':eb(1));
+(shop?'':eb(1));
 var aside=document.createElement('aside');aside.className='ibsx';aside.setAttribute('aria-label','Sidebar');aside.innerHTML=html;main.appendChild(aside);
 var desk=window.matchMedia('(min-width:1100px)').matches;
 if(desk){[].forEach.call(aside.querySelectorAll('ins.adsbygoogle'),function(){try{(window.adsbygoogle=window.adsbygoogle||[]).push({});}catch(e){}});}
