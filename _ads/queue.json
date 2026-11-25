@@ -52,87 +52,87 @@
 {
 "id": 2772,
 "slug": "electromagnetic-flow-meter-manufacturers",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 5094,
 "slug": "different-types-of-communication-protocols",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 5095,
 "slug": "what-is-smart-transmitter",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 5096,
 "slug": "what-is-serial-communication",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 5098,
 "slug": "electromagnetic-flow-meter-working-principle",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 5663,
 "slug": "pressure-sensor-specifications",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 5694,
 "slug": "impulse-line-pressure-testing-procedure",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 5725,
 "slug": "using-pressure-gauges-with-pressure-transmitters",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 5731,
 "slug": "pressure-transmitter-accuracy-specifications",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 5764,
 "slug": "what-is-ph-sensor-how-does-it-work",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 5825,
 "slug": "importance-of-analytical-measurements",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 5836,
 "slug": "how-do-optical-dissolved-oxygen-sensors-work",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 5849,
 "slug": "basics-of-transistors",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 5870,
 "slug": "basics-of-differential-pressure-transmitter",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 5949,
 "slug": "dp-transmitter-level-measurement",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 5999,
 "slug": "top-3-types-and-applications-of-pressure-transmitters",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 6040,
 "slug": "what-is-a-limit-switch",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 6139,
@@ -142,57 +142,57 @@
 {
 "id": 6172,
 "slug": "what-is-a-flow-restrictor",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 6194,
 "slug": "how-to-calibrate-a-pressure-sensor",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 6234,
 "slug": "solenoid-valves-what-is-it-how-it-works",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 6300,
 "slug": "difference-between-2-wire-rtd-3-wire-rtd-and-4-wire-rtd",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 6317,
 "slug": "how-to-select-the-perfect-flow-meter-for-any-application",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 6337,
 "slug": "types-of-natural-gas-flow-meters",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 6363,
 "slug": "what-are-different-mounting-techniques-of-diaphragm-seals",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 6374,
 "slug": "siphon-sizing-and-selecting-a-siphon-for-pressure-gauge-protection",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 6385,
 "slug": "how-to-calculate-the-range-for-differential-pressure-level-transmitters",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 6405,
 "slug": "4-20ma-the-best-signal-for-industrial-automation",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 6446,
 "slug": "difference-between-accuracy-and-precision",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 6458,
@@ -202,77 +202,77 @@
 {
 "id": 6728,
 "slug": "difference-between-3-1-and-3-2-material-certificates",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 6820,
 "slug": "turndown-ratio-in-flow-meters",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 6844,
 "slug": "explosion-proof-vs-intrinsically-safe-instruments",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 6869,
 "slug": "temperature-classes-in-hazardous-areas",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 6883,
 "slug": "gas-groups-iia-iib-iic-what-is-the-difference",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 6933,
 "slug": "heat-tracing-in-piping-systems",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 6948,
 "slug": "calibration-process-differential-pressure-transmitter",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 6969,
 "slug": "magnetic-proximity-sensors",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 6996,
 "slug": "2-wire-3-wire-4-wire-transmitters-in-industrial-automation",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 7044,
 "slug": "rtd-sensor-connections",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 7108,
 "slug": "zero-elevation-and-zero-suppression",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 7130,
 "slug": "bonded-and-unbonded-strain-gauges",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 7142,
 "slug": "float-level-switch-working-principle-and-applications",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 7179,
 "slug": "what-is-a-plc",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 7203,
 "slug": "plc-wiring-field-instrument-to-system-cabinet",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 7232,
@@ -282,182 +282,182 @@
 {
 "id": 7305,
 "slug": "what-is-electromagnetic-interference-emi",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 7337,
 "slug": "what-is-reynolds-number",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 7410,
 "slug": "how-does-io-link-works",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 7497,
 "slug": "capillary-tubing-in-pressure-measurements",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 7541,
 "slug": "interface-level-measurement",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 7587,
 "slug": "industrial-network-protocols-crash-courses",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 7633,
 "slug": "auto-negotiation-in-networking",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 7675,
 "slug": "top-5-advantages-of-platinum-rtds",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 7699,
 "slug": "free-scada-training-free-resources",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 7727,
 "slug": "different-types-of-photoelectric-sensors",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 7798,
 "slug": "compressor-anti-surge-controller",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 7844,
 "slug": "altitude-effects-on-instrumentation",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 7859,
 "slug": "calibrate-flow-meters-with-gases",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 7898,
 "slug": "free-training-electrical-control-drawings",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 7916,
 "slug": "artificial-intelligence-machine-learning",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 7951,
 "slug": "sensors-and-transducers-questions-answers",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 7970,
 "slug": "75-pressure-measurements-questions-and-answers",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 7997,
 "slug": "plc-and-automation-questions-and-answers",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 8031,
 "slug": "100-flow-measurement-questions-answers",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 8045,
 "slug": "parker-launches-scpsdi-pressure-switch",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 8062,
 "slug": "endresshauser-finalist-for-german-sustainability-award-2025",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 8106,
 "slug": "aramco-signs-11-billion-jafurah-midstream-deal",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 8117,
 "slug": "66-level-measurement-questions-answers",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 8145,
 "slug": "100-essential-engineering-formulas",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 8177,
 "slug": "temperature-measurements-questions-answers",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 8187,
 "slug": "how-bypass-level-indicators-work",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 8213,
 "slug": "dead-weight-pressure-tester",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 8242,
 "slug": "silicon-controlled-rectifiers",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 8274,
 "slug": "plc-block-diagram",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 8298,
 "slug": "8-different-types-of-level-gauges",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 8323,
 "slug": "difference-between-plc-and-dcs",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 8354,
 "slug": "wireless-hart-questions-answers",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 8377,
 "slug": "hammer-effect-in-pressure-gauges",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 8390,
 "slug": "annubar-flow-meter-working",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 8432,
 "slug": "zero-and-span-adjustments",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 8468,
 "slug": "what-are-the-features-of-triconex-plc",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 8484,
@@ -467,12 +467,12 @@
 {
 "id": 8519,
 "slug": "radar-sensor-vegapuls-42",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 8540,
 "slug": "magnetrol-genesis-multiphase-level-detector",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 8579,
@@ -502,7 +502,7 @@
 {
 "id": 8785,
 "slug": "emerson-pacsystems-safety-controller",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 8899,
@@ -512,12 +512,12 @@
 {
 "id": 8945,
 "slug": "bernoullis-equation-formula",
-"status": "noads"
+"status": "noplace"
 },
 {
 "id": 9012,
 "slug": "surge-protector-types-working",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 9048,
@@ -547,12 +547,12 @@
 {
 "id": 9273,
 "slug": "keller-10lxiic-gm-pressure-transmitter",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 9286,
 "slug": "cold-junction-compensation-in-thermocouple",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 9309,
@@ -607,17 +607,17 @@
 {
 "id": 9549,
 "slug": "impulse-line-installation-slope",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 9588,
 "slug": "absolute-vs-gauge-pressure",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 9614,
 "slug": "how-a-fire-alarm-system-works",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 9634,
@@ -627,287 +627,287 @@
 {
 "id": 9654,
 "slug": "what-is-ratio-control-in-process-industries",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 9670,
 "slug": "scada-and-dcs-questions-answers",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 9693,
 "slug": "usa-regulations-oil-gas-standards",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 9720,
 "slug": "texas-instruments-semiconductor-expansion",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 9735,
 "slug": "pressure-switch-vs-pressure-transmitter",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 9771,
 "slug": "top-industrial-automation-companies",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 9784,
 "slug": "what-is-custody-transfer",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 9804,
 "slug": "calculate-pressure-drop-in-pipes",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 9833,
 "slug": "analytical-instruments-questions-answers",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 9849,
 "slug": "split-range-control-working-principle",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 9876,
 "slug": "hart-loop-resistor-in-hart-communication",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 9919,
 "slug": "abb-rmg-ultrasonic-gas-meters-usa",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 9926,
 "slug": "baker-hughes-sensor-unit-sale",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 9946,
 "slug": "static-pressure-vs-differential-pressure",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 9960,
 "slug": "analog-signal-resolution-in-plc",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 9970,
 "slug": "plc-analog-input-problems-solutions",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 9982,
 "slug": "scada-communication-problems",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10004,
 "slug": "instrument-loop-impedance-4-20ma-accuracy",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10020,
 "slug": "mistakes-in-dp-flow-measurement",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10034,
 "slug": "types-of-pressure-transmitters",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10049,
 "slug": "control-valve-positioner-working",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10088,
 "slug": "what-are-pressure-sensing-lines",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10106,
 "slug": "npn-and-pnp-proximity-sensors",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 10127,
 "slug": "communication-protocols-in-plc",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10166,
 "slug": "germany-lng-import-terminals",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 10181,
 "slug": "drain-and-vent-hole-in-orifice-plate",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10199,
 "slug": "sensor-trim-and-output-trim",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10222,
 "slug": "hazardous-area-classification-zone",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 10239,
 "slug": "differential-pressure-gauge-working",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10272,
 "slug": "instrument-calibration-common-terms",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10289,
 "slug": "orifice-plate-flow-measurement",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10319,
 "slug": "adnoc-wearable-gas-detectors",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10326,
 "slug": "analog-vs-digital-instrumentation-system",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10340,
 "slug": "industrial-electronics-questions-answers",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10347,
 "slug": "temperature-measurement-errors",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10356,
 "slug": "list-of-free-scada-software",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 10371,
 "slug": "actual-flow-standard-flow-normal-flow",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10391,
 "slug": "temperature-and-pressure-compensation",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10414,
 "slug": "4-to-20-ma-signal-instrumentation",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10437,
 "slug": "square-root-extraction-dp-flow",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10458,
 "slug": "hipps-system-in-oil-and-gas",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10474,
 "slug": "strainer-and-filter-difference",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10487,
 "slug": "ai-in-plc-scada-and-dcs",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10506,
 "slug": "7-types-of-pressure-relief-valves",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10529,
 "slug": "what-is-a-diaphragm-seal",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10560,
 "slug": "how-nitrogen-purging-works",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10591,
 "slug": "flow-characteristics-of-control-valves",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10608,
 "slug": "choked-flow-in-control-valves",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10648,
 "slug": "flush-connections-in-sanitary-measurement",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10667,
 "slug": "dp-level-measurement-varying-density",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10675,
 "slug": "types-of-allen-bradley-plcs",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10702,
 "slug": "types-of-instrumentation",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10715,
 "slug": "types-of-nuclear-level-measurement",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10726,
 "slug": "basic-parts-of-a-control-valve",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10734,
 "slug": "process-control-valves-instrumentation",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10745,
 "slug": "instrumentation-automation-abbreviations",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10755,
 "slug": "valve-actuator-types-applications",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10781,
@@ -917,7 +917,7 @@
 {
 "id": 10799,
 "slug": "industrial-dryers-and-evaporators",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10815,
@@ -932,22 +932,22 @@
 {
 "id": 10862,
 "slug": "sensor-scaling-instrumentation",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10886,
 "slug": "thermocouple-burnout-detection",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10894,
 "slug": "what-is-sensor-linearity",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10906,
 "slug": "point-to-point-connection-multidrop-connection",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 10922,
@@ -977,17 +977,17 @@
 {
 "id": 11026,
 "slug": "what-is-an-hvac-system",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 11368,
 "slug": "types-of-controllers-in-instrumentation",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 11378,
 "slug": "deaerator-working-principle",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 11398,
@@ -997,17 +997,17 @@
 {
 "id": 11422,
 "slug": "terms-used-with-pressure-sensors",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 11439,
 "slug": "8-free-training-courses-plc-scada-hmi",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 11449,
 "slug": "reflux-ratio-in-distillation-column",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 11462,
@@ -1022,47 +1022,47 @@
 {
 "id": 11522,
 "slug": "what-is-a-safety-relay",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 11549,
 "slug": "2-wire-and-4-wire-transmitters",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 11592,
 "slug": "instrumentation-and-control-standards",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 11607,
 "slug": "working-principle-membrane-level-switch",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 11625,
 "slug": "metal-tube-rotameter-working",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 11650,
 "slug": "instrumentation-engineers-guide",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 11660,
 "slug": "pressure-tappings-in-orifice-plate",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 11686,
 "slug": "how-to-select-right-plc",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 11710,
 "slug": "types-of-thermocouples-and-ranges",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 11734,
@@ -1072,22 +1072,22 @@
 {
 "id": 11764,
 "slug": "piezoresistive-vs-piezoelectric-pressure-sensors",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 11779,
 "slug": "how-a-hall-effect-sensor-works",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 11800,
 "slug": "questions-and-answers-on-level-sensors",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 11810,
 "slug": "pressure-gauge-and-pressure-transmitter",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 11824,
@@ -1292,12 +1292,12 @@
 {
 "id": 12884,
 "slug": "yokogawa-oprex-pressure-transmitter",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 12900,
 "slug": "pex-liners-for-magnetic-flowmeters",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 12968,
@@ -1307,7 +1307,7 @@
 {
 "id": 12989,
 "slug": "current-transformer-working-principle",
-"status": "noads"
+"status": "insfail"
 },
 {
 "id": 13007,
@@ -2672,7 +2672,7 @@
 {
 "id": 15854,
 "slug": "electrical-regulations-and-standards",
-"status": "noads"
+"status": "inserted"
 },
 {
 "id": 15862,
@@ -4077,402 +4077,402 @@
 {
 "id": 18158,
 "slug": "tvs-diode-transient-voltage-suppression-explained",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18165,
 "slug": "photodiode-vs-phototransistor-key-differences",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18171,
 "slug": "astable-vs-monostable-vs-bistable-multivibrator",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18177,
 "slug": "voltage-follower-unity-gain-buffer-explained",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18183,
 "slug": "pcb-via-types-through-hole-blind-buried",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18189,
 "slug": "flow-computer-working-principle",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18195,
 "slug": "wedge-flow-meter-working-principle",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18202,
 "slug": "multivariable-transmitter-working",
-"status": "noads"
+"status": "insfail"
 },
 {
 "id": 18208,
 "slug": "laser-level-transmitter-working-principle",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18214,
 "slug": "residual-chlorine-analyzer-working",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18220,
 "slug": "conveyor-safety-switches-types",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18226,
 "slug": "control-valve-trim-types",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18232,
 "slug": "multifunction-process-calibrator-uses",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18238,
 "slug": "plc-subroutine-jsr-jmp-instructions",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18243,
 "slug": "plc-one-shot-ons-osr-osf",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18248,
 "slug": "scada-time-synchronization-ntp-ptp",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18253,
 "slug": "dcs-control-modes-manual-auto-cascade",
-"status": "noads"
+"status": "insfail"
 },
 {
 "id": 18258,
 "slug": "data-diode-ot-network-security",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18263,
 "slug": "industrial-protocol-gateway",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18298,
 "slug": "cable-derating-factors",
-"status": "noads"
+"status": "insfail"
 },
 {
 "id": 18305,
 "slug": "faradays-law-electromagnetic-induction",
-"status": "noads"
+"status": "insfail"
 },
 {
 "id": 18311,
 "slug": "transformer-cooling-methods-onan-onaf",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18317,
 "slug": "insulation-resistance-test-megger",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18323,
 "slug": "soft-starter-working-principle",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18329,
 "slug": "transformer-differential-protection-87t",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18335,
 "slug": "potentiometer-working-principle",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18341,
 "slug": "schmitt-trigger-hysteresis",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18347,
 "slug": "instrumentation-amplifier-working",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18354,
 "slug": "pir-sensor-working-principle",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18360,
 "slug": "pulse-width-modulation-duty-cycle",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18366,
 "slug": "snubber-circuit-rc-design",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18372,
 "slug": "maximum-demand-calculation-diversity",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18382,
 "slug": "skin-effect-in-conductors",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18389,
 "slug": "dc-motor-types-series-shunt-compound",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18398,
 "slug": "on-load-tap-changer-oltc",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18405,
 "slug": "step-and-touch-voltage-ieee-80",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18412,
 "slug": "bus-duct-busway-system",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18418,
 "slug": "power-distribution-system-radial-ring",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18424,
 "slug": "vfd-braking-resistor-sizing",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18431,
 "slug": "idmt-relay-characteristics-tms-psm",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18438,
 "slug": "surge-arrester-working-selection",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18444,
 "slug": "per-unit-system-power-system",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18450,
 "slug": "ferranti-effect-transmission-line",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18457,
 "slug": "ntc-ptc-thermistor-working",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18463,
 "slug": "ferrite-bead-emi-filter",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18469,
 "slug": "74hc595-shift-register",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18475,
 "slug": "ttl-vs-cmos-logic-families",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18481,
 "slug": "op-amp-integrator-differentiator",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18488,
 "slug": "active-filter-sallen-and-key",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18494,
 "slug": "ultrasonic-distance-sensor-sr04",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18500,
 "slug": "capacitive-touch-sensor-working",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18507,
 "slug": "decibel-in-electronics-db-dbm",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18514,
 "slug": "pcb-crosstalk-reduction",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18520,
 "slug": "controlled-impedance-pcb-traces",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18526,
 "slug": "power-inverter-working-principle",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18533,
 "slug": "lightning-protection-system-rolling-sphere",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18539,
 "slug": "earth-fault-loop-impedance-zs-testing",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18545,
 "slug": "eddy-current-loss-hysteresis-loss",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18551,
 "slug": "generator-excitation-system-avr",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18557,
 "slug": "transformer-inrush-current",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18563,
 "slug": "infrared-thermography-electrical-panels",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18569,
 "slug": "apfc-panel-working-sizing",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18575,
 "slug": "dv-dt-filter-vfd-motor-protection",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18581,
 "slug": "active-harmonic-filter-working-sizing",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18587,
 "slug": "gis-vs-ais-substation",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18594,
 "slug": "cable-gland-types-selection",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18600,
 "slug": "motor-starting-voltage-dip-calculation",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18606,
 "slug": "electromagnetic-relay-working-coil-suppression",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18612,
 "slug": "capacitor-esr-equivalent-series-resistance",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18619,
 "slug": "spi-vs-i2c-protocol-comparison",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18625,
 "slug": "uart-communication-frame-baud-rate",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18631,
 "slug": "current-mirror-bjt-mosfet-circuit",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18638,
 "slug": "precision-rectifier-op-amp-circuit",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18644,
 "slug": "humidity-sensor-capacitive-rh",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18650,
 "slug": "hall-effect-current-sensor-acs712",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18658,
 "slug": "bode-plot-gain-phase-margin",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18664,
 "slug": "ground-bounce-pcb-simultaneous-switching",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18671,
 "slug": "thermal-vias-pcb-heat-dissipation",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18677,
 "slug": "pfc-circuit-boost-power-factor-correction",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18684,
 "slug": "plc-structured-text-programming",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18689,
@@ -4492,327 +4492,327 @@
 {
 "id": 18713,
 "slug": "sequential-function-chart-sfc-plc",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18720,
 "slug": "plc-high-speed-counter-encoder",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18726,
 "slug": "first-out-alarm-plc-logic",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18732,
 "slug": "report-by-exception-scada-dnp3",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18739,
 "slug": "store-and-forward-scada-historian",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18745,
 "slug": "scada-virtualization-servers-guide",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18751,
 "slug": "alarm-shelving-isa-18-2-dcs",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18757,
 "slug": "marshalling-cabinet-dcs-wiring",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18763,
 "slug": "factory-acceptance-test-dcs-fat-sat",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18770,
 "slug": "industrial-dmz-it-ot-level-3-5",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18776,
 "slug": "ot-patch-management-ics",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18782,
 "slug": "ot-asset-inventory-ics-guide",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18788,
 "slug": "ics-incident-response-plan-ot",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18794,
 "slug": "can-bus-canopen-industrial",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18804,
 "slug": "time-sensitive-networking-tsn",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18810,
 "slug": "rs485-termination-biasing-resistors",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18816,
 "slug": "lorawan-industrial-iot-guide",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18822,
 "slug": "emergency-shutdown-system-esd",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18828,
 "slug": "fire-and-gas-system-process-plants",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18834,
 "slug": "partial-stroke-testing-esd-valves",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18840,
 "slug": "soft-sensor-inferential-measurement",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18846,
 "slug": "anomaly-detection-machine-learning-industrial",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18852,
 "slug": "model-predictive-control-mpc-process",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18866,
 "slug": "flow-conditioner-straight-run",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18872,
 "slug": "target-flow-meter-working-principle",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18878,
 "slug": "proof-pressure-vs-burst-pressure",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18884,
 "slug": "plugged-impulse-line-detection",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18890,
 "slug": "bubbler-level-measurement-purge",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18897,
 "slug": "bulk-solids-level-measurement-silo",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18903,
 "slug": "infrared-thermometer-emissivity-guide",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18909,
 "slug": "bimetallic-thermometer-working-principle",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18915,
 "slug": "sample-conditioning-system-analyzer",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18921,
 "slug": "silica-analyzer-power-plant-water",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18927,
 "slug": "differential-pressure-switch-working",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18933,
 "slug": "vibration-switch-machine-protection",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18939,
 "slug": "control-valve-stiction-detection",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18945,
 "slug": "control-valve-packing-low-emission",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18951,
 "slug": "calibration-certificate-as-found-as-left",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18957,
 "slug": "test-uncertainty-ratio-tur-calibration",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18963,
 "slug": "instrument-datasheet-isa-20-guide",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18969,
 "slug": "instrument-hook-up-drawing-guide",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18976,
 "slug": "plc-pid-instruction-configuration",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18983,
 "slug": "plc-interrupt-event-periodic-tasks",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18989,
 "slug": "plc-simulation-software-virtual-commissioning",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 18995,
 "slug": "plc-indirect-addressing-pointers",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 19001,
 "slug": "thin-client-hmi-web-scada",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 19007,
 "slug": "scada-polling-rate-optimization",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 19013,
 "slug": "scada-reporting-historian-reports",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 19019,
 "slug": "override-control-selector-dcs",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 19026,
 "slug": "control-loop-performance-monitoring-clpm",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 19032,
 "slug": "dcs-online-download-configuration-in-run",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 19039,
 "slug": "ethernet-apl-advanced-physical-layer",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 19045,
 "slug": "isa100-wireless-isa100-11a",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 19051,
 "slug": "ot-vulnerability-assessment-ics",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 19057,
 "slug": "application-allowlisting-ics-hmi",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 19063,
 "slug": "ot-intrusion-detection-system-ics",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 19069,
 "slug": "industrial-firewall-deep-packet-inspection",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 19075,
 "slug": "private-5g-industrial-automation",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 19081,
 "slug": "industrial-fiber-optic-network",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 19087,
 "slug": "safety-plc-sil-3-controller",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 19093,
 "slug": "spurious-trip-rate-sis-mttfs",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 19099,
 "slug": "safety-requirements-specification-iec-61511",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 19105,
 "slug": "generative-ai-industrial-automation",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 19111,
 "slug": "reinforcement-learning-process-control",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 19117,
 "slug": "remaining-useful-life-prediction",
-"status": "noads"
+"status": "hasads"
 },
 {
 "id": 19123,
