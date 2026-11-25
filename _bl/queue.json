@@ -1,0 +1,2594 @@
+[
+{
+"row": 2,
+"article": "https://www.instrumentationblog.in/2-wire-3-wire-4-wire-transmitters-in-industrial-automation/",
+"anchor": "4-20 mA loop resistance calculator",
+"target": "https://zentacalculator.com/engineering/loop-resistance/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 3,
+"article": "https://www.instrumentationblog.in/4-to-20-ma-current-loop-explained/",
+"anchor": "4-20 mA scaling calculator",
+"target": "https://zentacalculator.com/engineering/4-20ma-scaling/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 4,
+"article": "https://www.instrumentationblog.in/4-to-20-ma-current-loop-explained/",
+"anchor": "4-20 mA loop resistance calculator",
+"target": "https://zentacalculator.com/engineering/loop-resistance/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 5,
+"article": "https://www.instrumentationblog.in/4-to-20-ma-signal-conversion/",
+"anchor": "signal converter calculator",
+"target": "https://zentacalculator.com/engineering/signal-converter/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 6,
+"article": "https://www.instrumentationblog.in/4-to-20-ma-signal-conversion-calculator/",
+"anchor": "4-20 mA scaling calculator",
+"target": "https://zentacalculator.com/engineering/4-20ma-scaling/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 7,
+"article": "https://www.instrumentationblog.in/absolute-vs-gauge-pressure/",
+"anchor": "absolute to gauge pressure calculator",
+"target": "https://zentacalculator.com/engineering/absolute-gauge-pressure/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 8,
+"article": "https://www.instrumentationblog.in/actual-flow-standard-flow-normal-flow/",
+"anchor": "gas flow correction calculator",
+"target": "https://zentacalculator.com/engineering/gas-flow-correction/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 9,
+"article": "https://www.instrumentationblog.in/analog-signal-resolution-in-plc/",
+"anchor": "PLC analog scaling calculator",
+"target": "https://zentacalculator.com/engineering/plc-analog-scaling/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 10,
+"article": "https://www.instrumentationblog.in/automatic-tank-gauging-explained/",
+"anchor": "cone bottom tank volume calculator",
+"target": "https://zentacalculator.com/engineering/cone-bottom-tank-volume/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 11,
+"article": "https://www.instrumentationblog.in/automatic-tank-gauging-explained/",
+"anchor": "horizontal tank volume calculator",
+"target": "https://zentacalculator.com/engineering/horizontal-tank-volume/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 12,
+"article": "https://www.instrumentationblog.in/averaging-pitot-tube-working-principle/",
+"anchor": "pitot tube velocity calculator",
+"target": "https://zentacalculator.com/engineering/pitot-tube-velocity/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 13,
+"article": "https://www.instrumentationblog.in/bernoullis-equation-formula/",
+"anchor": "pipe pressure drop calculator",
+"target": "https://zentacalculator.com/engineering/darcy-weisbach-head-loss/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 14,
+"article": "https://www.instrumentationblog.in/bubbler-level-measurement-purge/",
+"anchor": "bubbler level calculator",
+"target": "https://zentacalculator.com/engineering/bubbler-level/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 15,
+"article": "https://www.instrumentationblog.in/calculate-heat-loss-in-piping/",
+"anchor": "convection heat transfer calculator",
+"target": "https://zentacalculator.com/engineering/convection-heat-transfer/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 16,
+"article": "https://www.instrumentationblog.in/calculate-heat-loss-in-piping/",
+"anchor": "pipe heat loss calculator",
+"target": "https://zentacalculator.com/engineering/pipe-heat-loss/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 17,
+"article": "https://www.instrumentationblog.in/calculate-industrial-chiller-capacity/",
+"anchor": "chiller tonnage calculator",
+"target": "https://zentacalculator.com/engineering/chiller-tonnage/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 18,
+"article": "https://www.instrumentationblog.in/calculate-pressure-drop-in-pipes/",
+"anchor": "pipe pressure drop calculator",
+"target": "https://zentacalculator.com/engineering/darcy-weisbach-head-loss/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 19,
+"article": "https://www.instrumentationblog.in/calculate-pressure-drop-in-pipes/",
+"anchor": "Hazen-Williams calculator",
+"target": "https://zentacalculator.com/engineering/hazen-williams/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 20,
+"article": "https://www.instrumentationblog.in/calibration-certificate-as-found-as-left/",
+"anchor": "calibration error calculator",
+"target": "https://zentacalculator.com/engineering/calibration-error/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 21,
+"article": "https://www.instrumentationblog.in/calibration-error-calculation/",
+"anchor": "calibration error calculator",
+"target": "https://zentacalculator.com/engineering/calibration-error/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 22,
+"article": "https://www.instrumentationblog.in/calibration-error-calculation/",
+"anchor": "instrument accuracy calculator",
+"target": "https://zentacalculator.com/engineering/instrument-accuracy/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 23,
+"article": "https://www.instrumentationblog.in/calibration-process-differential-pressure-transmitter/",
+"anchor": "5-Point calibration calculator",
+"target": "https://zentacalculator.com/engineering/five-point-calibration/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 24,
+"article": "https://www.instrumentationblog.in/callendar-van-dusen-equation-rtd/",
+"anchor": "pt100 / pt1000 resistance calculator",
+"target": "https://zentacalculator.com/engineering/pt100-resistance/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 25,
+"article": "https://www.instrumentationblog.in/centrifugal-vs-positive-displacement-pump/",
+"anchor": "pump power calculator",
+"target": "https://zentacalculator.com/engineering/pump-power/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 26,
+"article": "https://www.instrumentationblog.in/control-valve-flow-coefficient/",
+"anchor": "control valve kv / cv calculator",
+"target": "https://zentacalculator.com/engineering/control-valve-kv-cv/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 27,
+"article": "https://www.instrumentationblog.in/control-valve-flow-coefficient/",
+"anchor": "valve authority calculator",
+"target": "https://zentacalculator.com/engineering/valve-authority/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 28,
+"article": "https://www.instrumentationblog.in/control-valve-rangeability-turndown/",
+"anchor": "control valve kv / cv calculator",
+"target": "https://zentacalculator.com/engineering/control-valve-kv-cv/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 29,
+"article": "https://www.instrumentationblog.in/control-valve-rangeability-turndown/",
+"anchor": "turndown ratio calculator",
+"target": "https://zentacalculator.com/engineering/turndown-ratio/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 30,
+"article": "https://www.instrumentationblog.in/control-valve-sizing-basic-requirements/",
+"anchor": "control valve kv / cv calculator",
+"target": "https://zentacalculator.com/engineering/control-valve-kv-cv/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 31,
+"article": "https://www.instrumentationblog.in/coriolis-flow-meter-working-principle/",
+"anchor": "mass flow rate calculator",
+"target": "https://zentacalculator.com/engineering/mass-flow-rate/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 32,
+"article": "https://www.instrumentationblog.in/dcs-pid-auto-tune-step-test-relay-feedback-ziegler-nichols/",
+"anchor": "FOPDT step test calculator",
+"target": "https://zentacalculator.com/engineering/fopdt-step-test/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 33,
+"article": "https://www.instrumentationblog.in/dcs-pid-auto-tune-step-test-relay-feedback-ziegler-nichols/",
+"anchor": "Ziegler-Nichols PID tuning calculator",
+"target": "https://zentacalculator.com/engineering/ziegler-nichols-pid-tuning/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 34,
+"article": "https://www.instrumentationblog.in/dew-point-in-instrument-air-risks/",
+"anchor": "dew point calculator",
+"target": "https://zentacalculator.com/engineering/dew-point/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 35,
+"article": "https://www.instrumentationblog.in/difference-between-2-wire-rtd-3-wire-rtd-and-4-wire-rtd/",
+"anchor": "RTD lead wire error calculator",
+"target": "https://zentacalculator.com/engineering/rtd-lead-wire-error/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 36,
+"article": "https://www.instrumentationblog.in/difference-between-accuracy-and-precision/",
+"anchor": "instrument accuracy calculator",
+"target": "https://zentacalculator.com/engineering/instrument-accuracy/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 37,
+"article": "https://www.instrumentationblog.in/difference-between-mass-flow-and-volumetric-flow/",
+"anchor": "mass flow rate calculator",
+"target": "https://zentacalculator.com/engineering/mass-flow-rate/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 38,
+"article": "https://www.instrumentationblog.in/dp-flow-transmitter-calibration-5-point/",
+"anchor": "DP flow square root calculator",
+"target": "https://zentacalculator.com/engineering/dp-flow-square-root/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 39,
+"article": "https://www.instrumentationblog.in/dp-level-measurement-varying-density/",
+"anchor": "DP level transmitter range calculator",
+"target": "https://zentacalculator.com/engineering/dp-level-range/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 40,
+"article": "https://www.instrumentationblog.in/dp-transmitter-level-measurement/",
+"anchor": "cone bottom tank volume calculator",
+"target": "https://zentacalculator.com/engineering/cone-bottom-tank-volume/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 41,
+"article": "https://www.instrumentationblog.in/flow-meter-accuracy-reading-vs-full-scale/",
+"anchor": "instrument accuracy calculator",
+"target": "https://zentacalculator.com/engineering/instrument-accuracy/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 42,
+"article": "https://www.instrumentationblog.in/flow-meter-k-factor-calculations/",
+"anchor": "flow meter K-Factor calculator",
+"target": "https://zentacalculator.com/engineering/flow-meter-k-factor/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 43,
+"article": "https://www.instrumentationblog.in/flow-nozzle-vs-orifice-plate-vs-venturi/",
+"anchor": "orifice plate flow calculator",
+"target": "https://zentacalculator.com/engineering/orifice-flow/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 44,
+"article": "https://www.instrumentationblog.in/flow-nozzle-vs-orifice-plate-vs-venturi/",
+"anchor": "venturi meter flow calculator",
+"target": "https://zentacalculator.com/engineering/venturi-flow/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 45,
+"article": "https://www.instrumentationblog.in/hammer-effect-in-pressure-gauges/",
+"anchor": "water hammer calculator",
+"target": "https://zentacalculator.com/engineering/water-hammer/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 46,
+"article": "https://www.instrumentationblog.in/hardware-fault-tolerance-sff-iec-61508/",
+"anchor": "safe failure fraction calculator",
+"target": "https://zentacalculator.com/engineering/safe-failure-fraction/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 47,
+"article": "https://www.instrumentationblog.in/how-to-test-an-rtd-pt100/",
+"anchor": "pt100 / pt1000 resistance calculator",
+"target": "https://zentacalculator.com/engineering/pt100-resistance/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 48,
+"article": "https://www.instrumentationblog.in/how-to-test-an-rtd-pt100/",
+"anchor": "RTD lead wire error calculator",
+"target": "https://zentacalculator.com/engineering/rtd-lead-wire-error/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 49,
+"article": "https://www.instrumentationblog.in/how-to-tune-a-pid-controller/",
+"anchor": "lambda tuning calculator",
+"target": "https://zentacalculator.com/engineering/lambda-tuning/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 50,
+"article": "https://www.instrumentationblog.in/how-ultrasonic-flow-meter-works/",
+"anchor": "cooling tower calculator",
+"target": "https://zentacalculator.com/engineering/cooling-tower/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 51,
+"article": "https://www.instrumentationblog.in/humidity-sensor-capacitive-rh/",
+"anchor": "dew point calculator",
+"target": "https://zentacalculator.com/engineering/dew-point/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 52,
+"article": "https://www.instrumentationblog.in/hydrostatic-level-measurement/",
+"anchor": "hydrostatic pressure & tank level calculator",
+"target": "https://zentacalculator.com/engineering/hydrostatic-pressure/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 53,
+"article": "https://www.instrumentationblog.in/hydrostatic-level-measurement/",
+"anchor": "pressure to head calculator",
+"target": "https://zentacalculator.com/engineering/pressure-to-head/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 54,
+"article": "https://www.instrumentationblog.in/hydrostatic-testing-in-oil-gas-industry/",
+"anchor": "barlow's formula calculator",
+"target": "https://zentacalculator.com/engineering/barlow-formula/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 55,
+"article": "https://www.instrumentationblog.in/hydrostatic-testing-in-oil-gas-industry/",
+"anchor": "hydrostatic test pressure calculator",
+"target": "https://zentacalculator.com/engineering/hydrostatic-test-pressure/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 56,
+"article": "https://www.instrumentationblog.in/instrument-loop-impedance-4-20ma-accuracy/",
+"anchor": "4-20 mA loop resistance calculator",
+"target": "https://zentacalculator.com/engineering/loop-resistance/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 57,
+"article": "https://www.instrumentationblog.in/interface-level-measurement/",
+"anchor": "interface level calculator",
+"target": "https://zentacalculator.com/engineering/interface-level/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 58,
+"article": "https://www.instrumentationblog.in/joukowsky-equation-water-hammer/",
+"anchor": "water hammer calculator",
+"target": "https://zentacalculator.com/engineering/water-hammer/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 59,
+"article": "https://www.instrumentationblog.in/load-cell-working-principle/",
+"anchor": "beam deflection calculator",
+"target": "https://zentacalculator.com/engineering/beam-deflection/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 60,
+"article": "https://www.instrumentationblog.in/lpg-level-measurement-bullet-sphere/",
+"anchor": "spherical tank volume calculator",
+"target": "https://zentacalculator.com/engineering/spherical-tank-volume/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 61,
+"article": "https://www.instrumentationblog.in/measure-flow-rate-level-sensors/",
+"anchor": "weir flow calculator",
+"target": "https://zentacalculator.com/engineering/weir-flow/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 62,
+"article": "https://www.instrumentationblog.in/metal-tube-rotameter-working/",
+"anchor": "rotameter correction calculator",
+"target": "https://zentacalculator.com/engineering/rotameter-correction/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 63,
+"article": "https://www.instrumentationblog.in/namur-ne43-standard-explained/",
+"anchor": "4-20 mA loop resistance calculator",
+"target": "https://zentacalculator.com/engineering/loop-resistance/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 64,
+"article": "https://www.instrumentationblog.in/npsh-and-cavitation-explained/",
+"anchor": "NPSH available calculator",
+"target": "https://zentacalculator.com/engineering/npsh-available/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 65,
+"article": "https://www.instrumentationblog.in/open-channel-flow-measurement/",
+"anchor": "manning equation calculator",
+"target": "https://zentacalculator.com/engineering/manning-equation/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 66,
+"article": "https://www.instrumentationblog.in/orifice-plate-flow-measurement/",
+"anchor": "orifice plate flow calculator",
+"target": "https://zentacalculator.com/engineering/orifice-flow/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 67,
+"article": "https://www.instrumentationblog.in/orifice-plate-sizing-guide/",
+"anchor": "orifice plate flow calculator",
+"target": "https://zentacalculator.com/engineering/orifice-flow/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 68,
+"article": "https://www.instrumentationblog.in/parshall-flume-open-channel-flow/",
+"anchor": "manning equation calculator",
+"target": "https://zentacalculator.com/engineering/manning-equation/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 69,
+"article": "https://www.instrumentationblog.in/pfdavg-calculation-formula/",
+"anchor": "PFDavg calculator",
+"target": "https://zentacalculator.com/engineering/pfd-avg/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 70,
+"article": "https://www.instrumentationblog.in/pid-controller-tuning-guide/",
+"anchor": "Ziegler-Nichols PID tuning calculator",
+"target": "https://zentacalculator.com/engineering/ziegler-nichols-pid-tuning/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 71,
+"article": "https://www.instrumentationblog.in/pid-controller-tuning-parameters/",
+"anchor": "lambda tuning calculator",
+"target": "https://zentacalculator.com/engineering/lambda-tuning/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 72,
+"article": "https://www.instrumentationblog.in/pipe-expansion-loop-in-steam-piping/",
+"anchor": "thermal expansion calculator",
+"target": "https://zentacalculator.com/engineering/thermal-expansion/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 73,
+"article": "https://www.instrumentationblog.in/plate-heat-exchanger-working-principle/",
+"anchor": "LMTD calculator",
+"target": "https://zentacalculator.com/engineering/lmtd/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 74,
+"article": "https://www.instrumentationblog.in/plc-analog-scaling-raw-count/",
+"anchor": "4-20 mA scaling calculator",
+"target": "https://zentacalculator.com/engineering/4-20ma-scaling/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 75,
+"article": "https://www.instrumentationblog.in/plc-analog-scaling-raw-count/",
+"anchor": "PLC analog scaling calculator",
+"target": "https://zentacalculator.com/engineering/plc-analog-scaling/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 76,
+"article": "https://www.instrumentationblog.in/pressure-transmitter-accuracy-specifications/",
+"anchor": "instrument accuracy calculator",
+"target": "https://zentacalculator.com/engineering/instrument-accuracy/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 77,
+"article": "https://www.instrumentationblog.in/proof-test-interval-coverage-safety-transmitters-iec-61511/",
+"anchor": "proof test coverage calculator",
+"target": "https://zentacalculator.com/engineering/proof-test-coverage/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 78,
+"article": "https://www.instrumentationblog.in/pt100-rtd-calibration-guide/",
+"anchor": "pt100 / pt1000 resistance calculator",
+"target": "https://zentacalculator.com/engineering/pt100-resistance/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 79,
+"article": "https://www.instrumentationblog.in/radar-level-selection-non-contact-vs-guided-wave/",
+"anchor": "ultrasonic level calculator",
+"target": "https://zentacalculator.com/engineering/ultrasonic-level/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 80,
+"article": "https://www.instrumentationblog.in/rotameter-selection-10-factors/",
+"anchor": "rotameter correction calculator",
+"target": "https://zentacalculator.com/engineering/rotameter-correction/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 81,
+"article": "https://www.instrumentationblog.in/rtd-pt100-vs-pt1000-differences/",
+"anchor": "pt100 / pt1000 resistance calculator",
+"target": "https://zentacalculator.com/engineering/pt100-resistance/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 82,
+"article": "https://www.instrumentationblog.in/rtd-self-heating-error/",
+"anchor": "pt100 / pt1000 resistance calculator",
+"target": "https://zentacalculator.com/engineering/pt100-resistance/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 83,
+"article": "https://www.instrumentationblog.in/sil-determination-risk-graph-lopa-consequence-severity-matrix/",
+"anchor": "PFDavg calculator",
+"target": "https://zentacalculator.com/engineering/pfd-avg/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 84,
+"article": "https://www.instrumentationblog.in/sil-verification/",
+"anchor": "PFDavg calculator",
+"target": "https://zentacalculator.com/engineering/pfd-avg/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 85,
+"article": "https://www.instrumentationblog.in/single-stage-and-multi-stage-compressor/",
+"anchor": "compressor power calculator",
+"target": "https://zentacalculator.com/engineering/compressor-power/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 86,
+"article": "https://www.instrumentationblog.in/sis-final-element-reliability/",
+"anchor": "availability calculator",
+"target": "https://zentacalculator.com/engineering/availability-mtbf/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 87,
+"article": "https://www.instrumentationblog.in/square-root-extraction-dp-flow/",
+"anchor": "DP flow square root calculator",
+"target": "https://zentacalculator.com/engineering/dp-flow-square-root/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 88,
+"article": "https://www.instrumentationblog.in/square-root-extraction-dp-flow/",
+"anchor": "low flow cutoff calculator",
+"target": "https://zentacalculator.com/engineering/low-flow-cutoff/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 89,
+"article": "https://www.instrumentationblog.in/strain-gauge-working-principle/",
+"anchor": "bending stress calculator",
+"target": "https://zentacalculator.com/engineering/bending-stress/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 90,
+"article": "https://www.instrumentationblog.in/tank-volume-from-level-measurement/",
+"anchor": "horizontal tank volume calculator",
+"target": "https://zentacalculator.com/engineering/horizontal-tank-volume/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 91,
+"article": "https://www.instrumentationblog.in/tank-volume-from-level-measurement/",
+"anchor": "vertical tank volume calculator",
+"target": "https://zentacalculator.com/engineering/vertical-tank-volume/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 92,
+"article": "https://www.instrumentationblog.in/temperature-sensor-response-time/",
+"anchor": "sensor response time calculator",
+"target": "https://zentacalculator.com/engineering/sensor-response-time/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 93,
+"article": "https://www.instrumentationblog.in/thermal-mass-flow-meter-working/",
+"anchor": "mass flow rate calculator",
+"target": "https://zentacalculator.com/engineering/mass-flow-rate/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 94,
+"article": "https://www.instrumentationblog.in/turbine-flow-meter-working-principle/",
+"anchor": "flow meter K-Factor calculator",
+"target": "https://zentacalculator.com/engineering/flow-meter-k-factor/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 95,
+"article": "https://www.instrumentationblog.in/turndown-ratio-in-flow-meters/",
+"anchor": "flow meter K-Factor calculator",
+"target": "https://zentacalculator.com/engineering/flow-meter-k-factor/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 96,
+"article": "https://www.instrumentationblog.in/turndown-ratio-in-flow-meters/",
+"anchor": "turndown ratio calculator",
+"target": "https://zentacalculator.com/engineering/turndown-ratio/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 97,
+"article": "https://www.instrumentationblog.in/types-of-heat-exchangers/",
+"anchor": "LMTD calculator",
+"target": "https://zentacalculator.com/engineering/lmtd/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 98,
+"article": "https://www.instrumentationblog.in/u-tube-manometer-working-formula/",
+"anchor": "manometer calculator",
+"target": "https://zentacalculator.com/engineering/manometer/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 99,
+"article": "https://www.instrumentationblog.in/ultrasonic-level-transmitter-working/",
+"anchor": "ultrasonic level calculator",
+"target": "https://zentacalculator.com/engineering/ultrasonic-level/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 100,
+"article": "https://www.instrumentationblog.in/venturi-tube-flow-meter/",
+"anchor": "venturi meter flow calculator",
+"target": "https://zentacalculator.com/engineering/venturi-flow/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 101,
+"article": "https://www.instrumentationblog.in/vfd-sizing-selection-guide/",
+"anchor": "fan power & fan affinity laws calculator",
+"target": "https://zentacalculator.com/engineering/fan-affinity-laws/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 102,
+"article": "https://www.instrumentationblog.in/vfd-sizing-selection-guide/",
+"anchor": "pump affinity laws calculator",
+"target": "https://zentacalculator.com/engineering/pump-affinity-laws/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 103,
+"article": "https://www.instrumentationblog.in/viscosity-measurement-explained/",
+"anchor": "kinematic viscosity calculator",
+"target": "https://zentacalculator.com/engineering/kinematic-viscosity/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 104,
+"article": "https://www.instrumentationblog.in/vortex-flow-meter-troubleshooting/",
+"anchor": "vortex shedding frequency calculator",
+"target": "https://zentacalculator.com/engineering/vortex-shedding-frequency/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 105,
+"article": "https://www.instrumentationblog.in/vortex-shedding-flowmeter-working/",
+"anchor": "vortex shedding frequency calculator",
+"target": "https://zentacalculator.com/engineering/vortex-shedding-frequency/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 106,
+"article": "https://www.instrumentationblog.in/wet-leg-dry-leg-level-measurement/",
+"anchor": "DP level transmitter range calculator",
+"target": "https://zentacalculator.com/engineering/dp-level-range/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 107,
+"article": "https://www.instrumentationblog.in/what-is-an-hvac-system/",
+"anchor": "air changes per hour calculator",
+"target": "https://zentacalculator.com/engineering/air-changes-per-hour/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 108,
+"article": "https://www.instrumentationblog.in/what-is-mmscfd-natural-gas-flow-rate/",
+"anchor": "gas flow correction calculator",
+"target": "https://zentacalculator.com/engineering/gas-flow-correction/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 109,
+"article": "https://www.instrumentationblog.in/what-is-reynolds-number/",
+"anchor": "reynolds number calculator",
+"target": "https://zentacalculator.com/engineering/reynolds-number/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 110,
+"article": "https://www.instrumentationblog.in/what-is-specific-gravity/",
+"anchor": "API gravity calculator",
+"target": "https://zentacalculator.com/engineering/api-gravity/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 111,
+"article": "https://www.instrumentationblog.in/zero-elevation-and-zero-suppression/",
+"anchor": "hydrostatic pressure & tank level calculator",
+"target": "https://zentacalculator.com/engineering/hydrostatic-pressure/",
+"topic": "Instrumentation & process",
+"status": "todo"
+},
+{
+"row": 112,
+"article": "https://www.instrumentationblog.in/active-harmonic-filter-working-sizing/",
+"anchor": "THD calculator",
+"target": "https://zentacalculator.com/electrical/thd/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 113,
+"article": "https://www.instrumentationblog.in/active-reactive-and-apparent-power/",
+"anchor": "kVA to kW converter",
+"target": "https://zentacalculator.com/electrical/kva-to-kw/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 114,
+"article": "https://www.instrumentationblog.in/alternator-working-principle-explained/",
+"anchor": "generator frequency calculator",
+"target": "https://zentacalculator.com/electrical/generator-frequency/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 115,
+"article": "https://www.instrumentationblog.in/amf-panel-working-dg-auto-start/",
+"anchor": "generator size calculator",
+"target": "https://zentacalculator.com/electrical/generator-size/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 116,
+"article": "https://www.instrumentationblog.in/autotransformer-working-principle/",
+"anchor": "autotransformer calculator",
+"target": "https://zentacalculator.com/electrical/autotransformer/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 117,
+"article": "https://www.instrumentationblog.in/busbar-sizing-calculation-guide/",
+"anchor": "busbar size calculator",
+"target": "https://zentacalculator.com/electrical/busbar-size/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 118,
+"article": "https://www.instrumentationblog.in/cable-size-for-load-current/",
+"anchor": "cable voltage drop calculator",
+"target": "https://zentacalculator.com/electrical/cable-voltage-drop/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 119,
+"article": "https://www.instrumentationblog.in/cable-sizing-motor-feeders/",
+"anchor": "cable voltage drop calculator",
+"target": "https://zentacalculator.com/electrical/cable-voltage-drop/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 120,
+"article": "https://www.instrumentationblog.in/calculate-battery-backup-time/",
+"anchor": "battery bank size calculator",
+"target": "https://zentacalculator.com/electrical/battery-bank-size/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 121,
+"article": "https://www.instrumentationblog.in/calculate-short-circuit-fault-current/",
+"anchor": "Per-Unit system calculator",
+"target": "https://zentacalculator.com/electrical/per-unit/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 122,
+"article": "https://www.instrumentationblog.in/calculate-short-circuit-fault-current/",
+"anchor": "transformer Short-Circuit current calculator",
+"target": "https://zentacalculator.com/electrical/transformer-short-circuit/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 123,
+"article": "https://www.instrumentationblog.in/capacitor-bank-sizing-power-factor-correction/",
+"anchor": "capacitor bank kVAr to \u00b5F calculator",
+"target": "https://zentacalculator.com/electrical/capacitor-bank-kvar/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 124,
+"article": "https://www.instrumentationblog.in/capacitor-bank-sizing-power-factor-correction/",
+"anchor": "power factor correction calculator",
+"target": "https://zentacalculator.com/electrical/power-factor-correction/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 125,
+"article": "https://www.instrumentationblog.in/ct-burden-calculation-va/",
+"anchor": "CT burden calculator",
+"target": "https://zentacalculator.com/electrical/ct-burden/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 126,
+"article": "https://www.instrumentationblog.in/dol-vs-star-delta-starter-which-to-use/",
+"anchor": "motor starting current calculator",
+"target": "https://zentacalculator.com/electrical/motor-starting-current/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 127,
+"article": "https://www.instrumentationblog.in/dol-vs-star-delta-starter-which-to-use/",
+"anchor": "Star-Delta transformation calculator",
+"target": "https://zentacalculator.com/electrical/star-delta-transformation/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 128,
+"article": "https://www.instrumentationblog.in/earth-conductor-size-calculation/",
+"anchor": "earth conductor size calculator",
+"target": "https://zentacalculator.com/electrical/earth-conductor-size/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 129,
+"article": "https://www.instrumentationblog.in/earth-fault-loop-impedance-zs-testing/",
+"anchor": "earth conductor size calculator",
+"target": "https://zentacalculator.com/electrical/earth-conductor-size/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 130,
+"article": "https://www.instrumentationblog.in/earth-fault-loop-impedance-zs-testing/",
+"anchor": "earth fault loop impedance calculator",
+"target": "https://zentacalculator.com/electrical/earth-fault-loop-impedance/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 131,
+"article": "https://www.instrumentationblog.in/earthing-aspects-in-industrial-process-plants/",
+"anchor": "earthing resistance calculator",
+"target": "https://zentacalculator.com/electrical/earthing-resistance/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 132,
+"article": "https://www.instrumentationblog.in/earthing-resistance-calculation/",
+"anchor": "earthing resistance calculator",
+"target": "https://zentacalculator.com/electrical/earthing-resistance/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 133,
+"article": "https://www.instrumentationblog.in/electrical-conductivity-explained/",
+"anchor": "wire resistance calculator",
+"target": "https://zentacalculator.com/electrical/wire-resistance/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 134,
+"article": "https://www.instrumentationblog.in/electrical-energy-consumption-calculation/",
+"anchor": "energy meter constant calculator",
+"target": "https://zentacalculator.com/electrical/energy-meter-constant/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 135,
+"article": "https://www.instrumentationblog.in/ferranti-effect-transmission-line/",
+"anchor": "ferranti effect calculator",
+"target": "https://zentacalculator.com/electrical/ferranti-effect/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 136,
+"article": "https://www.instrumentationblog.in/generator-excitation-system-avr/",
+"anchor": "generator power angle calculator",
+"target": "https://zentacalculator.com/electrical/generator-power-angle/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 137,
+"article": "https://www.instrumentationblog.in/harmonic-distortion-thd-calculation-power-systems/",
+"anchor": "THD calculator",
+"target": "https://zentacalculator.com/electrical/thd/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 138,
+"article": "https://www.instrumentationblog.in/how-to-calculate-capacitor-bank-kvar-formula/",
+"anchor": "capacitor bank kVAr to \u00b5F calculator",
+"target": "https://zentacalculator.com/electrical/capacitor-bank-kvar/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 139,
+"article": "https://www.instrumentationblog.in/how-to-calculate-capacitor-bank-kvar-formula/",
+"anchor": "power factor correction calculator",
+"target": "https://zentacalculator.com/electrical/power-factor-correction/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 140,
+"article": "https://www.instrumentationblog.in/how-to-calculate-generator-size-industrial-load/",
+"anchor": "generator size calculator",
+"target": "https://zentacalculator.com/electrical/generator-size/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 141,
+"article": "https://www.instrumentationblog.in/how-to-calculate-three-phase-power/",
+"anchor": "kW to amps calculator",
+"target": "https://zentacalculator.com/electrical/kw-to-amps/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 142,
+"article": "https://www.instrumentationblog.in/how-to-calculate-transformer-kva-rating/",
+"anchor": "transformer current calculator",
+"target": "https://zentacalculator.com/electrical/transformer-current/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 143,
+"article": "https://www.instrumentationblog.in/how-to-calculate-transformer-kva-rating/",
+"anchor": "transformer size calculator",
+"target": "https://zentacalculator.com/electrical/transformer-size/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 144,
+"article": "https://www.instrumentationblog.in/induction-motor-slip-explained/",
+"anchor": "induction motor slip and synchronous speed calculator",
+"target": "https://zentacalculator.com/electrical/induction-motor-slip/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 145,
+"article": "https://www.instrumentationblog.in/insulation-resistance-test-megger/",
+"anchor": "polarization index calculator",
+"target": "https://zentacalculator.com/electrical/polarization-index/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 146,
+"article": "https://www.instrumentationblog.in/isolation-transformer-working-uses/",
+"anchor": "transformer turns ratio calculator",
+"target": "https://zentacalculator.com/electrical/transformer-turns-ratio/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 147,
+"article": "https://www.instrumentationblog.in/lighting-design-calculation/",
+"anchor": "lumen method calculator",
+"target": "https://zentacalculator.com/electrical/lumen-method/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 148,
+"article": "https://www.instrumentationblog.in/lightning-protection-system-rolling-sphere/",
+"anchor": "rolling sphere calculator",
+"target": "https://zentacalculator.com/electrical/rolling-sphere/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 149,
+"article": "https://www.instrumentationblog.in/maximum-demand-calculation-diversity/",
+"anchor": "load factor calculator",
+"target": "https://zentacalculator.com/electrical/load-factor/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 150,
+"article": "https://www.instrumentationblog.in/motor-efficiency-classes-iec-60034/",
+"anchor": "Three-Phase motor power & current calculator",
+"target": "https://zentacalculator.com/electrical/three-phase-motor-power/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 151,
+"article": "https://www.instrumentationblog.in/motor-full-load-current-flc/",
+"anchor": "Three-Phase motor power & current calculator",
+"target": "https://zentacalculator.com/electrical/three-phase-motor-power/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 152,
+"article": "https://www.instrumentationblog.in/motor-nameplate-details-explained/",
+"anchor": "induction motor slip and synchronous speed calculator",
+"target": "https://zentacalculator.com/electrical/induction-motor-slip/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 153,
+"article": "https://www.instrumentationblog.in/motor-protection-relay-types/",
+"anchor": "voltage unbalance calculator",
+"target": "https://zentacalculator.com/electrical/voltage-unbalance/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 154,
+"article": "https://www.instrumentationblog.in/motor-starting-methods-compared/",
+"anchor": "motor starting current calculator",
+"target": "https://zentacalculator.com/electrical/motor-starting-current/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 155,
+"article": "https://www.instrumentationblog.in/motor-starting-methods-compared/",
+"anchor": "motor starting voltage dip calculator",
+"target": "https://zentacalculator.com/electrical/motor-starting-voltage-dip/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 156,
+"article": "https://www.instrumentationblog.in/motor-starting-voltage-dip-calculation/",
+"anchor": "motor starting voltage dip calculator",
+"target": "https://zentacalculator.com/electrical/motor-starting-voltage-dip/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 157,
+"article": "https://www.instrumentationblog.in/motor-winding-resistance-test/",
+"anchor": "motor winding resistance unbalance calculator",
+"target": "https://zentacalculator.com/electrical/motor-winding-resistance-unbalance/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 158,
+"article": "https://www.instrumentationblog.in/neutral-conductor-sizing-harmonics/",
+"anchor": "neutral current calculator with third harmonics",
+"target": "https://zentacalculator.com/electrical/neutral-current-harmonics/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 159,
+"article": "https://www.instrumentationblog.in/neutral-conductor-sizing-harmonics/",
+"anchor": "THD calculator",
+"target": "https://zentacalculator.com/electrical/thd/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 160,
+"article": "https://www.instrumentationblog.in/per-unit-system-power-system/",
+"anchor": "Per-Unit system calculator",
+"target": "https://zentacalculator.com/electrical/per-unit/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 161,
+"article": "https://www.instrumentationblog.in/power-factor-improvement-calculation/",
+"anchor": "power factor correction calculator",
+"target": "https://zentacalculator.com/electrical/power-factor-correction/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 162,
+"article": "https://www.instrumentationblog.in/power-factor-kw-kva-kvar/",
+"anchor": "kVA to kW converter",
+"target": "https://zentacalculator.com/electrical/kva-to-kw/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 163,
+"article": "https://www.instrumentationblog.in/power-factor-kw-kva-kvar/",
+"anchor": "power factor correction calculator",
+"target": "https://zentacalculator.com/electrical/power-factor-correction/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 164,
+"article": "https://www.instrumentationblog.in/power-harmonics-explained/",
+"anchor": "THD calculator",
+"target": "https://zentacalculator.com/electrical/thd/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 165,
+"article": "https://www.instrumentationblog.in/power-quality-issues-vfd-plc/",
+"anchor": "voltage unbalance calculator",
+"target": "https://zentacalculator.com/electrical/voltage-unbalance/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 166,
+"article": "https://www.instrumentationblog.in/short-circuit-current-calculation/",
+"anchor": "earth conductor size calculator",
+"target": "https://zentacalculator.com/electrical/earth-conductor-size/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 167,
+"article": "https://www.instrumentationblog.in/short-circuit-current-calculation/",
+"anchor": "transformer Short-Circuit current calculator",
+"target": "https://zentacalculator.com/electrical/transformer-short-circuit/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 168,
+"article": "https://www.instrumentationblog.in/single-phase-vs-three-phase-power/",
+"anchor": "kW to amps calculator",
+"target": "https://zentacalculator.com/electrical/kw-to-amps/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 169,
+"article": "https://www.instrumentationblog.in/skin-effect-in-conductors/",
+"anchor": "skin depth calculator",
+"target": "https://zentacalculator.com/electrical/skin-depth/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 170,
+"article": "https://www.instrumentationblog.in/soft-starter-working-principle/",
+"anchor": "soft starter current calculator",
+"target": "https://zentacalculator.com/electrical/soft-starter-current/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 171,
+"article": "https://www.instrumentationblog.in/solar-pv-system-sizing-calculation/",
+"anchor": "solar string sizing calculator",
+"target": "https://zentacalculator.com/electrical/solar-string-sizing/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 172,
+"article": "https://www.instrumentationblog.in/star-delta-transformation-formula/",
+"anchor": "Star-Delta transformation calculator",
+"target": "https://zentacalculator.com/electrical/star-delta-transformation/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 173,
+"article": "https://www.instrumentationblog.in/star-vs-delta-connection/",
+"anchor": "line and phase voltage calculator",
+"target": "https://zentacalculator.com/electrical/line-phase-voltage/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 174,
+"article": "https://www.instrumentationblog.in/substation-battery-sizing-ieee-485/",
+"anchor": "battery bank size calculator",
+"target": "https://zentacalculator.com/electrical/battery-bank-size/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 175,
+"article": "https://www.instrumentationblog.in/synchronous-motor-working-principle/",
+"anchor": "induction motor slip and synchronous speed calculator",
+"target": "https://zentacalculator.com/electrical/induction-motor-slip/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 176,
+"article": "https://www.instrumentationblog.in/tn-tt-it-earthing-systems/",
+"anchor": "earthing resistance calculator",
+"target": "https://zentacalculator.com/electrical/earthing-resistance/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 177,
+"article": "https://www.instrumentationblog.in/transformer-cooling-methods-onan-onaf/",
+"anchor": "transformer efficiency calculator",
+"target": "https://zentacalculator.com/electrical/transformer-efficiency/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 178,
+"article": "https://www.instrumentationblog.in/transformer-efficiency-calculation/",
+"anchor": "transformer efficiency calculator",
+"target": "https://zentacalculator.com/electrical/transformer-efficiency/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 179,
+"article": "https://www.instrumentationblog.in/transformer-maintenance-checklist/",
+"anchor": "transformer efficiency calculator",
+"target": "https://zentacalculator.com/electrical/transformer-efficiency/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 180,
+"article": "https://www.instrumentationblog.in/transformer-routine-and-type-tests/",
+"anchor": "transformer turns ratio calculator",
+"target": "https://zentacalculator.com/electrical/transformer-turns-ratio/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 181,
+"article": "https://www.instrumentationblog.in/transformer-turns-ratio-secondary-voltage/",
+"anchor": "transformer turns ratio calculator",
+"target": "https://zentacalculator.com/electrical/transformer-turns-ratio/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 182,
+"article": "https://www.instrumentationblog.in/ups-capacity-kva-calculation/",
+"anchor": "UPS size calculator",
+"target": "https://zentacalculator.com/electrical/ups-sizing/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 183,
+"article": "https://www.instrumentationblog.in/vfd-braking-resistor-sizing/",
+"anchor": "braking resistor calculator for VFDs",
+"target": "https://zentacalculator.com/electrical/braking-resistor/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 184,
+"article": "https://www.instrumentationblog.in/voltage-drop-calculation/",
+"anchor": "cable voltage drop calculator",
+"target": "https://zentacalculator.com/electrical/cable-voltage-drop/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 185,
+"article": "https://www.instrumentationblog.in/voltage-unbalance-calculation-motors/",
+"anchor": "voltage unbalance calculator",
+"target": "https://zentacalculator.com/electrical/voltage-unbalance/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 186,
+"article": "https://www.instrumentationblog.in/what-is-resistance/",
+"anchor": "wire resistance calculator",
+"target": "https://zentacalculator.com/electrical/wire-resistance/",
+"topic": "Electrical",
+"status": "todo"
+},
+{
+"row": 187,
+"article": "https://www.instrumentationblog.in/555-timer-ic-explained/",
+"anchor": "555 timer calculator",
+"target": "https://zentacalculator.com/electronics/555-timer/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 188,
+"article": "https://www.instrumentationblog.in/active-filter-sallen-and-key/",
+"anchor": "RC filter cutoff frequency calculator",
+"target": "https://zentacalculator.com/electronics/rc-filter/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 189,
+"article": "https://www.instrumentationblog.in/active-filter-sallen-and-key/",
+"anchor": "Sallen-Key Low-Pass filter calculator",
+"target": "https://zentacalculator.com/electronics/sallen-key-low-pass/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 190,
+"article": "https://www.instrumentationblog.in/adc-working-principle-explained/",
+"anchor": "ADC resolution calculator",
+"target": "https://zentacalculator.com/electronics/adc-resolution/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 191,
+"article": "https://www.instrumentationblog.in/analog-signal-resolution-in-plc/",
+"anchor": "ADC resolution calculator",
+"target": "https://zentacalculator.com/electronics/adc-resolution/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 192,
+"article": "https://www.instrumentationblog.in/analog-to-digital-conversion-explained/",
+"anchor": "ADC resolution calculator",
+"target": "https://zentacalculator.com/electronics/adc-resolution/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 193,
+"article": "https://www.instrumentationblog.in/basics-of-transistors/",
+"anchor": "transistor base resistor calculator",
+"target": "https://zentacalculator.com/electronics/transistor-base-resistor/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 194,
+"article": "https://www.instrumentationblog.in/boost-converter-working-principle/",
+"anchor": "boost converter calculator",
+"target": "https://zentacalculator.com/electronics/boost-converter/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 195,
+"article": "https://www.instrumentationblog.in/buck-converter-working-principle/",
+"anchor": "buck converter calculator",
+"target": "https://zentacalculator.com/electronics/buck-converter/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 196,
+"article": "https://www.instrumentationblog.in/buck-converter-working-principle/",
+"anchor": "LC filter calculator",
+"target": "https://zentacalculator.com/electronics/lc-filter/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 197,
+"article": "https://www.instrumentationblog.in/calculate-battery-backup-time/",
+"anchor": "peukert's law calculator",
+"target": "https://zentacalculator.com/electronics/peukerts-law/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 198,
+"article": "https://www.instrumentationblog.in/capacitor-esr-equivalent-series-resistance/",
+"anchor": "buck converter calculator",
+"target": "https://zentacalculator.com/electronics/buck-converter/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 199,
+"article": "https://www.instrumentationblog.in/capacitor-esr-equivalent-series-resistance/",
+"anchor": "electrolytic capacitor life calculator",
+"target": "https://zentacalculator.com/electronics/capacitor-lifetime/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 200,
+"article": "https://www.instrumentationblog.in/capacitor-working-principle/",
+"anchor": "capacitor energy calculator",
+"target": "https://zentacalculator.com/electronics/capacitor-energy/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 201,
+"article": "https://www.instrumentationblog.in/capacitor-working-principle/",
+"anchor": "capacitors in series and parallel calculator",
+"target": "https://zentacalculator.com/electronics/capacitors-series-parallel/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 202,
+"article": "https://www.instrumentationblog.in/controlled-impedance-pcb-traces/",
+"anchor": "microstrip impedance calculator",
+"target": "https://zentacalculator.com/electronics/microstrip-impedance/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 203,
+"article": "https://www.instrumentationblog.in/controlled-impedance-pcb-traces/",
+"anchor": "PCB trace width calculator",
+"target": "https://zentacalculator.com/electronics/pcb-trace-width/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 204,
+"article": "https://www.instrumentationblog.in/crystal-oscillator-working-principle/",
+"anchor": "crystal load capacitance calculator",
+"target": "https://zentacalculator.com/electronics/crystal-load-capacitance/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 205,
+"article": "https://www.instrumentationblog.in/current-divider-rule-explained/",
+"anchor": "current divider calculator",
+"target": "https://zentacalculator.com/electronics/current-divider/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 206,
+"article": "https://www.instrumentationblog.in/decibel-in-electronics-db-dbm/",
+"anchor": "dBm to watts converter",
+"target": "https://zentacalculator.com/electronics/dbm-to-watts/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 207,
+"article": "https://www.instrumentationblog.in/decibel-in-electronics-db-dbm/",
+"anchor": "SNR calculator",
+"target": "https://zentacalculator.com/electronics/snr/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 208,
+"article": "https://www.instrumentationblog.in/differential-amplifier-explained-basics-and-cmrr/",
+"anchor": "differential amplifier calculator",
+"target": "https://zentacalculator.com/electronics/differential-amplifier/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 209,
+"article": "https://www.instrumentationblog.in/electrolytic-capacitor-lifetime-calculation/",
+"anchor": "electrolytic capacitor life calculator",
+"target": "https://zentacalculator.com/electronics/capacitor-lifetime/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 210,
+"article": "https://www.instrumentationblog.in/electrolytic-vs-ceramic-vs-tantalum-capacitor-failure-modes/",
+"anchor": "electrolytic capacitor life calculator",
+"target": "https://zentacalculator.com/electronics/capacitor-lifetime/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 211,
+"article": "https://www.instrumentationblog.in/flyback-converter-working-principle-explained/",
+"anchor": "flyback transformer calculator",
+"target": "https://zentacalculator.com/electronics/flyback-transformer/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 212,
+"article": "https://www.instrumentationblog.in/hall-effect-current-sensor-acs712/",
+"anchor": "Hall-Effect current sensor calculator",
+"target": "https://zentacalculator.com/electronics/hall-effect-current-sensor/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 213,
+"article": "https://www.instrumentationblog.in/hall-effect-current-sensor-acs712/",
+"anchor": "shunt resistor calculator - resistance, voltage drop & power",
+"target": "https://zentacalculator.com/electronics/shunt-resistor/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 214,
+"article": "https://www.instrumentationblog.in/heat-sink-calculation/",
+"anchor": "heat sink calculator",
+"target": "https://zentacalculator.com/electronics/heat-sink/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 215,
+"article": "https://www.instrumentationblog.in/how-a-hall-effect-sensor-works/",
+"anchor": "Hall-Effect current sensor calculator",
+"target": "https://zentacalculator.com/electronics/hall-effect-current-sensor/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 216,
+"article": "https://www.instrumentationblog.in/how-decoupling-capacitors-work/",
+"anchor": "decoupling capacitor calculator",
+"target": "https://zentacalculator.com/electronics/decoupling-capacitor/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 217,
+"article": "https://www.instrumentationblog.in/impedance-reactance-ac-circuits/",
+"anchor": "reactance and impedance calculator",
+"target": "https://zentacalculator.com/electronics/reactance/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 218,
+"article": "https://www.instrumentationblog.in/inductor-saturation-current/",
+"anchor": "inductor AL value calculator",
+"target": "https://zentacalculator.com/electronics/inductor-al-value/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 219,
+"article": "https://www.instrumentationblog.in/inductor-saturation-current/",
+"anchor": "inductor energy calculator",
+"target": "https://zentacalculator.com/electronics/inductor-energy/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 220,
+"article": "https://www.instrumentationblog.in/inductor-working-principle/",
+"anchor": "air core inductor calculator",
+"target": "https://zentacalculator.com/electronics/air-core-inductor/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 221,
+"article": "https://www.instrumentationblog.in/inductor-working-principle/",
+"anchor": "inductor energy calculator",
+"target": "https://zentacalculator.com/electronics/inductor-energy/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 222,
+"article": "https://www.instrumentationblog.in/industrial-battery-charger-float-boost/",
+"anchor": "battery charging time calculator",
+"target": "https://zentacalculator.com/electronics/battery-charge-time/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 223,
+"article": "https://www.instrumentationblog.in/instrumentation-amplifier-vs-op-amp-key-differences/",
+"anchor": "instrumentation amplifier gain calculator",
+"target": "https://zentacalculator.com/electronics/instrumentation-amplifier-gain/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 224,
+"article": "https://www.instrumentationblog.in/instrumentation-amplifier-vs-op-amp-key-differences/",
+"anchor": "Op-Amp gain calculator",
+"target": "https://zentacalculator.com/electronics/op-amp-gain/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 225,
+"article": "https://www.instrumentationblog.in/instrumentation-amplifier-working/",
+"anchor": "instrumentation amplifier gain calculator",
+"target": "https://zentacalculator.com/electronics/instrumentation-amplifier-gain/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 226,
+"article": "https://www.instrumentationblog.in/inverting-amplifier-gain-formula/",
+"anchor": "summing amplifier calculator",
+"target": "https://zentacalculator.com/electronics/summing-amplifier/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 227,
+"article": "https://www.instrumentationblog.in/kirchhoffs-current-law-kcl-explained/",
+"anchor": "current divider calculator",
+"target": "https://zentacalculator.com/electronics/current-divider/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 228,
+"article": "https://www.instrumentationblog.in/kirchhoffs-voltage-law-kvl-explained/",
+"anchor": "voltage divider calculator",
+"target": "https://zentacalculator.com/electronics/voltage-divider/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 229,
+"article": "https://www.instrumentationblog.in/lc-resonant-circuit-frequency/",
+"anchor": "LC resonant frequency calculator",
+"target": "https://zentacalculator.com/electronics/resonant-frequency/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 230,
+"article": "https://www.instrumentationblog.in/ldo-regulator-dropout-voltage/",
+"anchor": "LM317 calculator - output voltage, resistors & power dissipation",
+"target": "https://zentacalculator.com/electronics/lm317/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 231,
+"article": "https://www.instrumentationblog.in/led-resistor-calculation/",
+"anchor": "LED resistor calculator",
+"target": "https://zentacalculator.com/electronics/led-resistor/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 232,
+"article": "https://www.instrumentationblog.in/led-working-principle/",
+"anchor": "LED resistor calculator",
+"target": "https://zentacalculator.com/electronics/led-resistor/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 233,
+"article": "https://www.instrumentationblog.in/lenzs-law-electromagnetic-induction/",
+"anchor": "inductor energy calculator",
+"target": "https://zentacalculator.com/electronics/inductor-energy/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 234,
+"article": "https://www.instrumentationblog.in/linear-vs-switching-voltage-regulators/",
+"anchor": "LM317 calculator - output voltage, resistors & power dissipation",
+"target": "https://zentacalculator.com/electronics/lm317/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 235,
+"article": "https://www.instrumentationblog.in/lorawan-industrial-iot-guide/",
+"anchor": "free space path loss calculator",
+"target": "https://zentacalculator.com/electronics/free-space-path-loss/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 236,
+"article": "https://www.instrumentationblog.in/mosfet-gate-driver-ics-explained/",
+"anchor": "MOSFET power dissipation calculator",
+"target": "https://zentacalculator.com/electronics/mosfet-power-loss/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 237,
+"article": "https://www.instrumentationblog.in/ntc-ptc-thermistor-working/",
+"anchor": "NTC thermistor calculator",
+"target": "https://zentacalculator.com/electronics/ntc-thermistor/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 238,
+"article": "https://www.instrumentationblog.in/op-amp-integrator-differentiator/",
+"anchor": "Op-Amp integrator calculator",
+"target": "https://zentacalculator.com/electronics/op-amp-integrator/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 239,
+"article": "https://www.instrumentationblog.in/operational-amplifier-op-amp-basics/",
+"anchor": "Op-Amp gain calculator",
+"target": "https://zentacalculator.com/electronics/op-amp-gain/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 240,
+"article": "https://www.instrumentationblog.in/operational-amplifier-op-amp-basics/",
+"anchor": "summing amplifier calculator",
+"target": "https://zentacalculator.com/electronics/summing-amplifier/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 241,
+"article": "https://www.instrumentationblog.in/pcb-layer-stackup-design/",
+"anchor": "microstrip impedance calculator",
+"target": "https://zentacalculator.com/electronics/microstrip-impedance/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 242,
+"article": "https://www.instrumentationblog.in/pcb-via-current-capacity/",
+"anchor": "PCB trace width calculator",
+"target": "https://zentacalculator.com/electronics/pcb-trace-width/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 243,
+"article": "https://www.instrumentationblog.in/pfc-circuit-boost-power-factor-correction/",
+"anchor": "boost converter calculator",
+"target": "https://zentacalculator.com/electronics/boost-converter/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 244,
+"article": "https://www.instrumentationblog.in/phase-angle-in-ac-circuits/",
+"anchor": "reactance and impedance calculator",
+"target": "https://zentacalculator.com/electronics/reactance/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 245,
+"article": "https://www.instrumentationblog.in/pull-up-pull-down-resistor-values/",
+"anchor": "I2C Pull-Up resistor calculator",
+"target": "https://zentacalculator.com/electronics/i2c-pull-up-resistor/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 246,
+"article": "https://www.instrumentationblog.in/pulse-width-modulation-duty-cycle/",
+"anchor": "PWM duty cycle calculator",
+"target": "https://zentacalculator.com/electronics/pwm-duty-cycle/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 247,
+"article": "https://www.instrumentationblog.in/rc-and-rl-time-constant-explained/",
+"anchor": "RC filter cutoff frequency calculator",
+"target": "https://zentacalculator.com/electronics/rc-filter/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 248,
+"article": "https://www.instrumentationblog.in/rc-and-rl-time-constant-explained/",
+"anchor": "RL time constant calculator",
+"target": "https://zentacalculator.com/electronics/rl-time-constant/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 249,
+"article": "https://www.instrumentationblog.in/rc-low-pass-high-pass-filter/",
+"anchor": "RC filter cutoff frequency calculator",
+"target": "https://zentacalculator.com/electronics/rc-filter/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 250,
+"article": "https://www.instrumentationblog.in/rc-low-pass-high-pass-filter/",
+"anchor": "Sallen-Key Low-Pass filter calculator",
+"target": "https://zentacalculator.com/electronics/sallen-key-low-pass/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 251,
+"article": "https://www.instrumentationblog.in/resistor-color-code-guide/",
+"anchor": "resistor color code calculator",
+"target": "https://zentacalculator.com/electronics/resistor-color-code/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 252,
+"article": "https://www.instrumentationblog.in/schmitt-trigger-hysteresis/",
+"anchor": "schmitt trigger calculator",
+"target": "https://zentacalculator.com/electronics/schmitt-trigger/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 253,
+"article": "https://www.instrumentationblog.in/sepic-converter-working-design/",
+"anchor": "Buck-Boost converter calculator",
+"target": "https://zentacalculator.com/electronics/buck-boost-converter/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 254,
+"article": "https://www.instrumentationblog.in/series-vs-parallel-circuits-explained/",
+"anchor": "capacitors in series and parallel calculator",
+"target": "https://zentacalculator.com/electronics/capacitors-series-parallel/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 255,
+"article": "https://www.instrumentationblog.in/shunt-resistors-in-instrumentation/",
+"anchor": "current divider calculator",
+"target": "https://zentacalculator.com/electronics/current-divider/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 256,
+"article": "https://www.instrumentationblog.in/shunt-resistors-in-instrumentation/",
+"anchor": "shunt resistor calculator - resistance, voltage drop & power",
+"target": "https://zentacalculator.com/electronics/shunt-resistor/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 257,
+"article": "https://www.instrumentationblog.in/signal-to-noise-ratio-snr-calculator/",
+"anchor": "SNR calculator",
+"target": "https://zentacalculator.com/electronics/snr/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 258,
+"article": "https://www.instrumentationblog.in/snubber-circuit-rc-design/",
+"anchor": "RC snubber calculator",
+"target": "https://zentacalculator.com/electronics/rc-snubber/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 259,
+"article": "https://www.instrumentationblog.in/spi-vs-i2c-protocol-comparison/",
+"anchor": "I2C Pull-Up resistor calculator",
+"target": "https://zentacalculator.com/electronics/i2c-pull-up-resistor/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 260,
+"article": "https://www.instrumentationblog.in/strain-gauge-working-principle/",
+"anchor": "strain gauge calculator",
+"target": "https://zentacalculator.com/electronics/strain-gauge/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 261,
+"article": "https://www.instrumentationblog.in/supercapacitor-working-principle/",
+"anchor": "capacitor energy calculator",
+"target": "https://zentacalculator.com/electronics/capacitor-energy/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 262,
+"article": "https://www.instrumentationblog.in/synchronous-rectification-buck-converter/",
+"anchor": "buck converter calculator",
+"target": "https://zentacalculator.com/electronics/buck-converter/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 263,
+"article": "https://www.instrumentationblog.in/transimpedance-amplifier-photodiode/",
+"anchor": "transimpedance amplifier calculator",
+"target": "https://zentacalculator.com/electronics/transimpedance-amplifier/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 264,
+"article": "https://www.instrumentationblog.in/types-of-transistor-oscillators/",
+"anchor": "RC phase shift oscillator calculator",
+"target": "https://zentacalculator.com/electronics/rc-phase-shift-oscillator/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 265,
+"article": "https://www.instrumentationblog.in/uart-communication-frame-baud-rate/",
+"anchor": "UART baud rate error calculator",
+"target": "https://zentacalculator.com/electronics/uart-baud-rate-error/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 266,
+"article": "https://www.instrumentationblog.in/vfd-working-principle-explained/",
+"anchor": "PWM duty cycle calculator",
+"target": "https://zentacalculator.com/electronics/pwm-duty-cycle/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 267,
+"article": "https://www.instrumentationblog.in/voltage-divider-rule-explained/",
+"anchor": "voltage divider calculator",
+"target": "https://zentacalculator.com/electronics/voltage-divider/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 268,
+"article": "https://www.instrumentationblog.in/voltage-follower-unity-gain-buffer-explained/",
+"anchor": "Op-Amp gain calculator",
+"target": "https://zentacalculator.com/electronics/op-amp-gain/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 269,
+"article": "https://www.instrumentationblog.in/what-is-a-mosfet-working-principle/",
+"anchor": "MOSFET power dissipation calculator",
+"target": "https://zentacalculator.com/electronics/mosfet-power-loss/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 270,
+"article": "https://www.instrumentationblog.in/what-is-a-zener-diode/",
+"anchor": "zener diode resistor calculator",
+"target": "https://zentacalculator.com/electronics/zener-resistor/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 271,
+"article": "https://www.instrumentationblog.in/what-is-resistance/",
+"anchor": "resistor color code calculator",
+"target": "https://zentacalculator.com/electronics/resistor-color-code/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 272,
+"article": "https://www.instrumentationblog.in/what-is-signal-integrity/",
+"anchor": "SNR calculator",
+"target": "https://zentacalculator.com/electronics/snr/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 273,
+"article": "https://www.instrumentationblog.in/what-is-thermal-conductivity/",
+"anchor": "heat sink calculator",
+"target": "https://zentacalculator.com/electronics/heat-sink/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 274,
+"article": "https://www.instrumentationblog.in/wheatstone-bridge-10-applications/",
+"anchor": "wheatstone bridge calculator",
+"target": "https://zentacalculator.com/electronics/wheatstone-bridge/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 275,
+"article": "https://www.instrumentationblog.in/wireless-pressure-transmitters-iiot-systems/",
+"anchor": "free space path loss calculator",
+"target": "https://zentacalculator.com/electronics/free-space-path-loss/",
+"topic": "Electronics",
+"status": "todo"
+},
+{
+"row": 276,
+"article": "https://www.instrumentationblog.in/absolute-vs-gauge-pressure/",
+"anchor": "pressure calculator",
+"target": "https://zentacalculator.com/physics/pressure/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 277,
+"article": "https://www.instrumentationblog.in/basics-of-ohms-law/",
+"anchor": "ohm's law calculator",
+"target": "https://zentacalculator.com/physics/ohms-law/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 278,
+"article": "https://www.instrumentationblog.in/bernoullis-equation-formula/",
+"anchor": "bernoulli equation calculator",
+"target": "https://zentacalculator.com/physics/bernoulli-equation/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 279,
+"article": "https://www.instrumentationblog.in/calculate-industrial-chiller-capacity/",
+"anchor": "carnot efficiency calculator",
+"target": "https://zentacalculator.com/physics/carnot-efficiency/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 280,
+"article": "https://www.instrumentationblog.in/capacitance-level-measurement/",
+"anchor": "parallel plate capacitor calculator",
+"target": "https://zentacalculator.com/physics/parallel-plate-capacitor/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 281,
+"article": "https://www.instrumentationblog.in/coriolis-density-measurement/",
+"anchor": "density calculator",
+"target": "https://zentacalculator.com/physics/density/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 282,
+"article": "https://www.instrumentationblog.in/displacer-level-transmitter-working-principle/",
+"anchor": "buoyancy calculator",
+"target": "https://zentacalculator.com/physics/buoyancy/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 283,
+"article": "https://www.instrumentationblog.in/faradays-law-electromagnetic-induction/",
+"anchor": "faraday's law calculator",
+"target": "https://zentacalculator.com/physics/faradays-law/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 284,
+"article": "https://www.instrumentationblog.in/how-a-hall-effect-sensor-works/",
+"anchor": "magnetic field calculator",
+"target": "https://zentacalculator.com/physics/magnetic-field/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 285,
+"article": "https://www.instrumentationblog.in/how-does-an-ultrasonic-level-transmitter-work/",
+"anchor": "speed of sound calculator",
+"target": "https://zentacalculator.com/physics/speed-of-sound/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 286,
+"article": "https://www.instrumentationblog.in/how-ultrasonic-flow-meter-works/",
+"anchor": "speed of sound calculator",
+"target": "https://zentacalculator.com/physics/speed-of-sound/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 287,
+"article": "https://www.instrumentationblog.in/lenzs-law-electromagnetic-induction/",
+"anchor": "faraday's law calculator",
+"target": "https://zentacalculator.com/physics/faradays-law/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 288,
+"article": "https://www.instrumentationblog.in/load-cell-working-principle/",
+"anchor": "weight calculator",
+"target": "https://zentacalculator.com/physics/weight/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 289,
+"article": "https://www.instrumentationblog.in/photodiode-vs-phototransistor-key-differences/",
+"anchor": "photon energy calculator",
+"target": "https://zentacalculator.com/physics/photon-energy/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 290,
+"article": "https://www.instrumentationblog.in/series-vs-parallel-circuits-explained/",
+"anchor": "resistors in series & parallel calculator",
+"target": "https://zentacalculator.com/physics/resistors-series-parallel/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 291,
+"article": "https://www.instrumentationblog.in/snubber-circuit-rc-design/",
+"anchor": "RC time constant calculator",
+"target": "https://zentacalculator.com/physics/rc-time-constant/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 292,
+"article": "https://www.instrumentationblog.in/solenoid-valve-working-principle/",
+"anchor": "magnetic field calculator",
+"target": "https://zentacalculator.com/physics/magnetic-field/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 293,
+"article": "https://www.instrumentationblog.in/temperature-sensor-response-time/",
+"anchor": "newton's law of cooling calculator",
+"target": "https://zentacalculator.com/physics/newtons-law-of-cooling/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 294,
+"article": "https://www.instrumentationblog.in/transit-time-vs-doppler-ultrasonic-flow-meter/",
+"anchor": "doppler effect calculator",
+"target": "https://zentacalculator.com/physics/doppler-effect/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 295,
+"article": "https://www.instrumentationblog.in/types-of-heat-exchangers/",
+"anchor": "heat conduction calculator",
+"target": "https://zentacalculator.com/physics/heat-conduction/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 296,
+"article": "https://www.instrumentationblog.in/types-of-nuclear-level-measurement/",
+"anchor": "radioactive activity calculator",
+"target": "https://zentacalculator.com/physics/radioactive-activity/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 297,
+"article": "https://www.instrumentationblog.in/understanding-pascals-law-pressure-instruments/",
+"anchor": "pressure calculator",
+"target": "https://zentacalculator.com/physics/pressure/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 298,
+"article": "https://www.instrumentationblog.in/viscosity-measurement-explained/",
+"anchor": "stokes' law calculator",
+"target": "https://zentacalculator.com/physics/stokes-law/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 299,
+"article": "https://www.instrumentationblog.in/what-is-capacitance/",
+"anchor": "parallel plate capacitor calculator",
+"target": "https://zentacalculator.com/physics/parallel-plate-capacitor/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 300,
+"article": "https://www.instrumentationblog.in/what-is-specific-gravity/",
+"anchor": "density calculator",
+"target": "https://zentacalculator.com/physics/density/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 301,
+"article": "https://www.instrumentationblog.in/what-is-thermal-conductivity/",
+"anchor": "heat conduction calculator",
+"target": "https://zentacalculator.com/physics/heat-conduction/",
+"topic": "Physics",
+"status": "todo"
+},
+{
+"row": 302,
+"article": "https://www.instrumentationblog.in/actual-flow-standard-flow-normal-flow/",
+"anchor": "molar flow rate calculator",
+"target": "https://zentacalculator.com/chemistry/molar-flow-rate/",
+"topic": "Chemistry",
+"status": "todo"
+},
+{
+"row": 303,
+"article": "https://www.instrumentationblog.in/conductivity-sensor-cell-constant-calibration/",
+"anchor": "conductivity cell constant calculator",
+"target": "https://zentacalculator.com/chemistry/conductivity-cell-constant/",
+"topic": "Chemistry",
+"status": "todo"
+},
+{
+"row": 304,
+"article": "https://www.instrumentationblog.in/conductivity-sensor-working/",
+"anchor": "TDS to conductivity calculator",
+"target": "https://zentacalculator.com/chemistry/tds-conductivity/",
+"topic": "Chemistry",
+"status": "todo"
+},
+{
+"row": 305,
+"article": "https://www.instrumentationblog.in/coriolis-density-measurement/",
+"anchor": "brix to specific gravity calculator",
+"target": "https://zentacalculator.com/chemistry/brix-specific-gravity/",
+"topic": "Chemistry",
+"status": "todo"
+},
+{
+"row": 306,
+"article": "https://www.instrumentationblog.in/how-do-optical-dissolved-oxygen-sensors-work/",
+"anchor": "dissolved oxygen saturation calculator",
+"target": "https://zentacalculator.com/chemistry/dissolved-oxygen-saturation/",
+"topic": "Chemistry",
+"status": "todo"
+},
+{
+"row": 307,
+"article": "https://www.instrumentationblog.in/how-do-optical-dissolved-oxygen-sensors-work/",
+"anchor": "henry's law calculator",
+"target": "https://zentacalculator.com/chemistry/henrys-law/",
+"topic": "Chemistry",
+"status": "todo"
+},
+{
+"row": 308,
+"article": "https://www.instrumentationblog.in/ph-meter-calibration-buffers/",
+"anchor": "buffer pH calculator",
+"target": "https://zentacalculator.com/chemistry/henderson-hasselbalch/",
+"topic": "Chemistry",
+"status": "todo"
+},
+{
+"row": 309,
+"article": "https://www.instrumentationblog.in/ph-meter-calibration-buffers/",
+"anchor": "pKa calculator - ka to pKa, kb to pKb and back",
+"target": "https://zentacalculator.com/chemistry/pka/",
+"topic": "Chemistry",
+"status": "todo"
+},
+{
+"row": 310,
+"article": "https://www.instrumentationblog.in/ph-sensor-troubleshooting/",
+"anchor": "nernst equation calculator",
+"target": "https://zentacalculator.com/chemistry/nernst-equation/",
+"topic": "Chemistry",
+"status": "todo"
+},
+{
+"row": 311,
+"article": "https://www.instrumentationblog.in/ph-sensor-troubleshooting/",
+"anchor": "pH calculator",
+"target": "https://zentacalculator.com/chemistry/ph/",
+"topic": "Chemistry",
+"status": "todo"
+},
+{
+"row": 312,
+"article": "https://www.instrumentationblog.in/residual-chlorine-analyzer-working/",
+"anchor": "PPM calculator",
+"target": "https://zentacalculator.com/chemistry/ppm/",
+"topic": "Chemistry",
+"status": "todo"
+},
+{
+"row": 313,
+"article": "https://www.instrumentationblog.in/temperature-and-pressure-compensation/",
+"anchor": "gas density calculator",
+"target": "https://zentacalculator.com/chemistry/gas-density/",
+"topic": "Chemistry",
+"status": "todo"
+},
+{
+"row": 314,
+"article": "https://www.instrumentationblog.in/what-is-ph-sensor-how-does-it-work/",
+"anchor": "nernst equation calculator",
+"target": "https://zentacalculator.com/chemistry/nernst-equation/",
+"topic": "Chemistry",
+"status": "todo"
+},
+{
+"row": 315,
+"article": "https://www.instrumentationblog.in/what-is-ph-sensor-how-does-it-work/",
+"anchor": "pH calculator",
+"target": "https://zentacalculator.com/chemistry/ph/",
+"topic": "Chemistry",
+"status": "todo"
+},
+{
+"row": 316,
+"article": "https://www.instrumentationblog.in/zirconia-oxygen-analyzer-working-principle/",
+"anchor": "excess air calculator",
+"target": "https://zentacalculator.com/chemistry/excess-air/",
+"topic": "Chemistry",
+"status": "todo"
+},
+{
+"row": 317,
+"article": "https://www.instrumentationblog.in/difference-between-accuracy-and-precision/",
+"anchor": "percent error calculator",
+"target": "https://zentacalculator.com/math/percent-error/",
+"topic": "Math",
+"status": "todo"
+},
+{
+"row": 318,
+"article": "https://www.instrumentationblog.in/electrical-energy-consumption-calculation/",
+"anchor": "electricity cost calculator",
+"target": "https://zentacalculator.com/everyday-life/electricity-cost/",
+"topic": "Everyday-Life",
+"status": "todo"
+},
+{
+"row": 319,
+"article": "https://www.instrumentationblog.in/impedance-reactance-ac-circuits/",
+"anchor": "complex number calculator",
+"target": "https://zentacalculator.com/math/complex-number/",
+"topic": "Math",
+"status": "todo"
+},
+{
+"row": 320,
+"article": "https://www.instrumentationblog.in/industrial-battery-charger-float-boost/",
+"anchor": "inverter battery backup calculator",
+"target": "https://zentacalculator.com/everyday-life/inverter-battery-backup/",
+"topic": "Everyday-Life",
+"status": "todo"
+},
+{
+"row": 321,
+"article": "https://www.instrumentationblog.in/instrument-accuracy-and-error/",
+"anchor": "percent error calculator",
+"target": "https://zentacalculator.com/math/percent-error/",
+"topic": "Math",
+"status": "todo"
+},
+{
+"row": 322,
+"article": "https://www.instrumentationblog.in/measurement-uncertainty-in-calibration/",
+"anchor": "measurement uncertainty calculator",
+"target": "https://zentacalculator.com/statistics/measurement-uncertainty/",
+"topic": "Statistics",
+"status": "todo"
+},
+{
+"row": 323,
+"article": "https://www.instrumentationblog.in/solar-pv-system-sizing-calculation/",
+"anchor": "solar system size calculator",
+"target": "https://zentacalculator.com/ecology/solar-system-size/",
+"topic": "Ecology",
+"status": "todo"
+},
+{
+"row": 324,
+"article": "https://www.instrumentationblog.in/test-uncertainty-ratio-tur-calibration/",
+"anchor": "measurement uncertainty calculator",
+"target": "https://zentacalculator.com/statistics/measurement-uncertainty/",
+"topic": "Statistics",
+"status": "todo"
+},
+{
+"row": 325,
+"article": "https://www.instrumentationblog.in/what-is-sensor-linearity/",
+"anchor": "linear interpolation calculator",
+"target": "https://zentacalculator.com/math/linear-interpolation/",
+"topic": "Math",
+"status": "todo"
+}
+]
