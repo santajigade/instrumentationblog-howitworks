@@ -3,3 +3,4 @@ date,slug,id,status,reason,result
 2026-11-24,basics-of-differential-pressure-transmitter,5870,ok,LP side gap closes when diaphragm moves toward LP,fix24.py
 2026-11-24,lighting-design-calculation,17114,ok,step 4 example now uses worked example Hm 2.2 m RI 3.03,fix24.py
 2026-11-24,mass-flow-controller-working-principle,17046,ok,intro said four types; article lists five,fix24.py
+2026-11-25,schottky-diode-advantages-limitations,16241,ok,intro said loss drops by more than half; worked example 2.0 W vs 3.5 W gives about 43 percent less,"{""id"": 16241, ""report"": [{""op"": 0, ""applied"": true}], ""link"": ""https://www.instrumentationblog.in/schottky-diode-advantages-limitations/""}"
