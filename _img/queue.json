@@ -893,7 +893,7 @@
 "what is dcs system",
 "what is open loop and closed loop control system"
 ],
-"status": "todo"
+"status": "failed"
 },
 {
 "slug": "star-vs-delta-connection",
@@ -905,7 +905,7 @@
 "star to delta conversion",
 "star delta transformation formula"
 ],
-"status": "todo"
+"status": "failed"
 },
 {
 "slug": "how-a-fire-alarm-system-works",
@@ -917,7 +917,7 @@
 "dcs alarm management system",
 "fire alarm basics"
 ],
-"status": "todo"
+"status": "failed"
 },
 {
 "slug": "types-of-nuclear-level-measurement",
@@ -929,7 +929,7 @@
 "types of level transmitter",
 "open tank level measurement"
 ],
-"status": "todo"
+"status": "failed"
 },
 {
 "slug": "bimetallic-thermometer-working-principle",
@@ -941,7 +941,7 @@
 "rtd working principle in hindi",
 "potentiometer working principle"
 ],
-"status": "todo"
+"status": "failed"
 },
 {
 "slug": "zero-and-span-adjustments",
