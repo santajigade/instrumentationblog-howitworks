@@ -386,3 +386,226 @@
 2026-11-25,calibration-process-differential-pressure-transmitter,6948,swapped,el swap x3 5109630877
 2026-11-25,2-wire-3-wire-4-wire-transmitters-in-industrial-automation,6996,swapped,el swap x2 5109630877
 2026-11-25,zero-elevation-and-zero-suppression,7108,swapped,el swap x2 5109630877
+2026-11-25,float-level-switch-working-principle-and-applications,7142,swapped,el swap x1 5109630877
+2026-11-25,what-is-a-plc,7179,swapped,el swap x2 5109630877
+2026-11-25,plc-wiring-field-instrument-to-system-cabinet,7203,swapped,el swap x1 5109630877
+2026-11-25,what-is-electromagnetic-interference-emi,7305,swapped,el swap x2 5109630877
+2026-11-25,100-essential-engineering-formulas,8145,swapped,el swap x4 5109630877
+2026-11-25,impulse-line-installation-slope,9549,swapped,"el swap x3 4330959722,5109630877"
+2026-11-25,absolute-vs-gauge-pressure,9588,swapped,el swap x3 5109630877
+2026-11-25,what-is-ratio-control-in-process-industries,9654,swapped,el swap x3 5109630877
+2026-11-25,scada-and-dcs-questions-answers,9670,swapped,el swap x2 5109630877
+2026-11-25,pressure-switch-vs-pressure-transmitter,9735,swapped,el swap x3 5109630877
+2026-11-25,analytical-instruments-questions-answers,9833,swapped,el swap x6 5109630877
+2026-11-25,split-range-control-working-principle,9849,swapped,el swap x4 5109630877
+2026-11-25,hart-loop-resistor-in-hart-communication,9876,swapped,el swap x3 5109630877
+2026-11-25,static-pressure-vs-differential-pressure,9946,swapped,el swap x5 5109630877
+2026-11-25,analog-signal-resolution-in-plc,9960,swapped,el swap x6 5109630877
+2026-11-25,plc-analog-input-problems-solutions,9970,swapped,el swap x6 5109630877
+2026-11-25,scada-communication-problems,9982,swapped,el swap x6 5109630877
+2026-11-25,instrument-loop-impedance-4-20ma-accuracy,10004,swapped,el swap x5 5109630877
+2026-11-25,mistakes-in-dp-flow-measurement,10020,swapped,el swap x7 5109630877
+2026-11-25,types-of-pressure-transmitters,10034,swapped,el swap x3 5109630877
+2026-11-25,control-valve-positioner-working,10049,swapped,el swap x5 5109630877
+2026-11-25,what-are-pressure-sensing-lines,10088,swapped,el swap x5 5109630877
+2026-11-25,communication-protocols-in-plc,10127,swapped,el swap x5 5109630877
+2026-11-25,drain-and-vent-hole-in-orifice-plate,10181,swapped,el swap x4 5109630877
+2026-11-25,sensor-trim-and-output-trim,10199,swapped,el swap x2 5109630877
+2026-11-25,differential-pressure-gauge-working,10239,swapped,el swap x4 5109630877
+2026-11-25,instrument-calibration-common-terms,10272,swapped,el swap x5 5109630877
+2026-11-25,orifice-plate-flow-measurement,10289,swapped,el swap x4 5109630877
+2026-11-25,adnoc-wearable-gas-detectors,10319,swapped,el swap x2 5109630877
+2026-11-25,analog-vs-digital-instrumentation-system,10326,swapped,el swap x5 5109630877
+2026-11-25,industrial-electronics-questions-answers,10340,swapped,el swap x5 5109630877
+2026-11-25,temperature-measurement-errors,10347,swapped,el swap x6 5109630877
+2026-11-25,actual-flow-standard-flow-normal-flow,10371,swapped,el swap x6 5109630877
+2026-11-25,temperature-and-pressure-compensation,10391,swapped,el swap x6 5109630877
+2026-11-25,4-to-20-ma-signal-instrumentation,10414,swapped,el swap x3 5109630877
+2026-11-25,square-root-extraction-dp-flow,10437,swapped,el swap x3 5109630877
+2026-11-25,hipps-system-in-oil-and-gas,10458,swapped,el swap x5 5109630877
+2026-11-25,strainer-and-filter-difference,10474,swapped,el swap x7 5109630877
+2026-11-25,ai-in-plc-scada-and-dcs,10487,swapped,el swap x5 5109630877
+2026-11-25,7-types-of-pressure-relief-valves,10506,swapped,el swap x5 5109630877
+2026-11-25,what-is-a-diaphragm-seal,10529,swapped,el swap x4 5109630877
+2026-11-25,how-nitrogen-purging-works,10560,swapped,el swap x5 5109630877
+2026-11-25,flow-characteristics-of-control-valves,10591,swapped,el swap x5 5109630877
+2026-11-25,choked-flow-in-control-valves,10608,swapped,el swap x4 5109630877
+2026-11-25,flush-connections-in-sanitary-measurement,10648,swapped,el swap x4 5109630877
+2026-11-25,dp-level-measurement-varying-density,10667,swapped,el swap x6 5109630877
+2026-11-25,types-of-allen-bradley-plcs,10675,swapped,el swap x3 5109630877
+2026-11-25,types-of-instrumentation,10702,swapped,el swap x13 5109630877
+2026-11-25,types-of-nuclear-level-measurement,10715,swapped,el swap x6 5109630877
+2026-11-25,basic-parts-of-a-control-valve,10726,swapped,el swap x4 5109630877
+2026-11-25,process-control-valves-instrumentation,10734,swapped,el swap x9 5109630877
+2026-11-25,instrumentation-automation-abbreviations,10745,swapped,el swap x7 5109630877
+2026-11-25,valve-actuator-types-applications,10755,swapped,el swap x5 5109630877
+2026-11-25,industrial-dryers-and-evaporators,10799,swapped,el swap x5 4330959722
+2026-11-25,sensor-scaling-instrumentation,10862,swapped,"el swap x5 3176429889,4330959722"
+2026-11-25,thermocouple-burnout-detection,10886,swapped,el swap x4 4330959722
+2026-11-25,what-is-sensor-linearity,10894,swapped,el swap x5 4330959722
+2026-11-25,point-to-point-connection-multidrop-connection,10906,swapped,el swap x3 4330959722
+2026-11-25,what-is-an-hvac-system,11026,swapped,"el swap x4 3176429889,4330959722"
+2026-11-25,types-of-controllers-in-instrumentation,11368,swapped,el swap x7 4330959722
+2026-11-25,deaerator-working-principle,11378,swapped,el swap x10 4330959722
+2026-11-25,terms-used-with-pressure-sensors,11422,swapped,el swap x12 4330959722
+2026-11-25,8-free-training-courses-plc-scada-hmi,11439,swapped,el swap x10 4330959722
+2026-11-25,reflux-ratio-in-distillation-column,11449,swapped,el swap x7 4330959722
+2026-11-25,what-is-a-safety-relay,11522,swapped,el swap x10 4330959722
+2026-11-25,2-wire-and-4-wire-transmitters,11549,swapped,el swap x10 4330959722
+2026-11-25,instrumentation-and-control-standards,11592,swapped,el swap x10 3176429889
+2026-11-25,working-principle-membrane-level-switch,11607,swapped,el swap x10 4330959722
+2026-11-25,metal-tube-rotameter-working,11625,swapped,el swap x10 4330959722
+2026-11-25,instrumentation-engineers-guide,11650,swapped,el swap x8 4330959722
+2026-11-25,pressure-tappings-in-orifice-plate,11660,swapped,el swap x12 4330959722
+2026-11-25,how-to-select-right-plc,11686,swapped,el swap x12 4330959722
+2026-11-25,types-of-thermocouples-and-ranges,11710,swapped,el swap x14 4330959722
+2026-11-25,piezoresistive-vs-piezoelectric-pressure-sensors,11764,swapped,el swap x12 4330959722
+2026-11-25,how-a-hall-effect-sensor-works,11779,swapped,el swap x10 4330959722
+2026-11-25,questions-and-answers-on-level-sensors,11800,swapped,el swap x16 4330959722
+2026-11-25,pressure-gauge-and-pressure-transmitter,11810,swapped,el swap x12 4330959722
+2026-11-25,current-transformer-working-principle,12989,swapped,el swap x6 4249015278
+2026-11-25,tvs-diode-transient-voltage-suppression-explained,18158,hasads-none,el swap x0 
+2026-11-25,photodiode-vs-phototransistor-key-differences,18165,hasads-none,el swap x0 
+2026-11-25,astable-vs-monostable-vs-bistable-multivibrator,18171,hasads-none,el swap x0 
+2026-11-25,voltage-follower-unity-gain-buffer-explained,18177,hasads-none,el swap x0 
+2026-11-25,pcb-via-types-through-hole-blind-buried,18183,hasads-none,el swap x0 
+2026-11-25,flow-computer-working-principle,18189,hasads-none,el swap x0 
+2026-11-25,wedge-flow-meter-working-principle,18195,hasads-none,el swap x0 
+2026-11-25,multivariable-transmitter-working,18202,hasads-none,el swap x0 
+2026-11-25,laser-level-transmitter-working-principle,18208,hasads-none,el swap x0 
+2026-11-25,residual-chlorine-analyzer-working,18214,hasads-none,el swap x0 
+2026-11-25,conveyor-safety-switches-types,18220,hasads-none,el swap x0 
+2026-11-25,control-valve-trim-types,18226,hasads-none,el swap x0 
+2026-11-25,multifunction-process-calibrator-uses,18232,hasads-none,el swap x0 
+2026-11-25,plc-subroutine-jsr-jmp-instructions,18238,hasads-none,el swap x0 
+2026-11-25,plc-one-shot-ons-osr-osf,18243,hasads-none,el swap x0 
+2026-11-25,scada-time-synchronization-ntp-ptp,18248,hasads-none,el swap x0 
+2026-11-25,dcs-control-modes-manual-auto-cascade,18253,hasads-none,el swap x0 
+2026-11-25,data-diode-ot-network-security,18258,hasads-none,el swap x0 
+2026-11-25,industrial-protocol-gateway,18263,hasads-none,el swap x0 
+2026-11-25,cable-derating-factors,18298,hasads-none,el swap x0 
+2026-11-25,faradays-law-electromagnetic-induction,18305,hasads-none,el swap x0 
+2026-11-25,transformer-cooling-methods-onan-onaf,18311,hasads-none,el swap x0 
+2026-11-25,insulation-resistance-test-megger,18317,hasads-none,el swap x0 
+2026-11-25,soft-starter-working-principle,18323,hasads-none,el swap x0 
+2026-11-25,transformer-differential-protection-87t,18329,hasads-none,el swap x0 
+2026-11-25,potentiometer-working-principle,18335,hasads-none,el swap x0 
+2026-11-25,schmitt-trigger-hysteresis,18341,hasads-none,el swap x0 
+2026-11-25,instrumentation-amplifier-working,18347,hasads-none,el swap x0 
+2026-11-25,pir-sensor-working-principle,18354,hasads-none,el swap x0 
+2026-11-25,pulse-width-modulation-duty-cycle,18360,hasads-none,el swap x0 
+2026-11-25,snubber-circuit-rc-design,18366,hasads-none,el swap x0 
+2026-11-25,maximum-demand-calculation-diversity,18372,hasads-none,el swap x0 
+2026-11-25,skin-effect-in-conductors,18382,hasads-none,el swap x0 
+2026-11-25,dc-motor-types-series-shunt-compound,18389,hasads-none,el swap x0 
+2026-11-25,on-load-tap-changer-oltc,18398,hasads-none,el swap x0 
+2026-11-25,step-and-touch-voltage-ieee-80,18405,hasads-none,el swap x0 
+2026-11-25,bus-duct-busway-system,18412,hasads-none,el swap x0 
+2026-11-25,power-distribution-system-radial-ring,18418,hasads-none,el swap x0 
+2026-11-25,vfd-braking-resistor-sizing,18424,hasads-none,el swap x0 
+2026-11-25,idmt-relay-characteristics-tms-psm,18431,hasads-none,el swap x0 
+2026-11-25,surge-arrester-working-selection,18438,hasads-none,el swap x0 
+2026-11-25,per-unit-system-power-system,18444,hasads-none,el swap x0 
+2026-11-25,ferranti-effect-transmission-line,18450,hasads-none,el swap x0 
+2026-11-25,ntc-ptc-thermistor-working,18457,hasads-none,el swap x0 
+2026-11-25,ferrite-bead-emi-filter,18463,hasads-none,el swap x0 
+2026-11-25,74hc595-shift-register,18469,hasads-none,el swap x0 
+2026-11-25,ttl-vs-cmos-logic-families,18475,hasads-none,el swap x0 
+2026-11-25,op-amp-integrator-differentiator,18481,hasads-none,el swap x0 
+2026-11-25,active-filter-sallen-and-key,18488,hasads-none,el swap x0 
+2026-11-25,ultrasonic-distance-sensor-sr04,18494,hasads-none,el swap x0 
+2026-11-25,capacitive-touch-sensor-working,18500,hasads-none,el swap x0 
+2026-11-25,decibel-in-electronics-db-dbm,18507,hasads-none,el swap x0 
+2026-11-25,pcb-crosstalk-reduction,18514,hasads-none,el swap x0 
+2026-11-25,controlled-impedance-pcb-traces,18520,hasads-none,el swap x0 
+2026-11-25,power-inverter-working-principle,18526,hasads-none,el swap x0 
+2026-11-25,lightning-protection-system-rolling-sphere,18533,hasads-none,el swap x0 
+2026-11-25,earth-fault-loop-impedance-zs-testing,18539,hasads-none,el swap x0 
+2026-11-25,eddy-current-loss-hysteresis-loss,18545,hasads-none,el swap x0 
+2026-11-25,generator-excitation-system-avr,18551,hasads-none,el swap x0 
+2026-11-25,transformer-inrush-current,18557,hasads-none,el swap x0 
+2026-11-25,infrared-thermography-electrical-panels,18563,hasads-none,el swap x0 
+2026-11-25,apfc-panel-working-sizing,18569,hasads-none,el swap x0 
+2026-11-25,dv-dt-filter-vfd-motor-protection,18575,hasads-none,el swap x0 
+2026-11-25,active-harmonic-filter-working-sizing,18581,hasads-none,el swap x0 
+2026-11-25,gis-vs-ais-substation,18587,hasads-none,el swap x0 
+2026-11-25,cable-gland-types-selection,18594,hasads-none,el swap x0 
+2026-11-25,motor-starting-voltage-dip-calculation,18600,hasads-none,el swap x0 
+2026-11-25,electromagnetic-relay-working-coil-suppression,18606,hasads-none,el swap x0 
+2026-11-25,capacitor-esr-equivalent-series-resistance,18612,hasads-none,el swap x0 
+2026-11-25,spi-vs-i2c-protocol-comparison,18619,hasads-none,el swap x0 
+2026-11-25,uart-communication-frame-baud-rate,18625,hasads-none,el swap x0 
+2026-11-25,current-mirror-bjt-mosfet-circuit,18631,hasads-none,el swap x0 
+2026-11-25,precision-rectifier-op-amp-circuit,18638,hasads-none,el swap x0 
+2026-11-25,humidity-sensor-capacitive-rh,18644,hasads-none,el swap x0 
+2026-11-25,hall-effect-current-sensor-acs712,18650,hasads-none,el swap x0 
+2026-11-25,bode-plot-gain-phase-margin,18658,hasads-none,el swap x0 
+2026-11-25,ground-bounce-pcb-simultaneous-switching,18664,hasads-none,el swap x0 
+2026-11-25,thermal-vias-pcb-heat-dissipation,18671,hasads-none,el swap x0 
+2026-11-25,pfc-circuit-boost-power-factor-correction,18677,hasads-none,el swap x0 
+2026-11-25,plc-structured-text-programming,18684,hasads-none,el swap x0 
+2026-11-25,sequential-function-chart-sfc-plc,18713,hasads-none,el swap x0 
+2026-11-25,plc-high-speed-counter-encoder,18720,hasads-none,el swap x0 
+2026-11-25,first-out-alarm-plc-logic,18726,hasads-none,el swap x0 
+2026-11-25,report-by-exception-scada-dnp3,18732,hasads-none,el swap x0 
+2026-11-25,store-and-forward-scada-historian,18739,hasads-none,el swap x0 
+2026-11-25,scada-virtualization-servers-guide,18745,hasads-none,el swap x0 
+2026-11-25,alarm-shelving-isa-18-2-dcs,18751,hasads-none,el swap x0 
+2026-11-25,marshalling-cabinet-dcs-wiring,18757,hasads-none,el swap x0 
+2026-11-25,factory-acceptance-test-dcs-fat-sat,18763,hasads-none,el swap x0 
+2026-11-25,industrial-dmz-it-ot-level-3-5,18770,hasads-none,el swap x0 
+2026-11-25,ot-patch-management-ics,18776,hasads-none,el swap x0 
+2026-11-25,ot-asset-inventory-ics-guide,18782,hasads-none,el swap x0 
+2026-11-25,ics-incident-response-plan-ot,18788,hasads-none,el swap x0 
+2026-11-25,can-bus-canopen-industrial,18794,hasads-none,el swap x0 
+2026-11-25,time-sensitive-networking-tsn,18804,hasads-none,el swap x0 
+2026-11-25,rs485-termination-biasing-resistors,18810,hasads-none,el swap x0 
+2026-11-25,lorawan-industrial-iot-guide,18816,hasads-none,el swap x0 
+2026-11-25,emergency-shutdown-system-esd,18822,hasads-none,el swap x0 
+2026-11-25,fire-and-gas-system-process-plants,18828,hasads-none,el swap x0 
+2026-11-25,partial-stroke-testing-esd-valves,18834,hasads-none,el swap x0 
+2026-11-25,soft-sensor-inferential-measurement,18840,hasads-none,el swap x0 
+2026-11-25,anomaly-detection-machine-learning-industrial,18846,hasads-none,el swap x0 
+2026-11-25,model-predictive-control-mpc-process,18852,hasads-none,el swap x0 
+2026-11-25,flow-conditioner-straight-run,18866,hasads-none,el swap x0 
+2026-11-25,target-flow-meter-working-principle,18872,hasads-none,el swap x0 
+2026-11-25,proof-pressure-vs-burst-pressure,18878,hasads-none,el swap x0 
+2026-11-25,plugged-impulse-line-detection,18884,hasads-none,el swap x0 
+2026-11-25,bubbler-level-measurement-purge,18890,hasads-none,el swap x0 
+2026-11-25,bulk-solids-level-measurement-silo,18897,hasads-none,el swap x0 
+2026-11-25,infrared-thermometer-emissivity-guide,18903,hasads-none,el swap x0 
+2026-11-25,bimetallic-thermometer-working-principle,18909,hasads-none,el swap x0 
+2026-11-25,sample-conditioning-system-analyzer,18915,hasads-none,el swap x0 
+2026-11-25,silica-analyzer-power-plant-water,18921,hasads-none,el swap x0 
+2026-11-25,differential-pressure-switch-working,18927,hasads-none,el swap x0 
+2026-11-25,vibration-switch-machine-protection,18933,hasads-none,el swap x0 
+2026-11-25,control-valve-stiction-detection,18939,hasads-none,el swap x0 
+2026-11-25,control-valve-packing-low-emission,18945,hasads-none,el swap x0 
+2026-11-25,calibration-certificate-as-found-as-left,18951,hasads-none,el swap x0 
+2026-11-25,test-uncertainty-ratio-tur-calibration,18957,hasads-none,el swap x0 
+2026-11-25,instrument-datasheet-isa-20-guide,18963,hasads-none,el swap x0 
+2026-11-25,instrument-hook-up-drawing-guide,18969,hasads-none,el swap x0 
+2026-11-25,plc-pid-instruction-configuration,18976,hasads-none,el swap x0 
+2026-11-25,plc-interrupt-event-periodic-tasks,18983,hasads-none,el swap x0 
+2026-11-25,plc-simulation-software-virtual-commissioning,18989,hasads-none,el swap x0 
+2026-11-25,plc-indirect-addressing-pointers,18995,hasads-none,el swap x0 
+2026-11-25,thin-client-hmi-web-scada,19001,hasads-none,el swap x0 
+2026-11-25,scada-polling-rate-optimization,19007,hasads-none,el swap x0 
+2026-11-25,scada-reporting-historian-reports,19013,hasads-none,el swap x0 
+2026-11-25,override-control-selector-dcs,19019,hasads-none,el swap x0 
+2026-11-25,control-loop-performance-monitoring-clpm,19026,hasads-none,el swap x0 
+2026-11-25,dcs-online-download-configuration-in-run,19032,hasads-none,el swap x0 
+2026-11-25,ethernet-apl-advanced-physical-layer,19039,hasads-none,el swap x0 
+2026-11-25,isa100-wireless-isa100-11a,19045,hasads-none,el swap x0 
+2026-11-25,ot-vulnerability-assessment-ics,19051,hasads-none,el swap x0 
+2026-11-25,application-allowlisting-ics-hmi,19057,hasads-none,el swap x0 
+2026-11-25,ot-intrusion-detection-system-ics,19063,hasads-none,el swap x0 
+2026-11-25,industrial-firewall-deep-packet-inspection,19069,hasads-none,el swap x0 
+2026-11-25,private-5g-industrial-automation,19075,hasads-none,el swap x0 
+2026-11-25,industrial-fiber-optic-network,19081,hasads-none,el swap x0 
+2026-11-25,safety-plc-sil-3-controller,19087,hasads-none,el swap x0 
+2026-11-25,spurious-trip-rate-sis-mttfs,19093,hasads-none,el swap x0 
+2026-11-25,safety-requirements-specification-iec-61511,19099,hasads-none,el swap x0 
+2026-11-25,generative-ai-industrial-automation,19105,hasads-none,el swap x0 
+2026-11-25,reinforcement-learning-process-control,19111,hasads-none,el swap x0 
+2026-11-25,remaining-useful-life-prediction,19117,hasads-none,el swap x0 

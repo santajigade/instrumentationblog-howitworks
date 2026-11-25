@@ -262,17 +262,17 @@
 {
 "id": 7142,
 "slug": "float-level-switch-working-principle-and-applications",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 7179,
 "slug": "what-is-a-plc",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 7203,
 "slug": "plc-wiring-field-instrument-to-system-cabinet",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 7232,
@@ -282,7 +282,7 @@
 {
 "id": 7305,
 "slug": "what-is-electromagnetic-interference-emi",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 7337,
@@ -397,7 +397,7 @@
 {
 "id": 8145,
 "slug": "100-essential-engineering-formulas",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 8177,
@@ -607,12 +607,12 @@
 {
 "id": 9549,
 "slug": "impulse-line-installation-slope",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 9588,
 "slug": "absolute-vs-gauge-pressure",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 9614,
@@ -627,12 +627,12 @@
 {
 "id": 9654,
 "slug": "what-is-ratio-control-in-process-industries",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 9670,
 "slug": "scada-and-dcs-questions-answers",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 9693,
@@ -647,7 +647,7 @@
 {
 "id": 9735,
 "slug": "pressure-switch-vs-pressure-transmitter",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 9771,
@@ -667,17 +667,17 @@
 {
 "id": 9833,
 "slug": "analytical-instruments-questions-answers",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 9849,
 "slug": "split-range-control-working-principle",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 9876,
 "slug": "hart-loop-resistor-in-hart-communication",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 9919,
@@ -692,47 +692,47 @@
 {
 "id": 9946,
 "slug": "static-pressure-vs-differential-pressure",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 9960,
 "slug": "analog-signal-resolution-in-plc",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 9970,
 "slug": "plc-analog-input-problems-solutions",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 9982,
 "slug": "scada-communication-problems",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10004,
 "slug": "instrument-loop-impedance-4-20ma-accuracy",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10020,
 "slug": "mistakes-in-dp-flow-measurement",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10034,
 "slug": "types-of-pressure-transmitters",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10049,
 "slug": "control-valve-positioner-working",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10088,
 "slug": "what-are-pressure-sensing-lines",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10106,
@@ -742,7 +742,7 @@
 {
 "id": 10127,
 "slug": "communication-protocols-in-plc",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10166,
@@ -752,12 +752,12 @@
 {
 "id": 10181,
 "slug": "drain-and-vent-hole-in-orifice-plate",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10199,
 "slug": "sensor-trim-and-output-trim",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10222,
@@ -767,37 +767,37 @@
 {
 "id": 10239,
 "slug": "differential-pressure-gauge-working",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10272,
 "slug": "instrument-calibration-common-terms",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10289,
 "slug": "orifice-plate-flow-measurement",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10319,
 "slug": "adnoc-wearable-gas-detectors",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10326,
 "slug": "analog-vs-digital-instrumentation-system",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10340,
 "slug": "industrial-electronics-questions-answers",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10347,
 "slug": "temperature-measurement-errors",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10356,
@@ -807,107 +807,107 @@
 {
 "id": 10371,
 "slug": "actual-flow-standard-flow-normal-flow",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10391,
 "slug": "temperature-and-pressure-compensation",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10414,
 "slug": "4-to-20-ma-signal-instrumentation",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10437,
 "slug": "square-root-extraction-dp-flow",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10458,
 "slug": "hipps-system-in-oil-and-gas",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10474,
 "slug": "strainer-and-filter-difference",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10487,
 "slug": "ai-in-plc-scada-and-dcs",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10506,
 "slug": "7-types-of-pressure-relief-valves",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10529,
 "slug": "what-is-a-diaphragm-seal",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10560,
 "slug": "how-nitrogen-purging-works",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10591,
 "slug": "flow-characteristics-of-control-valves",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10608,
 "slug": "choked-flow-in-control-valves",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10648,
 "slug": "flush-connections-in-sanitary-measurement",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10667,
 "slug": "dp-level-measurement-varying-density",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10675,
 "slug": "types-of-allen-bradley-plcs",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10702,
 "slug": "types-of-instrumentation",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10715,
 "slug": "types-of-nuclear-level-measurement",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10726,
 "slug": "basic-parts-of-a-control-valve",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10734,
 "slug": "process-control-valves-instrumentation",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10745,
 "slug": "instrumentation-automation-abbreviations",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10755,
 "slug": "valve-actuator-types-applications",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10781,
@@ -917,7 +917,7 @@
 {
 "id": 10799,
 "slug": "industrial-dryers-and-evaporators",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10815,
@@ -932,22 +932,22 @@
 {
 "id": 10862,
 "slug": "sensor-scaling-instrumentation",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10886,
 "slug": "thermocouple-burnout-detection",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10894,
 "slug": "what-is-sensor-linearity",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10906,
 "slug": "point-to-point-connection-multidrop-connection",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 10922,
@@ -977,17 +977,17 @@
 {
 "id": 11026,
 "slug": "what-is-an-hvac-system",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 11368,
 "slug": "types-of-controllers-in-instrumentation",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 11378,
 "slug": "deaerator-working-principle",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 11398,
@@ -997,17 +997,17 @@
 {
 "id": 11422,
 "slug": "terms-used-with-pressure-sensors",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 11439,
 "slug": "8-free-training-courses-plc-scada-hmi",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 11449,
 "slug": "reflux-ratio-in-distillation-column",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 11462,
@@ -1022,47 +1022,47 @@
 {
 "id": 11522,
 "slug": "what-is-a-safety-relay",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 11549,
 "slug": "2-wire-and-4-wire-transmitters",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 11592,
 "slug": "instrumentation-and-control-standards",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 11607,
 "slug": "working-principle-membrane-level-switch",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 11625,
 "slug": "metal-tube-rotameter-working",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 11650,
 "slug": "instrumentation-engineers-guide",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 11660,
 "slug": "pressure-tappings-in-orifice-plate",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 11686,
 "slug": "how-to-select-right-plc",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 11710,
 "slug": "types-of-thermocouples-and-ranges",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 11734,
@@ -1072,22 +1072,22 @@
 {
 "id": 11764,
 "slug": "piezoresistive-vs-piezoelectric-pressure-sensors",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 11779,
 "slug": "how-a-hall-effect-sensor-works",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 11800,
 "slug": "questions-and-answers-on-level-sensors",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 11810,
 "slug": "pressure-gauge-and-pressure-transmitter",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 11824,
@@ -1307,7 +1307,7 @@
 {
 "id": 12989,
 "slug": "current-transformer-working-principle",
-"status": "hasads"
+"status": "swapped"
 },
 {
 "id": 13007,
@@ -4077,402 +4077,402 @@
 {
 "id": 18158,
 "slug": "tvs-diode-transient-voltage-suppression-explained",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18165,
 "slug": "photodiode-vs-phototransistor-key-differences",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18171,
 "slug": "astable-vs-monostable-vs-bistable-multivibrator",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18177,
 "slug": "voltage-follower-unity-gain-buffer-explained",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18183,
 "slug": "pcb-via-types-through-hole-blind-buried",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18189,
 "slug": "flow-computer-working-principle",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18195,
 "slug": "wedge-flow-meter-working-principle",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18202,
 "slug": "multivariable-transmitter-working",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18208,
 "slug": "laser-level-transmitter-working-principle",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18214,
 "slug": "residual-chlorine-analyzer-working",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18220,
 "slug": "conveyor-safety-switches-types",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18226,
 "slug": "control-valve-trim-types",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18232,
 "slug": "multifunction-process-calibrator-uses",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18238,
 "slug": "plc-subroutine-jsr-jmp-instructions",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18243,
 "slug": "plc-one-shot-ons-osr-osf",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18248,
 "slug": "scada-time-synchronization-ntp-ptp",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18253,
 "slug": "dcs-control-modes-manual-auto-cascade",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18258,
 "slug": "data-diode-ot-network-security",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18263,
 "slug": "industrial-protocol-gateway",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18298,
 "slug": "cable-derating-factors",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18305,
 "slug": "faradays-law-electromagnetic-induction",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18311,
 "slug": "transformer-cooling-methods-onan-onaf",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18317,
 "slug": "insulation-resistance-test-megger",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18323,
 "slug": "soft-starter-working-principle",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18329,
 "slug": "transformer-differential-protection-87t",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18335,
 "slug": "potentiometer-working-principle",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18341,
 "slug": "schmitt-trigger-hysteresis",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18347,
 "slug": "instrumentation-amplifier-working",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18354,
 "slug": "pir-sensor-working-principle",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18360,
 "slug": "pulse-width-modulation-duty-cycle",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18366,
 "slug": "snubber-circuit-rc-design",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18372,
 "slug": "maximum-demand-calculation-diversity",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18382,
 "slug": "skin-effect-in-conductors",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18389,
 "slug": "dc-motor-types-series-shunt-compound",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18398,
 "slug": "on-load-tap-changer-oltc",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18405,
 "slug": "step-and-touch-voltage-ieee-80",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18412,
 "slug": "bus-duct-busway-system",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18418,
 "slug": "power-distribution-system-radial-ring",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18424,
 "slug": "vfd-braking-resistor-sizing",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18431,
 "slug": "idmt-relay-characteristics-tms-psm",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18438,
 "slug": "surge-arrester-working-selection",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18444,
 "slug": "per-unit-system-power-system",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18450,
 "slug": "ferranti-effect-transmission-line",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18457,
 "slug": "ntc-ptc-thermistor-working",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18463,
 "slug": "ferrite-bead-emi-filter",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18469,
 "slug": "74hc595-shift-register",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18475,
 "slug": "ttl-vs-cmos-logic-families",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18481,
 "slug": "op-amp-integrator-differentiator",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18488,
 "slug": "active-filter-sallen-and-key",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18494,
 "slug": "ultrasonic-distance-sensor-sr04",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18500,
 "slug": "capacitive-touch-sensor-working",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18507,
 "slug": "decibel-in-electronics-db-dbm",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18514,
 "slug": "pcb-crosstalk-reduction",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18520,
 "slug": "controlled-impedance-pcb-traces",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18526,
 "slug": "power-inverter-working-principle",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18533,
 "slug": "lightning-protection-system-rolling-sphere",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18539,
 "slug": "earth-fault-loop-impedance-zs-testing",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18545,
 "slug": "eddy-current-loss-hysteresis-loss",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18551,
 "slug": "generator-excitation-system-avr",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18557,
 "slug": "transformer-inrush-current",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18563,
 "slug": "infrared-thermography-electrical-panels",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18569,
 "slug": "apfc-panel-working-sizing",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18575,
 "slug": "dv-dt-filter-vfd-motor-protection",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18581,
 "slug": "active-harmonic-filter-working-sizing",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18587,
 "slug": "gis-vs-ais-substation",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18594,
 "slug": "cable-gland-types-selection",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18600,
 "slug": "motor-starting-voltage-dip-calculation",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18606,
 "slug": "electromagnetic-relay-working-coil-suppression",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18612,
 "slug": "capacitor-esr-equivalent-series-resistance",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18619,
 "slug": "spi-vs-i2c-protocol-comparison",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18625,
 "slug": "uart-communication-frame-baud-rate",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18631,
 "slug": "current-mirror-bjt-mosfet-circuit",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18638,
 "slug": "precision-rectifier-op-amp-circuit",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18644,
 "slug": "humidity-sensor-capacitive-rh",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18650,
 "slug": "hall-effect-current-sensor-acs712",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18658,
 "slug": "bode-plot-gain-phase-margin",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18664,
 "slug": "ground-bounce-pcb-simultaneous-switching",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18671,
 "slug": "thermal-vias-pcb-heat-dissipation",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18677,
 "slug": "pfc-circuit-boost-power-factor-correction",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18684,
 "slug": "plc-structured-text-programming",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18689,
@@ -4492,327 +4492,327 @@
 {
 "id": 18713,
 "slug": "sequential-function-chart-sfc-plc",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18720,
 "slug": "plc-high-speed-counter-encoder",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18726,
 "slug": "first-out-alarm-plc-logic",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18732,
 "slug": "report-by-exception-scada-dnp3",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18739,
 "slug": "store-and-forward-scada-historian",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18745,
 "slug": "scada-virtualization-servers-guide",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18751,
 "slug": "alarm-shelving-isa-18-2-dcs",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18757,
 "slug": "marshalling-cabinet-dcs-wiring",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18763,
 "slug": "factory-acceptance-test-dcs-fat-sat",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18770,
 "slug": "industrial-dmz-it-ot-level-3-5",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18776,
 "slug": "ot-patch-management-ics",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18782,
 "slug": "ot-asset-inventory-ics-guide",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18788,
 "slug": "ics-incident-response-plan-ot",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18794,
 "slug": "can-bus-canopen-industrial",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18804,
 "slug": "time-sensitive-networking-tsn",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18810,
 "slug": "rs485-termination-biasing-resistors",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18816,
 "slug": "lorawan-industrial-iot-guide",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18822,
 "slug": "emergency-shutdown-system-esd",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18828,
 "slug": "fire-and-gas-system-process-plants",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18834,
 "slug": "partial-stroke-testing-esd-valves",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18840,
 "slug": "soft-sensor-inferential-measurement",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18846,
 "slug": "anomaly-detection-machine-learning-industrial",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18852,
 "slug": "model-predictive-control-mpc-process",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18866,
 "slug": "flow-conditioner-straight-run",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18872,
 "slug": "target-flow-meter-working-principle",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18878,
 "slug": "proof-pressure-vs-burst-pressure",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18884,
 "slug": "plugged-impulse-line-detection",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18890,
 "slug": "bubbler-level-measurement-purge",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18897,
 "slug": "bulk-solids-level-measurement-silo",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18903,
 "slug": "infrared-thermometer-emissivity-guide",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18909,
 "slug": "bimetallic-thermometer-working-principle",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18915,
 "slug": "sample-conditioning-system-analyzer",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18921,
 "slug": "silica-analyzer-power-plant-water",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18927,
 "slug": "differential-pressure-switch-working",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18933,
 "slug": "vibration-switch-machine-protection",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18939,
 "slug": "control-valve-stiction-detection",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18945,
 "slug": "control-valve-packing-low-emission",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18951,
 "slug": "calibration-certificate-as-found-as-left",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18957,
 "slug": "test-uncertainty-ratio-tur-calibration",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18963,
 "slug": "instrument-datasheet-isa-20-guide",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18969,
 "slug": "instrument-hook-up-drawing-guide",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18976,
 "slug": "plc-pid-instruction-configuration",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18983,
 "slug": "plc-interrupt-event-periodic-tasks",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18989,
 "slug": "plc-simulation-software-virtual-commissioning",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 18995,
 "slug": "plc-indirect-addressing-pointers",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 19001,
 "slug": "thin-client-hmi-web-scada",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 19007,
 "slug": "scada-polling-rate-optimization",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 19013,
 "slug": "scada-reporting-historian-reports",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 19019,
 "slug": "override-control-selector-dcs",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 19026,
 "slug": "control-loop-performance-monitoring-clpm",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 19032,
 "slug": "dcs-online-download-configuration-in-run",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 19039,
 "slug": "ethernet-apl-advanced-physical-layer",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 19045,
 "slug": "isa100-wireless-isa100-11a",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 19051,
 "slug": "ot-vulnerability-assessment-ics",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 19057,
 "slug": "application-allowlisting-ics-hmi",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 19063,
 "slug": "ot-intrusion-detection-system-ics",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 19069,
 "slug": "industrial-firewall-deep-packet-inspection",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 19075,
 "slug": "private-5g-industrial-automation",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 19081,
 "slug": "industrial-fiber-optic-network",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 19087,
 "slug": "safety-plc-sil-3-controller",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 19093,
 "slug": "spurious-trip-rate-sis-mttfs",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 19099,
 "slug": "safety-requirements-specification-iec-61511",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 19105,
 "slug": "generative-ai-industrial-automation",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 19111,
 "slug": "reinforcement-learning-process-control",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 19117,
 "slug": "remaining-useful-life-prediction",
-"status": "hasads"
+"status": "hasads-none"
 },
 {
 "id": 19123,
