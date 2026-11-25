@@ -3319,8 +3319,7 @@
 "differential pressure transmitter calibration",
 "gauge pressure formula"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "nfpa-70e-explained-electrical-safety",
@@ -3328,8 +3327,7 @@
 "impr": 709,
 "pos": 40.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "different-types-of-communication-protocols",
@@ -3343,8 +3341,7 @@
 "different types of photoelectric sensors",
 "thermocouple different types"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "thermowell-design-standard-asme-ptc-19-3-tw-2016",
@@ -3355,8 +3352,7 @@
 "asme ptc 19.3 tw",
 "asme ptc 19.3 tw-2016"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "75-pressure-measurements-questions-and-answers",
@@ -3364,8 +3360,7 @@
 "impr": 702,
 "pos": 6.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "why-foam-affects-level-sensors",
@@ -3373,8 +3368,7 @@
 "impr": 699,
 "pos": 10.9,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "modbus-function-codes-explained",
@@ -3382,8 +3376,7 @@
 "impr": 699,
 "pos": 12.9,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "plc-and-automation-questions-and-answers",
@@ -3391,8 +3384,7 @@
 "impr": 694,
 "pos": 7.0,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "hipps-system-in-oil-and-gas",
@@ -3404,8 +3396,7 @@
 "what is hipps in oil and gas",
 "en oil and gas"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "bubbler-level-measurement-purge",
@@ -3419,8 +3410,7 @@
 "zero suppression and elevation in level measurement",
 "capacitance level measurement"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "emergency-stop-push-buttons",
@@ -3428,8 +3418,7 @@
 "impr": 687,
 "pos": 14.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "13-important-factors-affecting-flow-meter-readings-and-their-solutions",
@@ -3437,8 +3426,7 @@
 "impr": 682,
 "pos": 11.0,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "tri-state-buffer-high-impedance",
@@ -3446,8 +3434,7 @@
 "impr": 682,
 "pos": 6.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "magnetic-proximity-sensors",
@@ -3458,8 +3445,7 @@
 "magnetic proximity sensors market",
 "magnetic proximity sensor"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "interface-level-measurement",
@@ -3473,8 +3459,7 @@
 "zero suppression and elevation in level measurement",
 "capacitance level measurement"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "phase-angle-in-ac-circuits",
@@ -3482,8 +3467,7 @@
 "impr": 678,
 "pos": 24.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "temperature-classes-in-hazardous-areas",
@@ -3491,8 +3475,7 @@
 "impr": 677,
 "pos": 36.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "io-modules-in-industrial-automation",
@@ -3504,8 +3487,7 @@
 "free industrial automation course",
 "industrial automation free course"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "dcs-control-modes-manual-auto-cascade",
@@ -3513,8 +3495,7 @@
 "impr": 672,
 "pos": 4.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "wien-bridge-oscillator-circuit",
@@ -3522,8 +3503,7 @@
 "impr": 671,
 "pos": 8.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "555-timer-ic-explained",
@@ -3531,8 +3511,7 @@
 "impr": 671,
 "pos": 8.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "instrumentation-and-control-standards",
@@ -3543,8 +3522,7 @@
 "instrumentation standards",
 "types of control loops in instrumentation"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "how-to-calculate-mcb-rating-circuit",
@@ -3554,8 +3532,7 @@
 "queries": [
 "how to calculate mcb rating"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "top-3-types-and-applications-of-pressure-transmitters",
@@ -3565,8 +3542,7 @@
 "queries": [
 "types of pressure transmitters"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "control-valve-seat-leakage-classes",
@@ -3574,8 +3550,7 @@
 "impr": 658,
 "pos": 12.0,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "chatgpt-for-plc-programming",
@@ -3589,8 +3564,7 @@
 "structured text plc programming",
 "plc structured text programming"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "piping-and-instrumentation-diagram",
@@ -3598,8 +3572,7 @@
 "impr": 651,
 "pos": 9.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "tvs-diode-transient-voltage-suppression-explained",
@@ -3607,8 +3580,7 @@
 "impr": 650,
 "pos": 50.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "hydrotest-procedure-for-piping-system",
@@ -3618,8 +3590,7 @@
 "queries": [
 "piping procedure"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "steam-flow-measurement-methods",
@@ -3627,8 +3598,7 @@
 "impr": 642,
 "pos": 8.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "cable-tray-fill-calculation",
@@ -3638,8 +3608,7 @@
 "queries": [
 "nec 392 cable tray fill"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "comparator-circuits-explained",
@@ -3647,8 +3616,7 @@
 "impr": 638,
 "pos": 24.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "restriction-orifice-blowdown-valve-spacing",
@@ -3656,8 +3624,7 @@
 "impr": 637,
 "pos": 5.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "plc-output-module-types",
@@ -3671,8 +3638,7 @@
 "ab plc types",
 "data types in plc programming"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "schottky-diode-advantages-limitations",
@@ -3680,8 +3646,7 @@
 "impr": 637,
 "pos": 13.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "industrial-communication-protocols-mcqs",
@@ -3691,8 +3656,7 @@
 "queries": [
 "dcs communication protocols"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "trace-moisture-analyzer-natural-gas",
@@ -3700,8 +3664,7 @@
 "impr": 635,
 "pos": 15.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "dead-weight-pressure-tester",
@@ -3709,8 +3672,7 @@
 "impr": 633,
 "pos": 36.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "inter-discipline-check",
@@ -3718,8 +3680,7 @@
 "impr": 631,
 "pos": 4.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "inductor-working-principle",
@@ -3733,8 +3694,7 @@
 "potentiometer working principle",
 "differential pressure transmitter working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "induction-generator-working-principle",
@@ -3748,8 +3708,7 @@
 "rtd working principle in hindi",
 "potentiometer working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "directional-overcurrent-relay-67",
@@ -3759,8 +3718,7 @@
 "queries": [
 "directional overcurrent relay"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "restricted-earth-fault-protection-ref",
@@ -3768,8 +3726,7 @@
 "impr": 617,
 "pos": 5.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "valve-positioner-calibration-procedure",
@@ -3779,8 +3736,7 @@
 "queries": [
 "level transmitter calibration procedure pdf"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "capillary-tubing-in-pressure-measurements",
@@ -3788,8 +3744,7 @@
 "impr": 612,
 "pos": 14.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "residual-chlorine-analyzer-working",
@@ -3801,8 +3756,7 @@
 "zirconia oxygen analyzer working principle",
 "cems analyzer working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "what-is-ratio-control-in-process-industries",
@@ -3810,8 +3764,7 @@
 "impr": 607,
 "pos": 14.0,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "ndir-gas-analyzer-working-principle-co-co2-ch4",
@@ -3819,8 +3772,7 @@
 "impr": 606,
 "pos": 8.9,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "averaging-pitot-tube-working-principle",
@@ -3830,8 +3782,7 @@
 "queries": [
 "averaging pitot tube"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "dcs-control-strategies",
@@ -3841,8 +3792,7 @@
 "queries": [
 "what is a dcs control system"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "active-filter-sallen-and-key",
@@ -3850,8 +3800,7 @@
 "impr": 601,
 "pos": 14.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "valve-abbreviations-explained",
@@ -3859,8 +3808,7 @@
 "impr": 601,
 "pos": 6.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "pcb-return-current-path",
@@ -3870,8 +3818,7 @@
 "queries": [
 "return current path"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "dnp3-iec-60870-5-104-scada-protocol-comparison",
@@ -3879,8 +3826,7 @@
 "impr": 597,
 "pos": 5.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "mineral-insulated-thermocouple-cable",
@@ -3890,8 +3836,7 @@
 "queries": [
 "mineral insulated thermocouple"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "signal-to-noise-ratio-snr-calculator",
@@ -3899,8 +3844,7 @@
 "impr": 588,
 "pos": 14.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "faradays-law-electromagnetic-induction",
@@ -3908,8 +3852,7 @@
 "impr": 588,
 "pos": 7.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "acb-vs-vcb-vs-sf6-circuit-breaker",
@@ -3919,8 +3862,7 @@
 "queries": [
 "acb vs vcb vs sf6"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "differential-pressure-switch-working",
@@ -3934,8 +3876,7 @@
 "how does a pressure differential transmitter work",
 "differential pressure transmitter how it works"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "orifice-plate-thickness-performance",
@@ -3949,8 +3890,7 @@
 "orifice plate sizes",
 "standard orifice plate"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "automatic-tank-gauging-explained",
@@ -3958,8 +3898,7 @@
 "impr": 579,
 "pos": 17.9,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "ferrite-bead-vs-common-mode-choke-when-to-use-which",
@@ -3969,8 +3908,7 @@
 "queries": [
 "common mode choke vs ferrite bead"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "paramagnetic-oxygen-analyzer-working",
@@ -3981,8 +3919,7 @@
 "zirconia oxygen analyzer working principle",
 "cems analyzer working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "sensor-selection-criteria",
@@ -3990,8 +3927,7 @@
 "impr": 578,
 "pos": 9.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "rs485-termination-biasing-resistors",
@@ -4001,8 +3937,7 @@
 "queries": [
 "rs485 bias resistors"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "calculating-network-speed-bandwidth-and-throughput",
@@ -4010,8 +3945,7 @@
 "impr": 577,
 "pos": 9.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "alternator-working-principle-explained",
@@ -4025,8 +3959,7 @@
 "potentiometer working principle",
 "differential pressure transmitter working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "parshall-flume-open-channel-flow",
@@ -4037,8 +3970,7 @@
 "open channel flow calculator",
 "manning equation open channel flow calculator"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "float-level-switch-working-principle-and-applications",
@@ -4052,8 +3984,7 @@
 "magnetic level switch working principle",
 "enraf level gauge working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "SIL-Manual.pdf",
@@ -4061,8 +3992,7 @@
 "impr": 568,
 "pos": 7.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "temperature-measurement-hazardous-area-sensors",
@@ -4070,8 +4000,7 @@
 "impr": 563,
 "pos": 7.9,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "pressure-gauge-calibration-procedure",
@@ -4085,8 +4014,7 @@
 "deadweight pressure gauge",
 "pressure gauge snubber working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "ferrite-bead-emi-filter",
@@ -4098,8 +4026,7 @@
 "ferrite bead filter design",
 "ferrite bead for power supply filtering"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "internet-protocols-explained",
@@ -4107,8 +4034,7 @@
 "impr": 558,
 "pos": 12.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "industrial-protocol-gateway",
@@ -4119,8 +4045,7 @@
 "industrial protocol gateway",
 "protocol gateway"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "sis-and-bpcs-differences",
@@ -4128,8 +4053,7 @@
 "impr": 554,
 "pos": 7.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "liquid-filled-pressure-gauge",
@@ -4143,8 +4067,7 @@
 "pressure gauge snubber working principle",
 "bourdon tube pressure gauge"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "control-valve-packing-low-emission",
@@ -4152,8 +4075,7 @@
 "impr": 552,
 "pos": 14.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "logic-level-shifter-3v3-5v",
@@ -4161,8 +4083,7 @@
 "impr": 552,
 "pos": 12.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "capacitor-working-principle",
@@ -4176,8 +4097,7 @@
 "potentiometer working principle",
 "differential pressure transmitter working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "what-is-burner-management-system",
@@ -4189,8 +4109,7 @@
 "alarm management system in dcs",
 "dcs alarm management system"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "control-narrative-functional-specification",
@@ -4198,8 +4117,7 @@
 "impr": 541,
 "pos": 6.0,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "flow-rate-formula",
@@ -4211,8 +4129,7 @@
 "dp flow square root formula",
 "calculate velocity from flow rate"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "ups-capacity-kva-calculation",
@@ -4220,8 +4137,7 @@
 "impr": 537,
 "pos": 12.0,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "instrumentation-amplifier-vs-op-amp-key-differences",
@@ -4229,8 +4145,7 @@
 "impr": 532,
 "pos": 6.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "flow-meter-wet-vs-dry-calibration",
@@ -4240,8 +4155,7 @@
 "queries": [
 "gas flow meter calibration"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "npsh-and-cavitation-explained",
@@ -4249,8 +4163,7 @@
 "impr": 527,
 "pos": 5.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "control-valve-troubleshooting",
@@ -4264,8 +4177,7 @@
 "parts of control valve",
 "control valve characteristics"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "rtd-pt100-vs-pt1000-differences",
@@ -4276,8 +4188,7 @@
 "how to calibrate rtd pt100",
 "rtd pt100 resistance to temperature calculator"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "override-control-selector-dcs",
@@ -4287,8 +4198,7 @@
 "queries": [
 "what is a dcs control system"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "plc-bit-shift-rotate-instructions",
@@ -4296,8 +4206,7 @@
 "impr": 515,
 "pos": 5.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "pressure-gauge-over-range-protection",
@@ -4305,8 +4214,7 @@
 "impr": 514,
 "pos": 4.9,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "voltage-sag-swell-and-flicker-explained",
@@ -4314,8 +4222,7 @@
 "impr": 514,
 "pos": 9.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "what-is-smart-transmitter",
@@ -4323,8 +4230,7 @@
 "impr": 514,
 "pos": 11.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "hart-protocol-how-it-works",
@@ -4334,8 +4240,7 @@
 "queries": [
 "differential pressure transmitter how it works"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "silica-analyzer-power-plant-water",
@@ -4343,8 +4248,7 @@
 "impr": 512,
 "pos": 7.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "plc-structured-text-programming",
@@ -4358,8 +4262,7 @@
 "structured text plc programming",
 "plc structured text programming"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "phototransistor-working-principle-applications",
@@ -4373,8 +4276,7 @@
 "potentiometer working principle",
 "differential pressure transmitter working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "2-wire-3-wire-4-wire-transmitters-in-industrial-automation",
@@ -4386,8 +4288,7 @@
 "free industrial automation course",
 "industrial automation free course"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "rupture-disc-explained",
@@ -4397,8 +4298,7 @@
 "queries": [
 "reverse acting rupture disc"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "thermocouple-polarity-identification",
@@ -4406,8 +4306,7 @@
 "impr": 504,
 "pos": 8.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "non-inverting-amplifier-gain",
@@ -4418,8 +4317,7 @@
 "inverting amplifier gain formula",
 "gain for inverting op amp"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "how-decoupling-capacitors-work",
@@ -4427,8 +4325,7 @@
 "impr": 502,
 "pos": 58.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "instrument-loop-checking-procedure",
@@ -4442,8 +4339,7 @@
 "cold loop checking in instrumentation",
 "loop checking in instrumentation"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "gas-pressure-switch-burner",
@@ -4454,8 +4350,7 @@
 "differential pressure switch",
 "pressure switch calibrator"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "how-does-a-gas-filled-thermometer-work",
@@ -4463,8 +4358,7 @@
 "impr": 500,
 "pos": 7.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "pcb-creepage-and-clearance",
@@ -4472,8 +4366,7 @@
 "impr": 500,
 "pos": 14.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "wellhead-control-panel-whcp",
@@ -4483,8 +4376,7 @@
 "queries": [
 "control panel wire color code"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "metal-tube-rotameter-working",
@@ -4492,8 +4384,7 @@
 "impr": 493,
 "pos": 9.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "lenzs-law-electromagnetic-induction",
@@ -4501,8 +4392,7 @@
 "impr": 493,
 "pos": 7.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "hart-loop-resistor-in-hart-communication",
@@ -4510,8 +4400,7 @@
 "impr": 493,
 "pos": 8.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "thermistor-vs-thermocouple",
@@ -4519,8 +4408,7 @@
 "impr": 492,
 "pos": 10.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "peltier-effect",
@@ -4530,8 +4418,7 @@
 "queries": [
 "peltier effect explained"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "auto-negotiation-in-networking",
@@ -4539,8 +4426,7 @@
 "impr": 491,
 "pos": 47.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "pfc-circuit-boost-power-factor-correction",
@@ -4548,8 +4434,7 @@
 "impr": 489,
 "pos": 21.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "patch-panel-explained-types-and-how-it-works",
@@ -4557,8 +4442,7 @@
 "impr": 489,
 "pos": 19.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "dv-dt-filter-vfd-motor-protection",
@@ -4566,8 +4450,7 @@
 "impr": 488,
 "pos": 8.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "pressure-switch-vs-pressure-transmitter",
@@ -4581,8 +4464,7 @@
 "differential pressure transmitter calibration",
 "pressure transmitter accuracy"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "control-valve-body-types-globe-angle-rotary-three-way",
@@ -4590,8 +4472,7 @@
 "impr": 479,
 "pos": 5.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "what-is-a-varistor-working-principle-applications",
@@ -4605,8 +4486,7 @@
 "potentiometer working principle",
 "differential pressure transmitter working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "absolute-pressure-transmitter-working-principle",
@@ -4620,8 +4500,7 @@
 "displacer type level transmitter working principle",
 "absolute pressure transmitter working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "safety-signal-bypass-explained",
@@ -4629,8 +4508,7 @@
 "impr": 477,
 "pos": 7.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "bode-plot-gain-phase-margin",
@@ -4638,8 +4516,7 @@
 "impr": 475,
 "pos": 8.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "what-is-a-diaphragm-seal",
@@ -4649,8 +4526,7 @@
 "queries": [
 "diaphragm seal"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "weigh-feeder-working-principle",
@@ -4664,8 +4540,7 @@
 "potentiometer working principle",
 "differential pressure transmitter working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "hydrogen-purity-analyzer-generator",
@@ -4673,8 +4548,7 @@
 "impr": 475,
 "pos": 31.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "electromagnetic-flow-meter-working-principle",
@@ -4684,8 +4558,7 @@
 "queries": [
 "flow nozzle working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "difference-between-ac-and-dc",
@@ -4699,8 +4572,7 @@
 "difference between filter and strainer",
 "difference between pnp and npn proximity sensor"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "earthing-transformer-zigzag",
@@ -4708,8 +4580,7 @@
 "impr": 469,
 "pos": 6.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "eddy-current-loss-hysteresis-loss",
@@ -4717,8 +4588,7 @@
 "impr": 469,
 "pos": 11.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "dcs-migration-and-obsolescence-management",
@@ -4729,8 +4599,7 @@
 "alarm management system in dcs",
 "dcs alarm management system"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "valve-limit-switch-box",
@@ -4740,8 +4609,7 @@
 "queries": [
 "limit switch"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "radar-level-selection-non-contact-vs-guided-wave",
@@ -4749,8 +4617,7 @@
 "impr": 468,
 "pos": 7.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "instrument-location-plan-layout",
@@ -4760,8 +4627,7 @@
 "queries": [
 "instrument location plan"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "magmeter-empty-pipe-detection",
@@ -4769,8 +4635,7 @@
 "impr": 460,
 "pos": 5.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "plc-raw-count-calculation",
@@ -4778,8 +4643,7 @@
 "impr": 460,
 "pos": 6.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "piezoresistive-vs-capacitive-pressure-sensor",
@@ -4789,8 +4653,7 @@
 "queries": [
 "capacitive touch sensor design guide"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "pressure-switch-calibration-8-simple-steps-for-safe-trips",
@@ -4798,8 +4661,7 @@
 "impr": 452,
 "pos": 7.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "oil-in-water-analyzer-working",
@@ -4810,8 +4672,7 @@
 "zirconia oxygen analyzer working principle",
 "cems analyzer working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "bulk-solids-level-measurement-silo",
@@ -4819,8 +4680,7 @@
 "impr": 452,
 "pos": 23.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "industrial-dmz-it-ot-level-3-5",
@@ -4828,8 +4688,7 @@
 "impr": 450,
 "pos": 6.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "analog-signal-resolution-in-plc",
@@ -4840,8 +4699,7 @@
 "analog signal conditioner",
 "analog signal conditioning"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "active-vs-passive-components",
@@ -4849,8 +4707,7 @@
 "impr": 448,
 "pos": 11.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "gas-chromatograph-basics-process-analytics",
@@ -4858,8 +4715,7 @@
 "impr": 447,
 "pos": 43.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "how-to-tune-a-pid-controller",
@@ -4871,8 +4727,7 @@
 "types of pid controller",
 "pid controller types"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "control-system-philosophy-30-key-concerns",
@@ -4880,8 +4735,7 @@
 "impr": 445,
 "pos": 17.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "what-is-serial-communication",
@@ -4891,8 +4745,7 @@
 "queries": [
 "serial communication"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "4-generations-of-scada-architecture",
@@ -4900,8 +4753,7 @@
 "impr": 443,
 "pos": 17.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "flow-meter-k-factor-calculations",
@@ -4915,8 +4767,7 @@
 "annubar type flow meter",
 "anubar flow meter"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "hydrostatic-pressure-formula",
@@ -4928,8 +4779,7 @@
 "vacuum pressure formula",
 "vaccum pressure formula"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "industrial-network-protocols-crash-courses",
@@ -4937,8 +4787,7 @@
 "impr": 440,
 "pos": 23.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "100-flow-measurement-questions-answers",
@@ -4946,8 +4795,7 @@
 "impr": 439,
 "pos": 8.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "valve-actuator-types-applications",
@@ -4958,8 +4806,7 @@
 "actuator valve body",
 "types of valve actuators"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "statcom-working-principle-vs-svc",
@@ -4973,8 +4820,7 @@
 "potentiometer working principle",
 "differential pressure transmitter working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "control-valve-passing-causes",
@@ -4988,8 +4834,7 @@
 "parts of control valve",
 "control valve characteristics"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "electrolytic-capacitor-lifetime-calculation",
@@ -4997,8 +4842,7 @@
 "impr": 433,
 "pos": 9.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "layer-of-protection-analysis-lopa-sil-assessment",
@@ -5006,8 +4850,7 @@
 "impr": 432,
 "pos": 14.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "turbidity-measurement-guide",
@@ -5015,8 +4858,7 @@
 "impr": 432,
 "pos": 8.9,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "dcs-bad-pv-signal-quality-handling",
@@ -5024,8 +4866,7 @@
 "impr": 431,
 "pos": 3.9,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "how-to-test-an-rtd-pt100",
@@ -5036,8 +4877,7 @@
 "how to calibrate rtd pt100",
 "rtd pt100 resistance to temperature calculator"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "actuator-bench-set-spring-range",
@@ -5045,8 +4885,7 @@
 "impr": 431,
 "pos": 6.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "ct-secondary-open-circuit-risks",
@@ -5056,8 +4895,7 @@
 "queries": [
 "what happens if ct secondary is open"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "mistakes-in-dp-flow-measurement",
@@ -5068,8 +4906,7 @@
 "closed tank level measurement using dp transmitter",
 "dp flow square root formula"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "plc-online-offline-programming",
@@ -5083,8 +4920,7 @@
 "structured text plc programming",
 "plc structured text programming"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "dcs-fieldbus-integration-hart-foundation-fieldbus-profibus-pa",
@@ -5092,8 +4928,7 @@
 "impr": 423,
 "pos": 7.9,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "types-of-natural-gas-flow-meters",
@@ -5101,8 +4936,7 @@
 "impr": 423,
 "pos": 43.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "system-architecture-in-industrial-automation",
@@ -5115,8 +4949,7 @@
 "free industrial automation course",
 "industrial automation free course"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "cold-junction-compensation-in-thermocouple",
@@ -5124,8 +4957,7 @@
 "impr": 422,
 "pos": 28.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "dielectric-constant-level-measurement",
@@ -5139,8 +4971,7 @@
 "zero suppression and elevation in level measurement",
 "capacitance level measurement"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "hardware-fault-tolerance-sff-iec-61508",
@@ -5148,8 +4979,7 @@
 "impr": 419,
 "pos": 7.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "lightning-protection-system-rolling-sphere",
@@ -5157,8 +4987,7 @@
 "impr": 415,
 "pos": 14.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "multivariable-transmitter-working",
@@ -5172,8 +5001,7 @@
 "working principle of differential pressure transmitter",
 "differential pressure transmitter working principle with diagram"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "free-ot-cybersecurity-training",
@@ -5183,8 +5011,7 @@
 "queries": [
 "scada training free"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "brushless-dc-motor-working-principle",
@@ -5196,8 +5023,7 @@
 "brushless dc motor working principle",
 "synchronous motor working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "bus-duct-busway-system",
@@ -5207,8 +5033,7 @@
 "queries": [
 "bus duct"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "temperature-switch-vs-temperature-transmitter",
@@ -5218,8 +5043,7 @@
 "queries": [
 "temperature transmitter"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "differential-amplifier-explained-basics-and-cmrr",
@@ -5227,8 +5051,7 @@
 "impr": 412,
 "pos": 12.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "how-to-calibrate-a-temperature-transmitter",
@@ -5238,8 +5061,7 @@
 "queries": [
 "temperature transmitter"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "cable-sizing-motor-feeders",
@@ -5247,8 +5069,7 @@
 "impr": 411,
 "pos": 9.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "autotransformer-working-principle",
@@ -5262,8 +5083,7 @@
 "potentiometer working principle",
 "differential pressure transmitter working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "sample-conditioning-system-analyzer",
@@ -5273,8 +5093,7 @@
 "queries": [
 "sample conditioning system"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "tdlas-tunable-diode-laser-analyzer",
@@ -5282,8 +5101,7 @@
 "impr": 407,
 "pos": 17.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "flow-conditioner-straight-run",
@@ -5293,8 +5111,7 @@
 "queries": [
 "flow conditioner"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "wedge-flow-meter-working-principle",
@@ -5304,8 +5121,7 @@
 "queries": [
 "flow nozzle working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "capacitive-touch-sensor-working",
@@ -5318,8 +5134,7 @@
 "hall sensor working principle",
 "capacitive touch sensor design guide"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "earthing-aspects-in-industrial-process-plants",
@@ -5327,8 +5142,7 @@
 "impr": 406,
 "pos": 10.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "instrument-datasheet-isa-20-guide",
@@ -5336,8 +5150,7 @@
 "impr": 405,
 "pos": 4.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "dcs-components-es-os-as",
@@ -5345,8 +5158,7 @@
 "impr": 405,
 "pos": 16.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "iec-61131-3-programming-languages",
@@ -5354,8 +5166,7 @@
 "impr": 403,
 "pos": 8.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "gauge-pressure-transmitter-working",
@@ -5369,8 +5180,7 @@
 "differential pressure transmitter calibration",
 "gauge pressure formula"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "analytical-instruments-questions-answers",
@@ -5378,8 +5188,7 @@
 "impr": 402,
 "pos": 7.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "thermocouple-calibration-procedure",
@@ -5390,8 +5199,7 @@
 "thermocouple calibration",
 "level transmitter calibration procedure pdf"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "siphon-sizing-and-selecting-a-siphon-for-pressure-gauge-protection",
@@ -5399,8 +5207,7 @@
 "impr": 401,
 "pos": 15.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "plc-retentive-memory-data-retention",
@@ -5408,8 +5215,7 @@
 "impr": 400,
 "pos": 6.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "spurious-trip-rate-sis-mttfs",
@@ -5419,8 +5225,7 @@
 "queries": [
 "spurious trip rate"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "types-of-integrated-circuits-explained",
@@ -5428,8 +5233,7 @@
 "impr": 398,
 "pos": 9.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "how-to-select-right-plc",
@@ -5437,8 +5241,7 @@
 "impr": 397,
 "pos": 24.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "scada-reporting-historian-reports",
@@ -5446,8 +5249,7 @@
 "impr": 397,
 "pos": 8.0,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "plc-objective-questions-and-answers-quiz",
@@ -5455,8 +5257,7 @@
 "impr": 392,
 "pos": 7.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "how-ultrasonic-flow-meter-works",
@@ -5470,8 +5271,7 @@
 "annubar type flow meter",
 "anubar flow meter"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "what-is-a-magnetometer",
@@ -5479,8 +5279,7 @@
 "impr": 390,
 "pos": 39.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "plc-watchdog-timer-explained",
@@ -5488,8 +5287,7 @@
 "impr": 388,
 "pos": 9.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "time-sensitive-networking-tsn",
@@ -5497,8 +5295,7 @@
 "impr": 388,
 "pos": 50.0,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "sil-verification",
@@ -5508,8 +5305,7 @@
 "queries": [
 "sil verification calculation example"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "lube-oil-console-api-614-requirements",
@@ -5517,8 +5313,7 @@
 "impr": 386,
 "pos": 5.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "8-different-types-of-level-gauges",
@@ -5532,8 +5327,7 @@
 "types of level transmitter in instrumentation",
 "different types of controllers"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "remaining-useful-life-prediction",
@@ -5541,8 +5335,7 @@
 "impr": 382,
 "pos": 13.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "transformer-routine-and-type-tests",
@@ -5550,8 +5343,7 @@
 "impr": 381,
 "pos": 12.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "scada-time-synchronization-ntp-ptp",
@@ -5559,8 +5351,7 @@
 "impr": 380,
 "pos": 7.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "synchronous-condenser-working",
@@ -5570,8 +5361,7 @@
 "queries": [
 "synchronous motor working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "pressure-transmitter-troubleshooting",
@@ -5585,8 +5375,7 @@
 "differential pressure transmitter calibration",
 "pressure transmitter accuracy"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "key-electronic-components-in-industrial-automation",
@@ -5594,8 +5383,7 @@
 "impr": 373,
 "pos": 20.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "instrument-index-document-guide",
@@ -5603,8 +5391,7 @@
 "impr": 372,
 "pos": 7.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "control-valve-trim-types",
@@ -5618,8 +5405,7 @@
 "parts of control valve",
 "control valve characteristics"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "radar-level-antenna-types",
@@ -5631,8 +5417,7 @@
 "types of level transmitter",
 "types of level transmitter in instrumentation"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "adc-working-principle-explained",
@@ -5646,8 +5431,7 @@
 "potentiometer working principle",
 "differential pressure transmitter working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "stepper-motor-working-principle-and-3-main-types",
@@ -5659,8 +5443,7 @@
 "brushless dc motor working principle",
 "synchronous motor working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "saddle-seal-in-instrumentation",
@@ -5668,8 +5451,7 @@
 "impr": 366,
 "pos": 6.0,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "common-mode-choke-working-principle",
@@ -5680,8 +5462,7 @@
 "common mode choke",
 "common mode choke vs ferrite bead"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "motor-thermistor-protection-ptc-relay",
@@ -5692,8 +5473,7 @@
 "motor protection relay",
 "motor protection relay setting calculation excel"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "control-valve-stroking-time",
@@ -5707,8 +5487,7 @@
 "parts of control valve",
 "control valve characteristics"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "optocoupler-working-principle",
@@ -5722,8 +5501,7 @@
 "potentiometer working principle",
 "differential pressure transmitter working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "sepic-converter-working-design",
@@ -5733,8 +5511,7 @@
 "queries": [
 "buck converter working"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "electromagnetic-relay-working-coil-suppression",
@@ -5742,8 +5519,7 @@
 "impr": 362,
 "pos": 17.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "callendar-van-dusen-equation-rtd",
@@ -5751,8 +5527,7 @@
 "impr": 361,
 "pos": 5.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "plc-subroutine-jsr-jmp-instructions",
@@ -5760,8 +5535,7 @@
 "impr": 360,
 "pos": 6.0,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "load-flow-analysis-for-industrial-plants",
@@ -5769,8 +5543,7 @@
 "impr": 359,
 "pos": 39.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "head-mount-temperature-transmitter",
@@ -5780,8 +5553,7 @@
 "queries": [
 "temperature transmitter"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "hot-work-permit-explained",
@@ -5789,8 +5561,7 @@
 "impr": 359,
 "pos": 53.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "compressor-anti-surge-controller",
@@ -5800,8 +5571,7 @@
 "queries": [
 "compressor anti surge control"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "safety-plc-sil-3-controller",
@@ -5812,8 +5582,7 @@
 "programmable logic controller plc block diagram",
 "emerson safety plc"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "capacitors-in-series-and-parallel",
@@ -5821,8 +5590,7 @@
 "impr": 354,
 "pos": 10.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "pcb-via-current-capacity",
@@ -5830,8 +5598,7 @@
 "impr": 352,
 "pos": 5.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "siemens-s7-1200-vs-s7-1500",
@@ -5839,8 +5606,7 @@
 "impr": 350,
 "pos": 32.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "lock-up-valve-pneumatic-actuator",
@@ -5848,8 +5614,7 @@
 "impr": 346,
 "pos": 5.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "flow-control-vs-needle-valve",
@@ -5863,8 +5628,7 @@
 "parts of control valve",
 "control valve characteristics"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "applications-of-rtd-and-thermocouples",
@@ -5872,8 +5636,7 @@
 "impr": 339,
 "pos": 15.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "msg-instructions-in-plc-programming",
@@ -5887,8 +5650,7 @@
 "structured text plc programming",
 "comparison instructions in plc"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "proof-test-interval-coverage-safety-transmitters-iec-61511",
@@ -5896,8 +5658,7 @@
 "impr": 337,
 "pos": 8.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "electrical-safety-audit-checklist",
@@ -5905,8 +5666,7 @@
 "impr": 337,
 "pos": 28.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "machine-vision-for-quality-inspection-in-manufacturing",
@@ -5914,8 +5674,7 @@
 "impr": 337,
 "pos": 39.0,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "smd-resistor-code",
@@ -5927,8 +5686,7 @@
 "smd resistor code",
 "smd resistor code list"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "difference-between-mass-flow-and-volumetric-flow",
@@ -5939,8 +5697,7 @@
 "difference between mass flow and volumetric flow",
 "mass flow to volumetric flow"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "ground-bounce-pcb-simultaneous-switching",
@@ -5948,8 +5705,7 @@
 "impr": 333,
 "pos": 14.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "ammonia-analyzer-water-wastewater",
@@ -5957,8 +5713,7 @@
 "impr": 333,
 "pos": 31.0,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "transformer-differential-protection-87t",
@@ -5968,8 +5723,7 @@
 "queries": [
 "linear variable differential transformer"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "on-load-tap-changer-oltc",
@@ -5977,8 +5731,7 @@
 "impr": 333,
 "pos": 42.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "substation-battery-sizing-ieee-485",
@@ -5986,8 +5739,7 @@
 "impr": 330,
 "pos": 5.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "vfd-motor-bearing-currents",
@@ -5995,8 +5747,7 @@
 "impr": 330,
 "pos": 39.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "sample-and-hold-circuit",
@@ -6004,8 +5755,7 @@
 "impr": 329,
 "pos": 13.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "multipoint-thermocouples-tank-reactor-monitoring",
@@ -6013,8 +5763,7 @@
 "impr": 329,
 "pos": 14.9,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "pid-controller-tuning-guide",
@@ -6027,8 +5776,7 @@
 "pid controller types",
 "pid tuning simulator"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "control-valve-signature-test-diagnostics",
@@ -6038,8 +5786,7 @@
 "queries": [
 "valve signature test"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "alarm-management-isa-18-2",
@@ -6051,8 +5798,7 @@
 "alarm management system in dcs",
 "dcs alarm management system"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "laser-level-transmitter-working-principle",
@@ -6066,8 +5812,7 @@
 "absolute pressure transmitter working principle",
 "working principle of differential pressure transmitter"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "control-valve-positioner-working",
@@ -6081,8 +5826,7 @@
 "parts of control valve",
 "control valve characteristics"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "analog-vs-digital-signals-instrumentation",
@@ -6095,8 +5839,7 @@
 "comparison of analog and digital instruments",
 "compare analog and digital instruments"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "plate-heat-exchanger-working-principle",
@@ -6104,8 +5847,7 @@
 "impr": 318,
 "pos": 11.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "elbow-flow-meter-working-principle",
@@ -6115,8 +5857,7 @@
 "queries": [
 "flow nozzle working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "voltage-unbalance-calculation-motors",
@@ -6124,8 +5865,7 @@
 "impr": 316,
 "pos": 8.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "temperature-sensor-failure-warning-signs",
@@ -6133,8 +5873,7 @@
 "impr": 316,
 "pos": 11.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "isolation-transformer-working-uses",
@@ -6142,8 +5881,7 @@
 "impr": 311,
 "pos": 27.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "darlington-pair-working-applications",
@@ -6151,8 +5889,7 @@
 "impr": 311,
 "pos": 26.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "magnetic-level-gauge-working-principle",
@@ -6166,8 +5903,7 @@
 "servo gauge working principle",
 "float level switch working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "decibel-in-electronics-db-dbm",
@@ -6175,8 +5911,7 @@
 "impr": 310,
 "pos": 11.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "orifice-beta-ratio-calculation",
@@ -6186,8 +5921,7 @@
 "queries": [
 "orifice sizing calculation excel"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "air-filter-regulator-instrument",
@@ -6197,8 +5931,7 @@
 "queries": [
 "air filter regulator"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "how-to-calculate-capacitor-bank-kvar-formula",
@@ -6206,8 +5939,7 @@
 "impr": 307,
 "pos": 19.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "conduit-fill-calculation",
@@ -6215,8 +5947,7 @@
 "impr": 306,
 "pos": 7.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "adnoc-wearable-gas-detectors",
@@ -6224,8 +5955,7 @@
 "impr": 305,
 "pos": 7.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "plc-redundancy-hot-standby",
@@ -6233,8 +5963,7 @@
 "impr": 304,
 "pos": 6.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "instrument-air-consumption-calculation",
@@ -6242,8 +5971,7 @@
 "impr": 303,
 "pos": 6.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "power-inverter-working-principle",
@@ -6257,8 +5985,7 @@
 "rtd working principle in hindi",
 "potentiometer working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "pressure-transmitter-installation-tips",
@@ -6272,8 +5999,7 @@
 "differential pressure transmitter calibration",
 "pressure transmitter accuracy"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "electrolytic-vs-ceramic-vs-tantalum-capacitor-failure-modes",
@@ -6281,8 +6007,7 @@
 "impr": 302,
 "pos": 8.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "vortex-flow-meter-troubleshooting",
@@ -6296,8 +6021,7 @@
 "annubar type flow meter",
 "anubar flow meter"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "factory-acceptance-test-dcs-fat-sat",
@@ -6305,8 +6029,7 @@
 "impr": 298,
 "pos": 7.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "hvdc-transmission-lcc-vsc",
@@ -6314,8 +6037,7 @@
 "impr": 298,
 "pos": 8.0,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "rtd-tolerance-class-iec-60751",
@@ -6323,8 +6045,7 @@
 "impr": 298,
 "pos": 8.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "66-level-measurement-questions-answers",
@@ -6332,8 +6053,7 @@
 "impr": 294,
 "pos": 6.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "de-energize-to-trip-vs-energize-to-trip",
@@ -6341,8 +6061,7 @@
 "impr": 293,
 "pos": 4.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "intrinsic-safety-calculation",
@@ -6352,8 +6071,7 @@
 "queries": [
 "\"intrinsic safety proofing tool\""
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "per-unit-system-power-system",
@@ -6363,8 +6081,7 @@
 "queries": [
 "what is per unit system in power system"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "top-5-advantages-of-platinum-rtds",
@@ -6372,8 +6089,7 @@
 "impr": 286,
 "pos": 31.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "insertion-vs-full-bore-flow-meter",
@@ -6381,8 +6097,7 @@
 "impr": 285,
 "pos": 5.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "ldr-light-dependent-resistor-working-principle",
@@ -6390,8 +6105,7 @@
 "impr": 283,
 "pos": 17.9,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "hazop-study-explained",
@@ -6399,8 +6113,7 @@
 "impr": 283,
 "pos": 22.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "industrial-electronics-questions-answers",
@@ -6408,8 +6121,7 @@
 "impr": 281,
 "pos": 6.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "level-transmitter-troubleshooting",
@@ -6423,8 +6135,7 @@
 "level transmitter",
 "level transmitter types"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "sequential-function-chart-sfc-plc",
@@ -6434,8 +6145,7 @@
 "queries": [
 "sequential function chart plc"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "impulse-line-pressure-testing-procedure",
@@ -6443,8 +6153,7 @@
 "impr": 276,
 "pos": 14.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "plc-indirect-addressing-pointers",
@@ -6452,8 +6161,7 @@
 "impr": 276,
 "pos": 7.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "signal-integrity-high-speed-pcb-design",
@@ -6461,8 +6169,7 @@
 "impr": 276,
 "pos": 12.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "magnetic-flow-meter-grounding-rings",
@@ -6470,8 +6177,7 @@
 "impr": 275,
 "pos": 7.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "coriolis-flow-meter-working-principle",
@@ -6481,8 +6187,7 @@
 "queries": [
 "flow nozzle working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "force-vs-override-in-safety-systems",
@@ -6490,8 +6195,7 @@
 "impr": 274,
 "pos": 7.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "gis-vs-ais-substation",
@@ -6501,8 +6205,7 @@
 "queries": [
 "gis vs ais substation"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "vfd-sizing-selection-guide",
@@ -6510,8 +6213,7 @@
 "impr": 270,
 "pos": 19.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "soil-moisture-sensor-capacitive-resistive",
@@ -6519,8 +6221,7 @@
 "impr": 268,
 "pos": 8.9,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "time-of-flight-sensor-working",
@@ -6532,8 +6233,7 @@
 "npn proximity sensor working principle",
 "hall sensor working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "plc-fifo-lifo-instructions",
@@ -6543,8 +6243,7 @@
 "queries": [
 "comparison instructions in plc"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "fire-and-gas-mapping-detector-coverage",
@@ -6552,8 +6251,7 @@
 "impr": 263,
 "pos": 26.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "piezoresistive-vs-piezoelectric-pressure-sensors",
@@ -6561,8 +6259,7 @@
 "impr": 263,
 "pos": 11.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "how-do-magnetic-level-switch-work",
@@ -6572,8 +6269,7 @@
 "queries": [
 "magnetic level switch working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "pressure-gauge-installation-mistakes",
@@ -6587,8 +6283,7 @@
 "pressure gauge snubber working principle",
 "bourdon tube pressure gauge"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "mos-gas-sensor-mq-series",
@@ -6596,8 +6291,7 @@
 "impr": 261,
 "pos": 8.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "vibration-analysis-with-ai-for-predictive-maintenance",
@@ -6605,8 +6299,7 @@
 "impr": 261,
 "pos": 36.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "power-quality-analyzer-guide",
@@ -6616,8 +6309,7 @@
 "queries": [
 "plc tripping power quality"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "plc-diagnostic-status-bits",
@@ -6625,8 +6317,7 @@
 "impr": 257,
 "pos": 6.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "ot-asset-inventory-ics-guide",
@@ -6634,8 +6325,7 @@
 "impr": 257,
 "pos": 43.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "gas-analyzers-explained",
@@ -6643,8 +6333,7 @@
 "impr": 256,
 "pos": 13.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "differential-pair-routing-pcb",
@@ -6654,8 +6343,7 @@
 "queries": [
 "differential pair routing guidelines"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "material-take-off-mto-guide",
@@ -6663,8 +6351,7 @@
 "impr": 255,
 "pos": 6.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "tilt-switch-bulk-solids-level",
@@ -6672,8 +6359,7 @@
 "impr": 255,
 "pos": 9.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "how-to-increase-plc-speed",
@@ -6683,8 +6369,7 @@
 "queries": [
 "plc processor speed"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "flow-measurement-formulas-and-calculators",
@@ -6692,8 +6377,7 @@
 "impr": 255,
 "pos": 34.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "lpg-level-measurement-bullet-sphere",
@@ -6701,8 +6385,7 @@
 "impr": 254,
 "pos": 4.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "instrument-calibration-common-terms",
@@ -6712,8 +6395,7 @@
 "queries": [
 "instrument calibration sheet template excel free download"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "vibration-switch-machine-protection",
@@ -6721,8 +6403,7 @@
 "impr": 253,
 "pos": 15.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "capacitor-esr-equivalent-series-resistance",
@@ -6730,8 +6411,7 @@
 "impr": 253,
 "pos": 25.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "ethernet-ip-vs-ethercat",
@@ -6739,8 +6419,7 @@
 "impr": 250,
 "pos": 19.0,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "industrial-battery-charger-float-boost",
@@ -6748,8 +6427,7 @@
 "impr": 249,
 "pos": 4.9,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "level-measurement-in-corrosive-chemicals",
@@ -6763,8 +6441,7 @@
 "zero suppression and elevation in level measurement",
 "capacitance level measurement"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "dissolved-oxygen-sensor-calibration",
@@ -6774,8 +6451,7 @@
 "queries": [
 "optical dissolved oxygen sensor"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "scada-sql-database-logging",
@@ -6783,8 +6459,7 @@
 "impr": 246,
 "pos": 7.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "network-switches-scada-dcs",
@@ -6792,8 +6467,7 @@
 "impr": 246,
 "pos": 13.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "power-quality-issues-vfd-plc",
@@ -6803,8 +6477,7 @@
 "queries": [
 "plc tripping power quality"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "dead-weight-tester-calculation",
@@ -6812,8 +6485,7 @@
 "impr": 245,
 "pos": 5.0,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "cod-analyzer-wastewater",
@@ -6821,8 +6493,7 @@
 "impr": 245,
 "pos": 12.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "temperature-transmitter-configuration-ranging",
@@ -6832,8 +6503,7 @@
 "queries": [
 "temperature transmitter"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "electronic-pressure-switch-io-link",
@@ -6841,8 +6511,7 @@
 "impr": 243,
 "pos": 8.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "types-of-temperature-calibrators",
@@ -6852,8 +6521,7 @@
 "queries": [
 "temperature calibrators"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "can-bus-canopen-industrial",
@@ -6861,8 +6529,7 @@
 "impr": 238,
 "pos": 25.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "spd-selection-iec-61643",
@@ -6872,8 +6539,7 @@
 "queries": [
 "iec 61643"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "4-to-20-ma-current-loop-explained",
@@ -6889,8 +6555,7 @@
 "impr": 234,
 "pos": 9.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "ipsec-protocol",
@@ -6898,8 +6563,7 @@
 "impr": 231,
 "pos": 10.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "diaphragm-actuator-vs-piston-actuator",
@@ -6909,8 +6573,7 @@
 "queries": [
 "piston actuator"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "control-valve-rangeability-turndown",
@@ -6924,8 +6587,7 @@
 "parts of control valve",
 "control valve characteristics"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "standard-colors-in-plc-systems",
@@ -6933,8 +6595,7 @@
 "impr": 226,
 "pos": 9.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "heat-sink-calculation",
@@ -6942,8 +6603,7 @@
 "impr": 223,
 "pos": 6.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "float-switch-wiring",
@@ -6953,8 +6613,7 @@
 "queries": [
 "float level switch working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "dol-vs-star-delta-starter-which-to-use",
@@ -6962,8 +6621,7 @@
 "impr": 221,
 "pos": 11.0,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "dcs-controller-redundancy-types",
@@ -6974,8 +6632,7 @@
 "types of pid controller",
 "pid controller types"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "first-out-alarm-plc-logic",
@@ -6983,8 +6640,7 @@
 "impr": 217,
 "pos": 4.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "motor-starting-voltage-dip-calculation",
@@ -6992,8 +6648,7 @@
 "impr": 217,
 "pos": 5.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "plc-troubleshooting-steps",
@@ -7001,8 +6656,7 @@
 "impr": 217,
 "pos": 8.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "ai-in-plc-scada-and-dcs",
@@ -7014,8 +6668,7 @@
 "plc hmi scada training",
 "plc scada hmi courses"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "hart-ip-protocol-explained",
@@ -7025,8 +6678,7 @@
 "queries": [
 "opc ua protocol explained"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "what-is-reactance",
@@ -7034,8 +6686,7 @@
 "impr": 215,
 "pos": 9.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "thermowell-45-degree-angle-installation",
@@ -7043,8 +6694,7 @@
 "impr": 211,
 "pos": 4.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "conductivity-to-tds-conversion",
@@ -7052,8 +6702,7 @@
 "impr": 211,
 "pos": 5.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "neutral-conductor-sizing-harmonics",
@@ -7061,8 +6710,7 @@
 "impr": 210,
 "pos": 7.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "valve-positioner-troubleshooting",
@@ -7070,8 +6718,7 @@
 "impr": 209,
 "pos": 6.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "historian-data-compression-swinging-door",
@@ -7079,8 +6726,7 @@
 "impr": 208,
 "pos": 5.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "temperature-data-logger-guide",
@@ -7088,8 +6734,7 @@
 "impr": 208,
 "pos": 11.9,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "fill-fluid-selection-for-diaphragm-seals",
@@ -7097,8 +6742,7 @@
 "impr": 208,
 "pos": 6.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "transformer-vector-group-explained",
@@ -7106,8 +6750,7 @@
 "impr": 204,
 "pos": 8.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "test-uncertainty-ratio-tur-calibration",
@@ -7115,8 +6758,7 @@
 "impr": 204,
 "pos": 8.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "bjt-currents-and-voltages-explained",
@@ -7124,8 +6766,7 @@
 "impr": 202,
 "pos": 9.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "level-measurement-in-slurries",
@@ -7139,8 +6780,7 @@
 "zero suppression and elevation in level measurement",
 "capacitance level measurement"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "emerson-pacsystems-safety-controller",
@@ -7150,8 +6790,7 @@
 "queries": [
 "emerson safety plc"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "thermowell-failure-causes-and-fixes",
@@ -7159,8 +6798,7 @@
 "impr": 198,
 "pos": 5.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "modbus-rtu-troubleshooting",
@@ -7170,8 +6808,7 @@
 "queries": [
 "modbus rtu"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "motor-full-load-current-flc",
@@ -7179,8 +6816,7 @@
 "impr": 198,
 "pos": 7.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "reflex-vs-transparent-level-gauge",
@@ -7192,8 +6828,7 @@
 "servo level gauge",
 "enraf level gauge working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "power-factor-correction-explained",
@@ -7205,8 +6840,7 @@
 "correction factor",
 "correction factor calculation"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "absolute-vs-gauge-pressure",
@@ -7220,8 +6854,7 @@
 "absolute pressure transmitter",
 "pressure gauge snubber working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "hall-effect-current-sensor-acs712",
@@ -7231,8 +6864,7 @@
 "queries": [
 "what is hall effect sensor"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "electronic-cooling-fans-thermal-efficiency",
@@ -7240,8 +6872,7 @@
 "impr": 193,
 "pos": 14.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "viscosity-measurement-explained",
@@ -7249,8 +6880,7 @@
 "impr": 191,
 "pos": 40.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "flow-switch-working-principle-paddle-dp-thermal",
@@ -7258,8 +6888,7 @@
 "impr": 190,
 "pos": 5.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "turbine-flow-meter-working",
@@ -7273,8 +6902,7 @@
 "annubar type flow meter",
 "flow nozzle working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "namur-output-sensor",
@@ -7284,8 +6912,7 @@
 "queries": [
 "namur output"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "isa100-wireless-isa100-11a",
@@ -7293,8 +6920,7 @@
 "impr": 188,
 "pos": 8.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "orifice-flow-meter-flange-rating",
@@ -7302,8 +6928,7 @@
 "impr": 187,
 "pos": 4.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "microwave-barrier-level-switch",
@@ -7315,8 +6940,7 @@
 "magnetic level switch working principle",
 "how level switch works"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "control-valve-actuator-sizing",
@@ -7330,8 +6954,7 @@
 "parts of control valve",
 "control valve characteristics"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "pressure-gauge-selection-7-factors",
@@ -7345,8 +6968,7 @@
 "pressure gauge snubber working principle",
 "bourdon tube pressure gauge"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "dcs-historian-explained-data-storage",
@@ -7354,8 +6976,7 @@
 "impr": 182,
 "pos": 8.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "globe-valve-vs-ball-valve-vs-butterfly-valve-selection",
@@ -7363,8 +6984,7 @@
 "impr": 182,
 "pos": 7.0,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "artificial-intelligence-machine-learning",
@@ -7372,8 +6992,7 @@
 "impr": 181,
 "pos": 13.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "plc-analog-scaling-raw-count",
@@ -7381,8 +7000,7 @@
 "impr": 181,
 "pos": 8.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "control-valve-noise-prediction-reduction",
@@ -7390,8 +7008,7 @@
 "impr": 180,
 "pos": 9.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "strain-gauge-working-principle",
@@ -7405,8 +7022,7 @@
 "bonded strain gauge diagram",
 "unbonded strain gauge"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "measure-flow-rate-level-sensors",
@@ -7414,8 +7030,7 @@
 "impr": 179,
 "pos": 23.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "electrical-units-of-measure-explained",
@@ -7423,8 +7038,7 @@
 "impr": 177,
 "pos": 30.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "ceramic-resonator-working-applications",
@@ -7432,8 +7046,7 @@
 "impr": 175,
 "pos": 23.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "what-is-a-semiconductor",
@@ -7441,8 +7054,7 @@
 "impr": 174,
 "pos": 26.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "hydrogen-permeation-gold-plated-diaphragm",
@@ -7450,8 +7062,7 @@
 "impr": 173,
 "pos": 9.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "thermal-overload-relay-explained",
@@ -7459,8 +7070,7 @@
 "impr": 173,
 "pos": 8.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "ot-vs-it-security-differences",
@@ -7470,8 +7080,7 @@
 "queries": [
 "ot security"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "what-are-the-features-of-triconex-plc",
@@ -7479,8 +7088,7 @@
 "impr": 171,
 "pos": 8.9,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "wise-scada-training-free-courses",
@@ -7490,8 +7098,7 @@
 "queries": [
 "scada training free"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "scotch-yoke-vs-rack-and-pinion-actuator",
@@ -7502,8 +7109,7 @@
 "scotch yoke vs rack and pinion",
 "scotch yoke actuator vs rack and pinion"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "hart-loop-voltage-budget-calculator",
@@ -7511,8 +7117,7 @@
 "impr": 169,
 "pos": 5.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "scada-trending-real-time-historical",
@@ -7520,8 +7125,7 @@
 "impr": 169,
 "pos": 15.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "how-bypass-level-indicators-work",
@@ -7529,8 +7133,7 @@
 "impr": 168,
 "pos": 18.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "480v-three-phase-data-center-power-distribution",
@@ -7538,8 +7141,7 @@
 "impr": 167,
 "pos": 12.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "pid-controller-tuning-parameters",
@@ -7552,8 +7154,7 @@
 "pid controller types",
 "pid tuning simulator"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "grounding-techniques-explained",
@@ -7561,8 +7162,7 @@
 "impr": 165,
 "pos": 38.9,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "thermal-effect-on-sensors-zero-span-shift",
@@ -7570,8 +7170,7 @@
 "impr": 164,
 "pos": 4.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "how-to-calculate-generator-size-industrial-load",
@@ -7579,8 +7178,7 @@
 "impr": 163,
 "pos": 54.0,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "thermowell-types-explained",
@@ -7590,8 +7188,7 @@
 "queries": [
 "thermowell types"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "4-types-of-signals-in-instrumentation-ai-ao-di-do",
@@ -7605,8 +7202,7 @@
 "examples of ai, ao, di, do",
 "ai ao di do full form"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "thermocouple-drift-causes-prevention",
@@ -7614,8 +7210,7 @@
 "impr": 157,
 "pos": 6.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "magnetostrictive-level-transmitter-working",
@@ -7629,8 +7224,7 @@
 "level transmitter",
 "level transmitter types"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "orifice-flowmeter-rangeability",
@@ -7638,8 +7232,7 @@
 "impr": 156,
 "pos": 7.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "generator-synchronizing-procedure",
@@ -7647,8 +7240,7 @@
 "impr": 156,
 "pos": 7.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "safety-requirements-specification-iec-61511",
@@ -7656,8 +7248,7 @@
 "impr": 155,
 "pos": 16.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "tn-tt-it-earthing-systems",
@@ -7665,8 +7256,7 @@
 "impr": 155,
 "pos": 28.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "isa-88-batch-control",
@@ -7674,8 +7264,7 @@
 "impr": 154,
 "pos": 11.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "yokogawa-oprex-pressure-transmitter",
@@ -7689,8 +7278,7 @@
 "differential pressure transmitter calibration",
 "pressure transmitter accuracy"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "plc-interrupt-event-periodic-tasks",
@@ -7698,8 +7286,7 @@
 "impr": 154,
 "pos": 6.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "control-loop-performance-monitoring-clpm",
@@ -7709,8 +7296,7 @@
 "queries": [
 "control loop performance monitoring"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "thermocouple-and-rtd-installation-precautions",
@@ -7718,8 +7304,7 @@
 "impr": 153,
 "pos": 13.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "stilling-well-level-measurement",
@@ -7733,8 +7318,7 @@
 "zero suppression and elevation in level measurement",
 "capacitance level measurement"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "ethernet-apl-advanced-physical-layer",
@@ -7742,8 +7326,7 @@
 "impr": 152,
 "pos": 16.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "temperature-switch-calibration-procedure",
@@ -7753,8 +7336,7 @@
 "queries": [
 "level transmitter calibration procedure pdf"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "solar-pv-system-sizing-calculation",
@@ -7762,8 +7344,7 @@
 "impr": 151,
 "pos": 14.9,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "target-flow-meter-working-principle",
@@ -7773,8 +7354,7 @@
 "queries": [
 "flow nozzle working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "ceramic-vs-metal-diaphragm-pressure-sensor",
@@ -7782,8 +7362,7 @@
 "impr": 150,
 "pos": 6.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "partial-stroke-testing-esd-valves",
@@ -7791,8 +7370,7 @@
 "impr": 145,
 "pos": 30.9,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "complementary-split-range-control",
@@ -7804,8 +7382,7 @@
 "split range",
 "what is split range control"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "paddle-type-level-switch",
@@ -7819,8 +7396,7 @@
 "servo type level transmitter",
 "float level switch working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "what-is-insulation-electrical",
@@ -7830,8 +7406,7 @@
 "queries": [
 "electrical insulation classes"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "remote-io-failure-modes",
@@ -7839,8 +7414,7 @@
 "impr": 141,
 "pos": 10.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "pfdavg-calculation-formula",
@@ -7852,8 +7426,7 @@
 "lux level calculation formula excel",
 "lux level calculation formula"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "latches-in-digital-logic-explained",
@@ -7861,8 +7434,7 @@
 "impr": 140,
 "pos": 15.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "thin-film-rtd-its-advantages",
@@ -7870,8 +7442,7 @@
 "impr": 139,
 "pos": 18.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "calculate-heat-loss-in-piping",
@@ -7879,8 +7450,7 @@
 "impr": 139,
 "pos": 38.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "altitude-effects-on-instrumentation",
@@ -7888,8 +7458,7 @@
 "impr": 136,
 "pos": 6.9,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "plc-analog-input-explained",
@@ -7897,8 +7466,7 @@
 "impr": 135,
 "pos": 13.9,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "voltage-reference-ic-selection",
@@ -7906,8 +7474,7 @@
 "impr": 135,
 "pos": 16.9,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "pressure-transmitter-remote-seal-temperature-effect",
@@ -7915,8 +7482,7 @@
 "impr": 134,
 "pos": 5.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "sil-determination-risk-graph-lopa-consequence-severity-matrix",
@@ -7924,8 +7490,7 @@
 "impr": 132,
 "pos": 10.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "dcs-online-download-configuration-in-run",
@@ -7933,8 +7498,7 @@
 "impr": 132,
 "pos": 6.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "sensor-scaling-instrumentation",
@@ -7942,8 +7506,7 @@
 "impr": 131,
 "pos": 6.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "plc-sequencer-instruction-sqo-sqi",
@@ -7951,8 +7514,7 @@
 "impr": 131,
 "pos": 7.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "electronic-vs-mechanical-pressure-sensors",
@@ -7960,8 +7522,7 @@
 "impr": 130,
 "pos": 13.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "emergency-stop-and-emergency-power-off",
@@ -7969,8 +7530,7 @@
 "impr": 130,
 "pos": 37.9,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "ntc-thermistor-beta-equation",
@@ -7978,8 +7538,7 @@
 "impr": 129,
 "pos": 7.0,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "plc-version-control-git-change-management",
@@ -7987,8 +7546,7 @@
 "impr": 127,
 "pos": 9.0,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "scada-tag-database-design",
@@ -7996,8 +7554,7 @@
 "impr": 125,
 "pos": 7.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "capsule-pressure-gauge-low-pressure",
@@ -8011,8 +7568,7 @@
 "pressure gauge snubber working principle",
 "bourdon tube pressure gauge"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "turbine-flow-meter-working-principle",
@@ -8024,8 +7580,7 @@
 "turbine flow meter",
 "turbine alternator working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "raid-parity",
@@ -8033,8 +7588,7 @@
 "impr": 121,
 "pos": 12.0,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "plc-timer-instructions-ton-tof-rto",
@@ -8042,8 +7596,7 @@
 "impr": 120,
 "pos": 25.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "coriolis-flow-meter-uncertainty",
@@ -8057,8 +7610,7 @@
 "annubar type flow meter",
 "anubar flow meter"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "plugged-impulse-line-detection",
@@ -8066,8 +7618,7 @@
 "impr": 117,
 "pos": 7.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "ai-ppe-detection-computer-vision",
@@ -8075,8 +7626,7 @@
 "impr": 116,
 "pos": 9.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "control-valve-output-velocity",
@@ -8090,8 +7640,7 @@
 "parts of control valve",
 "control valve characteristics"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "mtbf-calculation",
@@ -8099,8 +7648,7 @@
 "impr": 111,
 "pos": 5.9,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "importance-of-analytical-measurements",
@@ -8108,8 +7656,7 @@
 "impr": 110,
 "pos": 42.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "capacitance-type-level-transmitter-calibration",
@@ -8123,8 +7670,7 @@
 "servo type level transmitter",
 "level transmitter calibration"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "coriolis-flow-meter-uncertainty-calculation",
@@ -8132,8 +7678,7 @@
 "impr": 106,
 "pos": 5.0,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "calculate-short-circuit-fault-current",
@@ -8143,8 +7688,7 @@
 "queries": [
 "symmetrical vs asymmetrical short circuit current"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "control-valve-outlet-velocity",
@@ -8158,8 +7702,7 @@
 "parts of control valve",
 "control valve characteristics"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "supercapacitor-working-principle",
@@ -8173,8 +7716,7 @@
 "potentiometer working principle",
 "differential pressure transmitter working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "orifice-plate-bidirectional-flow",
@@ -8188,8 +7730,7 @@
 "orifice plate sizes",
 "standard orifice plate"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "working-principle-membrane-level-switch",
@@ -8203,8 +7744,7 @@
 "magnetic level switch working principle",
 "enraf level gauge working principle"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "tier-iv-data-center-power-architecture",
@@ -8212,8 +7752,7 @@
 "impr": 104,
 "pos": 13.8,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "sil-vs-atex-iecex",
@@ -8224,8 +7763,7 @@
 "atex iecex marking",
 "difference between atex and iecex certification"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "temperature-gauge-calibration",
@@ -8235,8 +7773,7 @@
 "queries": [
 "pressure gauge calibration"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "types-of-pressure-signal-outputs",
@@ -8250,8 +7787,7 @@
 "types of pressure transmitters",
 "different types of pressure transmitter"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "dp-level-measurement-varying-density",
@@ -8261,8 +7797,7 @@
 "queries": [
 "closed tank level measurement using dp transmitter"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "opc-ua-explained",
@@ -8273,8 +7808,7 @@
 "opc ua protocol explained",
 "opc ua iec 62541"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "what-is-resistance",
@@ -8282,8 +7816,7 @@
 "impr": 96,
 "pos": 10.3,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "industrial-fiber-optic-network",
@@ -8293,8 +7826,7 @@
 "queries": [
 "industrial network training"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "busbar-sizing-calculation-guide",
@@ -8306,8 +7838,7 @@
 "line sizing calculation excel sheet",
 "pipe sizing calculation excel sheet"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "surge-arrester-working-selection",
@@ -8315,8 +7846,7 @@
 "impr": 94,
 "pos": 10.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "select-flow-meter-for-high-temperature-fluids",
@@ -8324,8 +7854,7 @@
 "impr": 93,
 "pos": 34.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "modbus-protocol-explained",
@@ -8335,8 +7864,7 @@
 "queries": [
 "opc ua protocol explained"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "level-measurement-in-agitated-vessels",
@@ -8350,8 +7878,7 @@
 "zero suppression and elevation in level measurement",
 "capacitance level measurement"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "ultrasonic-gap-level-switch",
@@ -8364,8 +7891,7 @@
 "magnetic level switch working principle",
 "how level switch works"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "fiber-optic-temperature-sensors",
@@ -8373,8 +7899,7 @@
 "impr": 90,
 "pos": 36.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "mosfet-power-loss-calculation",
@@ -8382,8 +7907,7 @@
 "impr": 89,
 "pos": 8.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "python-in-industrial-automation",
@@ -8395,8 +7919,7 @@
 "free industrial automation course",
 "industrial automation free course"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "magnetrol-genesis-multiphase-level-detector",
@@ -8404,8 +7927,7 @@
 "impr": 82,
 "pos": 8.5,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "how-to-fix-a-servo-drive-problem",
@@ -8413,8 +7935,7 @@
 "impr": 79,
 "pos": 8.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "vacuum-effect-on-field-instruments",
@@ -8422,8 +7943,7 @@
 "impr": 76,
 "pos": 5.4,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "control-valve-sizing-basic-requirements",
@@ -8431,8 +7951,7 @@
 "impr": 74,
 "pos": 14.0,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "dp-level-transmitter-calibration",
@@ -8446,8 +7965,7 @@
 "dp type level transmitter",
 "differential pressure transmitter calibration"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "panel-heat-load-calculation",
@@ -8455,8 +7973,7 @@
 "impr": 68,
 "pos": 4.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "types-of-transistor-oscillators",
@@ -8464,8 +7981,7 @@
 "impr": 68,
 "pos": 7.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "role-based-access-control-ot",
@@ -8473,8 +7989,7 @@
 "impr": 59,
 "pos": 6.6,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "measure-pulsating-flow-industrial-piping",
@@ -8482,8 +7997,7 @@
 "impr": 53,
 "pos": 14.7,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "water-vapor-in-instrument-air-lines",
@@ -8491,8 +8005,7 @@
 "impr": 47,
 "pos": 5.2,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "thermal-vias-pcb-heat-dissipation",
@@ -8500,8 +8013,7 @@
 "impr": 42,
 "pos": 17.1,
 "queries": [],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 },
 {
 "slug": "process-safety-vs-functional-safety",
@@ -8511,7 +8023,6 @@
 "queries": [
 "functional safety assessment"
 ],
-"status": "error",
-"err": "HTTP Error 403: Forbidden"
+"status": "todo"
 }
 ]
