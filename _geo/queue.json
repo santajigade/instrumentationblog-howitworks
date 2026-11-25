@@ -3319,7 +3319,7 @@
 "differential pressure transmitter calibration",
 "gauge pressure formula"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "nfpa-70e-explained-electrical-safety",
@@ -3327,7 +3327,7 @@
 "impr": 709,
 "pos": 40.1,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "different-types-of-communication-protocols",
@@ -3341,7 +3341,7 @@
 "different types of photoelectric sensors",
 "thermocouple different types"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "thermowell-design-standard-asme-ptc-19-3-tw-2016",
@@ -3352,7 +3352,7 @@
 "asme ptc 19.3 tw",
 "asme ptc 19.3 tw-2016"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "75-pressure-measurements-questions-and-answers",
@@ -3368,7 +3368,7 @@
 "impr": 699,
 "pos": 10.9,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "modbus-function-codes-explained",
@@ -3376,7 +3376,7 @@
 "impr": 699,
 "pos": 12.9,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "plc-and-automation-questions-and-answers",
@@ -3396,7 +3396,7 @@
 "what is hipps in oil and gas",
 "en oil and gas"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "bubbler-level-measurement-purge",
@@ -3410,7 +3410,7 @@
 "zero suppression and elevation in level measurement",
 "capacitance level measurement"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "emergency-stop-push-buttons",
@@ -3418,7 +3418,7 @@
 "impr": 687,
 "pos": 14.2,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "13-important-factors-affecting-flow-meter-readings-and-their-solutions",
@@ -3426,7 +3426,7 @@
 "impr": 682,
 "pos": 11.0,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "tri-state-buffer-high-impedance",
@@ -3434,7 +3434,7 @@
 "impr": 682,
 "pos": 6.7,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "magnetic-proximity-sensors",
@@ -3445,7 +3445,7 @@
 "magnetic proximity sensors market",
 "magnetic proximity sensor"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "interface-level-measurement",
@@ -3459,7 +3459,7 @@
 "zero suppression and elevation in level measurement",
 "capacitance level measurement"
 ],
-"status": "todo"
+"status": "failed"
 },
 {
 "slug": "phase-angle-in-ac-circuits",
@@ -3467,7 +3467,7 @@
 "impr": 678,
 "pos": 24.3,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "temperature-classes-in-hazardous-areas",
@@ -3475,7 +3475,7 @@
 "impr": 677,
 "pos": 36.3,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "io-modules-in-industrial-automation",
@@ -3487,7 +3487,7 @@
 "free industrial automation course",
 "industrial automation free course"
 ],
-"status": "todo"
+"status": "failed"
 },
 {
 "slug": "dcs-control-modes-manual-auto-cascade",
@@ -3495,7 +3495,7 @@
 "impr": 672,
 "pos": 4.8,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "wien-bridge-oscillator-circuit",
@@ -3503,7 +3503,7 @@
 "impr": 671,
 "pos": 8.8,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "555-timer-ic-explained",
@@ -3511,7 +3511,7 @@
 "impr": 671,
 "pos": 8.5,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "instrumentation-and-control-standards",
@@ -3522,7 +3522,7 @@
 "instrumentation standards",
 "types of control loops in instrumentation"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "how-to-calculate-mcb-rating-circuit",
@@ -3532,7 +3532,7 @@
 "queries": [
 "how to calculate mcb rating"
 ],
-"status": "todo"
+"status": "failed"
 },
 {
 "slug": "top-3-types-and-applications-of-pressure-transmitters",
@@ -3542,7 +3542,7 @@
 "queries": [
 "types of pressure transmitters"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "control-valve-seat-leakage-classes",
@@ -3550,7 +3550,7 @@
 "impr": 658,
 "pos": 12.0,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "chatgpt-for-plc-programming",
@@ -3572,7 +3572,7 @@
 "impr": 651,
 "pos": 9.7,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "tvs-diode-transient-voltage-suppression-explained",
@@ -3580,7 +3580,7 @@
 "impr": 650,
 "pos": 50.5,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "hydrotest-procedure-for-piping-system",
@@ -3590,7 +3590,7 @@
 "queries": [
 "piping procedure"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "steam-flow-measurement-methods",
@@ -3598,7 +3598,7 @@
 "impr": 642,
 "pos": 8.3,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "cable-tray-fill-calculation",
@@ -3608,7 +3608,7 @@
 "queries": [
 "nec 392 cable tray fill"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "comparator-circuits-explained",
@@ -3616,7 +3616,7 @@
 "impr": 638,
 "pos": 24.1,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "restriction-orifice-blowdown-valve-spacing",
@@ -3624,7 +3624,7 @@
 "impr": 637,
 "pos": 5.5,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "plc-output-module-types",
@@ -3638,7 +3638,7 @@
 "ab plc types",
 "data types in plc programming"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "schottky-diode-advantages-limitations",
@@ -3646,7 +3646,7 @@
 "impr": 637,
 "pos": 13.6,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "industrial-communication-protocols-mcqs",
@@ -3664,7 +3664,7 @@
 "impr": 635,
 "pos": 15.6,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "dead-weight-pressure-tester",
@@ -3672,7 +3672,7 @@
 "impr": 633,
 "pos": 36.4,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "inter-discipline-check",
@@ -3680,7 +3680,7 @@
 "impr": 631,
 "pos": 4.6,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "inductor-working-principle",
@@ -3694,7 +3694,7 @@
 "potentiometer working principle",
 "differential pressure transmitter working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "induction-generator-working-principle",
@@ -3708,7 +3708,7 @@
 "rtd working principle in hindi",
 "potentiometer working principle"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "directional-overcurrent-relay-67",
