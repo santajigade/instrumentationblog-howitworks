@@ -1,0 +1,95 @@
+{
+ "id": 19368,
+ "slug": "gray-code-binary-conversion",
+ "mode": "elementor",
+ "title": "Gray Code Explained: 6 Essential Uses and Easy Conversions",
+ "focus": "Gray code",
+ "queries": [
+  "gray code"
+ ],
+ "h2s": [
+  {
+   "text": "What Is Gray Code?",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Why Does Binary Counting Cause Errors?",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Gray Code Table From 0 to 15",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Binary to Gray Code Conversion With XOR",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Gray to Binary Decoding Method",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Gray Code Converter Calculator",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Gray Code in Absolute Encoders",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "6 Essential Uses of Gray Code",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "FIFO Pointers and Clock Domain Crossing",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Second Worked Example: 10 Bit Encoder Reading",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Common Mistakes and Troubleshooting",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Gray Codes White Paper",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Video: Binary and Reflected Code Conversion",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Gray Code FAQ",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "Related Articles",
+   "unique": true,
+   "where": "html"
+  },
+  {
+   "text": "External References",
+   "unique": true,
+   "where": "html"
+  }
+ ],
+ "has_ib_img": false,
+ "images_now": 2,
+ "text": "Digital Electronics\n Gray Code Explained: 6 Essential Uses and Easy Conversions\n When several bits of a binary count change together, a sensor or a second clock domain can catch them halfway and read a value that never existed. A reflected binary sequence changes only one bit per step, so that kind of false reading simply cannot happen.\n Single Bit Change \r\n XOR Conversion \r\n Absolute Encoders \r\n Karnaugh Maps \r\n FIFO Pointers \r\n Gray code is a binary numbering order in which neighbouring values differ in exactly one bit. That one property makes it the favourite output of absolute encoders and a safe way to pass counters between clock domains.\n Hello everyone, today we are going to learn what Gray code is, why it changes only one bit at a time, how to convert binary to Gray and back with XOR, and where engineers use it in encoders, Karnaugh maps and FIFO memory.\r\n Quick Answer\n What Is Gray Code and How Do You Convert Binary to Gray Code?\n Gray code is a binary numbering order in which neighbouring values differ in exactly one bit, so a reading taken during a transition is either the old or the new value. It is also called reflected binary code and is used in absolute encoders, Karnaugh maps and FIFO pointers.\n To convert, keep the MSB and XOR each neighbouring bit pair: G = B XOR (B shifted right by 1) . Example: binary 0111 (7) becomes Gray 0100, and binary 1000 (8) becomes Gray 1100.\n What Is Gray Code?\n Gray code is an ordering of binary numbers in which every two consecutive values differ in only one bit position. It is also called the reflected binary code, and it sits beside BCD and plain binary in any study of number systems .\n Unlike ordinary binary, the bits of this code do not carry place values such as 8, 4, 2 and 1. It is a code for positions and states rather than for arithmetic, much like the binary coded decimal format is a code for decimal digits.\n The code is named after Frank Gray, a researcher at Bell Labs who patented it for pulse code communication. Today the same idea protects position readings in machines, motion systems and digital chips.\n Advertisement \n Why Does Binary Counting Cause Errors?\n Look at the step from 7 to 8 in 4 bit binary, where 0111 becomes 1000 and all four bits change together. Real contacts, optical tracks or logic paths never switch at exactly the same instant, so for a short time the reading can be 1111, 0000 or any mix.\n Control.com explains that in a plain binary sequence this possible error happens every other count. A controller that samples during such a transition may see a position that is completely wrong, then jump back on the next scan.\n In Gray code, 7 is 0100 and 8 is 1100, so only the leftmost bit moves. If the sample lands during the transition, the reading is either the old value or the new value, and both are genuine neighbours.\n 1 bit Changes per step \n 256 to 1024 Typical encoder positions \n 8 or 10 Common encoder bit counts \n 2 to the n Codes in an n bit sequence \n Do You Know?\n Frank Gray filed his patent in 1947 and it was granted in 1953 under the title Pulse Code Communication. The name reflected binary comes from the way the sequence mirrors itself at every power of two.\n Gray Code Table From 0 to 15\n Decimal\n Binary\n Gray Code\n Bit That Changed\n 0\n 0000\n 0000\n none\n 1\n 0001\n 0001\n bit 0\n 2\n 0010\n 0011\n bit 1\n 3\n 0011\n 0010\n bit 0\n 4\n 0100\n 0110\n bit 2\n 5\n 0101\n 0111\n bit 0\n 6\n 0110\n 0101\n bit 1\n 7\n 0111\n 0100\n bit 0\n 8\n 1000\n 1100\n bit 3\n 9\n 1001\n 1101\n bit 0\n 10\n 1010\n 1111\n bit 1\n 11\n 1011\n 1110\n bit 0\n 12\n 1100\n 1010\n bit 2\n 13\n 1101\n 1011\n bit 0\n 14\n 1110\n 1001\n bit 1\n 15\n 1111\n 1000\n bit 3\n Notice that 15 back to 0 also changes only one bit, which is why Gray code is called cyclic. This wrap around property is essential for a rotating encoder disc, where the last position sits right next to the first.\n You can build the table by reflection. Write the 1 bit list 0 and 1, mirror it to get 0, 1, 1, 0, put 0 in front of the first half and 1 in front of the mirrored half, and repeat for each extra bit.\n Binary to Gray Code Conversion With XOR\n The fastest method uses the exclusive OR operation from digital logic gates . The most significant Gray bit equals the most significant binary bit, and every other Gray bit is the XOR of that binary bit and the binary bit to its left.\n Gray = Binary XOR (Binary shifted right by one bit) \n G(msb) = B(msb), G(i) = B(i+1) XOR B(i) \nExample: decimal 13, 4 bits\nBinary B = 1101\nB shifted right = 0110\n1101 XOR 0110 = 1011\n Gray code of 13 = 1011, which reads as decimal 11 \r\n In hardware, an n bit converter needs just n minus 1 XOR gates and no clock. In C or structured text, the whole conversion is one line, g equals b XOR (b shifted right by 1).\n Quick Tip\n When converting by hand, write the binary number, then write the pairs of neighbouring bits below it. Mark 1 where the pair differs and 0 where it matches, and you have the Gray bits without any table.\n Gray to Binary Decoding Method\n Decoding runs in the opposite direction and depends on the previous result. The most significant binary bit equals the most significant Gray bit, and each next binary bit is the XOR of the binary bit just found and the next Gray bit.\n 1\n Copy the MSB\n B3 = G3 = 1 for the Gray value 1011.\n 2\n XOR With Next Gray Bit\n B2 = B3 XOR G2 = 1 XOR 0 = 1.\n 3\n Continue Down\n B1 = B2 XOR G1 = 1 XOR 1 = 0.\n 4\n Finish the LSB\n B0 = B1 XOR G0 = 0 XOR 1 = 1.\n 5\n Read the Result\n Binary 1101 equals decimal 13.\n The Encoder Products Company white paper describes three ways to do this decoding: by hand on paper, in a software routine and in PLC ladder logic built from exclusive OR contacts. The ladder approach suits older controllers that lack a bitwise XOR instruction, and it follows the rules of Boolean algebra .\n Gray Code Converter Calculator\n Decimal to Binary and Gray Code\n Decimal value \n Number of bits \n 16||n =Math.pow(2,b)){o.innerText='Please enter whole numbers, bits from 1 to 16 and a value below 2 to the power of bits';}else{var g=n^(n>>1);var bs=n.toString(2).padStart(b,'0'),gs=g.toString(2).padStart(b,'0');o.innerText='Binary '+bs+' converts to Gray code '+gs+', which reads as decimal '+g;}document.getElementById('gry-res').style.display='block';\">Calculate \r\n Result\n Binary 1101 converts to Gray code 1011, which reads as decimal 11\n Try the value 7 and then 8 with 4 bits and compare the outputs. The Gray code outputs are 0100 and 1100, which confirms that only one bit changes even though the binary form changes all four.\n Advertisement \n Gray Code in Absolute Encoders\n An absolute encoder reads a disc with several concentric tracks, one track per bit, so it knows its position immediately at power up. The difference from pulse counting types is covered in incremental vs absolute encoders .\n Control.com notes that typical absolute encoders have between 256 and 1024 unique patterns around the circle, which means an 8 bit or 10 bit output. The Encoder Products Company white paper calls Gray code the most popular absolute encoder output format.\n The PLC or drive receives the parallel bits, converts them to binary and scales them to degrees or millimetres. For fast incremental channels, the same controller would use a PLC high speed counter instead.\n Parallel Gray Output\n One wire per bit, read directly by digital inputs.\n Best for: simple PLC inputs, short cables\n Legacy \n SSI Serial Output\n Bits are clocked out serially, often still in reflected form.\n Best for: long cables, drives\n Popular \n Fieldbus Output\n Encoder converts internally and sends a binary position.\n Best for: PROFINET, EtherCAT systems\n Modern \n Quick Tip\n When a parallel encoder shows random jumps, check whether the PLC program expects binary while the encoder is set to the reflected format. A mismatch produces a staircase of wrong values that looks exactly like a wiring fault.\n 6 Essential Uses of Gray Code\n Absolute Rotary Encoders\n Shaft angle on cranes, valves, robots and wind turbines.\n Linear Scales\n Position of machine tool slides and lift cars.\n Karnaugh Maps\n Row and column order so adjacent cells differ by one variable.\n Asynchronous FIFO Pointers\n Safe transfer of read and write counts between clocks.\n State Machine Encoding\n Low power counters where fewer bits toggle each step.\n Digital Communications\n Constellation labelling so a small error flips one bit.\n In a Karnaugh map , the rows and columns are labelled 00, 01, 11, 10. That order guarantees that physically adjacent cells differ by one variable, which is exactly what lets you circle groups and simplify logic.\n In low power design, a counter built this way toggles only one flip flop per clock. The fewer transitions reduce dynamic power compared with the ripple and synchronous counters that use natural binary.\n Do You Know?\n Gray labelling is standard in QAM and PSK radio modulation. A noise error usually moves a symbol to a neighbouring point, and with this labelling that costs only one wrong bit instead of several.\n FIFO Pointers and Clock Domain Crossing\n An asynchronous FIFO has a write pointer running on one clock and a read pointer running on another. Each pointer must be passed through two D flip flops in the other domain before it is compared to decide full or empty.\n If a binary pointer changes several bits while being sampled, the synchroniser can capture a garbage value. With a Gray code pointer, only one bit is in motion, so the sampled value is either the old count or the new count and the full or empty flag stays safe.\n Binary Counter Pointer increments in its own clock domain.\n Convert to Gray One XOR stage makes the value single bit changing.\n Register Output A flip flop removes glitches from the XOR logic.\n Two Stage Synchroniser Other clock domain samples the pointer safely.\n Compare Pointers Full and empty flags are generated from the codes.\n The pointer must be registered after the XOR stage, because a combinational output can glitch. This is the same discipline taught for sequential circuits , where every signal that crosses a boundary should come straight from a flip flop.\n Advertisement \n Myth: Gray code can be added and subtracted directly.\n Fact: It has no place values, so convert to binary before any arithmetic.\n Myth: It removes all encoder errors.\n Fact: It only stops multi bit transition errors, not dirt, noise or wiring faults.\n Myth: Every FIFO needs this code.\n Fact: Only FIFOs with two different clocks need it, while single clock FIFOs use plain binary.\n Myth: There is only one such code.\n Fact: The reflected code is the common one, but many other single change codes exist.\n Second Worked Example: 10 Bit Encoder Reading\n A 10 bit absolute encoder on a valve shaft sends the pattern 1100000000. The first binary bit is 1, the next is 1 XOR 1 = 0, and every remaining bit stays 0 because each following input bit is 0.\n The binary result is 1000000000, which is decimal 512, exactly half of the 1024 positions. Multiplying by 360 \u00f7 1024 gives 180 degrees, so the shaft is at half a revolution.\n The resolution of this encoder is 360 \u00f7 1024, or about 0.35 degree per count. That resolution plays the same role as the step size in an ADC , where more bits give finer steps.\n Common Mistakes and Troubleshooting\n Confirm the encoder output format in its setup, reflected or natural binary.\n Check bit order, since MSB and LSB are often swapped on terminals.\n Verify that every data wire lands on the correct PLC input.\n Test the XOR conversion with a known table value such as 1011.\n Watch for count jumps at the zero crossing on multi turn encoders.\n Confirm the direction setting, clockwise or counter clockwise increasing.\n Check shielding and earthing on long parallel encoder cables.\n Swapped bits are the most frequent field error, because the reading is then stable but wrong at certain positions. Map each bit by turning the shaft slowly and watching the inputs in the PLC memory table.\n Noise on a long parallel cable produces a single flickering bit that looks like a coding problem. The cure is correct shielding and noise practice, as discussed in noise reduction techniques for digital ICs .\n Advantages of Gray Code\n Only one bit changes per step.\n No false intermediate readings.\n Cyclic, so the wrap from maximum to zero is clean.\n Simple XOR conversion in hardware or software.\n Fewer toggles save power in counters.\n Limitations of Gray Code\n Bits have no place values.\n Arithmetic needs conversion back to binary.\n Decoding is a serial XOR chain.\n Does not correct noise or wiring errors.\n Mismatch with binary settings causes confusion.\n Gray Codes White Paper\n PDF\n Gray Codes, Natural Binary Codes, and Conversions\n Encoder Products Company white paper WP 2010\n Video: Binary and Reflected Code Conversion\n Gray Code FAQ\n What is Gray code?\n It is a binary ordering in which each value differs from the next in exactly one bit. It is also known as the reflected binary code after the way it is built.\n Engineers use it where a reading might be taken during a transition. Since only one bit moves, the sampled value is always either the old position or the new one.\n How do you convert binary to Gray?\n Keep the most significant bit as it is and XOR each binary bit with the bit to its left. In software this is simply the number XOR the number shifted right by one.\n For example, binary 1101 gives 1011 after conversion. You can check the answer in the table, where decimal 13 appears as 1011.\n How do you convert Gray back to binary?\n Copy the most significant bit, then XOR each new binary bit with the next input bit. Each result depends on the previous one, so the process always runs from the left end to the right end.\n The value 1011 decodes to 1, 1, 0, 1, which is binary 1101. That equals decimal 13, matching the original number.\n Why do absolute encoders use it?\n Optical or magnetic tracks cannot switch at exactly the same instant. With plain binary, a reading taken during a multi bit change can be totally wrong and cause a sudden jump.\n With the reflected code only one track changes between positions. The Encoder Products Company calls it the most popular absolute encoder output format for this reason.\n Can we do arithmetic on it directly?\n No, because its bits do not carry place values like 8, 4, 2 and 1. Adding two Gray code values directly gives a meaningless answer that cannot be trusted.\n Convert the value to natural binary first, perform the arithmetic and convert back if needed. PLC programs normally do the conversion right after reading the inputs.\n Where is it used in Karnaugh maps?\n The row and column labels follow the order 00, 01, 11, 10. That order makes neighbouring cells differ by one variable, including the wrap from the last column to the first.\n Because of this, adjacent ones can be grouped to remove a variable. Without that order, simplification by grouping would not work and the map would lose its main advantage.\n Why do asynchronous FIFOs use Gray pointers?\n The read and write pointers cross between two unrelated clocks through synchronisers. A binary pointer can be sampled while several bits are changing and give a false count.\n A single bit change keeps the sampled value either old or new. This keeps the full and empty flags correct even when the two clocks drift freely against each other.\n Advertisement \n Related Articles\n Karnaugh Map Explained \n Incremental vs Absolute Encoders \n BCD Binary Coded Decimal Explained \n Introduction to Number Systems \n Encoder vs Decoder in Digital Logic \n External References\n Gray Codes, Natural Binary Codes, and Conversions, Encoder Products Company \n How to Convert Gray Code to Binary for Encoders, Control.com \n Gray Code, Wikipedia \n What We Learn Today\n Gray code changes only one bit between consecutive values, so a reading taken during a transition is always either the old value or the new one.\n Binary converts to the reflected form with one XOR against itself shifted right, while decoding runs bit by bit from the "
+}

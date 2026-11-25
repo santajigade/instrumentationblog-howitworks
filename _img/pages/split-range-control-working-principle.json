@@ -1,0 +1,77 @@
+{
+ "id": 9849,
+ "slug": "split-range-control-working-principle",
+ "mode": "elementor",
+ "title": "Split Range Control: Working Principle, Applications and How the Signal Is Split",
+ "focus": "Split Range Control",
+ "queries": [
+  "split range control",
+  "what is split range control"
+ ],
+ "h2s": [
+  {
+   "text": "Split Range Control: Introduction",
+   "unique": true,
+   "where": "text-editor"
+  },
+  {
+   "text": "What is Split Range Control?",
+   "unique": true,
+   "where": "text-editor"
+  },
+  {
+   "text": "Why Do We Use Split Range Control?",
+   "unique": true,
+   "where": "text-editor"
+  },
+  {
+   "text": "Example: Split Range for Temperature Control Application",
+   "unique": true,
+   "where": "heading",
+   "section": 5
+  },
+  {
+   "text": "Example: Temperature Control With Heating & Cooling",
+   "unique": true,
+   "where": "text-editor"
+  },
+  {
+   "text": "Types of Split Range Control",
+   "unique": true,
+   "where": "text-editor"
+  },
+  {
+   "text": "How the Output Signal is Assigned",
+   "unique": true,
+   "where": "text-editor"
+  },
+  {
+   "text": "Control Valve Actions in Split Range",
+   "unique": true,
+   "where": "text-editor"
+  },
+  {
+   "text": "Where is Split Range Control Used?",
+   "unique": true,
+   "where": "text-editor"
+  },
+  {
+   "text": "Practical Setup and Tuning Tips",
+   "unique": true,
+   "where": "text-editor"
+  },
+  {
+   "text": "Common Problems & How to Avoid Them",
+   "unique": true,
+   "where": "text-editor"
+  },
+  {
+   "text": "Very Simple Example",
+   "unique": true,
+   "where": "text-editor"
+  }
+ ],
+ "has_ib_img": false,
+ "images_now": 0,
+ "text": "Split Range Control: Introduction\n In many industrial\u00a0 processes , we need to control one important process variable (like temperature, pressure, or level) using more than one final control element . For example:\n 1) To control temperature, we may use a heating steam valve &\u00a0 a cooling water valve \n 2) To control tank level, we may use two different outlet valves \n 3) To control pressure, we may use a vent valve &\u00a0 a supply valve \n But how does the controller decide which valve to open and when ?\n That is where Split Range Control \u00a0is used.\n Split range control is a technique used in process control where one controller output signal is split into two (or more) different control outputs.\u00a0\n Each output operates a different\u00a0 valve\u00a0 or device over a specific portion of the signal range.\n Example: Controller output 4\u201312 mA \u2192 Valve A Controller output 12\u201320 mA \u2192 Valve B\n Easy, right? Let us learn in detail.\n Quick Answer\n What Is Split Range Control?\n Split range control is a strategy where one controller output is divided so it drives two or more final control elements , each over its own part of the signal span.\n A common split sends 4 to 12 mA to valve A and 12 to 20 mA to valve B. In a heating and cooling loop, the cooling valve works from 0% to 50% output while the heating valve opens from 50% to 100%.\n It is used when one valve cannot cover the full range or two actions are needed.\n What is Split Range Control?\n Definition: Split range control is a control strategy where a single controller manipulates multiple control elements , each handling a part of the controller\u2019s output span.\n The output of a standard controller is usually 4\u201320 mA (or 0\u2013100%). In split range:\n 1) The first valve gets control action from 4\u201312 mA \n 2) The second valve gets control action from 12\u201320 mA \n This \u201csplitting\u201d helps the process react properly under different load or conditions.\n Why Do We Use Split Range Control?\n Because one control element cannot always handle the entire job.\n Typical reasons:\n 1) Single valve cannot provide full control range 2) Need for heating + cooling 3) Need for pressure supply + venting 4) Handling two different flow sources 5) Improving energy efficiency 6) Maintaining process stability under varying conditions\n It helps to keep the process variable within limits while choosing the most suitable actuator at any moment.\n Example: Split Range for Temperature Control Application It becomes much easier to understand split-range control when we look at a real example like temperature control in a process system.\n In this case, the product might sometimes need heating and at other times cooling, depending on its temperature.\n The illustration below shows how the temperature transmitter, the controller, and the two control valves are arranged in a split-range temperature control setup.\n Here, the controller\u2019s output signal (0%\u2013100%) is divided into two separate operating ranges \u2014 one for each valve:\n When the controller output is 0% to 50% , the cooling valve is active. \n It is fully open at 0% and closes gradually until it is fully shut at 50%. \n When the controller output is 50% to 100% , the heating valve takes control. \n It begins to open at 50% and becomes fully open at 100%. \n So the controller decides whether heating or cooling is required, simply based on where its output falls in the split range.\n There are multiple ways to configure the valves in a split-range setup so that each responds to a different part of the signal.\n In this example, two I/P (current-to-pressure) converters are used to divide the output:\n First converts 4\u201312 mA \u2192 Cooling valve \n Second converts 12\u201320 mA \u2192 Heating valve \n The best part is that with this wiring method, we don\u2019t need a special controller \u2014 a standard output signal works perfectly for split-range control.\n Example: Temperature Control With Heating & Cooling\n Imagine a reactor that always needs to stay at 70\u00b0C :\n 1) Temperature drops \u2192 We add steam (heating) \n 2) Temperature rises \u2192 We add cooling water \n One PID controller measures temperature and gives output (4\u201320 mA).\n How does it work?\n Output Signal\n Action\n Device\n 4\u201312 mA\n Steam valve opens (heat increases)\n Heating\n 12\u201320 mA\n Cooling valve opens (heat decreases)\n Cooling\n 1) If temperature is low \u2192 controller goes toward 4 mA \u2192 steam opens\n 2) If temperature is high \u2192 controller goes toward 20 mA \u2192 cooling opens\n At the middle point (~12 mA), both may remain closed \u2014 perfect temperature!\n Types of Split Range Control\n There are mainly three types:\n 1) Fully Sequential Split Range\n First valve works \u2192 then stops \n Second valve works after first reaches full stroke\n Example: Valve A: 4\u201312 mA Valve B: 12\u201320 mA\n No overlap.\n 2) Fully Overlapping Split Range\n Both valves work in the middle range \n Helps prevent sudden transitions \n Example: Valve A: 4\u201316 mA Valve B: 8\u201320 mA\n Overlap: 8\u201316 mA (smooth handover)\n 3) Complementary Split Range\n One valve closes as the other opens \n Ideal for systems like supply vs. vent \n Example for pressure control: Valve A (supply): 4\u201320 mA open \u2192 20\u20134 mA close Valve B (vent): 4\u201320 mA close \u2192 20\u20134 mA open\n Used when both valves shouldn\u2019t be open together.\n How the Output Signal is Assigned\n It depends on:\n1) Type of valves (air-to-open / air-to-close) 2) Fail-safe requirements 3) Process logic\n The output assignment is done using:\n Current splitters \n Positioners with split configuration \n Control system logic (DCS/PLC) \n Control Valve Actions in Split Range\n Two common valve types:\n Valve Action\n Meaning\n Fail Position\n Air-to-Close (ATC) \n More air \u2192 closes\n Fails open\n Air-to-Open (ATO) \n More air \u2192 opens\n Fails closed\n So when designing split range:\n 1) Engineers ensure safety first \n 2) Heating valve may be made fail-close \n 3) Cooling valve may be fail-open (safety cooling)\n Where is Split Range Control Used?\n Here are simple and real process areas:\n Controlled Variable\n Valve Functions\n Temperature\n Steam valve (heat) + Cooling water valve\n Pressure\n Supply valve + Vent valve\n Level\n Two outlet valves to different locations\n Flow\n Two different gas streams\n Composition\n Control of multiple reagent inlets\n Industries using it:\n Chemical reactors \n Oil & Gas facilities \n Power plants \n Food & beverage \n Water treatment plants \n Basically, wherever precise process control is needed\n Practical Setup and Tuning Tips\n Item\n Recommendation\n Tuning\n Slow transitions \u2192 Avoid cycling \n Overlap\n Use for smooth handover \n Calibration\n Ensure valves respond correctly in assigned ranges\n Safety\n Fail-safe direction must support process safety\n Hysteresis\n Choose valves with low friction & good actuator performance\n Also, ensure position feedback is correctly configured.\n Common Problems & How to Avoid Them\n Problem\n Cause\n Solution\n Process swings near split point\n Poor tuning / no overlap\n Add small overlap, retune\n Both valves fight each other\n Wrong range mapping\n Verify DCS config\n Delayed response\n Sticky valves / hysteresis\n Valve maintenance\n Wrong fail position\n Incorrect design\n Update safety logic\n Testing before commissioning is very important !\n Very Simple Example\n Think of an AC room :\n When room is very cold \u2192 heater turns ON \n When room is very hot \u2192 AC turns ON \n When perfect \u2192 Both OFF \n Your body (controller) senses temperature and decides action Two devices (heater & AC) operate in different ranges\n This is exactly like split range control in industry\n Split range control is simple yet powerful.\n \u2714 One controller \u2192 Multiple controlled devices \u2714 Output signal split into different operating ranges \u2714 Used where one valve cannot handle full control requirements \u2714 Very useful for heating/cooling and pressure control \u2714 Requires careful tuning, configuration & safety planning\n In short:\n Split range control helps keep processes stable across wide conditions using multiple control elements \u2014 smart and efficient! \n I hope you like above blog. There is no cost associated in sharing the article in your social media. Thanks for Reading !! Happy Learning"
+}
