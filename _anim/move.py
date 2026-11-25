@@ -6,7 +6,7 @@ def call(path, data=None):
     with urllib.request.urlopen(req, timeout=120) as r: return json.loads(r.read())
 def txt(s): return re.sub(r'\s+', ' ', H.unescape(re.sub('<[^>]+>', '', s))).strip()
 import urllib.parse
-MOVES = {'what-is-a-valve-manifold': ('5-Valve Manifold', 'after'), 'ttl-vs-cmos-logic-families': ('Logic Level Comparison Table', 'after')}
+MOVES = {'corona-effect-transmission-line': ('How Corona Starts Around a Conductor', 'after'), 'how-nitrogen-purging-works': ('3. How Nitrogen Purging Works (Basic Principle)', 'after')}
 for slug, (target, mode) in MOVES.items():
     pid = call('/wp/v2/posts?slug=' + urllib.parse.quote(slug) + '&_fields=id')[0]['id']
     w = call(f'/ib/v1/widgets/{pid}')
