@@ -94,3 +94,7 @@
 2026-11-25,how-a-fire-alarm-system-works,9614,ok,fire-alarm-system-block-diagram|fire-alarm-system-control-panel-flowchart|fire-alarm-system-detector-selection-infographic
 2026-11-25,star-vs-delta-connection,15046,ok,star-vs-delta-connection-winding-diagram|star-vs-delta-connection-selection-flowchart|star-vs-delta-connection-phasor-infographic
 2026-11-25,types-of-nuclear-level-measurement,10715,ok,nuclear-level-measurement-working-principle-diagram|nuclear-level-measurement-selection-flowchart|nuclear-level-measurement-types-infographic
+2026-11-25,dcs-function-block-programming-explained,16072,fail,HTTP Error 520: <none>
+2026-11-25,multifunction-process-calibrator-uses,18232,fail,The read operation timed out
+2026-11-25,offset-error-zero-point-error-span-error,11734,ok,offset-error-vs-span-error-diagram|offset-error-calibration-flowchart|offset-error-zero-point-span-infographic
+2026-11-25,zero-and-span-adjustments,8432,ok,zero-and-span-calibration-line-chart|zero-and-span-shift-diagram|zero-and-span-calibration-flowchart

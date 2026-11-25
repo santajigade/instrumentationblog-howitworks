@@ -949,13 +949,13 @@
 "queries": [
 "what is zero and span calibration"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "dcs-function-block-programming-explained",
 "impr": 1991,
 "queries": [],
-"status": "todo"
+"status": "failed"
 },
 {
 "slug": "multifunction-process-calibrator-uses",
@@ -964,7 +964,7 @@
 "multifunction calibrator",
 "multifunction process calibrator"
 ],
-"status": "todo"
+"status": "failed"
 },
 {
 "slug": "offset-error-zero-point-error-span-error",
@@ -972,7 +972,7 @@
 "queries": [
 "zero offset error"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "gray-code-binary-conversion",
