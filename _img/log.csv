@@ -89,3 +89,8 @@
 2026-11-25,how-a-fire-alarm-system-works,9614,fail,HTTP Error 403: Forbidden
 2026-11-25,star-vs-delta-connection,15046,fail,HTTP Error 403: Forbidden
 2026-11-25,types-of-nuclear-level-measurement,10715,fail,HTTP Error 403: Forbidden
+2026-11-25,bimetallic-thermometer-working-principle,18909,ok,bimetallic-thermometer-labelled-parts-diagram|bimetallic-thermometer-specification-flowchart|bimetallic-thermometer-strip-deflection-infographic
+2026-11-25,distributed-control-system-dcs,8484,ok,distributed-control-system-levels-block-diagram|distributed-control-system-signal-flowchart|distributed-control-system-advantages-infographic
+2026-11-25,how-a-fire-alarm-system-works,9614,ok,fire-alarm-system-block-diagram|fire-alarm-system-control-panel-flowchart|fire-alarm-system-detector-selection-infographic
+2026-11-25,star-vs-delta-connection,15046,ok,star-vs-delta-connection-winding-diagram|star-vs-delta-connection-selection-flowchart|star-vs-delta-connection-phasor-infographic
+2026-11-25,types-of-nuclear-level-measurement,10715,ok,nuclear-level-measurement-working-principle-diagram|nuclear-level-measurement-selection-flowchart|nuclear-level-measurement-types-infographic
