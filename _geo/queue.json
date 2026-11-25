@@ -3360,7 +3360,7 @@
 "impr": 702,
 "pos": 6.3,
 "queries": [],
-"status": "todo"
+"status": "skip"
 },
 {
 "slug": "why-foam-affects-level-sensors",
@@ -3384,7 +3384,7 @@
 "impr": 694,
 "pos": 7.0,
 "queries": [],
-"status": "todo"
+"status": "skip"
 },
 {
 "slug": "hipps-system-in-oil-and-gas",
@@ -3656,7 +3656,7 @@
 "queries": [
 "dcs communication protocols"
 ],
-"status": "todo"
+"status": "skip"
 },
 {
 "slug": "trace-moisture-analyzer-natural-gas",
