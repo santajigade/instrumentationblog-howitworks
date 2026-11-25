@@ -1,0 +1,36 @@
+name: Static sections sidebar tag
+on:
+  workflow_dispatch:
+    inputs:
+      dirs:
+        default: "calculators tools downloads glossary compare unit-converters"
+      dry:
+        default: "no"
+concurrency:
+  group: geo
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+      - env:
+          H: ${{ secrets.FTP_SERVER }}
+          U: ${{ secrets.FTP_USERNAME }}
+          P: ${{ secrets.FTP_PASSWORD }}
+          D: ${{ secrets.FTP_SERVER_DIR }}
+        run: |
+          S="set ftp:ssl-force true; set ftp:ssl-protect-data true; set ssl:verify-certificate no; set net:max-retries 3"
+          mkdir -p static
+          for d in ${{ inputs.dirs }}; do
+            lftp -u "$U","$P" "$H" -e "$S; mirror --parallel=4 -I '*.html' ${D%/}/$d static/$d; bye" || echo "MISSING $d"
+          done
+          echo "HTML $(find static -name '*.html' | wc -l)  TAGGED $(grep -rl ib-sidebar.js static | wc -l)"
+          python3 _ads/static_sidebar.py static
+          if [ "${{ inputs.dry }}" = "no" ]; then
+            : > up.lftp
+            while read f; do [ -z "$f" ] && continue; r=${f#static/}; echo "put -O ${D%/}/$(dirname "$r") $f" >> up.lftp; done < changed.txt
+                        lftp -u "$U","$P" "$H" -e "$S; source up.lftp; bye" && echo "UPLOADED $(wc -l < changed.txt)"
+          fi
+          echo "LEFT_TAGGED $(grep -rl ib-sidebar.js static | wc -l)"
