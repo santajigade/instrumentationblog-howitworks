@@ -3,9 +3,9 @@
 (function(){
 if(window.__ibsx)return;window.__ibsx=1;
 var shop=document.querySelector('.entry-content > .ibe');var main=document.querySelector('main.ibs-main')||(shop&&shop.parentElement);if(!main||document.querySelector('.ibsx')||document.querySelector('.ibsb'))return;
+var PRE="@media(min-width:1100px){main.ibs-main,.entry-content:has(>.ibe),.entry-content:has(>.ibsx){display:grid;grid-template-columns:minmax(0,1fr) 300px;column-gap:30px;row-gap:0;max-width:1200px;margin-left:auto;margin-right:auto;box-sizing:border-box;align-items:start}main.ibs-main>*,.entry-content:has(>.ibe)>*{grid-column:1;min-width:0;max-width:none !important}main.ibs-main>.ibsx,.entry-content>.ibsx{grid-column:2;grid-row:1/span 40}}.ibuc-ad,.whc-ad,.ibsx-ad{max-width:100%;overflow:hidden}";
 var SITE='https://www.instrumentationblog.in',EB=SITE+'/instrumentation-ebooks/',COVER=SITE+'/wp-content/uploads/2026/11/field-instruments-calibration-ebook-cover.webp',CL='ca-pub-3931314195561246';
-var css=".ibsx-grid{max-width:1200px;margin:0 auto;display:block}"+
-"@media(min-width:1100px){.ibsx-grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:30px;align-items:start}.ibsx-grid>.ibsx-c>*{max-width:none !important}}"+
+var css=PRE+
 ".ibsx{font-family:'Segoe UI',Arial,sans-serif;color:#374151;font-size:15px;line-height:1.5}.ibsx *{box-sizing:border-box}.ibsx a{text-decoration:none}"+
 ".ibsx>*+*{margin-top:22px}@media(max-width:1099px){.ibsx{max-width:760px;margin:26px auto 0}.ibsx .ibsx-ad,.ibsx .ibsx-search,.ibsx .ibsx-latest,.ibsx .ibsx-eb-b{display:none}}"+
 ".ibsx-search{display:flex;border:2px solid #0b2540;border-radius:12px;overflow:hidden;background:#fff}.ibsx-search input{flex:1;border:0;outline:0;padding:11px 14px;font-size:15px;min-width:0;background:#fff}.ibsx-search button{border:0;background:#ffed00;padding:0 16px;cursor:pointer}"+
@@ -31,10 +31,7 @@ ad('3541747929',1)+(shop?'':eb(0))+tools+
 ad('6904203044',0)+
 '<div class="ibsx-comm"><b>Get new guides first</b><p>New guides and calculators, the day they go live.</p><a class="wa" href="https://whatsapp.com/channel/0029Vare99K3mFY3QVjKF43r" target="_blank" rel="noopener">WhatsApp channel</a><a class="tg" href="https://t.me/Instrumentationblogs" target="_blank" rel="noopener">Telegram channel</a><a class="sp" href="'+SITE+'/donate-us-instrumentationblog/">&#9829; Support free learning</a></div>'+
 ad('3541747929',1)+(shop?'':eb(1));
-var grid=document.createElement('div');grid.className='ibsx-grid';var c=document.createElement('div');c.className='ibsx-c';
-while(main.firstChild)c.appendChild(main.firstChild);
-var aside=document.createElement('aside');aside.className='ibsx';aside.setAttribute('aria-label','Sidebar');aside.innerHTML=html;
-grid.appendChild(c);grid.appendChild(aside);main.appendChild(grid);
+var aside=document.createElement('aside');aside.className='ibsx';aside.setAttribute('aria-label','Sidebar');aside.innerHTML=html;main.appendChild(aside);
 var desk=window.matchMedia('(min-width:1100px)').matches;
 if(desk){[].forEach.call(aside.querySelectorAll('ins.adsbygoogle'),function(){try{(window.adsbygoogle=window.adsbygoogle||[]).push({});}catch(e){}});}
 else{[].forEach.call(aside.querySelectorAll('.ibsx-ad'),function(n){n.parentNode.removeChild(n);});}

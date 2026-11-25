@@ -9,7 +9,7 @@ function ib_ebook_sidebar_wanted() {
 }
 add_action( 'wp_head', function () {
 	if ( ib_ebook_sidebar_wanted() ) {
-		echo '<script src="/assets/ib-sidebar.js?v=2" defer></script>' . "\n";
+		echo '<style id="ibsx-pre">@media(min-width:1100px){main.ibs-main,.entry-content:has(>.ibe),.entry-content:has(>.ibsx){display:grid;grid-template-columns:minmax(0,1fr) 300px;column-gap:30px;row-gap:0;max-width:1200px;margin-left:auto;margin-right:auto;box-sizing:border-box;align-items:start}main.ibs-main>*,.entry-content:has(>.ibe)>*{grid-column:1;min-width:0;max-width:none !important}main.ibs-main>.ibsx,.entry-content>.ibsx{grid-column:2;grid-row:1/span 40}}.ibuc-ad,.whc-ad,.ibsx-ad{max-width:100%;overflow:hidden}</style><script src="/assets/ib-sidebar.js?v=3" defer></script>' . "\n";
 	}
 }, 99 );
 add_action( 'send_headers', function () {
