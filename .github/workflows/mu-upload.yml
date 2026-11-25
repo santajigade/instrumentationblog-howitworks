@@ -20,4 +20,4 @@ jobs:
       - env:
           WU: ${{ secrets.WP_USER }}
           WP: ${{ secrets.WP_APP_PASSWORD }}
-        run: python3 _mu/touch_ebook_pages.py
+        run: echo skip-touch
