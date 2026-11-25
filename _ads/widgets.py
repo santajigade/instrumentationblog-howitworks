@@ -10,7 +10,7 @@ def call(path, data=None):
 C = 'ca-pub-3931314195561246'
 MULTI = f'<ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="{C}" data-ad-slot="3541747929"></ins>'
 SIDE = f'<ins class="adsbygoogle" style="display:block" data-ad-client="{C}" data-ad-slot="6904203044" data-ad-format="auto" data-full-width-responsive="true"></ins>'
-for n, tag in ((4, SIDE),):
+for n, tag in ((2, SIDE), (4, SIDE)):
     w = call(f'/wp/v2/widgets/custom_html-{n}?context=edit')
     raw = w['instance']['raw']; c = raw.get('content', '')
     new = re.sub(r'<ins class="adsbygoogle"[^>]*></ins>', tag, c, count=1)
