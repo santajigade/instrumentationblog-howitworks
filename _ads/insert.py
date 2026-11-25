@@ -109,7 +109,6 @@ for it in todo:
                 else:
                     it_ = iter(order(k)); call(f'/wp/v2/posts/{pid}', {'content': re.sub(re.escape(OLD2), lambda m: f'data-ad-slot="{next(it_)}"', html)})
                 it['status'] = 'swapped'
-        elif 'adsbygoogle' in html: it['status'] = 'hasads-other'; note = 'other ad code'
         else:
             p = plan(html)
             multi = '<div class="dcp-quote">' in html and MULTI not in html
