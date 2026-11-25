@@ -363,42 +363,43 @@
   "keywords": [
    "visual critical voltage of corona formula"
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "how-do-magnetic-level-switch-work",
   "keywords": [
    "magnetic level switch"
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "skin-effect-in-conductors",
   "keywords": [
    "skin effect disadvantages"
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "how-nitrogen-purging-works",
   "keywords": [
    "nitrogen purging meaning"
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "venturi-tube-flow-measurements",
   "keywords": [
    "venturi pipe"
   ],
-  "status": "todo"
+  "status": "skip",
+  "note": "URL returns 404, not a live post"
  },
  {
   "slug": "zero-speed-switch-working",
   "keywords": [
    "zero speed switch sensor"
   ],
-  "status": "todo"
+  "status": "done"
  },
  {
   "slug": "ultrasonic-level-transmitter-working-principle",
