@@ -52,7 +52,7 @@
 {
 "id": 2772,
 "slug": "electromagnetic-flow-meter-manufacturers",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 5094,
@@ -132,7 +132,7 @@
 {
 "id": 6040,
 "slug": "what-is-a-limit-switch",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 6139,
@@ -142,27 +142,27 @@
 {
 "id": 6172,
 "slug": "what-is-a-flow-restrictor",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 6194,
 "slug": "how-to-calibrate-a-pressure-sensor",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 6234,
 "slug": "solenoid-valves-what-is-it-how-it-works",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 6300,
 "slug": "difference-between-2-wire-rtd-3-wire-rtd-and-4-wire-rtd",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 6317,
 "slug": "how-to-select-the-perfect-flow-meter-for-any-application",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 6337,
@@ -172,7 +172,7 @@
 {
 "id": 6363,
 "slug": "what-are-different-mounting-techniques-of-diaphragm-seals",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 6374,
@@ -217,17 +217,17 @@
 {
 "id": 6869,
 "slug": "temperature-classes-in-hazardous-areas",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 6883,
 "slug": "gas-groups-iia-iib-iic-what-is-the-difference",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 6933,
 "slug": "heat-tracing-in-piping-systems",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 6948,
@@ -237,7 +237,7 @@
 {
 "id": 6969,
 "slug": "magnetic-proximity-sensors",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 6996,
@@ -247,7 +247,7 @@
 {
 "id": 7044,
 "slug": "rtd-sensor-connections",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 7108,
@@ -297,7 +297,7 @@
 {
 "id": 7497,
 "slug": "capillary-tubing-in-pressure-measurements",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 7541,
@@ -307,7 +307,7 @@
 {
 "id": 7587,
 "slug": "industrial-network-protocols-crash-courses",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 7633,
@@ -317,12 +317,12 @@
 {
 "id": 7675,
 "slug": "top-5-advantages-of-platinum-rtds",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 7699,
 "slug": "free-scada-training-free-resources",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 7727,
@@ -332,7 +332,7 @@
 {
 "id": 7798,
 "slug": "compressor-anti-surge-controller",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 7844,
@@ -347,7 +347,7 @@
 {
 "id": 7898,
 "slug": "free-training-electrical-control-drawings",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 7916,
@@ -357,7 +357,7 @@
 {
 "id": 7951,
 "slug": "sensors-and-transducers-questions-answers",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 7970,
@@ -377,7 +377,7 @@
 {
 "id": 8045,
 "slug": "parker-launches-scpsdi-pressure-switch",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 8062,
@@ -387,7 +387,7 @@
 {
 "id": 8106,
 "slug": "aramco-signs-11-billion-jafurah-midstream-deal",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 8117,
@@ -407,12 +407,12 @@
 {
 "id": 8187,
 "slug": "how-bypass-level-indicators-work",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 8213,
 "slug": "dead-weight-pressure-tester",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 8242,
@@ -437,7 +437,7 @@
 {
 "id": 8354,
 "slug": "wireless-hart-questions-answers",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 8377,
@@ -447,7 +447,7 @@
 {
 "id": 8390,
 "slug": "annubar-flow-meter-working",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 8432,
@@ -512,7 +512,7 @@
 {
 "id": 8945,
 "slug": "bernoullis-equation-formula",
-"status": "noplace"
+"status": "inserted"
 },
 {
 "id": 9012,
@@ -1307,7 +1307,7 @@
 {
 "id": 12989,
 "slug": "current-transformer-working-principle",
-"status": "insfail"
+"status": "hasads"
 },
 {
 "id": 13007,
@@ -4112,7 +4112,7 @@
 {
 "id": 18202,
 "slug": "multivariable-transmitter-working",
-"status": "insfail"
+"status": "hasads"
 },
 {
 "id": 18208,
@@ -4157,7 +4157,7 @@
 {
 "id": 18253,
 "slug": "dcs-control-modes-manual-auto-cascade",
-"status": "insfail"
+"status": "hasads"
 },
 {
 "id": 18258,
@@ -4172,12 +4172,12 @@
 {
 "id": 18298,
 "slug": "cable-derating-factors",
-"status": "insfail"
+"status": "hasads"
 },
 {
 "id": 18305,
 "slug": "faradays-law-electromagnetic-induction",
-"status": "insfail"
+"status": "hasads"
 },
 {
 "id": 18311,
