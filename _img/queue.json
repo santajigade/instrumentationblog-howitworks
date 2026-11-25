@@ -846,13 +846,13 @@
 "different types of controllers",
 "types of control loops in instrumentation"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "maximum-power-transfer-theorem",
 "impr": 2126,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "mems-accelerometer-working-principle",
@@ -864,7 +864,7 @@
 "mems accelerometer sensor",
 "rtd working principle in hindi"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "electrical-energy-consumption-calculation",
@@ -872,7 +872,7 @@
 "queries": [
 "electrical energy formula kwh"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "split-range-control-working-principle",
@@ -881,7 +881,7 @@
 "split range control",
 "what is split range control"
 ],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "distributed-control-system-dcs",
