@@ -33,6 +33,9 @@ ad('6904203044',0)+
 (shop?'':eb(1));
 var aside=document.createElement('aside');aside.className='ibsx';aside.setAttribute('aria-label','Sidebar');aside.innerHTML=html;main.appendChild(aside);
 
+
+/* repair: content that fell outside .ibuc because of an early closing tag goes back inside it */
+try{var ib0=main.querySelector(':scope > .ibuc');if(ib0){var n=ib0.nextElementSibling,mv=[];while(n){if(!/^(SCRIPT|STYLE)$/.test(n.tagName)&&!(n.classList&&n.classList.contains('ibsx')))mv.push(n);n=n.nextElementSibling;}mv.forEach(function(e){ib0.appendChild(e);});}}catch(e){}
 /* in-content ads: top up static pages to 4 ads, never next to another ad, never after the last card */
 try{var ib=main.querySelector('.ibuc');if(ib){var kids=[].slice.call(ib.children),isAd=function(n){return !!n&&(/(^| )(ibuc-ad|ibsx-inad)( |$)/.test(n.className)||!!(n.querySelector&&n.querySelector('ins.adsbygoogle')));};
 var have=kids.filter(isAd).length,need=4-have,u=['6552849252','7839764783'],k=0,cards=kids.filter(function(n){return n.tagName==='SECTION';});
