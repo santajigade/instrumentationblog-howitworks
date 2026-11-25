@@ -28,7 +28,7 @@ var tools='<div class="ibsx-box ibsx-tools"><div class="ibsx-h">Calculators and 
 var html='<form class="ibsx-search" role="search" method="get" action="'+SITE+'/"><input type="search" name="s" placeholder="Search guides, calculators..." aria-label="Search"><button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#0b2540" stroke-width="2.5"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button></form>'+
 (shop?'':eb(0))+ad('6904203044',0)+tools+
 '<div class="ibsx-box ibsx-latest"><div class="ibsx-h">Latest articles</div><div class="ibsx-ll"></div></div>'+
-ad('3541747929',1)+
+ad('6904203044',0)+
 '<div class="ibsx-comm"><b>Get new guides first</b><p>New guides and calculators, the day they go live.</p><a class="wa" href="https://whatsapp.com/channel/0029Vare99K3mFY3QVjKF43r" target="_blank" rel="noopener">WhatsApp channel</a><a class="tg" href="https://t.me/Instrumentationblogs" target="_blank" rel="noopener">Telegram channel</a><a class="sp" href="'+SITE+'/donate-us-instrumentationblog/">&#9829; Support free learning</a></div>'+
 (shop?'':eb(1));
 var aside=document.createElement('aside');aside.className='ibsx';aside.setAttribute('aria-label','Sidebar');aside.innerHTML=html;main.appendChild(aside);
