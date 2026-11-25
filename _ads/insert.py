@@ -67,7 +67,7 @@ N = int(sys.argv[1]) if len(sys.argv) > 1 else 10
 DRY = len(sys.argv) > 2 and sys.argv[2] == 'dry'
 ONLY = sys.argv[3].split(',') if len(sys.argv) > 3 and sys.argv[3] else None
 Q = '_ads/queue.json'; q = json.load(open(Q))
-todo = [x for x in q if x['status'] in ('noads', 'noplace', 'insfail', 'hasads') and (not ONLY or str(x['id']) in ONLY)][:N]
+todo = [x for x in q if x['status'] in ('noads', 'noplace', 'insfail') and (not ONLY or str(x['id']) in ONLY)][:N]
 OLD2 = 'data-ad-slot="5109630877"'
 def order(n):
     if n <= 0: return []
@@ -82,7 +82,8 @@ for it in todo:
         except urllib.error.HTTPError as e:
             if e.code != 404: raise
             html = call(f'/wp/v2/posts/{pid}?context=edit&_fields=content')['content']['raw']; mode = 'classic'
-        if OLD2 in html:
+        if 'adsbygoogle' in html: it['status'] = 'hasads'; note = 'already has ad code'
+        elif False:
             k = html.count(OLD2); note = f'{mode} swap old unit x{k}'
             if not DRY:
                 if mode == 'el':
