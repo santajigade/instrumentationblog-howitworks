@@ -16,6 +16,10 @@ ICONS = {
     'switch': '<circle cx="100" cy="100" r="70"/><path d="M100 100l40-40"/><path d="M55 140h90"/><circle cx="100" cy="100" r="8"/>',
     'ph': '<path d="M80 20h40M88 20v60l-50 85a10 10 0 0 0 9 15h106a10 10 0 0 0 9-15l-50-85V20"/><path d="M58 140h84"/>',
     'rtd': '<path d="M115 125V35a15 15 0 0 0-30 0v90a30 30 0 1 0 30 0z"/><path d="M100 60v75"/><path d="M140 50h40M140 80h30M140 110h40"/>',
+    # added 25 Nov 2026
+    'battery': '<rect x="45" y="40" width="110" height="140" rx="12"/><path d="M80 40V25h40v15"/><path d="M100 75v30M85 90h30M85 150h30"/>',
+    'transistor': '<circle cx="110" cy="100" r="62"/><path d="M20 100h65M85 65v70"/><path d="M85 85l45-35V20M85 115l45 35v30"/><path d="M118 140l12 10-15 3"/>',
+    'vibration': '<path d="M15 100l15-35 15 70 15-70 15 70 15-70 15 70 15-35"/><rect x="150" y="70" width="40" height="60" rx="6"/><path d="M135 100h15"/><path d="M15 170h175" opacity=".6"/>',
     # added 24 Nov 2026
     'recorder': '<rect x="30" y="25" width="140" height="150" rx="10"/><path d="M50 60h100M50 150h100" opacity=".6"/><path d="M50 120l20-25 15 15 20-40 15 30 15-15 15 10"/><path d="M150 85l15-10"/><circle cx="150" cy="85" r="5"/>',
     'conveyor': '<circle cx="45" cy="120" r="25"/><circle cx="155" cy="120" r="25"/><path d="M45 95h110M45 145h110"/><path d="M100 95V55"/><circle cx="100" cy="45" r="12"/><path d="M112 45l30-20"/>',
@@ -97,11 +101,11 @@ HUB_OF = {
 }
 
 POSTS = [
-    ('spm-analyzer-suspended-particulate-matter', 'SPM Analyzer', 'Working, CPCB Limits & Calculator', 'Analytical Measurements', ['High volume', 'Beta', 'µg/m³'], 'dust', None),
-    ('belt-sway-switch-working-principle', 'Belt Sway Switch', 'Working, PLC Wiring & Calculator', 'Switches', ['Alarm 15°', 'Trip 25°', 'Conveyor'], 'conveyor', None),
-    ('breather-valve-working-principle', 'Breather Valve Working Principle', 'Set Pressure Calculator', 'Control Valves', ['Pallets', 'API 2000', 'Vacuum'], 'valve', None),
-    ('static-and-dynamic-characteristics-of-instruments', 'Static and Dynamic Characteristics', 'Table, Solved Example & Calculator', 'Calibration', ['Accuracy', 'Time constant', 'Step response'], 'gauge', None),
-    ('strip-chart-recorder-working-principle', 'Strip Chart Recorder', 'Working, Types & Speed Calculator', 'Design', ['Servo pen', 'Thermal head', 'Zero & span'], 'recorder', None),
+    ('led-vs-ldr-difference', 'LED vs LDR', 'Difference, Comparison Table & Circuit', 'Electronic Components', ['Emits light', 'Senses light', 'Night lamp'], 'diode', None),
+    ('types-of-rom-prom-eprom-eeprom', 'Types of ROM', 'PROM, EPROM, EEPROM Table & Calculator', 'Digital Electronics', ['Mask ROM', 'EEPROM', 'Flash'], 'binary', None),
+    ('transistor-operating-regions-cutoff-saturation', 'Transistor Operating Regions', 'Load Line Chart & Calculator', 'Analog Electronics', ['Cutoff', 'Active', 'Saturation'], 'transistor', None),
+    ('vibration-analysis-questions-and-answers', 'Vibration Analysis Q&A', 'Calculator & Chart', 'Electronic Sensors', ['ISO zones', 'FFT', 'Fault frequencies'], 'vibration', None),
+    ('aa-vs-aaa-battery-size-voltage-capacity', 'AA vs AAA Battery', 'Size, Voltage & mAh Comparison Table', 'Electronics Fundamentals', ['Size in mm', '1.5 V', 'mAh'], 'battery', None),
 ]
 
 if __name__ == '__main__':
