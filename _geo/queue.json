@@ -3459,7 +3459,7 @@
 "zero suppression and elevation in level measurement",
 "capacitance level measurement"
 ],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "phase-angle-in-ac-circuits",
@@ -3487,7 +3487,7 @@
 "free industrial automation course",
 "industrial automation free course"
 ],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "dcs-control-modes-manual-auto-cascade",
@@ -3532,7 +3532,7 @@
 "queries": [
 "how to calculate mcb rating"
 ],
-"status": "failed"
+"status": "done"
 },
 {
 "slug": "top-3-types-and-applications-of-pressure-transmitters",
