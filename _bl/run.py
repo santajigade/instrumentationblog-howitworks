@@ -6,7 +6,13 @@ AUTH = 'Basic ' + base64.b64encode(f"{os.environ['U']}:{os.environ['P']}".encode
 def call(path, data=None):
     h = {'Authorization': AUTH, 'User-Agent': 'ib-bl/1.0', 'Content-Type': 'application/json'}
     rq = urllib.request.Request(B + path, data=json.dumps(data).encode() if data is not None else None, method='POST' if data is not None else 'GET', headers=h)
-    with urllib.request.urlopen(rq, timeout=120) as r: return json.loads(r.read())
+    import time
+    for k in range(4):
+        try:
+            with urllib.request.urlopen(rq, timeout=120) as r: return json.loads(r.read())
+        except urllib.error.HTTPError as e:
+            if e.code == 403 and k < 3: time.sleep(60); continue
+            raise
 N = int(sys.argv[1]) if len(sys.argv) > 1 else 15
 DRY = len(sys.argv) > 2 and sys.argv[2] == 'dry'
 EXACT = ["To check your own numbers quickly, try the free {a}.",
