@@ -1,4 +1,5 @@
-"""Locked featured image template for instrumentationblog.in (1200x675 WebP).
+"""Locked featured image template for instrumentationblog.in (1600x900 WebP since 26 Nov 2026, for Google Discover).
+Layout is designed at 1200x675 CSS px and rendered at device scale 4/3, so the output is 1600x900 with sharper text.
 Same font, title size, positions and logo strip on every image; accent colour and illustration change per article."""
 import html, io, sys
 from pathlib import Path
@@ -113,7 +114,7 @@ if __name__ == '__main__':
     only = sys.argv[2:] or None
     with sync_playwright() as p:
         b = p.chromium.launch(executable_path='/usr/bin/google-chrome')
-        pg = b.new_page(viewport={'width': 1200, 'height': 675})
+        pg = b.new_page(viewport={'width': 1200, 'height': 675}, device_scale_factor=4/3)  # 1600x900 output
         for slug, title, sub, cat, chips, icon, _ in POSTS:
             acc = HUB_COLORS[HUB_OF[cat]]
             if only and slug not in only:
@@ -122,5 +123,6 @@ if __name__ == '__main__':
             pg.goto(tmp.resolve().as_uri()); pg.wait_for_timeout(250)
             png = pg.screenshot(type='png'); tmp.unlink()
             Image.open(io.BytesIO(png)).convert('RGB').save(out / f'{slug}.webp', 'WEBP', quality=88, method=6)
+            assert Image.open(out / f'{slug}.webp').size == (1600, 900), 'featured image must be 1600x900'
             print('ok', slug)
         b.close()
