@@ -1,52 +1,52 @@
 [
  {
-  "id": 21631,
+  "id": 21692,
   "status": "draft",
-  "link": "https://www.instrumentationblog.in/?p=21631",
-  "preview": "https://www.instrumentationblog.in/?p=21631&preview=true",
-  "edit": "https://www.instrumentationblog.in/wp-admin/post.php?post=21631&action=elementor",
+  "link": "https://www.instrumentationblog.in/?p=21692",
+  "preview": "https://www.instrumentationblog.in/?p=21692&preview=true",
+  "edit": "https://www.instrumentationblog.in/wp-admin/post.php?post=21692&action=elementor",
   "pin_image": "",
-  "media": 21627,
-  "slug": "aa-vs-aaa-battery-size-voltage-capacity"
+  "media": 21688,
+  "slug": "dcs-controller-loading-calculation"
  },
  {
-  "id": 21636,
+  "id": 21697,
   "status": "draft",
-  "link": "https://www.instrumentationblog.in/?p=21636",
-  "preview": "https://www.instrumentationblog.in/?p=21636&preview=true",
-  "edit": "https://www.instrumentationblog.in/wp-admin/post.php?post=21636&action=elementor",
+  "link": "https://www.instrumentationblog.in/?p=21697",
+  "preview": "https://www.instrumentationblog.in/?p=21697&preview=true",
+  "edit": "https://www.instrumentationblog.in/wp-admin/post.php?post=21697&action=elementor",
   "pin_image": "",
-  "media": 21632,
-  "slug": "led-vs-ldr-difference"
+  "media": 21693,
+  "slug": "logic-gates-in-plc-ladder-logic"
  },
  {
-  "id": 21641,
+  "id": 21702,
   "status": "draft",
-  "link": "https://www.instrumentationblog.in/?p=21641",
-  "preview": "https://www.instrumentationblog.in/?p=21641&preview=true",
-  "edit": "https://www.instrumentationblog.in/wp-admin/post.php?post=21641&action=elementor",
+  "link": "https://www.instrumentationblog.in/?p=21702",
+  "preview": "https://www.instrumentationblog.in/?p=21702&preview=true",
+  "edit": "https://www.instrumentationblog.in/wp-admin/post.php?post=21702&action=elementor",
   "pin_image": "",
-  "media": 21637,
-  "slug": "transistor-operating-regions-cutoff-saturation"
+  "media": 21698,
+  "slug": "opc-quality-codes-scada"
  },
  {
-  "id": 21646,
+  "id": 21707,
   "status": "draft",
-  "link": "https://www.instrumentationblog.in/?p=21646",
-  "preview": "https://www.instrumentationblog.in/?p=21646&preview=true",
-  "edit": "https://www.instrumentationblog.in/wp-admin/post.php?post=21646&action=elementor",
+  "link": "https://www.instrumentationblog.in/?p=21707",
+  "preview": "https://www.instrumentationblog.in/?p=21707&preview=true",
+  "edit": "https://www.instrumentationblog.in/wp-admin/post.php?post=21707&action=elementor",
   "pin_image": "",
-  "media": 21642,
-  "slug": "types-of-rom-prom-eprom-eeprom"
+  "media": 21703,
+  "slug": "pcb-thermal-relief-pad-design"
  },
  {
-  "id": 21651,
+  "id": 21712,
   "status": "draft",
-  "link": "https://www.instrumentationblog.in/?p=21651",
-  "preview": "https://www.instrumentationblog.in/?p=21651&preview=true",
-  "edit": "https://www.instrumentationblog.in/wp-admin/post.php?post=21651&action=elementor",
+  "link": "https://www.instrumentationblog.in/?p=21712",
+  "preview": "https://www.instrumentationblog.in/?p=21712&preview=true",
+  "edit": "https://www.instrumentationblog.in/wp-admin/post.php?post=21712&action=elementor",
   "pin_image": "",
-  "media": 21647,
-  "slug": "vibration-analysis-questions-and-answers"
+  "media": 21708,
+  "slug": "scr-triggering-methods-gate-triggering"
  }
 ]
