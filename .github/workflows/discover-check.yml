@@ -8,4 +8,4 @@ jobs:
       - env:
           U: ${{ secrets.WP_USER }}
           P: ${{ secrets.WP_APP_PASSWORD }}
-        run: python3 _patch/discover_check.py
+        run: python3 _patch/head_check.py
