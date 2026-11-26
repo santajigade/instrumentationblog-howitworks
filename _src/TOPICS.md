@@ -61,10 +61,10 @@ Add new topics anywhere; keep slugs unique and blog slugs from _src/blog_slugs.t
 - [x] temperature-switch | Bimetal Temperature Switch | Switches | temperature-switch-vs-temperature-transmitter
 - [x] strain-gauge-pressure-sensor | Strain Gauge Pressure Sensor | Pressure | strain-gauge-working-principle
 - [x] rotameter | Rotameter (Variable Area Flow Meter) | Flow | variable-area-flow-meter-working
-- [ ] galvanic-isolator | Galvanic Isolator | Signals | what-is-galvanic-isolation
-- [ ] capacitance-level-probe | Capacitance Level Probe | Level | capacitance-level-measurement
-- [ ] solenoid-valve | Solenoid Valve | Control Valve | solenoid-valve-working-principle
-- [ ] thermal-mass-flow-meter | Thermal Mass Flow Meter | Flow | thermal-mass-flow-meter-working
+- [x] galvanic-isolator | Galvanic Isolator | Signals | what-is-galvanic-isolation
+- [x] capacitance-level-probe | Capacitance Level Probe | Level | capacitance-level-measurement
+- [x] solenoid-valve | Solenoid Valve | Control Valve | solenoid-valve-working-principle
+- [x] thermal-mass-flow-meter | Thermal Mass Flow Meter | Flow | thermal-mass-flow-meter-working
 - [ ] namur-sensor | NAMUR Sensor | Signals | namur-output-sensor
 - [ ] magnetic-level-gauge | Magnetic Level Gauge | Level | magnetic-level-gauge-working-principle
 - [ ] ip-converter | I to P Converter | Control Valve | valve-actuator-types-applications
