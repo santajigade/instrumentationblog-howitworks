@@ -1,0 +1,390 @@
+<div class="ibl-dcp">
+<style>
+.ibl-dcp,.ibl-dcp p,.ibl-dcp li,.ibl-dcp td,.ibl-dcp th,.ibl-dcp div,.ibl-dcp span,.ibl-dcp a{font-family:'Segoe UI',Arial,sans-serif !important;}
+.ibl-dcp,.ibl-dcp p,.ibl-dcp li,.ibl-dcp td,.ibl-dcp th{font-size:17px !important;font-weight:400 !important;line-height:1.7 !important;}
+.ibl-dcp{text-align:left !important;}
+.ibl-dcp p,.ibl-dcp li,.ibl-dcp h2,.ibl-dcp h3,.ibl-dcp ul,.ibl-dcp ol,.ibl-dcp td,.ibl-dcp th{text-align:left !important;}
+.ibl-dcp ul,.ibl-dcp ol{list-style-position:outside;padding-left:24px;margin-left:0;}
+.ibl-dcp h2{font-size:24px !important;font-weight:700 !important;color:#0186e0;margin:34px 0 16px;}
+.ibl-dcp h3{font-size:19px !important;font-weight:700 !important;color:#1a2b4a;margin:20px 0 10px;}
+.ibl-dcp a{color:#0e7490;font-weight:600 !important;text-decoration:none;}
+.ibl-dcp a:hover{text-decoration:underline;}
+.ibl-dcp strong{font-weight:700 !important;}
+.dcp-hero{background:linear-gradient(135deg,#0e7490,#164e63);border-radius:16px;padding:36px 30px;color:#fff;margin-bottom:22px;}
+.dcp-hero-cat{text-transform:uppercase;letter-spacing:2px;font-size:13px !important;font-weight:700 !important;color:#a5f3fc;margin-bottom:10px;}
+.dcp-headline{font-size:30px !important;font-weight:800 !important;line-height:1.3;margin-bottom:14px;color:#fff;}
+.dcp-hero p{color:#cffafe;}
+.dcp-pills{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px;}
+.dcp-pill{background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.3);border-radius:20px;padding:6px 16px;font-size:14px !important;color:#fff;}
+.dcp-excerpt{font-size:18px !important;color:#374151;font-style:italic;border-left:4px solid #0e7490;padding-left:16px;margin:20px 0;}
+.bkd-intro-box{background:#ecfeff;border-left:4px solid #0e7490;border-radius:8px;padding:20px 22px;margin:20px 0;color:#0e7490;font-size:17px !important;}
+.dcp-faq-item{margin-bottom:14px;}
+.dcp-faq-q{background:#cffafe;border-radius:8px 8px 0 0;padding:12px 16px;font-weight:700 !important;color:#0e7490;}
+.dcp-faq-a{background:#fff;border:1px solid #cffafe;border-radius:0 0 8px 8px;padding:12px 16px;color:#374151;}
+.dcp-refs{list-style:disc;padding-left:22px;margin:16px 0;}
+.dcp-refs li{margin-bottom:10px;font-size:17px !important;}
+.bkd-rel li{margin-bottom:8px;}
+.bkd-rel a,.dcp-refs a{font-weight:400 !important;}
+.dcp-learn{background:#0e7490;border-radius:12px;padding:22px 26px;color:#fff;margin:26px 0;}
+.dcp-learn h3{color:#fff;margin-top:0;}
+.dcp-learn ul{color:#a5f3fc;padding-left:20px;}
+.dcp-quote{text-align:center;font-style:italic;color:#6b7280;margin:26px 0;padding:18px;border-top:1px solid #e5e7eb;border-bottom:1px solid #e5e7eb;}
+.ib-author{position:relative;overflow:hidden;display:flex;flex-wrap:wrap;align-items:center;gap:28px;margin:30px 0;padding:30px 34px;border-radius:16px;background:linear-gradient(120deg,#0b1f45 0%,#12306b 60%,#1557b0 100%);background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(120deg,#0b1f45 0%,#12306b 60%,#1557b0 100%);background-size:28px 28px,28px 28px,100% 100%;}
+.ib-author:after{content:"";position:absolute;right:-70px;top:-40px;width:230px;height:230px;border:22px solid rgba(255,255,255,.08);border-radius:50%;}
+.ib-author-photo img{width:150px;height:150px;object-fit:cover;border-radius:4px;display:block;}
+.ib-author-body{flex:1;min-width:240px;position:relative;z-index:1;}
+.ib-author-badge{display:inline-block;padding:5px 14px;border:1px solid #38bdf8;border-radius:20px;background:rgba(56,189,248,.12);color:#fff;font-size:12px !important;font-weight:700;letter-spacing:.06em;text-transform:uppercase;}
+.ib-author-name{color:#fff;font-size:34px !important;font-weight:500;margin:10px 0 6px;line-height:1.2;}
+
+.ib-author-bio{color:#cbd5e1;font-size:15px !important;line-height:1.6;margin:10px 0 4px;}
+.ib-author-role,.ib-author-topics{color:#e2e8f0;font-size:16px !important;margin:4px 0;}
+.ib-author-review{display:inline-flex;align-items:center;gap:8px;margin:10px 0 2px;padding:6px 12px;border-radius:8px;background:rgba(34,197,94,.15);color:#bbf7d0;font-size:14px !important;font-weight:600;}
+.ib-tick{width:14px;height:14px;border-radius:50%;background:#22c55e;display:inline-block;}
+.ib-author-btns{display:flex;flex-wrap:wrap;gap:14px;margin-top:14px;}
+.ib-author-btns a{padding:10px 20px;border-radius:6px;text-decoration:none !important;font-weight:700 !important;font-size:15px !important;}
+.ib-li{background:#0a66c2;color:#fff !important;}
+.ib-arc{border:1px solid #fff;color:#fff !important;}
+@media(max-width:600px){.ib-author{padding:22px;}.ib-author-name{font-size:26px !important;}}
+.dcp-social{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:24px 0;}
+.dcp-social a{display:flex;align-items:center;gap:8px;padding:10px 20px;border-radius:24px;text-decoration:none !important;font-weight:700 !important;font-size:15px !important;}
+.dcp-social .wa{background:#1ebe5d;color:#fff !important;}
+.dcp-social .tg{background:#189cd8;color:#fff !important;}
+.dcp-social .bmc{background:#ffdd00;color:#1a1a1a !important;}
+.dcp-yt{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;margin:20px 0;}
+.dcp-yt iframe{position:absolute;top:0;left:0;width:100%;height:100%;}
+.dcp-matrix{overflow-x:auto;margin:20px 0;}
+.dcp-matrix table{width:100%;border-collapse:collapse;}
+.dcp-matrix th{background:#0e7490;color:#fff;padding:10px 12px;text-align:left;font-size:17px !important;}
+.dcp-matrix td{padding:10px 12px;border-bottom:1px solid #e5e7eb;font-size:17px !important;color:#374151;}
+.dcp-matrix tr:nth-child(even) td{background:#f8fafc;}
+.bkd-step-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin:22px 0;}
+.bkd-step-card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px;box-shadow:0 2px 8px rgba(0,0,0,0.05);}
+.bkd-step-num{width:32px;height:32px;border-radius:50%;background:#0e7490;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700 !important;margin-bottom:8px;}
+.bkd-step-title{font-weight:700 !important;margin-bottom:6px;color:#111827;}
+.bkd-step-desc{font-size:17px !important;color:#4b5563;}
+.bkd-type-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:22px 0;}
+.bkd-type-card{border-radius:12px;padding:16px;border-left:5px solid;background:#fafafa;}
+.bkd-type-name{font-weight:700 !important;margin-bottom:6px;color:#111827;}
+.bkd-type-best{font-size:17px !important;color:#374151;margin-top:8px;}
+.bkd-type-best strong{color:#111827;}
+.bkd-type-badge{display:inline-block;font-size:17px !important;color:#fff;border-radius:6px;padding:2px 10px;margin-top:8px;}
+.bkd-flow{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:22px 0;}
+.bkd-flow-box{background:#0f172a;color:#e5e7eb;border-radius:12px;padding:16px;text-align:center;border-top:4px solid #a5f3fc;}
+.bkd-flow-box strong{display:block;color:#a5f3fc;margin-bottom:6px;}
+.bkd-tip{background:#ecfeff;border:1px solid #a5f3fc;border-radius:10px;padding:14px 18px;margin:20px 0;}
+.bkd-tip-label{font-weight:700 !important;color:#0e7490;margin-bottom:4px;}
+.bkd-tools{background:linear-gradient(135deg,#0f172a,#1e293b);border-radius:16px;padding:22px;margin:26px 0;}
+.bkd-tools-head{color:#fff;font-weight:700 !important;font-size:20px !important;margin-bottom:4px;}
+.bkd-tools-sub{color:#cbd5e1;font-size:15px !important;margin-bottom:14px;}
+.bkd-tools-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;}
+.bkd-tool{display:block;background:#fff;border-radius:12px;padding:14px 16px;text-decoration:none !important;border-top:4px solid #0e7490;transition:transform .15s,box-shadow .15s;}
+.bkd-tool:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(0,0,0,.25);}
+.bkd-tool-tag{display:inline-block;background:#ecfeff;color:#0e7490;font-size:12px !important;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 10px;border-radius:12px;}
+.bkd-tool-t{display:block;color:#0f172a;font-weight:700 !important;font-size:16px !important;margin:8px 0 4px;}
+.bkd-tool-d{display:block;color:#475569;font-weight:400 !important;font-size:14px !important;line-height:1.5;}
+.bkd-tool-go{display:inline-block;margin-top:10px;color:#0e7490;font-weight:700 !important;font-size:14px !important;}
+.bkd-sum{border:2px solid #0e7490;background:#ecfeff;border-radius:12px;padding:18px 22px;margin:20px 0;}
+.bkd-sum-label{display:inline-block;background:#0e7490;color:#fff;font-size:13px !important;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:4px 12px;border-radius:14px;margin-bottom:10px;}
+.bkd-sum ul{margin:0;padding-left:20px;}
+.bkd-sum li{margin:6px 0;font-size:17px !important;}
+.bkd-formula{background:#111827;color:#e5e7eb;border-radius:12px;padding:20px;overflow-x:auto;overflow-wrap:anywhere;max-width:100%;font-family:'Courier New',monospace !important;font-size:17px !important;margin:22px 0;line-height:1.8;}
+.bkd-formula span{font-family:'Courier New',monospace !important;}
+.bkd-hl{color:#a5f3fc;font-weight:700 !important;}
+.bkd-app-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:22px 0;}
+.bkd-app-card{background:#fff;border:1px solid #e5e7eb;border-top:4px solid #164e63;border-radius:12px;padding:16px;}
+.bkd-app-title{font-weight:700 !important;margin-bottom:8px;color:#111827;}
+.bkd-app-desc{font-size:17px !important;color:#4b5563;}
+.bkd-pc{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:22px 0;}
+.bkd-pc-col{border-radius:12px;padding:18px;}
+.bkd-pc-col ul{padding-left:20px;margin:8px 0 0;}
+.bkd-pro{background:#ecfdf5;border:1px solid #6ee7b7;}
+.bkd-con{background:#fef2f2;border:1px solid #fca5a5;}
+.bkd-pc-head{font-weight:700 !important;font-size:19px !important;}
+.bkd-calc{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:22px;margin:22px 0;box-shadow:0 2px 10px rgba(0,0,0,0.05);}
+.bkd-calc-header{font-weight:700 !important;margin-bottom:14px;font-size:19px !important;color:#0e7490;}
+.bkd-calc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;}
+.bkd-calc-field label{display:block;font-size:17px !important;color:#4b5563;margin-bottom:4px;}
+.bkd-calc-field input{width:100%;padding:8px 10px;border:1px solid #d1d5db;border-radius:8px;font-size:17px !important;box-sizing:border-box;}
+.bkd-calc-btn{background:#0e7490;color:#fff;border:none;border-radius:8px;padding:10px 18px;cursor:pointer;font-weight:600 !important;font-size:17px !important;margin-top:14px;}
+.bkd-calc-result{display:none;margin-top:14px;background:#ecfeff;border-radius:10px;padding:12px 16px;}
+.bkd-calc-stat{font-size:22px !important;font-weight:800 !important;color:#0e7490;}
+.bkd-pdf{display:flex;align-items:center;gap:14px;background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:14px 18px;margin:18px 0;text-decoration:none !important;color:#111827;}
+.bkd-pdf-icon{background:#0e7490;color:#fff;font-weight:700 !important;border-radius:8px;padding:8px 12px;font-size:17px !important;}
+.bkd-pdf-title{font-weight:700 !important;color:#111827;}
+.bkd-pdf-sub{font-size:17px !important;color:#6b7280;font-weight:400 !important;}
+.dcp-ad{margin:30px 0;text-align:center;min-height:100px;background:#f9fafb;border:1px dashed #e5e7eb;border-radius:8px;padding:8px;}
+.whc-ad{margin:30px 0;text-align:center;min-height:100px;}
+.whc-ad-label{display:flex;align-items:center;gap:10px;margin-bottom:6px;}
+.whc-ad-label span{font-size:12px !important;color:#9ca3af;text-transform:uppercase;letter-spacing:1px;}
+.whc-ad-label .line{flex:1;height:1px;background:#e5e7eb;}
+.dcp-ad-label{font-size:12px !important;color:#9ca3af;text-transform:uppercase;letter-spacing:1px;}
+.bkd-dyk{background:linear-gradient(135deg,#ecfeff,#ffffff);border:2px solid #164e63;border-radius:14px;padding:16px 20px;margin:24px 0;}
+.bkd-dyk-label{display:inline-block;background:#164e63;color:#fff;font-weight:700 !important;border-radius:20px;padding:3px 14px;margin-bottom:8px;}
+.bkd-dyk p{margin:6px 0 0;}
+.bkd-qtip{background:#fffbeb;border-left:6px solid #f59e0b;border-radius:10px;padding:14px 18px;margin:24px 0;}
+.bkd-qtip-label{font-weight:800 !important;color:#0e7490;margin-bottom:4px;text-transform:uppercase;letter-spacing:1px;}
+.bkd-qtip p{margin:4px 0 0;}
+.bkd-myth{display:grid;gap:12px;margin:22px 0;}
+.bkd-myth-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:0;border-radius:12px;overflow:hidden;border:1px solid #e5e7eb;}
+.bkd-myth-m{background:#fef2f2;padding:14px 16px;}
+.bkd-myth-f{background:#ecfdf5;padding:14px 16px;}
+.bkd-myth-m strong{color:#b91c1c;}
+.bkd-myth-f strong{color:#047857;}
+.bkd-check{list-style:none;padding:0;margin:22px 0;display:grid;gap:10px;}
+.bkd-check li{position:relative;background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:12px 14px 12px 46px;}
+.bkd-check li::before{content:"";position:absolute;left:14px;top:15px;width:18px;height:18px;border:2px solid #0e7490;border-radius:4px;background:#ecfeff;}
+.bkd-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin:22px 0;}
+.bkd-stat{background:linear-gradient(135deg,#0e7490,#164e63);color:#fff;border-radius:14px;padding:18px;text-align:center;}
+.bkd-stat-v{font-size:26px !important;font-weight:800 !important;display:block;color:#fff;}
+.bkd-stat-l{font-size:17px !important;color:#fff;}
+</style>
+
+<div class="dcp-hero">
+  <div class="dcp-hero-cat">Level Measurement</div>
+  <div class="dcp-headline">Blocking Distance in Radar and Ultrasonic Level Transmitters: Typical Values, Mounting Height Calculator and Field Fixes</div>
+  <p>Every non contact level sensor has a short zone under its face where it cannot see the liquid. Learn why it exists, how big it is for radar and ultrasonic units, and how to mount the sensor so your top level stays clear.</p>
+  <div class="dcp-pills">
+    <span class="dcp-pill">Dead Zone</span>
+    <span class="dcp-pill">Ringing</span>
+    <span class="dcp-pill">Nozzle Height</span>
+    <span class="dcp-pill">Calculator</span>
+    <span class="dcp-pill">Troubleshooting</span>
+  </div>
+</div>
+
+<p class="dcp-excerpt">This article explains the near zone of radar and ultrasonic level transmitters with real manufacturer values. You also get a mounting height calculator, a solved example and a field troubleshooting table.</p>
+
+<div class="bkd-intro-box">
+  Hello everyone, today we are going to learn what blocking distance means in radar and ultrasonic level transmitters, why it exists and how to keep your maximum level safely outside it.
+</div>
+<figure style="text-align:center; margin:30px 0;">
+    <img src="https://www.instrumentationblog.in/wp-content/uploads/2026/11/blocking-distance-radar-ultrasonic-level.webp"
+        alt="blocking distance"
+        title="blocking distance"
+        style="max-width:100%; height:auto; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.12);">
+</figure>
+
+<div style="border:2px solid #0186e0;border-left:8px solid #0186e0;background:#f3f9ff;border-radius:10px;padding:18px 22px;margin:24px 0;"><div style="font-weight:700;color:#0186e0;font-size:14px;letter-spacing:1px;text-transform:uppercase;margin-bottom:6px;">Quick Answer</div><h2 style="font-size:21px;margin:0 0 10px;color:#1a2b4a;">What is blocking distance in radar and ultrasonic level transmitters?</h2><p style="margin:0;">Blocking distance is the short zone directly below the sensor face where a radar or ultrasonic level transmitter cannot measure reliably, because the transducer is still ringing from its own transmit pulse. Endress+Hauser lists 0.25 m for the 1.5 inch Prosonic T FMU30 sensor. Example: if the roof nozzle sits 4.5 m above the tank bottom, the highest level you can read is about 4.25 m.</p></div>
+
+<h2 id="bkd-what">What Is Blocking Distance?</h2>
+<p>Blocking distance is the minimum distance between the sensor reference point and the product surface that a radar or ultrasonic level transmitter can measure. Inside this zone the instrument ignores all echoes, so any level that rises into it is either frozen, lost or shown wrongly.</p>
+<div class="bkd-sum"><div class="bkd-sum-label">Key Facts</div><ul><li>Other names: dead zone, blanking distance, near zone, near range suppression or minimum measuring distance.</li><li>Cause: the transducer or antenna keeps ringing after the transmit pulse, plus strong nozzle and antenna echoes close to the face.</li><li>Ultrasonic values are usually larger, from about 0.1 m on small sensors to 0.5 m or more on long range sensors.</li><li>Modern 80 GHz radar has a much shorter near zone than older 26 GHz radar.</li><li>Rule: maximum level plus blocking distance plus a safety margin must stay below the sensor face.</li></ul></div>
+<p>If you are new to these sensors, first read how an <a href="https://www.instrumentationblog.in/ultrasonic-level-transmitter-working/">ultrasonic level transmitter works</a> and how a <a href="https://www.instrumentationblog.in/radar-type-level-transmitter/">radar type level transmitter</a> measures distance by time of flight. Both convert the echo time into distance, and the near zone is simply the part of the range where that echo cannot be separated from the sensor itself.</p>
+<div class="bkd-dyk"><div class="bkd-dyk-label">Do You Know?</div><p>APG Sensors explains that the same ultrasonic transducer both sends and receives the pulse, so it keeps vibrating for a split second after transmitting. The sensor deliberately ignores that short period, and the distance sound travels in that time becomes the blanking distance.</p></div>
+
+<!-- OPENING ADSENSE CODE -->
+<div class="whc-ad"><div class="whc-ad-label"><div class="line"></div><span>Advertisement</span><div class="line"></div></div>
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+
+<h2 id="bkd-why">Why Does Blocking Distance Exist?</h2>
+<p>Blocking distance exists because the sensor must finish transmitting and let its own vibration or antenna ringing die away before it can listen for a weak echo. Any echo that returns during this ringing time is buried under the much stronger transmit signal.</p>
+<div class="bkd-flow">
+  <div class="bkd-flow-box"><strong>1. Transmit pulse</strong>The transducer or antenna sends a strong burst of sound or microwave energy.</div>
+  <div class="bkd-flow-box"><strong>2. Ringing</strong>The element keeps vibrating or ringing for a short time after the burst.</div>
+  <div class="bkd-flow-box"><strong>3. Blanking window</strong>The electronics ignore all signals until the ringing falls below the noise floor.</div>
+  <div class="bkd-flow-box"><strong>4. Echo window</strong>Only echoes arriving after this window are accepted as the product surface.</div>
+</div>
+<p>For an ultrasonic sensor the near zone is easy to estimate from the speed of sound and the ringing time. Sound in air travels at roughly 343 m/s at 20 degrees Celsius, and the pulse must go down and come back, so we divide by two.</p>
+<div class="bkd-formula">
+Blocking distance from ringing time<br><span class="bkd-hl">BD = (c × t_ring) ÷ 2</span><br>c = 343 m/s, t_ring = 2 ms<br>BD = (343 × 0.002) ÷ 2<br><span class="bkd-hl">BD ≈ 0.34 m</span>
+</div>
+<p>Radar works with microwaves, so the ringing is in the antenna and the nozzle rather than in a vibrating membrane. ICS Schneider notes that nozzle reflections, antenna ringing, condensation and deposits all act in this near range, which is why the <a href="https://www.instrumentationblog.in/radar-level-antenna-types/">antenna type</a> and the nozzle geometry matter so much.</p>
+<div class="bkd-qtip"><div class="bkd-qtip-label">Quick Tip</div><p>Before you change any near zone setting, save the echo curve with the tank at a known low level. Comparing the old and new curve later shows at once whether a fixed nozzle echo or the real surface is being tracked.</p></div>
+<h2 id="bkd-radar">What Is the Dead Zone of a Radar Level Transmitter?</h2>
+<p>The dead zone of a radar level transmitter is usually between a few centimetres and about half a metre, depending on frequency, antenna size and nozzle. Higher frequency radar focuses its beam better and recovers faster, so its near zone is shorter.</p>
+<div class="dcp-matrix">
+<table>
+<tr><th>Sensor type</th><th>Typical near zone</th><th>Source</th></tr>
+<tr><td>Ultrasonic, 1.5 inch FMU30</td><td>0.25 m</td><td>Endress+Hauser manual</td></tr>
+<tr><td>Ultrasonic, 2 inch FMU30</td><td>0.35 m</td><td>Endress+Hauser manual</td></tr>
+<tr><td>Short range ultrasonic</td><td>About 4 inch</td><td>APG Sensors</td></tr>
+<tr><td>Large ultrasonic</td><td>1.5 ft or more</td><td>APG Sensors</td></tr>
+<tr><td>26 GHz radar</td><td>0.2 to 0.5 m</td><td>Zero Instrument</td></tr>
+<tr><td>80 GHz radar</td><td>0.05 to 0.2 m</td><td>Zero Instrument</td></tr>
+<tr><td>Guided wave radar</td><td>0.05 to 0.3 m</td><td>Zero Instrument</td></tr>
+</table>
+</div>
+<p>Guided wave radar has its own upper transition zone at the top of the probe, so the same mounting logic applies there. Our post on <a href="https://www.instrumentationblog.in/guided-wave-radar-vs-non-contact-radar/">guided wave radar vs non contact radar</a> explains how the probe changes the near zone and when a rod or cable probe is the better choice.</p>
+<figure style="text-align:center; margin:30px 0;">
+<img src="https://zeroinstrument.com/wp-content/uploads/2022/09/radar-level-meter-by-zero-instrument.jpg" alt="Radar level meter mounted on a tank showing the antenna and blocking distance zone" title="Radar level transmitter with horn antenna" loading="lazy" style="max-width:100%; border-radius:12px; box-shadow:0 4px 20px rgba(0,0,0,0.12);">
+<figcaption style="font-size:14px; color:#8a8a94; font-style:italic; margin-top:8px;">Image credit: <a href="https://zeroinstrument.com" target="_blank" rel="noopener">Zero Instrument</a>. Photo of a non contact radar level meter as shown on the manufacturer website.</figcaption>
+</figure>
+<div class="bkd-dyk"><div class="bkd-dyk-label">Do You Know?</div><p>The automation.com article on level technology describes a live ultrasonic test where the sensor showed an error once the water came within about 25 cm of its face. That one demonstration explains most of the high level complaints seen on site.</p></div>
+
+<!-- OPENING ADSENSE CODE -->
+<div class="whc-ad"><div class="whc-ad-label"><div class="line"></div><span>Advertisement</span><div class="line"></div></div>
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+
+<h2 id="bkd-blanking">What Is Blanking Distance in an Ultrasonic Sensor?</h2>
+<p>Blanking distance in an ultrasonic sensor is the same idea as the near zone, the region in front of the transducer that the sensor ignores while its membrane stops vibrating. APG Sensors states that it depends mainly on transducer frequency and pulse power.</p>
+<p>A low frequency, high power transducer reaches further into the tank but rings longer, so its blanking distance is larger. That is why a 15 m range sensor on a silo cannot be used on a shallow sump where the liquid comes close to the roof, as covered in <a href="https://www.instrumentationblog.in/how-does-an-ultrasonic-level-transmitter-work/">how ultrasonic level measurement works</a>.</p>
+<div class="bkd-pc">
+  <div class="bkd-pc-col bkd-pro"><div class="bkd-pc-head" style="color:#065f46;">Larger Blanking Setting</div>
+    <ul>
+      <li>Hides ladder, weld seam and nozzle echoes near the roof</li>
+      <li>Stops condensation drops from being read as level</li>
+      <li>Gives a stable reading in turbulent fill streams</li>
+    </ul>
+  </div>
+  <div class="bkd-pc-col bkd-con"><div class="bkd-pc-head" style="color:#b91c1c;">Too Large Blanking Setting</div>
+    <ul>
+      <li>Real high levels are ignored and the reading freezes</li>
+      <li>Reduces usable span of the tank</li>
+      <li>Can defeat overfill alarms if the high high level sits inside it</li>
+    </ul>
+  </div>
+</div>
+<p>APG Sensors also notes that many sensors let you program the blanking value, which is handy to skip an obstacle near the top. Treat this as a fine tuning tool and not a cure, because blanking out a real level is far more dangerous than a noisy reading.</p>
+<h2 id="bkd-calc">How to Calculate Minimum Mounting Height for Blocking Distance</h2>
+<p>To find the minimum mounting height, add the blocking distance and a safety margin to the maximum level, and compare the result with the roof height. If the sum is higher than the roof, the sensor needs a standpipe nozzle that raises it by the difference.</p>
+<div class="bkd-formula">
+Minimum sensor face height<br><span class="bkd-hl">H_s = H_max + BD + SM</span><br>Nozzle raise needed<br><span class="bkd-hl">N = H_s minus H_roof</span>
+</div>
+<p>The Endress+Hauser FMU30 manual says the instrument must be installed so the blocking distance is not undershot even at maximum fill level, and that a pipe nozzle can be used when this cannot be met otherwise. Use the calculator below with your own datasheet value.</p>
+<div class="bkd-calc">
+  <div class="bkd-calc-header">Minimum Mounting Height Calculator</div>
+  <div class="bkd-calc-grid">
+    <div class="bkd-calc-field"><label for="bkd-hmax">Maximum liquid level from bottom (m)</label><input type="number" id="bkd-hmax" value="4.2" step="any"></div>
+    <div class="bkd-calc-field"><label for="bkd-bd">Sensor blocking distance (m)</label><input type="number" id="bkd-bd" value="0.35" step="any"></div>
+    <div class="bkd-calc-field"><label for="bkd-sm">Safety margin (m)</label><input type="number" id="bkd-sm" value="0.10" step="any"></div>
+    <div class="bkd-calc-field"><label for="bkd-roof">Roof height above bottom (m)</label><input type="number" id="bkd-roof" value="4.5" step="any"></div>
+  </div>
+  <button class="bkd-calc-btn" onclick="var h=parseFloat(document.getElementById(&#x27;bkd-hmax&#x27;).value);var b=parseFloat(document.getElementById(&#x27;bkd-bd&#x27;).value);var m=parseFloat(document.getElementById(&#x27;bkd-sm&#x27;).value);var r=parseFloat(document.getElementById(&#x27;bkd-roof&#x27;).value);var o=document.getElementById(&#x27;bkd-out&#x27;);if(isNaN(h)||isNaN(b)||isNaN(m)||isNaN(r)||h&lt;=0||b&lt;0||m&lt;0||r&lt;=0){o.innerText=&#x27;Please enter positive values in metres&#x27;;}else{var s=h+b+m;var n=s-r;if(n&gt;0){o.innerText=&#x27;Sensor face at &#x27;+s.toFixed(2)+&#x27; m, raise it &#x27;+n.toFixed(2)+&#x27; m above the roof&#x27;;}else{o.innerText=&#x27;Sensor face at &#x27;+s.toFixed(2)+&#x27; m, roof mount is fine with &#x27;+(0-n).toFixed(2)+&#x27; m spare&#x27;;}}document.getElementById('bkd-res').style.display='block';">Calculate</button>
+  <div class="bkd-calc-result" id="bkd-res">
+    <div>Required sensor face position</div>
+    <div class="bkd-calc-stat" id="bkd-out">Sensor face at 4.65 m, raise it 0.15 m above the roof</div>
+  </div>
+</div>
+<div class="bkd-formula">
+Solved example, 2 inch ultrasonic sensor<br>H_max = 4.2 m, BD = 0.35 m, SM = 0.10 m<br>H_s = 4.2 + 0.35 + 0.10<br><span class="bkd-hl">H_s = 4.65 m</span><br>Roof = 4.5 m<br>N = 4.65 minus 4.5<br><span class="bkd-hl">N = 0.15 m standpipe</span>
+</div>
+<p>So the sensor face must sit 0.15 m above the roof flange, or the maximum level must be lowered to 4.05 m. Once the mounting is fixed, the <a href="https://www.instrumentationblog.in/tank-volume-from-level-measurement/">tank volume from level calculator</a> helps you see how much working volume you lose by reducing the top level.</p>
+<div class="bkd-qtip"><div class="bkd-qtip-label">Quick Tip</div><p>Keep the standpipe smooth inside, wider than the sensor face and free of weld beads. A narrow or rough standpipe creates its own echoes and can make the near zone effectively longer.</p></div>
+
+<!-- OPENING ADSENSE CODE -->
+<div class="whc-ad"><div class="whc-ad-label"><div class="line"></div><span>Advertisement</span><div class="line"></div></div>
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+
+<h2 id="bkd-symptoms">Blocking Distance Problems and Symptoms in the Field</h2>
+<p>When the level enters the blocking distance, the reading usually freezes at a high value, jumps to an empty or error value, or follows a nozzle echo instead of the liquid. These symptoms often appear only during high fill, which makes them easy to miss in testing.</p>
+<div class="dcp-matrix">
+<table>
+<tr><th>Symptom</th><th>Likely cause</th><th>Fix</th></tr>
+<tr><td>Reading stuck near top</td><td>Level inside near zone</td><td>Lower max level or raise sensor</td></tr>
+<tr><td>Sudden drop to empty</td><td>Echo lost in ringing</td><td>Shorter near zone sensor</td></tr>
+<tr><td>Constant level when empty</td><td>Nozzle echo tracked</td><td>Echo mapping at low level</td></tr>
+<tr><td>Noisy high readings</td><td>Condensation on face</td><td>Heated or 80 GHz sensor</td></tr>
+<tr><td>Error at high fill only</td><td>Blanking set too large</td><td>Recheck blanking against span</td></tr>
+</table>
+</div>
+<p>Many of these faults look like false echoes, so it helps to read our guide on <a href="https://www.instrumentationblog.in/radar-level-transmitter-false-echo-handling/">radar false echo handling</a> alongside this table. A fixed echo stays at the same distance while the true surface moves with filling, which is the quickest way to tell them apart.</p>
+<p>For wider fault finding, the <a href="https://www.instrumentationblog.in/level-transmitter-troubleshooting/">level transmitter troubleshooting</a> guide covers wiring, configuration and process causes together. Foam can also weaken the echo near the roof, and <a href="https://www.instrumentationblog.in/why-foam-affects-level-sensors/">why foam affects level sensors</a> explains that effect in detail.</p>
+<div class="bkd-myth">
+  <div class="bkd-myth-row"><div class="bkd-myth-m"><strong>Myth:</strong> Radar has no blocking distance at all.</div><div class="bkd-myth-f"><strong>Fact:</strong> Every radar has some near range where nozzle and antenna echoes dominate, even if 80 GHz units make it very short.</div></div>
+  <div class="bkd-myth-row"><div class="bkd-myth-m"><strong>Myth:</strong> Setting the near zone to zero gives more span.</div><div class="bkd-myth-f"><strong>Fact:</strong> A zero setting lets ringing and condensation be read as a full tank, which can trigger false trips.</div></div>
+  <div class="bkd-myth-row"><div class="bkd-myth-m"><strong>Myth:</strong> The dead zone is the same for every model.</div><div class="bkd-myth-f"><strong>Fact:</strong> It changes with frequency, sensor size, antenna and nozzle, so always read the datasheet.</div></div>
+  <div class="bkd-myth-row"><div class="bkd-myth-m"><strong>Myth:</strong> Blanking a real high level is harmless.</div><div class="bkd-myth-f"><strong>Fact:</strong> It can hide an overfill, which is a safety risk on storage tanks.</div></div>
+</div>
+<h2 id="bkd-overfill">How Does Blocking Distance Affect Overfill Protection?</h2>
+<p>The highest alarm point must always sit below the blocking distance, otherwise the transmitter is blind exactly when the tank is close to overflowing. Standards such as API 2350 define levels like high high and critical high, and the near zone must stay above all of them.</p>
+<p>Read our article on <a href="https://www.instrumentationblog.in/tank-overfill-protection-api-2350/">tank overfill protection to API 2350</a> to see how these levels are set. Zero Instrument also suggests keeping a small safety distance, about 0.1 m, above the highest fill level when the near zone is configured.</p>
+<ul class="bkd-check">
+  <li>High high alarm level sits below sensor face minus near zone</li>
+  <li>Independent high level switch installed where required</li>
+  <li>Near zone value matches the actual sensor and nozzle</li>
+  <li>Echo curve saved after commissioning</li>
+  <li>Proof test includes filling into the top band</li>
+</ul>
+<a class="bkd-pdf" href="https://core.instrumart.com/assets/FMU30-Manual.pdf" target="_blank" rel="noopener">
+  <div class="bkd-pdf-icon">PDF</div>
+  <div><div class="bkd-pdf-title">Endress+Hauser Prosonic T FMU30 Operating Instructions</div><div class="bkd-pdf-sub">Blocking distance, mounting rules and pipe nozzle guidance for ultrasonic level</div></div>
+</a>
+<h2 id="bkd-reduce">How to Reduce Blocking Distance Problems</h2>
+<p>You reduce near zone problems by choosing a sensor with a shorter zone, raising the sensor on a clean nozzle, or lowering the maximum level. Software settings come last, after the mechanical installation is right.</p>
+<div class="bkd-app-grid">
+  <div class="bkd-app-card"><div class="bkd-app-title">Use 80 GHz radar</div><div class="bkd-app-desc">Narrow beam and short near zone suit small nozzles and high fill tanks.</div></div>
+  <div class="bkd-app-card"><div class="bkd-app-title">Raise with a standpipe</div><div class="bkd-app-desc">Lift the sensor so the maximum level stays clear of the zone.</div></div>
+  <div class="bkd-app-card"><div class="bkd-app-title">Use guided wave radar</div><div class="bkd-app-desc">A probe suits low dielectric liquids and foam close to the roof.</div></div>
+  <div class="bkd-app-card"><div class="bkd-app-title">Map false echoes</div><div class="bkd-app-desc">Record the empty tank profile so fixed echoes are ignored.</div></div>
+</div>
+<p>The right technology depends on the liquid, so check <a href="https://www.instrumentationblog.in/radar-level-selection-non-contact-vs-guided-wave/">non contact vs guided wave radar selection</a> before ordering. Low dielectric products such as hydrocarbons return a weak echo, which is explained in <a href="https://www.instrumentationblog.in/dielectric-constant-level-measurement/">dielectric constant in level measurement</a>.</p>
+<p>In a turbulent or foaming vessel a <a href="https://www.instrumentationblog.in/stilling-well-level-measurement/">stilling well</a> can also help, but its inside must be smooth and correctly sized. After any change, verify the reading at the top band as part of <a href="https://www.instrumentationblog.in/radar-level-transmitter-calibration/">radar level transmitter calibration</a>.</p>
+<div class="bkd-tools"><div class="bkd-tools-head">Level Tools and Practice</div><div class="bkd-tools-sub">Free calculators and quizzes to size and check level transmitters.</div><div class="bkd-tools-grid">
+  <a class="bkd-tool" href="https://www.instrumentationblog.in/tank-volume-from-level-measurement/" target="_blank" rel="noopener"><span class="bkd-tool-tag">Calculator</span><span class="bkd-tool-t">Tank Volume from Level Calculator</span><span class="bkd-tool-d">Convert measured level into tank volume for vertical and horizontal tanks during sizing checks.</span><span class="bkd-tool-go">Open Calculator</span></a>
+  <a class="bkd-tool" href="https://www.instrumentationblog.in/how-to-calculate-the-range-for-differential-pressure-level-transmitters/" target="_blank" rel="noopener"><span class="bkd-tool-tag">Calculator</span><span class="bkd-tool-t">DP Level Range Calculator</span><span class="bkd-tool-d">Work out LRV and URV for differential pressure level transmitters with wet or dry legs.</span><span class="bkd-tool-go">Open Calculator</span></a>
+  <a class="bkd-tool" href="https://www.instrumentationblog.in/66-level-measurement-questions-answers/" target="_blank" rel="noopener"><span class="bkd-tool-tag">Quiz</span><span class="bkd-tool-t">66 Level Measurement Questions</span><span class="bkd-tool-d">Test your understanding of level sensors with practical interview style questions and answers.</span><span class="bkd-tool-go">Open Quiz</span></a>
+</div></div>
+<div class="dcp-yt">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dJoorvem3XY" title="Ultrasonic Level Sensors Range, Tank Height, Fill Height and Dead Band" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<h2 id="bkd-faq">Blocking Distance FAQ</h2>
+<div class="dcp-faq">
+  <div class="dcp-faq-item"><div class="dcp-faq-q">What is the blocking distance of a radar level transmitter in simple words?</div><div class="dcp-faq-a"><p style="margin:0 0 8px;">Blocking distance is the short zone under the radar antenna where the transmitter cannot read the surface. Typical values run from about 0.05 m on 80 GHz radar to 0.5 m on older 26 GHz radar.</p><p style="margin:0 0 8px;">Always confirm the exact figure in the datasheet for your antenna.</p></div></div>
+  <div class="dcp-faq-item"><div class="dcp-faq-q">What is the difference between blocking distance and blanking distance in level sensors?</div><div class="dcp-faq-a"><p style="margin:0 0 8px;">In practice both terms describe the same near zone that the sensor ignores after its transmit pulse. Ultrasonic vendors such as APG Sensors prefer blanking distance, while Endress+Hauser manuals use blocking distance.</p><p style="margin:0 0 8px;">Some menus call the adjustable setting blanking and the fixed physical limit blocking.</p></div></div>
+  <div class="dcp-faq-item"><div class="dcp-faq-q">How to calculate the minimum mounting height of an ultrasonic level sensor?</div><div class="dcp-faq-a"><p style="margin:0 0 8px;">Add the maximum level, the blocking distance and a margin of about 0.1 m to get the sensor face height. With 4.2 m level, 0.35 m zone and 0.10 m margin, the face must be at 4.65 m.</p><p style="margin:0 0 8px;">Raise the sensor with a standpipe if the roof is lower.</p></div></div>
+  <div class="dcp-faq-item"><div class="dcp-faq-q">What happens when the liquid level enters the dead zone of the sensor?</div><div class="dcp-faq-a"><p style="margin:0 0 8px;">The reading may freeze at a high value, jump to empty, show an error or follow a nozzle echo. This is dangerous because it usually happens near overflow.</p><p style="margin:0 0 8px;">Fix it by lowering the maximum level, raising the sensor or choosing a sensor with a shorter near zone.</p></div></div>
+  <div class="dcp-faq-item"><div class="dcp-faq-q">Which level sensor has the smallest blocking distance for small tanks?</div><div class="dcp-faq-a"><p style="margin:0 0 8px;">An 80 GHz radar usually has the shortest near zone, often a few centimetres, thanks to its narrow beam and fast recovery. Guided wave radar is another good option when foam or low dielectric liquids are present.</p><p style="margin:0 0 8px;">Ultrasonic sensors normally need the most clearance.</p></div></div>
+  <div class="dcp-faq-item"><div class="dcp-faq-q">What is a common mistake when setting the dead zone on a radar transmitter?</div><div class="dcp-faq-a"><p style="margin:0 0 8px;">The most common mistake is setting the near zone to zero or copying a default from another model. A zero value lets ringing and condensation be read as a full tank.</p><p style="margin:0 0 8px;">A value that is too large hides real high levels, so match it to the datasheet and nozzle.</p></div></div>
+</div>
+
+<!-- OPENING ADSENSE CODE -->
+<div class="whc-ad"><div class="whc-ad-label"><div class="line"></div><span>Advertisement</span><div class="line"></div></div>
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5950781970" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+
+<h2>Related Articles</h2>
+<ul class="bkd-rel">
+  <li><a href="https://www.instrumentationblog.in/ultrasonic-level-transmitter-working/">Ultrasonic Level Transmitter Working Principle</a></li>
+  <li><a href="https://www.instrumentationblog.in/radar-type-level-transmitter/">Radar Type Level Transmitter</a></li>
+  <li><a href="https://www.instrumentationblog.in/guided-wave-radar-troubleshooting/">Guided Wave Radar Troubleshooting</a></li>
+  <li><a href="https://www.instrumentationblog.in/radar-level-antenna-types/">Radar Level Antenna Types</a></li>
+  <li><a href="https://www.instrumentationblog.in/how-to-select-the-right-level-sensor/">How to Select the Right Level Sensor</a></li>
+</ul>
+
+<h2>External References</h2>
+<ul class="dcp-refs">
+  <li><a href="https://core.instrumart.com/assets/FMU30-Manual.pdf" target="_blank" rel="noopener">Endress+Hauser Prosonic T FMU30 Operating Instructions (PDF)</a></li>
+  <li><a href="https://apgsensors.com/ultrasonic-sensors-and-blanking-distance/" target="_blank" rel="noopener">APG Sensors: Ultrasonic Sensors and Blanking Distance</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Level_sensor" target="_blank" rel="noopener">Wikipedia: Level sensor</a></li>
+</ul>
+
+<div class="dcp-learn">
+<h3>What We Learn Today</h3>
+<ul>
+  <li>Blocking distance is the near zone under a radar or ultrasonic sensor where echoes are ignored because the transducer or antenna is still ringing.</li>
+  <li>Ultrasonic sensors have the largest near zone, while 80 GHz radar has the shortest, so the sensor choice decides how close to the roof you can measure.</li>
+  <li>Minimum sensor face height equals maximum level plus near zone plus margin, and a smooth standpipe fixes a roof that is too low.</li>
+</ul>
+</div>
+
+<div class="dcp-quote">I hope you like above blog. There is no cost associated in sharing the article in your social media. Thanks for reading!! Happy Learning!!</div>
+
+<div class="ib-author">
+<div class="ib-author-photo"><img src="https://www.instrumentationblog.in/wp-content/uploads/2025/02/1737044651971-1.jpg" alt="Sunayana Gadepatil, author at Instrumentation Blog" width="150" height="150" loading="lazy"></div>
+<div class="ib-author-body">
+<span class="ib-author-badge">Author · instrumentationblog.in</span>
+<div class="ib-author-name"><a href="https://www.instrumentationblog.in/sunayana-gadepatil/" style="color:#fff !important;text-decoration:none !important;">Sunayana Gadepatil</a></div>
+<div class="ib-author-bio">Ms. Sunayana Gadepatil is an instrumentation professional, technical writer, and the author behind Instrumentation Blog. With a strong interest in industrial instrumentation, process measurement, and automation, she specializes in simplifying complex technical concepts into clear, practical, and easy to understand insights. Through her articles, Ms. Sunayana shares valuable knowledge on flow, pressure, level, temperature, control systems, and industrial automation for engineers, students, technicians, and industry professionals.</div>
+<div class="ib-author-review"><span class="ib-tick"></span>Technically reviewed on <time class="ib-pubdate" datetime="2026-11-17">17 November 2026</time></div><script>(function(){var m=document.querySelector('meta[property=\'article:published_time\']')||document.querySelector('meta[itemprop=\'datePublished\']');var v=m&&m.getAttribute('content');if(!v){var t=document.querySelector('time.entry-date.published,time.published,.elementor-post-info__item--type-date time');v=t&&(t.getAttribute('datetime')||'');}if(!v)return;var d=new Date(v);if(isNaN(d))return;var M=['January','February','March','April','May','June','July','August','September','October','November','December'];document.querySelectorAll('.ib-pubdate').forEach(function(e){e.setAttribute('datetime',v.slice(0,10));e.textContent=d.getDate()+' '+M[d.getMonth()]+' '+d.getFullYear();});})();</script>
+<div class="ib-author-btns"><a class="ib-li" href="https://www.linkedin.com/in/sunayana-gadepatil-instru/" target="_blank" rel="noopener">Connect On LinkedIn</a><a class="ib-arc" href="https://www.instrumentationblog.in/sunayana-gadepatil/">About Author</a><a class="ib-arc" href="https://www.instrumentationblog.in/author/gpsunayana/">Read Her Articles →</a></div>
+</div>
+</div>
+<!--ib-author-end-->
+<div class="dcp-social">
+  <a class="wa" href="https://whatsapp.com/channel/0029Vare99K3mFY3QVjKF43r" target="_blank" rel="noopener">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    WhatsApp
+  </a>
+  <a class="tg" href="http://t.me/Instrumentationblogs" target="_blank" rel="noopener">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+    Telegram
+  </a>
+  <a class="bmc" href="https://buymeacoffee.com/instrumentationblog" target="_blank" rel="noopener">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="#1a1a1a"><path d="M20.216 6.415l-.132-.666c-.119-.598-.388-1.163-1.001-1.379-.197-.069-.42-.098-.57-.241-.152-.143-.196-.366-.231-.572-.065-.378-.125-.756-.192-1.133-.057-.325-.102-.69-.25-.987-.195-.4-.597-.634-.996-.788a5.723 5.723 0 00-.315-.093c.78 1.454 1.215 3.083 1.215 4.809v2.085a3.5 3.5 0 01-3.5 3.5h-5a3.5 3.5 0 01-3.5-3.5V7.562a8.522 8.522 0 011.402-4.763 5.516 5.516 0 00-.315.093c-.4.154-.801.388-.997.788-.147.297-.192.662-.249.987-.067.377-.127.755-.192 1.133-.035.206-.08.428-.231.572-.151.143-.374.172-.57.241-.613.216-.882.781-1.001 1.379l-.132.666c-.068.34.058.694.341.895a.861.861 0 00.901-.044 1.77 1.77 0 00.505-.647 1.077 1.077 0 00.07-.168c.04-.1.07-.197.1-.3a3.5 3.5 0 003.391 2.663h5a3.5 3.5 0 003.391-2.663c.03.103.06.2.1.3a1.077 1.077 0 00.07.168c.13.258.307.483.505.647a.861.861 0 00.901.044.861.861 0 00.341-.895z"/></svg>
+    Buy Me a Coffee
+  </a>
+</div>
+</div>
