@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cooling Water Flow Calculator: Flow for a Heat Load and ΔT</title>
+<meta name="description" content="Free cooling water flow calculator. Find the water flow needed to remove a heat load for a given temperature rise, or the heat removed by a measured flow.">
+<link rel="canonical" href="https://www.instrumentationblog.in/calculators/temperature/cooling-water-flow-calculator/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Instrumentation Blog">
+<meta property="og:title" content="Cooling Water Flow Calculator: Flow for a Heat Load and ΔT">
+<meta property="og:description" content="Free cooling water flow calculator. Find the water flow needed to remove a heat load for a given temperature rise, or the heat removed by a measured flow.">
+<meta property="og:url" content="https://www.instrumentationblog.in/calculators/temperature/cooling-water-flow-calculator/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="https://www.instrumentationblog.in/favicon.ico">
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}(function(){var z="";try{z=Intl.DateTimeFormat().resolvedOptions().timeZone||""}catch(e){}if(z==="Asia/Singapore"||navigator.webdriver)return;gtag("js",new Date());gtag("config","G-R3NLR1WRYC",{traffic_type:"ib_verified"});var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id=G-R3NLR1WRYC";document.head.appendChild(s)})();</script><script>(function(){var z="";try{z=Intl.DateTimeFormat().resolvedOptions().timeZone||""}catch(e){}if(z==="Asia/Singapore"||navigator.webdriver)return;(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","u4fdvm7fxj");})();</script>
+<style>
+html{-webkit-text-size-adjust:100%}body{margin:0;background:#f1f3f7;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#1f2733}
+.ibs-top{background:#1e73be;color:#fff;font-size:13.5px}
+.ibs-in{max-width:1100px;margin:0 auto;padding:0 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ibs-top .ibs-in{min-height:36px}
+.ibs-top a{color:#fff;text-decoration:none}
+.ibs-head{background:#fff;border-bottom:1px solid #e3e7ee}
+.ibs-head .ibs-in{min-height:86px}
+.ibs-logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.ibs-mark{width:58px;height:58px;background:#ffef00;display:flex;align-items:center;justify-content:center;font:900 38px/1 Arial,Helvetica,sans-serif;color:#1e73be;letter-spacing:-2px}
+.ibs-name{font-weight:800;font-size:18px;color:#1a2333;line-height:1.1}.ibs-name small{display:block;font-weight:500;font-size:12px;color:#6b7383}
+.ibs-nav{display:flex;flex-wrap:wrap;gap:4px 22px}
+.ibs-nav a{color:#1f2733;text-decoration:none;font-size:16px}
+.ibs-nav a:hover,.ibs-nav a.on{color:#e4004b}
+.ibs-main{padding:22px 16px 30px}
+.ibs-pv{text-align:center;padding:6px 16px 18px;font:13px/1.4 Arial,Helvetica,sans-serif;color:#5b6573}.ibs-pv span{display:inline-block;background:#fff;border:1px solid #dde3ea;border-radius:999px;padding:5px 14px}
+.ibs-foot{background:#1a2333;color:#aab3c5;font-size:13px}.ibs-foot .ibs-in{min-height:56px}.ibs-foot a{color:#d6dcea}
+@media(max-width:700px){.ibs-top a{display:none}.ibs-head .ibs-in{padding:10px 16px}.ibs-nav{gap:4px 16px}.ibs-nav a{font-size:15px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3931314195561246" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/assets/ib-header.css"><style id="ibsx-pre">@media(min-width:1100px){main.ibs-main,.entry-content:has(>.ibe),.entry-content:has(>.ibsx){display:grid;grid-template-columns:minmax(0,1fr) 300px;column-gap:30px;row-gap:0;max-width:1200px;margin-left:auto;margin-right:auto;box-sizing:border-box;align-items:start}main.ibs-main>*,.entry-content:has(>.ibe)>*{grid-column:1;min-width:0;max-width:none !important;margin-left:0 !important;margin-right:0 !important}main.ibs-main .ibuc-card{overflow-x:auto}main.ibs-main>.ibsx,.entry-content>.ibsx{grid-column:2;grid-row:1/span 40}}.ibuc-ad,.whc-ad,.ibsx-ad{max-width:100%;overflow:hidden}.ibsx-ad:has(ins[data-ad-status='unfilled']),.ibsb-ad:has(ins[data-ad-status='unfilled']),.whc-ad:has(ins[data-ad-status='unfilled']),.ibuc-ad:has(ins[data-ad-status='unfilled']){display:none !important}</style></head>
+<body>
+<div class="ibhd-top"><div class="ibhd-in"><a class="ibhd-mail" href="mailto:ceo@instrumentationblog.in"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3zM3 6l9 7 9-7"/></svg>ceo@instrumentationblog.in</a><div class="ibhd-soc"><a href="https://www.facebook.com/instrumentationblogs" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3c-2.8 0-4 1.8-4 4.5V11H7v4h3v9h4v-9h3l1-4h-4V8.8c0-.5.3-.8 1-.8z"/></svg></a><a href="https://www.linkedin.com/company/instrumentation-blog/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4v12H4zM6 3a2 2 0 1 1 0 4 2 2 0 0 1 0-4zM10 9h4v1.7c.6-1 1.9-2 3.9-2 4 0 4.6 2.6 4.6 6V21h-4v-5.6c0-1.4 0-3.2-2-3.2s-2.4 1.5-2.4 3.1V21h-4z"/></svg></a><a href="https://www.youtube.com/@InstrumentationBlog/" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.8 15.1V8.9l5.6 3.1z"/></svg></a><a href="https://www.instagram.com/instrumentation_blogs/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM16 3H8a5 5 0 0 0-5 5v8a5 5 0 0 0 5 5h8a5 5 0 0 0 5-5V8a5 5 0 0 0-5-5zm3.2 13A3.2 3.2 0 0 1 16 19.2H8A3.2 3.2 0 0 1 4.8 16V8A3.2 3.2 0 0 1 8 4.8h8A3.2 3.2 0 0 1 19.2 8z"/></svg></a></div></div></div><header class="ibhd"><div class="ibhd-in"><a class="ibhd-logo" href="https://www.instrumentationblog.in/" aria-label="Instrumentation Blog home"><img src="https://www.instrumentationblog.in/wp-content/uploads/2023/10/IB-LOGO-small-1.png" alt="Instrumentation Blog" width="80" height="80"></a><button type="button" class="ibhd-burger" aria-label="Open menu" aria-expanded="false" aria-controls="ibhd-nav"><span></span><span></span><span></span></button><nav class="ibhd-nav" id="ibhd-nav" aria-label="Main"><ul><li><a href="https://www.instrumentationblog.in/">Home</a></li><li class="ibhd-has"><a href="https://www.instrumentationblog.in/category/process-instrumentation/">Instrumentation</a><button type="button" class="ibhd-sub" aria-label="Open Instrumentation menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><ul><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/flow-measurement/">Flow</a></li><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/pressure-measurement/">Pressure</a></li><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/level-measurement/">Level</a></li><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/temperature-measurements/">Temperature</a></li><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/analytical-measurements/">Analytical</a></li><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/switches/">Switches</a></li><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/control-valves/">Control Valves</a></li><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/calibration/">Calibration</a></li><li><a href="https://www.instrumentationblog.in/category/process-instrumentation/design/">Design</a></li></ul></li><li class="ibhd-has"><a href="https://www.instrumentationblog.in/category/electronics/">Electronics</a><button type="button" class="ibhd-sub" aria-label="Open Electronics menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><ul><li><a href="https://www.instrumentationblog.in/category/electronics/electronic-components/">Electronic Components</a></li><li><a href="https://www.instrumentationblog.in/category/electronics/digital-electronics/">Digital Electronics</a></li><li><a href="https://www.instrumentationblog.in/category/electronics/analog-electronics/">Analog Electronics</a></li><li><a href="https://www.instrumentationblog.in/category/electronics/electronic-sensors/">Electronic Sensors</a></li><li><a href="https://www.instrumentationblog.in/category/electronics/electronics-fundamentals/">Electronics Fundamentals</a></li><li><a href="https://www.instrumentationblog.in/category/electronics/pcb-design-signal-integrity/">PCB Design &amp; Signal Integrity</a></li><li><a href="https://www.instrumentationblog.in/category/electronics/power-electronics-protection/">Power Electronics &amp; Protection</a></li></ul></li><li class="ibhd-has"><a href="https://www.instrumentationblog.in/category/electrical/">Electrical</a><button type="button" class="ibhd-sub" aria-label="Open Electrical menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><ul><li><a href="https://www.instrumentationblog.in/category/electrical/electrical-design-calculations/">Electrical Design &amp; Calculations</a></li><li><a href="https://www.instrumentationblog.in/category/electrical/electrical-fundamentals/">Electrical Fundamentals</a></li><li><a href="https://www.instrumentationblog.in/category/electrical/electrical-machines/">Electrical Machines</a></li><li><a href="https://www.instrumentationblog.in/category/electrical/electrical-safety-standards/">Electrical Safety &amp; Standards</a></li><li><a href="https://www.instrumentationblog.in/category/electrical/industrial-electrical-systems/">Industrial Electrical Systems</a></li><li><a href="https://www.instrumentationblog.in/category/electrical/motors-drives/">Motors &amp; Drives</a></li><li><a href="https://www.instrumentationblog.in/category/electrical/power-quality-protection/">Power Quality &amp; Protection</a></li><li><a href="https://www.instrumentationblog.in/category/electrical/power-systems/">Power Systems</a></li></ul></li><li class="ibhd-has"><a href="https://www.instrumentationblog.in/category/automation/">Automation</a><button type="button" class="ibhd-sub" aria-label="Open Automation menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><ul><li><a href="https://www.instrumentationblog.in/category/automation/plc-programmable-logic-controller/">PLC</a></li><li><a href="https://www.instrumentationblog.in/category/automation/scada/">SCADA</a></li><li><a href="https://www.instrumentationblog.in/category/automation/distributed-control-system/">DCS</a></li><li><a href="https://www.instrumentationblog.in/category/automation/cybersecurity/">Cybersecurity</a></li><li><a href="https://www.instrumentationblog.in/category/automation/communication/">Communication</a></li><li><a href="https://www.instrumentationblog.in/category/automation/safety/">Safety Systems</a></li><li><a href="https://www.instrumentationblog.in/category/automation/industrial-ai/">Industrial AI</a></li></ul></li><li class="ibhd-has"><span class="ibhd-lbl" tabindex="0">Learn</span><button type="button" class="ibhd-sub" aria-label="Open Learn menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><ul><li><a href="https://www.instrumentationblog.in/glossary/">Glossary</a></li><li><a href="https://www.instrumentationblog.in/category/interview-questions-answers-instrumentation/">Q&amp;A</a></li><li><a href="https://www.instrumentationblog.in/compare/">Compare</a></li><li><a href="https://www.instrumentationblog.in/how-it-works/">How It Works</a></li></ul></li><li class="ibhd-has on"><a href="https://www.instrumentationblog.in/calculators/">Calculators</a><button type="button" class="ibhd-sub" aria-label="Open Calculators menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><ul><li><a href="https://www.instrumentationblog.in/unit-converters/">Unit Converters</a></li><li><a href="https://www.instrumentationblog.in/calculators/flow/">Flow</a></li><li><a href="https://www.instrumentationblog.in/calculators/pressure/">Pressure</a></li><li><a href="https://www.instrumentationblog.in/calculators/level/">Level</a></li><li><a href="https://www.instrumentationblog.in/calculators/temperature/">Temperature</a></li><li><a href="https://www.instrumentationblog.in/calculators/instrumentation-signal/">Instrumentation Signal</a></li><li><a href="https://www.instrumentationblog.in/calculators/plc-signal/">PLC Digital Signal</a></li><li><a href="https://www.instrumentationblog.in/calculators/control-valve/">Control Valve</a></li><li><a href="https://www.instrumentationblog.in/calculators/calibration/">Calibration</a></li><li><a href="https://www.instrumentationblog.in/calculators/electrical/">Electrical</a></li><li><a href="https://www.instrumentationblog.in/calculators/electronics/">Electronics</a></li><li><a href="https://www.instrumentationblog.in/calculators/safety/">Safety and SIL</a></li><li><a href="https://www.instrumentationblog.in/calculators/analytical/">Analytical</a></li></ul></li><li class="ibhd-has"><a href="https://www.instrumentationblog.in/tools/">Tools</a><button type="button" class="ibhd-sub" aria-label="Open Tools menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><ul><li><a href="https://www.instrumentationblog.in/tools/instrument-tags/">Instrument Tag Decoder</a></li><li><a href="https://www.instrumentationblog.in/tools/enclosure-ratings/">IP, NEMA and Ex Rating Decoder</a></li><li><a href="https://www.instrumentationblog.in/tools/wire-color-codes/">Wire and Cable Color Codes</a></li><li><a href="https://www.instrumentationblog.in/tools/pid-tuning/">PID Tuning Tools</a></li><li><a href="https://www.instrumentationblog.in/tools/communication-protocols/">Communication Protocols</a></li><li><a href="https://www.instrumentationblog.in/tools/troubleshooting/">Troubleshooting Guides</a></li><li><a href="https://www.instrumentationblog.in/tools/practice-tests/">Practice Tests</a></li><li><a href="https://www.instrumentationblog.in/tools/pid-symbols/">P&amp;ID Symbols</a></li><li><a href="https://www.instrumentationblog.in/tools/pipe-flange-charts/">Pipe and Flange Charts</a></li><li><a href="https://www.instrumentationblog.in/tools/thread-charts/">Thread Size Charts</a></li></ul></li><li class="ibhd-has"><a href="https://www.instrumentationblog.in/downloads/">Downloads</a><button type="button" class="ibhd-sub" aria-label="Open Downloads menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><ul><li><a href="https://www.instrumentationblog.in/downloads/templates/">Templates and Downloads</a></li><li><a href="https://www.instrumentationblog.in/downloads/cheat-sheets/">Cheat Sheets</a></li><li><a href="https://www.instrumentationblog.in/downloads/excel-calculators/">Excel Calculation Tools</a></li><li><a href="https://www.instrumentationblog.in/downloads/procedures/">Procedures (SOPs)</a></li><li><a href="https://www.instrumentationblog.in/downloads/fault-finding-guides/">Fault Finding Guides</a></li><li><a href="https://www.instrumentationblog.in/downloads/engineering-reference-tables/">Reference Tables</a></li></ul></li></ul></nav><form class="ibhd-search" role="search" action="https://www.instrumentationblog.in/" method="get"><label for="ibhd-q" class="ibhd-sr">Search</label><input id="ibhd-q" type="search" name="s" placeholder="Search"><button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 18a7 7 0 1 1 0-14 7 7 0 0 1 0 14zM20 20l-3.5-3.5"/></svg></button></form></div></header>
+<main class="ibs-main"><style>
+.ibuc{--n:#1a2333;--t:#1f2733;--m:#5b6576;--b:#dde3ee;--l:#f6f8fc;--a:#d9622b;--g:#1f9d55;color:var(--t);font-size:16px;line-height:1.6;max-width:1100px;margin:0 auto}
+.ibuc *{box-sizing:border-box}
+.ibuc a{color:#1f5fbf;text-decoration:none}.ibuc a:hover{text-decoration:underline}
+.ibuc h1,.ibuc h2,.ibuc h3{line-height:1.25;margin:0 0 12px;color:var(--n);font-weight:700;letter-spacing:0;text-transform:none}
+.ibuc h2{font-size:24px;margin-top:8px}.ibuc h3{font-size:18px}
+.ibuc p{margin:0 0 12px}
+.ibuc .ibuc-crumb{font-size:13px;color:var(--m);margin:0 0 12px}
+.ibuc .ibuc-hero{border-radius:16px;padding:28px 26px;color:#fff;margin:0 0 20px}
+.ibuc .ibuc-hero h1{color:#fff !important;font-size:34px;margin:6px 0 10px}
+.ibuc .ibuc-eye{font-size:12px;letter-spacing:.12em;text-transform:uppercase;opacity:.85;font-weight:700}
+.ibuc .ibuc-hero p{color:#e8ecf4;margin:0 0 14px;max-width:760px}
+.ibuc .ibuc-pills{display:flex;flex-wrap:wrap;gap:8px}
+.ibuc .ibuc-pill{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);color:#fff;border-radius:999px;padding:3px 12px;font-size:13px}
+.ibuc .ibuc-card{background:#fff;border:1px solid var(--b);border-radius:14px;padding:22px;margin:0 0 22px;box-shadow:0 2px 10px rgba(26,35,51,.05)}
+.ibuc .ibuc-tool{border-top:4px solid var(--a);scroll-margin-top:90px}
+.ibuc .ibuc-grid{display:grid;grid-template-columns:1fr 1.3fr auto 1.3fr;gap:12px;align-items:end}
+.ibuc .ibuc-field label{display:block;font-size:13px;font-weight:700;color:var(--m);margin:0 0 5px}
+.ibuc .ibuc-field input,.ibuc .ibuc-field select{width:100%;height:46px;border:1.5px solid var(--b) !important;border-radius:10px !important;padding:0 12px !important;font-size:16px;background:#fff !important;color:var(--t) !important;margin:0;box-shadow:none}
+.ibuc .ibuc-field input:focus,.ibuc .ibuc-field select:focus{outline:none;border-color:var(--a) !important;box-shadow:0 0 0 3px rgba(217,98,43,.15)}
+.ibuc .ibuc-field input.ibuc-bad{border-color:#c0392b !important}
+.ibuc button.ibuc-swap{height:46px;width:46px;border-radius:50% !important;border:1.5px solid var(--b) !important;background:var(--l) !important;color:var(--n) !important;font-size:20px;cursor:pointer;padding:0 !important;line-height:1}
+.ibuc button.ibuc-swap:hover{background:var(--n) !important;color:#fff !important}
+.ibuc .ibuc-result{background:var(--l);border-radius:12px;padding:16px 18px;margin:16px 0 12px}
+.ibuc .ibuc-res-main{font-size:22px;color:var(--n);word-break:break-word}
+.ibuc .ibuc-res-main b{color:var(--a);font-size:28px}
+.ibuc .ibuc-res-sub{font-size:14px;color:var(--m);margin-top:6px;word-break:break-word}
+.ibuc .ibuc-bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:14px;color:var(--m)}
+.ibuc .ibuc-bar select{height:36px;border:1.5px solid var(--b) !important;border-radius:8px !important;padding:0 8px !important;background:#fff !important;color:var(--t) !important;width:auto}
+.ibuc button.ibuc-btn{background:var(--n) !important;color:#fff !important;border:0 !important;border-radius:8px !important;padding:8px 16px !important;font-size:14px;font-weight:600;cursor:pointer;line-height:1.2}
+.ibuc button.ibuc-btn:hover{background:var(--a) !important}
+.ibuc .ibuc-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;align-items:center}
+.ibuc .ibuc-chips span{font-size:13px;font-weight:700;color:var(--m)}
+.ibuc button.ibuc-chip,.ibuc a.ibuc-chip{background:#fff !important;border:1.5px solid var(--b) !important;color:var(--n) !important;border-radius:999px !important;padding:5px 13px !important;font-size:13px;cursor:pointer;line-height:1.3;font-weight:500;text-decoration:none}
+.ibuc button.ibuc-chip:hover,.ibuc a.ibuc-chip:hover{border-color:var(--a) !important;color:var(--a) !important;text-decoration:none}
+.ibuc .ibuc-tw{overflow-x:auto;border:1px solid var(--b);border-radius:10px}
+.ibuc table.ibuc-t{width:100%;border-collapse:collapse;margin:0;font-size:15px;border:0}
+.ibuc table.ibuc-t th{background:var(--n) !important;color:#fff !important;text-align:left;padding:10px 12px;font-weight:600;border:0 !important}
+.ibuc table.ibuc-t td{padding:8px 12px;border:0 !important;border-bottom:1px solid var(--b) !important;background:#fff;vertical-align:top}
+.ibuc table.ibuc-t tr:nth-child(even) td{background:#fafbfd}
+.ibuc table.ibuc-t tr:last-child td{border-bottom:0 !important}
+.ibuc table.ibuc-t td.ibuc-num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.ibuc #ibuc-all tr{cursor:pointer}.ibuc #ibuc-all tr:hover td{background:#fff4ee}
+.ibuc #ibuc-all tr.ibuc-hl td{background:#fde9de;font-weight:700}
+.ibuc .ibuc-two{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.ibuc .ibuc-fbox{background:var(--n);color:#fff;border-radius:12px;padding:16px 18px;margin:12px 0;font-family:Consolas,Menlo,monospace;font-size:15px;word-break:break-word}
+.ibuc .ibuc-key{border-left:4px solid var(--a);background:#fff6f1;border-radius:0 10px 10px 0;padding:12px 16px;margin:12px 0}
+.ibuc .ibuc-steps{margin:0 0 12px;padding-left:22px}.ibuc .ibuc-steps li{margin-bottom:6px}
+.ibuc details{border:1px solid var(--b);border-radius:10px;margin:0 0 10px;background:#fff}
+.ibuc summary{cursor:pointer;padding:12px 16px;font-weight:700;color:var(--n);list-style:none}
+.ibuc summary::-webkit-details-marker{display:none}
+.ibuc summary:before{content:"Q";display:inline-block;background:var(--a);color:#fff;border-radius:6px;width:22px;height:22px;text-align:center;line-height:22px;font-size:12px;margin-right:10px}
+.ibuc details p{padding:0 16px 14px 48px;margin:0;color:var(--t)}
+.ibuc .ibuc-links{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.ibuc .ibuc-links a{display:block;border:1px solid var(--b);border-radius:10px;padding:10px 14px;background:#fff;color:var(--n);font-weight:600;font-size:15px}
+.ibuc .ibuc-links a small{display:block;font-weight:400;color:var(--m);font-size:12.5px;margin-top:2px}
+.ibuc .ibuc-links a:hover{border-color:var(--a);text-decoration:none;box-shadow:0 3px 12px rgba(217,98,43,.12)}
+.ibuc .ibuc-ymal{border-radius:14px;padding:22px;color:#fff;margin:0 0 22px}
+.ibuc .ibuc-ymal h3{color:#fff !important;margin-bottom:6px}
+.ibuc .ibuc-ymal .ibuc-yt{font-weight:700;font-size:18px;margin:0 0 6px}
+.ibuc .ibuc-ymal p{color:#e8ecf4}
+.ibuc a.ibuc-go{display:inline-block;background:var(--g);color:#fff !important;border-radius:999px;padding:8px 20px;font-weight:700;font-size:14px}
+.ibuc a.ibuc-go:hover{text-decoration:none;filter:brightness(1.08)}
+.ibuc .ibuc-ref{background:var(--l);border:1px solid var(--b);border-radius:14px;padding:20px 22px;margin:0 0 22px}
+.ibuc .ibuc-ad{margin:6px 0 24px;text-align:center}
+.ibuc .ibuc-adl{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#98a1b0;border-top:1px dotted #c8cfdb;border-bottom:1px dotted #c8cfdb;padding:3px 0;margin-bottom:8px}
+.ibuc .ibuc-adph{border:1.5px dashed #c8cfdb;border-radius:8px;padding:30px;color:#98a1b0;font-size:13px}
+.ibuc .ibuc-status{border-radius:8px;padding:10px 14px;font-size:14px;margin:12px 0 0}
+.ibuc .ibuc-ok{background:#e7f6ee;color:#14663a}.ibuc .ibuc-warn{background:#fff4dc;color:#7a5400}.ibuc .ibuc-err{background:#fde7e7;color:#9b1c1c}
+.ibuc .ibuc-g3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.ibuc .ibuc-g4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.ibuc .ibuc-sub{font-size:13px;color:var(--m);margin:6px 0 0}
+.ibuc .ibuc-search{width:100%;height:52px;border:2px solid rgba(255,255,255,.35) !important;background:rgba(255,255,255,.96) !important;border-radius:12px !important;padding:0 16px !important;font-size:17px;color:var(--t) !important;margin-top:6px}
+.ibuc .ibuc-cat{scroll-margin-top:90px}
+.ibuc .ibuc-cath{display:flex;align-items:center;gap:12px;margin:0 0 4px}
+.ibuc .ibuc-dot{width:12px;height:12px;border-radius:50%;flex:none}
+.ibuc .ibuc-toc{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.ibuc .ibuc-stats{display:flex;gap:22px;flex-wrap:wrap;margin:4px 0 14px}
+.ibuc .ibuc-stats b{display:block;font-size:26px;color:#fff}.ibuc .ibuc-stats span{font-size:13px;color:#cfd6e4}
+.ibuc .ibuc-empty{display:none;color:var(--m);padding:10px 0}
+@media (max-width:760px){
+ .ibuc .ibuc-grid{grid-template-columns:1fr}
+ .ibuc button.ibuc-swap{position:relative;grid-column:1/-1;width:100%;border-radius:10px !important;height:38px}
+ .ibuc .ibuc-two,.ibuc .ibuc-g3,.ibuc .ibuc-g4{grid-template-columns:1fr}
+ .ibuc .ibuc-hero{padding:22px 18px}.ibuc .ibuc-hero h1{font-size:26px}
+ .ibuc .ibuc-card{padding:16px}
+ .ibuc .ibuc-res-main{font-size:18px}.ibuc .ibuc-res-main b{font-size:22px}
+}
+</style><style>
+.ibuc .ibuc-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 16px}
+.ibuc button.ibuc-tab{background:var(--l) !important;color:var(--n) !important;border:1.5px solid var(--b) !important;border-radius:999px !important;padding:8px 16px !important;font-size:14px;font-weight:700;cursor:pointer;line-height:1.2}
+.ibuc button.ibuc-tab.on{background:var(--n) !important;color:#fff !important;border-color:var(--n) !important}
+.ibuc .ibuc-out{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:16px 0 0}
+.ibuc .ibuc-o{background:var(--l);border-radius:12px;padding:12px 14px}
+.ibuc .ibuc-o span{display:block;font-size:12.5px;color:var(--m);font-weight:600}
+.ibuc .ibuc-o b{display:block;font-size:22px;color:var(--n);font-variant-numeric:tabular-nums;word-break:break-word}
+.ibuc .ibuc-o.main{background:#fff1e9}.ibuc .ibuc-o.main b{color:var(--a);font-size:26px}
+.ibuc .ibuc-steps-box{background:#fff;border:1px dashed var(--b);border-radius:10px;padding:12px 16px;margin:14px 0 0;font-size:14.5px}
+.ibuc .ibuc-steps-box ol{margin:6px 0 0;padding-left:20px}
+.ibuc table.ibuc-grid10 td,.ibuc table.ibuc-grid10 th{text-align:right;padding:6px 8px;font-size:13.5px;white-space:nowrap}
+.ibuc table.ibuc-grid10 td:first-child,.ibuc table.ibuc-grid10 th:first-child{text-align:left;font-weight:700;background:#eef2f9}
+.ibuc .ibuc-soon a,.ibuc .ibuc-soon div{opacity:1}
+.ibuc .ibuc-links div.ibuc-dis{display:block;border:1px dashed var(--b);border-radius:10px;padding:10px 14px;background:#fafbfd;color:#8a93a3;font-weight:600;font-size:15px}
+.ibuc .ibuc-links div.ibuc-dis small{display:block;font-weight:400;font-size:12.5px;margin-top:2px}
+.ibuc .ibuc-badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:middle}
+.ibuc .ibuc-badge.live{background:#e7f6ee;color:#14663a}.ibuc .ibuc-badge.soon{background:#eef1f6;color:#6b7383}
+.ibuc .ibuc-catgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.ibuc .ibuc-catcard{display:block;border-radius:14px;padding:18px;color:#fff !important;min-height:150px;position:relative}
+.ibuc a.ibuc-catcard:hover{text-decoration:none;transform:translateY(-2px);box-shadow:0 8px 22px rgba(26,35,51,.18)}
+.ibuc .ibuc-catcard h3{color:#fff !important;margin:0 0 6px;font-size:19px}
+.ibuc .ibuc-catcard p{color:#e3e8f1;font-size:14px;margin:0 0 10px}
+.ibuc .ibuc-catcard span{font-size:12.5px;font-weight:700;background:rgba(255,255,255,.16);border-radius:999px;padding:3px 10px}
+@media print{.ibs-top,.ibs-head,.ibs-foot,.ibuc-ad,.ibuc-hero,.ibuc-noprint{display:none !important}.ibuc .ibuc-card{box-shadow:none;border:0}}
+</style>
+<div class="ibuc" id="ibuc-app">
+<nav class="ibuc-crumb" aria-label="Breadcrumb"><a href="https://www.instrumentationblog.in/">Home</a> › <a href="https://www.instrumentationblog.in/calculators/">Calculators</a> › <a href="https://www.instrumentationblog.in/calculators/temperature/">Temperature Measurement</a> › Cooling Water Flow Calculator</nav>
+<header class="ibuc-hero" style="background:linear-gradient(135deg,#3b0d0d 0%,#1a2333 100%)">
+  <div class="ibuc-eye">Temperature Measurement · Free Calculator</div>
+  <h1>Cooling Water Flow Calculator</h1>
+  <p>Size the cooling water for a heat exchanger, motor or process, or work out the heat being removed from a measured flow and temperature difference.</p>
+  <div class="ibuc-pills"><span class="ibuc-pill">Heat load</span><span class="ibuc-pill">Water flow</span><span class="ibuc-pill">Temperature rise</span><span class="ibuc-pill">Q = ṁ cp ΔT</span></div>
+</header>
+<style>
+.ibuc .cx-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.ibuc .cx-row{display:flex;gap:6px}
+.ibuc .cx-row input{flex:1;min-width:0}
+.ibuc select.cx-u{width:auto !important;max-width:46%;flex:none;height:46px;border:1.5px solid var(--b) !important;border-radius:10px !important;padding:0 8px !important;background:var(--l) !important;color:var(--t) !important;font-size:14px}
+.ibuc .cx-fixu{display:flex;align-items:center;padding:0 10px;background:var(--l);border-radius:10px;font-size:14px;color:var(--m);white-space:nowrap}
+.ibuc tr.ibuc-hlr td{background:#fde9de !important;font-weight:700}
+</style><section class="ibuc-card ibuc-tool" id="cx-app">
+  <div class="ibuc-tabs"><button type="button" class="ibuc-tab on" data-m="f">Flow for a heat load</button><button type="button" class="ibuc-tab" data-m="q">Heat from flow and ΔT</button></div>
+  <div class="cx-grid"><div class="ibuc-field" id="cxw-kw" data-tab="f"><label for="cx-kw">Heat load</label><div class="cx-row"><input id="cx-kw" type="text" inputmode="decimal" autocomplete="off" value="100"><span class="cx-fixu">kW</span></div></div><div class="ibuc-field" style="display:none" id="cxw-q" data-tab="q"><label for="cx-q">Water flow</label><div class="cx-row"><input id="cx-q" type="text" inputmode="decimal" autocomplete="off" value="10"><select id="cx-q-u" class="cx-u" aria-label="Water flow unit"><option value="0.0002777777777777778" selected>m³/h</option><option value="0.000016666666666666667">L/min</option><option value="0.001">L/s</option><option value="0.0000630901964">US gpm</option><option value="0.0004719474432">CFM (ft³/min)</option><option value="0.0000018401307283333336">bbl/d</option><option value="1">m³/s</option></select></div></div><div class="ibuc-field" id="cxw-dt"><label for="cx-dt">Temperature rise of water</label><div class="cx-row"><input id="cx-dt" type="text" inputmode="decimal" autocomplete="off" value="8"><span class="cx-fixu">K</span></div></div><div class="ibuc-field" id="cxw-cp"><label for="cx-cp">Specific heat</label><div class="cx-row"><input id="cx-cp" type="text" inputmode="decimal" autocomplete="off" value="4.186"><span class="cx-fixu">kJ/(kg·K)</span></div></div><div class="ibuc-field" id="cxw-rho"><label for="cx-rho">Density</label><div class="cx-row"><input id="cx-rho" type="text" inputmode="decimal" autocomplete="off" value="995"><select id="cx-rho-u" class="cx-u" aria-label="Density unit"><option value="1" selected>kg/m³</option><option value="1000">g/cm³</option><option value="16.01846337396">lb/ft³</option><option value="1000">SG (× 1000 kg/m³)</option></select></div></div></div>
+  <div class="ibuc-status ibuc-warn" id="cx-warn" style="display:none"></div>
+  <div class="ibuc-out" id="cx-out"><div class="ibuc-o main"><span>Water flow</span><b>10.8 m³/h</b></div><div class="ibuc-o"><span>Water flow</span><b>180.1 L/min</b></div><div class="ibuc-o"><span>Mass flow</span><b>10,750 kg/h</b></div></div>
+  <div class="ibuc-steps-box" id="cx-stepsw"><b>How this result was calculated</b><ol id="cx-steps"><li>ṁ = P ÷ (cp × ΔT) = 100 ÷ (4.186 × 8) = 2.986 kg/s</li><li>Q = ṁ ÷ ρ = <b>10.8 m³/h</b></li></ol></div>
+  <div id="cx-table"></div>
+</section>
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="7215194230" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card">
+  <h2>Cooling Water Formula</h2>
+  
+  <div class="ibuc-fbox">ṁ = P ÷ (c<sub>p</sub> × ΔT) &nbsp;&nbsp; P = ṁ × c<sub>p</sub> × ΔT</div>
+  
+  <h3>Worked example</h3>
+  <p>Removing 100 kW with an 8 K water temperature rise needs 100 ÷ (4.186 × 8) = 2.99 kg/s = <b>10.8 m³/h</b>.</p>
+  <div class="ibuc-key"><b>Key insight:</b> halving the allowed temperature rise doubles the water flow. Check the return water temperature limit of your cooling tower or chiller before choosing ΔT.</div>
+  <h3>Choosing ΔT and Checking the Result</h3>
+  <p>The temperature rise is a design choice, not a property of the load. A small ΔT needs more water, larger pipes and a bigger pump, while a large ΔT saves water but raises the outlet temperature, which can cause scaling on the exchanger surface and may exceed the return limit of the cooling tower or chiller. For motors, compressors and hydraulic coolers, the equipment supplier usually states both the required flow and the maximum inlet temperature, so use their figures when they are available.</p>
+  <p>The same formula works in reverse to check a running system. Read the flow from a magnetic flowmeter or a clamp on ultrasonic meter and measure the supply and return temperatures with matched sensors. Because ΔT is often only a few kelvin, a 0.5 K error in one sensor can change the calculated heat by 10 % or more, so use a matched pair of RTDs, or swap the two sensors and average both readings.</p>
+</section>
+
+<div class="ibuc-ad"><div class="ibuc-adl">Advertisement</div><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3931314195561246" data-ad-slot="5046401284" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<section class="ibuc-card"><h2>Frequently Asked Questions</h2><details open><summary>How do I calculate cooling water flow?</summary><p>Divide the heat load by specific heat times temperature rise to get mass flow, then by density for volume flow.</p></details><details><summary>What temperature rise is typical?</summary><p>Cooling tower circuits often use 5 to 10 K; chilled water systems commonly 5 to 6 K.</p></details><details><summary>How do I measure heat removed in the field?</summary><p>Measure water flow and inlet and outlet temperatures; a BTU (energy) meter does this automatically.</p></details></section>
+<div class="ibuc-ymal" style="background:linear-gradient(135deg,#3b0d0d 0%,#1a2333 100%)"><div class="ibuc-eye">You May Also Like</div><h3>Learn more on the blog</h3><p class="ibuc-yt">Thermocouple and RTD installation precautions</p><p>A practical, field focused guide on instrumentationblog.in that explains the theory behind this calculator and how engineers apply it on real plants.</p><a class="ibuc-go" href="https://www.instrumentationblog.in/thermocouple-rtd-installation-precautions/">Read Full Article</a></div>
+<section class="ibuc-card"><h2>More Temperature Measurement Calculators</h2><div class="ibuc-links"><a href="https://www.instrumentationblog.in/calculators/temperature/thermocouple-calculator/">Thermocouple Calculator<small>mV to °C with cold junction compensation</small></a><a href="https://www.instrumentationblog.in/calculators/temperature/thermocouple-table/">Thermocouple Reference Tables<small>Types K, J, T, E, N, R, S, B</small></a><a href="https://www.instrumentationblog.in/calculators/temperature/rtd-calculator/">RTD Calculator (Pt100, Pt1000)<small>Ohms to °C, tolerance class, lead error</small></a><a href="https://www.instrumentationblog.in/calculators/temperature/pt100-table/">Pt100 and Pt1000 Resistance Tables<small>IEC 60751, −200 to 850 °C</small></a><a href="https://www.instrumentationblog.in/calculators/temperature/ntc-thermistor-calculator/">NTC Thermistor Calculator<small>Beta and Steinhart–Hart models</small></a><a href="https://www.instrumentationblog.in/calculators/temperature/temperature-transmitter-calculator/">Temperature Transmitter mA Calculator<small>°C to mA, mA to °C</small></a><a href="https://www.instrumentationblog.in/calculators/temperature/heating-power-calculator/">Heating Power Calculator<small>Heater sizing, Heat up time</small></a><a href="https://www.instrumentationblog.in/calculators/temperature/thermal-expansion-calculator/">Linear Thermal Expansion Calculator<small>ΔL = α L ΔT, Steel and stainless</small></a><a href="https://www.instrumentationblog.in/calculators/temperature/dew-point-calculator/">Dew Point Calculator<small>Magnus formula, Relative humidity</small></a><a href="https://www.instrumentationblog.in/calculators/temperature/winding-temperature-rise-calculator/">Winding Temperature Rise Calculator<small>Resistance method, Copper and aluminium</small></a><a href="https://www.instrumentationblog.in/calculators/temperature/sensor-response-time-calculator/">Temperature Sensor Response Time Calculator<small>Time constant τ, T63 and T90</small></a><a href="https://www.instrumentationblog.in/calculators/temperature/pyrometer-emissivity-calculator/">Pyrometer Emissivity Correction Calculator<small>Emissivity, Infrared thermometer</small></a><a href="https://www.instrumentationblog.in/calculators/temperature/lmtd-calculator/">LMTD Heat Exchanger Calculator<small>Counter flow, Parallel flow</small></a><a href="https://www.instrumentationblog.in/calculators/temperature/rtd-self-heating-calculator/">RTD Self Heating Error Calculator<small>Pt100 and Pt1000, Excitation current</small></a><a href="https://www.instrumentationblog.in/calculators/temperature/rtd-thermocouple-tolerance-calculator/">RTD and Thermocouple Tolerance Class Calculator<small>IEC 60751, IEC 60584-1</small></a><a href="https://www.instrumentationblog.in/calculators/temperature/pipe-heat-loss-calculator/">Insulated Pipe Heat Loss Calculator<small>Heat loss W/m, Insulation thickness</small></a><a href="https://www.instrumentationblog.in/calculators/temperature/radiation-heat-loss-calculator/">Radiation Heat Loss Calculator (Stefan Boltzmann)<small>Stefan Boltzmann, Emissivity</small></a><a href="https://www.instrumentationblog.in/calculators/temperature/newton-cooling-time-calculator/">Cooling Time Calculator (Newton’s Law of Cooling)<small>Newton cooling, Time constant</small></a><a href="https://www.instrumentationblog.in/calculators/temperature/mixing-temperature-calculator/">Mixing Temperature Calculator<small>Energy balance, Two streams</small></a><a href="https://www.instrumentationblog.in/calculators/temperature/heat-exchanger-ntu-calculator/">Heat Exchanger Effectiveness NTU Calculator<small>ε NTU method, Counterflow</small></a><a href="https://www.instrumentationblog.in/calculators/temperature/wet-dry-bulb-humidity-calculator/">Wet and Dry Bulb Relative Humidity Calculator<small>Psychrometer, Relative humidity</small></a><a href="https://www.instrumentationblog.in/calculators/temperature/tank-heating-time-calculator/">Tank Heating Time Calculator<small>Heat up time, Heater power</small></a><a href="https://www.instrumentationblog.in/calculators/temperature/wall-heat-conduction-calculator/">Wall Heat Conduction Calculator (Multi Layer)<small>Fourier law, U value</small></a><a href="https://www.instrumentationblog.in/calculators/temperature/insulation-thickness-calculator/">Pipe Insulation Thickness Calculator<small>Personnel protection, Heat loss limit</small></a><a href="https://www.instrumentationblog.in/calculators/temperature/water-density-temperature-calculator/">Water Density vs Temperature Calculator<small>Kell equation, 0 to 150 °C</small></a><a href="https://www.instrumentationblog.in/unit-converters/temperature-converter/">Temperature Unit Converter<small>°C, °F, K, °R</small></a></div></section>
+<section class="ibuc-ref"><h2>More Calculator Categories</h2><div class="ibuc-links"><a href="https://www.instrumentationblog.in/calculators/instrumentation-signal/">Instrumentation Signal<small>7 live tools</small></a><a href="https://www.instrumentationblog.in/calculators/plc-signal/">PLC Digital Signal<small>6 live tools</small></a><a href="https://www.instrumentationblog.in/calculators/flow/">Flow Measurement<small>30 live tools</small></a><a href="https://www.instrumentationblog.in/calculators/level/">Level Measurement<small>24 live tools</small></a><a href="https://www.instrumentationblog.in/calculators/pressure/">Pressure Measurement<small>24 live tools</small></a><a href="https://www.instrumentationblog.in/calculators/control-valve/">Control Valve<small>11 live tools</small></a><a href="https://www.instrumentationblog.in/calculators/calibration/">Calibration<small>10 live tools</small></a><a href="https://www.instrumentationblog.in/calculators/safety/">Safety and SIL<small>10 live tools</small></a><a href="https://www.instrumentationblog.in/calculators/analytical/">Analytical<small>12 live tools</small></a><a href="https://www.instrumentationblog.in/calculators/electrical/">Electrical<small>37 live tools</small></a><a href="https://www.instrumentationblog.in/calculators/electronics/">Electronics<small>35 live tools</small></a><a href="https://www.instrumentationblog.in/unit-converters/">Unit Converters<small>76 converters, 700+ units</small></a></div></section>
+</div>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.instrumentationblog.in/"},{"@type":"ListItem","position":2,"name":"Calculators","item":"https://www.instrumentationblog.in/calculators/"},{"@type":"ListItem","position":3,"name":"Temperature Measurement","item":"https://www.instrumentationblog.in/calculators/temperature/"},{"@type":"ListItem","position":4,"name":"Cooling Water Flow Calculator","item":"https://www.instrumentationblog.in/calculators/temperature/cooling-water-flow-calculator/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I calculate cooling water flow?","acceptedAnswer":{"@type":"Answer","text":"Divide the heat load by specific heat times temperature rise to get mass flow, then by density for volume flow."}},{"@type":"Question","name":"What temperature rise is typical?","acceptedAnswer":{"@type":"Answer","text":"Cooling tower circuits often use 5 to 10 K; chilled water systems commonly 5 to 6 K."}},{"@type":"Question","name":"How do I measure heat removed in the field?","acceptedAnswer":{"@type":"Answer","text":"Measure water flow and inlet and outlet temperatures; a BTU (energy) meter does this automatically."}}]},{"@type":"WebApplication","name":"Cooling Water Flow Calculator","url":"https://www.instrumentationblog.in/calculators/temperature/cooling-water-flow-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"INR"}}]}</script>
+<script>
+function fmtS(v, s){
+  if (!isFinite(v)) return 'n/a';
+  if (v === 0) return '0';
+  s = s || 5;
+  var a = Math.abs(v);
+  if (a >= 1e9 || a < 1e-4) return v.toExponential(s - 1).replace(/-/g, '−').replace('e', ' × 10^').replace('+', '');
+  var r = Number(v.toPrecision(s));
+  return (r < 0 ? '−' : '') + Math.abs(r).toLocaleString('en-US', { maximumFractionDigits: 10 });
+}
+function fmtF(v, d){
+  if (!isFinite(v)) return 'n/a';
+  var s = Math.abs(v).toLocaleString('en-US', { minimumFractionDigits: d, maximumFractionDigits: d });
+  return (v < 0 && Number(s.replace(/,/g, '')) !== 0 ? '−' : '') + s;
+}
+function cxRender(r){
+  var out = (r.out || []).map(function(o){ return '<div class="ibuc-o' + (o[2] ? ' main' : '') + '"><span>' + o[0] + '</span><b>' + o[1] + '</b>' + (o[3] ? '<span style="font-weight:400;margin-top:4px">' + o[3] + '</span>' : '') + '</div>'; }).join('');
+  var steps = (r.steps || []).map(function(s){ return '<li>' + s + '</li>'; }).join('');
+  var table = '';
+  if (r.table){
+    table = '<h3 style="margin-top:18px">' + r.table.title + '</h3><div class="ibuc-tw"><table class="ibuc-t"><thead><tr>' + r.table.head.map(function(h){ return '<th>' + h + '</th>'; }).join('') + '</tr></thead><tbody>' +
+      r.table.rows.map(function(row){ return '<tr' + (row.hl ? ' class="ibuc-hlr"' : '') + '>' + row.map(function(c){ return '<td class="ibuc-num">' + c + '</td>'; }).join('') + '</tr>'; }).join('') + '</tbody></table></div>';
+  }
+  var cls = r.level === 'err' ? 'ibuc-err' : r.level === 'ok' ? 'ibuc-ok' : 'ibuc-warn';
+  return { out: out, steps: steps, table: table, warn: r.warn || '', cls: 'ibuc-status ' + cls };
+}
+
+var CX_COMPUTE = function (v, m) { if (m === 'f') { var mf = v.kw / (v.cp * v.dt), q = mf / v.rho; return { out: [['Water flow', fmtS(q * 3600, 4) + ' m³/h', true], ['Water flow', fmtS(q * 60000, 4) + ' L/min'], ['Mass flow', fmtS(mf * 3600, 5) + ' kg/h']], steps: ['ṁ = P ÷ (cp × ΔT) = ' + fmtS(v.kw) + ' ÷ (' + fmtS(v.cp) + ' × ' + fmtS(v.dt) + ') = ' + fmtS(mf, 4) + ' kg/s', 'Q = ṁ ÷ ρ = <b>' + fmtS(q * 3600, 4) + ' m³/h</b>'] }; }
+    var P = v.q * v.rho * v.cp * v.dt; return { out: [['Heat removed', fmtS(P, 4) + ' kW', true], ['Heat removed', fmtS(P / 3.51685, 4) + ' TR'], ['Heat removed', fmtS(P * 3412.14, 5) + ' BTU/h']], steps: ['P = Q × ρ × cp × ΔT = <b>' + fmtS(P, 4) + ' kW</b>'] }; };
+(function(){
+  var D = {"tabs":[["f","Flow for a heat load"],["q","Heat from flow and ΔT"]],"inputs":[{"id":"kw","type":"num","tab":"f","units":false},{"id":"q","type":"num","tab":"q","units":true},{"id":"dt","type":"num","tab":"","units":false},{"id":"cp","type":"num","tab":"","units":false},{"id":"rho","type":"num","tab":"","units":true}]}, mode = D.tabs ? D.tabs[0][0] : '';
+  function $(id){ return document.getElementById(id); }
+  if (!$('cx-app')) return;
+  function val(){
+    var v = {};
+    D.inputs.forEach(function(i){
+      var el = $('cx-' + i.id);
+      if (i.type === 'select' || i.type === 'text'){ v[i.id] = el.value; return; }
+      var s = String(el.value).replace(/[,\s]/g, '').replace(/\u2212/g, '-'), x = s === '' ? NaN : Number(s);
+      el.classList.toggle('ibuc-bad', el.value !== '' && !isFinite(x));
+      if (i.units){ var u = $('cx-' + i.id + '-u'); x *= Number(u.value); v[i.id + '_u'] = u.options[u.selectedIndex].text; v[i.id + '_f'] = Number(u.value); }
+      v[i.id] = x;
+    });
+    return v;
+  }
+  function run(){
+    D.inputs.forEach(function(i){ if (i.tab) $('cxw-' + i.id).style.display = i.tab.split(' ').indexOf(mode) > -1 ? '' : 'none'; });
+    var r; try { r = cxRender(CX_COMPUTE(val(), mode)); } catch(e){ r = { out:'', steps:'', table:'', warn:'Please check the input values.', cls:'ibuc-status ibuc-warn' }; }
+    $('cx-out').innerHTML = r.out; $('cx-steps').innerHTML = r.steps; $('cx-stepsw').style.display = r.steps ? '' : 'none';
+    $('cx-table').innerHTML = r.table; var w = $('cx-warn'); w.innerHTML = r.warn; w.className = r.cls; w.style.display = r.warn ? '' : 'none';
+  }
+  document.querySelectorAll('#cx-app input, #cx-app select').forEach(function(el){ el.addEventListener('input', run); el.addEventListener('change', run); });
+  document.querySelectorAll('#cx-app .ibuc-tab').forEach(function(b){ b.addEventListener('click', function(){ mode = b.getAttribute('data-m'); document.querySelectorAll('#cx-app .ibuc-tab').forEach(function(x){ x.classList.toggle('on', x === b); }); run(); }); });
+  run();
+})();
+</script></main>
+<footer class="ibs-foot"><div class="ibs-in"><span>© 2026 instrumentationblog.in · Free tools for instrumentation and control engineers</span><span><a href="https://www.instrumentationblog.in/">Home</a> · <a href="https://www.instrumentationblog.in/calculators/">Calculators</a> · <a href="https://www.instrumentationblog.in/unit-converters/">Unit Converters</a> · <a href="https://www.instrumentationblog.in/tools/">Tools</a> · <a href="https://www.instrumentationblog.in/downloads/">Downloads</a></span></div></footer><script src="/assets/ib-footer.js" defer></script><script src="/assets/ib-sidebar-loader.js?v=1" defer></script>
+<script src="/assets/ib-header.js" defer></script></body>
+</html>
