@@ -17,3 +17,8 @@ WordPress pages: WPCode > Header & Footer uses the same logic with
 - `ga_rewrite.py` converts the old snippet to this one (python3 _ga/ga_rewrite.py <folder>).
 - `.github/workflows/ga-tag.yml` downloads static sections over FTP, backs them up, rewrites, uploads (dry=yes first).
 - `.github/workflows/static-inventory.yml` lists public_html folders and html counts (read only).
+
+## Microsoft Clarity (from 26 Nov 2026)
+
+Static pages also carry Clarity (project u4fdvm7fxj) right after the GA4 snippet, with the same Singapore/bot skip.
+`clarity_add.py` inserts it; `.github/workflows/clarity-add.yml` applies it to the live static sections.
