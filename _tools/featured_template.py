@@ -101,11 +101,11 @@ HUB_OF = {
 }
 
 POSTS = [
-    ('led-vs-ldr-difference', 'LED vs LDR', 'Difference, Comparison Table & Circuit', 'Electronic Components', ['Emits light', 'Senses light', 'Night lamp'], 'diode', None),
-    ('types-of-rom-prom-eprom-eeprom', 'Types of ROM', 'PROM, EPROM, EEPROM Table & Calculator', 'Digital Electronics', ['Mask ROM', 'EEPROM', 'Flash'], 'binary', None),
-    ('transistor-operating-regions-cutoff-saturation', 'Transistor Operating Regions', 'Load Line Chart & Calculator', 'Analog Electronics', ['Cutoff', 'Active', 'Saturation'], 'transistor', None),
-    ('vibration-analysis-questions-and-answers', 'Vibration Analysis Q&A', 'Calculator & Chart', 'Electronic Sensors', ['ISO zones', 'FFT', 'Fault frequencies'], 'vibration', None),
-    ('aa-vs-aaa-battery-size-voltage-capacity', 'AA vs AAA Battery', 'Size, Voltage & mAh Comparison Table', 'Electronics Fundamentals', ['Size in mm', '1.5 V', 'mAh'], 'battery', None),
+    ('pcb-thermal-relief-pad-design', 'PCB Thermal Relief', 'Spoke Current Calculator & Table', 'PCB Design & Signal Integrity', ['Spoke width', 'Air gap', 'Current'], 'pcb', None),
+    ('scr-triggering-methods-gate-triggering', 'SCR Triggering Methods', 'Gate Resistor Calculator & Diagram', 'Power Electronics & Protection', ['Gate pulse', 'RC firing', 'UJT'], 'power', None),
+    ('logic-gates-in-plc-ladder-logic', 'Logic Gates in PLC Ladder Logic', 'Truth Table & Diagram', 'PLC', ['AND / OR', 'NAND / NOR', 'XOR'], 'ladder', None),
+    ('opc-quality-codes-scada', 'OPC Quality Codes', 'Decoder Calculator & Table', 'SCADA', ['192 Good', '0 Bad', '64 Uncertain'], 'scada', None),
+    ('dcs-controller-loading-calculation', 'DCS Controller Loading', 'Formula & Calculator', 'DCS', ['CPU load', 'Memory', 'Spare capacity'], 'dcs', None),
 ]
 
 if __name__ == '__main__':
