@@ -1,0 +1,11 @@
+name: Discover readiness check
+on: workflow_dispatch
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - env:
+          U: ${{ secrets.WP_USER }}
+          P: ${{ secrets.WP_APP_PASSWORD }}
+        run: python3 _patch/discover_check.py
