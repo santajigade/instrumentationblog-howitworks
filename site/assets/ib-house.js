@@ -24,13 +24,13 @@
   var css = '.ibh-house{display:block !important}' +
     '.whc-ad.ibh-house:has(ins[data-ad-status="unfilled"]),.ibuc-ad.ibh-house:has(ins[data-ad-status="unfilled"]),.ibsx-ad.ibh-house:has(ins[data-ad-status="unfilled"]),.ibsb-ad.ibh-house:has(ins[data-ad-status="unfilled"]){display:block !important}' +
     '.ibh-house ins.adsbygoogle{display:none !important}' +
-    '.ibh-card{display:flex;gap:16px;align-items:center;max-width:620px;margin:6px auto 0;padding:14px 16px;background:#f6f8fc;border:1px solid #dde3ee;border-radius:14px;text-align:left;font-family:"Segoe UI",Arial,sans-serif;text-decoration:none !important;color:#1f2733 !important;transition:box-shadow .15s,transform .15s}' +
+    '.ibh-card{display:flex !important;flex-direction:row !important;gap:16px;align-items:center;max-width:620px;margin:6px auto 0;padding:14px 16px;background:#f6f8fc;border:1px solid #dde3ee;border-radius:14px;text-align:left;font-family:"Segoe UI",Arial,sans-serif;text-decoration:none !important;color:#1f2733 !important;transition:box-shadow .15s,transform .15s}' +
     '.ibh-card:hover{box-shadow:0 8px 22px rgba(11,37,64,.12);transform:translateY(-2px)}' +
     '.ibh-card img{width:72px;height:auto;flex:none;border-radius:4px;box-shadow:0 6px 14px rgba(0,0,0,.25);margin:0 !important}' +
-    '.ibh-txt{display:flex;flex-direction:column;gap:4px;min-width:0}.ibh-tag{font-size:12px;font-weight:700;color:#0077c0;text-transform:uppercase;letter-spacing:.05em}' +
+    '.ibh-txt{display:flex !important;flex-direction:column;gap:4px;min-width:0;text-align:left}.ibh-tag{font-size:12px;font-weight:700;color:#0077c0;text-transform:uppercase;letter-spacing:.05em}' +
     '.ibh-t{font-size:17px;font-weight:800;line-height:1.3;color:#0b2540}.ibh-row{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:4px}' +
     '.ibh-p{font-weight:800;color:#1f9d55}.ibh-btn{display:inline-block;background:#ffed00;color:#0b2540;font-weight:800;font-size:14px;padding:7px 14px;border-radius:8px}' +
-    '.ibsx .ibh-card,.ibsb .ibh-card{flex-direction:column;text-align:center}.ibsx .ibh-card img,.ibsb .ibh-card img{width:110px}.ibsx .ibh-row,.ibsb .ibh-row{justify-content:center}';
+    '.ibsx .ibh-card,.ibsb .ibh-card{flex-direction:column !important;text-align:center}.ibsx .ibh-txt,.ibsb .ibh-txt{text-align:center;align-items:center}.ibsx .ibh-card img,.ibsb .ibh-card img{width:110px}.ibsx .ibh-row,.ibsb .ibh-row{justify-content:center}';
   var st = document.createElement('style'); st.id = 'ibh-css'; st.textContent = css; document.head.appendChild(st);
   function box(ins) { return ins.closest('.whc-ad,.ibuc-ad,.ibsx-ad,.ibsb-ad'); }
   function fill(ins) {
