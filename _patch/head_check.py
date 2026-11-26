@@ -1,9 +1,5 @@
-import json, os, base64, urllib.request, re
-AUTH='Basic '+base64.b64encode(f"{os.environ['U']}:{os.environ['P']}".encode()).decode()
-rq=urllib.request.Request('https://www.instrumentationblog.in/wp-json/wp/v2/pages/1283', data=json.dumps({'status':'draft'}).encode(), method='POST', headers={'Authorization':AUTH,'User-Agent':'ib-patch/1.0','Content-Type':'application/json'})
-d=json.loads(urllib.request.urlopen(rq,timeout=60).read()); print('PAGE', d['id'], d['slug'], d['status'])
-class NR(urllib.request.HTTPRedirectHandler):
-    def redirect_request(self,*a,**k): return None
-op=urllib.request.build_opener(NR)
-try: op.open(urllib.request.Request('https://www.instrumentationblog.in/home-03/',headers={'User-Agent':'Mozilla/5.0 ib-patch'}),timeout=60); print('NO REDIRECT')
-except urllib.error.HTTPError as e: print('REDIRECT', e.code, e.headers.get('location'))
+import re, urllib.request
+h=urllib.request.urlopen(urllib.request.Request('https://www.instrumentationblog.in/pressure-to-head-conversion/?nocache=1',headers={'User-Agent':'Mozilla/5.0 ib-patch'}),timeout=60).read().decode('utf8','ignore')
+i=h.find("Asia/Singapore"); s=h.rfind('<script',0,i); e=h.find('</script>',i)+9
+print('BEGIN'); print(h[s:e]); print('END')
+print('COUNT_GA_CONFIG', h.count("G-R3NLR1WRYC"), 'clarity', h.count('u4fdvm7fxj'), 'adsense', h.count('ca-pub-3931314195561246'))
