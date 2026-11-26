@@ -62,6 +62,7 @@ def main():
             if not img.exists(): e.append("diagram image missing (run snap.js + webp.py)")
         if len(re.findall(r'data-ad-slot="(7215194230|6552849252|7839764783|5046401284)"', s)) < 3 or "ca-pub-3931314195561246" not in s: e.append("AdSense")
         if "G-R3NLR1WRYC" not in s: e.append("GA4")
+        if "/assets/ib-ok.js" not in s or "__ibQ" not in s: e.append("GA4 gate (ib-ok.js)")
         v = V(); v.feed(s); vis = " ".join(v.t)
         hy = re.findall(r".{0,18}[-‐-―].{0,18}", vis)
         if hy: e.append("dash in visible text: " + " | ".join(hy[:3]))

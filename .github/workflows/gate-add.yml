@@ -1,0 +1,53 @@
+name: Static sections GA4 gate (ib-ok.js)
+# Downloads the static sections over FTPS, backs up the originals, rewrites the analytics snippets:
+# gates GA4 and Clarity on /assets/ib-ok.js (blocked bots never load it), uploads only changed pages.
+
+on:
+  workflow_dispatch:
+    inputs:
+      dirs:
+        default: "calculators tools downloads glossary compare unit-converters"
+      dry:
+        default: "yes"
+
+concurrency:
+  group: ga-tag
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+      - name: Download, back up, rewrite, upload
+        env:
+          H: ${{ secrets.FTP_SERVER }}
+          U: ${{ secrets.FTP_USERNAME }}
+          P: ${{ secrets.FTP_PASSWORD }}
+          D: ${{ secrets.FTP_SERVER_DIR }}
+        run: |
+          S="set ftp:ssl-force true; set ftp:ssl-protect-data true; set ssl:verify-certificate no; set net:max-retries 3"
+          echo "TOP LEVEL FOLDERS:"; lftp -u "$U","$P" "$H" -e "$S; cls -1 --sort=name ${D%/}/; bye" | grep '/$' || true
+          mkdir -p static
+          for d in ${{ inputs.dirs }}; do
+            lftp -u "$U","$P" "$H" -e "$S; mirror --parallel=4 -I '*.html' ${D%/}/$d static/$d; bye" || echo "MISSING $d"
+          done
+          echo "HTML $(find static -name '*.html' | wc -l)  GATED $(grep -rl __ibQ static | wc -l)"
+          for d in ${{ inputs.dirs }}; do echo "  $d: $(find static/$d -name '*.html' 2>/dev/null | wc -l) pages"; done
+          tar czf backup-static-gate.tgz static
+          python3 _ga/gate_add.py static
+          if [ "${{ inputs.dry }}" = "no" ]; then
+            : > up.lftp; echo "$S" >> up.lftp; echo "open -u \"$U\",\"$P\" \"$H\"" >> up.lftp
+            while read f; do [ -z "$f" ] && continue; r=${f#static/}; echo "put -O ${D%/}/$(dirname "$r") $f" >> up.lftp; done < changed.txt
+            echo bye >> up.lftp
+            lftp -f up.lftp && echo "UPLOADED $(wc -l < changed.txt)"
+          else
+            echo "DRY RUN: nothing uploaded ($(grep -c . changed.txt) pages would change)"
+          fi
+      - name: Keep backup of original pages
+        uses: actions/upload-artifact@v4
+        with:
+          name: backup-static-gate-${{ github.run_number }}
+          path: backup-static-gate.tgz
+          retention-days: 30

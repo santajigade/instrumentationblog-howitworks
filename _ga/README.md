@@ -22,3 +22,10 @@ WordPress pages: WPCode > Header & Footer uses the same logic with
 
 Static pages also carry Clarity (project u4fdvm7fxj) right after the GA4 snippet, with the same Singapore/bot skip.
 `clarity_add.py` inserts it; `.github/workflows/clarity-add.yml` applies it to the live static sections.
+
+## GA4 and Clarity gate (26 Nov 2026)
+Bots from cloud servers load the page through one address but their asset and GA4 requests come from blocked
+Singapore servers, so GA4 still counted them. GA4 and Clarity now wait for the first-party file `/assets/ib-ok.js`
+(source: `site/assets/ib-ok.js`). Cloudflare blocks that request for those bots, so they never fire analytics.
+Static pages: `_ga/gate_add.py` (workflow "Static sections GA4 gate"). Templates in `_src` already use the gated snippet,
+and `_src/check.py` fails a page without it. WordPress: same pattern in WPCode Header & Footer.
