@@ -1,0 +1,21 @@
+name: Page check
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        required: true
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/130 Safari/537.36" "${{ inputs.url }}?nc=$RANDOM" -o p.html; wc -c p.html
+          echo "--- ins tags"; grep -o '<ins class="adsbygoogle"[^>]*>' p.html | grep -o 'data-ad-slot="[0-9]*"\|autorelaxed' | uniq -c
+          echo "--- sidebar"; grep -o 'ibsb[a-z-]*' p.html | sort | uniq -c
+          echo "--- house/unfilled"; grep -o 'ib-house[^"]*\|ibh-js\|unfilled[^}]*}' p.html | head
+          echo "--- widgets"; grep -o 'id="custom_html-[0-9]*"' p.html
+          python3 - <<'P'
+import re;s=open('p.html').read()
+for m in re.finditer(r'id="custom_html-(\d+)"',s):
+  seg=s[m.start():m.start()+1500]; print(m.group(1), re.findall(r'data-ad-slot="(\d+)"',seg), 'ibsb-ad' in seg)
+P
