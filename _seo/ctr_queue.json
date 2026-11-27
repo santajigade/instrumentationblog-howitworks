@@ -1976,7 +1976,7 @@
 "ctr": 0.2,
 "pos": 9.6,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "boiler-drum-level-control",
@@ -1985,7 +1985,7 @@
 "ctr": 1.1,
 "pos": 6.7,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "hydrostatic-pressure-formula",
@@ -1994,7 +1994,7 @@
 "ctr": 0.2,
 "pos": 6.7,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "types-of-thermowells",
@@ -2003,7 +2003,7 @@
 "ctr": 0.6,
 "pos": 8.5,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "signal-to-noise-ratio-snr-calculator",
@@ -2012,7 +2012,7 @@
 "ctr": 0.8,
 "pos": 5.9,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "static-pressure-vs-differential-pressure",
@@ -2021,7 +2021,7 @@
 "ctr": 1.4,
 "pos": 4.1,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "spring-loaded-rtd-thermowell",
@@ -2030,7 +2030,7 @@
 "ctr": 0.6,
 "pos": 7.7,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "ph-meter-calibration-buffers",
@@ -2039,7 +2039,7 @@
 "ctr": 0.4,
 "pos": 8.9,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "74hc595-shift-register",
@@ -2048,7 +2048,7 @@
 "ctr": 0.4,
 "pos": 7.3,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "magnetic-flow-meter-troubleshooting",
@@ -2057,7 +2057,7 @@
 "ctr": 0.4,
 "pos": 5.3,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "dcs-function-block-programming-explained",
@@ -2066,7 +2066,7 @@
 "ctr": 1.1,
 "pos": 5.7,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "flow-nozzle-vs-orifice-plate-vs-venturi",
@@ -2075,7 +2075,7 @@
 "ctr": 1.1,
 "pos": 4.8,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "fuse-selection-guide",
@@ -2084,7 +2084,7 @@
 "ctr": 0.5,
 "pos": 8.0,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "flow-nozzle-working-principle",
@@ -2093,7 +2093,7 @@
 "ctr": 0.5,
 "pos": 5.3,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "rc-and-rl-time-constant-explained",
@@ -2102,7 +2102,7 @@
 "ctr": 0.5,
 "pos": 6.7,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "ultrasonic-flow-meter-troubleshooting",
@@ -2111,7 +2111,7 @@
 "ctr": 1.4,
 "pos": 6.0,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "servo-level-gauge-working-principle",
@@ -2120,7 +2120,7 @@
 "ctr": 0.8,
 "pos": 5.2,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "communication-protocols-in-dcs-systems",
@@ -2129,7 +2129,7 @@
 "ctr": 1.3,
 "pos": 4.9,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "plc-math-instructions",
@@ -2138,7 +2138,7 @@
 "ctr": 1.1,
 "pos": 5.3,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "directional-overcurrent-relay-67",
@@ -2147,7 +2147,7 @@
 "ctr": 1.3,
 "pos": 9.6,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "under-frequency-load-shedding-ufls",
@@ -2156,7 +2156,7 @@
 "ctr": 1.4,
 "pos": 5.1,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "types-of-integrated-circuits-explained",
@@ -2165,7 +2165,7 @@
 "ctr": 0.6,
 "pos": 8.4,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "magmeter-empty-pipe-detection",
@@ -2174,7 +2174,7 @@
 "ctr": 0.6,
 "pos": 4.9,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "npsh-and-cavitation-explained",
@@ -2183,7 +2183,7 @@
 "ctr": 0.9,
 "pos": 4.2,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "float-level-switch-working-principle-and-applications",
@@ -2192,7 +2192,7 @@
 "ctr": 0.3,
 "pos": 9.5,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "schottky-diode-advantages-limitations",
@@ -2201,7 +2201,7 @@
 "ctr": 0.3,
 "pos": 7.6,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "actual-flow-standard-flow-normal-flow",
@@ -2210,7 +2210,7 @@
 "ctr": 0.6,
 "pos": 6.0,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "lenzs-law-electromagnetic-induction",
@@ -2219,7 +2219,7 @@
 "ctr": 0.6,
 "pos": 6.9,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "dcs-control-modes-manual-auto-cascade",
@@ -2228,7 +2228,7 @@
 "ctr": 1.0,
 "pos": 4.8,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "scada-reporting-historian-reports",
@@ -2237,7 +2237,7 @@
 "ctr": 1.0,
 "pos": 9.0,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "restricted-earth-fault-protection-ref",
@@ -2246,7 +2246,7 @@
 "ctr": 0.6,
 "pos": 6.4,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "emergency-stop-push-buttons",
@@ -2255,7 +2255,7 @@
 "ctr": 1.0,
 "pos": 8.9,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "flow-meter-k-factor-calculations",
@@ -2264,7 +2264,7 @@
 "ctr": 0.6,
 "pos": 6.1,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "ferrite-bead-vs-common-mode-choke-when-to-use-which",
@@ -2273,6 +2273,6 @@
 "ctr": 1.3,
 "pos": 7.3,
 "queries": [],
-"status": "todo"
+"status": "done"
 }
 ]
