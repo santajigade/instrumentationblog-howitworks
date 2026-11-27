@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: php -l _mu/ib-home-ad-units.php && php -l _mu/ib-ebook-sidebar.php && php -l _mu/ib-ad-unfilled.php && php -l _mu/ib-house.php && php -l _mu/ib-ebook-sidebar.php && sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+      - run: php -l _mu/ib-home-ad-units.php && php -l _mu/ib-ebook-sidebar.php && php -l _mu/ib-ad-unfilled.php && php -l _mu/ib-ebook-sidebar.php && sudo apt-get update -qq && sudo apt-get install -y -qq lftp
       - env:
           H: ${{ secrets.FTP_SERVER }}
           U: ${{ secrets.FTP_USERNAME }}
@@ -16,7 +16,7 @@ jobs:
           D: ${{ secrets.FTP_SERVER_DIR }}
         run: |
           S="set ftp:ssl-force true; set ftp:ssl-protect-data true; set ssl:verify-certificate no"
-          lftp -u "$U","$P" "$H" -e "$S; mkdir -p ${D%/}/wp-content/mu-plugins; put -O ${D%/}/wp-content/mu-plugins _mu/ib-home-ad-units.php; put -O ${D%/}/wp-content/mu-plugins _mu/ib-ebook-sidebar.php; put -O ${D%/}/wp-content/mu-plugins _mu/ib-ad-unfilled.php; put -O ${D%/}/wp-content/mu-plugins _mu/ib-house.php; cls -l ${D%/}/wp-content/mu-plugins; bye"
+          lftp -u "$U","$P" "$H" -e "$S; mkdir -p ${D%/}/wp-content/mu-plugins; put -O ${D%/}/wp-content/mu-plugins _mu/ib-home-ad-units.php; put -O ${D%/}/wp-content/mu-plugins _mu/ib-ebook-sidebar.php; put -O ${D%/}/wp-content/mu-plugins _mu/ib-ad-unfilled.php; rm -f ${D%/}/wp-content/mu-plugins/ib-house.php; cls -l ${D%/}/wp-content/mu-plugins; bye"
       - env:
           WU: ${{ secrets.WP_USER }}
           WP: ${{ secrets.WP_APP_PASSWORD }}

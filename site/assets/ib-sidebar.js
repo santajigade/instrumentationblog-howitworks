@@ -49,5 +49,5 @@ else{[].forEach.call(aside.querySelectorAll('.ibsx-ad'),function(n){n.parentNode
 try{fetch(SITE+'/wp-json/wp/v2/posts?per_page=5&_fields=link,title,date').then(function(r){return r.json();}).then(function(p){var o='';p.forEach(function(x){var d=new Date(x.date);o+='<a class="ibsx-line" href="'+x.link+'">'+x.title.rendered+'<small>'+d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})+'</small></a>';});aside.querySelector('.ibsx-ll').innerHTML=o;}).catch(function(){var l=aside.querySelector('.ibsx-latest');l&&l.parentNode.removeChild(l);});}catch(e){}
 
 /* house promo for unfilled ad boxes */
-try{if(!document.getElementById('ibh-js')){var hs=document.createElement('script');hs.id='ibh-js';var hd=new Date();hs.src='/assets/ib-house.js?h='+hd.getUTCFullYear()+(hd.getUTCMonth()+1)+hd.getUTCDate()+hd.getUTCHours();document.head.appendChild(hs);}}catch(e){}
+
 })();
