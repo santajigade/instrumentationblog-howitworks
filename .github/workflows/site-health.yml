@@ -1,0 +1,21 @@
+name: Site health
+on: workflow_dispatch
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          B=https://www.instrumentationblog.in
+          for ua in "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130 Safari/537.36" "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 Chrome/130 Mobile Safari/537.36" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"; do
+            echo "== UA: ${ua:0:45}"
+            for p in / /types-of-flow-meters/ /4-to-20-ma-current-loop-explained/ /category/process-instrumentation/flow-measurement/ /calculators/ /glossary/ /how-it-works/ /sitemap_index.xml /robots.txt; do
+              curl -s -o /tmp/b -w "%{http_code} %{time_total}s %{size_download}B  $p\n" -A "$ua" "$B$p"
+            done
+          done
+          echo "== robots.txt"; curl -s $B/robots.txt
+          echo "== headers post"; curl -sI -A "Mozilla/5.0 (compatible; Googlebot/2.1)" $B/types-of-flow-meters/ | grep -i "x-robots\|cf-\|server\|cache\|location\|^HTTP"
+          echo "== meta robots"; for p in / /types-of-flow-meters/ /category/process-instrumentation/flow-measurement/; do curl -s -A "Mozilla/5.0 (compatible; Googlebot/2.1)" $B$p | grep -io '<meta name="robots"[^>]*>' ; done
+          echo "== canonical"; curl -s $B/types-of-flow-meters/ | grep -io '<link rel="canonical"[^>]*>'
+          echo "== http->https, non-www"; curl -sI http://instrumentationblog.in/ | grep -i "^HTTP\|location"
+          echo "== php errors"; curl -s $B/types-of-flow-meters/ | grep -io "fatal error\|warning</b>\|critical error" | head
+          echo "== sitemap"; curl -s $B/sitemap_index.xml | head -c 600
