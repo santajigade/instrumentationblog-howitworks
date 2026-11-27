@@ -1,0 +1,24 @@
+{
+ "id": 17369,
+ "slug": "dp-flow-transmitter-calibration-5-point",
+ "impr": 771,
+ "ctr": 0.6,
+ "pos": 4.3,
+ "queries": [],
+ "title": "DP Flow Transmitter Calibration: 5-Point Procedure",
+ "rank_math_title": "DP Flow Transmitter Calibration: 5-Point Procedure",
+ "rank_math_description": "DP flow transmitter calibration: 5-point procedure, square root vs linear mode, expected mA values, as-found/as-left records and an error calculator.",
+ "focus_keyword": "DP flow transmitter",
+ "headings": [
+  "DP Flow Transmitter: What You Are Actually Calibrating",
+  "Before You Start: Calibration Equipment and Checks",
+  "5-Point DP Flow Transmitter Calibration Procedure",
+  "Expected mA at Each Calibration Point",
+  "5-Point Error Calculator",
+  "Watch: How to Calibrate a DP Flow Transmitter",
+  "Calibration Questions",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Process Instrumentation\n\r\n Differential Pressure Flow Transmitter Calibration: 5-Point Procedure\n\r\n A DP flow transmitter converts a differential pressure signal from an orifice plate, flow nozzle, or Venturi tube into a flow rate output.\n\r\n Calibrating it correctly requires understanding two separate outputs: the raw DP in mbar or inH\u2082O, and the derived flow rate in engineering units.\n\r\n This guide covers the complete 5-point DP flow transmitter calibration procedure, the square root relationship between DP and flow, as-found and as-left recording, and a 5-point error calculator.\n\r\n \r\n DP Input vs Flow Output \r\n Square Root Relationship \r\n As-Found and As-Left \r\n \u00b10.5% Acceptance Limit \r\n \n\r\n\n\r\n\r\n The critical difference in a DP flow transmitter calibration is the square root relationship.\n\r\n Flow is proportional to the square root of DP, not to DP directly. A 1% DP error produces only a 0.5% flow error.\n\r\n\r\n \r\n \r\n \r\n\r\n Quick Answer\n How to Calibrate a DP Flow Transmitter (5 Point Method)?\n DP flow transmitter calibration checks the output at 0, 25, 50, 75 and 100% of the DP span, remembering that flow follows the square root of DP:\n Isolate, equalise and confirm 4.00 mA at zero DP.\n Apply the 5 DP points to the high side.\n Record as found mA and flow; do not adjust yet.\n Correct with sensor trim and output trim if needed.\n Record as left readings, within about \u00b10.5%.\n I = 4 + 16 \u00d7 \u221a(\u0394P \u00f7 \u0394Pmax) : 100 of 250 mbar gives 14.11 mA.\n\n DP Flow Transmitter: What You Are Actually Calibrating\n\r\n\r\n \r\n Hello! Today we are covering the complete calibration procedure for a DP flow transmitter connected to a differential pressure primary element. This is a common source of confusion in the field: technicians sometimes calibrate the DP input correctly but forget to verify the square-root-extracted flow output. Both must be checked \u2014 and both must be recorded in the calibration record.\r\n\n\r\n\r\n A DP flow transmitter contains two functional blocks that must both be calibrated.\n\r\n\r\n The first block is the DP measurement section : it converts differential pressure into a raw DP value in mbar, inH\u2082O, or kPa.\n\r\n The second block is the square root extractor : it converts raw DP into a 4-20 mA flow output using Q \u221d \u221a\u0394P.\n\r\n\r\n \r\n DP to Flow Conversion (Square Root)\n\r\n Q / Q_max = \u221a(\u0394P / \u0394P_max)\n\r\n \r\n Q : actual flow rate\n\r\n Q_max : maximum flow rate (at DP_max, corresponding to 20 mA output)\n\r\n \u0394P : measured differential pressure\n\r\n \u0394P_max : maximum DP (calibrated span, corresponding to 100% flow)\n\n\r\n Output current: I = 4 + 16 \u00d7 \u221a(\u0394P / \u0394P_max)\n\n\r\n Example: \u0394P_max = 250 mbar. At \u0394P = 100 mbar:\n\r\n I = 4 + 16 \u00d7 \u221a(100/250) = 4 + 16 \u00d7 0.632 = 14.11 mA\n\r\n This corresponds to 63.2% of maximum flow \u2014 not 40% (which would be the linear value).\r\n \n\r\n\n\r\n\r\n Did You Know? Because of the square root relationship, a DP flow transmitter has very poor accuracy at low flows.\n\nAt 10% of maximum flow, the DP is only 1% of the maximum DP. A transmitter with a DP accuracy of \u00b10.075% of span"
+}

@@ -1,0 +1,29 @@
+{
+ "id": 18969,
+ "slug": "instrument-hook-up-drawing-guide",
+ "impr": 1292,
+ "ctr": 0.9,
+ "pos": 4.0,
+ "queries": [],
+ "title": "Hook Up Drawing: 6 Essential Typicals for Safe Installation",
+ "rank_math_title": "",
+ "rank_math_description": "Learn what an instrument hook up drawing shows, its materials, impulse line slopes, manifolds, typical hook ups for gas, liquid and steam, plus a slope tool.",
+ "focus_keyword": "hook up drawing",
+ "headings": [
+  "What Is a Hook Up Drawing?",
+  "What the Drawing Shows",
+  "Bill of Materials on a Hook Up Drawing",
+  "Impulse Line Slope and Routing",
+  "6 Essential Typical Hook Ups",
+  "Slope and Tubing Formula",
+  "Hook Up Drawing Slope Calculator",
+  "Reading and Using the Drawing at Site",
+  "Installation Guide PDF",
+  "Hookup Drawing Video",
+  "Hook Up Drawing FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Design\n\r\n Hook Up Drawing: 6 Essential Typicals for Safe Installation\n\r\n A P&ID tells you that a transmitter exists, but not how to connect it to the pipe. The installation sketch fills that gap, showing every valve, fitting and metre of tubing the site team needs to mount the instrument correctly.\n\r\n \r\n Bill of Materials \r\n Impulse Lines \r\n Manifolds \r\n Typical Hook Ups \r\n \n\r\n\n\r\n\r\n Correct installation decides whether a good transmitter gives good readings. This guide explains what installation typicals contain, how they differ for gas, liquid and steam and how to calculate slope and tubing length.\n\r\n\r\n \r\n Hello everyone, today we are going to learn what an instrument hook up drawing is, what it shows, how typical hook ups differ for each service and how to plan slopes and tubing.\r\n\n\r\n \r\n \r\n \r\n Quick Answer\n What Is an Instrument Hook Up Drawing?\n Instrument hook up drawings are installation details that show how an instrument connects to the process or to its air and signal supply. They show the root valve, impulse tubing route, fittings, manifold, mounting support and a bill of materials, turning a P&ID symbol into a buildable arrangement.\n Impulse lines need a continuous slope, commonly at least 1 in 12: Drop = Horizontal run \u00f7 N . Example: a 3 m run at 1 in 12 needs 3000 \u00f7 12 = 250 mm of fall.\n\n What Is a Hook Up Drawing?\n\r\n\r\n A hook up drawing is an installation detail that shows how an instrument connects to the process or to its air and signal supply, including the root valve, impulse or tubing route, fittings, manifold, mounting support and a bill of materials. It turns the symbol on a piping and instrumentation diagram into a buildable arrangement.\n\r\n\r\n Automation Forum describes these drawings as the ones that represent installation standards. They show how each instrument sits in the plant and which materials are needed.\n\r\n\r\n \r\n \r\n Image credit: Electrical and Control . Diagram courtesy of Electrical and Control, shown here for educational reference. \r\n \r\n\r\n Advertisement\n \n\n What the Drawing Shows\n\r\n\r\n \r\n Process Connection\n Tapping, size and root valve.\n\n\r\n Impulse Route\n Tubing size, slope direction and length.\n\n\r\n Valves and Manifold\n Isolation, vent and drain valves.\n\n\r\n Instrument Position\n Above or below the tapping point.\n\n\r\n Support\n Pipe stand, bracket or wall mounting.\n\n\r\n Bill of Materials\n Every item with size, material and quantity.\n\n\r\n\n\r\n\r\n Automation Forum separates process hook ups, connected to the process line, from pneumatic hook ups for air and signal tubing. Both types list items such as valve manifolds , fittings and supports.\n\r\n\r\n Bill of Materials on a Hook Up Drawing\n\r\n\r\n \r\n \r\n Item Typical Specification Supplied By \n\r\n Root valve Gate or globe, per piping class Piping \n\r\n Tubing Seamless SS 316, 12 mm or 1/2 inch Instrument \n\r\n Compression fittings Twin ferrule, SS 316 Instrument \n\r\n Manifold 3 valve or 5 valve, SS 316 Instrument \n\r\n Support 2 inch pipe stand with U bolts Instrument \n\r\n \r\n\n\r\n\r\n The split of "
+}

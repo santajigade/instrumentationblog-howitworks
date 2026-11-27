@@ -1,0 +1,33 @@
+{
+ "id": 13202,
+ "slug": "thermocouple-types-comparision",
+ "impr": 858,
+ "ctr": 0.5,
+ "pos": 8.5,
+ "queries": [],
+ "title": "Thermocouple Types Explained: J, K, T, E, N, S, R and B Full Comparison Guide",
+ "rank_math_title": "Thermocouple Types: J, K, T, E, N, S, R, B Compared",
+ "rank_math_description": "Thermocouple types J, K, T, E, N, S, R and B compared: materials, temperature ranges, accuracy, wire colour codes and how to select the right one.",
+ "focus_keyword": "Thermocouple Types",
+ "headings": [
+  "How Thermocouples Work: A Quick Recap",
+  "Thermocouple Temperature Ranges at a Glance",
+  "Base Metal Thermocouple Types: J, K, T, E and N",
+  "Type K Thermocouple (Nickel-Chromium / Nickel-Aluminium)",
+  "Type J Thermocouple (Iron / Constantan)",
+  "Type T Thermocouple (Copper / Constantan)",
+  "Type E Thermocouple (Nickel-Chromium / Constantan)",
+  "Type N Thermocouple (Nicrosil / Nisil)",
+  "Noble Metal Thermocouple Types: S, R and B",
+  "Type S Thermocouple (Platinum-10% Rhodium / Platinum)",
+  "Type R Thermocouple (Platinum-13% Rhodium / Platinum)",
+  "Type B Thermocouple (Platinum-30% Rhodium / Platinum-6% Rhodium)",
+  "Thermocouple Wire Colour Codes: ANSI vs IEC",
+  "Full Comparison Table: All Eight Thermocouple Types",
+  "How to Choose the Right Thermocouple Type",
+  "Common Thermocouple Mistakes to Avoid",
+  "Further Reading and External Resources",
+  "Frequently Asked Questions: Thermocouple Types"
+ ],
+ "text": "Instrumentation \u00b7 Temperature Measurement \u00b7 Thermocouple Types\n\r\n Thermocouple Types Explained: J, K, T, E, N, S, R and B: Full Comparison Guide\n\r\n A complete guide to all eight IEC-standardised thermocouple types: materials, temperature ranges, accuracy, wire colour codes, applications and a selection chart to help you choose the right one for your process.\n\r\n \r\n All 8 Types Covered \r\n Temperature Range Chart \r\n Wire Colour Codes \r\n Selection Guide \r\n \n\r\n\n\r\n\r\n \r\n When you need to measure temperature in an industrial process, a thermocouple is almost always the first instrument considered. Thermocouples are rugged, fast-responding, available in a wide range of materials and temperature ratings, and significantly cheaper than RTDs for high-temperature applications. But choosing the wrong type for your application can result in poor accuracy, premature failure or dangerously incorrect readings.\n\r\n\r\n There are eight standard thermocouple types defined by IEC 60584 and ASTM E230 : J, K, T, E, N, S, R and B. Each uses a different pair of metal alloys, which gives it a unique temperature range, sensitivity (millivolt output per degree), accuracy class and set of environmental strengths and weaknesses. Understanding the differences is essential for every instrumentation engineer and technician.\n\r\n\r\n This guide explains all eight types clearly, gives you a complete comparison table, explains the wire colour coding system, and provides a practical selection guide so you can always choose the right thermocouple type for your process. If you are new to thermocouples, start with our article on what is a thermocouple and how does it work before reading this comparison.\n\r\n\r\n \r\n What this guide covers\n\r\n How thermocouples work (quick recap) \u00a0\u00b7\u00a0 Base metal vs noble metal types \u00a0\u00b7\u00a0 All 8 types in detail: J, K, T, E, N, S, R, B \u00a0\u00b7\u00a0 Full comparison table with temperature ranges and accuracy \u00a0\u00b7\u00a0 Wire colour codes (ANSI and IEC) \u00a0\u00b7\u00a0 How to choose the right thermocouple type \u00a0\u00b7\u00a0 Common problems and mistakes.\r\n\n\r\n\r\n \r\n \r\n \r\n \n\r\n \r\n Advertisement\r\n \r\n \n\r\n \n\r\n \r\n \r\n\r\n \r\n \n\r\n \r\n Advertisement\r\n \r\n \n\r\n \n\r\n\n\r\n \r\n \r\n Quick Answer\n What Are the Thermocouple Types and Ranges?\n Thermocouple types are the eight standard types J, K, T, E, N, S, R and B defined by IEC 60584 and ASTM E230, each using a different pair of alloys.\n Family Types Key point \n Base metal J, K, T, E, N Low cost, most processes up to about 1,260 \u00b0C \n Noble metal S, R, B Platinum alloys, up to 1,820 \u00b0C \n Type K is the most widely used, covering \u2212270 \u00b0C to +1,260 \u00b0C, while Type T is the best choice below 0 \u00b0C.\n\n How Thermocouples Work: A Quick Recap\n\r\n\r\n A thermocouple consists of two wires made from different metal alloys, joined at one end. The joined end is called the hot junction (or measuring junction) and is placed in contact with the process being measured. The other end is called the cold junction (or reference junction) and terminates at the measuring instrument or temperature transmitter.\n\r\n\r\n When "
+}

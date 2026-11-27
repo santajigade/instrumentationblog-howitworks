@@ -1,0 +1,32 @@
+{
+ "id": 19314,
+ "slug": "ct-burden-calculation-va",
+ "impr": 607,
+ "ctr": 0.5,
+ "pos": 7.5,
+ "queries": [],
+ "title": "CT Burden Calculation: 6 Proven Steps for Safe Accurate CTs",
+ "rank_math_title": "",
+ "rank_math_description": "Learn CT burden calculation in VA: relay and meter burden, lead loop I\u00b2R loss, 1 A vs 5 A secondary, 5P20 and class 0.5, ALF, knee point and a free calculator.",
+ "focus_keyword": "CT burden",
+ "headings": [
+  "What Is CT Burden?",
+  "Why the VA Rating Matters in Real Panels",
+  "Components of Total CT Burden",
+  "CT Burden Calculation Formula",
+  "CT Burden Calculator",
+  "Second Worked Example With a 1 A Secondary",
+  "6 Proven Steps to Size CT Burden",
+  "Accuracy Class and CT Burden Together",
+  "Actual ALF and Knee Point Check",
+  "Choosing Between 1 A and 5 A Secondary",
+  "Common Mistakes in CT Burden Sizing",
+  "Accuracy Limit Factor Application Note",
+  "Video on CT Burden and Cables",
+  "CT Burden FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Electrical Design & Calculations\n\r\n CT Burden Calculation: 6 Proven Steps for Safe Accurate CTs\n\r\n A current transformer only tells the truth when the load on its secondary stays within the VA it was designed for. Add up the relay, the meter and the long copper leads correctly and your protection trips and energy bills stay trustworthy.\n\r\n \r\n VA Burden \r\n Lead Loop I\u00b2R \r\n 1 A vs 5 A \r\n 5P20 and ALF \r\n Knee Point \r\n \n\r\n\n\r\n\r\n Every relay, meter and metre of cable on a current transformer secondary adds load that the core must drive. A careful CT burden calculation keeps accuracy within class and stops the core from saturating during a fault.\n\r\n\r\n \r\n Hello everyone, today we are going to learn how to add up relay, meter and cable loads, compare them with the rated CT burden and choose the right VA, class and secondary current for a panel.\r\n\n\r\n \r\n \r\n \r\n Quick Answer\n How to Calculate CT Burden in VA?\n CT burden calculation adds every VA load on the CT secondary, including relay, meter and lead loop, then compares the total with the rated output.\n R loop = 2 \u00d7 L / (57 \u00d7 A) and VA lead = In\u00b2 \u00d7 R loop \n Example: In = 5 A with 50 m of 2.5 mm\u00b2 cable gives R loop = 0.702 \u03a9 and VA lead = 17.54 VA. Adding a 1 VA relay gives 18.54 VA, so choose a 20 VA CT.\n\n What Is CT Burden?\n\r\n\r\n CT burden is the total load connected across the secondary terminals of a current transformer, expressed in volt amperes at rated secondary current or in ohms. It includes the relay or meter input, the lead wires going to the panel and back, and every terminal and test block in the loop, as explained in our guide on the current transformer working principle .\n\r\n\r\n A current transformer behaves like a current source, so a larger secondary impedance forces it to develop a higher voltage to push the same current. By Ohm law , that voltage is simply secondary current times loop impedance, and the core flux has to rise to produce it.\n\r\n\r\n \r\n \r\n Image credit: Electrical Volt . Diagram courtesy of Electrical Volt, shown here for educational reference. \r\n \r\n\r\n Accuenergy defines CT burden as the maximum load that can be applied to the secondary of a current transformer. It notes that the value is stated either as total impedance in ohms or as total VA and power factor at a specified current and frequency.\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n Why the VA Rating Matters in Real Panels\n\r\n\r\n If the connected load is higher than the rated value, the core works at higher flux and the ratio and phase errors grow. For a metering core this means wrong kWh bills, and for a protection core it means early saturation during a fault.\n\r\n\r\n If the secondary is ever opened while primary current flows, the burden becomes practically infinite and the voltage can reach dangerous levels. That hazard is covered in detail in CT secondary open circuit risks , and it is the extreme case of the same physics.\n\r\n\r\n \r\n 2.5 to 30 VA Common IEC rated outputs \n\r\n I\u00b2 \u00d7 R Lead loss per phase \n\r\n 25 \u00d7 Lead VA ratio, 5 A vs "
+}

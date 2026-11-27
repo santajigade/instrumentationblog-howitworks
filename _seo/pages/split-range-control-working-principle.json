@@ -1,0 +1,30 @@
+{
+ "id": 9849,
+ "slug": "split-range-control-working-principle",
+ "impr": 814,
+ "ctr": 1.2,
+ "pos": 6.2,
+ "queries": [],
+ "title": "Split Range Control: Working Principle, Applications and How the Signal Is Split",
+ "rank_math_title": "Split Range Control: Working Principle and Applications",
+ "rank_math_description": "Understand how split range control works. Covers the working principle, how controller output splits between two valves, and typical process applications.",
+ "focus_keyword": "Split Range Control,How Split range control works,Split range control working principle,Control valves operation,Process control strategies",
+ "headings": [
+  "Split Range Control: Introduction",
+  "What is Split Range Control?",
+  "Why Do We Use Split Range Control?",
+  "Typical reasons:",
+  "Example: Temperature Control With Heating &amp; Cooling",
+  "Types of Split Range Control",
+  "1) Fully Sequential Split Range",
+  "2) Fully Overlapping Split Range",
+  "3) Complementary Split Range",
+  "How the Output Signal is Assigned",
+  "Control Valve Actions in Split Range",
+  "Where is Split Range Control Used?",
+  "Practical Setup and Tuning Tips",
+  "Common Problems &amp; How to Avoid Them",
+  "Very Simple Example"
+ ],
+ "text": "Split Range Control: Introduction\n In many industrial\u00a0 processes , we need to control one important process variable (like temperature, pressure, or level) using more than one final control element . For example:\n 1) To control temperature, we may use a heating steam valve &\u00a0 a cooling water valve \n 2) To control tank level, we may use two different outlet valves \n 3) To control pressure, we may use a vent valve &\u00a0 a supply valve \n But how does the controller decide which valve to open and when ?\n That is where Split Range Control \u00a0is used.\n Split range control is a technique used in process control where one controller output signal is split into two (or more) different control outputs.\u00a0\n Each output operates a different\u00a0 valve\u00a0 or device over a specific portion of the signal range.\n Example: Controller output 4\u201312 mA \u2192 Valve A Controller output 12\u201320 mA \u2192 Valve B\n Easy, right? Let us learn in detail.\n Quick Answer\n What Is Split Range Control?\n Split range control is a strategy where one controller output is divided so it drives two or more final control elements , each over its own part of the signal span.\n A common split sends 4 to 12 mA to valve A and 12 to 20 mA to valve B. In a heating and cooling loop, the cooling valve works from 0% to 50% output while the heating valve opens from 50% to 100%.\n It is used when one valve cannot cover the full range or two actions are needed.\n\n \r\n \r\n What is Split Range Control?\n Definition: Split range control is a control strategy where a single controller manipulates multiple control elements , each handling a part of the controller\u2019s output span.\n The output of a standard controller is usually 4\u201320 mA (or 0\u2013100%). In split range:\n 1) The first valve gets control action from 4\u201312 mA \n 2) The second valve gets control action from 12\u201320 mA \n This \u201csplitting\u201d helps the process react properly under different load or conditions.\n Why Do We Use Split Range Control?\n Because one control element cannot always handle the entire job.\n Typical reasons:\n 1) Single valve cannot provide full control range 2) Need for heating + cooling 3) Need for pressure supply + venting 4) Handling two different flow sources 5) Improving energy efficiency 6) Maintaining process stability under varying conditions\n It helps to keep the process variable within limits while choosing the most suitable actuator at any moment.\n Example: Split Range for Temperature Control Application Diagram by Instrumentation Blog showing one temperature controller output split by two I/P converters, 4 to 12 mA to the cooling valve and 12 to 20 mA to the heating valve. It becomes much easier to understand split-range control when we look at a real example like temperature control in a process system.\n\n In this case, the product might sometimes need heating and at other times cooling, depending on its temperature.\n\n The illustration below shows how the temperature transmitter, the controller, and the two control valves are arranged in a split-range temper"
+}

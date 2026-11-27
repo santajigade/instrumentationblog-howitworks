@@ -1,0 +1,30 @@
+{
+ "id": 17134,
+ "slug": "transistor-common-emitter-amplifier",
+ "impr": 686,
+ "ctr": 0.1,
+ "pos": 8.2,
+ "queries": [],
+ "title": "Transistor as an Amplifier: Common Emitter Configuration Explained",
+ "rank_math_title": "Common Emitter Amplifier: Transistor as an Amplifier",
+ "rank_math_description": "Common emitter amplifier explained: circuit parts, Q-point biasing, gain formula Av = RC/re, phase inversion, bypass capacitor and gain calculator.",
+ "focus_keyword": "common emitter",
+ "headings": [
+  "Common Emitter Amplifier: How the BJT Amplifies a Signal",
+  "Common Emitter Amplifier Circuit Components",
+  "DC Biasing and the Q-point",
+  "Voltage Gain of the Common Emitter Amplifier",
+  "Common Emitter Amplifier Calculator",
+  "Three BJT Amplifier Configurations Compared",
+  "Common Emitter Amplifier Applications",
+  "Audio Preamplifier",
+  "Sensor Signal Amplification",
+  "Oscillator Feedback Stage",
+  "Logic Level Interface",
+  "Watch: Common Emitter Transistor Amplifier Explained",
+  "Common Emitter Amplifier Questions",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Electronics\n\r\n Transistor as an Amplifier: Common Emitter Configuration Explained\n\r\n The common emitter configuration is the most widely used BJT amplifier circuit -- providing voltage gain, current gain, and 180-degree phase inversion.\n\r\n This guide covers the circuit, DC biasing, voltage gain calculation, and the role of each component -- with a live gain calculator.\n\r\n \r\n Voltage Gain Av \r\n DC Biasing \r\n Phase Inversion \r\n Load Line \r\n \n\r\n\n\r\n\r\n Input at the base, output at the collector -- the emitter is the shared (common) terminal for both circuits. Voltage gain = RC / re, where re is the dynamic emitter resistance of the transistor.\n\r\n\r\n Quick Answer\n How Does a Common Emitter Transistor Amplifier Work?\n A common emitter transistor amplifier takes input at the base and output at the collector, with the emitter shared by both. A small base current controls a larger collector current, giving voltage gain with 180 degree phase inversion.\n Gain: Av = \u2212RC / re , where re = 26 mV / IC (mA).\n Example: IC = 2 mA gives re = 13 \u03a9, so with RC = 4.7 k\u03a9, Av \u2248 \u2212362. Bias the Q point near VCC/2.\n\n Common Emitter Amplifier: How the BJT Amplifies a Signal\n\r\n\r\n \r\n Hello! Today we are going to work through how a BJT transistor works as an amplifier in the common emitter configuration. This is the foundation of analogue electronics -- once you understand this circuit, you understand how most small-signal amplifiers, audio stages, and sensor signal conditioners work. Let us go step by step.\r\n\n\r\n \r\n \r\n \r\n \r\n A BJT amplifies because a small base current controls a much larger collector current. The gain \u03b2 (beta) is the ratio of collector to base current.\n\r\n In this configuration, current gain combined with the collector resistor produces voltage gain.\n\r\n Three things determine how well the amplifier works in this configuration: the DC bias point (Q-point) , the AC voltage gain , and the 180-degree phase inversion between input and output. Click any term to expand.\n\r\n DC Bias Point (Q-point): The quiescent operating point -- the DC collector voltage and current when no AC signal is applied. For linear amplification, the Q-point must sit near the middle of the load line so the output can swing equally in both directions without clipping. Voltage divider biasing (R1 and R2 from supply to base) is the most stable method for setting the Q-point.\n\r\n AC Voltage Gain (Av): The ratio of AC output voltage (at collector) to AC input voltage (at base). Av = minus RC / re, where RC is the collector resistor and re is the transistor's dynamic emitter resistance (re = 26 mV / IC in milliamps at room temperature). The minus sign indicates phase inversion. Higher RC gives higher gain, but also raises the collector DC voltage and risks moving the Q-point out of the linear region.\n\r\n 180-Degree Phase Inversion: In the common emitter configuration, when the base voltage goes positive, the collector current increases, which increases the voltage drop across RC, which makes the collec"
+}

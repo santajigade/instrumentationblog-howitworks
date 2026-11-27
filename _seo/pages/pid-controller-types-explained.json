@@ -1,0 +1,28 @@
+{
+ "id": 12036,
+ "slug": "pid-controller-types-explained",
+ "impr": 797,
+ "ctr": 1.1,
+ "pos": 7.5,
+ "queries": [],
+ "title": "PID Controller Types Explained: Parallel, Ideal &#038; Series",
+ "rank_math_title": "PID Controller Types Explained: Parallel, Ideal & Series",
+ "rank_math_description": "PID controller types explained: parallel, ideal and series forms, how each PID equation works, key differences and where each is used in industry.",
+ "focus_keyword": "PID Controller",
+ "headings": [
+  "1. Parallel PID Controller",
+  "2. Ideal PID Controller",
+  "Series PID Controller",
+  "What we learn today?",
+  "Types of PID Equations Compared Side by Side",
+  "Converting Series Settings to Ideal Form",
+  "Frequently Asked Questions (FAQs)",
+  "1. What are the main types of PID controllers?",
+  "2. Which PID form is most commonly used in industry?",
+  "3. Why does the Series PID controller have interaction between parameters?",
+  "4. Can the same tuning values be used for different PID types?",
+  "5. Why is the Parallel PID controller not always preferred?",
+  "6. What should be checked before tuning a PID controller?"
+ ],
+ "text": "PID controllers are used everywhere in industry to control important\u00a0 process\u00a0 parameters like\u00a0 pressure ,\u00a0 temperature ,\u00a0 flow , and\u00a0 level .\u00a0\n Most students learn PID as a simple concept made of Proportional, Integral, and Derivative actions, and it looks easy in theory.\u00a0\n But when you enter real industrial systems, you will notice that PID controllers do not always behave the same way.\u00a0\n The reason is simple different controllers use different PID equation forms. Because of this, the same tuning values can give completely different results in different controllers.\u00a0\n This is one of the most common reasons for confusion during tuning and troubleshooting.\u00a0\n In this article, we will understand the three main types of PID controllers\u2014Parallel, Ideal, and Series\u2014in a simple way so that you can clearly understand their behavior and use them confidently in real applications.\n Quick Answer\n What Are the Types of PID Controller?\n PID controller types are the three equation forms used by industrial controllers: parallel, ideal and series . The same tuning values give different results in each form, so you must know which one your controller uses.\n Type How gain Kp acts Tuning effect \n Parallel Kp acts only on the P term P, I and D tuned independently \n Ideal (ISA) Kp multiplies P, I and D One Kp change scales all three actions \n Series Kp applies to all, and I and D interact Changing one setting shifts the others \n \n \r\n \r\n \r\n \n\r\n \r\n Advertisement\r\n \r\n \n\r\n \n\r\n \r\n \r\n\r\n \r\n \n\r\n \r\n Advertisement\r\n \r\n \n\r\n \n\r\n\n\r\n 1. Parallel PID Controller\n PID controller types animation. Numbered parts: Parameter being changed: first Kp, then \u03c4i\n Parallel form: Kp scales only the proportional term\n Ideal (ISA) form: Kp scales P, I and D together\n Series (interacting) form: \u03c4i also changes the proportional action\n Strength of the P, I and D action in each form\n The Parallel PID controller is the simplest and most commonly used form of PID equation. In this type, the Proportional (P), Integral (I), and Derivative (D) actions are written as separate terms, and the final controller output is obtained by simply adding these three actions together.\n In this equation, each parameter Kp, \u03c4i, and \u03c4d works independently of the others. This means that when you adjust one parameter, it only affects its own control action and does not directly influence the other two.\u00a0\n At first, this appears to be a major advantage because tuning becomes straightforward and easy to understand.\n But, in practical applications, there are situations where it is actually beneficial for the gain (Kp) to influence all three control actions instead of acting independently.\n If you look at the equation closely, it can be divided into three separate parts, each contributing individually to the controller output (\u2206m).\u00a0\n One part represents proportional action, one represents integral action, and the third represents derivative action. All three contributions are completely independent of each othe\n Let us take an "
+}

@@ -1,0 +1,32 @@
+{
+ "id": 17102,
+ "slug": "plc-compare-instructions",
+ "impr": 826,
+ "ctr": 1.0,
+ "pos": 5.1,
+ "queries": [],
+ "title": "PLC Compare Instructions: EQU, NEQ, LES, GRT Explained with Ladder Examples",
+ "rank_math_title": "PLC Compare Instruction: EQU, NEQ, LES, GRT with Examples",
+ "rank_math_description": "PLC compare instructions EQU, NEQ, LES and GRT with ladder logic rung examples, real applications, a compare simulator and full reference table.",
+ "focus_keyword": "PLC compare instruction",
+ "headings": [
+  "PLC Compare Instructions: What They Do and Why They Matter",
+  "The 4 PLC Compare Instructions with Rung Examples",
+  "EQU -- Equal To",
+  "NEQ -- Not Equal To",
+  "LES -- Less Than",
+  "GRT -- Greater Than",
+  "PLC Compare Instruction Simulator",
+  "All 6 PLC Compare Instructions: Quick Reference",
+  "Real-World Applications Using PLC Compare Instructions",
+  "Temperature Alarm and Control",
+  "Batch Counter Target",
+  "Alarm Delay with Timer",
+  "Scaled Signal Quality Check",
+  "Watch: PLC Compare Instructions LES, GRT, EQU, NEQ Explained",
+  "PLC Compare Instructions Questions",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "DCS and Automation\n\r\n PLC Compare Instructions: EQU, NEQ, LES, GRT\n\r\n PLC compare instructions test a condition between two values and return true or false. A PLC compare instruction is one of the most frequently used building blocks in Ladder Logic.\n\r\n Every alarm setpoint, every process limit, and every conditional output uses a PLC compare instruction to make its decision.\n\r\n This guide covers EQU, NEQ, LES, and GRT with ladder rung examples, a worked application, and a live compare instruction simulator.\n\r\n \r\n EQU Equal \r\n NEQ Not Equal \r\n LES Less Than \r\n GRT Greater Than \r\n \n\r\n\n\r\n\r\n A PLC compare instruction acts like a contact in the rung. It passes power when its condition is true and blocks when false. The difference is that a PLC compare instruction compares numbers, not bit states.\n\r\n\r\n Quick Answer\n What Are Comparison Instructions in PLC?\n Comparison instructions in PLC ladder logic test two values, Source A and Source B, and act like a contact that passes power only when the condition is true.\n Instruction True When Typical Use \n EQU (Equal) A equals B Exact count or set value check \n NEQ (Not Equal) A differs from B Detect a change, guard against divide by zero \n LES (Less Than) A is less than B Low limit alarm \n GRT (Greater Than) A is greater than B High limit alarm \n \n PLC Compare Instructions: What They Do and Why They Matter\n\r\n\r\n \r\n Hi everyone! Today we are going through the four most used PLC compare instructions in Ladder Logic -- EQU, NEQ, LES, and GRT. These instructions are behind almost every decision a PLC makes: is the tank full? Is the temperature too high? Has the counter reached its target? By the end of this article, you will know exactly how each one works and when to use it.\r\n\n\r\n \r\n \r\n \r\n \r\n Each PLC compare instruction sits on a rung exactly like a contact. When the comparison is true, power flows through it. When it is false, power is blocked -- just as a normally open contact blocks power when the bit is off.\n\r\n The four core PLC compare instructions are EQU (Equal) , NEQ (Not Equal) , LES (Less Than) , and GRT (Greater Than) . Click any term to expand its definition.\n\r\n EQU (Equal): The instruction is true when Source A equals Source B exactly. Used for checking exact count values, comparing register contents, or verifying that a process has reached a specific set value. Beware using EQU with REAL (floating point) values -- floating point arithmetic rarely produces exact equality.\n\r\n NEQ (Not Equal): The instruction is true when Source A and Source B are different. The logical opposite of EQU. Used to detect a change in value, to keep a process running while a condition has not yet been met, or to guard against division by zero before a DIV rung.\n\r\n LES (Less Than): The instruction is true when Source A is strictly less than Source B. Order matters -- Source A LES Source B is not the same as Source B LES Source A. Used for low limit alarms, process variable below setpoint checks, and fill to-level logic.\n\r\n "
+}

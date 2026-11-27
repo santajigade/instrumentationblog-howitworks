@@ -1,0 +1,25 @@
+{
+ "id": 10222,
+ "slug": "hazardous-area-classification-zone",
+ "impr": 1697,
+ "ctr": 0.6,
+ "pos": 9.2,
+ "queries": [],
+ "title": "Hazardous Area Classification: Zone 0, Zone 1, Zone 2",
+ "rank_math_title": "Hazardous Area Classification: Zone 0, Zone 1, Zone 2",
+ "rank_math_description": "Hazardous area classification explained: Zone 0, Zone 1 and Zone 2 definitions, standards and how correct zoning prevents explosions in oil & gas.",
+ "focus_keyword": "Hazardous Area Classification",
+ "headings": [
+  "What Is Hazardous Area Classification and Why Does It Matter?",
+  "Zone 0, Zone 1 and Zone 2: IEC 60079-10-1 Definitions",
+  "Zone 20, Zone 21 and Zone 22: Dust and Powder Hazards",
+  "NEC Division System: How North America Classifies Hazardous Areas",
+  "Gas Groups: How Flammable Gases Are Classified by Ignition Risk",
+  "Temperature Classes (T-Classes): Preventing Ignition by Hot Surfaces",
+  "Protection Methods: How Ex Equipment Prevents Ignition",
+  "How to Read Ex Equipment Marking Codes",
+  "Quick FAQs: Hazardous Area Classification",
+  "External References"
+ ],
+ "text": "Safety \u00b7 Hazardous Area \u00b7 ATEX \u00b7 IECEx \u00b7 Zone 0 \u00b7 Zone 1 \u00b7 Zone 2 \u00b7 Ex Equipment\n\r\n Hazardous Area Classification: Zone 0, Zone 1 and Zone 2 Explained with Gas Groups, Temperature Classes, Protection Methods and Equipment Marking\n\r\n Hazardous area classification defines where flammable gases or vapours may be present in a process plant, and what protection standard electrical equipment must meet in each zone. Getting this wrong creates explosion risk. This guide covers Zone 0/1/2 definitions, IEC/ATEX and NEC/Division systems, gas groups, temperature classes, protection methods and how to read Ex equipment marking codes.\n\r\n \r\n Zone 0 / 1 / 2 Definitions \r\n Gas Groups and T-Classes \r\n Protection Methods (Ex d, ia, e, n) \r\n Equipment Marking Decoder \r\n \n\r\n\n\r\n\r\n\r\n \r\n What Is Hazardous Area Classification and Why Does It Matter?\n\r\n\r\n In oil and gas, petrochemical, chemical, pharmaceutical and many other process industries, flammable gases, vapours, mists or dusts can be present in the atmosphere under normal or abnormal operating conditions. If an ignition source (an electrical spark, a hot surface, static discharge) is present in the same location at the same time as an explosive atmosphere, the result is a fire or explosion.\n\r\n\r\n Hazardous area classification is the systematic process of identifying which locations in a plant may contain an explosive atmosphere, classifying them into zones based on how frequently and for how long the hazardous atmosphere is likely to be present, and then specifying what protection standard all electrical and instrumentation equipment must meet for each zone. The classification determines what type of transmitter, junction box, motor, control panel, lighting or instrument cable you can install in each area.\n\r\n\r\n Every instrument installed in a hazardous area including 4-20 mA transmitters , pressure switches , control valve positioners and temperature sensors: must carry the correct Ex certification for the zone it is installed in. Using uncertified equipment in a hazardous area is a regulatory violation and a serious safety risk.\n\r\n\r\n\r\n \r\n Advertisement\n \n\n Zone 0, Zone 1 and Zone 2: IEC 60079-10-1 Definitions\n\r\n\r\n The international standard IEC 60079-10-1 (Explosive atmospheres: Classification of areas) defines three zones for gas and vapour hazards. The zone number reflects the frequency and duration of the explosive atmosphere. Zone 0 is the most hazardous (continuous presence); Zone 2 is the least hazardous (only in abnormal conditions).\n Diagram by Instrumentation Blog showing Zone 0 inside a flammable liquid tank, Zone 1 around the vent and Zone 2 outside, with hours per year and equipment category. \r\n\r\n \r\n \r\n ZONE 0\n\r\n CONTINUOUS HAZARD\n\r\n Explosive atmosphere is present continuously or for long periods (more than 1,000 hours per year). Examples: inside storage tanks, inside pipes and vessels containing flammable liquids. Equipment must meet the highest protection standard: Category 1G (ATEX) or Ex ia intrin"
+}

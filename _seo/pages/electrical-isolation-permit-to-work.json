@@ -1,0 +1,24 @@
+{
+ "id": 17509,
+ "slug": "electrical-isolation-permit-to-work",
+ "impr": 593,
+ "ctr": 1.3,
+ "pos": 9.7,
+ "queries": [],
+ "title": "Electrical Isolation and Permit to Work: Step-by-Step Safe Isolation Procedure",
+ "rank_math_title": "Electrical Isolation and Permit to Work: 7-Step Procedure",
+ "rank_math_description": "Electrical isolation and permit to work: a 7-step safe isolation procedure with lockout tagout, prove-test-prove, PTW types and common mistakes.",
+ "focus_keyword": "Electrical Isolation,Safe Isolation",
+ "headings": [
+  "Electrical Isolation and Permit to Work: 7-Step Safe Isolation Procedure",
+  "4 Types of Electrical Permit to Work",
+  "Roles in a Permit to Work System",
+  "Common Safe Isolation Mistakes That Cause Accidents",
+  "Watch: Safe Isolation Procedure Explained",
+  "Safe Isolation and Permit to Work Questions Engineers Ask",
+  "Related Articles on This Site",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Electrical Safety\n\r\n Electrical Isolation and Permit to Work: Step-by-Step Safe Isolation Procedure\n\r\n Safe isolation is the process of making electrical equipment dead, proving it is dead, and securing it against re-energisation before any work begins.\n\r\n Every electrical fatality caused by working on live equipment is preventable with a correctly followed safe isolation procedure.\n\r\n \r\n Safe Isolation \r\n Permit to Work \r\n Lockout Tagout \r\n Prove Dead \r\n IEC 60204-1 \r\n \n\r\n\n\r\n\r\n Hello everyone, today we are going to learn about electrical isolation and permit to work . We will understand the full safe isolation procedure step by step, the roles involved in issuing and receiving a permit to work, the types of electrical permit to work, and the common mistakes that cause accidents during electrical maintenance.\n\r\n\r\n Working on electrical equipment without a valid permit to work is illegal under most national safety regulations. It causes fatalities every year.\n\r\n The safe isolation procedure is the sequence of actions that keep maintenance engineers alive.\n\r\n\r\n \r\n \r\n \r\n\r\n Quick Answer\n What Is the Safe Electrical Isolation Procedure?\n Electrical isolation and permit to work means making equipment dead, proving it dead and locking it off before any work starts.\n Identify every circuit and energy source feeding the equipment.\n Obtain the permit to work from the permit issuer.\n Open every switch, breaker and isolator, all three phases.\n Fit a personal lock and danger tag at each isolation point.\n Prove dead with an approved voltage indicator, tested on a known live source before and after.\n Discharge stored energy and apply earths where required.\n Then work starts under the permit.\n\n Electrical Isolation and Permit to Work: 7-Step Safe Isolation Procedure\n\r\n\r\n \r\n \r\n 1\n\r\n \r\n Identify the equipment to be isolated\n\r\n Identify every circuit and energy source feeding the equipment. Check single-line diagrams and distribution board schedules. For complex plant, prepare a written isolation schedule listing every switch and isolator to be opened.\n\r\n \n\r\n \n\r\n \r\n 2\n\r\n \r\n Obtain the permit to work\n\r\n The permit issuer issues the permit to work after verifying the isolation plan. The permit states the equipment, isolation points, hazards, and work scope. The performing authority signs to accept the permit.\n\r\n \n\r\n \n\r\n \r\n 3\n\r\n \r\n Isolate all energy sources\n\r\n Open every switch, circuit breaker, and isolator from Step 1. Open all three phases on three-phase systems. Check for alternative supply paths, capacitor banks, and UPS feeds. Also isolate the motor control circuit for motor-driven equipment.\n\r\n \n\r\n \n\r\n \r\n 4\n\r\n \r\n Apply locks and danger tags\n\r\n Fit a personal lock to every isolation point from Step 3. Each person fits their own lock. Only the lock owner may remove it. Attach a danger tag with the holder's name and date.\n\r\n \n\r\n \n\r\n \r\n 5\n\r\n \r\n Prove the equipment is dead (verify absence of voltage)\n\r\n Use an approved voltage indicator to verify absence of voltage"
+}

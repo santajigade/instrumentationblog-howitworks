@@ -1,0 +1,32 @@
+{
+ "id": 20310,
+ "slug": "led-resistor-calculation",
+ "impr": 614,
+ "ctr": 0.8,
+ "pos": 4.5,
+ "queries": [],
+ "title": "LED Resistor Calculation: Formula, Vf Chart &#038; Calculator",
+ "rank_math_title": "",
+ "rank_math_description": "LED resistor calculation with R = (Vs minus Vf) \u00f7 If, Vf chart by colour, E12 rounding, power rating, 5 V and 12 V solved examples and calculator.",
+ "focus_keyword": "LED resistor calculation",
+ "headings": [
+  "What Is LED Resistor Calculation?",
+  "LED Resistor Calculation Formula",
+  "LED Forward Voltage Chart by Colour",
+  "LED Resistor Calculator",
+  "Solved Example: Three LEDs on 12 V",
+  "LED Resistor Value for 5 V and 12 V",
+  "Series and Parallel LED Circuits",
+  "LED Resistor Calculation for Arduino Pins",
+  "LED Resistor Calculation for Power Rating",
+  "LED Resistor Calculation Steps",
+  "Troubleshooting LED Resistor Calculation Errors",
+  "Boston University LED Lab Handout",
+  "LED Resistor Video",
+  "LED Resistor Calculation FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Electronics Fundamentals\n\r\n LED Resistor Calculation: Formula, Forward Voltage Chart, Solved Examples and Calculator\n\r\n An LED must never be connected straight across a supply, because its current rises steeply once the forward voltage is crossed. A single series resistor, sized with Ohm law, holds the current at a safe value and keeps the LED glowing for years.\n\r\n \r\n R = (Vs minus Vf) \u00f7 If \r\n Forward Voltage Chart \r\n Power Rating \r\n Series and Parallel LEDs \r\n E12 Values \r\n \n\r\n\n\r\n\r\n LED resistor calculation takes one line of Ohm law, yet wrong values still burn LEDs and Arduino pins every day. This guide gives the formula, a forward voltage chart, solved examples for 5 V and 12 V, power rating rules and a calculator that rounds to standard values.\n\r\n\r\n \r\n Hello everyone, today we are going to learn LED resistor calculation step by step, from the basic formula and forward voltage chart to power rating, series LED strings and choosing a standard resistor value.\r\n\n\r\n \r\n \r\n \r\n What Is LED Resistor Calculation?\n\r\n\r\n LED resistor calculation finds the series resistance that drops the extra supply voltage and limits LED current to a safe value using R = (Vs minus Vf) \u00f7 If. For a red LED with 2 V forward drop on a 5 V supply at 20 mA, R = 3 V \u00f7 0.02 A = 150 \u03a9.\n\r\n\r\n Quick Answer\n Formula: R = (Vs minus N \u00d7 Vf) \u00f7 If, with If in amperes.\n Typical Vf: red 1.8 to 2 V, yellow and green about 2.1 V, blue and white about 3.3 V.\n Typical current: 10 to 20 mA for 5 mm indicator LEDs.\n Round up to the next standard E12 value, never down.\n Resistor power P = I\u00b2 \u00d7 R; choose a rating at least twice this.\n \n\r\n\r\n The resistor is needed because an LED is a diode, not a lamp. As our guide to LED working principle shows, its current climbs very steeply once the forward voltage is reached, so even a small rise in supply voltage can destroy it.\n\r\n\r\n \r\n \r\n \r\n \r\n\r\n LED resistor circuit diagram \r\n \r\n\r\n The circuit shows the supply, one series resistor and the LED in a single loop, so the same current flows through both parts. CircuitDigest suggests 2 V and 20 mA as default values when the LED datasheet is not available.\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n LED Resistor Calculation Formula\n\r\n\r\n By Kirchhoff voltage law , the supply voltage equals the resistor drop plus the LED forward voltage. Applying Ohm law to the resistor alone gives the LED resistor calculation formula.\n\r\n\r\n \r\n R = (Vs minus N \u00d7 Vf) \u00f7 If \n P = If\u00b2 \u00d7 R \nVs = supply voltage, Vf = forward voltage of one LED\nN = LEDs in series, If = forward current in A\n\nSolved example: 5 V, one red LED, Vf 2 V, 20 mA\nR = (5 minus 2) \u00f7 0.020 = 150 \u03a9\n P = 0.020\u00b2 \u00d7 150 = 0.06 W, use a 1/4 W resistor \r\n\n\r\n\r\n SparkFun points out that the LED current, forward voltage and supply voltage are the only three values needed, and that milliamperes must be converted to amperes first. Forgetting this step is the most common reason for an answer a thousand times too small.\n\r\n\r\n Quick Tip\n When the datasheet gives a range such as 1.8 to 2.2 "
+}

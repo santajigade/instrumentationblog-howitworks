@@ -1,0 +1,30 @@
+{
+ "id": 9329,
+ "slug": "condensate-pot-in-steam-applications",
+ "impr": 1039,
+ "ctr": 1.1,
+ "pos": 6.7,
+ "queries": [],
+ "title": "Condensate Pot in Steam Applications: Purpose, Working and How to Size It",
+ "rank_math_title": "Condensate Pot in Steam Applications: Purpose and Sizing",
+ "rank_math_description": "Understand the purpose of a condensate pot in steam measurement. Covers how it works, installation, sizing, and accurate DP transmitter readings.",
+ "focus_keyword": "Condensate Pot",
+ "headings": [
+  "Condensate Pot Used in Steam Service Transmitters: Introduction",
+  "What is a Condensate Pot?",
+  "Why Do We Need a Condensate Pot in Steam Lines?",
+  "Working Principle of Condensate Pot",
+  "Condensate Pot in Boiler Drum Level Measurement",
+  "Installation Guidelines",
+  "Advantages of Using Condensate Pots",
+  "1. Protects the Transmitter from High Temperatures",
+  "2. Ensures Measurement Accuracy",
+  "3. Provides System Stability",
+  "4. Prevents Steam Leakage",
+  "5. Extends Transmitter Life",
+  "Common Mistakes to Avoid",
+  "Material Selection",
+  "What we learn today?"
+ ],
+ "text": "Condensate Pot Used in Steam Service Transmitters: Introduction\n In industrial plants, especially in boilers and steam lines, accurate\u00a0 pressure\u00a0 and\u00a0 level\u00a0 measurement is essential for safe and efficient operation. But when measuring steam pressure or boiler drum level, one small accessory plays a big role in protecting the instrument and ensuring reliable readings which is the Condensate Pot .\n In this article, we will explain what a condensate pot is, how it works, and why it is so important for transmitters used in steam service.\n What is a Condensate Pot? \n A condensate pot , also known as a seal pot , is a small cylindrical vessel installed in impulse lines between the steam process and the pressure transmitter.\n Its main purpose is to collect and hold condensate (condensed steam) so that the pressure transmitter does not come in direct contact with high-temperature steam.\n It is generally made from stainless steel, carbon steel, or alloy steel , depending on the application pressure and temperature. Condensate pots are installed on both high-pressure (HP) and low-pressure (LP) sides of a\u00a0 differential pressure (DP) transmitter \u00a0used for measuring steam flow or level.\n[caption id=\"\" align=\"aligncenter\" width=\"772\"] image credit: UMC[/caption] Quick Answer\n What Is a Condensate Pot and Why Is It Used?\n A condensate pot, also called a seal pot, is a small vessel in the impulse lines between a steam process and a pressure or DP transmitter . It collects condensed steam so live steam, often above 200\u00b0C, never reaches the transmitter diaphragm.\n Pots are fitted on both the HP and LP sides of a DP transmitter for steam flow or drum level. They keep an equal, constant column of condensate in both legs, so the transmitter senses only the true process pressure difference.\n\n \r\n \r\n \r\n Why Do We Need a Condensate Pot in Steam Lines?\n When measuring pressure or level in a steam application, the transmitter\u2019s impulse lines carry steam from the process to the transmitter. If live steam directly enters the transmitter, it can damage the sensing element due to the high temperature often above 200\u00b0C.\n Here is what the condensate pot does to prevent that:\n It traps steam condensate inside the pot.\n\n The pot maintains a constant column of condensate in the impulse lines.\n\n This ensures that only condensate (not live steam) reaches the transmitter diaphragm.\n\n In short, the condensate pot acts as a thermal barrier and ensures both impulse lines remain filled equally with condensate, allowing accurate differential pressure measurement.\n Working Principle of Condensate Pot\n Let us understand the simple working concept behind it.\n Diagram by Instrumentation Blog showing how a condensate pot works: steam condenses, the pot fills, the column reaches the transmitter and equal legs give the true process DP. When steam flows through the line, some portion naturally condenses due to heat loss. The condensate collects inside the pot and gradually fills the impulse line."
+}

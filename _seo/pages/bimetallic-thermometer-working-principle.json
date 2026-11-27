@@ -1,0 +1,31 @@
+{
+ "id": 18909,
+ "slug": "bimetallic-thermometer-working-principle",
+ "impr": 1007,
+ "ctr": 0.7,
+ "pos": 9.0,
+ "queries": [],
+ "title": "Bimetallic Thermometer: 5 Essential Parts for Reliable Use",
+ "rank_math_title": "",
+ "rank_math_description": "Learn how a bimetallic thermometer works, helical coil design, EN 13190 accuracy classes, stem and thermowell choice, silicone fill and a deflection calculator.",
+ "focus_keyword": "bimetallic thermometer",
+ "headings": [
+  "What Is a Bimetallic Thermometer?",
+  "How the Bimetal Strip Bends",
+  "5 Essential Parts of a Dial Gauge",
+  "Bimetallic Thermometer Standards and Accuracy Classes",
+  "Deflection of a Straight Bimetal Strip",
+  "Bimetal Deflection Calculator",
+  "Thermowells, Stem Length and Response",
+  "Silicone Filling and Vibration",
+  "WIKA TG54 Datasheet PDF",
+  "Dial Thermometer Working Video",
+  "Bimetallic Thermometer Diagram Explained Label by Label",
+  "How to Sketch One in an Exam",
+  "Bimetallic Thermometer FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Temperature\n\r\n Bimetallic Thermometer: 5 Essential Parts for Reliable Use\n\r\n Walk through any refinery, boiler house or utility skid and you will see round dial gauges on pipes reading temperature with no power or wiring at all. Their secret is two metals bonded together that bend by a predictable amount as they warm up.\n\r\n \r\n Helical Coil \r\n EN 13190 \r\n Every Angle Dial \r\n Silicone Filling \r\n \n\r\n\n\r\n\r\n Two metals with different expansion rates, welded into one strip, curl when heated. Wind that strip into a helix inside a stem and the curl becomes shaft rotation that moves a pointer across a dial.\n\r\n\r\n \r\n Hello everyone, today we are going to learn how a bimetallic thermometer turns thermal expansion into pointer movement, which parts and standards matter, and how to choose one for a plant.\r\n\n\r\n \r\n \r\n \r\n Quick Answer\n How Does a Bimetallic Thermometer Work?\n A bimetallic thermometer works by bonding two metals with different thermal expansion rates into one strip , so the strip curls when heated.\n In industrial gauges the strip is wound into a helical coil inside the stem. The bottom of the coil is fixed at the stem tip and the top end turns a thin shaft, which drives the pointer across the dial with no power supply or wiring.\n\n What Is a Bimetallic Thermometer?\n\r\n\r\n A bimetallic thermometer is a mechanical dial gauge that measures temperature using a strip of two metals with different coefficients of thermal expansion. It is one of the simplest local indicators among the types of temperature sensors and needs no power supply.\n\r\n\r\n One metal, often a nickel iron alloy like Invar, barely expands. The other, such as brass or a high expansion steel, grows much more, so the bonded strip curls toward the low expansion side as it warms.\n\r\n\r\n \r\n \r\n Image credit: WIKA . Product image courtesy of WIKA, shown here for educational reference. \r\n \r\n\r\n Advertisement\n \n\n How the Bimetal Strip Bends\n Bimetallic thermometer animation. Numbered parts: Bimetal helix fixed at the stem tip\n Stainless steel stem\n Shaft turned by the free end of the helix\n Pointer and dial\n Threaded process connection\n Bimetal strip: Invar and brass layers\n \r\n\r\n \r\n Heat Applied Stem tip reaches process temperature\n\r\n Unequal Expansion High expansion layer grows more\n\r\n Strip Curls Helix twists about its axis\n\r\n Shaft Rotates Free end turns a central spindle\n\r\n Pointer Moves Dial shows the temperature\n\r\n\n\r\n\r\n In a straight strip, bending is small, so every industrial bimetallic thermometer winds a long strip into a helical coil. The bottom of the coil is fixed in the stem tip, and the top end turns a thin shaft connected directly to the pointer.\n\r\n\r\n Because the helix sits low in a bimetallic thermometer stem, the sensitive length must be fully immersed. Heat reaches it by conduction through the stem wall, so thermal conductivity of the stem and any fill affects speed.\n\r\n\r\n 5 Essential Parts of a Dial Gauge\n\r\n\r\n \r\n Bimetal Helix\n Coiled strip that twists with temperature.\n Best for: the"
+}

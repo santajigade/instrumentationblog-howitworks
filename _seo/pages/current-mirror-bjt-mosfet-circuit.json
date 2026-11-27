@@ -1,0 +1,29 @@
+{
+ "id": 18631,
+ "slug": "current-mirror-bjt-mosfet-circuit",
+ "impr": 767,
+ "ctr": 0.7,
+ "pos": 9.6,
+ "queries": [],
+ "title": "Current Mirror Circuit: 5 Proven Designs for Precise Bias",
+ "rank_math_title": "",
+ "rank_math_description": "Learn how a current mirror copies a reference current with matched BJTs, the key formulas, Early effect errors, Wilson and cascode designs, plus a calculator.",
+ "focus_keyword": "current mirror",
+ "headings": [
+  "What Is a Current Mirror?",
+  "How the Basic Current Mirror Works",
+  "Current Mirror Formulas",
+  "5 Proven Current Mirror Designs",
+  "BJT vs MOSFET Mirrors",
+  "Where a Current Mirror Is Used",
+  "Mirror Output Calculator",
+  "Georgia Tech Mirror Notes PDF",
+  "BJT Mirror Explained Video",
+  "Current Mirror Circuit Using BJT: Step by Step Design",
+  "Current Mirror FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Analog Electronics\n\r\n Current Mirror Circuit: 5 Proven Designs for Precise Bias\n\r\n Two matched transistors and one resistor can hold a steady current into almost any load, and that trick sits inside nearly every analog IC.\n\r\n \r\n Matched Transistors \r\n Reference Current \r\n Early Effect \r\n Wilson and Cascode \r\n \n\r\n\n\r\n\r\n A mirror circuit sets a reference current in one transistor and forces a second transistor to copy it. It replaces resistors for biasing, active loads and constant current sources in amplifiers and ICs.\n\r\n\r\n \r\n Hello everyone, today we are going to learn how a current mirror works, why transistor matching matters, how to calculate its output current, and which improved designs reduce its errors.\r\n\n\r\n \r\n \r\n \r\n Quick Answer\n How Does a Current Mirror Circuit Work?\n A current mirror circuit copies the current in a diode connected reference transistor into a matched output transistor. Both share the same VBE, so the output current stays nearly constant as load voltage changes.\n Use Iref = (VCC \u2212 VBE) \u00f7 R and Iout = Iref \u00d7 \u03b2 \u00f7 (\u03b2 + 2) . Example: VCC = 12 V, VBE = 0.7 V, R = 11.3 k\u03a9 gives Iref = 1.00 mA, and with \u03b2 = 100, Iout = 1.00 \u00d7 100 \u00f7 102 = 0.98 mA.\n\n What Is a Current Mirror?\n\r\n\r\n A current mirror is a circuit that copies the current flowing in a reference transistor into one or more output transistors, holding that output current nearly constant as the load voltage changes. The simplest version uses two matched BJTs whose base emitter junctions share the same voltage, a relationship explained in BJT currents and voltages .\n\r\n\r\n All About Circuits explains that holding VBE constant holds the emitter current constant. The collector current through the load is therefore regulated.\n\r\n\r\n \r\n \r\n Image credit: All About Circuits \r\n \r\n\r\n An NPN version sinks current from a load tied to the positive supply. A PNP version sources current into a load tied to ground.\n\r\n\r\n Mirrors are the standard way to bias the differential amplifier stage inside every op amp . They also act as active loads that give very high gain.\n\r\n\r\n Advertisement\n \n\n How the Basic Current Mirror Works\n\r\n\r\n \r\n Reference Resistor Sets current into Q1\n\r\n Diode Connected Q1 Base tied to collector sets VBE\n\r\n Shared VBE Q2 base sees the same voltage\n\r\n Matched Devices Same VBE gives the same current\n\r\n Output Q2 collector copies the reference\n\r\n\n\r\n\r\n Q1 is diode connected, so its VBE adjusts itself to carry the reference current. Q2 has the identical VBE and, if matched, carries the same collector current.\n\r\n\r\n All About Circuits stresses that both transistors must share the same temperature. Discrete designs glue the cases together, while ICs place them side by side on one die.\n\r\n\r\n Current Mirror Formulas\n\r\n\r\n \r\n I ref = (VCC minus VBE) \u00f7 R \n I out = I ref \u00d7 \u03b2 \u00f7 (\u03b2 + 2) \n With Early effect: I out \u2248 I out \u00d7 (1 + (VCE2 minus VCE1) \u00f7 VA) \n\nWorked example:\nVCC = 12 V, VBE = 0.7 V, R = 11.3 k\u03a9, I ref = 1.00 mA\n\u03b2 = 100, I out = 1.00 \u00d7 100 \u00f7 102 = 0.980 mA\nVA = 100 V, VCE2 = 5 V,"
+}
