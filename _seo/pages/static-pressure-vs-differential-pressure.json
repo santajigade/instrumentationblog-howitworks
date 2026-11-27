@@ -1,0 +1,25 @@
+{
+ "id": 9946,
+ "slug": "static-pressure-vs-differential-pressure",
+ "impr": 484,
+ "ctr": 1.4,
+ "pos": 4.1,
+ "queries": [],
+ "title": "Static Pressure vs Differential Pressure | Concepts, Examples &#038; Industrial Uses",
+ "rank_math_title": "Static Pressure vs Differential Pressure: Concepts & Uses",
+ "rank_math_description": "A simple guide to static pressure vs differential pressure with formulas, plant examples, and practical industrial uses in instrumentation",
+ "focus_keyword": "Static Pressure vs Differential Pressure,Differential pressure",
+ "headings": [
+  "What Is Pressure? (Quick and Simple)",
+  "What Is Static Pressure?",
+  "Static Pressure Formula in Liquid Systems",
+  "What Is Differential Pressure?",
+  "Static Pressure vs Differential Pressure \u2013 Core Difference",
+  "Flow Measurement Using Differential Pressure (With Formula)",
+  "Level Measurement Using Differential Pressure (With Formula)",
+  "Static Pressure Transmitter vs Differential Pressure Transmitter",
+  "How to Decide: Static or Differential?",
+  "What we learn today?"
+ ],
+ "text": "If you are studying instrumentation or already working in the field, I am sure you have heard these two terms many times: static pressure and differential pressure .\u00a0\n At first, both sound almost the same because both deal with pressure. But once you start working with real plant systems, you quickly realize that their applications and purposes are completely different.\n In this article, I am going to explain static pressure vs differential pressure in the simplest way.\u00a0\n Quick Answer\n What Is the Difference Between Static and Differential Pressure?\n Static pressure is measured at a single point in a system, while differential pressure is the difference between pressures at two points.\n Feature Static Pressure Differential Pressure \n Tapping points One Two, high and low side \n Instruments Gauge, transmitter, switch DP transmitter, gauge, switch \n Main use Monitoring and protection Flow, level, filter condition \n Formula: \u0394P = P\u2081 \u2212 P\u2082 . A filter with 6 bar inlet and 4 bar outlet has \u0394P = 6 \u2212 4 = 2 bar.\n\n \r\n \r\n What Is Pressure? (Quick and Simple)\n In simple words, pressure is the force exerted by a fluid on a surface . Whenever a liquid or gas is trapped inside a pipe, tank, or vessel, it creates pressure.\u00a0\n This pressure is commonly measured in bar, psi, Pascal, or kg/cm\u00b2.\n Now, depending on how and where we measure this pressure , we classify it as:\n Static pressure \n Differential pressure \n Understanding this distinction is extremely important for correct instrument selection and correct measurement.\n What Is Static Pressure?\n Static pressure is the pressure measured at a single point in a system. It tells you how much pressure exists exactly at that location, without comparing it with any other point.\n Let me give you a very simple real-life example.\u00a0\n Imagine a water tank on your building terrace. The pressure at the bottom outlet depends on how high the water level is inside the tank. That pressure at the outlet is static pressure. You are measuring pressure at only one location.\n Another common example is the pressure inside a\u00a0 compressed air \u00a0receiver. The value shown on the pressure gauge mounted on that tank is also static pressure.\n In industrial plants, static pressure is measured in pipelines, storage vessels, boilers, compressors, hydraulic systems, and at the discharge of pumps.\u00a0\n The main purpose of static pressure measurement is safety and basic system monitoring .\n Static pressure is measured using pressure gauges, pressure transmitters, and pressure switches. These instruments have only one pressure port , because they sense pressure at a single point.\n \r\n \r\n Static Pressure Formula in Liquid Systems\n In liquid systems, static pressure due to a liquid column depends on liquid density and height.\u00a0\n The relationship is given by a very simple and important formula:\n P = \u03c1gh \n Where: P = static pressure \u03c1 = density of the liquid g = gravitational acceleration h = height of the liquid column\n This formula clearly tells us that as the"
+}

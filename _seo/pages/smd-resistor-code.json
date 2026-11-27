@@ -1,0 +1,29 @@
+{
+ "id": 20575,
+ "slug": "smd-resistor-code",
+ "impr": 542,
+ "ctr": 0.2,
+ "pos": 9.6,
+ "queries": [],
+ "title": "SMD Resistor Code: EIA 96 Chart, Size Table &#038; Calculator",
+ "rank_math_title": "",
+ "rank_math_description": "SMD resistor code guide with a full EIA 96 chart, 3 and 4 digit decoding, R notation and 0402 to 2512 power ratings. A 1206 chip is rated 0.25 W at 70 \u00b0C.",
+ "focus_keyword": "smd resistor code",
+ "headings": [
+  "What Is an SMD Resistor Code?",
+  "How to Read an SMD Resistor Code With 3 Digits",
+  "4 Digit Code and R Notation",
+  "EIA 96 SMD Resistor Code Chart",
+  "What Does 000 Mean on an SMD Resistor?",
+  "SMD Resistor Size Chart and Power Ratings",
+  "Solved Example and Decoder Calculator",
+  "How to Identify an Unknown SMD Resistor",
+  "SMD Resistor Value Chart for Common 3 Digit and 4 Digit Codes",
+  "How to Use the Chart",
+  "SMD Resistor Code FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Electronic Components\n\r\n SMD Resistor Code: How to Read 3 Digit, 4 Digit and EIA 96 Markings, R Notation, 0 Ohm Jumpers and Package Power Ratings\n\r\n Those tiny black chips on every PCB carry their value as a short printed code. Learn to decode all three marking systems, check the power rating of the package and test a doubtful part with confidence.\n\r\n \r\n 3 and 4 Digit Codes \r\n EIA 96 Chart \r\n R Notation \r\n Package Sizes \r\n Calculator \r\n \n\r\n\n\r\n\r\n An SMD resistor code is a short marking that tells you the resistance of a chip resistor without a meter. This guide covers every common system, a full EIA 96 table, package power ratings and a decoder calculator.\n\r\n\r\n \r\n Hello everyone, today we are going to learn how to read any smd resistor code, from simple 3 digit markings to EIA 96 letters, along with the power each package can handle.\r\n\n\r\n \r\n \r\n \r\n What Is an SMD Resistor Code?\n\r\n An smd resistor code is the number or letter marking printed on a surface mount chip resistor that gives its resistance value in a compact form. The three common systems are the 3 digit code, the 4 digit code and the EIA 96 code, with the letter R used as a decimal point.\n\r\n \r\n \r\n Marking System Value \n\r\n 472 3 digit 47 \u00d7 10\u00b2 = 4.7 k\u03a9 \n\r\n 103 3 digit 10 \u00d7 10\u00b3 = 10 k\u03a9 \n\r\n 4702 4 digit 470 \u00d7 10\u00b2 = 47 k\u03a9 \n\r\n 4R7 R notation 4.7 \u03a9 \n\r\n 01C EIA 96 100 \u00d7 100 = 10 k\u03a9 \n\r\n 000 Jumper 0 \u03a9 link \n\r\n \r\n\n\r\n The last digit of a numeric smd resistor code is always the multiplier, written as the number of zeros to add after the significant digits. Once you remember that one rule, most of the codes on an industrial PCB can be read in seconds.\n\r\n \r\n \r\n Image credit: JLCPCB . Chart courtesy of JLCPCB, shown here for educational reference. \r\n \r\n Through hole parts use colour bands instead, as explained in our resistor color code guide . Chip parts are too small for bands, so a printed number is the cheaper option for the manufacturer.\n\r\n Do You Know?\n JLCPCB notes that most 0201 and 01005 resistors carry no marking at all because the body is too small to print on. For these parts the bill of materials and the pick and place file are the only reliable record.\n\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n How to Read an SMD Resistor Code With 3 Digits\n\r\n The 3 digit system is used for 2 %, 5 % and 10 % tolerance parts in the E24 series, according to the Vishay marking document. The first two digits are the significant figures and the third digit is the power of ten.\n\r\n \r\nValue = first two digits \u00d7 10^(third digit)\n472 = 47 \u00d7 10\u00b2 = 4700 \u03a9\n 472 = 4.7 k\u03a9 \n220 = 22 \u00d7 10\u2070 = 22 \u03a9\r\n\n\r\n A third digit of 0 means no zeros, so 100 is 10 \u03a9 and not 100 \u03a9, which is the most common reading error by beginners. Values under 10 \u03a9 cannot use this format, so the letter R takes over, as shown in the next section.\n\r\n \r\n \r\n 3 digit smd resistor code Value Common use \n\r\n 100 10 \u03a9 Gate and series resistors \n\r\n 221 220 \u03a9 LED current limit \n\r\n 102 1 k\u03a9 Base resistors \n\r\n 472 4.7 k\u03a9 I2C pull up \n\r\n 103 10 k\u03a9 Pull up and pull down "
+}

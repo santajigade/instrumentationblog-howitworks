@@ -1,0 +1,33 @@
+{
+ "id": 19944,
+ "slug": "lenzs-law-electromagnetic-induction",
+ "impr": 313,
+ "ctr": 0.6,
+ "pos": 6.9,
+ "queries": [],
+ "title": "Lenzs Law: 7 Powerful Examples That Make Induction Easy",
+ "rank_math_title": "",
+ "rank_math_description": "Why does a magnet fall slowly through a copper pipe? Lenzs law explains it, plus the minus sign, energy conservation, eddy brakes, back EMF and a calculator.",
+ "focus_keyword": "Lenzs Law,Lenz's Law",
+ "headings": [
+  "What Is Lenzs Law?",
+  "The Minus Sign in Faraday's Equation",
+  "Why Opposition Means Energy Is Conserved",
+  "4 Steps to Find the Induced Current Direction",
+  "Lenz's Law Calculator",
+  "Second Worked Example: Magnet Approaching a Coil",
+  "Magnet in a Copper Pipe: Measured Results",
+  "Where Lenz Opposition Shows Up",
+  "7 Powerful Lenz's Law Examples",
+  "How Lenz's Law Works in a Transformer",
+  "Faraday's Law and Lenz's Law Compared",
+  "Lab Demonstration Checklist",
+  "Electromagnetic Braking Paper PDF",
+  "Copper Tube Demonstration Video",
+  "Lenz's Law FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Electrical Fundamentals\n\r\n Lenzs Law: 7 Powerful Examples That Make Induction Easy\n\r\n Drop a strong magnet down a copper pipe and it drifts down slowly, as if the pipe were full of honey. The reason is one short rule about the direction of induced current, and the same rule shapes motors, transformers, relays and brakes.\n\r\n \r\n Opposing Flux \r\n Minus Sign \r\n Energy Conservation \r\n Eddy Currents \r\n Back EMF \r\n \n\r\n\n\r\n\r\n Lenz's law tells us which way an induced current flows: always so that its own magnetic field opposes the change that produced it. That single idea explains magnetic braking, back EMF and the minus sign in Faraday's equation.\n\r\n\r\n \r\n Hello everyone, today we are going to learn Lenz's law, why the induced current always opposes the change in flux, how it links to energy conservation and where engineers meet it every day.\r\n\n\r\n \r\n \r\n \r\n What Is Lenzs Law?\n\r\n\r\n Lenz's law states that the current induced in a closed conductor by a changing magnetic flux always flows in a direction whose own magnetic field opposes that change in flux. It does not tell you how large the voltage is, which comes from Faraday law of electromagnetic induction , but it tells you the direction every time.\n\r\n\r\n Note the word change in Lenz's law. The induced current does not oppose the magnetic field itself, it opposes any increase or decrease of the flux through the loop.\n\r\n\r\n \r\n \r\n Image credit: IOP Spark . Photo courtesy of IOP Spark, shown here for educational reference. \r\n \r\n\r\n The law was published by the Baltic German physicist Heinrich Lenz in 1834. The National MagLab notes that it is a consequence of the conservation of energy and that the symbol L used for inductance honours his work.\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n The Minus Sign in Faraday's Equation\n\r\n\r\n Engineers usually write Faraday's result and Lenz's law together in one equation. The size of the EMF depends on the number of turns and the rate of change of flux, while the minus sign carries the direction rule.\n\r\n\r\n \r\n EMF = minus N \u00d7 d\u03a6 \u00f7 dt \n \u03a6 = B \u00d7 A \u00d7 cos \u03b8 \n Induced current I = |EMF| \u00f7 R \n\nN = turns, \u03a6 = flux in webers, B = flux density in tesla, A = loop area in m\u00b2, R = loop resistance\n\nExample: N = 200, A = 10 cm\u00b2 = 0.001 m\u00b2, B falls from 0.6 T to 0.2 T in 50 ms, R = 8 \u03a9\n\u0394\u03a6 = 0.001 \u00d7 (0.2 minus 0.6) = minus 0.0004 Wb\nEMF = minus 200 \u00d7 (minus 0.0004) \u00f7 0.05 = 1.6 V\n I = 1.6 \u00f7 8 = 0.2 A, its field aids the original field to resist the decrease \r\n\n\r\n\r\n The positive answer in the example tells us that the induced EMF acts to keep the flux from falling. If the flux were rising instead, the sign would flip and the induced field would push against the original one.\n\r\n\r\n In a coil carrying its own changing current, the same sign appears as self induced voltage, the basis of the inductor working principle . This is why current in an inductor cannot change instantly.\n\r\n\r\n Why Opposition Means Energy Is Conserved\n\r\n\r\n Imagine the opposite rule, where the induced current helped the change. A mag"
+}

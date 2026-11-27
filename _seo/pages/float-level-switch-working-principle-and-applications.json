@@ -1,0 +1,33 @@
+{
+ "id": 7142,
+ "slug": "float-level-switch-working-principle-and-applications",
+ "impr": 330,
+ "ctr": 0.3,
+ "pos": 9.5,
+ "queries": [],
+ "title": "Float Level Switch: Working Principle, Types and Industrial Applications",
+ "rank_math_title": "Float Level Switch: Working Principle, Types & Applications",
+ "rank_math_description": "Learn how a float level switch works and its applications. Covers magnetic, mechanical, and reed switch designs, installation, and selection tips.",
+ "focus_keyword": "Float Level Switch",
+ "headings": [
+  "What is Buoyancy?",
+  "How does this apply to float switches?",
+  "1. Float on the Liquid Surface",
+  "2. Magnet Inside the Float",
+  "3. Switch Activation",
+  "Simple Design",
+  "Reliable",
+  "Cost-effective",
+  "Works in High Temperatures",
+  "Customizable",
+  "Power Plants",
+  "Petrochemical and Refinery Plants",
+  "Chemical Plants",
+  "Paper and Pulp Mills",
+  "Sugar Mills",
+  "Ships and Marine Systems",
+  "Float Type Level Switch Types and Selection Guide",
+  "Points to Check When Selecting One"
+ ],
+ "text": "Float Level Switch: Introduction Understanding how we measure the\u00a0 level of liquids \u00a0in tanks is very important for students in the instrumentation field. One common and simple device used for this is the Float Level Switch .\n In this blog, we will explain:\n What is a float level switch? \n How does it work? \n Why is it used? \n Where is it used? \n So, Let\u2019s begin!\n What is a Float Level Switch? A Float Level Switch is a device used to detect the level of liquid in a tank or vessel. It tells us when the liquid is too high , too low , or at a specific level .\n It works with the help of a float \u2013 a small object that floats on the surface of the liquid.\n The Basic Principle \u2013 Buoyancy What is Buoyancy?\n Buoyancy means that when an object is placed in a liquid, the liquid pushes it up. This upward force is called the buoyant force .\n The rule says: \"The buoyant force on an object is equal to the weight of the liquid it pushes away (displaces).\"\n How does this apply to float switches?\n A float is designed to stay partially above the liquid and partially below. As the liquid level rises or falls, the float moves up or down with it.\n This movement is used to turn a switch ON or OFF depending on the level of liquid.\n How Does a Float Level Switch Work? Float level switch animation. Numbered parts: Float with magnet ring\n HIGH level reed switch\n LOW level reed switch\n Pump that fills the tank\n Pump controller\n Outlet to process\n Let us understand the working into simple steps:\n 1. Float on the Liquid Surface \n The float stays on top of the liquid. \n It rises when the liquid level rises. \n It falls when the liquid level drops. \n 2. Magnet Inside the Float \n Inside the float or inside a tube connected to the float, there is a magnet or magnetic sleeve . \n This magnet moves with the float. \n 3. Switch Activation \n Inside the tube or housing, there is an electrical switch (like a reed switch) or a pneumatic switch . \n When the float moves to a certain position (high or low), the magnet comes close to this switch. \n The magnetic field turns the switch ON (activates it). \n When the float moves away, the magnet goes away and turns the switch OFF (deactivates it). \n So, the float movement controls the switch. This switch can be used to turn on an alarm , start/stop a pump , or send a signal to a control system .\n Simple Example to Understand Imagine you are filling water in a tank.\n At the low level , the float is at the bottom and the switch is OFF. \n As the water level rises, the float goes up. \n When the water reaches a set point, the float reaches the switch level. \n The magnet activates the switch \u2192 An alarm rings or a pump stops . \n When the water level drops again, the float goes down, the switch turns OFF, and the process repeats. \n This is how a float level switch helps in monitoring and controlling liquid levels.\n Types of Float Switch Applications Float switches are mainly used for:\n High level alarm (to prevent overflow) \n Low level alarm (to avoid runn"
+}

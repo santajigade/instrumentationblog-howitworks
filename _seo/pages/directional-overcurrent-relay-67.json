@@ -1,0 +1,33 @@
+{
+ "id": 20225,
+ "slug": "directional-overcurrent-relay-67",
+ "impr": 372,
+ "ctr": 1.3,
+ "pos": 9.6,
+ "queries": [],
+ "title": "Directional Overcurrent Relay: 6 Proven, Easy Setting Steps",
+ "rank_math_title": "",
+ "rank_math_description": "Healthy feeders tripping on a ring main? See how a directional overcurrent relay uses polarising voltage and torque angle to isolate only the faulty section.",
+ "focus_keyword": "directional overcurrent relay",
+ "headings": [
+  "What Is a Directional Overcurrent Relay?",
+  "ANSI 67 and 67N Elements Explained",
+  "Polarising Quantity: The Reference for Direction",
+  "Maximum Torque Angle and the Operating Zone",
+  "Directional Overcurrent Relay Calculator",
+  "Second Worked Example: A Reverse Fault",
+  "Where Direction Sensing Is Needed",
+  "6 Proven Steps to Set a Directional Overcurrent Relay",
+  "Coordinating Rings and Parallel Feeders",
+  "Commissioning and Testing a 67 Element",
+  "Common Mistakes With Directional Overcurrent Relay Settings",
+  "Troubleshooting Wrong Direction Trips",
+  "Basler Technical Paper on 67 Relaying",
+  "Video Lesson on 67 Protection",
+  "Directional Overcurrent Relay FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Power Quality & Protection\n\r\n Directional Overcurrent Relay: 6 Proven, Easy Setting Steps\n\r\n On a ring main or two parallel feeders, fault current can reach a breaker from either side, and a plain overcurrent element cannot tell which side is faulty. Adding direction sensing lets only the breakers nearest the fault trip, so healthy feeders stay in service.\n\r\n \r\n ANSI 67 and 67N \r\n Polarising Quantity \r\n Maximum Torque Angle \r\n Ring Main Grading \r\n \n\r\n\n\r\n\r\n A plain overcurrent relay measures only how much current flows, not which way it flows. The directional overcurrent relay adds a phase angle check against a polarising quantity, which keeps ring mains, parallel feeders and generator incomers selective.\n\r\n\r\n \r\n Hello everyone, today we are going to learn how a directional overcurrent relay decides fault direction, how polarising quantities and the maximum torque angle work, and how to set and coordinate 67 and 67N elements.\r\n\n\r\n \r\n \r\n \r\n What Is a Directional Overcurrent Relay?\n\r\n\r\n A directional overcurrent relay is a protection device, ANSI number 67, that trips only when current exceeds its pickup setting and also flows in a chosen direction. It combines a normal overcurrent element from the family of protective relays with a direction element that compares the phase angle of the current with a reference called the polarising quantity.\n\r\n\r\n In a simple radial feeder, current always flows from the source towards the load, so ordinary 50 and 51 elements are enough. In a ring main or with parallel feeders, explained in radial and ring power distribution , fault current can arrive from both ends and a non directional relay may trip a healthy section.\n\r\n\r\n \r\n \r\n \r\n \r\n\r\n PT and CT waveforms showing forward and reverse current shifted by 180 degrees relative to voltage. \r\n \r\n\r\n Control.com explains that in an AC system a reverse current is shifted by 180 degrees from the forward current, so direction can be judged only by comparing the current waveform with a reference waveform. That reference is usually a voltage taken from a voltage transformer.\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n ANSI 67 and 67N Elements Explained\n\r\n\r\n In a directional overcurrent relay, the phase element, ANSI 67, uses phase currents and is meant for phase to phase and three phase faults. The earth element, ANSI 67N, uses residual or zero sequence current and detects earth faults in the selected direction.\n\r\n\r\n \r\n 67 Phase Element\n Compares each phase current with a quadrature line voltage.\n Best for: phase faults on rings and parallel lines\n Phase \n\r\n 67N Earth Element\n Compares residual current with zero sequence voltage or a neutral current.\n Best for: earth faults on resistance earthed systems\n Earth \n\r\n 67Q Negative Sequence\n Uses negative sequence voltage and current for unbalanced faults.\n Best for: long lines and weak sources\n Sequence \n\r\n\n\r\n\r\n Control.com notes that negative sequence quantities appear only during asymmetrical faults, which are far more common than bal"
+}

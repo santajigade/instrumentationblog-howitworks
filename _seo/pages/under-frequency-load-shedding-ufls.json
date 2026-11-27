@@ -1,0 +1,33 @@
+{
+ "id": 19986,
+ "slug": "under-frequency-load-shedding-ufls",
+ "impr": 369,
+ "ctr": 1.4,
+ "pos": 5.1,
+ "queries": [],
+ "title": "Under Frequency Load Shedding: 4 Vital Stages Made Easy",
+ "rank_math_title": "",
+ "rank_math_description": "IEGC 2023 sets four UFR stages at 49.4, 49.2, 49.0 and 48.8 Hz. See how under frequency load shedding, df/dt relays and islanding protect the Indian grid.",
+ "focus_keyword": "under frequency load shedding",
+ "headings": [
+  "What Is Under Frequency Load Shedding?",
+  "Why Grid Frequency Falls After a Trip",
+  "India's 4 Stage UFR Settings Under IEGC 2023",
+  "Rate of Change of Frequency Formula",
+  "Frequency Decay Calculator",
+  "Second Worked Example: Sizing State Load Relief",
+  "Fixed Stage, df/dt and Adaptive Schemes",
+  "Sequence of Events During a Generation Loss",
+  "Islanding Schemes for Plants and Cities",
+  "7 Steps to Design an Under Frequency Load Shedding Scheme",
+  "Testing and Maintaining UFR Relays",
+  "Where Under Frequency Load Shedding Is Applied",
+  "ERPC Minutes on Automatic Load Relief",
+  "Video: How Load Shedding Protects the Grid",
+  "Under Frequency Load Shedding FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Power Systems\n\r\n Under Frequency Load Shedding: 4 Vital Stages Made Easy\n\r\n When a large generating unit or an import line trips, grid frequency starts falling within milliseconds. Automatic relays then disconnect planned blocks of load in stages, sacrificing a few feeders so that the rest of the grid stays alive.\n\r\n \r\n UFR Stages \r\n df/dt Relays \r\n Swing Equation \r\n IEGC 2023 \r\n Islanding \r\n \n\r\n\n\r\n\r\n Under frequency load shedding is the last automatic defence that stops a generation shortfall from turning into a blackout. This guide explains the physics, the four Indian UFR stages, df/dt relays, islanding and how to calculate how fast frequency falls.\n\r\n\r\n \r\n Hello everyone, today we are going to learn how under frequency load shedding works, why grid frequency falls after a generator trips, how UFR and df/dt relays are set and how Indian utilities plan load relief.\r\n\n\r\n \r\n \r\n \r\n Quick Answer\n What Is Under Frequency Load Shedding (UFLS)?\n Under frequency load shedding is an automatic protection scheme that trips planned distribution feeders in steps when grid frequency falls after a loss of generation, restoring the balance between generation and load before a blackout.\n Stage (IEGC 2023) Frequency Relief \n Stage 1 49.4 Hz 5% of peak \n Stage 2 49.2 Hz 6% of peak \n Stage 3 49.0 Hz 7% of peak \n Stage 4 48.8 Hz 7% of peak \n Total planned relief is 25% of the previous year peak demand.\n\n What Is Under Frequency Load Shedding?\n\r\n\r\n Under frequency load shedding, often shortened to UFLS, is an automatic protection scheme that trips selected distribution feeders in planned steps when system frequency falls below set limits after a loss of generation. By reducing demand quickly, it restores the balance between generation and load before turbines, auxiliaries and protective relays start tripping healthy machines.\n\r\n\r\n Frequency in an AC grid is a direct measure of balance. When generation exceeds load, the rotating machines speed up, and when load exceeds generation, they slow down and frequency drops.\n\r\n\r\n \r\n \r\n Image credit: NOJA Power . Photo courtesy of NOJA Power, shown here for educational reference. \r\n \r\n\r\n NOJA Power describes distribution reclosers and feeder breakers as a common place for automatic load shedding, since parts of the network can be dropped progressively instead of losing everything. Once generation again matches load, operators restore those feeders one by one.\n\r\n\r\n \r\n \n Advertisement \n\n\r\n \r\n \n\r\n\r\n Why Grid Frequency Falls After a Trip\n\r\n\r\n All synchronous generators on a grid store kinetic energy in their rotors, and this stored energy, called inertia, feeds the deficit in the first seconds after a trip. The bigger the inertia, the slower the fall, which is why system studies express it as the inertia constant H on a common base, as explained in the per unit system .\n\r\n\r\n Governors then raise turbine output, but they need several seconds to respond. If the frequency nadir would go below what turbines and generator excitation sy"
+}

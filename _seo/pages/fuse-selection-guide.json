@@ -1,0 +1,32 @@
+{
+ "id": 17119,
+ "slug": "fuse-selection-guide",
+ "impr": 441,
+ "ctr": 0.5,
+ "pos": 8.0,
+ "queries": [],
+ "title": "Fuse Selection Guide: Types, Ratings and Coordination",
+ "rank_math_title": "Fuse Selection Guide: Types, Ratings and Coordination",
+ "rank_math_description": "Fuse selection guide: gG, aM and aR fuse types, current and voltage ratings, breaking capacity, I2t coordination and a live rating checker.",
+ "focus_keyword": "fuse selection",
+ "headings": [
+  "Fuse Selection Guide: The 4 Parameters Every Engineer Must Check",
+  "Fuse Types and IEC Utilisation Categories",
+  "How to Select the Correct Fuse Rating: Fuse Selection Step by Step",
+  "Step 1 -- Rated Current",
+  "Step 2 -- Voltage Rating",
+  "Step 3 -- Breaking Capacity",
+  "Fuse Coordination and Selectivity",
+  "Fuse Selection Calculator and Coordination Checker",
+  "Fuse Selection Guide for Common Applications",
+  "Motor Branch Circuit",
+  "Distribution Board Feeder",
+  "VFD and Power Electronics",
+  "Hazardous Area Installations",
+  "Watch: Fuse Sizing and Selection Explained",
+  "Fuse Selection Guide Questions",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Electrical Design and Calculations\n\r\n Fuse Selection Guide: Types, Ratings and Coordination\n\r\n A complete fuse selection guide covers more than ampere rating. The fuse type, voltage rating, breaking capacity, utilisation category, and coordination with upstream and downstream devices all determine whether the installation is properly protected.\n\r\n This fuse selection guide covers fuse types, rating selection, and coordination across a distribution system.\n\r\n \r\n gG and aM Categories \r\n Breaking Capacity \r\n I\u00b2t Coordination \r\n Selectivity Ratio \r\n \n\r\n\n\r\n\r\n Fuse selection in any fuse selection guide starts with four parameters: rated current, voltage rating, breaking capacity, and utilisation category. Get any one wrong and the fuse either nuisance trips on normal inrush or fails to interrupt a real fault.\n\r\n\r\n Quick Answer\n How to Select the Correct Fuse Rating?\n Fuse selection starts with four parameters, followed by a coordination check.\n Rated current above maximum load current, not above cable ampacity.\n Voltage rating at or above system voltage, with the correct AC or DC rating.\n Breaking capacity above the prospective short circuit current.\n Utilisation category: gG for cables, aM for motors, aR or gR for semiconductors.\n Coordination: check time current curves and keep at least a 2:1 ratio between line side and load side fuses.\n A wrong choice nuisance trips or fails to clear a fault.\n\n Fuse Selection Guide: The 4 Parameters Every Engineer Must Check\n\r\n\r\n \r\n Hi everyone! Today we are going through a complete fuse selection guide -- from understanding the different fuse types to choosing the right rating for motors, cables, and semiconductor equipment, and then confirming that the fuses coordinate with each other across the distribution system.\r\n\n\r\n \r\n \r\n \r\n \r\n A fuse protects by melting when current exceeds the rated value. The time to melt depends on the current -- shown on a time-current curve (TCC) .\n\r\n Two parameters beyond ampere rating are critical in any fuse selection guide: the breaking capacity , which must exceed the prospective short-circuit current at the installation point, and the utilisation category , which defines whether the fuse handles motor inrush, semiconductor protection, or general cable protection.\n\r\n Time Current Curve (TCC): A log-log graph showing how quickly the fuse clears at each multiple of its rated current. At 10 times rated current a gG fuse clears in 0.1 to 5 seconds. At 20 times rated current it clears in milliseconds. The TCC is the only reliable way to verify coordination between two fuses or a fuse and a circuit breaker.\n\r\n Breaking Capacity: The maximum short-circuit current the fuse can safely interrupt. If the prospective fault current at the installation point exceeds the fuse's breaking capacity, the fuse may rupture explosively or fail to interrupt the fault. Always verify that breaking capacity is greater than or equal to the available fault current. HRC fuses typically have breaking capacities"
+}

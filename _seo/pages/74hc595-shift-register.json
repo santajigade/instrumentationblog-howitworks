@@ -1,0 +1,31 @@
+{
+ "id": 18469,
+ "slug": "74hc595-shift-register",
+ "impr": 472,
+ "ctr": 0.4,
+ "pos": 7.3,
+ "queries": [],
+ "title": "74HC595 Shift Register: 6 Essential Pins Explained Clearly",
+ "rank_math_title": "",
+ "rank_math_description": "Learn how the 74HC595 shift register turns 3 microcontroller pins into 8 or more outputs, with pin functions, daisy chaining, current limits and a calculator.",
+ "focus_keyword": "74HC595 shift register",
+ "headings": [
+  "What Is the 74HC595 Shift Register?",
+  "6 Essential Pins and Their Jobs",
+  "How Data Moves Through the Chip",
+  "Update Time and Current Formula",
+  "Daisy Chaining the 74HC595 Shift Register",
+  "74HC595 vs Other Output Expanders",
+  "Typical 74HC595 Shift Register Uses",
+  "Chain and Current Calculator",
+  "SN74HC595 Datasheet PDF",
+  "Shift Register Explained Video",
+  "IC 74HC595 Pinout: All 16 Pins at a Glance",
+  "Wiring Checklist",
+  "74HC595 Shift Register FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Digital Electronics\n\r\n 74HC595 Shift Register: 6 Essential Pins Explained Clearly\n\r\n Three wires from a microcontroller can drive dozens of LEDs or relays, thanks to one small serial to parallel chip.\n\r\n \r\n Serial In Parallel Out \r\n Latch \r\n Daisy Chaining \r\n Output Expansion \r\n \n\r\n\n\r\n\r\n The 74HC595 shift register receives data one bit at a time and presents it on eight parallel outputs. Its built in latch lets all outputs change together, and chips can be chained for more outputs.\n\r\n\r\n \r\n Hello everyone, today we are going to learn how the 74HC595 shift register works, what each control pin does, and how to chain several chips while staying inside safe current limits.\r\n\n\r\n \r\n \r\n \r\n Quick Answer\n How Does the 74HC595 Shift Register Work?\n The 74HC595 shift register is an 8 bit serial in, parallel out IC with an output latch. Each SRCLK rising edge shifts one bit from SER into the chain; after 8 bits, one RCLK pulse copies the byte to outputs QA to QH so they change together.\n QH prime feeds the next chip for daisy chaining. Outputs = 8 \u00d7 number of chips : 3 chips give 24 outputs, updated in about 24 \u00b5s at 1 MHz. Keep total current under 70 mA per chip.\n\n What Is the 74HC595 Shift Register?\n\r\n\r\n The 74HC595 shift register is an 8 bit serial in, parallel out logic IC with a separate storage register and three state outputs. It is built from the same flip flops described in flip flop types .\n\r\n\r\n Data enters one bit per clock pulse, shifting along an internal chain of eight stages. A second clock then copies the whole byte into an output latch in one step.\n\r\n\r\n \r\n \r\n Image credit: Last Minute Engineers \r\n \r\n\r\n Because the outputs update only when the latch clock arrives, LEDs or relays never show half shifted patterns. That is the key advantage over simpler shift registers.\n\r\n\r\n The idea is the same as the software shift instructions in PLC shift registers , but done in hardware at very high speed.\n\r\n\r\n Advertisement\n \n\n 6 Essential Pins and Their Jobs\n 74HC595 shift register animation. Numbered parts: SER serial data input\n Shift register: bits move one stage on each SRCLK rising edge\n Output latch QA to QH, updated only by RCLK\n LEDs on the outputs change together\n SRCLK shift clock pulses (8 per byte)\n RCLK latch clock pulse\n \r\n\r\n \r\n 1\n SER\n Serial data input where each new bit enters.\n\n\r\n 2\n SRCLK\n Shift clock, moves data one stage on each rising edge.\n\n\r\n 3\n RCLK\n Latch clock, copies the shift register to the outputs.\n\n\r\n 4\n OE\n Output enable, active low, turns all outputs on or off.\n\n\r\n 5\n SRCLR\n Clear, active low, resets the shift register to zero.\n\n\r\n 6\n QH Prime\n Serial output that feeds the next chip in a chain.\n\n\r\n\n\r\n\r\n In many simple projects, OE is tied to ground and SRCLR to the supply, leaving just SER, SRCLK and RCLK. That is how three microcontroller pins control eight outputs.\n\r\n\r\n Driving OE with PWM dims all outputs together, a handy trick for LED displays. Pulling SRCLR low clears the internal register, but outputs change only a"
+}

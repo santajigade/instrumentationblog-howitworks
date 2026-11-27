@@ -1,0 +1,28 @@
+{
+ "id": 17360,
+ "slug": "flow-nozzle-vs-orifice-plate-vs-venturi",
+ "impr": 453,
+ "ctr": 1.1,
+ "pos": 4.8,
+ "queries": [],
+ "title": "Flow Nozzle vs Orifice Plate vs Venturi: Performance Comparison Guide",
+ "rank_math_title": "Flow Nozzle vs Orifice Plate vs Venturi: Comparison",
+ "rank_math_description": "Flow nozzle vs orifice plate vs venturi: discharge coefficient, pressure loss, accuracy, erosion and dirty fluid suitability, with a live selector.",
+ "focus_keyword": "flow nozzle",
+ "headings": [
+  "How All Three DP Flow Meters Work",
+  "Orifice Plate: Simple, Cheap, and High Pressure Loss",
+  "Key Orifice Plate Facts",
+  "Flow Nozzle: High Velocity, Low Erosion, Compact",
+  "Key Flow Nozzle Facts",
+  "Venturi Tube: Lowest Pressure Loss, Highest Cost",
+  "Key Venturi Tube Facts",
+  "Flow Nozzle vs Orifice Plate vs Venturi: Side-by-Side",
+  "DP Flow Meter Primary Element Selector",
+  "Watch: Venturi vs Orifice Plate: Key Differences (2025 Updated)",
+  "Flow Nozzle vs Orifice Plate vs Venturi Questions",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "Process Instrumentation\n\r\n Flow Nozzle vs Orifice Plate vs Venturi: Performance Comparison Guide\n\r\n All three are differential pressure (DP) flow meters working on the Bernoulli equation.\n\r\n A constriction increases velocity and reduces pressure. The measured DP is proportional to the square of the flow rate.\n\r\n The difference is in geometry. That geometry determines pressure loss, accuracy, cost, installation length, and suitability for dirty or high-velocity fluids.\n\r\n \r\n Cd 0.6 to 0.995 \r\n Permanent Pressure Loss \r\n ISO 5167 Standard \r\n Beta Ratio 0.2 to 0.75 \r\n \n\r\n\n\r\n\r\n The flow nozzle sits between the orifice plate and the Venturi in every performance category.\n\r\n Better accuracy than an orifice plate, lower cost than a Venturi, moderate pressure loss, and compact installation. Standard choice for high-velocity steam and hot fluid measurement.\n\r\n \r\n \r\n \r\n Quick Answer\n Flow Nozzle vs Orifice Plate vs Venturi: Which Is Better?\n Flow nozzle vs orifice plate vs Venturi: all three are ISO 5167 differential pressure flow meters based on Bernoulli, and they differ mainly in geometry, discharge coefficient and permanent pressure loss.\n Element Cd Permanent loss \n Orifice plate 0.595 to 0.644 40 to 90% of DP, highest \n Flow nozzle 0.96 to 0.995 30 to 80% of DP \n Venturi tube 0.984 to 0.995 Lowest \n The orifice plate is cheapest, the Venturi saves most energy, and the nozzle suits high velocity steam.\n\n How All Three DP Flow Meters Work\n\r\n\r\n \r\n Hello! Today we are comparing three differential pressure flow meters: the flow nozzle, the orifice plate, and the Venturi tube. These are the three primary elements covered by ISO 5167. Engineers choose between them based on pressure loss, accuracy, installation space, and fluid type. Let us go through each one and then compare them directly.\r\n\n\r\n\r\n All three elements use the Bernoulli equation to infer flow rate from a measured pressure difference.\n\r\n\r\n As flow passes through a constriction, velocity increases and static pressure drops.\n\r\n The DP transmitter measures this pressure difference. The flow computer converts it to a flow rate using the ISO 5167 formula.\n\r\n\r\n \r\n ISO 5167 Flow Equation (all three element types)\n\r\n Q = Cd \u00d7 (\u03c0/4) \u00d7 d\u00b2 \u00d7 \u221a(2\u0394P / \u03c1) / \u221a(1 \u2212 \u03b2\u2074)\n\r\n \r\n Q : volumetric flow rate (m\u00b3/s)\n\r\n Cd : discharge coefficient (dimensionless) \u2014 this is where the three types differ\n\r\n d : throat diameter (m)\n\r\n \u0394P : differential pressure across the element (Pa)\n\r\n \u03c1 : fluid density (kg/m\u00b3)\n\r\n \u03b2 : beta ratio = d/D (throat diameter / pipe diameter)\n\n\r\n Orifice plate Cd: 0.595 to 0.644\n\r\n Flow nozzle Cd: 0.96 to 0.995\n\r\n Venturi tube Cd: 0.984 to 0.995\r\n \n\r\n\n\r\n\r\n Did You Know? The discharge coefficient Cd exists because real flow is not perfectly ideal.\n\nIn an ideal (inviscid, lossless) fluid, Cd = 1.0 exactly. In reality, boundary layer effects, flow separation, and viscous losses reduce the effective flow area.\n\nThe orifice plate has the lowest Cd because its sharp edge causes an immediate flow separati"
+}

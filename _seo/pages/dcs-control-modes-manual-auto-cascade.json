@@ -1,0 +1,29 @@
+{
+ "id": 18253,
+ "slug": "dcs-control-modes-manual-auto-cascade",
+ "impr": 312,
+ "ctr": 1.0,
+ "pos": 4.8,
+ "queries": [],
+ "title": "DCS Control Modes: 6 Types With Surprising Transfer Rules",
+ "rank_math_title": "",
+ "rank_math_description": "Learn DCS control modes including manual, auto, cascade, remote cascade, remote output and out of service, with bumpless transfer, formula and a calculator.",
+ "focus_keyword": "DCS control modes",
+ "headings": [
+  "What Are DCS Control Modes?",
+  "6 Main DCS Control Modes",
+  "Who Owns the Setpoint and Output",
+  "Bumpless Transfer and Setpoint Tracking",
+  "Mode Change Bump Formula",
+  "5 Steps to Close a Cascade Safely",
+  "Where DCS Control Modes Are Used",
+  "Mode Change Bump Calculator",
+  "FOUNDATION Fieldbus Tutorial PDF",
+  "Cascade Mode Transfer Video",
+  "DCS Control Modes FAQ",
+  "Related Articles",
+  "External References",
+  "What We Learn Today"
+ ],
+ "text": "DCS\n\r\n DCS Control Modes: 6 Types With Surprising Transfer Rules\n\r\n The mode of a control block decides who owns the setpoint and the output, the operator, the algorithm or another block.\n\r\n \r\n Manual and Auto \r\n Cascade \r\n Bumpless Transfer \r\n Function Blocks \r\n \n\r\n\n\r\n\r\n DCS control modes decide who writes the setpoint and who writes the output of a control loop. Knowing them well prevents process bumps, broken cascades and confused operators.\n\r\n\r\n \r\n Hello everyone, today we are going to understand DCS control modes, how manual, auto and cascade differ, and how bumpless transfer keeps the process steady when modes change.\r\n\n\r\n \r\n \r\n \r\n\r\n Quick Answer\n What Are the Control Modes in a DCS?\n DCS control modes are the operating states of a PID block that decide who writes its setpoint and who writes its output:\n Mode Setpoint From Output From \n MAN Operator, often tracking PV Operator \n AUTO Operator PID algorithm \n CAS Upstream block PID algorithm \n RCAS External host PID algorithm \n ROUT Not used External program \n OOS Not used Holds last value \n Bumpless transfer and PV tracking stop the output jumping when modes change.\n\n What Are DCS Control Modes?\n\r\n\r\n DCS control modes are the operating states of a control function block, usually a PID block, that define where its setpoint and output come from. They are part of every distributed control system and every FOUNDATION fieldbus device.\n\r\n\r\n An operator changes modes from the faceplate, while the block reports its actual mode back. The difference between the requested and actual mode tells you when something below is not ready.\n\r\n\r\n \r\n \r\n Image credit: Casual Process Engineer \r\n \r\n\r\n FOUNDATION fieldbus defines a mode parameter with four parts, target, actual, permitted and normal. Most DCS vendors follow the same model even for their own blocks.\n\r\n\r\n Modes connect closely to DCS function block programming , because blocks pass status and back calculation values to each other to manage mode changes.\n\r\n\r\n Advertisement\n \n\n 6 Main DCS Control Modes\n\r\n\r\n \r\n MAN, Manual\n Operator writes the output directly and the PID algorithm does not move it.\n Best for: startup and troubleshooting\n Operator Output \n\r\n AUTO, Automatic\n Operator writes the setpoint and PID calculates the output.\n Best for: normal single loop control\n Operator Setpoint \n\r\n CAS, Cascade\n Setpoint comes from an upstream block such as a primary controller.\n Best for: cascade and ratio schemes\n Block Setpoint \n\r\n RCAS, Remote Cascade\n Setpoint is written by an external host or supervisory program.\n Best for: advanced process control\n Remote Setpoint \n\r\n ROUT, Remote Output\n Output is written directly by an external program.\n Best for: optimizers and sequences\n Remote Output \n\r\n OOS, Out of Service\n Block is not executing and its output holds or goes to a safe value.\n Best for: maintenance and configuration\n Inactive \n\r\n\n\r\n\r\n Two more states appear as actual modes only. IMAN, or initialization manual, shows the downstream path is not ready"
+}
