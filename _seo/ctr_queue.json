@@ -1644,5 +1644,635 @@
 "pos": 7.2,
 "queries": [],
 "status": "done"
+},
+{
+"slug": "plc-block-diagram",
+"impr": 8134,
+"clicks": 0,
+"ctr": 0.9,
+"pos": 2.0,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "basic-parts-of-a-control-valve",
+"impr": 6523,
+"clicks": 0,
+"ctr": 0.6,
+"pos": 5.6,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "orifice-plate-sizing-guide",
+"impr": 2501,
+"clicks": 0,
+"ctr": 0.9,
+"pos": 4.2,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "100-essential-engineering-formulas",
+"impr": 1744,
+"clicks": 0,
+"ctr": 1.0,
+"pos": 7.1,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "hazardous-area-classification-zone",
+"impr": 1697,
+"clicks": 0,
+"ctr": 0.6,
+"pos": 9.2,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "instrument-hook-up-drawing-guide",
+"impr": 1292,
+"clicks": 0,
+"ctr": 0.9,
+"pos": 4.0,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "free-plc-programming-software",
+"impr": 1152,
+"clicks": 0,
+"ctr": 1.0,
+"pos": 9.0,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "top-50-pid-controller-mcqs-2026",
+"impr": 1113,
+"clicks": 0,
+"ctr": 0.9,
+"pos": 5.7,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "condensate-pot-in-steam-applications",
+"impr": 1039,
+"clicks": 0,
+"ctr": 1.1,
+"pos": 6.7,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "bimetallic-thermometer-working-principle",
+"impr": 1007,
+"clicks": 0,
+"ctr": 0.7,
+"pos": 9.0,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "gas-groups-iia-iib-iic-what-is-the-difference",
+"impr": 982,
+"clicks": 0,
+"ctr": 0.2,
+"pos": 9.3,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "types-of-level-transmitters",
+"impr": 976,
+"clicks": 0,
+"ctr": 0.5,
+"pos": 7.5,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "unit-converters",
+"impr": 904,
+"clicks": 0,
+"ctr": 0.1,
+"pos": 7.5,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "list-of-free-scada-software",
+"impr": 902,
+"clicks": 0,
+"ctr": 1.1,
+"pos": 9.2,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "thermocouple-types-comparision",
+"impr": 858,
+"clicks": 0,
+"ctr": 0.5,
+"pos": 8.5,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "karnaugh-map-explained",
+"impr": 847,
+"clicks": 0,
+"ctr": 0.6,
+"pos": 6.9,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "plc-compare-instructions",
+"impr": 826,
+"clicks": 0,
+"ctr": 1.0,
+"pos": 5.1,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "split-range-control-working-principle",
+"impr": 814,
+"clicks": 0,
+"ctr": 1.2,
+"pos": 6.2,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "pid-controller-types-explained",
+"impr": 797,
+"clicks": 0,
+"ctr": 1.1,
+"pos": 7.5,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "dp-flow-transmitter-calibration-5-point",
+"impr": 771,
+"clicks": 0,
+"ctr": 0.6,
+"pos": 4.3,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "current-mirror-bjt-mosfet-circuit",
+"impr": 767,
+"clicks": 0,
+"ctr": 0.7,
+"pos": 9.6,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "rtd-resistance-to-temperature-calculator",
+"impr": 718,
+"clicks": 0,
+"ctr": 0.8,
+"pos": 7.8,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "7-types-of-pressure-relief-valves",
+"impr": 717,
+"clicks": 0,
+"ctr": 0.4,
+"pos": 9.8,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "transistor-common-emitter-amplifier",
+"impr": 686,
+"clicks": 0,
+"ctr": 0.1,
+"pos": 8.2,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "how-to-calculate-vacuum-pressure",
+"impr": 684,
+"clicks": 0,
+"ctr": 0.9,
+"pos": 9.5,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "instrument-junction-box-design",
+"impr": 625,
+"clicks": 0,
+"ctr": 0.6,
+"pos": 5.3,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "motor-efficiency-classes-iec-60034",
+"impr": 616,
+"clicks": 0,
+"ctr": 1.0,
+"pos": 5.7,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "led-resistor-calculation",
+"impr": 614,
+"clicks": 0,
+"ctr": 0.8,
+"pos": 4.5,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "zero-and-span-adjustments",
+"impr": 614,
+"clicks": 0,
+"ctr": 0.5,
+"pos": 8.3,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "ct-burden-calculation-va",
+"impr": 607,
+"clicks": 0,
+"ctr": 0.5,
+"pos": 7.5,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "electrical-isolation-permit-to-work",
+"impr": 593,
+"clicks": 0,
+"ctr": 1.3,
+"pos": 9.7,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "short-circuit-current-calculation",
+"impr": 574,
+"clicks": 0,
+"ctr": 1.2,
+"pos": 8.9,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "floating-vs-grounded-voltage",
+"impr": 569,
+"clicks": 0,
+"ctr": 0.4,
+"pos": 8.9,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "phase-angle-in-ac-circuits",
+"impr": 566,
+"clicks": 0,
+"ctr": 0.7,
+"pos": 6.3,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "zero-elevation-and-zero-suppression",
+"impr": 553,
+"clicks": 0,
+"ctr": 1.3,
+"pos": 6.9,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "synchronous-motor-working-principle",
+"impr": 550,
+"clicks": 0,
+"ctr": 0.2,
+"pos": 9.6,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "smd-resistor-code",
+"impr": 542,
+"clicks": 0,
+"ctr": 0.2,
+"pos": 9.6,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "boiler-drum-level-control",
+"impr": 540,
+"clicks": 0,
+"ctr": 1.1,
+"pos": 6.7,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "hydrostatic-pressure-formula",
+"impr": 540,
+"clicks": 0,
+"ctr": 0.2,
+"pos": 6.7,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "types-of-thermowells",
+"impr": 525,
+"clicks": 0,
+"ctr": 0.6,
+"pos": 8.5,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "signal-to-noise-ratio-snr-calculator",
+"impr": 516,
+"clicks": 0,
+"ctr": 0.8,
+"pos": 5.9,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "static-pressure-vs-differential-pressure",
+"impr": 484,
+"clicks": 0,
+"ctr": 1.4,
+"pos": 4.1,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "spring-loaded-rtd-thermowell",
+"impr": 476,
+"clicks": 0,
+"ctr": 0.6,
+"pos": 7.7,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "ph-meter-calibration-buffers",
+"impr": 474,
+"clicks": 0,
+"ctr": 0.4,
+"pos": 8.9,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "74hc595-shift-register",
+"impr": 472,
+"clicks": 0,
+"ctr": 0.4,
+"pos": 7.3,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "magnetic-flow-meter-troubleshooting",
+"impr": 471,
+"clicks": 0,
+"ctr": 0.4,
+"pos": 5.3,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "dcs-function-block-programming-explained",
+"impr": 461,
+"clicks": 0,
+"ctr": 1.1,
+"pos": 5.7,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "flow-nozzle-vs-orifice-plate-vs-venturi",
+"impr": 453,
+"clicks": 0,
+"ctr": 1.1,
+"pos": 4.8,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "fuse-selection-guide",
+"impr": 441,
+"clicks": 0,
+"ctr": 0.5,
+"pos": 8.0,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "flow-nozzle-working-principle",
+"impr": 439,
+"clicks": 0,
+"ctr": 0.5,
+"pos": 5.3,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "rc-and-rl-time-constant-explained",
+"impr": 434,
+"clicks": 0,
+"ctr": 0.5,
+"pos": 6.7,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "ultrasonic-flow-meter-troubleshooting",
+"impr": 418,
+"clicks": 0,
+"ctr": 1.4,
+"pos": 6.0,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "servo-level-gauge-working-principle",
+"impr": 397,
+"clicks": 0,
+"ctr": 0.8,
+"pos": 5.2,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "communication-protocols-in-dcs-systems",
+"impr": 395,
+"clicks": 0,
+"ctr": 1.3,
+"pos": 4.9,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "plc-math-instructions",
+"impr": 373,
+"clicks": 0,
+"ctr": 1.1,
+"pos": 5.3,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "directional-overcurrent-relay-67",
+"impr": 372,
+"clicks": 0,
+"ctr": 1.3,
+"pos": 9.6,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "under-frequency-load-shedding-ufls",
+"impr": 369,
+"clicks": 0,
+"ctr": 1.4,
+"pos": 5.1,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "types-of-integrated-circuits-explained",
+"impr": 359,
+"clicks": 0,
+"ctr": 0.6,
+"pos": 8.4,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "magmeter-empty-pipe-detection",
+"impr": 347,
+"clicks": 0,
+"ctr": 0.6,
+"pos": 4.9,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "npsh-and-cavitation-explained",
+"impr": 335,
+"clicks": 0,
+"ctr": 0.9,
+"pos": 4.2,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "float-level-switch-working-principle-and-applications",
+"impr": 330,
+"clicks": 0,
+"ctr": 0.3,
+"pos": 9.5,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "schottky-diode-advantages-limitations",
+"impr": 324,
+"clicks": 0,
+"ctr": 0.3,
+"pos": 7.6,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "actual-flow-standard-flow-normal-flow",
+"impr": 320,
+"clicks": 0,
+"ctr": 0.6,
+"pos": 6.0,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "lenzs-law-electromagnetic-induction",
+"impr": 313,
+"clicks": 0,
+"ctr": 0.6,
+"pos": 6.9,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "dcs-control-modes-manual-auto-cascade",
+"impr": 312,
+"clicks": 0,
+"ctr": 1.0,
+"pos": 4.8,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "scada-reporting-historian-reports",
+"impr": 312,
+"clicks": 0,
+"ctr": 1.0,
+"pos": 9.0,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "restricted-earth-fault-protection-ref",
+"impr": 312,
+"clicks": 0,
+"ctr": 0.6,
+"pos": 6.4,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "emergency-stop-push-buttons",
+"impr": 311,
+"clicks": 0,
+"ctr": 1.0,
+"pos": 8.9,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "flow-meter-k-factor-calculations",
+"impr": 310,
+"clicks": 0,
+"ctr": 0.6,
+"pos": 6.1,
+"queries": [],
+"status": "todo"
+},
+{
+"slug": "ferrite-bead-vs-common-mode-choke-when-to-use-which",
+"impr": 302,
+"clicks": 0,
+"ctr": 1.3,
+"pos": 7.3,
+"queries": [],
+"status": "todo"
 }
 ]
