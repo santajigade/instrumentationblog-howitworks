@@ -10,7 +10,7 @@ jobs:
     steps:
       - run: |
           curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/130 Safari/537.36" "${{ inputs.url }}?nc=$RANDOM" -o p.html; wc -c p.html
-          echo "--- domains in ads.txt"; cut -d, -f1 p.html | tr A-Z a-z | sort | uniq -c | sort -rn | head -40; echo "--- scripts"; grep -o 'src="[^"]*"' p.html | grep -iv "wp-content\|wp-includes\|\.jpg\|\.png\|\.webp" | sort -u | head -40; echo "--- ins tags"; grep -o '<ins class="adsbygoogle"[^>]*>' p.html | grep -o 'data-ad-slot="[0-9]*"\|autorelaxed' | uniq -c
+          echo "--- snip"; python3 -c "import re;s=open('p.html').read();i=s.find('<article');print(s[i-1500:i+2500]);print('ARTICLES',s.count('<article'));j=s.rfind('</article>');print(s[j:j+1200])" || true; echo "--- domains in ads.txt"; cut -d, -f1 p.html | tr A-Z a-z | sort | uniq -c | sort -rn | head -40; echo "--- scripts"; grep -o 'src="[^"]*"' p.html | grep -iv "wp-content\|wp-includes\|\.jpg\|\.png\|\.webp" | sort -u | head -40; echo "--- ins tags"; grep -o '<ins class="adsbygoogle"[^>]*>' p.html | grep -o 'data-ad-slot="[0-9]*"\|autorelaxed' | uniq -c
           echo "--- sidebar"; grep -o 'ibsb[a-z-]*' p.html | sort | uniq -c
           echo "--- house/unfilled"; grep -o 'ib-house[^"]*\|ibh-js\|unfilled[^}]*}' p.html | head
           echo "--- widgets"; grep -o 'id="custom_html-[0-9]*"' p.html
