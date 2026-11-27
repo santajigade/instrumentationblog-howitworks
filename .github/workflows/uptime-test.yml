@@ -1,0 +1,16 @@
+name: Uptime test
+on: workflow_dispatch
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          B=https://www.instrumentationblog.in
+          P="/ /types-of-flow-meters/ /4-to-20-ma-current-loop-explained/ /calculators/ /glossary/ /how-it-works/ /category/process-instrumentation/flow-measurement/ /what-is-a-plc/ /instrumentation-ebooks/ /tools/"
+          for r in 1 2 3 4 5 6; do for p in $P; do
+            curl -s -o /dev/null -w "%{http_code} %{time_total}\n" -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130 Safari/537.36" "$B$p?t=$RANDOM" >> r.txt
+          done; sleep 20; done
+          echo "== status counts"; cut -d' ' -f1 r.txt | sort | uniq -c
+          echo "== slow (>5s)"; awk '$2>5' r.txt | wc -l
+          echo "== avg time"; awk '{s+=$2} END {print s/NR}' r.txt
+          echo "== cached (no query) x10 home"; for i in $(seq 10); do curl -s -o /dev/null -w "%{http_code} %{time_total}\n" -A "Mozilla/5.0 Chrome/130" $B/; done
