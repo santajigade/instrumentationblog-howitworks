@@ -1652,7 +1652,7 @@
 "ctr": 0.9,
 "pos": 2.0,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "basic-parts-of-a-control-valve",
@@ -1661,7 +1661,7 @@
 "ctr": 0.6,
 "pos": 5.6,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "orifice-plate-sizing-guide",
@@ -1670,7 +1670,7 @@
 "ctr": 0.9,
 "pos": 4.2,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "100-essential-engineering-formulas",
@@ -1679,7 +1679,7 @@
 "ctr": 1.0,
 "pos": 7.1,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "hazardous-area-classification-zone",
@@ -1688,7 +1688,7 @@
 "ctr": 0.6,
 "pos": 9.2,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "instrument-hook-up-drawing-guide",
@@ -1697,7 +1697,7 @@
 "ctr": 0.9,
 "pos": 4.0,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "free-plc-programming-software",
@@ -1706,7 +1706,7 @@
 "ctr": 1.0,
 "pos": 9.0,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "top-50-pid-controller-mcqs-2026",
@@ -1715,7 +1715,7 @@
 "ctr": 0.9,
 "pos": 5.7,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "condensate-pot-in-steam-applications",
@@ -1724,7 +1724,7 @@
 "ctr": 1.1,
 "pos": 6.7,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "bimetallic-thermometer-working-principle",
@@ -1733,7 +1733,7 @@
 "ctr": 0.7,
 "pos": 9.0,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "gas-groups-iia-iib-iic-what-is-the-difference",
@@ -1742,7 +1742,7 @@
 "ctr": 0.2,
 "pos": 9.3,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "types-of-level-transmitters",
@@ -1751,7 +1751,7 @@
 "ctr": 0.5,
 "pos": 7.5,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "unit-converters",
@@ -1769,7 +1769,7 @@
 "ctr": 1.1,
 "pos": 9.2,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "thermocouple-types-comparision",
@@ -1778,7 +1778,7 @@
 "ctr": 0.5,
 "pos": 8.5,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "karnaugh-map-explained",
@@ -1787,7 +1787,7 @@
 "ctr": 0.6,
 "pos": 6.9,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "plc-compare-instructions",
@@ -1796,7 +1796,7 @@
 "ctr": 1.0,
 "pos": 5.1,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "split-range-control-working-principle",
@@ -1805,7 +1805,7 @@
 "ctr": 1.2,
 "pos": 6.2,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "pid-controller-types-explained",
@@ -1814,7 +1814,7 @@
 "ctr": 1.1,
 "pos": 7.5,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "dp-flow-transmitter-calibration-5-point",
@@ -1823,7 +1823,7 @@
 "ctr": 0.6,
 "pos": 4.3,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "current-mirror-bjt-mosfet-circuit",
@@ -1832,7 +1832,7 @@
 "ctr": 0.7,
 "pos": 9.6,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "rtd-resistance-to-temperature-calculator",
@@ -1841,7 +1841,7 @@
 "ctr": 0.8,
 "pos": 7.8,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "7-types-of-pressure-relief-valves",
@@ -1850,7 +1850,7 @@
 "ctr": 0.4,
 "pos": 9.8,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "transistor-common-emitter-amplifier",
@@ -1859,7 +1859,7 @@
 "ctr": 0.1,
 "pos": 8.2,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "how-to-calculate-vacuum-pressure",
@@ -1868,7 +1868,7 @@
 "ctr": 0.9,
 "pos": 9.5,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "instrument-junction-box-design",
@@ -1877,7 +1877,7 @@
 "ctr": 0.6,
 "pos": 5.3,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "motor-efficiency-classes-iec-60034",
@@ -1886,7 +1886,7 @@
 "ctr": 1.0,
 "pos": 5.7,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "led-resistor-calculation",
@@ -1895,7 +1895,7 @@
 "ctr": 0.8,
 "pos": 4.5,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "zero-and-span-adjustments",
@@ -1904,7 +1904,7 @@
 "ctr": 0.5,
 "pos": 8.3,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "ct-burden-calculation-va",
@@ -1913,7 +1913,7 @@
 "ctr": 0.5,
 "pos": 7.5,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "electrical-isolation-permit-to-work",
@@ -1922,7 +1922,7 @@
 "ctr": 1.3,
 "pos": 9.7,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "short-circuit-current-calculation",
@@ -1931,7 +1931,7 @@
 "ctr": 1.2,
 "pos": 8.9,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "floating-vs-grounded-voltage",
@@ -1940,7 +1940,7 @@
 "ctr": 0.4,
 "pos": 8.9,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "phase-angle-in-ac-circuits",
@@ -1949,7 +1949,7 @@
 "ctr": 0.7,
 "pos": 6.3,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "zero-elevation-and-zero-suppression",
@@ -1958,7 +1958,7 @@
 "ctr": 1.3,
 "pos": 6.9,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "synchronous-motor-working-principle",
@@ -1967,7 +1967,7 @@
 "ctr": 0.2,
 "pos": 9.6,
 "queries": [],
-"status": "todo"
+"status": "done"
 },
 {
 "slug": "smd-resistor-code",
