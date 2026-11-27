@@ -13,7 +13,7 @@ jobs:
           echo "--- snip"; python3 -c "
           import re,collections;s=open('p.html').read();c=collections.Counter(re.findall(r'class=.([^\x22\x27]+)',s))
           [print(n,k) for k,n in c.most_common(45) if 6<=n<=40]
-          i=s.find('post-has-image');i=i if i>0 else s.find('rt-post');print(s[i-1200:i+1800])
+          i=s.find('blog-box show-image');print(s[i-1500:i+300]);j=s.rfind('blog-box show-image');print('=====');print(s[j-700:j+100])
           " || true; echo "--- domains in ads.txt"; cut -d, -f1 p.html | tr A-Z a-z | sort | uniq -c | sort -rn | head -40; echo "--- scripts"; grep -o 'src="[^"]*"' p.html | grep -iv "wp-content\|wp-includes\|\.jpg\|\.png\|\.webp" | sort -u | head -40; echo "--- ins tags"; grep -o '<ins class="adsbygoogle"[^>]*>' p.html | grep -o 'data-ad-slot="[0-9]*"\|autorelaxed' | uniq -c
           echo "--- sidebar"; grep -o 'ibsb[a-z-]*' p.html | sort | uniq -c
           echo "--- house/unfilled"; grep -o 'ib-house[^"]*\|ibh-js\|unfilled[^}]*}' p.html | head
